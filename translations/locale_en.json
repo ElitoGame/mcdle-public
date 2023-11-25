@@ -1,0 +1,516 @@
+{
+	"footer": {
+		"links": {
+			"cookie": {
+				"title": "Cookie Policy"
+			}
+		},
+		"about": {
+			"title": "About",
+			"button_title": "About",
+			"intro": "Mcdle is a Wordle-like puzzle game for Minecraft related content. Every day, a new Minecraft block, item and mob is chosen and you have to guess it. Come back daily to build up a win-streak! There are social sharing features, so you can share your wins & win-streaks with your friends!",
+			"help_pointer": "Not sure how to play the game? Every game page has a ? icon below the title, which will open a help menu with examples and detailed descriptions of the current gamemode.",
+			"suggestions": {
+				"title": "Suggestions",
+				"description": {
+					"pre_link": "I handle most of the suggestions and bug/issue support on ",
+					"link": "Discord",
+					"post_link": ", feel free to join and hang out, we got melons! We've also got channels to discuss today's quizzes and to share your win-streaks!"
+				}
+			},
+			"support": {
+				"title": "Support",
+				"description": {
+					"pre_link": "If you want to support the project (e.g. pay for the url, support new features, etc), check out my ",
+					"link": "Ko-fi",
+					"post_link": "!"
+				}
+			},
+			"credits": {
+				"title": "Credits",
+				"description": {
+					"pre_link": "The data for this is game is acquired from the ",
+					"link": "Minecraft Wiki",
+					"post_link": ". Many of the images are also hosted on there, so a big thanks to them for their hard work keeping the wiki up to date! MCdle is not affiliated with or endorsed by or sponsored by Mojang Studios. But it is obviously based off of Minecraft and inspired by Wordle and LoLdle."
+				},
+				"credit_list": {
+					"kineticraft": {
+						"pre_link": "Thanks to the server ",
+						"link": "kineticraftreborn.net",
+						"post_link": " for the background image!"
+					},
+					"vanilla_tweaks": {
+						"pre_link": "Thanks to ",
+						"link": "Vanilla Tweaks",
+						"post_link": " for their melon & pumpkin stem textures!"
+					}
+				}
+			},
+			"version": {
+				"title": "Version",
+				"description": "Today's game is riddle #{{version}}! The game will choose a new block, item and mob every day at midnight UTC."
+			}
+		}
+	},
+	"header": {
+		"settings": {
+			"colorblind": {
+				"input_name": "Colorblind mode",
+				"label": "Colorblind mode"
+			},
+			"difficulty": {
+				"limit_guesses_6": {
+					"input_name": "Limited attempts",
+					"label": "Limit amount of guesses to 6 attempts"
+				},
+				"search": {
+					"game_knowledge": {
+						"input_name": "Game knowledge",
+						"label": "Game knowledge"
+					},
+					"logical": {
+						"input_name": "Logical",
+						"label": "Logical"
+					},
+					"showcase": {
+						"fallback": "Choose a difficulty for your search!",
+						"game_knowledge": {
+							"description": "No search hints, you are on your own with your game knowledge!",
+							"image_alt": "Game knowledge difficulty search"
+						},
+						"logical": {
+							"description": "Search will show you all available stats, making MCdle a logic game!",
+							"image_alt": "Logical difficulty search"
+						}
+					},
+					"title": "Search:"
+				},
+				"title": "Difficulty"
+			},
+			"settings_button": {
+				"image_alt": "Settings button",
+				"tooltip": "Settings"
+			},
+			"title": "Settings"
+		},
+		"language": {
+			"title": "Language",
+			"tooltip": "Language",
+			"dropdown": {
+				"english": "English",
+				"german": "Deutsch"
+			},
+			"description": {
+				"pre_link": "Officially this website supports English & German, but through the community, other languages have been made available via ",
+				"link": "Github",
+				"post_link": ". There is no guarantee that the unofficial translations are up to date or correct, so if you find any mistakes, feel free to open a pull request!"
+			}
+		}
+	},
+	"pages": {
+		"404": {
+			"compass_alt": "Compass gif",
+			"message": "You've encountered a 404 end in this cave...",
+			"return_message": "Have a compass to return home!"
+		},
+		"index": {
+			"header": "Choose a gamemode",
+			"links": {
+				"blocks": {
+					"image_alt": "Blocks icon",
+					"subtitle": "Guess today's minecraft block",
+					"title": "Blocks"
+				},
+				"items": {
+					"image_alt": "Items icon",
+					"subtitle": "Guess the minecraft item of today",
+					"title": "Items"
+				},
+				"mobs": {
+					"image_alt": "Mobs icon",
+					"subtitle": "Discover today's minecraft mob",
+					"title": "Mobs"
+				},
+				"goal": {
+					"title": "MCdle Bestiary",
+					"image_alt": "Goal icon"
+				}
+			}
+		},
+		"block": {
+			"title": "GameMode: Guess today's Block!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Stats",
+					"tooltip": "Stats"
+				},
+				"streak": {
+					"title": "Transfer progress",
+					"tooltip": "Win Streak"
+				},
+				"help": {
+					"tooltip": "How to play"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Block",
+					"release": "Release",
+					"stack_size": "Stack size",
+					"tools": "Tool(s)",
+					"blast_resistance": "Blast resis-tance",
+					"hardness": "Hardness",
+					"flammable": "Flamm-able",
+					"transparent": "Trans-parent"
+				}
+			},
+			"loose": {
+				"title": "You've failed to discover today's block",
+				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+			},
+			"win": {
+				"title": "Block discovered!",
+				"subtitle": "Today's block was {{name}}!"
+			},
+			"intro": {
+				"description": "Guess today's Minecraft block!",
+				"start_help": "Type below to start!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} guesses remaining!",
+					"one": "{{remaining}} guess remaining!",
+					"many": "{{remaining}} guesses remaining!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Search for a block",
+					"new_tomorrow": "New block tomorrow!",
+					"no_more_guesses": "Run out of guesses!"
+				},
+				"submit": {
+					"aria_label": "Try this block"
+				},
+				"ambiguous_result": {
+					"description": "Ambiguous block discovered! Further incorrect ambiguous blocks will be struck out in red.",
+					"image_alt": "Treasure hunter - close call"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Reload the page to get the next one!",
+				"next_in": "Next block in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Yesterday's block was {{name}}!"
+			},
+			"next_game": {
+				"name": "Blocks",
+				"description": "Up for guessing today's block?"
+			},
+			"quick_help": {
+				"look_for": "Are you still looking for a better explanation? Look for the",
+				"tooltip": "How to play",
+				"click_here": "icon below the game title or click here!"
+			},
+			"help": {
+				"title": "How to play",
+				"intro": {
+					"goal": "The goal of this game is to guess a Minecraft block. Every day a new block is chosen, and by continuing to guess the block of the day, you can build up a win-streak!",
+					"enter_guesses": "Begin by typing the name of any block in the search field. Based on your search, up to 10 results will pop up. Click on any of these blocks, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+					"field_explanation": "The properties of your chosen block will be compared to today's block and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+				},
+				"example": {
+					"title": "Example",
+					"intro": "Let's look at an example game. First we'll try an arbitrary block.",
+					"table_interpretation_1": "We've learned that the block, like most others, is stackable until 64, and it is not flammable. It's not a pre-alpha block and can't be mined with a Pickaxe. So let's try a different, newer, block.",
+					"table_interpretation_2": "We've discovered the block's version! Time to look for a Beta 1.8 block. Additionally, we got a partial match on the tool, so it can be broken by an Axe and some other tool. Also, the block is neither transparent (\"Yes\") nor no transparent (\"No\"), so it must be partially transparent. Let's look for a block that matches all of these properties.",
+					"table_interpretation_3": "There we go! We've discovered that the block was a block of melon, what a delight!"
+				},
+				"partial_matches": {
+					"title": "Partial Match explanation",
+					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Tools). If you guessed a block that can be broken with at least one tool that matches the actual block, you will get a partial match. Here's an example for leaves:"
+				},
+				"tips": {
+					"title": "Tips",
+					"not_all_blocks": "MCdle does not contain every type of block. All the coloured variants of concrete, terracotta, wool, etc. are merged into one representative block like \"Concrete\" or \"Wool\". This also applies to the different wood types, walls, stairs, etc.",
+					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the block, you can use the wiki to find the blocks that were added in that version, which will help you narrow down your search drastically."
+				}
+			}
+		},
+		"item": {
+			"title": "GameMode: Guess today's Item!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Stats",
+					"tooltip": "Stats"
+				},
+				"streak": {
+					"title": "Transfer progress",
+					"tooltip": "Win Streak"
+				},
+				"help": {
+					"tooltip": "How to play"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Item",
+					"release": "Release",
+					"stack_size": "Stack size",
+					"rarity": "Rarity",
+					"action": "Action",
+					"renewable": "Renewable",
+					"usage": "Usage count",
+					"source": "Source count"
+				}
+			},
+			"loose": {
+				"title": "You've failed to discover today's item",
+				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+			},
+			"win": {
+				"title": "Item discovered!",
+				"subtitle": "Today's item was {{name}}!"
+			},
+			"intro": {
+				"description": "Guess today's Minecraft item!",
+				"start_help": "Type below to start!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} guesses remaining!",
+					"one": "{{remaining}} guess remaining!",
+					"many": "{{remaining}} guesses remaining!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Search for an item",
+					"new_tomorrow": "New item tomorrow!",
+					"no_more_guesses": "Run out of guesses!"
+				},
+				"submit": {
+					"aria_label": "Try this item"
+				},
+				"ambiguous_result": {
+					"description": "Ambiguous item discovered! Further incorrect ambiguous items will be struck out in red.",
+					"image_alt": "Treasure hunter - close call"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Reload the page to get the next one!",
+				"next_in": "Next item in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Yesterday's item was {{name}}!"
+			},
+			"next_game": {
+				"name": "Items",
+				"description": "Ready to guess today's item too?"
+			},
+			"quick_help": {
+				"look_for": "Are you still looking for a better explanation? Look for the",
+				"tooltip": "How to play",
+				"click_here": "icon below the game title or click here!"
+			},
+			"help": {
+				"title": "How to play",
+				"intro": {
+					"goal": "The goal of this game is to guess a Minecraft item. Every day a new item is chosen, and by continuing to guess the item of the day, you can build up a win-streak.",
+					"enter_guesses": "Begin by typing the name of any item in the search field. Based on your search, up to 10 results will pop up. Click on any of these items, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+					"field_explanation": "The properties of your chosen item will be compared to today's item and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+				},
+				"example": {
+					"title": "Example",
+					"intro": "Let's look at an example game. First we'll try an arbitrary item.",
+					"table_interpretation_1": "We've learned that the item, like most others is stackable till 64. It's newer than Beta 1.2, has Common rarity, is renewable and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's action tells us, that it's either used in the world or used for crafted. Let's try a different item.",
+					"table_interpretation_2": "We've discovered the items version! Time to look for a Beta 1.8 item that's in the \"use\" category according to the Minecraft wiki. We now need to look for an item with matching use cases and ways how to obtain it.",
+					"table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
+				},
+				"partial_matches": {
+					"title": "Partial Match explanation",
+					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Action). If you guessed a item that has at least one action that matches the actual item, you will get a partial match. Here's an example for lapis:"
+				},
+				"tips": {
+					"title": "Tips",
+					"not_all_items": "MCdle does not contain every type of item. The list is taken from the Minecraft wiki and as such does not contain the item forms of various blocks or too similar items, like all the armor/tool variants.",
+					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the item, you can use the wiki to find the items that were added in that version, which will help you narrow down your search drastically.",
+					"usage_and_source_explanation": "If you are curious how the Usage count/Source count is calculated, check the item's wiki page and scroll to \"Obtaining\" and \"Usage\". The headers of these sections have been used to count their different usecases. If they were missing, I, the developer, have added them manually."
+				}
+			}
+		},
+		"mob": {
+			"title": "GameMode: Guess today's Mob!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Stats",
+					"tooltip": "Stats"
+				},
+				"streak": {
+					"title": "Transfer progress",
+					"tooltip": "Win Streak"
+				},
+				"help": {
+					"tooltip": "How to play"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Mob",
+					"release": "Release",
+					"health": "Health",
+					"height": "Height",
+					"behavior": "Behavior",
+					"spawn": "Spawn",
+					"classification": "Class- ification"
+				}
+			},
+			"loose": {
+				"title": "You've failed to discover today's mob",
+				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+			},
+			"win": {
+				"title": "Mob discovered!",
+				"subtitle": "Today's mob was {{name}}!"
+			},
+			"intro": {
+				"description": "Guess today's Minecraft mob!",
+				"start_help": "Type below to start!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} guesses remaining!",
+					"one": "{{remaining}} guess remaining!",
+					"many": "{{remaining}} guesses remaining!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Search for a mob",
+					"new_tomorrow": "New mob tomorrow!",
+					"no_more_guesses": "Run out of guesses!"
+				},
+				"submit": {
+					"aria_label": "Try this mob"
+				},
+				"ambiguous_result": {
+					"description": "Ambiguous mob discovered! Further incorrect ambiguous mobs will be struck out in red.",
+					"image_alt": "Treasure hunter - close call"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Reload the page to get the next one!",
+				"next_in": "Next mob in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Yesterday's mob was {{name}}!"
+			},
+			"next_game": {
+				"name": "Mobs",
+				"description": "Wanna give today's mob a shot?"
+			},
+			"quick_help": {
+				"look_for": "Are you still looking for a better explanation? Look for the",
+				"tooltip": "How to play",
+				"click_here": "icon below the game title or click here!"
+			},
+			"help": {
+				"title": "How to play",
+				"intro": {
+					"goal": "The goal of this game is to guess a Minecraft mob. Every day a new mob is chosen, and by continuing to guess the mob of the day, you can build up a win-streak.",
+					"enter_guesses": "Begin by typing the name of any mob in the search field. Based on your search, up to 10 results will pop up. Click on any of these mobs, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+					"field_explanation": "The properties of your chosen mob will be compared to today's mob and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+				},
+				"example": {
+					"title": "Example",
+					"intro": "Let's look at an example game. First we'll try an arbitrary mob.",
+					"table_interpretation_1": "From this guess, we can see that the mob we're looking for is newer then 1.6.1, doesn't have a lot of Health, is less then 1.6 blocks tall, and might be passive or hostile or a mix with one of those two. It's not summoned by Lightning and ain't undead either.",
+					"table_interpretation_2": "Alright, still newer than 1.13, but we got the health: we're looking for a mob with 10 HP, aka 5 hearts. It's less than 0.6 blocks tall, so we're looking for a small mob. The mobs behaviour is again a partial match, so it's very likely passive, but could still be hostile & neutral. Both Spawn & Classification got a partial match, so Biome spawn & some other reason and classified as Animal or Acquatic and maybe something.",
+					"table_interpretation_3": "Let's go! Look who hopped into this tutorial. We've found a little Frog!"
+				},
+				"partial_matches": {
+					"title": "Partial Match explanation",
+					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Spawn, Classification or Behavior). If you guessed a mob with at least one list element that matches the actual mob, you will get a partial match. Here's an example for horses:"
+				},
+				"tips": {
+					"title": "Tips",
+					"not_all_blocks": "MCdle does not contain every type of entity. Only living entities, like e.g. pigs or zombies are included. Armorstands, projectiles or similar not living entities are not included. The list is taken from the Minecraft wiki, so if it's not on there in the mob list, it's not in this game.",
+					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the mob, you can use the wiki to find the mobs that were added in that version, which will help you narrow down your search drastically.",
+					"health_measuring": "Keep in mind that Health is measured in health points, aka half hearts, so 10 HP is 5 hearts."
+				}
+			}
+		}
+	},
+	"components": {
+		"quick_help": {
+			"show_button": "Show quick help",
+			"color_explanation": {
+				"title": "Color explanation",
+				"correct": "Correct Field",
+				"incorrect": "Incorrect Field",
+				"partial": "Partially correct Field"
+			}
+		},
+		"stats": {
+			"copy_button": "Copy",
+			"copied_confirmation": "Copied!",
+			"share": "Share",
+			"copy_message": {
+				"header_block": "My #MCdle block statistics 🏆",
+				"header_item": "My #MCdle item statistics 🏆",
+				"header_mob": "My #MCdle mob statistics 🏆",
+				"total_wins": "🎉 Games Won {{number}}",
+				"average_guesses": "🧮 Average Guesses {{number}}",
+				"one_shots": "🎯 One-Shots {{number}}",
+				"current_streak": "🚀 Current Streak {{number}}",
+				"max_streak": "📈 Max Streak {{number}}"
+			},
+			"stat_labels": {
+				"total_wins": "Games Won",
+				"average_guesses": "Average Guesses",
+				"one_shots": "One-Shots",
+				"current_streak": "Current Streak",
+				"max_streak": "Max Streak"
+			},
+			"chart_labels": {
+				"guesses": "Guesses"
+			}
+		},
+		"today_guesses": {
+			"loading": "Loading player guesses...",
+			"already_guessed": {
+				"zero": "players already guessed correctly!",
+				"one": "player already guessed correctly!",
+				"many": "players already guessed correctly!"
+			}
+		},
+		"share_win": {
+			"copy_button": "Copy",
+			"copied_confirmation": "Copied!",
+			"share": "Share",
+			"all_games": "All Games",
+			"guess_type": {
+				"block": "block",
+				"item": "item",
+				"mob": "mob"
+			},
+			"guess_line": {
+				"one": "I discovered {{date}}'s #MCdle {{type}} in {{number}} try! {{emoji}}",
+				"many": "I discovered {{date}}'s #MCdle {{type}} in {{number}} tries! {{emoji}}"
+			},
+			"short_guess_line": {
+				"intro": "I discovered {{date}}'s #MCdle ",
+				"one": "{{type}} in {{number}} try",
+				"many": "{{type}} in {{number}} tries",
+				"conjunction": " and "
+			}
+		}
+	}
+}

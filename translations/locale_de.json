@@ -1,0 +1,516 @@
+{
+	"footer": {
+		"links": {
+			"cookie": {
+				"title": "Cookie Richtlinien"
+			}
+		},
+		"about": {
+			"title": "Über uns",
+			"button_title": "Über uns",
+			"intro": "Mcdle ist ein Wordle ähnliches Rätselspiel für Minecraft Objekte. Jeden Tag werden ein neuer Block, Gegenstand und Mob ausgewählt, die du erraten musst. Komm täglich zurück, um deine Gewinnsträhne aufrecht zu erhalten! Es gibt ein 'Teilen' Feature, damit du deine Siege mit deinen Freunden teilen kannst!",
+			"help_pointer": "Du bist dir nicht ganz sicher, wie man das Spiel spielt? Jeder Spielmodus hat ein ? icon unter dem Titel, das ein Hilfe Menü öffnet mit genauen Beschreibungen und Beispielen für den jeweiligen Modus.",
+			"suggestions": {
+				"title": "Vorschläge",
+				"description": {
+					"pre_link": "Ich kümmere mich selbst um die meisten Vorschläge oder Hilfe bei Problemen auf ",
+					"link": "Discord",
+					"post_link": " also komm ruhig vorbei und häng ab, wir haben Melonen! Wir haben auch Channels, um die heutigen Rätsel zu besprechen und die Siegessträhnen zu teilen!"
+				}
+			},
+			"support": {
+				"title": "Unterstützung",
+				"description": {
+					"pre_link": "Falls du helfen willst, das Projekt am Leben zu erhalten (z.B. für die URL bezahlen, neue Features unterstützen, etc.), dann schau gern mal bei meinem ",
+					"link": "Ko-fi",
+					"post_link": " vorbei!"
+				}
+			},
+			"credits": {
+				"title": "Dankessagung",
+				"description": {
+					"pre_link": "Die Daten für dieses Spiel stammen vom ",
+					"link": "Minecraft Wiki",
+					"post_link": ". Viele der Bilder werden dort gehostet, also ein großes Danke an alle, die das Wiki auf dem neusten Stand halten! MCdle ist kein Produkt von Mojang Studios und wird auch nicht gesponsort. Aber es basiert auf Minecraft und ist inspiriert von Wordle und LoLdle."
+				},
+				"credit_list": {
+					"kineticraft": {
+						"pre_link": "Danke an den Server ",
+						"link": "kineticraftreborn.net",
+						"post_link": " für das Hintergrund bild!"
+					},
+					"vanilla_tweaks": {
+						"pre_link": "Danke an ",
+						"link": "Vanilla Tweaks",
+						"post_link": " für deren Melonen und Kürbis Stiel Textur."
+					}
+				}
+			},
+			"version": {
+				"title": "Version",
+				"description": "Das heutige Rätsel ist Version #{{version}}! Das Spiel wählt jeden Tag um Mitternacht UTC einen neuen Block, Gegenstand und Mob aus."
+			}
+		}
+	},
+	"header": {
+		"settings": {
+			"colorblind": {
+				"input_name": "Farbenblinder Modus",
+				"label": "Farbenblinder Modus"
+			},
+			"difficulty": {
+				"limit_guesses_6": {
+					"input_name": "Limitierte Versuche",
+					"label": "Limitiere die Anzahl der Versuche auf 6"
+				},
+				"search": {
+					"game_knowledge": {
+						"input_name": "Spielwissen",
+						"label": "Spielwissen"
+					},
+					"logical": {
+						"input_name": "Logisch",
+						"label": "Logisch"
+					},
+					"showcase": {
+						"fallback": "Wähle einen Schwierigkeitsgrad für deine Suche!",
+						"game_knowledge": {
+							"description": "Keine Hinweise! Du musst dich bei der Suche auf dein Wissen über Minecraft verlassen!",
+							"image_alt": "Spielwissen Schwierigkeitssuche"
+						},
+						"logical": {
+							"description": "Die Suche wird dir Hinweise geben, die dir helfen werden, das gesuchte Item zu finden!",
+							"image_alt": "Logische Schwierigkeitssuche"
+						}
+					},
+					"title": "Suche:"
+				},
+				"title": "Schwierigkeitsgrad"
+			},
+			"settings_button": {
+				"image_alt": "Einstellungs knopf",
+				"tooltip": "Einstellungen"
+			},
+			"title": "Einstellungen"
+		},
+		"language": {
+			"title": "Sprache",
+			"tooltip": "Sprache",
+			"dropdown": {
+				"english": "English",
+				"german": "Deutsch"
+			},
+			"description": {
+				"pre_link": "Offiziell unterstützt diese Webseite English & Deutsch, aber dank der Community, sind auch andere Übersetzungen auf ",
+				"link": "Github",
+				"post_link": " möglich. Es gibt keine Garantie das die unoffiziellen Übersetzungen auf dem neuesten Stand oder korrekt sind, also falls Fehler auffallen, sind Pull Request herzlich Wilkommen!"
+			}
+		}
+	},
+	"pages": {
+		"404": {
+			"compass_alt": "Kompass gif",
+			"message": "Du hast ein 404 Ende in dieser Höhle gefunden...",
+			"return_message": "Nimm diesen Kompass, um nachhause zurück zu kehren!"
+		},
+		"index": {
+			"header": "Wähle einen Spielmodus",
+			"links": {
+				"blocks": {
+					"image_alt": "Block Icon",
+					"subtitle": "Errate den heutigen Minecraft Block",
+					"title": "Blöcke"
+				},
+				"items": {
+					"image_alt": "Gegenstand Icon",
+					"subtitle": "Errate das Minecraft Item von heute",
+					"title": "Gegenstände"
+				},
+				"mobs": {
+					"image_alt": "Mobs Icon",
+					"subtitle": "Entdecke das heutige Minecraft Mob",
+					"title": "Mobs"
+				},
+				"goal": {
+					"image_alt": "Ziel Icon",
+					"title": "MCdle Bestiarium"
+				}
+			}
+		},
+		"block": {
+			"title": "Spielmodus: Errate den heutigen Block!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statistiken",
+					"tooltip": "Statistiken"
+				},
+				"streak": {
+					"title": "Fortschritt übertragen",
+					"tooltip": "Gewinnsträhne"
+				},
+				"help": {
+					"tooltip": "Wie spielt man?"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Block",
+					"release": "Veröffen-tlichung",
+					"stack_size": "Stack Größe",
+					"tools": "Werk-zeuge",
+					"blast_resistance": "Explosions Wider-stand",
+					"hardness": "Härte",
+					"flammable": "Flamm-barkeit",
+					"transparent": "Trans-parenz"
+				}
+			},
+			"loose": {
+				"title": "Du hast es nicht geschafft den Block zu erraten!",
+				"subtitle": "Probiers morgen nochmal! (oder schalte das Limit in den Einstellungen aus)"
+			},
+			"win": {
+				"title": "Block gefunden!",
+				"subtitle": "Der heutige Block war {{name}}!"
+			},
+			"intro": {
+				"description": "Errate den heutigen Block!",
+				"start_help": "Tippe unten, um zu beginnen!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} Versuche übrig!",
+					"one": "{{remaining}} Versuch übrig!",
+					"many": "{{remaining}} Versuche übrig!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Suche nach einem Block",
+					"new_tomorrow": "Nächster Block - Morgen!",
+					"no_more_guesses": "Keine Versuche übrig!"
+				},
+				"submit": {
+					"aria_label": "Probier diesen Block"
+				},
+				"ambiguous_result": {
+					"description": "Uneindeutiger Block gefunden! Weitere flasche uneindeutige Blöcke werden rot durchgestrichen.",
+					"image_alt": "Schatzjäger - fast geschafft"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Lade die Seite neu, um das nächste Rätsel zu bekommen!",
+				"next_in": "Nächster Block in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Der gestrige Block war {{name}}!"
+			},
+			"next_game": {
+				"name": "Blöcke",
+				"description": "Bereit den heutigen Block zu erraten?"
+			},
+			"quick_help": {
+				"look_for": "Immer noch auf der Suche nach einer besseren Erklärung? Suche nach dem ",
+				"tooltip": "Wie spielt man?",
+				"click_here": " Icon unter dem Titel oder klick hier!"
+			},
+			"help": {
+				"title": "Wie spielt man?",
+				"intro": {
+					"goal": "Das Ziel des Spiels ist es, einen Minecraft Block zu erraten. Jeden Tag wird ein neuer Block gewählt und indem du jeden Tag spielst, kannst du eine Gewinnsträhne aufbauen!",
+					"enter_guesses": "Beginne indem du den Namen eines Blockes in die Suchleiste eingibst. Basierend auf deiner Suche werden dir 10 Ergebnisse angezeigt. Klick auf einen dieser Blöcke oder wähle einen mit den Pfeiltasten aus und drück Enter um ihn einzugeben.",
+					"field_explanation": "Die Eigenschaften des gewählten Blocks werden mit dem heutigen Block verglichen und werden grün markiert, wenn sie zutreffen, gelb für partielle Treffer und rot für falsche Treffer. Hinter den falschen Nummer-/Versionsfeldern wird ein Pfeil angezeigt, der darauf hinweist, ob du höher oder niedriger raten sollst."
+				},
+				"example": {
+					"title": "Beispiel",
+					"intro": "Schauen wir uns ein Beispielsspiel an. Als erstes probieren wir einen zufälligen Block.",
+					"table_interpretation_1": "Wir haben gelerent, dass der Block, wie die meisten anderen auch, bis 64 stackbar ist und nicht flammbar ist. Er ist nicht aus der pre-alpha und kann nicht mit einer Spitzhacke abgebaut werden. Also probieren wir einen anderen, neueren Block.",
+					"table_interpretation_2": "Wir haben die Version des Blocks herausgefunden! Es ist Zeit, sich nach Beta 1.8 Blöcken umzusehen. Zusätzlich haben wir einen partiellen Treffer beim Werkzeug, daher wissen wir, dass der Block mit einer Axt und noch einem anderen Werkzeug abgebaut werden kann. Des Weiteren ist der Block weder transparent (\"Yes\") noch transparent (\"No\"), daher muss er partiell (\"Partial\") transparent sein. Suchen wir nach einem Block, der auf diese Attribute passt.",
+					"table_interpretation_3": "Da haben wirs! Wir haben herausgefunden, dass der heutige Block ein Melonenblock war! Welch Freude!"
+				},
+				"partial_matches": {
+					"title": "Partielle Treffer Erklärung",
+					"intro": "Schauen wir uns partielle Treffer im Detail an, weil das wahrscheinlich die verwirrenste Trefferfarbe ist.",
+					"explanation": "Ein partieller Treffer kann nur bei Feldern auftauchen, die als Liste aufgebaut sind (z.B.: Werkzeuge). Falls du einen Block probierst, der zumindest mit einem passenden Werkzeug abgebaut werden kann, wirst du einen partiellen Treffer bekommen. Hier ist ein Beispiel für Blätter:"
+				},
+				"tips": {
+					"title": "Tipps",
+					"not_all_blocks": "MCdle beinhaltet nicht jeden Block. Alle gefärbten variationen von Beton, Terracotta, Wolle, unsw. sind zu einem repräsentativen Block wie \"Beton\" oder \"Wolle\" zusammengefügt. Das gilt auch für die verschiedenen Holztypen, Wände, Treppen, unsw.",
+					"utilize_the_search": "Verwende die Suchleiste! Das Durchschauen von den vorgeschlagenen Blöcken wird dir helfen, deine Suche einzuschränken.",
+					"use_the_wiki": "Verwende ruhig das Minecraft Wiki. Sobald du die Version des Blockes herausgefunden hast, kannst du einfach im Wiki nachschauen, welche Blöcke in dieser Version hinzugefügt wurden, was deine Suche drastisch einschränken wird."
+				}
+			}
+		},
+		"item": {
+			"title": "Spielmodus: Errate das heutige Item!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statistiken",
+					"tooltip": "Statistiken"
+				},
+				"streak": {
+					"title": "Fortschritt übertragen",
+					"tooltip": "Gewinnsträhne"
+				},
+				"help": {
+					"tooltip": "Wie spielt man?"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Gegen-stand",
+					"release": "Veröffen-tlichung",
+					"stack_size": "Stack Größe",
+					"rarity": "Seltenheit",
+					"action": "Aktion",
+					"renewable": "Erneuerbar",
+					"usage": "Verwen-dungs-möglich-keiten",
+					"source": "Erzeug-ungs-möglich-keiten"
+				}
+			},
+			"loose": {
+				"title": "Du hast es nicht geschafft den Gegenstand zu erraten!",
+				"subtitle": "Probiers morgen nochmal! (oder schalte das Limit in den Einstellungen aus)"
+			},
+			"win": {
+				"title": "Gegenstand gefunden!",
+				"subtitle": "Der heutige Gegenstand war {{name}}!"
+			},
+			"intro": {
+				"description": "Errate den heutigen Gegenstand!",
+				"start_help": "Tippe unten, um zu beginnen!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} Versuche übrig!",
+					"one": "{{remaining}} Versuch übrig!",
+					"many": "{{remaining}} Versuche übrig!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Suche nach einem Gegenstand",
+					"new_tomorrow": "Nächster Gegenstand - Morgen!",
+					"no_more_guesses": "Keine Versuche übrig!"
+				},
+				"submit": {
+					"aria_label": "Probier diesen Gegenstand"
+				},
+				"ambiguous_result": {
+					"description": "Uneindeutiger Gegenstand gefunden! Weitere flasche uneindeutige Gegenstände werden rot durchgestrichen.",
+					"image_alt": "Schatzjäger - fast geschafft"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Lade die Seite neu, um das nächste Rätsel zu bekommen!",
+				"next_in": "Nächster Gegenstand in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Der gestrige Gegenstand war {{name}}!"
+			},
+			"next_game": {
+				"name": "Gegenstände",
+				"description": "Weiter geht's zum Gegenstand erraten!"
+			},
+			"quick_help": {
+				"look_for": "Immer noch auf der Suche nach einer besseren Erklärung? Suche nach dem ",
+				"tooltip": "Wie spielt man?",
+				"click_here": " Icon unter dem Titel oder klick hier!"
+			},
+			"help": {
+				"title": "Wie spielt man?",
+				"intro": {
+					"goal": "Das Ziel des Spiels ist es, einen Minecraft Gegenstand zu erraten. Jeden Tag wird ein neuer Gegenstand gewählt und indem du jeden Tag spielst, kannst du eine Gewinnsträhne aufbauen!",
+					"enter_guesses": "Beginne indem du den Namen eines Gegenstandes in die Suchleiste eingibst. Basierend auf deiner Suche, werden dir 10 Ergebnisse angezeigt. Klick auf einen dieser Gegenstände oder wähle einen mit den Pfeiltasten aus und drück Enter, um ihn einzugeben.",
+					"field_explanation": "Die Eigenschaften des gewählten Gegenstandes werden mit dem heutigen Gegenstand verglichen und werden grün markiert, wenn sie zutreffen, gelb für partielle Treffer und rot für falsche Treffer. Hinter den falschen Nummer-/Versionsfeldern wird ein Pfeil angezeigt, der darauf hinweist, ob du höher oder niedriger raten sollst."
+				},
+				"example": {
+					"title": "Beispiel",
+					"intro": "Schauen wir uns ein Beispielsspiel an. Als erstes probieren wir einen zufälligen Gegenstand.",
+					"table_interpretation_1": "Wir haben gelerent, dass der Gegenstand, wie die meisten anderen auch, bis 64 stackbar ist. Er ist neuer als Beta 1.2, hat Gewöhnliche Seltenheit und ist erneuerbar. Laut dem Minecraft Wiki gibt es weniger als 5 Möglichkeiten, ihn zu verwenden, und weniger als 6 Möglichkeiten, ihn zu bekommen. Die Aktion sagt uns, dass es etweder Verwendung in der Welt gibt oder dass der Gegenstand fürs craften verwendet wird. Probieren wir einen anderen Gegenstand.",
+					"table_interpretation_2": "Wir haben die Version des Gegenstandes herausgefunden! Es ist Zeit, sich nach Beta 1.8 Gegenständen aus der \"use\" Kategorie umzusehen. Jetzt geht es darum, die richtigen Verwendungszahlen und Erzeugungszahlen zu erraten.",
+					"table_interpretation_3": "Da haben wirs! Wir haben herausgefunden, dass der heutige Gegenstand eine Melonenscheibe war! Wunderbar!"
+				},
+				"partial_matches": {
+					"title": "Partielle Treffer Erklärung",
+					"intro": "Schauen wir uns partielle Treffer im Detail an, weil das wahrscheinlich die verwirrenste Trefferfarbe ist.",
+					"explanation": "Ein partieller Treffer kann nur bei Feldern auftauchen, die als Liste aufgebaut sind (z.B.: Aktion). Falls du einen Gegenstand probierst, der zumindest einee passende Aktion hat, wirst du einen partiellen Treffer bekommen. Hier ist ein Beispiel für Lapis:"
+				},
+				"tips": {
+					"title": "Tipps",
+					"not_all_items": "MCdle beinhaltet nicht jeden Gegenstand. Die Liste stammt vom Minecraft Wiki und beinhaltet daher nicht die Gegenstandformen aller Blöcke oder zu ähnliche Gegenstände, wie z.B.: Rüstungen oder Werkzeuge.",
+					"utilize_the_search": "Verwende die Suchleiste! Das Durchschauen von den vorgeschlagenen Gegenständen wird dir helfen, deine Suche einzuschränken.",
+					"use_the_wiki": "Verwende ruhig das Minecraft Wiki. Sobald du die Version des Gegenstandes herausgefunden hast, kannst du einfach im Wiki nachschauen, welche Gegenstände in dieser Version hinzugefügt wurden, was deine Suche drastisch einschränken wird.",
+					"usage_and_source_explanation": "Falls dich interessiert wie die Verwendungs- und Erzeugsmöglichkeiten berechnet werden, schau dir die Wiki Seite des Gegenstandes an und such nach \"Verwendung\" und \"Gewinnung\". Die Anzahl der Titel in der jeweiligen Sektion werden verwendet, um die Möglichkeiten zu berechnen. Falls Möglichkeiten fehlen, habe ich, der Entwickler, diese manuell hinzugefügt."
+				}
+			}
+		},
+		"mob": {
+			"title": "Spielmodus: Errate das heutige Mob!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statistiken",
+					"tooltip": "Statistiken"
+				},
+				"streak": {
+					"title": "Fortschritt übertragen",
+					"tooltip": "Gewinnsträhne"
+				},
+				"help": {
+					"tooltip": "Wie spielt man?"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Mob",
+					"release": "Veröffen-tlichung",
+					"health": "Leben",
+					"height": "Höhe",
+					"behavior": "Verhalten",
+					"spawn": "Spawn",
+					"classification": "Klass-ifikation"
+				}
+			},
+			"loose": {
+				"title": "Du hast es nicht geschafft das Mob zu erraten!",
+				"subtitle": "Probiers morgen nochmal! (oder schalte das Limit in den Einstellungen aus)"
+			},
+			"win": {
+				"title": "Mob gefunden!",
+				"subtitle": "Das heutige Mob war {{name}}!"
+			},
+			"intro": {
+				"description": "Errate das heutigen Mob!",
+				"start_help": "Tippe unten, um zu beginnen!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} Versuche übrig!",
+					"one": "{{remaining}} Versuch übrig!",
+					"many": "{{remaining}} Versuche übrig!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Suche nach einem Mob",
+					"new_tomorrow": "Nächstes Mob - Morgen!",
+					"no_more_guesses": "Keine Versuche übrig!"
+				},
+				"submit": {
+					"aria_label": "Probier dieses Mob"
+				},
+				"ambiguous_result": {
+					"description": "Uneindeutiges Mob gefunden! Weitere flasche uneindeutige Mobs werden rot durchgestrichen.",
+					"image_alt": "Schatzjäger - fast geschafft"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Lade die Seite neu, um das nächste Rätsel zu bekommen!",
+				"next_in": "Nächstes Mob in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Das gestrige Mob war {{name}}!"
+			},
+			"next_game": {
+				"name": "Mobs",
+				"description": "Probier auch, das Mob zu erraten!"
+			},
+			"quick_help": {
+				"look_for": "Immer noch auf der Suche nach einer besseren Erklärung? Suche nach dem ",
+				"tooltip": "Wie spielt man?",
+				"click_here": " Icon unter dem Titel oder klick hier!"
+			},
+			"help": {
+				"title": "Wie spielt man?",
+				"intro": {
+					"goal": "Das Ziel des Spiels ist es, ein Minecraft Mob zu erraten. Jeden Tag wird ein neues Mob gewählt und indem du jeden Tag spielst, kannst du eine Gewinnsträhne aufbauen!",
+					"enter_guesses": "Beginne indem du den Namen eines Mobs in die Suchleiste eingibst. Basierend auf deiner Suche, werden dir 10 Ergebnisse angezeigt. Klick auf eines dieser Mobs oder wähle eines mit den Pfeiltasten aus und drück Enter, um es einzugeben.",
+					"field_explanation": "Die Eigenschaften des gewählten Mobs werden mit dem heutigen Mob verglichen und werden grün markiert, wenn sie zutreffen, gelb für partielle Treffer und rot für falsche Treffer. Hinter den falschen Nummer-/Versionsfeldern wird ein Pfeil angezeigt, der darauf hinweist, ob du höher oder niedriger raten sollst."
+				},
+				"example": {
+					"title": "Beispiel",
+					"intro": "Schauen wir uns ein Beispielsspiel an. Als erstes probieren wir ein zufälliges Mob.",
+					"table_interpretation_1": "Von diesem Versuch können wir lernen, dass wir nach einem Mob suchen, das neuer als 1.6.1 ist, aber nicht sehr viele Leben hat. Es ist weniger als 1.6 Blöcke hoch und könnte Passiv oder Agressiv oder ein Mix von diese beiden sein. Es wird nicht von Blitzen gespawnt und es ist auch nicht Untot.",
+					"table_interpretation_2": "Okay, es ist immer noch neuer als 1.13, aber wir haben die Leben herausgefunden: Wir suchen nach einem Mob mit 10 HP, daher 5 Herzen. Es ist weniger als 0.6 Blöcke hoch, also ein kleines Mob. Das Verhalten des Mobs ist wieder ein partieller Treffer, also ist es Passiv, aber es könnte immer noch zusätzlich Aggressiv und Neutral sein. Sowohl Spawn als auch Klassifikation haben einen partiellen Treffer, daher wird es wahrscheinlich in einem Biom spawnen und noch einen anderen Spawn Grund geben. Weiters wird es als Tier oder Aquatic klassifiziert sein und vielleicht noch etwas anderes.",
+					"table_interpretation_3": "Perfekt! Schau mal, wer in das Tutorial rein gehüpft ist. Wir haben einen kleinen Frosch gefunden!"
+				},
+				"partial_matches": {
+					"title": "Partielle Treffer Erklärung",
+					"intro": "Schauen wir uns partielle Treffer im Detail an, weil das wahrscheinlich die verwirrenste Trefferfarbe ist.",
+					"explanation": "Ein partieller Treffer kann nur bei Feldern auftauchen die als Liste aufgebaut sind (z.B.: Spawn, Klassifikation oder Verhalten). Falls du ein Mob probierst, das zumindest ein passendes Listen Element hat, wirst du einen partiellen Treffer bekommen. Hier ist ein Beispiel für Pferde:"
+				},
+				"tips": {
+					"title": "Tipps",
+					"not_all_blocks": "MCdle beinhaltet nicht jedes Mob. Im Spiel sind nur lebendige Objekte, also beispielsweise Schweine oder Zombies. Rüstungsständer, Geschosse oder ähnliche nicht lebendige Objekte sind nicht vorhanden. Die Liste stammt vom Minecraft Wiki, also falls es nicht auf der Mob Liste ist, ist es nicht in diesem Spiel.",
+					"utilize_the_search": "Verwende die Suchleiste! Das Durchschauen von den vorgeschlagenen Mobs wird dir helfen, deine Suche einzuschränken.",
+					"use_the_wiki": "Verwende ruhig das Minecraft Wiki. Sobald du die Version des Mobs herausgefunden hast, kannst du einfach im Wiki nachschauen, welche Mobs in dieser Version hinzugefügt wurden, was deine Suche drastisch einschränken wird.",
+					"health_measuring": "Vergiss nicht das Leben in Lebenspunkten, also halben Herzen gemessen wird. Daher sind 10 HP also 5 Herzen."
+				}
+			}
+		}
+	},
+	"components": {
+		"quick_help": {
+			"show_button": "Zeige die schnelle Hilfe",
+			"color_explanation": {
+				"title": "Erklärung der Farben",
+				"correct": "Richtiges Feld",
+				"incorrect": "Falsches Feld",
+				"partial": "Teilweise richtiges Feld"
+			}
+		},
+		"stats": {
+			"copy_button": "Kopieren",
+			"copied_confirmation": "Kopiert!",
+			"share": "Teilen",
+			"copy_message": {
+				"header_block": "Meine #MCdle Block Statistiken 🏆",
+				"header_item": "Meine #MCdle Item Statistiken 🏆",
+				"header_mob": "Meine #MCdle Mob Statistiken 🏆",
+				"total_wins": "🎉 Gewonnene Spiele {{number}}",
+				"average_guesses": "🧮 Durchschnittliche Versuche {{number}}",
+				"one_shots": "🎯 Auf Anhieb {{number}}",
+				"current_streak": "🚀 Momentane Siegessträhne {{number}}",
+				"max_streak": "📈 Maximale Siegessträhne {{number}}"
+			},
+			"stat_labels": {
+				"total_wins": "Gewonnene Spiele",
+				"average_guesses": "Durchschnitt-liche Versuche",
+				"one_shots": "Auf Anhieb",
+				"current_streak": "Momentane Sieges-strähne",
+				"max_streak": "Maximale Sieges-strähne"
+			},
+			"chart_labels": {
+				"guesses": "Versuche"
+			}
+		},
+		"today_guesses": {
+			"loading": "Lade Anzahl der Spiele...",
+			"already_guessed": {
+				"zero": "Spieler haben schon richtig geraten!",
+				"one": "Spieler hat schon richtig geraten!",
+				"many": "Spieler haben schon richtig geraten!"
+			}
+		},
+		"share_win": {
+			"copy_button": "Kopieren",
+			"copied_confirmation": "Kopiert!",
+			"share": "Teilen",
+			"all_games": "Alle Spiele",
+			"guess_type": {
+				"block": "Block",
+				"item": "Gegenstand",
+				"mob": "Mob"
+			},
+			"guess_line": {
+				"one": "Ich habe den #MCdle {{type}} vom {{date}} in einem Versuch erraten! {{emoji}}",
+				"many": "Ich habe den #MCdle {{type}} vom {{date}} in {{number}} Versuchen erraten! {{emoji}}"
+			},
+			"short_guess_line": {
+				"intro": "Ich erriet in #MCdle am {{date}} ",
+				"one": "das {{type}} Rätsel in einem Versuch",
+				"many": "das {{type}} Rätsel in {{number}} Versuchen",
+				"conjunction": " und "
+			}
+		}
+	}
+}
