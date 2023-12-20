@@ -511,6 +511,24 @@
 				"many": "das {{type}} Rätsel in {{number}} Versuchen",
 				"conjunction": " und "
 			}
+		},
+		"hints": {
+			"in_x_guesses": {
+				"one": "in einem Versuch!",
+				"many": "in {{number}} Versuchen!"
+			},
+			"version": {
+				"description": "Tipp zur Ver-öffentlichungs-version",
+				"solution": "Du suchst nach einer {{version}} Veröffentlichung!"
+			},
+			"letter": {
+				"description": "Tipp zum Anfangs-buchstaben",
+				"solution": "Die Lösung fängt mit {{letter}}... an!"
+			},
+			"image": {
+				"description": "Gezoomter Bild Tipp",
+				"solution": "Kannst du erkennen was sich in dem 8x gezoomten Bild versteckt?"
+			}
 		}
 	}
 }

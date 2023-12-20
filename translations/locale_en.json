@@ -511,6 +511,24 @@
 				"many": "{{type}} in {{number}} tries",
 				"conjunction": " and "
 			}
+		},
+		"hints": {
+			"in_x_guesses": {
+				"one": "in {{number}} guess!",
+				"many": "in {{number}} guesses!"
+			},
+			"version": {
+				"description": "Release version hint",
+				"solution": "You're looking for a {{version}} release!"
+			},
+			"letter": {
+				"description": "Starting letter hint",
+				"solution": "The solution starts with {{letter}}..."
+			},
+			"image": {
+				"description": "Zoomed image hint",
+				"solution": "Can you see what's hiding in this 8x zoomed in image?"
+			}
 		}
 	}
 }
