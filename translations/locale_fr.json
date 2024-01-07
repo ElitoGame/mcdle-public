@@ -1,0 +1,535 @@
+{
+	"footer": {
+		"links": {
+			"cookie": {
+				"title": "Politique relative aux cookies"
+			}
+		},
+		"about": {
+			"title": "À propos",
+			"button_title": "À propos",
+			"intro": "MCdle est un jeu de devinettes inspiré de Wordle, mais avec un contenu lié à Minecraft. Chaque jour, un nouveau bloc, objet et créature de Minecraft sont choisis et tu dois les deviner. Reviens tous les jours pour accumuler des victoires ! Il y a des fonctions de partage, pour que tu puisses partager tes scores et victoires avec tes amis !",
+			"help_pointer": "Tu ne sais pas comment jouer ? Chaque page de jeu comporte une icône ? sous le titre, qui ouvre un menu d'aide avec des exemples et des descriptions détaillées sur le mode de jeu actuel.",
+			"suggestions": {
+				"title": "Suggestions",
+				"description": {
+					"pre_link": "Je m'occupe de la plupart des suggestions et du support des bugs et problèmes sur ",
+					"link": "Discord",
+					"post_link": ", n'hésites pas à nous rejoindre et à discuter, nous avons de la pastèque ! Nous avons également des salons pour discuter des quiz du jour et pour partager tes victoires !"
+				}
+			},
+			"support": {
+				"title": "Soutiens",
+				"description": {
+					"pre_link": "Si tu veux soutenir le projet (par ex. pour payer le nom de domaine, soutenir les nouvelles fonctionnalités, etc), tu peux le faire sur ",
+					"link": "Ko-fi",
+					"post_link": " !"
+				}
+			},
+			"credits": {
+				"title": "Crédits",
+				"description": {
+					"pre_link": "Les données de ce jeu sont récupérées du ",
+					"link": "Minecraft Wiki",
+					"post_link": ". Beaucoup d'images proviennent également de la bas, alors un grand merci à eux pour leur travail acharné afin de maintenir le wiki à jour ! MCdle n'est ni affilié, ni approuvé, ni sponsorisé par les studios Mojang. Mais il est évidemment basé sur Minecraft et inspiré par Wordle et LoLdle."
+				},
+				"credit_list": {
+					"kineticraft": {
+						"pre_link": "Merci au serveur ",
+						"link": "kineticraftreborn.net",
+						"post_link": " pour l'imagine d'arrière-plan !"
+					},
+					"vanilla_tweaks": {
+						"pre_link": "Merci à ",
+						"link": "Vanilla Tweaks",
+						"post_link": " pour leurs textures de tige de pastèque et citrouille !"
+					}
+				}
+			},
+			"version": {
+				"title": "Version",
+				"description": "La partie du jour est l'énigme #{{version}} ! Le jeu choisira un nouveau bloc, un nouvel objet et une nouvelle créature chaque jour à minuit UTC."
+			}
+		}
+	},
+	"header": {
+		"settings": {
+			"colorblind": {
+				"input_name": "Mode daltonien",
+				"label": "Mode daltonien"
+			},
+			"difficulty": {
+				"limit_guesses_6": {
+					"input_name": "Tentatives limités",
+					"label": "Limite le nombre de tentatives à 6"
+				},
+				"search": {
+					"game_knowledge": {
+						"input_name": "Connaissances du jeu",
+						"label": "Connaissances du jeu"
+					},
+					"logical": {
+						"input_name": "Logique",
+						"label": "Logique"
+					},
+					"showcase": {
+						"fallback": "Choisis une difficulté pour les recherches !",
+						"game_knowledge": {
+							"description": "Pas d'indices de recherche, tu te débrouilles seul·e avec tes connaissances sur le jeu !",
+							"image_alt": "Difficulté de recherche par connaissances du jeu"
+						},
+						"logical": {
+							"description": "La recherche t'indiquera toutes les statistiques disponibles, faisant de MCdle un jeu de logique !",
+							"image_alt": "Difficulté de recherche par logique"
+						}
+					},
+					"title": "Recherche:"
+				},
+				"title": "Difficulté"
+			},
+			"settings_button": {
+				"image_alt": "Bouton des paramètres",
+				"tooltip": "Paramètres"
+			},
+			"title": "Paramètres"
+		},
+		"language": {
+			"title": "Langues",
+			"tooltip": "Langues",
+			"dropdown": {
+				"english": "Anglais",
+				"german": "Allemand",
+				"french": "Français"
+			},
+			"description": {
+				"pre_link": "Officiellement, ce site Web est accessible en anglais et en allemand, mais grâce à la communauté, d'autres langues ont été ajoutées via ",
+				"link": "Github",
+				"post_link": ". Il n'y a aucune garantie que les traductions non officielles soient à jour ou correctes, donc si tu trouves des erreurs, n'hésite pas à ouvrir une pull request !"
+			}
+		}
+	},
+	"pages": {
+		"404": {
+			"compass_alt": "gif de compas",
+			"message": "Tu as rencontré une sortie 404 dans cette grotte...",
+			"return_message": "Utilise ce compas pour retourner à la page d'accueil !"
+		},
+		"index": {
+			"header": "Choisis un mode de jeu !",
+			"links": {
+				"blocks": {
+					"image_alt": "Icône de blocs",
+					"subtitle": "Devine le bloc Minecraft du jour",
+					"title": "Blocs"
+				},
+				"items": {
+					"image_alt": "Icône d'objets",
+					"subtitle": "Trouve l'objet Minecraft du jour",
+					"title": "Objets"
+				},
+				"mobs": {
+					"image_alt": "Icône de créatures",
+					"subtitle": "Découvre la créature Minecraft du jour",
+					"title": "Créatures"
+				},
+				"goal": {
+					"title": "Catalogue MCdle",
+					"image_alt": "Icône objectif"
+				}
+			}
+		},
+		"block": {
+			"title": "Mode de jeu : Devine le bloc du jour !",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statistiques",
+					"tooltip": "Statistiques"
+				},
+				"streak": {
+					"title": "Transférer les victoires",
+					"tooltip": "Série de victoires"
+				},
+				"help": {
+					"tooltip": "Comment jouer"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Bloc",
+					"release": "Sortie",
+					"stack_size": "Taille de pile",
+					"tools": "Outil(s)",
+					"blast_resistance": "Résist-ance",
+					"hardness": "Dureté",
+					"flammable": "Inflam_mable",
+					"transparent": "Trans-parent"
+				}
+			},
+			"loose": {
+				"title": "Tu n'as pas réussi à découvrir le bloc d'aujourd'hui",
+				"subtitle": "Plus de chance demain ! (ou désactive la limite dans les paramètres)"
+			},
+			"win": {
+				"title": "Bloc découvert !",
+				"subtitle": "Le bloc du jour était {{name}} !"
+			},
+			"intro": {
+				"description": "Devine le bloc Minecraft du jour !",
+				"start_help": "Écris ci-dessous pour commencer !"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} essais restants !",
+					"one": "{{remaining}} essai restant !",
+					"many": "{{remaining}} essais restants !"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Rechercher un bloc",
+					"new_tomorrow": "Nouveau bloc demain !",
+					"no_more_guesses": "Essais épuisés !"
+				},
+				"submit": {
+					"aria_label": "Essayer ce bloc"
+				},
+				"ambiguous_result": {
+					"description": "Bloc ambigu découvert ! Les prochains blocs ambigus incorrects seront barrés en rouge.",
+					"image_alt": "Chasseur de trésors - tu l'as échappé belle"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Recharge la page pour découvrir le suivant !",
+				"next_in": "Prochain bloc dans {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Le bloc d'hier était {{name}} !"
+			},
+			"next_game": {
+				"name": "Blocs",
+				"description": "Prêt·e à deviner le bloc d'aujourd'hui ?"
+			},
+			"quick_help": {
+				"look_for": "Tu cherches toujours de meilleures explications ? Jette un œil à l'icône",
+				"tooltip": "Comment jouer",
+				"click_here": "sous le titre du jeu ou clique ici !"
+			},
+			"help": {
+				"title": "Comment jouer",
+				"intro": {
+					"goal": "Le but de ce jeu est de deviner un bloc de Minecraft. Chaque jour, un nouveau bloc est choisi, et en continuant à deviner le bloc chaque jour, tu peux accumuler les victoires !",
+					"enter_guesses": "Commence par taper le nom de n'importe quel bloc dans la barre de recherche. En fonction de ta recherche, jusqu'à 10 résultats apparaîtront. Clique sur l'un de ces blocs ou navigue jusqu'à lui à l'aide de tes touches fléchées et appuie sur la touche Entrée pour verrouiller ton choix.",
+					"field_explanation": "Les propriétés du bloc que tu as choisi seront comparées à celles du bloc du jour et seront marquées en vert si elles correspondent, en jaune si elles correspondent partiellement et en rouge si elles sont incorrectes. En arrière-plan des cases contenant un nombre ou version incorrects, tu trouveras une flèche indiquant si tu dois chercher plus ou moins haut."
+				},
+				"example": {
+					"title": "Exemple",
+					"intro": "Voyons un exemple de jeu. Nous allons d'abord essayer un bloc arbitraire.",
+					"table_interpretation_1": "Nous découvrons que le bloc, comme la plupart des autres, est empilable jusqu'à 64, et qu'il n'est pas inflammable. Il n'a pas été ajouté dans la version pré-alpha et il ne peut pas être miné avec une pioche. Essayons donc un autre bloc, plus récent.",
+					"table_interpretation_2": "Nous avons découvert la version d'ajout du bloc ! Il est temps de chercher un bloc de la Beta 1.8. Nous avons aussi obtenu une correspondance partielle sur l'outil, il peut donc être cassé par une hache et un autre outil. De plus, le bloc n'est ni transparent (\"Yes\") ni non transparent (\"No\"), il doit donc être partiellement transparent. Cherchons un bloc qui corresponde à toutes ces propriétés.",
+					"table_interpretation_3": "Et voilà ! Nous avons découvert que le bloc était un bloc de pastèque, quel bonheur !"
+				},
+				"partial_matches": {
+					"title": "Explication de la Correspondance Partielle",
+					"intro": "Examinons en détail les correspondances partielles, car c'est probablement la couleur de case qui prête le plus à confusion.",
+					"explanation": "Une correspondance partielle ne peut apparaître que dans les champs constitués d'une liste (par exemple, Outils). Si tu as choisi un bloc qui peut être cassé avec au moins un outil qui fonctionne sur le bloc à trouver, tu obtiendras une correspondance partielle. Voici un exemple pour les feuilles :"
+				},
+				"tips": {
+					"title": "Astuces",
+					"not_all_blocks": "MCdle ne contient pas tous les types de blocs. Toutes les variantes colorées du béton, de la terre cuite, de la laine, etc. sont fusionnées en un seul bloc représentatif comme \"Béton\" ou \"Laine\". Cela s'applique également aux différents types de bois, aux murs, aux escaliers, etc.",
+					"utilize_the_search": "Utilise bien la barre de recherche ! En regardant les suggestions, tu pourras affiner ta recherche.",
+					"use_the_wiki": "N'hésite pas à utiliser le Minecraft wiki. Dès que tu as déterminé la version d'ajout du bloc, tu peux utiliser le wiki pour trouver les blocs qui ont été ajoutés dans cette version, ce qui t'aidera à limiter drastiquement tes recherches."
+				}
+			}
+		},
+		"item": {
+			"title": "Mode de jeu : Devine l'objet du jour !",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statistiques",
+					"tooltip": "Statistiques"
+				},
+				"streak": {
+					"title": "Transférer les victoires",
+					"tooltip": "Série de victoires"
+				},
+				"help": {
+					"tooltip": "Comment jouer"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Objet",
+					"release": "Sortie",
+					"stack_size": "Taille de pile",
+					"rarity": "Rareté",
+					"action": "Action",
+					"renewable": "Renou-velable",
+					"usage": "Nombre d'utili-sations",
+					"source": "Nombre de pro-venances"
+				}
+			},
+			"loose": {
+				"title": "Tu n'as pas réussi à découvrir l'objet d'aujourd'hui",
+				"subtitle": "Plus de chance demain ! (ou désactive la limite dans les paramètres)"
+			},
+			"win": {
+				"title": "Objet découvert !",
+				"subtitle": "L'objet du jour était {{name}} !"
+			},
+			"intro": {
+				"description": "Devine l'objet Minecraft du jour !",
+				"start_help": "Écris ci-dessous pour commencer !"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} essais restants !",
+					"one": "{{remaining}} essai restant !",
+					"many": "{{remaining}} essais restants !"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Rechercher un objet",
+					"new_tomorrow": "Nouvel objet demain !",
+					"no_more_guesses": "Essais épuisés !"
+				},
+				"submit": {
+					"aria_label": "Essayer cet objet"
+				},
+				"ambiguous_result": {
+					"description": "Objet ambigu découvert ! Les prochains objets ambigus incorrects seront barrés en rouge.",
+					"image_alt": "Chasseur de trésors - tu l'as échappé belle"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Recharge la page pour découvrir le suivant !",
+				"next_in": "Prochain objet dans {{time}}"
+			},
+			"yesterday_info": {
+				"description": "L'objet d'hier était {{name}} !"
+			},
+			"next_game": {
+				"name": "Objets",
+				"description": "Prêt·e à deviner l'objet d'aujourd'hui ?"
+			},
+			"quick_help": {
+				"look_for": "Tu cherches toujours de meilleures explications ? Jette un œil à l'icône",
+				"tooltip": "Comment jouer",
+				"click_here": "sous le titre du jeu ou clique ici !"
+			},
+			"help": {
+				"title": "Comment jouer",
+				"intro": {
+					"goal": "Le but de ce jeu est de deviner un objet (item) de Minecraft. Chaque jour, un nouvel objet est choisi, et en continuant à deviner l'objet chaque jour, tu peux accumuler des victoires !",
+					"enter_guesses": "Commence par taper le nom de n'importe quel objet dans la barre de recherche. En fonction de ta recherche, jusqu'à 10 résultats apparaîtront. Clique sur l'un de ces objets ou navigue jusqu'à lui à l'aide de tes touches fléchées et appuie sur Entrée pour verrouiller ton choix.",
+					"field_explanation": "Les propriétés de l'objet que tu as choisi seront comparées à celles de l'objet du jour et seront marquées en vert si elles correspondent, en jaune si elles correspondent partiellement et en rouge si elles sont incorrectes. En arrière-plan des cases contenant un nombre ou version incorrects, tu trouveras une flèche indiquant si tu dois chercher plus ou moins haut."
+				},
+				"example": {
+					"title": "Exemple",
+					"intro": "Voyons un exemple de jeu. Nous allons d'abord essayer un objet arbitraire.",
+					"table_interpretation_1": "Nous découvrons que l'objet, comme la plupart des autres, est empilable jusqu'à 64. Il est plus récent que la version Beta 1.2, a une rareté Commune, est renouvelable et il y a moins de 5 façons de l'utiliser et moins de 6 façons de l'obtenir, selon le Minecraft Wiki. Son action nous indique qu'il est soit utilisé dans le monde, soit utilisé pour la fabrication. Essayons un autre objet.",
+					"table_interpretation_2": "Nous avons découvert la version d'ajout de l'objet ! Il est temps de chercher un objet de la version Beta 1.8 qui se trouve dans la catégorie \"use\" selon le Minecraft Wiki. Nous devons aussi rechercher un objet dont les cas d'utilisation correspondent, ainsi que les moyens de l'obtenir.",
+					"table_interpretation_3": "Et voilà ! Nous avons découvert que l'objet était une tranche de pastèque, quel plaisir !"
+				},
+				"partial_matches": {
+					"title": "Explication de la Correspondance Partielle",
+					"intro": "Examinons en détail les correspondances partielles, car c'est probablement la couleur de case qui prête le plus à confusion.",
+					"explanation": "Une correspondance partielle ne peut apparaître que dans les champs constitués d'une liste (par ex. Action). Si tu as deviné un objet qui a au moins une action qui correspond à l'objet à trouver, tu obtiendras une correspondance partielle. Voici un exemple avec le lapis :"
+				},
+				"tips": {
+					"title": "Astuces",
+					"not_all_items": "MCdle ne contient pas tous les types d'objets. La liste est tirée du wiki Minecraft et, en tant que telle, ne contient pas les formes d'objets des différents blocs ou des objets trop similaires, comme toutes les variantes d'armures et outils.",
+					"utilize_the_search": "Utilise bien la barre de recherche ! En regardant les suggestions, tu pourras affiner ta recherche.",
+					"use_the_wiki": "N'hésite pas à utiliser le Minecraft Wiki. Dès que tu as déterminé la version de l'objet, tu peux utiliser le wiki pour trouver les objets qui ont été ajoutés dans cette version, ce qui t'aidera à limiter drastiquement ta recherche.",
+					"usage_and_source_explanation": "Si tu es curieux de savoir comment le nombre d'utilisations et de provenances sont calculés, consulte la page wiki de l'article et fais défiler la page jusqu'à \"Obtention\" et \"Utilisation\". Les en-têtes de ces sections ont été utilisés pour compter leurs différents cas d'utilisation. S'ils manquaient, c'est moi, le développeur, qui les ai ajoutés manuellement."
+				}
+			}
+		},
+		"mob": {
+			"title": "Mode de jeu : Devine la créature du jour !",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statistiques",
+					"tooltip": "Statistiques"
+				},
+				"streak": {
+					"title": "Transférer les victoires",
+					"tooltip": "Série de victoires"
+				},
+				"help": {
+					"tooltip": "Comment jouer"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Créature",
+					"release": "Sortie",
+					"health": "Vie",
+					"height": "Taille",
+					"behavior": "Compor-tement",
+					"spawn": "Apparition",
+					"classification": "Class- ification"
+				}
+			},
+			"loose": {
+				"title": "Tu n'as pas réussi à découvrir la créature d'aujourd'hui",
+				"subtitle": "Plus de chance demain ! (ou désactive la limite dans les paramètres)"
+			},
+			"win": {
+				"title": "Créature découverte !",
+				"subtitle": "La créature du jour était {{name}} !"
+			},
+			"intro": {
+				"description": "Devine la créature Minecraft du jour !",
+				"start_help": "Écris ci-dessous pour commencer !"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} essais restants !",
+					"one": "{{remaining}} essai restant !",
+					"many": "{{remaining}} essais restants !"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Rechercher une créature",
+					"new_tomorrow": "Nouvelle créature demain !",
+					"no_more_guesses": "Essais épuisés !"
+				},
+				"submit": {
+					"aria_label": "Essayer cette créature"
+				},
+				"ambiguous_result": {
+					"description": "Créature ambiguë découverte ! Les prochaines créatures ambiguës incorrectes seront barrées en rouge.",
+					"image_alt": "Chasseur de trésors - tu l'as échappé belle"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Recharge la page pour découvrir le suivant !",
+				"next_in": "Prochaine créature dans {{time}}"
+			},
+			"yesterday_info": {
+				"description": "La créature d'hier était {{name}} !"
+			},
+			"next_game": {
+				"name": "Créatures",
+				"description": "Tu veux tenter ta chance avec la créature d'aujourd'hui ?"
+			},
+			"quick_help": {
+				"look_for": "Tu cherches toujours de meilleures explications ? Jette un œil à l'icône",
+				"tooltip": "Comment jouer",
+				"click_here": "sous le titre du jeu ou clique ici !"
+			},
+			"help": {
+				"title": "Comment jouer",
+				"intro": {
+					"goal": "Le but de ce jeu est de deviner une créature de Minecraft. Chaque jour, une nouvelle créature est choisie, et en continuant à deviner la créature chaque jour, tu peux accumuler les victoires.",
+					"enter_guesses": "Commence par taper le nom de n'importe quelle créature dans le champ de recherche. En fonction de ta recherche, jusqu'à 10 résultats apparaîtront. Clique sur l'une de ces créatures ou navigue jusqu'à elle à l'aide de tes touches fléchées et appuie sur la touche Entrée pour verrouiller ton choix.",
+					"field_explanation": "Les propriétés de la créature que tu as choisie seront comparées à celles de la créature du jour et seront marquées en vert si elles correspondent, en jaune si elles correspondent partiellement et en rouge si elles sont incorrectes. En arrière-plan des cases contenant un nombre ou version incorrects, tu trouveras une flèche indiquant si tu dois chercher plus ou moins haut."
+				},
+				"example": {
+					"title": "Exemple",
+					"intro": "Voyons un exemple de jeu. Nous allons d'abord essayer une créature arbitraire.",
+					"table_interpretation_1": "À partir de cet essai, nous pouvons voir que la créature que nous cherchons a été ajoutée plus récemment que la version 1.6.1, qu'elle n'a pas beaucoup de vie, qu'elle mesure moins de 1,6 blocs et qu'elle peut être passive ou hostile, ou les deux à la fois. Elle n'est pas invoquée par la foudre et n'est pas morte-vivante non plus.",
+					"table_interpretation_2": "D'accord, c'est encore plus récent que la version 1.13, mais nous avons la vie : nous cherchons une créature qui a 10 de vie, c'est-à-dire 5 cœurs. Sa taile est de moins de 0,6 blocs, donc nous cherchons une petite créature. Son comportement est encore une fois une correspondance partielle, donc elle est très probablement passive, mais ça pourrait encore être hostile et neutre. L'apparition et la classification correspondent partiellement, donc apparition \"Biome\" et quelque chose d'autre. Elle est classée comme Animal ou Aquatic, mais peut-être quelque chose d'autre.",
+					"table_interpretation_3": "Super ! Regarde qui a sauté dans ce tutoriel. Nous avons trouvé une petite Grenouille !"
+				},
+				"partial_matches": {
+					"title": "Explication de la Correspondance Partielle",
+					"intro": "Examinons en détail les correspondances partielles, car c'est probablement la couleur de case qui prête le plus à confusion.",
+					"explanation": "Une correspondance partielle ne peut apparaître que dans les champs constitués d'une liste (par exemple Apparition, Classification ou Comportement). Si tu as choisi une créature avec au moins un élément de liste qui correspond à la créature à trouver, tu obtiendras une correspondance partielle. Voici un exemple pour les chevaux :"
+				},
+				"tips": {
+					"title": "Astuces",
+					"not_all_blocks": "MCdle ne contient pas tous les types d'entités. Seules les entités vivantes, comme par exemple les cochons ou les zombies, sont incluses. Les porte-armures, les projectiles ou autres entités similaires non vivantes ne sont pas incluses. La liste est tirée du Minecraft Wiki, donc si une créature ne figure pas dans la liste, elle n'est pas présente dans le jeu.",
+					"utilize_the_search": "Utilise bien la barre de recherche ! En regardant les suggestions, tu pourras affiner ta recherche.",
+					"use_the_wiki": "N'hésite pas à utiliser le Minecraft wiki. Dès que tu as déterminé la version d'ajout du bloc, tu peux utiliser le wiki pour trouver les blocs qui ont été ajoutés dans cette version, ce qui t'aidera à limiter drastiquement tes recherches.",
+					"health_measuring": "Garde à l'esprit que la Vie est mesurée en points de santé, alias demi-cœurs, donc 10 points de vie correspondent à 5 cœurs."
+				}
+			}
+		}
+	},
+	"components": {
+		"quick_help": {
+			"show_button": "Montrer l'aide rapide",
+			"color_explanation": {
+				"title": "Explication des couleurs",
+				"correct": "Champ Correct",
+				"incorrect": "Champ Incorrect",
+				"partial": "Champ Partiel-lement Correct"
+			}
+		},
+		"stats": {
+			"copy_button": "Copier",
+			"copied_confirmation": "Copié !",
+			"share": "Partager",
+			"copy_message": {
+				"header_block": "Mes statistiques sur le bloc de #MCdle 🏆",
+				"header_item": "Mes statistiques sur l'objet de #MCdle 🏆",
+				"header_mob": "Mes statistiques sur la créature de #MCdle 🏆",
+				"total_wins": "🎉 Victoires {{number}}",
+				"average_guesses": "🧮 Essais Moyens {{number}}",
+				"one_shots": "🎯 Premiers Coups {{number}}",
+				"current_streak": "🚀 Série Actuelle {{number}}",
+				"max_streak": "📈 Série Max {{number}}"
+			},
+			"stat_labels": {
+				"total_wins": "Victoires",
+				"average_guesses": "Essais Moyens",
+				"one_shots": "Premiers Coups",
+				"current_streak": "Série Actuelle",
+				"max_streak": "Série Max"
+			},
+			"chart_labels": {
+				"guesses": "Essais"
+			}
+		},
+		"today_guesses": {
+			"loading": "Chargement des réponses des joueurs...",
+			"already_guessed": {
+				"zero": "joueurs ont trouvé la bonne réponse !",
+				"one": "joueur a trouvé la bonne réponse !",
+				"many": "joueurs ont trouvé la bonne réponse !"
+			}
+		},
+		"share_win": {
+			"copy_button": "Copier",
+			"copied_confirmation": "Copié !",
+			"share": "Partager",
+			"all_games": "Toutes les parties",
+			"guess_type": {
+				"block": "Bloc",
+				"item": "Objet",
+				"mob": "Créature"
+			},
+			"guess_line": {
+				"one": "J'ai résolu le #MCdle {{type}} du {{date}} en un seul essai ! {{emoji}}",
+				"many": "J'ai résolu le #MCdle {{type}} du {{date}} en {{number}} essais ! {{emoji}}"
+			},
+			"short_guess_line": {
+				"intro": "J'ai résolu le #MCdle {{type}} du {{date}} ",
+				"one": "en un seul essai",
+				"many": "en {{number}} essais",
+				"conjunction": " et "
+			}
+		},
+		"hints": {
+			"in_x_guesses": {
+				"one": "en un seul essai !",
+				"many": "en {{number}} essais !"
+			},
+			"version": {
+				"description": "Indice sur la version d'ajout",
+				"solution": "Tu cherches un ajout de la version {{version}} !"
+			},
+			"letter": {
+				"description": "Indice sur la première lettre",
+				"solution": "La réponse commence par la lettre {{letter}}..."
+			},
+			"image": {
+				"description": "Indice d'image zoomée",
+				"solution": "Peux-tu voir ce qui se cache dans cette image agrandie 8 fois ?"
+			}
+		}
+	}
+}

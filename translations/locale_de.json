@@ -98,7 +98,8 @@
 			"tooltip": "Sprache",
 			"dropdown": {
 				"english": "English",
-				"german": "Deutsch"
+				"german": "Deutsch",
+				"french": "Französisch"
 			},
 			"description": {
 				"pre_link": "Offiziell unterstützt diese Webseite English & Deutsch, aber dank der Community, sind auch andere Übersetzungen auf ",
