@@ -40,7 +40,7 @@
 						"post_link": " por la imagen de fondo!"
 					},
 					"vanilla_tweaks": {
-						"pre_link": "Gracias a",
+						"pre_link": "Gracias a ",
 						"link": "Vanilla Tweaks",
 						"post_link": " por sus texturas de los tallos de calabaza y sandía!"
 					}
@@ -158,7 +158,7 @@
 			"table": {
 				"header": {
 					"title": "Bloque",
-					"release": "Lanzamiento",
+					"release": "Lanza-miento",
 					"stack_size": "Tamaño de stack",
 					"tools": "Herra-mienta(s)",
 					"blast_resistance": "Resis-tencia a las explo-siones",
@@ -261,11 +261,11 @@
 			"table": {
 				"header": {
 					"title": "Objeto",
-					"release": "Lanzamiento",
+					"release": "Lanza-miento",
 					"stack_size": "Tamaño de stack",
 					"rarity": "Rareza",
 					"action": "Acción",
-					"renewable": "Renovable",
+					"renewable": "Reno-vable",
 					"usage": "Número de usos",
 					"source": "Número de fuentes"
 				}
@@ -370,7 +370,7 @@
 					"height": "Altura",
 					"behavior": "Compor-tamiento",
 					"spawn": "Spawn",
-					"classification": "Class-ification"
+					"classification": "Clasifi-cación"
 				}
 			},
 			"loose": {
