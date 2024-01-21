@@ -100,7 +100,8 @@
 				"english": "Inglés",
 				"german": "Alemán",
 				"french": "Francés",
-				"spanish": "Español"
+				"spanish": "Español",
+				"valencian": "Valenciano"
 			},
 			"description": {
 				"pre_link": "Oficialmente esta página es compatible con Inglés y Alemán, pero a través de la comunidad, otros idiomas fueron disponibles por via ",
@@ -158,9 +159,9 @@
 				"header": {
 					"title": "Bloque",
 					"release": "Lanzamiento",
-					"stack_size": "Tamaño de-stack",
-					"tools": "Herramienta(s)",
-					"blast_resistance": "Resistencia a las explosiones",
+					"stack_size": "Tamaño de stack",
+					"tools": "Herra-mienta(s)",
+					"blast_resistance": "Resis-tencia a las explo-siones",
 					"hardness": "Dureza",
 					"flammable": "Infla-mable",
 					"transparent": "Transpa-rente"
