@@ -6,8 +6,8 @@
 			}
 		},
 		"about": {
-			"title": "Acerca de",
-			"button_title": "Acerca de",
+			"title": "Sobre",
+			"button_title": "Sobre",
 			"intro": "Mcdle es un juego tipo puzzle al estilo Wordl sobre contenido de Minecraft. Cada día, un nuevo bloque, objeto y criatura de Minecraft es elegido y debes adivinarlo. Regresa diariamente pra aumentar tu racha de aciertos! Existe un servidor de Discord donde puedes compartir con tus amigos tus aciertos y rachas!",
 			"help_pointer": "Cómo jugar? En cada juego hay un símbolo ? debajo del título, el cual abre una ventana de ayuda con ejemplos y descripciones detalladas del modo de juego en el que estás.",
 			"suggestions": {
