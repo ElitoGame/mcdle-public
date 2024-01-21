@@ -11,6 +11,7 @@ This repo contains the translations of MCdle. I will keep english and german up 
 | English  | Up to date | ✅       |
 | German   | Up to date | ✅       |
 | French   | Up to date | ❌       |
+| Spanish  | Up to date | ❌       |
 
 ### Language modifications
 
