@@ -6,9 +6,9 @@
 			}
 		},
 		"about": {
-			"title": "Acerca de",
-			"button_title": "Acerca de",
-			"intro": "Mcdle es un juego tipo puzzle al estilo Wordl sobre contenido de Minecraft. Cada día, un nuevo bloque, objeto y criatura de Minecraft es elegido y debes adivinarlo. Regresa diariamente pra aumentar tu racha de aciertos! Existe un servidor de Discord donde puedes compartir con tus amigos tus aciertos y rachas!",
+			"title": "Sobre",
+			"button_title": "Sobre",
+			"intro": "Mcdle es un joc tipo puzzle al estil Wordl sobre contingut de Minecraft. Cada dia, un nou bloque, objecte i criatura de Minecraft es seleccionat i has d'endevinar-lo. Torna diàriament per a aumentar tu racha de aciertos! Existe un servidor de Discord donde puedes compartir con tus amigos tus aciertos y rachas!",
 			"help_pointer": "Cómo jugar? En cada juego hay un símbolo ? debajo del título, el cual abre una ventana de ayuda con ejemplos y descripciones detalladas del modo de juego en el que estás.",
 			"suggestions": {
 				"title": "Sugerencias",
@@ -40,7 +40,7 @@
 						"post_link": " por la imagen de fondo!"
 					},
 					"vanilla_tweaks": {
-						"pre_link": "Gracias a ",
+						"pre_link": "Gracias a",
 						"link": "Vanilla Tweaks",
 						"post_link": " por sus texturas de los tallos de calabaza y sandía!"
 					}
@@ -100,8 +100,7 @@
 				"english": "Inglés",
 				"german": "Alemán",
 				"french": "Francés",
-				"spanish": "Español",
-				"valencian": "Valenciano"
+				"spanish": "Español"
 			},
 			"description": {
 				"pre_link": "Oficialmente esta página es compatible con Inglés y Alemán, pero a través de la comunidad, otros idiomas fueron disponibles por via ",
@@ -158,10 +157,10 @@
 			"table": {
 				"header": {
 					"title": "Bloque",
-					"release": "Lanza-miento",
-					"stack_size": "Tamaño de stack",
-					"tools": "Herra-mienta(s)",
-					"blast_resistance": "Resis-tencia a las explo-siones",
+					"release": "Lanzamiento",
+					"stack_size": "Tamaño de-stack",
+					"tools": "Herramienta(s)",
+					"blast_resistance": "Resistencia a las explosiones",
 					"hardness": "Dureza",
 					"flammable": "Infla-mable",
 					"transparent": "Transpa-rente"
@@ -261,11 +260,11 @@
 			"table": {
 				"header": {
 					"title": "Objeto",
-					"release": "Lanza-miento",
+					"release": "Lanzamiento",
 					"stack_size": "Tamaño de stack",
 					"rarity": "Rareza",
 					"action": "Acción",
-					"renewable": "Reno-vable",
+					"renewable": "Renovable",
 					"usage": "Número de usos",
 					"source": "Número de fuentes"
 				}
@@ -370,7 +369,7 @@
 					"height": "Altura",
 					"behavior": "Compor-tamiento",
 					"spawn": "Spawn",
-					"classification": "Clasifi-cación"
+					"classification": "Class-ification"
 				}
 			},
 			"loose": {
