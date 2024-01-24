@@ -20,14 +20,17 @@ async function generateTranslationFile() {
 	// Works only in a browser environment like any console or when embedded in a website
 	//  and will start a download of the result file.
 	const print_to_file = false;
+	// Use nice spacing and indentation in the output file. Leads to a longer file, but is easier to read.
+	//  Disable if you want the console cuts off the output. or if you want to save a few bytes.
+	const pretty_print = true;
 	// ====================================================================================================
 
 	const languageFile = await fetch(
-		`https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/${version}/assets/minecraft/lang/${target_language}.json`,
+		`https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/${version}/assets/minecraft/lang/${target_language}.json`
 	).then((r) => r.json());
 
 	const mcdleTranslationFile = await fetch(
-		`https://raw.githubusercontent.com/ElitoGame/mcdle-public/main/translations/locale_${base_language}.json`,
+		`https://raw.githubusercontent.com/ElitoGame/mcdle-public/main/translations/locale_${base_language}.json`
 	).then((r) => r.json());
 
 	let result = mcdleTranslationFile;
@@ -1774,6 +1777,7 @@ async function generateTranslationFile() {
 			"item.minecraft.netherite_pickaxe",
 			"item.minecraft.netherite_shovel",
 			"item.minecraft.netherite_sword",
+			"item.minecraft.netherite_upgrade_smithing_template",
 			"item.minecraft.oak_boat",
 			"item.minecraft.oak_chest_boat",
 			"item.minecraft.ocelot_spawn_egg",
@@ -1989,6 +1993,7 @@ async function generateTranslationFile() {
 			diamond_sword: "sword",
 			disc_fragment_5: "disc_fragment",
 			music_disc_11: "music_disc",
+			armor_trim_smithing_template: "smithing_template",
 		};
 
 		// Filter out all blocks from the minecraft translation file.
@@ -2169,14 +2174,19 @@ async function generateTranslationFile() {
 	===================================*/
 	// print the result to the console.
 	if (print_to_console) {
-		console.log(JSON.stringify(result));
+		const data_string = pretty_print
+			? JSON.stringify(result, null, 2)
+			: JSON.stringify(result);
+		console.log(data_string);
 	}
 
 	function downloadObjectAsJson(exportObj, exportName) {
-		var dataStr =
-			"data:text/json;charset=utf-8," +
-			encodeURIComponent(JSON.stringify(exportObj));
-		var downloadAnchorNode = document.createElement("a");
+		const data_string = pretty_print
+			? JSON.stringify(result, null, 2)
+			: JSON.stringify(result);
+		let dataStr =
+			"data:text/json;charset=utf-8," + encodeURIComponent(data_string);
+		let downloadAnchorNode = document.createElement("a");
 		downloadAnchorNode.setAttribute("href", dataStr);
 		downloadAnchorNode.setAttribute("download", exportName + ".json");
 		document.body.appendChild(downloadAnchorNode); // required for firefox
@@ -2191,7 +2201,7 @@ async function generateTranslationFile() {
 		} catch (e) {
 			console.error(
 				`Failed to download file. Make sure you are running this in a browser or switch to console output. 
-If you can't solve this issue, join MCdle's discord and seek help in the translation forums.`,
+If you can't solve this issue, join MCdle's discord and seek help in the translation forums.`
 			);
 		}
 	}
