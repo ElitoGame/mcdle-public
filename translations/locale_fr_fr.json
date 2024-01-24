@@ -163,6 +163,25 @@
 					"hardness": "Dureté",
 					"flammable": "Inflam-mable",
 					"transparent": "Trans-parent"
+				},
+				"data": {
+					"tools": {
+						"any_tool": "Any tool",
+						"axe": "Axe",
+						"pickaxe": "Pickaxe",
+						"hoe": "Hoe",
+						"shears": "Shears",
+						"sword": "Sword",
+						"none": "None",
+						"shovel": "Shovel",
+						"bucket": "Bucket",
+						"brush": "Brush"
+					},
+					"states": {
+						"yes": "Yes",
+						"no": "No",
+						"partial": "Partial"
+					}
 				}
 			},
 			"loose": {
@@ -266,6 +285,26 @@
 					"renewable": "Renou-velable",
 					"usage": "Nombre d'utili-sations",
 					"source": "Nombre de pro-venances"
+				},
+				"data": {
+					"rarity": {
+						"common": "Common",
+						"uncommon": "Uncommon",
+						"rare": "Rare",
+						"epic": "Epic",
+						"mixed": "Mixed"
+					},
+					"inventory_category": {
+						"tools_and_utilities": "Tools & Utilities",
+						"redstone_blocks": "Redstone Blocks",
+						"functional_blocks": "Functional Blocks",
+						"natural_blocks": "Natural Blocks",
+						"ingredients": "Ingredients",
+						"combat": "Combat",
+						"food_and_drinks": "Food & Drinks",
+						"none": "None",
+						"spawn_eggs": "Spawn Eggs"
+					}
 				}
 			},
 			"loose": {
@@ -369,6 +408,41 @@
 					"behavior": "Compor-tement",
 					"spawn": "Apparition",
 					"classification": "Class- ification"
+				},
+				"data": {
+					"behavior": {
+						"passive": "Passive",
+						"neutral": "Neutral",
+						"hostile": "Hostile",
+						"defensive": "Defensive"
+					},
+					"classification": {
+						"none": "None",
+						"animal": "Animal",
+						"aquatic": "Aquatic",
+						"arthropod": "Arthropod",
+						"undead": "Undead",
+						"illager": "Illager",
+						"golem": "Golem"
+					},
+					"spawn": {
+						"structure": "Structure",
+						"breeding": "Breeding",
+						"biome": "Biome",
+						"light_level": "Light level",
+						"block": "Block",
+						"grass": "Grass",
+						"nether": "Nether",
+						"projectile": "Projectile",
+						"conversion": "Conversion",
+						"lightning": "Lightning",
+						"the_end": "The End",
+						"summon": "Summon",
+						"raids": "Raids",
+						"command": "Command",
+						"overworld": "Overworld",
+						"hatching": "Hatching"
+					}
 				}
 			},
 			"loose": {

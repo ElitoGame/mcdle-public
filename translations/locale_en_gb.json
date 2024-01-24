@@ -1,0 +1,1180 @@
+{
+	"footer": {
+		"links": {
+			"cookie": {
+				"title": "Cookie Policy"
+			}
+		},
+		"about": {
+			"title": "About",
+			"button_title": "About",
+			"intro": "Mcdle is a Wordle-like puzzle game for Minecraft related content. Every day, a new Minecraft block, item and mob is chosen and you have to guess it. Come back daily to build up a win-streak! There are social sharing features, so you can share your wins & win-streaks with your friends!",
+			"help_pointer": "Not sure how to play the game? Every game page has a ? icon below the title, which will open a help menu with examples and detailed descriptions of the current gamemode.",
+			"suggestions": {
+				"title": "Suggestions",
+				"description": {
+					"pre_link": "I handle most of the suggestions and bug/issue support on ",
+					"link": "Discord",
+					"post_link": ", feel free to join and hang out, we got melons! We've also got channels to discuss today's quizzes and to share your win-streaks!"
+				}
+			},
+			"support": {
+				"title": "Support",
+				"description": {
+					"pre_link": "If you want to support the project (e.g. pay for the url, support new features, etc), check out my ",
+					"link": "Ko-fi",
+					"post_link": "!"
+				}
+			},
+			"credits": {
+				"title": "Credits",
+				"description": {
+					"pre_link": "The data for this is game is acquired from the ",
+					"link": "Minecraft Wiki",
+					"post_link": ". Many of the images are also hosted on there, so a big thanks to them for their hard work keeping the wiki up to date! MCdle is not affiliated with or endorsed by or sponsored by Mojang Studios. But it is obviously based off of Minecraft and inspired by Wordle and LoLdle."
+				},
+				"credit_list": {
+					"kineticraft": {
+						"pre_link": "Thanks to the server ",
+						"link": "kineticraftreborn.net",
+						"post_link": " for the background image!"
+					},
+					"vanilla_tweaks": {
+						"pre_link": "Thanks to ",
+						"link": "Vanilla Tweaks",
+						"post_link": " for their melon & pumpkin stem textures!"
+					}
+				}
+			},
+			"version": {
+				"title": "Version",
+				"description": "Today's game is riddle #{{version}}! The game will choose a new block, item and mob every day at midnight UTC."
+			}
+		}
+	},
+	"header": {
+		"settings": {
+			"colorblind": {
+				"input_name": "Colorblind mode",
+				"label": "Colorblind mode"
+			},
+			"difficulty": {
+				"limit_guesses_6": {
+					"input_name": "Limited attempts",
+					"label": "Limit amount of guesses to 6 attempts"
+				},
+				"search": {
+					"game_knowledge": {
+						"input_name": "Game knowledge",
+						"label": "Game knowledge"
+					},
+					"logical": {
+						"input_name": "Logical",
+						"label": "Logical"
+					},
+					"showcase": {
+						"fallback": "Choose a difficulty for your search!",
+						"game_knowledge": {
+							"description": "No search hints, you are on your own with your game knowledge!",
+							"image_alt": "Game knowledge difficulty search"
+						},
+						"logical": {
+							"description": "Search will show you all available stats, making MCdle a logic game!",
+							"image_alt": "Logical difficulty search"
+						}
+					},
+					"title": "Search:"
+				},
+				"title": "Difficulty"
+			},
+			"settings_button": {
+				"image_alt": "Settings button",
+				"tooltip": "Settings"
+			},
+			"title": "Settings"
+		},
+		"language": {
+			"title": "Language",
+			"tooltip": "Language",
+			"dropdown": {
+				"english": "English",
+				"german": "Deutsch"
+			},
+			"description": {
+				"pre_link": "Officially this website supports English & German, but through the community, other languages have been made available via ",
+				"link": "Github",
+				"post_link": ". There is no guarantee that the unofficial translations are up to date or correct, so if you find any mistakes, feel free to open a pull request!"
+			}
+		}
+	},
+	"pages": {
+		"404": {
+			"compass_alt": "Compass gif",
+			"message": "You've encountered a 404 end in this cave...",
+			"return_message": "Have a compass to return home!"
+		},
+		"index": {
+			"header": "Choose a gamemode",
+			"links": {
+				"blocks": {
+					"image_alt": "Blocks icon",
+					"subtitle": "Guess today's minecraft block",
+					"title": "Blocks"
+				},
+				"items": {
+					"image_alt": "Items icon",
+					"subtitle": "Guess the minecraft item of today",
+					"title": "Items"
+				},
+				"mobs": {
+					"image_alt": "Mobs icon",
+					"subtitle": "Discover today's minecraft mob",
+					"title": "Mobs"
+				},
+				"goal": {
+					"title": "MCdle Bestiary",
+					"image_alt": "Goal icon"
+				}
+			}
+		},
+		"block": {
+			"title": "GameMode: Guess today's Block!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Stats",
+					"tooltip": "Stats"
+				},
+				"streak": {
+					"title": "Transfer progress",
+					"tooltip": "Win Streak"
+				},
+				"help": {
+					"tooltip": "How to play"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Block",
+					"release": "Release",
+					"stack_size": "Stack size",
+					"tools": "Tool(s)",
+					"blast_resistance": "Blast resis-tance",
+					"hardness": "Hardness",
+					"flammable": "Flamm-able",
+					"transparent": "Trans-parent"
+				},
+				"data": {
+					"tools": {
+						"any_tool": "Any tool",
+						"axe": "Axe",
+						"pickaxe": "Pickaxe",
+						"hoe": "Hoe",
+						"shears": "Shears",
+						"sword": "Sword",
+						"none": "None",
+						"shovel": "Shovel",
+						"bucket": "Bucket",
+						"brush": "Brush"
+					},
+					"states": {
+						"yes": "Yes",
+						"no": "No",
+						"partial": "Partial"
+					}
+				}
+			},
+			"loose": {
+				"title": "You've failed to discover today's block",
+				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+			},
+			"win": {
+				"title": "Block discovered!",
+				"subtitle": "Today's block was {{name}}!"
+			},
+			"intro": {
+				"description": "Guess today's Minecraft block!",
+				"start_help": "Type below to start!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} guesses remaining!",
+					"one": "{{remaining}} guess remaining!",
+					"many": "{{remaining}} guesses remaining!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Search for a block",
+					"new_tomorrow": "New block tomorrow!",
+					"no_more_guesses": "Run out of guesses!"
+				},
+				"submit": {
+					"aria_label": "Try this block"
+				},
+				"ambiguous_result": {
+					"description": "Ambiguous block discovered! Further incorrect ambiguous blocks will be struck out in red.",
+					"image_alt": "Treasure hunter - close call"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Reload the page to get the next one!",
+				"next_in": "Next block in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Yesterday's block was {{name}}!"
+			},
+			"next_game": {
+				"name": "Blocks",
+				"description": "Up for guessing today's block?"
+			},
+			"quick_help": {
+				"look_for": "Are you still looking for a better explanation? Look for the",
+				"tooltip": "How to play",
+				"click_here": "icon below the game title or click here!"
+			},
+			"help": {
+				"title": "How to play",
+				"intro": {
+					"goal": "The goal of this game is to guess a Minecraft block. Every day a new block is chosen, and by continuing to guess the block of the day, you can build up a win-streak!",
+					"enter_guesses": "Begin by typing the name of any block in the search field. Based on your search, up to 10 results will pop up. Click on any of these blocks, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+					"field_explanation": "The properties of your chosen block will be compared to today's block and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+				},
+				"example": {
+					"title": "Example",
+					"intro": "Let's look at an example game. First we'll try an arbitrary block.",
+					"table_interpretation_1": "We've learned that the block, like most others, is stackable until 64, and it is not flammable. It's not a pre-alpha block and can't be mined with a Pickaxe. So let's try a different, newer, block.",
+					"table_interpretation_2": "We've discovered the block's version! Time to look for a Beta 1.8 block. Additionally, we got a partial match on the tool, so it can be broken by an Axe and some other tool. Also, the block is neither transparent (\"Yes\") nor no transparent (\"No\"), so it must be partially transparent. Let's look for a block that matches all of these properties.",
+					"table_interpretation_3": "There we go! We've discovered that the block was a block of melon, what a delight!"
+				},
+				"partial_matches": {
+					"title": "Partial Match explanation",
+					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Tools). If you guessed a block that can be broken with at least one tool that matches the actual block, you will get a partial match. Here's an example for leaves:"
+				},
+				"tips": {
+					"title": "Tips",
+					"not_all_blocks": "MCdle does not contain every type of block. All the coloured variants of concrete, terracotta, wool, etc. are merged into one representative block like \"Concrete\" or \"Wool\". This also applies to the different wood types, walls, stairs, etc.",
+					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the block, you can use the wiki to find the blocks that were added in that version, which will help you narrow down your search drastically."
+				}
+			}
+		},
+		"item": {
+			"title": "GameMode: Guess today's Item!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Stats",
+					"tooltip": "Stats"
+				},
+				"streak": {
+					"title": "Transfer progress",
+					"tooltip": "Win Streak"
+				},
+				"help": {
+					"tooltip": "How to play"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Item",
+					"release": "Release",
+					"stack_size": "Stack size",
+					"rarity": "Rarity",
+					"action": "Creative Inv. Category",
+					"renewable": "Renewable",
+					"usage": "Usage count",
+					"source": "Source count"
+				},
+				"data": {
+					"rarity": {
+						"common": "Common",
+						"uncommon": "Uncommon",
+						"rare": "Rare",
+						"epic": "Epic",
+						"mixed": "Mixed"
+					},
+					"inventory_category": {
+						"tools_and_utilities": "Tools & Utilities",
+						"redstone_blocks": "Redstone Blocks",
+						"functional_blocks": "Functional Blocks",
+						"natural_blocks": "Natural Blocks",
+						"ingredients": "Ingredients",
+						"combat": "Combat",
+						"food_and_drinks": "Food & Drinks",
+						"none": "None",
+						"spawn_eggs": "Spawn Eggs"
+					}
+				}
+			},
+			"loose": {
+				"title": "You've failed to discover today's item",
+				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+			},
+			"win": {
+				"title": "Item discovered!",
+				"subtitle": "Today's item was {{name}}!"
+			},
+			"intro": {
+				"description": "Guess today's Minecraft item!",
+				"start_help": "Type below to start!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} guesses remaining!",
+					"one": "{{remaining}} guess remaining!",
+					"many": "{{remaining}} guesses remaining!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Search for an item",
+					"new_tomorrow": "New item tomorrow!",
+					"no_more_guesses": "Run out of guesses!"
+				},
+				"submit": {
+					"aria_label": "Try this item"
+				},
+				"ambiguous_result": {
+					"description": "Ambiguous item discovered! Further incorrect ambiguous items will be struck out in red.",
+					"image_alt": "Treasure hunter - close call"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Reload the page to get the next one!",
+				"next_in": "Next item in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Yesterday's item was {{name}}!"
+			},
+			"next_game": {
+				"name": "Items",
+				"description": "Ready to guess today's item too?"
+			},
+			"quick_help": {
+				"look_for": "Are you still looking for a better explanation? Look for the",
+				"tooltip": "How to play",
+				"click_here": "icon below the game title or click here!"
+			},
+			"help": {
+				"title": "How to play",
+				"intro": {
+					"goal": "The goal of this game is to guess a Minecraft item. Every day a new item is chosen, and by continuing to guess the item of the day, you can build up a win-streak.",
+					"enter_guesses": "Begin by typing the name of any item in the search field. Based on your search, up to 10 results will pop up. Click on any of these items, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+					"field_explanation": "The properties of your chosen item will be compared to today's item and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+				},
+				"example": {
+					"title": "Example",
+					"intro": "Let's look at an example game. First we'll try an arbitrary item.",
+					"table_interpretation_1": "We've learned that the item, like most others is stackable till 64. It's newer than Beta 1.2, has Common rarity, is renewable and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's action tells us, that it's either used in the world or used for crafted. Let's try a different item.",
+					"table_interpretation_2": "We've discovered the items version! Time to look for a Beta 1.8 item that's in the \"use\" category according to the Minecraft wiki. We now need to look for an item with matching use cases and ways how to obtain it.",
+					"table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
+				},
+				"partial_matches": {
+					"title": "Partial Match explanation",
+					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Action). If you guessed a item that has at least one action that matches the actual item, you will get a partial match. Here's an example for lapis:"
+				},
+				"tips": {
+					"title": "Tips",
+					"not_all_items": "MCdle does not contain every type of item. The list is taken from the Minecraft wiki and as such does not contain the item forms of various blocks or too similar items, like all the armor/tool variants.",
+					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the item, you can use the wiki to find the items that were added in that version, which will help you narrow down your search drastically.",
+					"usage_and_source_explanation": "If you are curious how the Usage count/Source count is calculated, check the item's wiki page and scroll to \"Obtaining\" and \"Usage\". The headers of these sections have been used to count their different usecases. If they were missing, I, the developer, have added them manually."
+				}
+			}
+		},
+		"mob": {
+			"title": "GameMode: Guess today's Mob!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Stats",
+					"tooltip": "Stats"
+				},
+				"streak": {
+					"title": "Transfer progress",
+					"tooltip": "Win Streak"
+				},
+				"help": {
+					"tooltip": "How to play"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Mob",
+					"release": "Release",
+					"health": "Health",
+					"height": "Height",
+					"behavior": "Behavior",
+					"spawn": "Spawn",
+					"classification": "Class- ification"
+				},
+				"data": {
+					"behavior": {
+						"passive": "Passive",
+						"neutral": "Neutral",
+						"hostile": "Hostile",
+						"defensive": "Defensive"
+					},
+					"classification": {
+						"none": "None",
+						"animal": "Animal",
+						"aquatic": "Aquatic",
+						"arthropod": "Arthropod",
+						"undead": "Undead",
+						"illager": "Illager",
+						"golem": "Golem"
+					},
+					"spawn": {
+						"structure": "Structure",
+						"breeding": "Breeding",
+						"biome": "Biome",
+						"light_level": "Light level",
+						"block": "Block",
+						"grass": "Grass",
+						"nether": "Nether",
+						"projectile": "Projectile",
+						"conversion": "Conversion",
+						"lightning": "Lightning",
+						"the_end": "The End",
+						"summon": "Summon",
+						"raids": "Raids",
+						"command": "Command",
+						"overworld": "Overworld",
+						"hatching": "Hatching"
+					}
+				}
+			},
+			"loose": {
+				"title": "You've failed to discover today's mob",
+				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+			},
+			"win": {
+				"title": "Mob discovered!",
+				"subtitle": "Today's mob was {{name}}!"
+			},
+			"intro": {
+				"description": "Guess today's Minecraft mob!",
+				"start_help": "Type below to start!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} guesses remaining!",
+					"one": "{{remaining}} guess remaining!",
+					"many": "{{remaining}} guesses remaining!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Search for a mob",
+					"new_tomorrow": "New mob tomorrow!",
+					"no_more_guesses": "Run out of guesses!"
+				},
+				"submit": {
+					"aria_label": "Try this mob"
+				},
+				"ambiguous_result": {
+					"description": "Ambiguous mob discovered! Further incorrect ambiguous mobs will be struck out in red.",
+					"image_alt": "Treasure hunter - close call"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Reload the page to get the next one!",
+				"next_in": "Next mob in {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Yesterday's mob was {{name}}!"
+			},
+			"next_game": {
+				"name": "Mobs",
+				"description": "Wanna give today's mob a shot?"
+			},
+			"quick_help": {
+				"look_for": "Are you still looking for a better explanation? Look for the",
+				"tooltip": "How to play",
+				"click_here": "icon below the game title or click here!"
+			},
+			"help": {
+				"title": "How to play",
+				"intro": {
+					"goal": "The goal of this game is to guess a Minecraft mob. Every day a new mob is chosen, and by continuing to guess the mob of the day, you can build up a win-streak.",
+					"enter_guesses": "Begin by typing the name of any mob in the search field. Based on your search, up to 10 results will pop up. Click on any of these mobs, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+					"field_explanation": "The properties of your chosen mob will be compared to today's mob and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+				},
+				"example": {
+					"title": "Example",
+					"intro": "Let's look at an example game. First we'll try an arbitrary mob.",
+					"table_interpretation_1": "From this guess, we can see that the mob we're looking for is newer then 1.6.1, doesn't have a lot of Health, is less then 1.6 blocks tall, and might be passive or hostile or a mix with one of those two. It's not summoned by Lightning and ain't undead either.",
+					"table_interpretation_2": "Alright, still newer than 1.13, but we got the health: we're looking for a mob with 10 HP, aka 5 hearts. It's less than 0.6 blocks tall, so we're looking for a small mob. The mobs behaviour is again a partial match, so it's very likely passive, but could still be hostile & neutral. Both Spawn & Classification got a partial match, so Biome spawn & some other reason and classified as Animal or Acquatic and maybe something.",
+					"table_interpretation_3": "Let's go! Look who hopped into this tutorial. We've found a little Frog!"
+				},
+				"partial_matches": {
+					"title": "Partial Match explanation",
+					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Spawn, Classification or Behavior). If you guessed a mob with at least one list element that matches the actual mob, you will get a partial match. Here's an example for horses:"
+				},
+				"tips": {
+					"title": "Tips",
+					"not_all_blocks": "MCdle does not contain every type of entity. Only living entities, like e.g. pigs or zombies are included. Armorstands, projectiles or similar not living entities are not included. The list is taken from the Minecraft wiki, so if it's not on there in the mob list, it's not in this game.",
+					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the mob, you can use the wiki to find the mobs that were added in that version, which will help you narrow down your search drastically.",
+					"health_measuring": "Keep in mind that Health is measured in health points, aka half hearts, so 10 HP is 5 hearts."
+				}
+			}
+		}
+	},
+	"components": {
+		"quick_help": {
+			"show_button": "Show quick help",
+			"color_explanation": {
+				"title": "Color explanation",
+				"correct": "Correct Field",
+				"incorrect": "Incorrect Field",
+				"partial": "Partially correct Field"
+			}
+		},
+		"stats": {
+			"copy_button": "Copy",
+			"copied_confirmation": "Copied!",
+			"share": "Share",
+			"copy_message": {
+				"header_block": "My #MCdle block statistics 🏆",
+				"header_item": "My #MCdle item statistics 🏆",
+				"header_mob": "My #MCdle mob statistics 🏆",
+				"total_wins": "🎉 Games Won {{number}}",
+				"average_guesses": "🧮 Average Guesses {{number}}",
+				"one_shots": "🎯 One-Shots {{number}}",
+				"current_streak": "🚀 Current Streak {{number}}",
+				"max_streak": "📈 Max Streak {{number}}"
+			},
+			"stat_labels": {
+				"total_wins": "Games Won",
+				"average_guesses": "Average Guesses",
+				"one_shots": "One-Shots",
+				"current_streak": "Current Streak",
+				"max_streak": "Max Streak"
+			},
+			"chart_labels": {
+				"guesses": "Guesses"
+			}
+		},
+		"today_guesses": {
+			"loading": "Loading player guesses...",
+			"already_guessed": {
+				"zero": "players already guessed correctly!",
+				"one": "player already guessed correctly!",
+				"many": "players already guessed correctly!"
+			}
+		},
+		"share_win": {
+			"copy_button": "Copy",
+			"copied_confirmation": "Copied!",
+			"share": "Share",
+			"all_games": "All Games",
+			"guess_type": {
+				"block": "block",
+				"item": "item",
+				"mob": "mob"
+			},
+			"guess_line": {
+				"one": "I discovered {{date}}'s #MCdle {{type}} in {{number}} try! {{emoji}}",
+				"many": "I discovered {{date}}'s #MCdle {{type}} in {{number}} tries! {{emoji}}"
+			},
+			"short_guess_line": {
+				"intro": "I discovered {{date}}'s #MCdle ",
+				"one": "{{type}} in {{number}} try",
+				"many": "{{type}} in {{number}} tries",
+				"conjunction": " and "
+			}
+		},
+		"hints": {
+			"in_x_guesses": {
+				"one": "in {{number}} guess!",
+				"many": "in {{number}} guesses!"
+			},
+			"version": {
+				"description": "Release version hint",
+				"solution": "You're looking for a {{version}} release!"
+			},
+			"letter": {
+				"description": "Starting letter hint",
+				"solution": "The solution starts with {{letter}}..."
+			},
+			"image": {
+				"description": "Zoomed image hint",
+				"solution": "Can you see what's hiding in this 8x zoomed in image?"
+			}
+		}
+	},
+	"blocks": {
+		"acacia_button": "Button",
+		"acacia_door": "Door",
+		"acacia_fence": "Fence",
+		"acacia_fence_gate": "Fence Gate",
+		"acacia_leaves": "Leaves",
+		"acacia_log": "Log",
+		"acacia_planks": "Planks",
+		"acacia_pressure_plate": "Pressure Plate",
+		"acacia_sapling": "Sapling",
+		"acacia_sign": "Sign",
+		"acacia_slab": "Slab",
+		"acacia_stairs": "Stairs",
+		"acacia_trapdoor": "Trapdoor",
+		"acacia_wood": "Wood",
+		"activator_rail": "Activator Rail",
+		"allium": "Flower",
+		"amethyst_block": "Block of Amethyst",
+		"amethyst_cluster": "Amethyst Cluster",
+		"ancient_debris": "Ancient Debris",
+		"andesite": "Andesite",
+		"andesite_wall": "Wall",
+		"anvil": "Anvil",
+		"azalea": "Azalea",
+		"bamboo": "Bamboo",
+		"bamboo_block": "Block of Bamboo",
+		"bamboo_mosaic": "Bamboo Mosaic",
+		"barrel": "Barrel",
+		"barrier": "Barrier",
+		"basalt": "Basalt",
+		"beacon": "Beacon",
+		"bedrock": "Bedrock",
+		"bee_nest": "Bee Nest",
+		"beetroots": "Beetroots",
+		"bell": "Bell",
+		"big_dripleaf": "Big Dripleaf",
+		"black_banner": "Banner",
+		"black_bed": "Bed",
+		"black_candle": "Candle",
+		"black_carpet": "Carpet",
+		"black_concrete": "Concrete",
+		"black_concrete_powder": "Concrete Powder",
+		"black_glazed_terracotta": "Glazed Terracotta",
+		"black_shulker_box": "Shulker Box",
+		"black_stained_glass": "Glass",
+		"black_stained_glass_pane": "Glass Pane",
+		"black_terracotta": "Terracotta",
+		"black_wool": "Wool",
+		"blackstone": "Blackstone",
+		"blast_furnace": "Blast Furnace",
+		"blue_ice": "Blue Ice",
+		"bone_block": "Bone Block",
+		"bookshelf": "Bookshelf",
+		"brain_coral": "Coral",
+		"brain_coral_block": "Coral Block",
+		"brain_coral_fan": "Coral Fan",
+		"brewing_stand": "Brewing Stand",
+		"bricks": "Bricks",
+		"brown_mushroom": "Mushroom",
+		"brown_mushroom_block": "Mushroom Block",
+		"budding_amethyst": "Budding Amethyst",
+		"cactus": "Cactus",
+		"cake": "Cake",
+		"calcite": "Calcite",
+		"calibrated_sculk_sensor": "Calibrated Sculk Sensor",
+		"campfire": "Campfire",
+		"carrots": "Carrots",
+		"cartography_table": "Cartography Table",
+		"carved_pumpkin": "Pumpkin",
+		"cauldron": "Cauldron",
+		"cave_vines": "Cave Vines",
+		"chain": "Chain",
+		"chain_command_block": "Command Block",
+		"chest": "Chest",
+		"chiseled_bookshelf": "Chiselled Bookshelf",
+		"chiseled_deepslate": "Chiselled Deepslate",
+		"chiseled_nether_bricks": "Nether Bricks",
+		"chiseled_polished_blackstone": "Polished Blackstone",
+		"chiseled_sandstone": "Sandstone",
+		"chiseled_stone_bricks": "Stone Bricks",
+		"chorus_flower": "Chorus Flower",
+		"chorus_plant": "Chorus Plant",
+		"clay": "Clay",
+		"coal_block": "Block of Coal",
+		"coal_ore": "Coal Ore",
+		"coarse_dirt": "Coarse Dirt",
+		"cobbled_deepslate": "Cobbled Deepslate",
+		"cobblestone": "Cobblestone",
+		"cobweb": "Cobweb",
+		"cocoa": "Cocoa",
+		"comparator": "Redstone Comparator",
+		"composter": "Composter",
+		"conduit": "Conduit",
+		"copper_block": "Block of Copper",
+		"copper_ore": "Copper Ore",
+		"cracked_deepslate_bricks": "Deepslate Bricks",
+		"cracked_deepslate_tiles": "Deepslate Tiles",
+		"cracked_polished_blackstone_bricks": "Polished Blackstone Bricks",
+		"crafting_table": "Crafting Table",
+		"creeper_head": "Head",
+		"crimson_fungus": "Fungus",
+		"crimson_nylium": "Nylium",
+		"crimson_roots": "Roots",
+		"crying_obsidian": "Crying Obsidian",
+		"dark_prismarine": "Prismarine",
+		"daylight_detector": "Daylight Detector",
+		"dead_bush": "Dead Bush",
+		"decorated_pot": "Decorated Pot",
+		"deepslate": "Deepslate",
+		"deepslate_diamond_ore": "Diamond Ore",
+		"deepslate_emerald_ore": "Emerald Ore",
+		"deepslate_gold_ore": "Gold Ore",
+		"deepslate_iron_ore": "Iron Ore",
+		"deepslate_lapis_ore": "Lapis Lazuli Ore",
+		"deepslate_redstone_ore": "Redstone Ore",
+		"detector_rail": "Detector Rail",
+		"diamond_block": "Block of Diamond",
+		"diorite": "Diorite",
+		"dirt": "Dirt",
+		"dirt_path": "Dirt Path",
+		"dispenser": "Dispenser",
+		"dragon_egg": "Dragon Egg",
+		"dried_kelp_block": "Dried Kelp Block",
+		"dripstone_block": "Dripstone Block",
+		"dropper": "Dropper",
+		"emerald_block": "Block of Emerald",
+		"enchanting_table": "Enchanting Table",
+		"end_portal_frame": "End Portal Frame",
+		"end_rod": "End Rod",
+		"end_stone": "End Stone",
+		"end_stone_bricks": "End Stone Bricks",
+		"ender_chest": "Ender Chest",
+		"farmland": "Farmland",
+		"fern": "Fern",
+		"fire": "Fire",
+		"fletching_table": "Fletching Table",
+		"flower_pot": "Flower Pot",
+		"frogspawn": "Frogspawn",
+		"furnace": "Furnace",
+		"gilded_blackstone": "Gilded Blackstone",
+		"glow_lichen": "Glow Lichen",
+		"glowstone": "Glowstone",
+		"gold_block": "Block of Gold",
+		"granite": "Granite",
+		"grass_block": "Grass Block",
+		"gravel": "Gravel",
+		"grindstone": "Grindstone",
+		"hanging_roots": "Hanging Roots",
+		"hay_block": "Hay Bale",
+		"heavy_weighted_pressure_plate": "Heavy Weighted Pressure Plate",
+		"honey_block": "Honey Block",
+		"honeycomb_block": "Honeycomb Block",
+		"hopper": "Hopper",
+		"ice": "Ice",
+		"infested_chiseled_stone_bricks": "Infested Chiselled Stone Bricks",
+		"iron_bars": "Iron Bars",
+		"iron_block": "Block of Iron",
+		"iron_door": "Iron Door",
+		"iron_trapdoor": "Iron Trapdoor",
+		"jack_o_lantern": "Jack o'Lantern",
+		"jigsaw": "Jigsaw Block",
+		"jukebox": "Jukebox",
+		"kelp": "Kelp",
+		"ladder": "Ladder",
+		"lantern": "Lantern",
+		"lapis_block": "Block of Lapis Lazuli",
+		"lectern": "Lectern",
+		"lever": "Lever",
+		"light": "Light",
+		"lightning_rod": "Lightning Rod",
+		"lily_pad": "Lily Pad",
+		"lodestone": "Lodestone",
+		"loom": "Loom",
+		"magma_block": "Magma Block",
+		"mangrove_propagule": "Mangrove Propagule",
+		"mangrove_roots": "Mangrove Roots",
+		"melon": "Melon",
+		"melon_stem": "Melon Stem",
+		"moss_block": "Moss Block",
+		"moss_carpet": "Moss Carpet",
+		"mossy_cobblestone": "Mossy Cobblestone",
+		"mud": "Mud",
+		"mud_bricks": "Mud Bricks",
+		"muddy_mangrove_roots": "Muddy Mangrove Roots",
+		"mycelium": "Mycelium",
+		"nether_gold_ore": "Nether Gold Ore",
+		"nether_quartz_ore": "Nether Quartz Ore",
+		"nether_sprouts": "Nether Sprouts",
+		"nether_wart": "Nether Wart",
+		"nether_wart_block": "Nether Wart Block",
+		"netherite_block": "Block of Netherite",
+		"netherrack": "Netherrack",
+		"note_block": "Note Block",
+		"observer": "Observer",
+		"obsidian": "Obsidian",
+		"ochre_froglight": "Froglight",
+		"packed_ice": "Compressed Ice",
+		"packed_mud": "Packed Mud",
+		"petrified_oak_slab": "Petrified Oak Slab",
+		"pink_petals": "Pink Petals",
+		"piston": "Piston",
+		"pitcher_crop": "Pitcher Crop",
+		"pitcher_plant": "Pitcher Plant",
+		"podzol": "Podzol",
+		"pointed_dripstone": "Pointed Dripstone",
+		"polished_deepslate": "Polished Deepslate",
+		"potatoes": "Potatoes",
+		"powder_snow": "Powder Snow",
+		"powered_rail": "Powered Rail",
+		"pumpkin_stem": "Pumpkin Stem",
+		"purpur_block": "Purpur Block",
+		"quartz_block": "Block of Quartz",
+		"rail": "Rail",
+		"raw_copper_block": "Block of Raw Copper",
+		"raw_gold_block": "Block of Raw Gold",
+		"raw_iron_block": "Block of Raw Iron",
+		"sand": "Sand",
+		"redstone_block": "Block of Redstone",
+		"redstone_lamp": "Redstone Lamp",
+		"redstone_ore": "Redstone Ore",
+		"redstone_torch": "Redstone Torch",
+		"redstone_wire": "Redstone Wire",
+		"reinforced_deepslate": "Reinforced Deepslate",
+		"repeater": "Redstone Repeater",
+		"respawn_anchor": "Respawn Anchor",
+		"rooted_dirt": "Rooted Dirt",
+		"scaffolding": "Scaffolding",
+		"sculk": "Sculk",
+		"sculk_catalyst": "Sculk Catalyst",
+		"sculk_sensor": "Sculk Sensor",
+		"sculk_shrieker": "Sculk Shrieker",
+		"sculk_vein": "Sculk Vein",
+		"sea_lantern": "Sea Lantern",
+		"sea_pickle": "Sea Pickle",
+		"seagrass": "Seagrass",
+		"short_grass": "Short Grass",
+		"shroomlight": "Shroomlight",
+		"slime_block": "Slime Block",
+		"small_dripleaf": "Small Dripleaf",
+		"smithing_table": "Smithing Table",
+		"smoker": "Smoker",
+		"smooth_quartz": "Smooth Quartz Block",
+		"smooth_stone": "Smooth Stone",
+		"sniffer_egg": "Sniffer Egg",
+		"snow": "Snow",
+		"snow_block": "Snow Block",
+		"soul_sand": "Soul Sand",
+		"soul_soil": "Soul Soil",
+		"soul_torch": "Torch",
+		"spawner": "Monster Spawner",
+		"sponge": "Sponge",
+		"spore_blossom": "Spore Blossom",
+		"stone": "Stone",
+		"stonecutter": "Stonecutter",
+		"structure_block": "Structure Block",
+		"structure_void": "Structure Void",
+		"sugar_cane": "Sugar Cane",
+		"suspicious_gravel": "Suspicious Gravel",
+		"sweet_berry_bush": "Sweet Berry Bush",
+		"target": "Target",
+		"tinted_glass": "Tinted Glass",
+		"tnt": "TNT",
+		"torchflower": "Torchflower",
+		"trapped_chest": "Trapped Chest",
+		"tripwire": "Tripwire",
+		"tripwire_hook": "Tripwire Hook",
+		"tuff": "Tuff",
+		"turtle_egg": "Turtle Egg",
+		"twisting_vines": "Twisting Vines",
+		"vine": "Vines",
+		"warped_wart_block": "Warped Wart Block",
+		"weeping_vines": "Weeping Vines",
+		"wheat": "Wheat Crops",
+		"wither_rose": "Wither Rose"
+	},
+	"items": {
+		"item.minecraft.acacia_boat": "Acacia Boat",
+		"item.minecraft.acacia_chest_boat": "Acacia ",
+		"item.minecraft.allay_spawn_egg": "Allay Spawn Egg",
+		"item.minecraft.amethyst_shard": "Amethyst Shard",
+		"item.minecraft.angler_pottery_sherd": "Angler Pottery Sherd",
+		"item.minecraft.apple": "Apple",
+		"item.minecraft.armor_stand": "Armour Stand",
+		"item.minecraft.arrow": "Arrow",
+		"item.minecraft.axolotl_bucket": "Bucket of Axolotl",
+		"item.minecraft.baked_potato": "Jacket Potato",
+		"item.minecraft.beef": "Raw Beef",
+		"item.minecraft.beetroot": "Beetroot",
+		"item.minecraft.beetroot_seeds": "Beetroot Seeds",
+		"item.minecraft.beetroot_soup": "Beetroot Soup",
+		"item.minecraft.black_dye": "Black Dye",
+		"item.minecraft.blaze_powder": "Blaze Powder",
+		"item.minecraft.blaze_rod": "Blaze Rod",
+		"item.minecraft.blue_dye": "Blue Dye",
+		"item.minecraft.bone": "Bone",
+		"item.minecraft.bone_meal": "Bone Meal",
+		"item.minecraft.book": "Book",
+		"item.minecraft.bow": "Bow",
+		"item.minecraft.bowl": "Bowl",
+		"item.minecraft.bread": "Bread",
+		"item.minecraft.brewing_stand": "Brewing Stand",
+		"item.minecraft.brick": "Brick",
+		"item.minecraft.brown_dye": "Brown Dye",
+		"item.minecraft.brush": "Brush",
+		"item.minecraft.bucket": "Bucket",
+		"item.minecraft.bundle": "Bundle",
+		"item.minecraft.carrot": "Carrot",
+		"item.minecraft.carrot_on_a_stick": "Carrot on a Stick",
+		"item.minecraft.cauldron": "Cauldron",
+		"item.minecraft.charcoal": "Charcoal",
+		"item.minecraft.chest_minecart": "Minecart with Chest",
+		"item.minecraft.chicken": "Raw Chicken",
+		"item.minecraft.chorus_fruit": "Chorus Fruit",
+		"item.minecraft.clay_ball": "Clay Ball",
+		"item.minecraft.clock": "Clock",
+		"item.minecraft.coal": "Coal",
+		"item.minecraft.coast_armor_trim_smithing_template": "Smithing Template",
+		"item.minecraft.cocoa_beans": "Cocoa Beans",
+		"item.minecraft.cod": "Raw Cod",
+		"item.minecraft.cod_bucket": "Bucket of Cod",
+		"item.minecraft.command_block_minecart": "Minecart with Command Block",
+		"item.minecraft.compass": "Compass",
+		"item.minecraft.cooked_beef": "Steak",
+		"item.minecraft.cooked_chicken": "Roast Chicken",
+		"item.minecraft.cooked_cod": "Cooked Cod",
+		"item.minecraft.cooked_mutton": "Cooked Mutton",
+		"item.minecraft.cooked_porkchop": "Cooked Porkchop",
+		"item.minecraft.cooked_rabbit": "Cooked Rabbit",
+		"item.minecraft.cooked_salmon": "Cooked Salmon",
+		"item.minecraft.cookie": "Biscuit",
+		"item.minecraft.copper_ingot": "Copper Ingot",
+		"item.minecraft.creeper_banner_pattern": "Banner Pattern",
+		"item.minecraft.crossbow": "Crossbow",
+		"item.minecraft.cyan_dye": "Cyan Dye",
+		"item.minecraft.debug_stick": "Debug Stick",
+		"item.minecraft.diamond": "Diamond",
+		"item.minecraft.diamond_axe": "Diamond Axe",
+		"item.minecraft.diamond_boots": "Diamond Boots",
+		"item.minecraft.diamond_chestplate": "Diamond Chestplate",
+		"item.minecraft.diamond_helmet": "Diamond Helmet",
+		"item.minecraft.diamond_hoe": "Diamond Leggings",
+		"item.minecraft.diamond_horse_armor": "Diamond Horse Armour",
+		"item.minecraft.diamond_leggings": "Diamond Leggings",
+		"item.minecraft.diamond_pickaxe": "Diamond Pickaxe",
+		"item.minecraft.diamond_shovel": "Diamond Shovel",
+		"item.minecraft.diamond_sword": "Diamond Sword",
+		"item.minecraft.disc_fragment_5": "Disc Fragment",
+		"item.minecraft.dragon_breath": "Dragon's Breath",
+		"item.minecraft.dried_kelp": "Dried Kelp",
+		"item.minecraft.dune_armor_trim_smithing_template": "Smithing Template",
+		"item.minecraft.echo_shard": "Echo Shard",
+		"item.minecraft.egg": "Egg",
+		"item.minecraft.elytra": "Elytra",
+		"item.minecraft.emerald": "Emerald",
+		"item.minecraft.enchanted_book": "Enchanted Book",
+		"item.minecraft.enchanted_golden_apple": "Enchanted Golden Apple",
+		"item.minecraft.end_crystal": "End Crystal",
+		"item.minecraft.ender_eye": "Eye of Ender",
+		"item.minecraft.ender_pearl": "Ender Pearl",
+		"item.minecraft.experience_bottle": "Bottle o' Enchanting",
+		"item.minecraft.eye_armor_trim_smithing_template": "Smithing Template",
+		"item.minecraft.feather": "Feather",
+		"item.minecraft.fermented_spider_eye": "Fermented Spider Eye",
+		"item.minecraft.filled_map": "Map",
+		"item.minecraft.fire_charge": "Fire Charge",
+		"item.minecraft.firework_rocket": "Firework Rocket",
+		"item.minecraft.firework_rocket.flight": "Flight Duration:",
+		"item.minecraft.firework_star": "Firework Star",
+		"item.minecraft.fishing_rod": "Fishing Rod",
+		"item.minecraft.flint": "Flint",
+		"item.minecraft.flint_and_steel": "Flint and Steel",
+		"item.minecraft.flower_pot": "Flower Pot",
+		"item.minecraft.furnace_minecart": "Minecart with Furnace",
+		"item.minecraft.ghast_tear": "Ghast Tear",
+		"item.minecraft.glass_bottle": "Glass Bottle",
+		"item.minecraft.glistering_melon_slice": "Glistering Melon Slice",
+		"item.minecraft.glow_berries": "Glow Berries",
+		"item.minecraft.glow_ink_sac": "Glow Ink Sac",
+		"item.minecraft.glowstone_dust": "Glowstone Dust",
+		"item.minecraft.goat_horn": "Goat Horn",
+		"item.minecraft.gold_ingot": "Gold Ingot",
+		"item.minecraft.gold_nugget": "Golden Nugget",
+		"item.minecraft.golden_apple": "Golden Apple",
+		"item.minecraft.golden_carrot": "Golden Carrot",
+		"item.minecraft.gray_dye": "Grey Dye",
+		"item.minecraft.green_dye": "Green Dye",
+		"item.minecraft.gunpowder": "Gunpowder",
+		"item.minecraft.heart_of_the_sea": "Heart of the Sea",
+		"item.minecraft.honey_bottle": "Honey Bottle",
+		"item.minecraft.honeycomb": "Honeycomb",
+		"item.minecraft.hopper_minecart": "Minecart with Hopper",
+		"item.minecraft.ink_sac": "Ink Sac",
+		"item.minecraft.iron_ingot": "Iron Ingot",
+		"item.minecraft.iron_nugget": "Iron Nugget",
+		"item.minecraft.item_frame": "Item Frame",
+		"item.minecraft.knowledge_book": "Knowledge Book",
+		"item.minecraft.lapis_lazuli": "Lapis Lazuli",
+		"item.minecraft.lava_bucket": "Lava Bucket",
+		"item.minecraft.lead": "Lead",
+		"item.minecraft.leather": "Leather",
+		"item.minecraft.light_blue_dye": "Light Blue Dye",
+		"item.minecraft.light_gray_dye": "Light Grey Dye",
+		"item.minecraft.lime_dye": "Lime Dye",
+		"item.minecraft.lingering_potion": "Lingering Potion",
+		"item.minecraft.magenta_dye": "Magenta Dye",
+		"item.minecraft.magma_cream": "Magma Cream",
+		"item.minecraft.map": "Empty Map",
+		"item.minecraft.melon_seeds": "Melon Seeds",
+		"item.minecraft.melon_slice": "Melon Slice",
+		"item.minecraft.milk_bucket": "Milk Bucket",
+		"item.minecraft.minecart": "Minecart",
+		"item.minecraft.mushroom_stew": "Mushroom Soup",
+		"item.minecraft.music_disc_11": "Music Disc",
+		"item.minecraft.mutton": "Raw Mutton",
+		"item.minecraft.name_tag": "Name Tag",
+		"item.minecraft.nautilus_shell": "Nautilus Shell",
+		"item.minecraft.nether_brick": "Nether Brick",
+		"item.minecraft.nether_star": "Nether Star",
+		"item.minecraft.nether_wart": "Nether Wart",
+		"item.minecraft.netherite_ingot": "Netherite Ingot",
+		"item.minecraft.netherite_scrap": "Netherite Scrap",
+		"item.minecraft.orange_dye": "Orange Dye",
+		"item.minecraft.painting": "Painting",
+		"item.minecraft.paper": "Paper",
+		"item.minecraft.phantom_membrane": "Phantom Membrane",
+		"item.minecraft.pink_dye": "Pink Dye",
+		"item.minecraft.pitcher_plant": "Pitcher Plant",
+		"item.minecraft.pitcher_pod": "Pitcher Pod",
+		"item.minecraft.poisonous_potato": "Poisonous Potato",
+		"item.minecraft.popped_chorus_fruit": "Popped Chorus Fruit",
+		"item.minecraft.porkchop": "Raw Porkchop",
+		"item.minecraft.potato": "Potato",
+		"item.minecraft.potion": "Potion",
+		"item.minecraft.powder_snow_bucket": "Powder Snow Bucket",
+		"item.minecraft.prismarine_crystals": "Prismarine Crystals",
+		"item.minecraft.prismarine_shard": "Prismarine Shard",
+		"item.minecraft.pufferfish": "Pufferfish",
+		"item.minecraft.pufferfish_bucket": "Bucket of Pufferfish",
+		"item.minecraft.pumpkin_pie": "Pumpkin Pie",
+		"item.minecraft.pumpkin_seeds": "Pumpkin Seeds",
+		"item.minecraft.purple_dye": "Purple Dye",
+		"item.minecraft.quartz": "Nether Quartz",
+		"item.minecraft.rabbit": "Raw Rabbit",
+		"item.minecraft.rabbit_foot": "Rabbit's Foot",
+		"item.minecraft.rabbit_hide": "Rabbit Hide",
+		"item.minecraft.rabbit_stew": "Rabbit Stew",
+		"item.minecraft.raw_copper": "Raw Copper",
+		"item.minecraft.raw_gold": "Raw Gold",
+		"item.minecraft.raw_iron": "Raw Iron",
+		"item.minecraft.recovery_compass": "Recovery Compass",
+		"item.minecraft.red_dye": "Red Dye",
+		"item.minecraft.redstone": "Redstone Dust",
+		"item.minecraft.rotten_flesh": "Rotten Flesh",
+		"item.minecraft.saddle": "Saddle",
+		"item.minecraft.salmon": "Raw Salmon",
+		"item.minecraft.salmon_bucket": "Bucket of Salmon",
+		"item.minecraft.scute": "Scute",
+		"item.minecraft.shears": "Shears",
+		"item.minecraft.shield": "Shield",
+		"item.minecraft.shulker_shell": "Shulker Shell",
+		"item.minecraft.sign": "Sign",
+		"item.minecraft.slime_ball": "Slimeball",
+		"item.minecraft.snowball": "Snowball",
+		"item.minecraft.spectral_arrow": "Spectral Arrow",
+		"item.minecraft.spider_eye": "Spider Eye",
+		"item.minecraft.splash_potion": "Splash Potion",
+		"item.minecraft.spyglass": "Spyglass",
+		"item.minecraft.stick": "Stick",
+		"item.minecraft.string": "String",
+		"item.minecraft.sugar": "Sugar",
+		"item.minecraft.suspicious_stew": "Suspicious Stew",
+		"item.minecraft.sweet_berries": "Sweet Berries",
+		"item.minecraft.tadpole_bucket": "Bucket of Tadpole",
+		"item.minecraft.tipped_arrow": "Tipped Arrow",
+		"item.minecraft.tnt_minecart": "Minecart with TNT",
+		"item.minecraft.torchflower_seeds": "Torchflower Seeds",
+		"item.minecraft.totem_of_undying": "Totem of Undying",
+		"item.minecraft.trident": "Trident",
+		"item.minecraft.tropical_fish": "Tropical Fish",
+		"item.minecraft.tropical_fish_bucket": "Bucket of Tropical Fish",
+		"item.minecraft.turtle_helmet": "Turtle Shell",
+		"item.minecraft.warped_fungus_on_a_stick": "Warped Fungus on a Stick",
+		"item.minecraft.water_bucket": "Water Bucket",
+		"item.minecraft.wheat": "Wheat",
+		"item.minecraft.wheat_seeds": "Wheat Seeds",
+		"item.minecraft.white_dye": "White Dye",
+		"item.minecraft.writable_book": "Book and Quill",
+		"item.minecraft.written_book": "Written Book",
+		"item.minecraft.yellow_dye": "Yellow Dye"
+	},
+	"mobs": {
+		"entity.minecraft.allay": "Allay",
+		"entity.minecraft.axolotl": "Axolotl",
+		"entity.minecraft.bat": "Bat",
+		"entity.minecraft.bee": "Bee",
+		"entity.minecraft.blaze": "Blaze",
+		"entity.minecraft.boat": "Boat",
+		"entity.minecraft.camel": "Camel",
+		"entity.minecraft.cat": "Cat",
+		"entity.minecraft.cave_spider": "Cave Spider",
+		"entity.minecraft.chicken": "Chicken",
+		"entity.minecraft.cod": "Cod",
+		"entity.minecraft.cow": "Cow",
+		"entity.minecraft.creeper": "Creeper",
+		"entity.minecraft.dolphin": "Dolphin",
+		"entity.minecraft.donkey": "Donkey",
+		"entity.minecraft.drowned": "Drowned",
+		"entity.minecraft.elder_guardian": "Elder Guardian",
+		"entity.minecraft.ender_dragon": "Ender Dragon",
+		"entity.minecraft.enderman": "Enderman",
+		"entity.minecraft.endermite": "Endermite",
+		"entity.minecraft.evoker": "Evoker",
+		"entity.minecraft.fox": "Fox",
+		"entity.minecraft.frog": "Frog",
+		"entity.minecraft.ghast": "Ghast",
+		"entity.minecraft.giant": "Giant",
+		"entity.minecraft.glow_squid": "Glow Squid",
+		"entity.minecraft.goat": "Goat",
+		"entity.minecraft.guardian": "Guardian",
+		"entity.minecraft.hoglin": "Hoglin",
+		"entity.minecraft.horse": "Horse",
+		"entity.minecraft.husk": "Husk",
+		"entity.minecraft.illusioner": "Illusioner",
+		"entity.minecraft.iron_golem": "Iron Golem",
+		"entity.minecraft.llama": "Llama",
+		"entity.minecraft.magma_cube": "Magma Cube",
+		"entity.minecraft.mooshroom": "Mooshroom",
+		"entity.minecraft.mule": "Mule",
+		"entity.minecraft.ocelot": "Ocelot",
+		"entity.minecraft.panda": "Panda",
+		"entity.minecraft.parrot": "Parrot",
+		"entity.minecraft.phantom": "Phantom",
+		"entity.minecraft.pig": "Pig",
+		"entity.minecraft.piglin": "Piglin",
+		"entity.minecraft.piglin_brute": "Piglin Brute",
+		"entity.minecraft.pillager": "Pillager",
+		"entity.minecraft.polar_bear": "Polar Bear",
+		"entity.minecraft.pufferfish": "Pufferfish",
+		"entity.minecraft.rabbit": "Rabbit",
+		"entity.minecraft.ravager": "Ravager",
+		"entity.minecraft.salmon": "Salmon",
+		"entity.minecraft.sheep": "Sheep",
+		"entity.minecraft.shulker": "Shulker",
+		"entity.minecraft.silverfish": "Silverfish",
+		"entity.minecraft.skeleton": "Skeleton",
+		"entity.minecraft.skeleton_horse": "Skeleton Horse",
+		"entity.minecraft.slime": "Slime",
+		"entity.minecraft.sniffer": "Sniffer",
+		"entity.minecraft.snow_golem": "Snow Golem",
+		"entity.minecraft.spider": "Spider",
+		"entity.minecraft.squid": "Squid",
+		"entity.minecraft.stray": "Stray",
+		"entity.minecraft.strider": "Strider",
+		"entity.minecraft.tadpole": "Tadpole",
+		"entity.minecraft.trader_llama": "Trader Llama",
+		"entity.minecraft.tropical_fish": "Tropical Fish",
+		"entity.minecraft.turtle": "Turtle",
+		"entity.minecraft.vex": "Vex",
+		"entity.minecraft.villager": "Villager",
+		"entity.minecraft.vindicator": "Vindicator",
+		"entity.minecraft.wandering_trader": "Wandering Trader",
+		"entity.minecraft.warden": "Warden",
+		"entity.minecraft.witch": "Witch",
+		"entity.minecraft.wither": "Wither",
+		"entity.minecraft.wither_skeleton": "Wither Skeleton",
+		"entity.minecraft.wolf": "Wolf",
+		"entity.minecraft.zoglin": "Zoglin",
+		"entity.minecraft.zombie": "Zombie",
+		"entity.minecraft.zombie_horse": "Zombie Horse",
+		"entity.minecraft.zombie_villager": "Zombie Villager",
+		"entity.minecraft.zombified_piglin": "Zombified Piglin"
+	}
+}

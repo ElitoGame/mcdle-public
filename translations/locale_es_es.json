@@ -40,7 +40,7 @@
 						"post_link": " por la imagen de fondo!"
 					},
 					"vanilla_tweaks": {
-						"pre_link": "Gracias a",
+						"pre_link": "Gracias a ",
 						"link": "Vanilla Tweaks",
 						"post_link": " por sus texturas de los tallos de calabaza y sandía!"
 					}
@@ -100,7 +100,8 @@
 				"english": "Inglés",
 				"german": "Alemán",
 				"french": "Francés",
-				"spanish": "Español"
+				"spanish": "Español",
+				"valencian": "Valenciano"
 			},
 			"description": {
 				"pre_link": "Oficialmente esta página es compatible con Inglés y Alemán, pero a través de la comunidad, otros idiomas fueron disponibles por via ",
@@ -157,13 +158,32 @@
 			"table": {
 				"header": {
 					"title": "Bloque",
-					"release": "Lanzamiento",
-					"stack_size": "Tamaño de-stack",
-					"tools": "Herramienta(s)",
-					"blast_resistance": "Resistencia a las explosiones",
+					"release": "Lanza-miento",
+					"stack_size": "Tamaño de stack",
+					"tools": "Herra-mienta(s)",
+					"blast_resistance": "Resis-tencia a las explo-siones",
 					"hardness": "Dureza",
 					"flammable": "Infla-mable",
 					"transparent": "Transpa-rente"
+				},
+				"data": {
+					"tools": {
+						"any_tool": "Any tool",
+						"axe": "Axe",
+						"pickaxe": "Pickaxe",
+						"hoe": "Hoe",
+						"shears": "Shears",
+						"sword": "Sword",
+						"none": "None",
+						"shovel": "Shovel",
+						"bucket": "Bucket",
+						"brush": "Brush"
+					},
+					"states": {
+						"yes": "Yes",
+						"no": "No",
+						"partial": "Partial"
+					}
 				}
 			},
 			"loose": {
@@ -260,13 +280,33 @@
 			"table": {
 				"header": {
 					"title": "Objeto",
-					"release": "Lanzamiento",
+					"release": "Lanza-miento",
 					"stack_size": "Tamaño de stack",
 					"rarity": "Rareza",
 					"action": "Acción",
-					"renewable": "Renovable",
+					"renewable": "Reno-vable",
 					"usage": "Número de usos",
 					"source": "Número de fuentes"
+				},
+				"data": {
+					"rarity": {
+						"common": "Common",
+						"uncommon": "Uncommon",
+						"rare": "Rare",
+						"epic": "Epic",
+						"mixed": "Mixed"
+					},
+					"inventory_category": {
+						"tools_and_utilities": "Tools & Utilities",
+						"redstone_blocks": "Redstone Blocks",
+						"functional_blocks": "Functional Blocks",
+						"natural_blocks": "Natural Blocks",
+						"ingredients": "Ingredients",
+						"combat": "Combat",
+						"food_and_drinks": "Food & Drinks",
+						"none": "None",
+						"spawn_eggs": "Spawn Eggs"
+					}
 				}
 			},
 			"loose": {
@@ -369,7 +409,42 @@
 					"height": "Altura",
 					"behavior": "Compor-tamiento",
 					"spawn": "Spawn",
-					"classification": "Class-ification"
+					"classification": "Clasifi-cación"
+				},
+				"data": {
+					"behavior": {
+						"passive": "Passive",
+						"neutral": "Neutral",
+						"hostile": "Hostile",
+						"defensive": "Defensive"
+					},
+					"classification": {
+						"none": "None",
+						"animal": "Animal",
+						"aquatic": "Aquatic",
+						"arthropod": "Arthropod",
+						"undead": "Undead",
+						"illager": "Illager",
+						"golem": "Golem"
+					},
+					"spawn": {
+						"structure": "Structure",
+						"breeding": "Breeding",
+						"biome": "Biome",
+						"light_level": "Light level",
+						"block": "Block",
+						"grass": "Grass",
+						"nether": "Nether",
+						"projectile": "Projectile",
+						"conversion": "Conversion",
+						"lightning": "Lightning",
+						"the_end": "The End",
+						"summon": "Summon",
+						"raids": "Raids",
+						"command": "Command",
+						"overworld": "Overworld",
+						"hatching": "Hatching"
+					}
 				}
 			},
 			"loose": {
