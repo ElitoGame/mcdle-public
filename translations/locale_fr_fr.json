@@ -281,7 +281,7 @@
 					"release": "Sortie",
 					"stack_size": "Taille de pile",
 					"rarity": "Rareté",
-					"action": "Action",
+					"inventory_category": "Action",
 					"renewable": "Renou-velable",
 					"usage": "Nombre d'utili-sations",
 					"source": "Nombre de pro-venances"

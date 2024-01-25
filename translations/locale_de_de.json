@@ -280,7 +280,7 @@
 					"release": "Veröffen-tlichung",
 					"stack_size": "Stack Größe",
 					"rarity": "Seltenheit",
-					"action": "Aktion",
+					"inventory_category": "Inventar Kategorie",
 					"renewable": "Erneuerbar",
 					"usage": "Verwen-dungs-möglich-keiten",
 					"source": "Erzeug-ungs-möglich-keiten"

@@ -280,7 +280,7 @@
 					"release": "Release",
 					"stack_size": "Stack size",
 					"rarity": "Rarity",
-					"action": "Creative Inv. Category",
+					"inventory_category": "Creative Inv. Category",
 					"renewable": "Renewable",
 					"usage": "Usage count",
 					"source": "Source count"

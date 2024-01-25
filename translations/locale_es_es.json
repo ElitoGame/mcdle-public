@@ -283,7 +283,7 @@
 					"release": "Lanza-miento",
 					"stack_size": "Tamaño de stack",
 					"rarity": "Rareza",
-					"action": "Acción",
+					"inventory_category": "Acción",
 					"renewable": "Reno-vable",
 					"usage": "Número de usos",
 					"source": "Número de fuentes"
