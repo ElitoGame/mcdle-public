@@ -422,7 +422,8 @@
 						"arthropod": "Gleiderfüßer",
 						"undead": "Untot",
 						"illager": "Illager",
-						"golem": "Golem"
+						"golem": "Golem",
+						"boss": "Boss"
 					},
 					"spawn": {
 						"structure": "Struktur",
