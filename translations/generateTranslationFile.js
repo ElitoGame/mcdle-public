@@ -8,10 +8,10 @@ async function generateTranslationFile() {
 	const version = "1.20.4";
 	// Check https://github.com/InventivetalentDev/minecraft-assets/tree/1.20.4/assets/minecraft/lang
 	//  for a list of available languages
-	const target_language = "en_us";
+	const target_language = "es_es";
 	// Base language to translate from - look in the translation folder on GitHub for
 	//  the locale_XX_XX.json files for naming available options.
-	const base_language = "en_us";
+	const base_language = "es_es";
 	// Keys like acacia_wood or black_wool should be generalized. This setting marks keys that
 	// likely need to be modified, please look through and remove the TODO markings!
 	const mark_likely_edits = true;
