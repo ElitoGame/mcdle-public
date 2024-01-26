@@ -96,13 +96,6 @@
 		"language": {
 			"title": "Idioma",
 			"tooltip": "Idioma",
-			"dropdown": {
-				"english": "Inglés",
-				"german": "Alemán",
-				"french": "Francés",
-				"spanish": "Español",
-				"valencian": "Valenciano"
-			},
 			"description": {
 				"pre_link": "Oficialmente esta página es compatible con Inglés y Alemán, pero a través de la comunidad, otros idiomas fueron disponibles por via ",
 				"link": "Github",
