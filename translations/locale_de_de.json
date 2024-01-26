@@ -165,9 +165,9 @@
 				},
 				"data": {
 					"tools": {
-						"any_tool": "Jedes Werkzeug",
+						"any_tool": "Jedes Werk-zeug",
 						"axe": "Axt",
-						"pickaxe": "Spitzhacke",
+						"pickaxe": "Spitz-hacke",
 						"hoe": "Hacke",
 						"shears": "Schere",
 						"sword": "Schwert",
@@ -177,9 +177,9 @@
 						"brush": "Pinsel"
 					},
 					"states": {
-						"yes": "Yes",
-						"no": "No",
-						"partial": "Partial"
+						"yes": "Ja",
+						"no": "Nein",
+						"partial": "Partiell"
 					}
 				}
 			},
@@ -280,7 +280,7 @@
 					"release": "Veröffen-tlichung",
 					"stack_size": "Stack Größe",
 					"rarity": "Seltenheit",
-					"inventory_category": "Inventar Kategorie",
+					"inventory_categories": "Inventar Kategorie",
 					"renewable": "Erneuerbar",
 					"usage": "Verwen-dungs-möglich-keiten",
 					"source": "Erzeug-ungs-möglich-keiten"
@@ -365,14 +365,14 @@
 				"example": {
 					"title": "Beispiel",
 					"intro": "Schauen wir uns ein Beispielsspiel an. Als erstes probieren wir einen zufälligen Gegenstand.",
-					"table_interpretation_1": "Wir haben gelerent, dass der Gegenstand, wie die meisten anderen auch, bis 64 stackbar ist. Er ist neuer als Beta 1.2, hat Gewöhnliche Seltenheit und ist erneuerbar. Laut dem Minecraft Wiki gibt es weniger als 5 Möglichkeiten, ihn zu verwenden, und weniger als 6 Möglichkeiten, ihn zu bekommen. Die Aktion sagt uns, dass es etweder Verwendung in der Welt gibt oder dass der Gegenstand fürs craften verwendet wird. Probieren wir einen anderen Gegenstand.",
-					"table_interpretation_2": "Wir haben die Version des Gegenstandes herausgefunden! Es ist Zeit, sich nach Beta 1.8 Gegenständen aus der \"use\" Kategorie umzusehen. Jetzt geht es darum, die richtigen Verwendungszahlen und Erzeugungszahlen zu erraten.",
+					"table_interpretation_1": "Wir haben gelerent, dass der Gegenstand, wie die meisten anderen auch, bis 64 stackbar ist. Er ist neuer als Beta 1.2, hat Gewöhnliche Seltenheit und ist erneuerbar. Laut dem Minecraft Wiki gibt es weniger als 5 Möglichkeiten, ihn zu verwenden, und weniger als 6 Möglichkeiten, ihn zu bekommen. Die Inventar Kategorie sagt uns, dass der Gegenstand nicht in der \"Werkstoffe\" Kategorie ist. Probieren wir einen anderen Gegenstand.",
+					"table_interpretation_2": "Wir haben die Version des Gegenstandes herausgefunden! Es ist Zeit, sich nach Beta 1.8 Gegenständen aus der \"Nahrungsmittel & Tränke\" Kategorie umzusehen. Weiters, geht es darum, die richtigen Verwendungszahlen und Erzeugungszahlen zu erraten.",
 					"table_interpretation_3": "Da haben wirs! Wir haben herausgefunden, dass der heutige Gegenstand eine Melonenscheibe war! Wunderbar!"
 				},
 				"partial_matches": {
 					"title": "Partielle Treffer Erklärung",
 					"intro": "Schauen wir uns partielle Treffer im Detail an, weil das wahrscheinlich die verwirrenste Trefferfarbe ist.",
-					"explanation": "Ein partieller Treffer kann nur bei Feldern auftauchen, die als Liste aufgebaut sind (z.B.: Aktion). Falls du einen Gegenstand probierst, der zumindest einee passende Aktion hat, wirst du einen partiellen Treffer bekommen. Hier ist ein Beispiel für Lapis:"
+					"explanation": "Ein partieller Treffer kann nur bei Feldern auftauchen, die als Liste aufgebaut sind (z.B.: Inventar Kategorie). Falls du einen Gegenstand probierst, der zumindest in einer passenden Kreativen Inventar Kategorie ist, wirst du einen partiellen Treffer bekommen. Hier ist ein Beispiel für Faden:"
 				},
 				"tips": {
 					"title": "Tipps",

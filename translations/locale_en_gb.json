@@ -280,7 +280,7 @@
 					"release": "Release",
 					"stack_size": "Stack size",
 					"rarity": "Rarity",
-					"inventory_category": "Creative Inv. Category",
+					"inventory_categories": "Creative Inv. Category",
 					"renewable": "Renewable",
 					"usage": "Usage count",
 					"source": "Source count"
@@ -365,14 +365,14 @@
 				"example": {
 					"title": "Example",
 					"intro": "Let's look at an example game. First we'll try an arbitrary item.",
-					"table_interpretation_1": "We've learned that the item, like most others is stackable till 64. It's newer than Beta 1.2, has Common rarity, is renewable and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's action tells us, that it's either used in the world or used for crafted. Let's try a different item.",
-					"table_interpretation_2": "We've discovered the items version! Time to look for a Beta 1.8 item that's in the \"use\" category according to the Minecraft wiki. We now need to look for an item with matching use cases and ways how to obtain it.",
+					"table_interpretation_1": "We've learned that the item, like most others is stackable till 64. It's newer than Beta 1.2, has Common rarity, is renewable and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
+					"table_interpretation_2": "We've discovered the items version! Time to look for a Beta 1.8 item that's in the \"Food & Drinks\" creative inventory category. We now need to look for an item with matching use cases and ways how to obtain it.",
 					"table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
 				},
 				"partial_matches": {
 					"title": "Partial Match explanation",
 					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
-					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Action). If you guessed a item that has at least one action that matches the actual item, you will get a partial match. Here's an example for lapis:"
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Inventory Category). If you guessed a item that is in at least one inventory category that matches the actual item, you will get a partial match. Here's an example for string:"
 				},
 				"tips": {
 					"title": "Tips",
