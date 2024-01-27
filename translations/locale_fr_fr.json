@@ -96,13 +96,6 @@
 		"language": {
 			"title": "Langues",
 			"tooltip": "Langues",
-			"dropdown": {
-				"english": "English",
-				"german": "Deutsch",
-				"french": "Français",
-				"spanish": "Español",
-				"valencian": "Valenciano"
-			},
 			"description": {
 				"pre_link": "Officiellement, ce site Web est accessible en anglais et en allemand, mais grâce à la communauté, d'autres langues ont été ajoutées via ",
 				"link": "Github",
