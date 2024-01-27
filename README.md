@@ -9,11 +9,11 @@ This repo contains the translations of MCdle. I will keep english and german up 
 
 | Language               | Up to date | Official | Contributors                                                                                                                                            |
 | ---------------------- | ---------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| English (US) (default) | ✅         | ✅       | ![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)                                                                                 |
-| English (UK)           | ✅         | ✅       | ![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)                                                                                 |
-| German                 | ✅         | ✅       | ![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)                                                                                 |
-| French                 | ✅         | ❌       | ![nalo_](https://avatars.githubusercontent.com/u/37667081?s=64&v=4) ![Simon - fantomitechno](https://avatars.githubusercontent.com/u/67735304?s=64&v=4) |
-| Spanish                | ❌         | ❌       | ![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)                                    
+| English (US) (default) | ✅         | ✅       | [![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)](https://github.com/ElitoGame)                                                                                 |
+| English (UK)           | ✅         | ✅       | [![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)](https://github.com/ElitoGame)                                                                                  |
+| German                 | ✅         | ✅       | [![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)](https://github.com/ElitoGame)                                                                                   |
+| French                 | ✅         | ❌       | [![nalo_](https://avatars.githubusercontent.com/u/37667081?s=64&v=4)](https://github.com/nalo26)   [![Simon - fantomitechno](https://avatars.githubusercontent.com/u/67735304?s=64&v=4)](https://github.com/fantomitechno)   |
+| Spanish                | ❌         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                      
 
 ### How to contribute to the translations
 
