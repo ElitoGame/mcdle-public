@@ -6,12 +6,13 @@ Public Repo of MCdle. Post issues here or on discord!
 
 This repo contains the translations of MCdle. I will keep english and german up to date, everything else is community based, so feel free to contribute! Pull requests are welcome, for new languages, fixes or updates!
 
-| Language | Status     | Official |
-| -------- | ---------- | -------- |
-| English  | Up to date | ✅       |
-| German   | Up to date | ✅       |
-| French   | Up to date | ❌       |
-| Spanish  | Up to date | ❌       |
+| Language               | Up to date | Official |
+| ---------------------- | ---------- | -------- |
+| English (US) (default) | ✅         | ✅       |
+| English (UK)           | ✅         | ✅       |
+| German                 | ✅         | ✅       |
+| French                 | ✅         | ❌       |
+| Spanish                | ❌         | ❌       |
 
 ### How to contribute to the translations
 
