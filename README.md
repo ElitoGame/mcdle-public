@@ -6,13 +6,14 @@ Public Repo of MCdle. Post issues here or on discord!
 
 This repo contains the translations of MCdle. I will keep english and german up to date, everything else is community based, so feel free to contribute! Pull requests are welcome, for new languages, fixes or updates!
 
-| Language               | Up to date | Official |
-| ---------------------- | ---------- | -------- |
-| English (US) (default) | ✅         | ✅       |
-| English (UK)           | ✅         | ✅       |
-| German                 | ✅         | ✅       |
-| French                 | ✅         | ❌       |
-| Spanish                | ❌         | ❌       |
+
+| Language               | Up to date | Official | Contributors                                                                                                                                            |
+| ---------------------- | ---------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| English (US) (default) | ✅         | ✅       | ![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)                                                                                 |
+| English (UK)           | ✅         | ✅       | ![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)                                                                                 |
+| German                 | ✅         | ✅       | ![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)                                                                                 |
+| French                 | ✅         | ❌       | ![nalo_](https://avatars.githubusercontent.com/u/37667081?s=64&v=4) ![Simon - fantomitechno](https://avatars.githubusercontent.com/u/67735304?s=64&v=4) |
+| Spanish                | ❌         | ❌       | ![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)                                    
 
 ### How to contribute to the translations
 
