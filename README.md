@@ -6,12 +6,14 @@ Public Repo of MCdle. Post issues here or on discord!
 
 This repo contains the translations of MCdle. I will keep english and german up to date, everything else is community based, so feel free to contribute! Pull requests are welcome, for new languages, fixes or updates!
 
-| Language | Status     | Official |
-| -------- | ---------- | -------- |
-| English  | Up to date | ✅       |
-| German   | Up to date | ✅       |
-| French   | Up to date | ❌       |
-| Spanish  | Up to date | ❌       |
+
+| Language               | Up to date | Official | Contributors                                                                                                                                            |
+| ---------------------- | ---------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| English (US) (default) | ✅         | ✅       | [![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)](https://github.com/ElitoGame)                                                                                 |
+| English (UK)           | ✅         | ✅       | [![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)](https://github.com/ElitoGame)                                                                                  |
+| German                 | ✅         | ✅       | [![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)](https://github.com/ElitoGame)                                                                                   |
+| French                 | ✅         | ❌       | [![nalo_](https://avatars.githubusercontent.com/u/37667081?s=64&v=4)](https://github.com/nalo26)   [![Simon - fantomitechno](https://avatars.githubusercontent.com/u/67735304?s=64&v=4)](https://github.com/fantomitechno)   |
+| Spanish                | ❌         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                      
 
 ### How to contribute to the translations
 
