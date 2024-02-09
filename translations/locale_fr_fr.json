@@ -298,7 +298,8 @@
 						"combat": "Combat",
 						"food_and_drinks": "Nourriture et boissons",
 						"none": "Aucune",
-						"spawn_eggs": "Oeufs d'apparition"
+						"spawn_eggs": "Oeufs d'apparition",
+						"operator_utilities": "Utilitaires d'opérateur"
 					}
 				}
 			},

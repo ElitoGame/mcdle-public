@@ -298,7 +298,8 @@
 						"combat": "Kampf",
 						"food_and_drinks": "Nahrungsmittel & Tränke",
 						"none": "Nichts",
-						"spawn_eggs": "Spawn-Eier"
+						"spawn_eggs": "Spawn-Eier",
+						"operator_utilities": "Operatorhilfsmittel"
 					}
 				}
 			},

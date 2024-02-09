@@ -298,7 +298,8 @@
 						"combat": "Combat",
 						"food_and_drinks": "Food & Drinks",
 						"none": "None",
-						"spawn_eggs": "Spawn Eggs"
+						"spawn_eggs": "Spawn Eggs",
+						"operator_utilities": "Operator Utilities"
 					}
 				}
 			},
@@ -885,7 +886,7 @@
 		"apple": "Apple",
 		"armor_stand": "Armor Stand",
 		"arrow": "Arrow",
-		"aquatic_mob_bucket": "Bucket of aquatic mob",
+		"aquatic_mob_bucket": "Bucket of Aquatic Mob",
 		"baked_potato": "Baked Potato",
 		"beef": "Raw Beef",
 		"beetroot": "Beetroot",
