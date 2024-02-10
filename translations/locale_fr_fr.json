@@ -161,21 +161,21 @@
 				},
 				"data": {
 					"tools": {
-						"any_tool": "Any tool",
-						"axe": "Axe",
-						"pickaxe": "Pickaxe",
-						"hoe": "Hoe",
-						"shears": "Shears",
-						"sword": "Sword",
-						"none": "None",
-						"shovel": "Shovel",
-						"bucket": "Bucket",
-						"brush": "Brush"
+						"any_tool": "Tout outil",
+						"axe": "Hache",
+						"pickaxe": "Pioche",
+						"hoe": "Houe",
+						"shears": "Cisailles",
+						"sword": "Épée",
+						"none": "Aucun",
+						"shovel": "Pelle",
+						"bucket": "Seau",
+						"brush": "Pinceau"
 					},
 					"states": {
-						"yes": "Yes",
-						"no": "No",
-						"partial": "Partial"
+						"yes": "Oui",
+						"no": "Non",
+						"partial": "Partiel"
 					}
 				}
 			},
@@ -298,7 +298,8 @@
 						"combat": "Combat",
 						"food_and_drinks": "Nourriture et boissons",
 						"none": "Aucune",
-						"spawn_eggs": "Oeufs d'apparition"
+						"spawn_eggs": "Oeufs d'apparition",
+						"operator_utilities": "Utilitaires d'opérateur"
 					}
 				}
 			},
