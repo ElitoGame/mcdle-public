@@ -8,7 +8,7 @@
 		"about": {
 			"title": "Sobre",
 			"button_title": "Sobre",
-			"intro": "Mcdle es un joc tipo puzzle al estil Wordl sobre contingut de Minecraft. Cada dia, un nou bloque, objecte i criatura de Minecraft es seleccionat i has d'endevinar-lo. Torna diàriament per a augmentar la teva ratxa d'acerts! Existe un servidor de Discord donde puedes compartir con tus amigos tus aciertos y rachas!",
+			"intro": "Mcdle es un joc tipo puzzle al estil Wordle sobre contingut de Minecraft. Cada dia, un nou bloque, objecte i criatura de Minecraft es seleccionat i has d'endevinar-lo. Torna diàriament per a augmentar la teva ratxa d'acerts! Existe un servidor de Discord donde puedes compartir con tus amigos tus aciertos y rachas!",
 			"help_pointer": "Cómo jugar? En cada juego hay un símbolo ? debajo del título, el cual abre una ventana de ayuda con ejemplos y descripciones detalladas del modo de juego en el que estás.",
 			"suggestions": {
 				"title": "Sugerencias",
