@@ -226,12 +226,12 @@
 			"quick_help": {
 				"look_for": "Continues buscant una millor explicació? Mira el",
 				"tooltip": "Com jugar",
-				"click_here": "ícon debajo del título o haz click aquí!"
+				"click_here": "ícon baix del títol o fes click ací!"
 			},
 			"help": {
-				"title": "Cómo jugar",
+				"title": "Com jugar",
 				"intro": {
-					"goal": "La meta de este joc es adivinar un bloque de Minecraft. Cada día un nuevo bloque es elegido, y si sigues acertando el bloque del día aumentarás tu racha!",
+					"goal": "La meta d'este joc es endevinar un bloque de Minecraft. Cada día un nuevo bloque es elegido, y si sigues acertando el bloque del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier bloque en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estos bloques, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades del bloque que elegiste se compararán con el del bloque de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
@@ -304,7 +304,7 @@
 				}
 			},
 			"loose": {
-				"title": "Fallaste tratando de adivinar el objeto de hoy",
+				"title": "Fallaste tratando de endevinar el objeto de hoy",
 				"subtitle": "Suerte mañana! (o deshabilita el límite en los ajustes)"
 			},
 			"win": {
@@ -345,7 +345,7 @@
 			},
 			"next_game": {
 				"name": "Objetos",
-				"description": "Preparado para adivinar el objeto de hoy también?"
+				"description": "Preparado para endevinar el objeto de hoy también?"
 			},
 			"quick_help": {
 				"look_for": "Sigues buscando una mejor explicación? Mira el",
@@ -355,7 +355,7 @@
 			"help": {
 				"title": "Cómo jugar",
 				"intro": {
-					"goal": "La meta de este joc es adivinar un objeto de Minecraft. Cada día un nuevo objeto es elegido, y si sigues acertando el objeto del día aumentarás tu racha!",
+					"goal": "La meta de este joc es endevinar un objeto de Minecraft. Cada día un nuevo objeto es elegido, y si sigues acertando el objeto del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier objeto en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estos objetos, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades del objeto que elegiste se compararán con el del objeto de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
@@ -443,7 +443,7 @@
 				}
 			},
 			"loose": {
-				"title": "Fallaste tratando de adivinar la criatura de hoy",
+				"title": "Fallaste tratando de endevinar la criatura de hoy",
 				"subtitle": "Suerte mañana! (o deshabilita el límite en los ajustes)"
 			},
 			"win": {
@@ -494,7 +494,7 @@
 			"help": {
 				"title": "Cómo jugar",
 				"intro": {
-					"goal": "La meta de este joc es adivinar una criatura de Minecraft. Cada día una nueva criatura es elegido, y si sigues acertando la criatura del día aumentarás tu racha!",
+					"goal": "La meta de este joc es endevinar una criatura de Minecraft. Cada día una nueva criatura es elegido, y si sigues acertando la criatura del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier criatura en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estas criatura, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades de la criatura que elegiste se compararán con el de la criatura de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
