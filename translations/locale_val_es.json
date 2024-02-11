@@ -231,7 +231,7 @@
 			"help": {
 				"title": "Com jugar",
 				"intro": {
-					"goal": "La meta d'este joc es endevinar un bloque de Minecraft. Cada día un nuevo bloque es elegido, y si sigues acertando el bloque del día aumentarás tu racha!",
+					"goal": "La meta d'este joc es endevinar un bloque de Minecraft. Cada dia un nou bloque es seleccionat, y si sigues acertando el bloque del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier bloque en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estos bloques, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades del bloque que elegiste se compararán con el del bloque de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
@@ -355,7 +355,7 @@
 			"help": {
 				"title": "Cómo jugar",
 				"intro": {
-					"goal": "La meta de este joc es endevinar un objeto de Minecraft. Cada día un nuevo objeto es elegido, y si sigues acertando el objeto del día aumentarás tu racha!",
+					"goal": "La meta de este joc es endevinar un objeto de Minecraft. Cada día un nuevo objeto es seleccionat, i si continues acertando el objeto del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier objeto en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estos objetos, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades del objeto que elegiste se compararán con el del objeto de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
@@ -494,7 +494,7 @@
 			"help": {
 				"title": "Cómo jugar",
 				"intro": {
-					"goal": "La meta de este joc es endevinar una criatura de Minecraft. Cada día una nueva criatura es elegido, y si sigues acertando la criatura del día aumentarás tu racha!",
+					"goal": "La meta de este joc es endevinar una criatura de Minecraft. Cada día una nueva criatura es seleccionat, y si sigues acertando la criatura del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier criatura en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estas criatura, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades de la criatura que elegiste se compararán con el de la criatura de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
