@@ -8,90 +8,90 @@
 		"about": {
 			"title": "Sobre",
 			"button_title": "Sobre",
-			"intro": "Mcdle es un joc tipo puzzle al estil Wordle sobre contingut de Minecraft. Cada dia, un nou bloque, objecte i criatura de Minecraft es seleccionat i has d'endevinar-lo. Torna diàriament per a augmentar la teva ratxa d'acerts! Existe un servidor de Discord donde puedes compartir con tus amigos tus aciertos y rachas!",
-			"help_pointer": "Cómo jugar? En cada juego hay un símbolo ? debajo del título, el cual abre una ventana de ayuda con ejemplos y descripciones detalladas del modo de juego en el que estás.",
+			"intro": "Mcdle es un joc tipo puzzle al estil Wordle sobre contingut de Minecraft. Cada dia, un nou bloque, objecte i criatura de Minecraft es seleccionat i has d'endevinar-lo. Torna diàriament per a augmentar la teva ratxa d'acerts! Hi ha un servidor de Discord on pots compartir amb el teus amics els teus acerts i ratxes!",
+			"help_pointer": "Com jugar? En cada joc habrà un símbol ? baix del títol, el cual obre una pestanya d'ajuda amb exemples i descripcions detallades del mode de joc en el que estàs.",
 			"suggestions": {
-				"title": "Sugerencias",
+				"title": "Suggerencies",
 				"description": {
-					"pre_link": "Manejo las sugerencias y reportes de errores generalmente en ",
+					"pre_link": "Administre les suggerencies i reports d'errors generalment a ",
 					"link": "Discord",
-					"post_link": ", siéntete libre de unírtenos, tenemos melones! También tenemos canales para comentar los acertijos de hoy y compartir tus rachas!"
+					"post_link": ", sent-te lliure d'unírtens, tenim melons! També tenim canals per a comentar les endevinalles de hui i compartir les teves ratxes!"
 				}
 			},
 			"support": {
-				"title": "Apóyanos",
+				"title": "Dónans suport",
 				"description": {
-					"pre_link": "Si tu quieres apoyar el proyecto (ej. pagar por la url, apoyar nuevas características, etc), revisa mi ",
+					"pre_link": "Si tu vols donar suport al projecte (ex. pagar per la url, donar suport a noves característiques, etc), revisa el meu ",
 					"link": "Ko-fi",
 					"post_link": "!"
 				}
 			},
 			"credits": {
-				"title": "Créditos",
+				"title": "Crèdits",
 				"description": {
-					"pre_link": "La información de este juego proviene de ",
+					"pre_link": "L'informació d'este joc prové de ",
 					"link": "la Wiki de Minecraft",
-					"post_link": ". Muchas de las imágenes están hosteadas ahí, así que muchas gracias a ellos por el gran trabajo de mantener al día la wiki! MCdle no está afiliado o avalado por Mojang Studios. Pero está obviamente basado en Minecraft e inspirado en Wordle y LoLdle."
+					"post_link": ". Moltes de les imàtges estàn hosteades ahí, així que moltes gràcies a ells per el gran treball de mantindre al dia la wiki! MCdle no està afiliat o avalat per Mojang Studios. Pero està obviament basat en Minecraft i inspirat en Wordle i LoLdle."
 				},
 				"credit_list": {
 					"kineticraft": {
-						"pre_link": "Gracias al servidor ",
+						"pre_link": "Gràcies al servidor ",
 						"link": "kineticraftreborn.net",
-						"post_link": " por la imagen de fondo!"
+						"post_link": " per l'imatge de fons!"
 					},
 					"vanilla_tweaks": {
-						"pre_link": "Gracias a ",
+						"pre_link": "Gràcies a ",
 						"link": "Vanilla Tweaks",
-						"post_link": " por sus texturas de los tallos de calabaza y sandía!"
+						"post_link": " per les seves textures dels talls de carabassa i sandia!"
 					}
 				}
 			},
 			"version": {
-				"title": "Versión",
-				"description": "Actualmente la versión del juego es la #{{version}}! El juego elegirá un nuevo bloque, objeto y criatura cada día a medianoche en horario UTC."
+				"title": "Versió",
+				"description": "Actualment la versió del joc es la #{{version}}! El joc seleccionarà un nou bloque, objecte i criatura cada dia a mitjanit en horari UTC."
 			}
 		}
 	},
 	"header": {
 		"settings": {
 			"colorblind": {
-				"input_name": "Modo daltonismo",
-				"label": "Modo daltonismo"
+				"input_name": "Modo daltonisme",
+				"label": "Modo daltonisme"
 			},
 			"difficulty": {
 				"limit_guesses_6": {
-					"input_name": "Intentos limitados",
-					"label": "Intentos de adivinar limitados a 6"
+					"input_name": "Intents llimitats",
+					"label": "Intents d'endevinar llimitats a 6"
 				},
 				"search": {
 					"game_knowledge": {
-						"input_name": "conocimiento del juego",
-						"label": "Conocimiento del juego"
+						"input_name": "coneixement del joc",
+						"label": "Coneixement del joc"
 					},
 					"logical": {
-						"input_name": "Lógico",
-						"label": "Lógico"
+						"input_name": "Llògic",
+						"label": "Llògic"
 					},
 					"showcase": {
-						"fallback": "Elije una dificultad para tus búsquedas!",
+						"fallback": "Selecciona una dificultat per a les teves búsquedes!",
 						"game_knowledge": {
-							"description": "Sin pistas de búsqueda, estás solo con tu conocimiento del juego !",
-							"image_alt": "Dificultad de búsqueda determinada por tu conocimiento"
+							"description": "Sense pistes de búsqueda, estàs sol amb el teu coneixement del joc!",
+							"image_alt": "Dificultat de búsqueda determinada per el teu coneixement"
 						},
 						"logical": {
-							"description": "Buscar te mostrará todas las estadísticas disponibles, haciendo lógico el juego MCdle!",
-							"image_alt": "Dificultad de búsqueda lógica"
+							"description": "Buscar et mostrarà totes les estadístiques disponibles, fent llògic el joc MCdle!",
+							"image_alt": "Dificultat de búsqueda llògic"
 						}
 					},
 					"title": "Buscar:"
 				},
-				"title": "Dificultad"
+				"title": "Dificultat"
 			},
 			"settings_button": {
-				"image_alt": "Botón de ajustes",
-				"tooltip": "Ajustes"
+				"image_alt": "Botò d'opcions",
+				"tooltip": "Opcions"
 			},
-			"title": "Ajustes"
+			"title": "Opcions"
 		},
 		"language": {
 			"title": "Idioma",
@@ -105,111 +105,111 @@
 	},
 	"pages": {
 		"404": {
-			"compass_alt": "GIF brújula",
-			"message": "Has encontrado un 404 al final de esta cueva...",
-			"return_message": "Toma una brújula para volver a casa!"
+			"compass_alt": "GIF brúixola",
+			"message": "Has trobat un 404 al final d'esta cova...",
+			"return_message": "Prén una brúixola per a tornar a casa!"
 		},
 		"index": {
-			"header": "Elije un modo de juego",
+			"header": "Selecciona un mode de joc",
 			"links": {
 				"blocks": {
-					"image_alt": "Ícono de bloques",
-					"subtitle": "Adivina el bloque de hoy",
+					"image_alt": "Ícon de bloques",
+					"subtitle": "Endevina el bloque de hui",
 					"title": "Bloques"
 				},
 				"items": {
-					"image_alt": "Ícono de objetos",
-					"subtitle": "Adivina el objeto de hoy",
-					"title": "Objetos"
+					"image_alt": "Ícon d'objectes",
+					"subtitle": "Endevina l'objecte de hui",
+					"title": "Objectes"
 				},
 				"mobs": {
-					"image_alt": "Ícono de criaturas",
-					"subtitle": "Adivina la criatura de hoy",
-					"title": "Criaturas"
+					"image_alt": "Ícon de criatures",
+					"subtitle": "Endevina la criatura de hui",
+					"title": "Criatures"
 				},
 				"goal": {
 					"title": "MCdle Bestiary",
-					"image_alt": "Ícono de victoria"
+					"image_alt": "Ícon de victoria"
 				}
 			}
 		},
 		"block": {
-			"title": "Modo de juego: adivina el bloque de hoy!",
+			"title": "Mode de joc: endevina el bloque de hui!",
 			"sub_title_menus": {
 				"stats": {
-					"title": "Estadísticas",
-					"tooltip": "Estadísticas"
+					"title": "Estadístiques",
+					"tooltip": "Estadístiques"
 				},
 				"streak": {
-					"title": "Transferir progreso",
-					"tooltip": "Racha"
+					"title": "Transferir progrés",
+					"tooltip": "Ratxa"
 				},
 				"help": {
-					"tooltip": "Cómo jugar"
+					"tooltip": "Com jugar"
 				}
 			},
 			"table": {
 				"header": {
 					"title": "Bloque",
-					"release": "Lanza-miento",
-					"stack_size": "Tamaño de stack",
-					"tools": "Herra-mienta(s)",
-					"blast_resistance": "Resis-tencia a las explo-siones",
-					"hardness": "Dureza",
+					"release": "Llança-ment",
+					"stack_size": "Tamany de stack",
+					"tools": "Ferra-menta(es)",
+					"blast_resistance": "Resis-tència a les explo-sions",
+					"hardness": "Duresa",
 					"flammable": "Infla-mable",
-					"transparent": "Transpa-rente"
+					"transparent": "Transpa-rent"
 				},
 				"data": {
 					"tools": {
-						"any_tool": "Cual-quier Herra-mienta",
-						"axe": "Hacha",
-						"pickaxe": "Pico",
-						"hoe": "Azada",
-						"shears": "Tijeras",
-						"sword": "Espada",
-						"none": "Ninguno",
+						"any_tool": "Cual-sevol Ferra-menta",
+						"axe": "Destral",
+						"pickaxe": "Pic",
+						"hoe": "Aixada",
+						"shears": "Tisores",
+						"sword": "Espasa",
+						"none": "Ningun",
 						"shovel": "Pala",
 						"bucket": "Cubeta",
-						"brush": "Brocha"
+						"brush": "Brotxa"
 					},
 					"states": {
-						"yes": "Sí",
+						"yes": "Si",
 						"no": "No",
 						"partial": "Parcial"
 					}
 				}
 			},
 			"loose": {
-				"title": "Has fallado intentando adivinar el bloque de hoy",
-				"subtitle": "Suerte mañana! (o deshabilita el límite en los ajustes)"
+				"title": "Has fallat intentant endevinar el bloque de hui",
+				"subtitle": "Sort demà (o deshabilita el llímit en les opcions)"
 			},
 			"win": {
-				"title": "Bloque descubrimiento!",
-				"subtitle": "El bloque de hoy fue {{name}}!"
+				"title": "Bloque descobert!",
+				"subtitle": "El bloque de hui era {{name}}!"
 			},
 			"intro": {
-				"description": "Adivina el bloque de hoy!",
-				"start_help": "Escribe abajo para empezar!"
+				"description": "Endevina el bloque de hui!",
+				"start_help": "Escriu baix per a començar!"
 			},
 			"limited_attempts": {
 				"warning": {
-					"zero": "{{remaining}} intentos restantes!",
-					"one": "{{remaining}} intento restante!",
-					"many": "{{remaining}} intentos restantes!"
+					"zero": "{{remaining}} intents restants!",
+					"one": "{{remaining}} intent restant!",
+					"many": "{{remaining}} intents restants!"
 				}
 			},
 			"search": {
 				"placeholder": {
 					"initial": "Busca un bloque",
-					"new_tomorrow": "Nuevo bloque mañana!",
-					"no_more_guesses": "Te quedaste sin intentos!"
+					"new_tomorrow": "Nou bloque demà!",
+					"no_more_guesses": "T'has quedat sense intents!"
 				},
 				"submit": {
 					"aria_label": "Intenta este bloque"
 				},
 				"ambiguous_result": {
-					"description": "Bloque ambiguo descubierto! Los demás bloques ambiguos incorrectos se tacharán en rojo.",
-					"image_alt": "Cazatesoros - colgar"
+					"description": "Bloque ambigu descobert! Els demés bloques ambigus incorrects es ratllaran en roig.",
+					"image_alt": "Cassatesoros - colgar"
 				}
 			},
 			"midnight_timer": {
@@ -231,7 +231,7 @@
 			"help": {
 				"title": "Cómo jugar",
 				"intro": {
-					"goal": "La meta de este juego es adivinar un bloque de Minecraft. Cada día un nuevo bloque es elegido, y si sigues acertando el bloque del día aumentarás tu racha!",
+					"goal": "La meta de este joc es adivinar un bloque de Minecraft. Cada día un nuevo bloque es elegido, y si sigues acertando el bloque del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier bloque en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estos bloques, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades del bloque que elegiste se compararán con el del bloque de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
@@ -256,7 +256,7 @@
 			}
 		},
 		"item": {
-			"title": "Modo de juego: Adivina el objeto de hoy!",
+			"title": "Modo de joc: Adivina el objeto de hoy!",
 			"sub_title_menus": {
 				"stats": {
 					"title": "Estadísticas",
@@ -355,7 +355,7 @@
 			"help": {
 				"title": "Cómo jugar",
 				"intro": {
-					"goal": "La meta de este juego es adivinar un objeto de Minecraft. Cada día un nuevo objeto es elegido, y si sigues acertando el objeto del día aumentarás tu racha!",
+					"goal": "La meta de este joc es adivinar un objeto de Minecraft. Cada día un nuevo objeto es elegido, y si sigues acertando el objeto del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier objeto en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estos objetos, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades del objeto que elegiste se compararán con el del objeto de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
@@ -381,7 +381,7 @@
 			}
 		},
 		"mob": {
-			"title": "Modo de juego: adivina la criatura de hoy!",
+			"title": "Modo de joc: adivina la criatura de hoy!",
 			"sub_title_menus": {
 				"stats": {
 					"title": "Estadísticas",
@@ -494,7 +494,7 @@
 			"help": {
 				"title": "Cómo jugar",
 				"intro": {
-					"goal": "La meta de este juego es adivinar una criatura de Minecraft. Cada día una nueva criatura es elegido, y si sigues acertando la criatura del día aumentarás tu racha!",
+					"goal": "La meta de este joc es adivinar una criatura de Minecraft. Cada día una nueva criatura es elegido, y si sigues acertando la criatura del día aumentarás tu racha!",
 					"enter_guesses": "Empieza escribiendo cualquier criatura en la barra de búsqueda. Basado en tu búsqueda aparecerán 10 resultados. Haz click en cualquiera de estas criatura, o navega hacia ellos con las flechas y pulsa Enter para bloquear tu intento.",
 					"field_explanation": "Las propiedades de la criatura que elegiste se compararán con el de la criatura de hoy y se marcarán en verde si coinciden, amarillo en coincidencias parciales y rojo para incorrectas. Detrás de los campos incorrectos de números/versiones encontrarás flechas indicando si deberías probar con uno mayor o menor."
 				},
@@ -512,7 +512,7 @@
 				},
 				"tips": {
 					"title": "Consejos",
-					"not_all_blocks": "MCdle no contiene cada tipo de entidad. Solo entidades vivientes, como ej. cerdos o zombis están incluidos. Soporte de armadura, proyectiles o entidades no-vivientes similares no esán incluidos. La lista proviene de la wiki de Minecraft, así que si no está en la lista de criaturas, no está en el juego.",
+					"not_all_blocks": "MCdle no contiene cada tipo de entidad. Solo entidades vivientes, como ej. cerdos o zombis están incluidos. Soporte de armadura, proyectiles o entidades no-vivientes similares no esán incluidos. La lista proviene de la wiki de Minecraft, así que si no está en la lista de criaturas, no está en el joc.",
 					"utilize_the_search": "Haz un buen uso de la barra de búsqueda! Con las sugerencias irás reduciendo tu búsqueda.",
 					"use_the_wiki": "Siéntete libre de usar la Wiki de Minecraft. Tan pronto como determines la versión de la criatura, puedes usar la wiki para ver que criaturas se añadieron en esa versión, lo cual te ayudará a reducir drásticamente tu búsqueda.",
 					"health_measuring": "Ten en cuenta que la Vida se mide en Puntos de Vida, aka medios corazones, así que 10 HP son 5 corazones."
@@ -567,7 +567,7 @@
 			"copy_button": "Copiar",
 			"copied_confirmation": "Copiado!",
 			"share": "Compartir",
-			"all_games": "Todos los juegos",
+			"all_games": "Todos los jocs",
 			"guess_type": {
 				"block": "bloque",
 				"item": "objeto",

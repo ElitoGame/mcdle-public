@@ -209,7 +209,7 @@
 				},
 				"ambiguous_result": {
 					"description": "Bloque ambiguo descubierto! Los demás bloques ambiguos incorrectos se tacharán en rojo.",
-					"image_alt": "Cazatesoros - colgar"
+					"image_alt": "Caza-tesoros - colgar"
 				}
 			},
 			"midnight_timer": {
@@ -333,7 +333,7 @@
 				},
 				"ambiguous_result": {
 					"description": "Objeto ambiguo descubierto! Los demás objetos ambiguos incorrectos se tacharán en rojo.",
-					"image_alt": "Cazatesoros - colgar"
+					"image_alt": "Caza-tesoros - colgar"
 				}
 			},
 			"midnight_timer": {
@@ -472,7 +472,7 @@
 				},
 				"ambiguous_result": {
 					"description": "Criatura ambigua descubierta! Otras criaturas ambiguas incorrectas se tacharán en rojo.",
-					"image_alt": "Cazatesoros - colgar"
+					"image_alt": "Caza-tesoros - colgar"
 				}
 			},
 			"midnight_timer": {
