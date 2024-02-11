@@ -209,24 +209,24 @@
 				},
 				"ambiguous_result": {
 					"description": "Bloque ambigu descobert! Els demés bloques ambigus incorrects es ratllaran en roig.",
-					"image_alt": "Cassatesoros - colgar"
+					"image_alt": "Caça-tresors - penjar"
 				}
 			},
 			"midnight_timer": {
-				"next_thing": "Recarga la página para obtener la nueva!",
-				"next_in": "Siguiente bloque en {{time}}"
+				"next_thing": "Recarga la pàgina per a obtenir la nova!",
+				"next_in": "Següent bloque en {{time}}"
 			},
 			"yesterday_info": {
-				"description": "El bloque de ayer fue {{name}}!"
+				"description": "El bloque de ahir va ser {{name}}!"
 			},
 			"next_game": {
 				"name": "Bloques",
-				"description": "Listo para adivinar el bloque de hoy?"
+				"description": "Preparat per a endevinar el bloque de hui?"
 			},
 			"quick_help": {
-				"look_for": "Sigues buscando una mejor explicación? Mira el",
-				"tooltip": "Cómo jugar",
-				"click_here": "icono debajo del título o haz click aquí!"
+				"look_for": "Continues buscant una millor explicació? Mira el",
+				"tooltip": "Com jugar",
+				"click_here": "ícon debajo del título o haz click aquí!"
 			},
 			"help": {
 				"title": "Cómo jugar",
