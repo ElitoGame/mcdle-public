@@ -424,6 +424,7 @@
 					},
 					"spawn": {
 						"structure": "Structure",
+						"spawner": "Spawner",
 						"breeding": "Breeding",
 						"biome": "Biome",
 						"light_level": "Light level",

@@ -424,6 +424,7 @@
 					},
 					"spawn": {
 						"structure": "Structure",
+						"spawner": "Générateur",
 						"breeding": "Reproduction",
 						"biome": "Biome",
 						"light_level": "Niveau de lumière",
