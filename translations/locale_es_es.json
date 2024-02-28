@@ -161,7 +161,7 @@
 				},
 				"data": {
 					"tools": {
-						"any_tool": "Cual-quier Herra-mienta",
+						"any_tool": "Cual-quier",
 						"axe": "Hacha",
 						"pickaxe": "Pico",
 						"hoe": "Azada",
@@ -424,6 +424,7 @@
 					},
 					"spawn": {
 						"structure": "Estructura",
+						"spawner": "Generador",
 						"breeding": "Repro-ducción",
 						"biome": "Bioma",
 						"light_level": "Nivel de luz",

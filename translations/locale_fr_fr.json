@@ -161,7 +161,7 @@
 				},
 				"data": {
 					"tools": {
-						"any_tool": "Tout outil",
+						"any_tool": "Tout",
 						"axe": "Hache",
 						"pickaxe": "Pioche",
 						"hoe": "Houe",
@@ -424,6 +424,7 @@
 					},
 					"spawn": {
 						"structure": "Structure",
+						"spawner": "Générateur",
 						"breeding": "Reproduction",
 						"biome": "Biome",
 						"light_level": "Niveau de lumière",

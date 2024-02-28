@@ -161,7 +161,7 @@
 				},
 				"data": {
 					"tools": {
-						"any_tool": "Cual-sevol Ferra-menta",
+						"any_tool": "Cual-sevol",
 						"axe": "Destral",
 						"pickaxe": "Pic",
 						"hoe": "Aixada",
@@ -424,6 +424,7 @@
 					},
 					"spawn": {
 						"structure": "Estructura",
+						"spawner": "Generador",
 						"breeding": "Reproducción",
 						"biome": "Bioma",
 						"light_level": "Nivel de luz",

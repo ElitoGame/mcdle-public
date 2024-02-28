@@ -161,7 +161,7 @@
 				},
 				"data": {
 					"tools": {
-						"any_tool": "Jedes Werk-zeug",
+						"any_tool": "Jedes",
 						"axe": "Axt",
 						"pickaxe": "Spitz-hacke",
 						"hoe": "Hacke",
@@ -424,6 +424,7 @@
 					},
 					"spawn": {
 						"structure": "Struktur",
+						"spawner": "Spawner",
 						"breeding": "Brüten",
 						"biome": "Biom",
 						"light_level": "Licht level",
