@@ -256,104 +256,104 @@
 			}
 		},
 		"item": {
-			"title": "Modo de joc: Adivina el objeto de hoy!",
+			"title": "Modo de joc: Endevina l'objecte de hui!",
 			"sub_title_menus": {
 				"stats": {
-					"title": "Estadísticas",
-					"tooltip": "Estadísticas"
+					"title": "Estadístiques",
+					"tooltip": "Estadístiques"
 				},
 				"streak": {
-					"title": "Transferir progreso",
-					"tooltip": "Racha"
+					"title": "Transferir progrés",
+					"tooltip": "Ratxa"
 				},
 				"help": {
-					"tooltip": "Cómo jugar"
+					"tooltip": "Com jugar"
 				}
 			},
 			"table": {
 				"header": {
-					"title": "Objeto",
-					"release": "Lanza-miento",
-					"stack_size": "Tamaño de stack",
-					"rarity": "Rareza",
-					"inventory_category": "Acción",
+					"title": "Objecte",
+					"release": "Llança-ment",
+					"stack_size": "Tamany de stack",
+					"rarity": "Raresa",
+					"inventory_category": "Acció",
 					"renewable": "Reno-vable",
-					"usage": "Número de usos",
-					"source": "Número de fuentes"
+					"usage": "Nombre d'usos",
+					"source": "Nombre de fonts"
 				},
 				"data": {
 					"rarity": {
-						"common": "Común",
-						"uncommon": "No-común",
+						"common": "Comú",
+						"uncommon": "No-comú",
 						"rare": "Raro",
-						"epic": "Épico",
-						"mixed": "Mixto"
+						"epic": "Épic",
+						"mixed": "Mixte"
 					},
 					"inventory_category": {
-						"tools_and_utilities": "Herra-mientas y Utili-dades",
+						"tools_and_utilities": "Ferra-mentes i Utili-tats",
 						"redstone_blocks": "Redstone",
-						"functional_blocks": "Bloques Funcio-nales",
-						"natural_blocks": "Bloques Naturales",
-						"ingredients": "Ingredientes",
+						"functional_blocks": "Bloques Funcio-nals",
+						"natural_blocks": "Bloques Naturals",
+						"ingredients": "Ingredients",
 						"combat": "Combate",
-						"food_and_drinks": "Comidas y Bebidas",
-						"none": "Ninguno",
-						"spawn_eggs": "Huevos de Spawn",
-						"operator_utilities": "Herramientas de admin."
+						"food_and_drinks": "Menjars y Begudes",
+						"none": "Ningún",
+						"spawn_eggs": "Ous de Spawn",
+						"operator_utilities": "Ferra-mentes d'admin."
 					}
 				}
 			},
 			"loose": {
-				"title": "Fallaste tratando de endevinar el objeto de hoy",
-				"subtitle": "Suerte mañana! (o deshabilita el límite en los ajustes)"
+				"title": "Has fallat intentant endevinar l'objecte de hui",
+				"subtitle": "Sort demà (o deshabilita el llímit en les opcions)"
 			},
 			"win": {
-				"title": "Objeto descubierto!",
-				"subtitle": "El objeto de hoy fue {{name}}!"
+				"title": "Objecte descobert",
+				"subtitle": "El objeto de hui era {{name}}!"
 			},
 			"intro": {
-				"description": "Adivina el objeto de hoy!",
-				"start_help": "Escribe abajo para empezar!"
+				"description": "Endevina l'objecte de hui!",
+				"start_help": "Escriu baix per a començar!"
 			},
 			"limited_attempts": {
 				"warning": {
-					"zero": "{{remaining}} intentos restantes!",
-					"one": "{{remaining}} intento restante!",
-					"many": "{{remaining}} intentos restantes!"
+					"zero": "{{remaining}} intents restants!",
+					"one": "{{remaining}} intent restant!",
+					"many": "{{remaining}} intents restants!"
 				}
 			},
 			"search": {
 				"placeholder": {
-					"initial": "Busca un objeto",
-					"new_tomorrow": "Nuevo objeto mañana!",
-					"no_more_guesses": "Te quedaste sin intentos!"
+					"initial": "Busca un objecte",
+					"new_tomorrow": "Nou objecte demà!",
+					"no_more_guesses": "T'has quedat sense intents!"
 				},
 				"submit": {
-					"aria_label": "Intenta este objeto"
+					"aria_label": "Intenta este objecte"
 				},
 				"ambiguous_result": {
-					"description": "Objeto ambiguo descubierto! Los demás objetos ambiguos incorrectos se tacharán en rojo.",
-					"image_alt": "Cazatesoros - colgar"
+					"description": "Objecte ambigu descubert! Els demés objectes ambigus incorrectes es ratllaràn en roig.",
+					"image_alt": "Caça-tresors - penjar"
 				}
 			},
 			"midnight_timer": {
-				"next_thing": "Recarga la página para obtener la nueva!",
-				"next_in": "Siguiente objeto en {{time}}"
+				"next_thing": "Recarga la pàgina per a obtenir la nova!",
+				"next_in": "Següent objecte en {{time}}"
 			},
 			"yesterday_info": {
-				"description": "El objeto de ayer fue {{name}}!"
+				"description": "L'objecte d'ahir era {{name}}!"
 			},
 			"next_game": {
-				"name": "Objetos",
-				"description": "Preparado para endevinar el objeto de hoy también?"
+				"name": "Objectes",
+				"description": "Preparat per a endevinar l'objecte de hui?"
 			},
 			"quick_help": {
-				"look_for": "Sigues buscando una mejor explicación? Mira el",
-				"tooltip": "Cómo jugar",
-				"click_here": "icono debajo del título o haz click aquí!"
+				"look_for": "Continues buscant una millor explicació? Mira el",
+				"tooltip": "Com jugar",
+				"click_here": "ícon baix del títol o fes click ací!"
 			},
 			"help": {
-				"title": "Cómo jugar",
+				"title": "Com jugar",
 				"intro": {
 					"goal": "La meta de este joc es endevinar un objecte de Minecraft. Cada día un nuevo objecte es seleccionat, i si continues acertando l'objecte del dia augmentaràs la teva ratxa!",
 					"enter_guesses": "Comença escribint cualsevol objecte en la barra de búsqueda. Basat en la teva búsqueda apareixeràn 10 resultats. Fes click en cualsevol d'estos objectes, o navega fins a ells amb les fletxes i pulsa Enter per a bloquear el teu intent.",
