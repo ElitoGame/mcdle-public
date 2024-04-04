@@ -88,7 +88,7 @@
 				"title": "Dificultat"
 			},
 			"settings_button": {
-				"image_alt": "Botò d'opcions",
+				"image_alt": "Botó d'opcions",
 				"tooltip": "Opcions"
 			},
 			"title": "Opcions"
@@ -233,19 +233,19 @@
 				"intro": {
 					"goal": "La meta d'este joc es endevinar un bloque de Minecraft. Cada dia un nou bloque es seleccionat, i si continues acertant el bloque del dia augmentaràs la teva ratxa!",
 					"enter_guesses": "Comença escribint cualsevol bloque en la barra de búsqueda. Basat en la teva búsqueda apareixeràn 10 resultats. Fes click en cualsevol d'estos bloques, o navega fins a ells amb les fletxes i pulsa Enter per a bloquear el teu intent.",
-					"field_explanation": "Les propietats del bloque que hages seleccionat es compararan amb el del bloque de hui i es marcaran en verd si coincideixen, groc en coincidencies parcials i roig per a incorrectes. Darrere dels camps incorrectes de nombres/versions trobarás fletxes indicant si deuries probar amb uno major o menor."
+					"field_explanation": "Les propietats del bloque que hages seleccionat es compararan amb el del bloque de hui i es marcaran en verd si coincideixen, groc en coincidències parcials i roig per a incorrectes. Darrere dels camps incorrectes de nombres/versions trobarás fletxes indicant si deuries probar amb uno major o menor."
 				},
 				"example": {
 					"title": "Exemple",
 					"intro": "Anem a vore un exemple. Primer probarem un bloque al atzar.",
-					"table_interpretation_1": "Vegem que el bloque, al igual que la mayoría, es stackeable de 64, y no es inflamable. No es un bloque de la Pre-Alpha y puede ser minado con un Pico. Así que probamos con un bloque, nuevo, diferente.",
-					"table_interpretation_2": "Descubrimos la versión del bloque! Probemos un bloque de la Beta 1.8. Adicionalmente, tenemos una coincidencia parcial con la herramienta, que puede romperse tanto con un Hacha como con otra herramienta. También, el bloque tampoco es transparente (\"Sí\") ni no transparente (\"No\"), así que debe ser parcialmente transparente. Así que veamos un bloque que tenga estas características.",
-					"table_interpretation_3": "Aquí está! Descubrimos que el bloque era el bloque de sandía, que delícia!"
+					"table_interpretation_1": "Vegem que el bloque, al igual que la mayoría, es stackeable de 64, i no es inflamable. No es un bloque de la Pre-Alpha i pot ser minat amb un Pico. Així que probem amb un bloque, nou, diferent.",
+					"table_interpretation_2": "Descobrim la versió del bloque! Probem un bloque de la Beta 1.8. Adicionalment, tenim una coincidència parcial amb la ferramenta, que pot tencar-se tant amb un Destral com amb un altra ferramenta. També, el bloque tampoc es transparent (\"Sí\") ni no transparent (\"No\"), així que deu ser parcialment transparent. Així que mirem un bloque que tinga estes característiques.",
+					"table_interpretation_3": "Ací està! Descobrim que el bloque era el bloque de sandía, que delícia!"
 				},
 				"partial_matches": {
-					"title": "Explicación de la coincidencia parcial",
-					"intro": "Miremos las coincidencias parciales en detalle, porque estos son, probablemente, los campos de color más confusos.",
-					"explanation": "Una coincidencia parcial solo puede aparecer si el campo lo consiste una lista (ej. Herramientas). Si intentaste un bloque que puede romperse con al menos una herramienta, obtienes una coincidencia parcial. Aquí hay un ejemplo con hojas:"
+					"title": "Explicació de la coincidència parcial",
+					"intro": "Mirem les coincidències parciales en detalle, porque estos son, probablemente, los campos de color más confusos.",
+					"explanation": "Una coincidència parcial solo puede aparecer si el campo lo consiste una lista (ej. Herramientas). Si intentaste un bloque que puede romperse con al menos una herramienta, obtienes una coincidència parcial. Aquí hay un ejemplo con hojas:"
 				},
 				"tips": {
 					"title": "Consejos",
