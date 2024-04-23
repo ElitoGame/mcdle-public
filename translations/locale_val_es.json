@@ -439,7 +439,9 @@
 						"raids": "Invasión",
 						"command": "Comando",
 						"overworld": "Overworld",
-						"hatching": "Huevo"
+						"hatching": "Huevo",
+						"jockey": "Jinete",
+						"duplication": "Duplicación"
 					}
 				}
 			},
