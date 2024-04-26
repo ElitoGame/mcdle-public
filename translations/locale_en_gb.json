@@ -439,7 +439,9 @@
 						"raids": "Raids",
 						"command": "Command",
 						"overworld": "Overworld",
-						"hatching": "Hatching"
+						"hatching": "Hatching",
+						"jockey": "Jockey",
+						"duplication": "Duplication"
 					}
 				}
 			},

@@ -439,7 +439,9 @@
 						"raids": "Raids",
 						"command": "Commande",
 						"overworld": "Overworld",
-						"hatching": "Éclosion"
+						"hatching": "Éclosion",
+						"jockey": "Chevauchée",
+						"duplication": "Duplication"
 					}
 				}
 			},
