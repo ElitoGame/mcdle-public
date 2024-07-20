@@ -1,0 +1,1168 @@
+{
+	"footer": {
+		"links": {
+			"cookie": {
+				"title": "Polityka plików cookie (ciasteczka)"
+			}
+		},
+		"about": {
+			"title": "Na temat",
+			"button_title": "Na temat",
+			"intro": "Mcdle to podobna do Wordle gra logiczna dla treści związanych z Minecraftem. Każdego dnia wybierany jest nowy blok, przedmiot i mob z Minecrafta, a ty musisz go odgadnąć. Wracaj codziennie, aby budować pasmo zwycięstw! Istnieją funkcje udostępniania społecznościowego, dzięki czemu możesz dzielić się swoimi zwycięstwami i pasmami zwycięstw ze znajomymi!",
+			"help_pointer": "Nie wiesz, jak grać? Każda strona gry ma ikonę ? pod tytułem, która otworzy menu pomocy z przykładami i szczegółowymi opisami bieżącego trybu gry.",
+			"suggestions": {
+				"title": "Sugestie",
+				"description": {
+					"pre_link": "Zajmuję się większością sugestii i obsługą błędów/problemów na ",
+					"link": "Discordzie",
+					"post_link": ", zapraszamy do dołączenia i rozmawiania, mamy melony! Mamy również kanały do omawiania dzisiejszych quizów i dzielenia się swoimi zwycięstwami! (Niestety, Discord jest na ten moment wyłącznie po angielsku)"
+				}
+			},
+			"support": {
+				"title": "Pomoc",
+				"description": {
+					"pre_link": "Jeśli chcesz wspomóc tę stronę (n.p. sfinansować domenę, wspomóc nowe funkcje, itd.), sprawdź moje ",
+					"link": "Ko-fi",
+					"post_link": "!"
+				}
+			},
+			"credits": {
+				"title": "Uznania",
+				"description": {
+					"pre_link": "Dane do tej gry są pozyskiwane z aplikacji ",
+					"link": "Minecraft Wiki",
+					"post_link": ". Wiele zdjęć jest właśnie z tamtąd, więc wielkie podziękowania dla nich za ich ciężką pracę nad aktualizacją strony! MCdle nie jest powiązane, wspierane ani sponsorowane przez Mojang Studios. Jest on jednak oparty na Minecrafcie i inspirowany Wordle i LoLdle."
+				},
+				"credit_list": {
+					"kineticraft": {
+						"pre_link": "Podziękowania ",
+						"link": "kineticraftreborn.net",
+						"post_link": " za obraz w tle!"
+					},
+					"vanilla_tweaks": {
+						"pre_link": "Podziękowania ",
+						"link": "Vanilla Tweaks",
+						"post_link": " za ich tekstury łodyg dyni i melona!"
+					}
+				}
+			},
+			"version": {
+				"title": "Wersja",
+				"description": "Dzisiejsza gra to zagadka #{{version}}! Gra będzie wybierać nowy blok, przedmiot i moba każdego dnia o północy UTC."
+			}
+		}
+	},
+	"header": {
+		"settings": {
+			"colorblind": {
+				"input_name": "Tryb dla daltonistów",
+				"label": "Tryb dla daltonistów"
+			},
+			"difficulty": {
+				"limit_guesses_6": {
+					"input_name": "Limit prób",
+					"label": "Ogranicz liczbę prób do 6"
+				},
+				"search": {
+					"game_knowledge": {
+						"input_name": "Wiedza o grze",
+						"label": "Wiedza o grze"
+					},
+					"logical": {
+						"input_name": "Logiczne",
+						"label": "Logiczne"
+					},
+					"showcase": {
+						"fallback": "Wybierz trudność wyszukiwania!",
+						"game_knowledge": {
+							"description": "brak podpowiedzi, musisz się oprzeć na własnej wiedzy o grze!",
+							"image_alt": "Wyszukiwanie w trybie wiedzy o grze"
+						},
+						"logical": {
+							"description": "wyszukiwanie będzie pokazywało wszystkie dostępne categorie, zmieniając MCdle w grę logiczną!",
+							"image_alt": "Wyszukiwanie w trybie logicznym"
+						}
+					},
+					"title": "Wyszukiwanie:"
+				},
+				"title": "Trudność"
+			},
+			"settings_button": {
+				"image_alt": "przycisk ustawienia",
+				"tooltip": "Ustawienia"
+			},
+			"title": "Ustawienia"
+		},
+		"language": {
+			"title": "Język",
+			"tooltip": "Język",
+			"description": {
+				"pre_link": "Oficjalnie ta strona wspomaga tylko tłumaczenie Angielskie i Niemieckie, ale dzięki społeczności, inne języki są dostępne za pośrednicwem ",
+				"link": "Githuba",
+				"post_link": ". Nie ma gwarancji na to, czy nieoficjalne tłumaczenia są zaaktualizowane lub poprawne, więc jeśli znajdziesz jakiekolwiek pomyłki, nie bój się stworzyć nowego pull requesta (prośby ściągnięcia?)"
+			}
+		}
+	},
+	"pages": {
+		"404": {
+			"compass_alt": "Gif compasu",
+			"message": "Napotkałeś zakończenie 404...",
+			"return_message": "Trzymaj kompas aby wrócić do domu!"
+		},
+		"index": {
+			"header": "Wybierz tryb gry",
+			"links": {
+				"blocks": {
+					"image_alt": "Ikona bloków",
+					"subtitle": "Odgadnij dzisiejszy blok",
+					"title": "Bloki"
+				},
+				"items": {
+					"image_alt": "Ikona przedmiotów",
+					"subtitle": "Odgadnij dzisiejszy przedmiot",
+					"title": "Przedmioty"
+				},
+				"mobs": {
+					"image_alt": "Ikona mobów",
+					"subtitle": "Odgadnij dzisiejszego moba",
+					"title": "Moby"
+				},
+				"goal": {
+					"title": "Bestiariusz MCdle (WIP)",
+					"image_alt": "Ikona celu"
+				}
+			}
+		},
+		"block": {
+			"title": "Tryb gry: zgadnij dzisiejszy blok!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statystyki",
+					"tooltip": "Statystyki"
+				},
+				"streak": {
+					"title": "Przenieś postęp",
+					"tooltip": "Zwycięska passa"
+				},
+				"help": {
+					"tooltip": "Jak grać"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Blok",
+					"release": "Wersja dodania",
+					"stack_size": "Wielkość stacka",
+					"tools": "Narzędzie/a",
+					"blast_resistance": "Odporność na wybuchy",
+					"hardness": "Twardość",
+					"flammable": "łatwo-palne",
+					"transparent": "Przeźro-czyste"
+				},
+				"data": {
+					"tools": {
+						"any_tool": "każde",
+						"axe": "Siekiera",
+						"pickaxe": "Kilof",
+						"hoe": "Motyka",
+						"shears": "Norzycae",
+						"sword": "Miecz",
+						"none": "Żadne",
+						"shovel": "Łopata",
+						"bucket": "Wiadro",
+						"brush": "Pędzel"
+					},
+					"states": {
+						"yes": "Tak",
+						"no": "Nie",
+						"partial": "Częściowo"
+					}
+				}
+			},
+			"loose": {
+				"title": "Nie udało ci się zgadnąć dzisiejszego bloku",
+				"subtitle": "Powodznia następnym razem! (lub wyłącz limit w ustawieniach)"
+			},
+			"win": {
+				"title": "Blok znaleziony!",
+				"subtitle": "Dzisiejszym blokiem jest {{name}}!"
+			},
+			"intro": {
+				"description": "Zgadnij dzisiejszy blok z minecrafta!",
+				"start_help": "Pisz poniżej aby zacząć!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "pozostało {{remaining}} prób!",
+					"one": "pozostała {{remaining}} próba!",
+					"two-four": "pozostały {{remaining}} próby!",
+					"many": "pozostało {{remaining}} prób!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Szukaj bloku",
+					"new_tomorrow": "Nowy blok już jutro!",
+					"no_more_guesses": "brak prób!"
+				},
+				"submit": {
+					"aria_label": "Spróbuj tego bloku"
+				},
+				"ambiguous_result": {
+					"description": "Odkryto niejednoznaczny blok! Kolejne niepoprawne niejednoznaczne bloki będą zaznaczane czerwonym.",
+					"image_alt": "Łowca skarbów - było blisko"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Odśwież stronę aby dostać następnego!",
+				"next_in": "Następny blok za {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Wczorajszy blok to {{name}}!"
+			},
+			"next_game": {
+				"name": "Bloki",
+				"description": "Spróbujesz zgadnąć dzisiejszy blok?"
+			},
+			"quick_help": {
+				"look_for": "Nadal szukasz lepszego wytłumaczenia? Znajdź ikonę ",
+				"tooltip": "Jak grać",
+				"click_here": "pod tytułem gry lub kliknij tutaj!"
+			},
+			"help": {
+				"title": "Jak grać",
+				"intro": {
+					"goal": "Celem gry jest zgadnięcie bloku. każdego dnia nowy blok jest wybierany, a próbując codziennie zgadnąć blok dnia, możesz zbudować Pasmo zwycięstw!",
+					"enter_guesses": "Zacznij wpisując nazwę dowolnego bloku w polu wyszukiwania. Bazując na wyszukanej frazie, wyskoczy (maksymalnie) 10 propozycji bloków. Kliknij w jeden z nich, lub dojdź do nich za pomocą strzałek i kliknij enter aby sprawdzić swój blok.",
+					"field_explanation": "Właściwości wybranego bloku będą porównane do dzisiejszego i zostaną zaznaczone na zielono jeśli są takie same, na żółto jeśli są częściowo zgodne i na czerwono jeśli nie poprawne. Za błędnymi liczbami/wersjami znajdziesz też strzałkę pokazującą czy podane dane są niższe czy wyższe od tych dzisiejszego bloku."
+				},
+				"example": {
+					"title": "Przykład",
+					"intro": "Popatrzmy na przykładową grę. Najpierw spróbujmy zwykły blok.",
+					"table_interpretation_1": "Dowiedzieliśmy się, że jak wiele innych, może być przetrzymywany do 64 sztuk w ręce, i nie jest łatwopalny (nie pali się). Nie jest to blok dodany przed alfą i nie może być wykopany kilofem (kilof nie jest efektywny). Więc spróbujmy innego, nowszego bloku.",
+					"table_interpretation_2": "Odgadneliśmy wersję dzisiejszego bloku! Pora na szukanie bloku z wersji Beta 1.8. Dodatkowo, mamy częściowo zgodne narzędzia, co oznacza że blok jest niszczony najefektywniej używając siekiery lub innego narzędzia (którego jeszcze nie znamy). następną informacją jest to, że blok nie jest ani przeźroczysty (\"Tak\") ani nieprzeźroczysty (\"Nie\"), więc musi być częściowo przeźroczysty (nie przeźroczysty, ale przepuszcza światło). Poszukajmy bloku który spełnia wszystkie te łaściwości.",
+					"table_interpretation_3": "Mamy go! znaleźliśmy przykładowy blok, był nim arbuz, przepysznie!"
+				},
+				"partial_matches": {
+					"title": "Wyjaśnienie częściowej zgodności",
+					"intro": "Przyjżyjmy się częściowym zgodnościom trochę dokładniej, bo są one pewnie najdziwniejszym z możliwych kolorów.",
+					"explanation": "częściowa zgodność może pojawić się tylko w polach które są listami (n.p. narzędzia). Jeśli próbowałeś zgadnąć blok który może być zepsuty przynajmniej jednym narzędziem które pasuje do tego bloku, dostaniesz częściową zgodność. Tutaj jest przykład z liśćmi:"
+				},
+				"tips": {
+					"title": "wskazówki",
+					"not_all_blocks": "MCdle nie ma wszystkich wariantów bloków. Wszystkie kolorowe warianty betonu, terakoty, wełny, itd. są zastąpione jednym blokiem reprezętującym je wszystkie, n.p. \"beton\" lub \"Wełna\". To samo dotyczy typów: drewna, ścian, schodów, itd.",
+					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! patrz na sugestje, mogą ci pomóc zawęzić szukanie.",
+					"use_the_wiki": "Śmiało, nie bój się używać Minecraft wiki. Po znalezieniu wersji bloku możesz użyć wiki aby znaleźć bloki dodane w tej wersji, pomoże ci to zawęzić obszar poszukiwań."
+				}
+			}
+		},
+		"item": {
+			"title": "Tryb gry: zgadnij dzisiejszy przedmiot!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statystyki",
+					"tooltip": "Statystyki"
+				},
+				"streak": {
+					"title": "Przenieś postęp",
+					"tooltip": "Zwycięska passa"
+				},
+				"help": {
+					"tooltip": "Jak grać"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Przedmiot",
+					"release": "Wersja dodania",
+					"stack_size": "Wielkość stacka",
+					"rarity": "Rzadkość",
+					"inventory_categories": "Kategoria inwentarzu kreatywnego",
+					"renewable": "Odnawialny",
+					"usage": "Liczba użyć",
+					"source": "Liczba źródeł"
+				},
+				"data": {
+					"rarity": {
+						"common": "Zwykły",
+						"uncommon": "Niezwykły",
+						"rare": "Rzadki",
+						"epic": "Epicki",
+						"mixed": "Różny"
+					},
+					"inventory_category": {
+						"tools_and_utilities": "narzędzia i przybory",
+						"redstone_blocks": "Mechanizmy redstone",
+						"functional_blocks": "Bloki użytkowe",
+						"natural_blocks": "Bloki naturalne",
+						"ingredients": "Materiały",
+						"combat": "Walka",
+						"food_and_drinks": "Żywność i napoje",
+						"none": "Żadna",
+						"spawn_eggs": "Jaja mobów",
+						"operator_utilities": "Narzędzia operatora"
+					}
+				}
+			},
+			"loose": {
+				"title": "Nie udało ci się zgadnąć dzisiejszego przedmiotu",
+				"subtitle": "Powodznia następnym razem! (lub wyłącz limit w ustawieniach)"
+			},
+			"win": {
+				"title": "przegmiot znaleziony!",
+				"subtitle": "Dzisiejszym przedmiotem jest {{name}}!"
+			},
+			"intro": {
+				"description": "Zgadnij dzisiejszy przedmiot z minecrafta!",
+				"start_help": "Pisz poniżej aby zacząć!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "pozostało {{remaining}} prób!",
+					"one": "pozostała {{remaining}} próba!",
+					"two-four": "pozostały {{remaining}} próby!",
+					"many": "pozostało {{remaining}} prób!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Szukaj przedmiotu",
+					"new_tomorrow": "Nowy przedmiot już jutro!",
+					"no_more_guesses": "brak prób!"
+				},
+				"submit": {
+					"aria_label": "Spróbuj tego przedmiotu"
+				},
+				"ambiguous_result": {
+					"description": "Odkryto niejednoznaczny przedmiot! Kolejne niepoprawne niejednoznaczne przedmioty będą zaznaczane czerwonym.",
+					"image_alt": "Łowca skarbów - było blisko"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Odśwież stronę aby dostać następnego!",
+				"next_in": "Następny przedmiot za {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Wczorajszy przedmiot to {{name}}!"
+			},
+			"next_game": {
+				"name": "Przedmioty",
+				"description": "Gotowy na zgadywanie dzisiejszego przedmiotu?"
+			},
+			"quick_help": {
+				"look_for": "Nadal szukasz lepszego wytłumaczenia? Znajdź ikonę ",
+				"tooltip": "Jak grać",
+				"click_here": "pod tytułem gry lub kliknij tutaj!"
+			},
+			"help": {
+				"title": "Jak grać",
+				"intro": {
+					"goal": "Celem gry jest zgadnięcie przedmiotu. każdego dnia nowy przedmiot jest wybierany, a próbując codziennie zgadnąć przedmiot dnia, możesz zbudować Pasmo zwycięstw!",
+					"enter_guesses": "Zacznij wpisując nazwę dowolnego przedmiotu w polu wyszukiwania. Bazując na wyszukanej frazie, wyskoczy (maksymalnie) 10 propozycji tych przedmiotów. Kliknij w jeden z nich, lub dojdź do nich za pomocą strzałek i kliknij enter aby sprawdzić swój przedmiot.",
+					"field_explanation": "Właściwości wybranego przedmiotu będą porównane do dzisiejszego i zostaną zaznaczone na zielono jeśli są takie same, na żółto jeśli są częściowo zgodne i na czerwono jeśli nie poprawne. Za błędnymi liczbami/wersjami znajdziesz też strzałkę pokazującą czy podane dane są niższe czy wyższe od tych dzisiejszego przedmiotu."
+				},
+				"example": {
+					"title": "Przykład",
+					"intro": "Popatrzmy na przykładową grę. Najpierw spróbujmy zwykły przedmiot.",
+					"table_interpretation_1": "Dowiedzieliśmy się, że jak wiele innych, może być przetrzymywany do 64 sztuk w ręce. Jest to przedmiot dodany po becie 1.2, jest zwykły (żadkość), jest odnawialny i jest mniej niż 5 sposobów na jego użycie oraz 6 sposobów na jego zdobycie. Jego kategoria inwentarzu mówi nam że nie szukamy w kategorii \"Materiały\". Spróbujmy innego przedmiotu.",
+					"table_interpretation_2": "Odgadneliśmy wersję dzisiejszego przedmiotu! Pora na szukanie bloku z wersji Beta 1.8 który jest w kategorii \"Żywność i napoje\". Teraz musimy szukać przedmiotu z pasującymi sposobami na ich użycie i zdobycie.",
+					"table_interpretation_3": "Mamy to! znaleźliśmy przykładowy przedmiot, był nim kawałek arbuza, przepysznie!"
+				},
+				"partial_matches": {
+					"title": "Wyjaśnienie częściowej zgodności",
+					"intro": "Przyjżyjmy się częściowym zgodnościom trochę dokładniej, bo są one pewnie najdziwniejszym z możliwych kolorów.",
+					"explanation": "częściowa zgodność może pojawić się tylko w polach które są listami (n.p. kategorie ekwipunku). Jeśli próbowałeś zgadnąć przedmiot który może być znaleziony w przynajmniej jednej kategorii ekwipunku, dostaniesz częściową zgodność. Tutaj jest przykład z nitką:"
+				},
+				"tips": {
+					"title": "wskazówki",
+					"not_all_items": "MCdle nie zawiera wszystkich wariantów przedmiotów. Lista przedmiotów jest wzięta z wiki i pomija bardzo podobne do siebie przedmioty, takie jak warianty zbroji lub narzędzi.",
+					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! patrz na sugestje, mogą ci pomóc zawęzić szukanie.",
+					"use_the_wiki": "Śmiało, nie bój się używać Minecraft wiki. Po znalezieniu wersji przedmiotu możesz użyć wiki aby znaleźć przedmioty dodane w tej wersji, pomoże ci to zawęzić obszar poszukiwań.",
+					"usage_and_source_explanation": "Jeśli chcesz się dowiedzieć jak obliczane jest liczenie rodzajów użyć i źródeł, sprawdź stronę przedmiotów na minecraft wiki i zjedź do \"Otrzymywanie\" i \"Używanie\". Nagłówki tych sekcji zostały użyte do zliczenia ich różnych użyć. Jeśli niektórych z nich brakowało, twórca tej strony, Deweloper, dodał je ręcznie."
+				}
+			}
+		},
+		"mob": {
+			"title": "Tryb gry: zgadnij dzisiejszego moba!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statystyki",
+					"tooltip": "Statystyki"
+				},
+				"streak": {
+					"title": "Przenieś postęp",
+					"tooltip": "Zwycięska passa"
+				},
+				"help": {
+					"tooltip": "Jak grać"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Mob",
+					"release": "Wersja dodania",
+					"health": "Życie",
+					"height": "Wysokość",
+					"behavior": "Zachowanie",
+					"spawn": "Występowanie",
+					"classification": "Klasy-fikacja"
+				},
+				"data": {
+					"behavior": {
+						"passive": "Pasywny",
+						"neutral": "Neutralny",
+						"hostile": "Agresywny",
+						"defensive": "Defensywny"
+					},
+					"classification": {
+						"none": "Żadna",
+						"animal": "Zwierzę",
+						"aquatic": "Morskie",
+						"arthropod": "Stawonóg",
+						"undead": "Nieumarły",
+						"illager": "Illager",
+						"golem": "Golem",
+						"boss": "Boss"
+					},
+					"spawn": {
+						"structure": "Struktura",
+						"spawner": "Spawner",
+						"breeding": "Rozmnażanie",
+						"biome": "Biom",
+						"light_level": "Poziom światła",
+						"block": "Blok",
+						"grass": "Trawa",
+						"nether": "Nether",
+						"projectile": "pocisk",
+						"conversion": "przemiana",
+						"lightning": "piorun",
+						"the_end": "End",
+						"summon": "przywołanie",
+						"raids": "Raid",
+						"command": "Komenda",
+						"overworld": "Overworld",
+						"hatching": "Wyklucie",
+						"jockey": "Jeźdźca",
+						"duplication": "Duplikacja",
+						"magic": "Magia"
+					}
+				}
+			},
+			"loose": {
+				"title": "Nie udało ci się zgadnąć dzisiejszego moba",
+				"subtitle": "Powodznia następnym razem! (lub wyłącz limit w ustawieniach)"
+			},
+			"win": {
+				"title": "Mob znaleziony!",
+				"subtitle": "Dzisiejszym mobem jest {{name}}!"
+			},
+			"intro": {
+				"description": "Zgadnij dzisiejszego moba z minecrafta!",
+				"start_help": "Pisz poniżej aby zacząć!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "pozostało {{remaining}} prób!",
+					"one": "pozostała {{remaining}} próba!",
+					"two-four": "pozostały {{remaining}} próby!",
+					"many": "pozostało {{remaining}} prób!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Szukaj moba",
+					"new_tomorrow": "Nowy mob już jutro!",
+					"no_more_guesses": "brak prób!"
+				},
+				"submit": {
+					"aria_label": "Spróbuj tego moba"
+				},
+				"ambiguous_result": {
+					"description": "Odkryto niejednoznacznego moba! Kolejne niepoprawne niejednoznaczne moby będą zaznaczane czerwonym.",
+					"image_alt": "Łowca skarbów - było blisko"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Odśwież stronę aby dostać następnego!",
+				"next_in": "Następny mob za {{time}}"
+			},
+			"yesterday_info": {
+				"description": "Wczorajszy mob to {{name}}!"
+			},
+			"next_game": {
+				"name": "Moby",
+				"description": "Spróbujesz zgadnąć dzisiejszego moba?"
+			},
+			"quick_help": {
+				"look_for": "Nadal szukasz lepszego wytłumaczenia? Znajdź ikonę ",
+				"tooltip": "Jak grać",
+				"click_here": "pod tytułem gry lub kliknij tutaj!"
+			},
+			"help": {
+				"title": "Jak grać",
+				"intro": {
+					"goal": "Celem gry jest zgadnięcie moba dnia. każdego dnia nowy mob jest wybierany, a próbując codziennie zgadnąć moba dnia, możesz zbudować Pasmo zwycięstw!",
+					"enter_guesses": "Zacznij wpisując nazwę dowolnego moba w polu wyszukiwania. Bazując na wyszukanej frazie, wyskoczy (maksymalnie) 10 propozycji mobów. Kliknij w jednego z nich, lub dojdź do nich za pomocą strzałek i kliknij enter aby sprawdzić swojego moba.",
+					"field_explanation": "Właściwości wybranego moba będą porównane do dzisiejszego i zostaną zaznaczone na zielono jeśli są takie same, na żółto jeśli są częściowo zgodne i na czerwono jeśli nie poprawne. Za błędnymi liczbami/wersjami znajdziesz też strzałkę pokazującą czy podane dane są niższe czy wyższe od tych dzisiejszego moba."
+				},
+				"example": {
+					"title": "Przykład",
+					"intro": "Popatrzmy na przykładową grę. Najpierw spróbujmy zwykłego moba.",
+					"table_interpretation_1": "Dowiedzieliśmy się, że mob którego szukamy jest nowszy niż 1.6.1, nie ma zbyt dużo punktów życia, jest niższy niż 1.6 bloków i może być passywny, agresywny, lub mieszaniną tych dwóch. Jest on przywoływany piorunem i nie jest nieumarłym.",
+					"table_interpretation_2": "No dobrze, nadal nowszy niż 1.13, ale mamy jego życie: szukamy moba z punktami życia = 10, czyli 5 serduszkami. Jest mniejszy niż 0.6 bloku wysokości, więc patrzymy na małego moba. Zachowanie moba nadal jest zgodne tylko częściowo, więc najprawdopodobniej jest to mob pasywny, ale nadal może być agresywny lub neutralny. Zarówno Spawn jak i klasyfikacja są częściowo zgodne, a więc pojawianie się w biomie i jakaś inna przyczyna, klasyfikowany jako zwierze lub morskie i może coś innego.",
+					"table_interpretation_3": "Mamy go! popatrz co przeskoczyło przez ten samouczek, znaleźliśmy małą żabkę!"
+				},
+
+				"partial_matches": {
+					"title": "Wyjaśnienie częściowej zgodności",
+					"intro": "Przyjżyjmy się częściowym zgodnościom trochę dokładniej, bo są one pewnie najdziwniejszym z możliwych kolorów.",
+					"explanation": "częściowa zgodność może pojawić się tylko w polach które są listami (n.p. spawn, klasyfikacja czy zachowanie). Jeśli próbowałeś zgadnąć moba który może być znaleziony w przynajmniej jednym biomie, dostaniesz częściową zgodność. Tutaj jest przykład z końmi:"
+				},
+				"tips": {
+					"title": "wskazówki",
+					"not_all_blocks": "MCdle nie ma wszystkich jednostek. Tylko żywe jednostki, jak n.p. świnie czy zombiaki są dodane. Stojaki na zbroje, strzały czy inne podobne nie żyjące jednostki nie są częścią gry. Lista jest wzięta z Minecraft wiki, więc jeśli nie ma jednostki na tej liście, to nie ma jej i tutaj.",
+					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! patrz na sugestje, mogą ci pomóc zawęzić szukanie.",
+					"use_the_wiki": "Śmiało, nie bój się używać Minecraft wiki. Po znalezieniu wersji moba możesz użyć wiki aby znaleźć moby dodane w tej wersji, pomoże ci to zawęzić obszar poszukiwań.",
+					"health_measuring": "Pamiętaj, że życie jest liczone w punktach życia, czyli połówkach serduszka, a więc 10hp to 5 serc życia."
+				}
+			}
+		}
+	},
+	"components": {
+		"quick_help": {
+			"show_button": "Pokarz szybką pomoc",
+			"color_explanation": {
+				"title": "Wyjaśnienie kolorów",
+				"correct": "Poprawne pole",
+				"incorrect": "Niepoprawne pole",
+				"partial": "Częściowo poprawne pole"
+			}
+		},
+		"stats": {
+			"copy_button": "Kopiuj",
+			"copied_confirmation": "Skopiowano!",
+			"share": "Udostępnij",
+			"copy_message": {
+				"header_block": "Moje #MCdle statystyki bloków 🏆",
+				"header_item": "Moje #MCdle statystyki przedmiotów 🏆",
+				"header_mob": "Moje #MCdle statystyki mobów 🏆",
+				"total_wins": "🎉 Wygrane gry: {{number}}",
+				"average_guesses": "🧮 Średnia prób {{number}}",
+				"one_shots": "🎯 strzał w 10 {{number}}",
+				"current_streak": "🚀 aktualne passmo Zwycięstw {{number}}",
+				"max_streak": "📈 Największe passmo Zwycięstw {{number}}"
+			},
+			"stat_labels": {
+				"total_wins": "Wygrane gry",
+				"average_guesses": "Średnia prób",
+				"one_shots": "🎯 strzał w 10",
+				"current_streak": "aktualne passmo Zwycięstw",
+				"max_streak": "Największe passmo Zwycięstw"
+			},
+			"chart_labels": {
+				"guesses": "Próby"
+			}
+		},
+		"today_guesses": {
+			"loading": "Wczytywanie prób gracza...",
+			"already_guessed": {
+				"zero": "graczy już zgadło prawidłowo!",
+				"one": "gracz już zgadł prawidłowo!",
+				"many": "graczy już zgadło prawidłowo!"
+			}
+		},
+		"share_win": {
+			"copy_button": "Kopiuj",
+			"copied_confirmation": "Skopiowane!",
+			"share": "Udostępnij",
+			"all_games": "Wszystkie gry",
+			"guess_type": {
+				"block": "blok",
+				"item": "przedmiot",
+				"mob": "moba"
+			},
+			"guess_line": {
+				"one": "znalazłem {{date}}'s {{type}} #MCdle za {{number}} razem! {{emoji}}",
+				"many": "znalazłem {{date}}'s {{type}} #MCdle  w {{number}} próbach! {{emoji}}"
+			},
+			"short_guess_line": {
+				"intro": "znalazłem {{date}}'s #MCdle ",
+				"one": "{{type}} za {{number}} razem!",
+				"many": "{{type}} w {{number}} próbach",
+				"conjunction": " i "
+			}
+		},
+		"hints": {
+			"in_x_guesses": {
+				"one": "za {{number}} próbę!",
+				"many": "za {{number}} próby!"
+			},
+			"version": {
+				"description": "wskazówka versji wydania",
+				"solution": "szukasz elementu {{version}} wersji!"
+			},
+			"letter": {
+				"description": "wskazówka pierwszej litery",
+				"solution": "rozwiązanie zaczyna się na literę {{letter}}..."
+			},
+			"image": {
+				"description": "wskazówka przybliżonej kamery",
+				"solution": "czy widzisz co się kryje na tym 8x przybliżonym zdjęciu?"
+			}
+		}
+	},
+	"blocks": {
+		"button": "Przycisk",
+		"door": "Drzwi",
+		"fence": "Płot",
+		"fence_gate": "Furtka",
+		"leaves": "Liście",
+		"log": "Pień",
+		"planks": "Deski",
+		"pressure_plate": "Płytka naciskowa",
+		"sapling": "Sadzonka",
+		"sign": "Tabliczka",
+		"slab": "Półblok/Płyta",
+		"stairs": "Schody",
+		"trapdoor": "Klapa",
+		"wood": "Drewno",
+		"activator_rail": "Tory aktywacyjne",
+		"flower": "Kwiatek",
+		"amethyst_block": "Blok ametystu",
+		"amethyst_cluster": "Kiełkujący ametyst",
+		"ancient_debris": "Pradawne zgliszcza",
+		"andesite": "Andezyt",
+		"wall": "Mur",
+		"anvil": "Kowadło",
+		"azalea": "Azalia",
+		"bamboo": "Bambus",
+		"bamboo_block": "Blok bambusu",
+		"bamboo_mosaic": "Bambusowa mozaika",
+		"barrel": "Beczka",
+		"barrier": "Bariera",
+		"basalt": "Bazalt",
+		"beacon": "Magiczna latarnia",
+		"bedrock": "Skała macierzysta",
+		"bee_nest": "Gniazdo pszczół",
+		"beetroots": "Buraki",
+		"bell": "Dzwon",
+		"big_dripleaf": "Wielki spadkoliść",
+		"banner": "Sztandar",
+		"bed": "Łóżko",
+		"candle": "Świeca",
+		"carpet": "Dywan",
+		"concrete": "Beton",
+		"concrete_powder": "Cement",
+		"glazed_terracotta": "Glazurowana terakota",
+		"shulker_box": "Shulkerowa skrzynia",
+		"glass": "Szkło",
+		"glass_pane": "Szyba",
+		"terracotta": "Terakota",
+		"wool": "Wełna",
+		"blackstone": "Czernit",
+		"blast_furnace": "Piec hutniczy",
+		"blue_ice": "Niebieski lód lodowcowy",
+		"bone_block": "Blok kości",
+		"bookshelf": "Biblioteczka",
+		"coral": "Koralowiec",
+		"coral_block": "Blok koralowca",
+		"coral_fan": "Wachlarz koralowca",
+		"brewing_stand": "Statyw alchemiczny",
+		"bricks": "Cegły",
+		"mushroom": "Grzyb",
+		"mushroom_block": "Blok grzyba",
+		"cactus": "Kaktus",
+		"cake": "Ciasto",
+		"calcite": "Kalcyt",
+		"calibrated_sculk_sensor": "Skalibrowany sculkowy czujnik",
+		"campfire": "Ognisko",
+		"carrots": "Marchewki",
+		"cartography_table": "Stół kartograficzny",
+		"cauldron": "Kocioł",
+		"cave_vines": "Jaskiniowe pnącza",
+		"chain": "Łańcuch",
+		"chest": "Skrzynia",
+		"chiseled_bookshelf": "Rzeźbiona biblioteczka",
+		"chorus_flower": "Kwiat refrenusu",
+		"chorus_plant": "Łodyga refrenusu",
+		"clay": "Glina",
+		"coal_block": "Blok węgla",
+		"coal_ore": "Złoże węgla",
+		"coarse_dirt": "Twarda ziemia",
+		"cobbled_deepslate": "Łupkowy bruk",
+		"cobblestone": "Bruk",
+		"cobweb": "Pajęczyna",
+		"cocoa": "Kakao",
+		"command_block": "Blok poleceń",
+		"comparator": "Komparator redstone",
+		"composter": "Kompostownik",
+		"conduit": "Przewodnia",
+		"copper_block": "Blok miedzi",
+		"copper_bulb": "Miedziana lampa",
+		"copper_door": "Miedziane drzwi",
+		"copper_grate": "Miedziana krata",
+		"copper_ore": "Złoże miedzi",
+		"copper_trapdoor": "Miedziana klapa",
+		"crafter": "Wytwarzacz",
+		"crafting_table": "Stół rzemieślniczy",
+		"head": "Głowa",
+		"fungus": "Grzyb",
+		"nylium": "Nylium",
+		"roots": "Korzenie",
+		"crying_obsidian": "Płaczący obsydian",
+		"daylight_detector": "Detektor światła dziennego",
+		"dead_bush": "Uschnięty krzak",
+		"decorated_pot": "Dekorowany garniec",
+		"deepslate": "Łupek",
+		"detector_rail": "Tory z czujnikiem",
+		"diamond_block": "Blok diamentu",
+		"diamond_ore": "Złoże diamentu",
+		"diorite": "Dioryt",
+		"dirt": "Ziemia",
+		"dirt_path": "Ścieżka",
+		"dispenser": "Dozownik",
+		"dragon_egg": "Smocze jajo",
+		"dried_kelp_block": "Blok suszonych wodorostów",
+		"dripstone_block": "Blok nacieku",
+		"dropper": "Podajnik",
+		"emerald_block": "Blok szmaragdu",
+		"emerald_ore": "Złoże szmaragdu",
+		"enchanting_table": "Stół do zaklinania",
+		"end_portal_frame": "Rama portalu do Endu",
+		"end_rod": "Endowy słupek",
+		"end_stone": "Kamień Endu",
+		"end_stone_bricks": "Endowe kamienne cegły",
+		"ender_chest": "Skrzynia Endu",
+		"farmland": "Pole uprawne",
+		"fern": "Paproć",
+		"fire": "Ogień",
+		"fletching_table": "Stół łuczarski",
+		"flower_pot": "Doniczka",
+		"frogspawn": "Żabi skrzek",
+		"furnace": "Piec",
+		"glow_lichen": "Świecący porost",
+		"glowstone": "Jasnogłaz",
+		"gold_block": "Blok złota",
+		"gold_ore": "Złoże złota",
+		"granite": "Granit",
+		"grass_block": "Blok trawy",
+		"gravel": "Żwir",
+		"grindstone": "Kamień szlifierski",
+		"hanging_roots": "Zwisające korzenie",
+		"hay_block": "Snop siana",
+		"heavy_core": "Ciężki rdzeń",
+		"heavy_weighted_pressure_plate": "Ciężka wagowa płytka naciskowa",
+		"honey_block": "Blok miodu",
+		"honeycomb_block": "Blok plastra miodu",
+		"hopper": "Lej",
+		"ice": "Lód",
+		"infested_block": "Zarobaczony kamień",
+		"iron_bars": "Żelazne kraty",
+		"iron_block": "Blok żelaza",
+		"iron_door": "Żelazne drzwi",
+		"iron_ore": "Złoże żelaza",
+		"iron_trapdoor": "Żelazna klapa",
+		"jack_o_lantern": "Latarnia dyniowa",
+		"jigsaw": "Blok konstrukcyjny",
+		"jukebox": "Szafa grająca",
+		"kelp": "Wodorost",
+		"ladder": "Drabina",
+		"lantern": "Latarenka",
+		"lapis_block": "Blok lazurytu",
+		"lapis_ore": "Złoże lazurytu",
+		"lectern": "Pulpit",
+		"lever": "Dźwignia",
+		"light": "Światło",
+		"lightning_rod": "Piorunochron",
+		"lily_pad": "Lilia wodna",
+		"lodestone": "Magnetyt",
+		"loom": "Krosno",
+		"magma_block": "Blok magmy",
+		"mangrove_propagule": "Siewka namorzynu",
+		"mangrove_roots": "Namorzynowe korzenie",
+		"melon": "Arbuz",
+		"melon_stem": "Łodyga arbuza",
+		"moss_block": "Blok mchu",
+		"moss_carpet": "Warstwa mchu",
+		"mossy_cobblestone": "Zamszony bruk",
+		"mud": "Błoto",
+		"mud_bricks": "Błotne cegły",
+		"muddy_mangrove_roots": "Zabłocone namorzynowe korzenie",
+		"mycelium": "Grzybnia",
+		"nether_bricks": "Netherowe cegły",
+		"nether_gold_ore": "Netherowe złoże złota",
+		"nether_quartz_ore": "Złoże netherowego kwarcu",
+		"nether_sprouts": "Netherowe kiełki",
+		"nether_wart": "Netherowa brodawka",
+		"nether_wart_block": "Blok netherowych brodawek",
+		"netherite_block": "Blok netherytu",
+		"netherrack": "Netherrack",
+		"note_block": "Blok dźwiękowy",
+		"observer": "Detektor",
+		"obsidian": "Obsydian",
+		"froglight": "Żabia lampa",
+		"packed_ice": "Zbity lód",
+		"packed_mud": "Utwardzone błoto",
+		"petrified_oak_slab": "Skamieniała dębowa płyta",
+		"pink_petals": "Różowe kwiatki",
+		"piston": "Tłok",
+		"pitcher_crop": "Plon dzbanecznika",
+		"pitcher_plant": "Dzbanecznik",
+		"podzol": "Bielica",
+		"pointed_dripstone": "Spiczasty naciek",
+		"polished_blackstone": "Wypolerowany czernit",
+		"potatoes": "Ziemniaki",
+		"powder_snow": "Sypki śnieg",
+		"powered_rail": "Zasilane tory",
+		"prismarine": "Pryzmaryn",
+		"pumpkin": "Dynia",
+		"pumpkin_stem": "Łodyga dyni",
+		"purpur_block": "Blok purpuru",
+		"quartz_block": "Blok kwarcu",
+		"rail": "Tory",
+		"raw_copper_block": "Blok rudy miedzi",
+		"raw_gold_block": "Blok surowego złota",
+		"raw_iron_block": "Blok rudy żelaza",
+		"redstone_block": "Blok redstone",
+		"redstone_lamp": "Lampa redstone",
+		"redstone_ore": "Złoże redstone",
+		"redstone_torch": "Pochodnia redstone",
+		"redstone_wire": "Przewód redstone",
+		"reinforced_deepslate": "Zbrojony łupek",
+		"repeater": "Przekaźnik redstone",
+		"respawn_anchor": "Kotwica odrodzenia",
+		"rooted_dirt": "Zakorzeniona ziemia",
+		"sand": "Piasek",
+		"sandstone": "Piaskowiec",
+		"scaffolding": "Rusztowanie",
+		"sculk": "Sculk",
+		"sculk_catalyst": "Sculkowy katalizator",
+		"sculk_sensor": "Sculkowy czujnik",
+		"sculk_shrieker": "Sculkowe wrzeszczydło",
+		"sculk_vein": "Żyły sculku",
+		"sea_lantern": "Latarnia morska",
+		"sea_pickle": "Iskrzyłuda",
+		"seagrass": "Trawa morska",
+		"short_grass": "Niska trawa",
+		"shroomlight": "Światłogrzyb",
+		"slime_block": "Blok szlamu",
+		"small_dripleaf": "Mały spadkoliść",
+		"smithing_table": "Stół kowalski",
+		"smoker": "Wędzarka",
+		"smooth_quartz": "Gładki blok kwarcu",
+		"smooth_stone": "Gładki kamień",
+		"sniffer_egg": "Jajo niuchacza",
+		"snow": "Śnieg",
+		"snow_block": "Blok śniegu",
+		"soul_sand": "Piasek dusz",
+		"soul_soil": "Gleba dusz",
+		"spawner": "Przyzywacz potworów",
+		"sponge": "Gąbka",
+		"spore_blossom": "Pylikwiat",
+		"stone": "Kamień",
+		"stone_bricks": "Kamienne cegły",
+		"stonecutter": "Przecinarka",
+		"structure_block": "Blok struktur",
+		"structure_void": "Pustka strukturalna",
+		"sugar_cane": "Trzcina cukrowa",
+		"suspicious_gravel": "Podejrzany żwir",
+		"sweet_berry_bush": "Krzew słodkich jagód",
+		"target": "Tarcza strzelecka",
+		"tinted_glass": "Przyciemnione szkło",
+		"tnt": "TNT",
+		"torch": "Pochodnia",
+		"torchflower": "Ognisty kwiat",
+		"trapped_chest": "Skrzynia-pułapka",
+		"trial_spawner": "Przyzywacz prób",
+		"tripwire": "Linka",
+		"tripwire_hook": "Zaczep na linkę",
+		"tuff": "Tuf",
+		"turtle_egg": "Żółwie jajko",
+		"twisting_vines": "Spaczone pnącza",
+		"vault": "Skarbiec",
+		"vine": "Pnącza",
+		"warped_wart_block": "Blok spaczonych brodawek",
+		"weeping_vines": "Płaczące pnącza",
+		"wheat": "Pszenica",
+		"wither_rose": "Witherowa róża"
+	},
+	"items": {
+		"boat": "Łódka",
+		"chest_boat": "Łódka ze skrzynią",
+		"spawn_egg": "Jajo przyzywające",
+		"amethyst_shard": "Odłamek ametystu",
+		"pottery_sherd": "Odłamek ceramiki",
+		"apple": "Jabłko",
+		"armadillo_scute": "Tarczka pancernika",
+		"armor_stand": "Stojak na zbroję",
+		"arrow": "Strzała",
+		"aquatic_mob_bucket": "Wiadro z rybą/axolotlem",
+		"baked_potato": "Pieczony ziemniak",
+		"beef": "Surowa wołowina",
+		"beetroot": "Burak",
+		"beetroot_seeds": "Nasiona buraka",
+		"beetroot_soup": "Barszcz czerwony",
+		"blaze_powder": "Płomienny proszek",
+		"blaze_rod": "Płomienna różdżka",
+		"bone": "Kość",
+		"bone_meal": "Mączka kostna",
+		"book": "Książka",
+		"bow": "Łuk",
+		"bowl": "Miska",
+		"bread": "Chleb",
+		"breeze_rod": "Wichrowa różdżka",
+		"brick": "Cegła",
+		"brush": "Pędzel",
+		"bucket": "Wiadro",
+		"bundle": "Sakwa",
+		"carrot": "Marchewka",
+		"carrot_on_a_stick": "Marchewka na patyku",
+		"charcoal": "Węgiel drzewny",
+		"chest_minecart": "Wagonik ze skrzynią",
+		"chicken": "Surowy kurczak",
+		"chorus_fruit": "Owoc refrenusu",
+		"clay_ball": "Kulka gliny",
+		"clock": "Zegar",
+		"coal": "Węgiel",
+		"armor_trim_smithing_template": "Szablon kowalski",
+		"cocoa_beans": "Ziarna kakaowe",
+		"cod": "Surowy dorsz",
+		"command_block_minecart": "Wagonik z blokiem poleceń",
+		"compass": "Kompas",
+		"cooked_beef": "Pieczona wołowina",
+		"cooked_chicken": "Pieczony kurczak",
+		"cooked_cod": "Pieczony dorsz",
+		"cooked_mutton": "Pieczona baranina",
+		"cooked_porkchop": "Pieczona wieprzowina",
+		"cooked_rabbit": "Pieczony królik",
+		"cooked_salmon": "Pieczony łosoś",
+		"cookie": "Ciastko",
+		"copper_ingot": "Sztabka miedzi",
+		"banner_pattern": "Wzór sztandaru",
+		"crossbow": "Kusza",
+		"dye": "Barwnik",
+		"debug_stick": "Patyk debugujący",
+		"diamond": "Diament",
+		"axe": "Siekiera",
+		"boots": "Buty",
+		"chestplate": "Napierśnik",
+		"helmet": "Hełm",
+		"hoe": "Motyka",
+		"horse_armor": "Zbroja końska",
+		"leggings": "Nogawice",
+		"pickaxe": "Kilof",
+		"shovel": "Łopata",
+		"sword": "Miecz",
+		"disc_fragment": "Fragment płyty",
+		"dragon_breath": "Oddech smoka",
+		"dried_kelp": "Suszony wodorost",
+		"echo_shard": "Odłamek echa",
+		"egg": "Jajko",
+		"elytra": "Elytry",
+		"emerald": "Szmaragd",
+		"enchanted_book": "Zaklęta książka",
+		"enchanted_golden_apple": "Zaklęte złote jabłko",
+		"end_crystal": "Kryształ Endu",
+		"ender_eye": "Oko Endera",
+		"ender_pearl": "Enderperła",
+		"experience_bottle": "Zaklęta butelka",
+		"feather": "Pióro",
+		"fermented_spider_eye": "Sfermentowane oko pająka",
+		"fire_charge": "Ognista kula",
+		"firework_rocket": "Fajerwerk",
+		"firework_star": "Gwiazdka pirotechniczna",
+		"fishing_rod": "Wędka",
+		"flint": "Krzemień",
+		"flint_and_steel": "Krzesiwo",
+		"furnace_minecart": "Napędzany wagonik",
+		"ghast_tear": "Łza ghasta",
+		"glass_bottle": "Szklana butelka",
+		"glistering_melon_slice": "Kawałek lśniącego arbuza",
+		"glow_berries": "Świecące jagody",
+		"glow_ink_sac": "Torbiel ze świecącym atramentem",
+		"glowstone_dust": "Jasnopył",
+		"goat_horn": "Kozi róg",
+		"gold_ingot": "Sztabka złota",
+		"gold_nugget": "Bryłka złota",
+		"golden_apple": "Złote jabłko",
+		"golden_carrot": "Złota marchewka",
+		"gunpowder": "Proch",
+		"heart_of_the_sea": "Serce oceanu",
+		"honey_bottle": "Butelka miodu",
+		"honeycomb": "Plaster miodu",
+		"hopper_minecart": "Wagonik z lejem",
+		"ink_sac": "Torbiel z atramentem",
+		"iron_ingot": "Sztabka żelaza",
+		"iron_nugget": "Bryłka żelaza",
+		"item_frame": "Ramka na przedmiot",
+		"knowledge_book": "Księga wiedzy",
+		"lapis_lazuli": "Lazuryt",
+		"lava_bucket": "Wiadro lawy",
+		"lead": "Smycz",
+		"leather": "Skóra",
+		"lingering_potion": "Trwała mikstura",
+		"mace": "Buzdygan",
+		"magma_cream": "Magmowy krem",
+		"map": "Pusta mapa",
+		"melon_seeds": "Nasiona arbuza",
+		"melon_slice": "Kawałek arbuza",
+		"milk_bucket": "Wiadro mleka",
+		"minecart": "Wagonik",
+		"mushroom_stew": "Zupa grzybowa",
+		"music_disc": "Płyta muzyczna",
+		"mutton": "Surowa baranina",
+		"name_tag": "Znacznik",
+		"nautilus_shell": "Muszla łodzika",
+		"nether_brick": "Netherowa cegła",
+		"nether_star": "Netherowa gwiazda",
+		"nether_wart": "Netherowa brodawka",
+		"netherite_ingot": "Sztabka netherytu",
+		"netherite_scrap": "Odłamek netherytu",
+		"netherite_upgrade_smithing_template": "Szablon kowalski",
+		"ominous_bottle": "Złowieszcza butelka",
+		"painting": "Obraz",
+		"paper": "Papier",
+		"phantom_membrane": "Błona fantoma",
+		"pitcher_plant": "Dzbanecznik",
+		"pitcher_pod": "Strąk dzbanecznika",
+		"poisonous_potato": "Trujący ziemniak",
+		"popped_chorus_fruit": "Prażony owoc refrenusu",
+		"porkchop": "Surowa wieprzowina",
+		"potato": "Ziemniak",
+		"potion": "Mikstura",
+		"powder_snow_bucket": "Wiadro sypkiego śniegu",
+		"prismarine_crystals": "Kryształy pryzmarynu",
+		"prismarine_shard": "Odłamek pryzmarynu",
+		"pufferfish": "Rozdymka",
+		"pumpkin_pie": "Placek dyniowy",
+		"pumpkin_seeds": "Nasiona dyni",
+		"quartz": "Netherowy kwarc",
+		"rabbit": "Surowy królik",
+		"rabbit_foot": "Królicza łapka",
+		"rabbit_hide": "Królicza skóra",
+		"rabbit_stew": "Potrawka z królika",
+		"raw_copper": "Ruda miedzi",
+		"raw_gold": "Surowe złoto",
+		"raw_iron": "Ruda żelaza",
+		"recovery_compass": "Kompas powrotny",
+		"redstone": "Sproszkowany redstone",
+		"rotten_flesh": "Zgniłe mięso",
+		"saddle": "Siodło",
+		"salmon": "Surowy łosoś",
+		"scute": "Tarczka",
+		"shears": "Nożyce",
+		"shield": "Tarcza",
+		"shulker_shell": "Skorupa shulkera",
+		"slime_ball": "Kula szlamu",
+		"snowball": "Śnieżka",
+		"spectral_arrow": "Widmowa strzała",
+		"spider_eye": "Oko pająka",
+		"splash_potion": "Mikstura miotana",
+		"spyglass": "Luneta",
+		"stick": "Patyk",
+		"string": "Nić",
+		"sugar": "Cukier",
+		"suspicious_stew": "Podejrzana potrawka",
+		"sweet_berries": "Słodkie jagody",
+		"tipped_arrow": "Strzała z miksturą",
+		"tnt_minecart": "Wagonik z TNT",
+		"torchflower_seeds": "Nasiona ognistego kwiatu",
+		"totem_of_undying": "Totem nieśmiertelności",
+		"trial_key": "Klucz próby",
+		"trident": "Trójząb",
+		"tropical_fish": "Ryba tropikalna",
+		"turtle_scute": "Tarczka żółwia",
+		"warped_fungus_on_a_stick": "Spaczony grzyb na patyku",
+		"water_bucket": "Wiadro wody",
+		"wheat": "Pszenica",
+		"wheat_seeds": "Nasiona pszenicy",
+		"wind_charge": "Wietrzna kula",
+		"wolf_armor": "Wilcza zbroja",
+		"writable_book": "Książka z piórem",
+		"written_book": "Zapisana książka",
+		"kelp": "Wodorost"
+	},
+	"mobs": {
+		"allay": "Otuszek",
+		"armadillo": "Pancernik",
+		"axolotl": "Aksolotl",
+		"bat": "Nietoperz",
+		"bee": "Pszczoła",
+		"blaze": "Płomyk",
+		"bogged": "Bagniak",
+		"breeze": "Wichrzyk",
+		"camel": "Wielbłąd",
+		"cat": "Kot",
+		"cave_spider": "Pająk jaskiniowy",
+		"chicken": "Kura",
+		"cod": "Dorsz",
+		"cow": "Krowa",
+		"creeper": "Creeper",
+		"dolphin": "Delfin",
+		"donkey": "Osioł",
+		"drowned": "Utopiec",
+		"elder_guardian": "Prastrażnik",
+		"ender_dragon": "Smok Endu",
+		"enderman": "Enderman",
+		"endermite": "Endermit",
+		"evoker": "Przywoływacz",
+		"fox": "Lis",
+		"frog": "Żaba",
+		"ghast": "Ghast",
+		"giant": "Olbrzym",
+		"glow_squid": "Świecąca kałamarnica",
+		"goat": "Koza",
+		"guardian": "Strażnik",
+		"hoglin": "Hoglin",
+		"horse": "Koń",
+		"husk": "Posuch",
+		"illusioner": "Iluzjoner",
+		"iron_golem": "Żelazny Golem",
+		"llama": "Lama",
+		"magma_cube": "Kostka magmy",
+		"mooshroom": "Mooshroom",
+		"mule": "Muł",
+		"ocelot": "Ocelot",
+		"panda": "Panda",
+		"parrot": "Papuga",
+		"phantom": "Fantom",
+		"pig": "Świnia",
+		"piglin": "Piglin",
+		"piglin_brute": "Piglin okrutnik",
+		"pillager": "Rozbójnik",
+		"polar_bear": "Niedźwiedź polarny",
+		"pufferfish": "Rozdymka",
+		"rabbit": "Królik",
+		"ravager": "Dewastator",
+		"salmon": "Łosoś",
+		"sheep": "Owca",
+		"shulker": "Shulker",
+		"silverfish": "Rybik cukrowy",
+		"skeleton": "Szkielet",
+		"skeleton_horse": "Koń-szkielet",
+		"slime": "Szlam",
+		"sniffer": "Niuchacz",
+		"snow_golem": "Śnieżny Golem",
+		"spider": "Pająk",
+		"squid": "Kałamarnica",
+		"stray": "Tułacz",
+		"strider": "Magmołaz",
+		"tadpole": "Kijanka",
+		"tropical_fish": "Ryba tropikalna",
+		"turtle": "Żółw",
+		"vex": "Dręczyciel",
+		"villager": "Osadnik",
+		"vindicator": "Obrońca",
+		"wandering_trader": "Wędrowny handlarz",
+		"warden": "Nadzorca",
+		"witch": "Wiedźma",
+		"wither": "Wither",
+		"wither_skeleton": "Witherowy szkielet",
+		"wolf": "Wilk",
+		"zoglin": "Zoglin",
+		"zombie": "Zombie",
+		"zombie_horse": "Koń-zombie",
+		"zombie_villager": "Osadnik-zombie",
+		"zombified_piglin": "Zzombifikowany piglin"
+	}
+}
