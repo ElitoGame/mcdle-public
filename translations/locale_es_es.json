@@ -299,7 +299,7 @@
 						"food_and_drinks": "Comidas y Bebidas",
 						"none": "Ninguno",
 						"spawn_eggs": "Huevos de Spawn",
-						"operator_utilities": "Herramientas de admin."
+						"operator_utilities": "Herra-mientas de admin."
 					}
 				}
 			},
@@ -1075,7 +1075,8 @@
 		"wolf_armor": "Armadura para lobo",
 		"writable_book": "Libro y pluma",
 		"written_book": "Libro escrito",
-		"kelp": "Alga"
+		"kelp": "Alga",
+		"wolf_armor": "Armadura de lobo"
 	},
 	"mobs": {
 		"allay": "Allay",
