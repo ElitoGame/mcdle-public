@@ -31,7 +31,7 @@
 				"description": {
 					"pre_link": "L'informació d'este joc prové de ",
 					"link": "la Wiki de Minecraft",
-					"post_link": ". Moltes dels imàtges estàn hosteades #ací, així que moltes gràcies a ells per el gran treball de mantindre al dia  la wiki! MCdle no està afiliat o avalat per Mojang Studios. Però està obviament basat en Minecraft i inspirat en Wordle i LoLdle."
+					"post_link": ". Moltes de les imàtges estàn hosteades ací, així que moltes gràcies a ells per el gran treball de mantindre al dia  la wiki! MCdle no està afiliat o avalat per Mojang Studios. Però està obviament basat en Minecraft i inspirat en Wordle i LoLdle."
 				},
 				"credit_list": {
 					"kineticraft": {
@@ -128,7 +128,7 @@
 					"title": "Criatures"
 				},
 				"goal": {
-					"title": "MCdle Bestiary",
+					"title": "MCdle Bestiary (WIP)",
 					"image_alt": "Ícon de victòria"
 				}
 			}
@@ -202,10 +202,10 @@
 				"placeholder": {
 					"initial": "Busca un bloc",
 					"new_tomorrow": "Nou bloc demà!",
-					"no_habite_guesses": "T'has quedat sense intents!"
+					"no_more_guesses": "T'has quedat sense intents!"
 				},
 				"submit": {
-					"ària_label": "Intenta este bloc"
+					"aria_label": "Intenta este bloc"
 				},
 				"ambiguous_result": {
 					"description": "Bloc ambigu descobert! Els demés blocs ambigus incorrects és ratllaran en roig.",
@@ -226,7 +226,7 @@
 			"quick_help": {
 				"look_for": "Continues buscant una millor explicació? Mira el",
 				"tooltip": "Com jugar",
-				"clic_here": "ícon baix del títol  o fes clic ací!"
+				"click_here": "ícon baix del títol  o fes clic ací!"
 			},
 			"help": {
 				"title": "Com jugar",
@@ -276,7 +276,7 @@
 					"release": "Llança-ment",
 					"stack_size": "Tamany de stack",
 					"rarity": "Raresa",
-					"inventory_category": "Categoría d'inventari",
+					"inventory_categories": "Categoría d'inventari",
 					"renewable": "Reno-vable",
 					"usage": "Nombre d'usos",
 					"source": "Nombre de fonts"
@@ -326,10 +326,10 @@
 				"placeholder": {
 					"initial": "Busca un objecte",
 					"new_tomorrow": "Nou objecte demà!",
-					"no_habite_guesses": "T'has quedat sense intents!"
+					"no_more_guesses": "T'has quedat sense intents!"
 				},
 				"submit": {
-					"ària_label": "Intenta este objecte"
+					"aria_label": "Intenta este objecte"
 				},
 				"ambiguous_result": {
 					"description": "Objecte ambigu descubert! Els demés objectes ambigus incorrectes és ratllaràn en roig.",
@@ -350,7 +350,7 @@
 			"quick_help": {
 				"look_for": "Continues buscant una millor explicació? Mira el",
 				"tooltip": "Com jugar",
-				"clic_here": "ícon baix del títol  o fes clic ací!"
+				"click_here": "ícon baix del títol  o fes clic ací!"
 			},
 			"help": {
 				"title": "Com jugar",
@@ -440,8 +440,9 @@
 						"command": "Comando",
 						"overworld": "Overworld",
 						"hatching": "Ou",
-						"joquei": "Genet",
-						"duplication": "Duplicació"
+						"joquey": "Genet",
+						"duplication": "Duplicació",
+						"magic": "Màgia"
 					}
 				}
 			},
@@ -468,10 +469,10 @@
 				"placeholder": {
 					"initial": "Busca una criatura",
 					"new_tomorrow": "Nova criatura demà!",
-					"no_habite_guesses": "Et vas quedar sense intents!"
+					"no_more_guesses": "Et vas quedar sense intents!"
 				},
 				"submit": {
-					"ària_label": "Intenta esta criatura"
+					"aria_label": "Intenta esta criatura"
 				},
 				"ambiguous_result": {
 					"description": "Criatura ambigua descoberta! Altres criatures ambigües incorrectes es ratllaran en roig.",
@@ -492,7 +493,7 @@
 			"quick_help": {
 				"look_for": "Continues buscant una millor explicació? Mira el",
 				"tooltip": "Com jugar",
-				"clic_here": "icona davall del títol o fes clic #ací!"
+				"click_here": "icona davall del títol o fes clic #ací!"
 			},
 			"help": {
 				"title": "Com jugar",
@@ -525,7 +526,7 @@
 	},
 	"components": {
 		"quick_help": {
-			"xou_button": "Mostrar ajuda ràpida",
+			"show_button": "Mostrar ajuda ràpida",
 			"color_explanation": {
 				"title": "Explicació de Color",
 				"correct": "Camp correcte",
@@ -656,13 +657,13 @@
 		"wool": "Llana",
 		"blackstone": "Pedra Negra",
 		"blast_furnace": "Alt Forn",
-		"blue_hisse": "Gel Blau",
+		"blue_ice": "Gel Blau",
 		"bone_block": "Bloc d'Hueso",
 		"bookshelf": "Llibreria",
 		"coral": "Coral",
 		"coral_block": "Bloc de Coral",
 		"coral_fan": "Gorgonia",
-		"brewing_estand": "Suport de Pocions",
+		"brewing_stand": "Suport de Pocions",
 		"bricks": "Rajoles",
 		"mushroom": "Bolet",
 		"mushroom_block": "Bloc de Bolet",
@@ -695,8 +696,13 @@
 		"composter": "Compostador",
 		"conduit": "Canalitzador",
 		"copper_block": "Bloc de Coure",
+		"copper_bulb": "Llum de Coure",
+		"copper_door": "Porta de Coure",
+		"copper_gate": "Reixeta de Coure",
 		"copper_ore": "Mena de Coure",
-		"crafting_table": "Mesa de Crafteo",
+		"copper_tradoor": "Trapa de Coure",
+		"crafter": "Fabricador"
+		"crafting_table": "Taula de Crafteo",
 		"head": "Cap",
 		"fungus": "Fong",
 		"nylium": "Necelio",
@@ -706,7 +712,7 @@
 		"dead_bush": "Arbust Mort",
 		"decorated_pot": "Atuell",
 		"deepslate": "Pissarra Profunda",
-		"deepslate_bricks": "Rajoles de Pissarra Profunda",
+		"deepslate_bricks": "Maons de Pissarra Profunda",
 		"deepslate_tiles": "Rajoles de Pissarra Profunda",
 		"detector_rail": "Raïl Detector",
 		"diamond_block": "Bloc de Diamant",
@@ -730,7 +736,7 @@
 		"farmland": "Terra de cultiu",
 		"fern": "Falaguera",
 		"fire": "Foc",
-		"fletching_table": "Mesa de Flecheria",
+		"fletching_table": "Taula de Fletxeria",
 		"flower_pot": "Test",
 		"frogspawn": "Freses de Granota",
 		"furnace": "Forn",
@@ -744,7 +750,8 @@
 		"gravel": "Grava",
 		"grindstone": "Afiladora",
 		"hanging_roots": "Arrels Penjants",
-		"hi ha_block": "Bloc de Fenc",
+		"hay_block": "Bloc de Fenc",
+		"heavy_core": "Nucli Pesat",
 		"heavy_weighted_pressure_plate": "Placa de Pressió per a Pes Elevat",
 		"honey_block": "Bloc de Mel",
 		"honeycomb_block": "Bloc de Bresca de Mel",
@@ -768,7 +775,7 @@
 		"lever": "Palanca",
 		"light": "Llum",
 		"lightning_rod": "Parallamps",
-		"lily_pad": "Nenufar",
+		"lily_pad": "Nenúfar",
 		"lodestone": "Pedra Imant",
 		"loom": "Teler",
 		"magma_block": "Bloc de Magma",
@@ -807,7 +814,7 @@
 		"polished_blackstone": "Pedra Negra Polida",
 		"polished_blackstone_bricks": "Rajoles de Pedra Negra Polida",
 		"polished_deepslate": "Pissarra Polida",
-		"potatoes": "#Creïlla",
+		"potatoes": "Creïlla",
 		"powder_snow": "Neu en Pols",
 		"powered_rail": "Raïl Energitzat",
 		"prismarine": "Prismarina",
@@ -843,7 +850,7 @@
 		"shroomlight": "Brillongo",
 		"slime_block": "Bloc de Slime",
 		"small_dripleaf": "Plantaforma Xicoteta",
-		"smithing_table": "Mesa de Ferreria",
+		"smithing_table": "Taula de Ferreria",
 		"smoker": "Ahumadr",
 		"smooth_quartz": "Bloc de Quars Llis",
 		"smooth_stone": "Pedra Llisa",
@@ -869,12 +876,14 @@
 		"torch": "Torxa",
 		"torchflower": "Plantorcha",
 		"trapped_chest": "Cofre Parany",
+		"trial_spawner": "Generador de desafiament",
 		"tripwire": "Fil",
 		"tripwire_hook": "Ganxo de Fil",
 		"tuff": "Toba",
 		"turtle_egg": "Ou de Tortuga",
 		"twisting_vines": "Planta enfiladissa Retorçada",
-		"vaig vindre": "Planta enfiladissa",
+		"vault": "Arca",
+		"vine": "Planta enfiladissa",
 		"warped_wart_block": "Bloc de Berruga Retorçada",
 		"weeping_vines": "Plantes enfiladisses Llagrimoses",
 		"wheat": "Blat",
