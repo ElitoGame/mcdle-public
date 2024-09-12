@@ -48,7 +48,7 @@
 			},
 			"version": {
 				"title": "Versió",
-				"description": "Actualment la versió del joc  és la #{{version}}! El joc seleccionarà un nou bloc, objecte i criatura cada dia a mitjanit en horari UTC."
+				"description": "Actualment la versió del joc  és la {{version}}! El joc seleccionarà un nou bloc, objecte i criatura cada dia a mitjanit en horari UTC."
 			}
 		}
 	},
@@ -240,12 +240,12 @@
 					"intro": "Anem a vore un exemple. Primer probarem un bloc a l'atzar .",
 					"table_interpretation_1": "Vegem que el bloc, igual que la majoria, és stackeable de 64, i no és inflamable. No és un bloc de la Pre-Alpha i pot ser minat amb un Pic. Així que probem amb un bloc, nou, diferent.",
 					"table_interpretation_2": "Descobrim la versió del bloc! Probem un bloc de la Beta 1.8. Adicionalment, tenim una coincidència parcial amb la ferramenta, que pot tencar-es tant amb un Destral com amb un altra ferramenta. També, el bloc tampoc és transparent (\"Sí\") ni no transparent (\"No\"), així que deu ser parcialment transparent. Així que mirem un bloc que tinga estes característiques.",
-					"table_interpretation_3": "Ací està! Descobrim que el bloc era el bloc de #meló# d'Alger, que delícia!"
+					"table_interpretation_3": "Ací està! Descobrim que el bloc era el bloc de meló d'Alger, que delícia!"
 				},
 				"partial_matches": {
 					"title": "Explicació de la coincidència parcial",
 					"intro": "Mirem els coincidències parcials a detall, perquè estos són, probablement, els camps de color més confusos.",
-					"explanation": "Una coincidència parcial només pot aparéixer si el camp el consistix una llista (ex. Ferramentes). Si vas intentar un bloc que pot trencar-se amb almenys una ferramenta, obtens una coincidència parcial. #Ací hi ha un exemple amb fulles:"
+					"explanation": "Una coincidència parcial només pot aparéixer si el camp el consistix una llista (ex. Ferramentes). Si vas intentar un bloc que pot trencar-se amb almenys una ferramenta, obtens una coincidència parcial. Ací hi ha un exemple amb fulles:"
 				},
 				"tips": {
 					"title": "Consells",
@@ -364,18 +364,18 @@
 					"intro": "Vegem un exemple. Primer provarem un objecte a l'atzar.",
 					"table_interpretation_1": "Veiem que l'objecte, a l'igul  que la majoria és stackeable en 64. És posterior a la Beta 1.2, Té raresa Comuna, és renovable i hi ha almenys 5 usos per a ell, i menys de 6 maneres d'obtindre-ho, d'acord amb la Wiki de Minecraft. Fins i tot, no és usat en el món ni en crafteos. Provem un objecte diferent.",
 					"table_interpretation_2": "Descobrim que és d'una versió més recent! Vegem un objecte de la Beta 1.8 que està en la categoria \"use\" d'acord amb la wiki de Minecraft. Necessitem un objecte que coincidisca amb la quantitat d'usos i maneres d'obtindre.",
-					"table_interpretation_3": "#Ací està! Descobrim que l'objecte era la rodanxa de #meló# d'Alger, que divertit!"
+					"table_interpretation_3": "Ací està! Descobrim que l'objecte era la rodanxa de meló d'Alger, que divertit!"
 				},
 				"partial_matches": {
 					"title": "Explicació de la coincidència parcial",
 					"intro": "Mirem les coincidències parcials detalladament, perquè estos són, probablement, els camps de color més confusos.",
-					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (ex. Acció). Si ho intentes amb un objecte amb almenys una acció que coincidisca amb l'objecte, obtindràs una coincidència parcial. #Ací hi ha un exemple amb el lapis:"
+					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (ex. Acció). Si ho intentes amb un objecte amb almenys una acció que coincidisca amb l'objecte, obtindràs una coincidència parcial. Ací hi ha un exemple amb el lapis:"
 				},
 				"tips": {
 					"title": "Consells",
 					"not_all_items": "MCdle no conté cada tipus d'objecte. La llista procedix de la wiki de Minecraft i no conté l'objecte de diversos blocs o objectes massa similars, com totes les variants d'armadures/ferramentes.",
 					"utilize_the_search": "Fes un bon ús de la barra de busca! Amb els suggeriments aniràs reduint la teua busca.",
-					"use_the_wiki": "Assega't lliure d'usar la Wiki de Minecraft. #Tan prompte determines la versió de l'objecte, pots usar la wiki per a veure que objectes es van afegir en eixa versió, la qual cosa reduirà dràsticament la teua busca.",
+					"use_the_wiki": "Assega't lliure d'usar la Wiki de Minecraft. Tan prompte determines la versió de l'objecte, pots usar la wiki per a veure que objectes es van afegir en eixa versió, la qual cosa reduirà dràsticament la teua busca.",
 					"usage_and_source_explanation": "Si sents curiositat sobre com es calculen els nombres d'usos/nombre de fonts, revisa la pàgina de l'objecte en la wiki i baixa fins a \"Obtenció\" i \"Usos\". Les capçaleres d'estes seccions han sigut usades per a comptar els seus diferents usos. Si estan perdudes, jo, el desenrotllador, les afig manualment."
 				}
 			}
@@ -493,7 +493,7 @@
 			"quick_help": {
 				"look_for": "Continues buscant una millor explicació? Mira el",
 				"tooltip": "Com jugar",
-				"click_here": "icona davall del títol o fes clic #ací!"
+				"click_here": "icona davall del títol o fes clic ací!"
 			},
 			"help": {
 				"title": "Com jugar",
@@ -512,13 +512,13 @@
 				"partial_matches": {
 					"title": "Explicació de la coincidència parcial",
 					"intro": "Mirem les coincidències parcials detalladament, perquè estos són, probablement, els camps de color més confusos.",
-					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (ex. Spawn, Classificació o Comportament). Si vas intentar una criatura amb almenys un dels elements d'esta llista que coincidisca amb la criatura actual, obtindràs una coincidència parcial. #Ací hi ha un exemple amb els cavalls:"
+					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (ex. Spawn, Classificació o Comportament). Si vas intentar una criatura amb almenys un dels elements d'esta llista que coincidisca amb la criatura actual, obtindràs una coincidència parcial. Ací hi ha un exemple amb els cavalls:"
 				},
 				"tips": {
 					"title": "Consells",
 					"not_all_blocks": "MCdle no conté cada tipus d'entitat. Només entitats vivents, com a ex. porcs o zombis estan inclosos. Suport d'armadura,  projectils o entitats no-vivents similars no esán inclosos. La llista prové de la wiki de Minecraft, així que  si no està en la llista de criatures, no està en el joc.",
 					"utilize_the_search": "Fes un bon ús de la barra de busca! Amb els suggeriments aniràs reduint la teua busca.",
-					"use_the_wiki": "Assega't lliure d'usar la Wiki de Minecraft. #Tan prompte com determines la versió de la criatura, pots usar la wiki per a veure que criatures es van afegir en eixa versió, la qual cosa t'ajudarà a reduir dràsticament la teua busca.",
+					"use_the_wiki": "Assega't lliure d'usar la Wiki de Minecraft. Tan prompte com determines la versió de la criatura, pots usar la wiki per a veure que criatures es van afegir en eixa versió, la qual cosa t'ajudarà a reduir dràsticament la teua busca.",
 					"health_measuring": "Tingues en compte que la Vida es mesura en Punts de Vida, aka mitjos cors, així que 10 HP són 5 cors."
 				}
 			}
@@ -539,9 +539,9 @@
 			"copied_confirmation": "Copiat!",
 			"share": "Compartir",
 			"copy_message": {
-				"header_block": "Les meues estadístiques de #MCdle bloc 🏆",
-				"header_item": "Les meues estadístiques de #MCdle objecte 🏆",
-				"header_mob": "Les meues estadístiques de #MCdle criatura 🏆",
+				"header_block": "Les meues estadístiques de MCdle bloc 🏆",
+				"header_item": "Les meues estadístiques de MCdle objecte 🏆",
+				"header_mob": "Les meues estadístiques de MCdle criatura 🏆",
 				"total_wins": "🎉 Partides guanyades {{number}}",
 				"average_guesses": "🧮 Mitjana d'encerts {{number}}",
 				"one_shots": "🎯 Encerts a la primera {{number}}",
@@ -578,11 +578,11 @@
 				"mob": "criatura"
 			},
 			"guess_line": {
-				"one": "Vaig descobrir el/la #MCdle {{type}} del dia {{date}} en {{number}} intent! {{emoji}}",
-				"many": "Vaig descobrir el/la #MCdle {{type}} del dia {{date}} en {{number}} intents! {{emoji}}"
+				"one": "Vaig descobrir el/la MCdle {{type}} del dia {{date}} en {{number}} intent! {{emoji}}",
+				"many": "Vaig descobrir el/la MCdle {{type}} del dia {{date}} en {{number}} intents! {{emoji}}"
 			},
 			"short_guess_line": {
-				"intro": "Vaig descobrir el/la #MCdle {{type}} del dia {{dona't}}",
+				"intro": "Vaig descobrir el/la MCdle {{type}} del dia {{dona't}}",
 				"one": "en {{number}} intent!",
 				"many": "en {{number}} intents!",
 				"conjunction": " i "
@@ -899,23 +899,21 @@
 		"armor_estand": "Suport per a Armadures",
 		"arrow": "Fletxa",
 		"aquatic_mob_bucket": "Cubeta de Criatura Aquàtica",
-		"baked_potato": "#Creïlla Cuita",
+		"baked_potato": "Creïlla Cuita",
 		"beef": "Filet Cru",
 		"beetroot": "Remolatxa",
 		"beetroot_seeds": "Llavors de Remolatxa",
 		"beetroot_soup": "Sopa de Remolatxa",
-		"black_dye": "Tint Negre",
 		"blaze_powder": "Pols de Blaze",
 		"blaze_rod": "Vara de Blaze",
-		"blue_dye": "Tint Blau",
 		"bone": "Hueso",
 		"bone_meal": "Bloc d'Hueso",
 		"book": "Llibre",
 		"bow": "Arc",
 		"bowl": "Bol",
 		"bread": "Pa",
+		"breeze_rod": "Vara de breeze",
 		"brick": "Rajola",
-		"brown_dye": "Tint Marró",
 		"brush": "Brotxa",
 		"bucket": "Cubeta",
 		"bundle": "Sac",
@@ -936,15 +934,14 @@
 		"cooked_beef": "Filet Rostit",
 		"cooked_chicken": "Pollastre Rostit",
 		"cooked_cod": "Bacallà Cuit",
-		"cooked_mutton": "#Corder Rostit",
+		"cooked_mutton": "Corder Rostit",
 		"cooked_porkchop": "Xulla de Porc Rostida",
 		"cooked_rabbit": "Conill Rostit",
 		"cooked_salmon": "Salmó Cuit",
 		"cookie": "Galeta",
 		"copper_ingot": "Lingot de Coure",
-		"bàner_pattern": "Patró d'Estendard",
+		"banner_pattern": "Patró d'Estendard",
 		"crossbow": "Ballesta",
-		"cyan_dye": "Tint Cian",
 		"debug_estic": "Pal de Desenrotllament",
 		"diamond": "Diamant",
 		"axe": "Destral",
@@ -1019,7 +1016,7 @@
 		"minecart": "Vagoneta",
 		"mushroom_stew": "Sopa de Bolets",
 		"music_disc": "Disc de Música",
-		"mutton": "#Corder Cru",
+		"mutton": "Corder Cru",
 		"name_tag": "Etiqueta",
 		"nautilus_shell": "Concha de Nautilo",
 		"nether_brick": "Rajola del Nether ",
@@ -1038,7 +1035,7 @@
 		"poisonous_potato": "Creïlla Verinosa",
 		"popped_chorus_fruit": "Fruita Coral Enfornada",
 		"porkchop": "Xulla de porc crua",
-		"potato": "#Creïlla",
+		"potato": "Creïlla",
 		"potion": "Poció",
 		"powder_snow_bucket": "Poal amb neu en pols",
 		"prismarine_crystals": "Cristalls de prismarina",
