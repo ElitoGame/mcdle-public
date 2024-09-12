@@ -153,15 +153,15 @@
 					"title": "Blok",
 					"release": "Wersja dodania",
 					"stack_size": "Wielkość stacka",
-					"tools": "Narzędzie/a",
+					"tools": "Narzę-dzie/a",
 					"blast_resistance": "Odporność na wybuchy",
 					"hardness": "Twardość",
-					"flammable": "łatwo-palne",
+					"flammable": "Łatwo-palne",
 					"transparent": "Przeźro-czyste"
 				},
 				"data": {
 					"tools": {
-						"any_tool": "każde",
+						"any_tool": "Każde",
 						"axe": "Siekiera",
 						"pickaxe": "Kilof",
 						"hoe": "Motyka",
@@ -277,7 +277,7 @@
 					"release": "Wersja dodania",
 					"stack_size": "Wielkość stacka",
 					"rarity": "Rzadkość",
-					"inventory_categories": "Kategoria inwentarzu kreatywnego",
+					"inventory_categories": "Kate-goria",
 					"renewable": "Odnawialny",
 					"usage": "Liczba użyć",
 					"source": "Liczba źródeł"
@@ -343,7 +343,7 @@
 				"next_in": "Następny przedmiot za {{time}}"
 			},
 			"yesterday_info": {
-				"description": "Wczorajszy przedmiot to {{name}}!"
+				"description": "Wczorajszy przedmiot to "
 			},
 			"next_game": {
 				"name": "Przedmioty",
@@ -403,8 +403,8 @@
 					"release": "Wersja dodania",
 					"health": "Życie",
 					"height": "Wysokość",
-					"behavior": "Zachowanie",
-					"spawn": "Występowanie",
+					"behavior": "Zacho-wanie",
+					"spawn": "Wystę-powanie",
 					"classification": "Klasy-fikacja"
 				},
 				"data": {
@@ -433,18 +433,20 @@
 						"block": "Blok",
 						"grass": "Trawa",
 						"nether": "Nether",
-						"projectile": "pocisk",
-						"conversion": "przemiana",
-						"lightning": "piorun",
+						"projectile": "Pocisk",
+						"conversion": "Przemiana",
+						"lightning": "Piorun",
 						"the_end": "End",
-						"summon": "przywołanie",
+						"summon": "Przywołanie",
 						"raids": "Raid",
 						"command": "Komenda",
 						"overworld": "Overworld",
 						"hatching": "Wyklucie",
 						"jockey": "Jeźdźca",
 						"duplication": "Duplikacja",
-						"magic": "Magia"
+						"magic": "Magia",
+						"reinforcements": "Wzmocnienia",
+						"sieges": "Oblężenie"
 					}
 				}
 			},

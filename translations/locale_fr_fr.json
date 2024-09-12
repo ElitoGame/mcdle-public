@@ -224,7 +224,7 @@
 				"description": "Prêt·e à deviner le bloc d'aujourd'hui ?"
 			},
 			"quick_help": {
-				"look_for": "Tu cherches toujours de meilleures explications ? Jette un oeil à l'icône",
+				"look_for": "Tu cherches toujours de meilleures explications ? Jette un œil à l'icône",
 				"tooltip": "Comment jouer",
 				"click_here": "sous le titre du jeu ou clique ici !"
 			},
@@ -348,7 +348,7 @@
 				"description": "Prêt·e à deviner l'objet d'aujourd'hui ?"
 			},
 			"quick_help": {
-				"look_for": "Tu cherches toujours de meilleures explications ? Jette un oeil à l'icône",
+				"look_for": "Tu cherches toujours de meilleures explications ? Jette un œil à l'icône",
 				"tooltip": "Comment jouer",
 				"click_here": "sous le titre du jeu ou clique ici !"
 			},
@@ -442,7 +442,9 @@
 						"hatching": "Éclosion",
 						"jockey": "Chevauchée",
 						"duplication": "Duplication",
-						"magic": "Sort"
+						"magic": "Sort",
+						"reinforcements": "Renforts",
+						"sieges": "Sièges"
 					}
 				}
 			},
@@ -491,7 +493,7 @@
 				"description": "Tu veux tenter ta chance avec la créature d'aujourd'hui ?"
 			},
 			"quick_help": {
-				"look_for": "Tu cherches toujours de meilleures explications ? Jette un oeil à l'icône",
+				"look_for": "Tu cherches toujours de meilleures explications ? Jette un œil à l'icône",
 				"tooltip": "Comment jouer",
 				"click_here": "sous le titre du jeu ou clique ici !"
 			},
@@ -506,7 +508,7 @@
 					"title": "Exemple",
 					"intro": "Voyons un exemple de jeu. Nous allons d'abord essayer une créature arbitraire.",
 					"table_interpretation_1": "À partir de cet essai, nous pouvons voir que la créature que nous cherchons a été ajoutée plus récemment que la version 1.6.1, qu'elle n'a pas beaucoup de vie, qu'elle mesure moins de 1,6 blocs et qu'elle peut être passive ou hostile, ou les deux à la fois. Elle n'est pas invoquée par la foudre et n'est pas morte-vivante non plus.",
-					"table_interpretation_2": "D'accord, c'est encore plus récent que la version 1.13, mais nous avons la vie : nous cherchons une créature qui a 10 de vie, c'est-à-dire 5 coeurs. Sa taile est de moins de 0,6 blocs, donc nous cherchons une petite créature. Son comportement est encore une fois une correspondance partielle, donc elle est très probablement passive, mais ça pourrait encore être hostile et neutre. L'apparition et la classification correspondent partiellement, donc apparition \"Biome\" et quelque chose d'autre. Elle est classée comme Animal ou Aquatic, mais peut-être quelque chose d'autre.",
+					"table_interpretation_2": "D'accord, c'est encore plus récent que la version 1.13, mais nous avons la vie : nous cherchons une créature qui a 10 de vie, c'est-à-dire 5 cœurs. Sa taile est de moins de 0,6 blocs, donc nous cherchons une petite créature. Son comportement est encore une fois une correspondance partielle, donc elle est très probablement passive, mais ça pourrait encore être hostile et neutre. L'apparition et la classification correspondent partiellement, donc apparition \"Biome\" et quelque chose d'autre. Elle est classée comme Animal ou Aquatic, mais peut-être quelque chose d'autre.",
 					"table_interpretation_3": "Super ! Regarde qui a sauté dans ce tutoriel. Nous avons trouvé une petite Grenouille !"
 				},
 				"partial_matches": {
@@ -519,7 +521,7 @@
 					"not_all_blocks": "MCdle ne contient pas tous les types d'entités. Seules les entités vivantes, comme par exemple les cochons ou les zombies, sont incluses. Les porte-armures, les projectiles ou autres entités similaires non vivantes ne sont pas incluses. La liste est tirée du Minecraft Wiki, donc si une créature ne figure pas dans la liste, elle n'est pas présente dans le jeu.",
 					"utilize_the_search": "Utilise bien la barre de recherche ! En regardant les suggestions, tu pourras affiner ta recherche.",
 					"use_the_wiki": "N'hésite pas à utiliser le Minecraft wiki. Dès que tu as déterminé la version d'ajout du bloc, tu peux utiliser le wiki pour trouver les blocs qui ont été ajoutés dans cette version, ce qui t'aidera à limiter drastiquement tes recherches.",
-					"health_measuring": "Garde à l'esprit que la Vie est mesurée en points de santé, alias demi-coeurs, donc 10 points de vie correspondent à 5 coeurs."
+					"health_measuring": "Garde à l'esprit que la Vie est mesurée en points de santé, alias demi-coeurs, donc 10 points de vie correspondent à 5 cœurs."
 				}
 			}
 		}

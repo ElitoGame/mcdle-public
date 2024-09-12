@@ -181,7 +181,7 @@
 			},
 			"loose": {
 				"title": "You've failed to discover today's block",
-				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+				"subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
 			},
 			"win": {
 				"title": "Block discovered!",
@@ -202,13 +202,13 @@
 				"placeholder": {
 					"initial": "Search for a block",
 					"new_tomorrow": "New block tomorrow!",
-					"no_more_guesses": "Run out of guesses!"
+					"no_more_guesses": "Ran out of guesses!"
 				},
 				"submit": {
 					"aria_label": "Try this block"
 				},
 				"ambiguous_result": {
-					"description": "Ambiguous block discovered! Further incorrect ambiguous blocks will be struck out in red.",
+					"description": "Ambiguous block discovered! Further incorrect ambiguous blocks will be crossed out in red.",
 					"image_alt": "Treasure hunter - close call"
 				}
 			},
@@ -233,7 +233,7 @@
 				"intro": {
 					"goal": "The goal of this game is to guess a Minecraft block. Every day a new block is chosen, and by continuing to guess the block of the day, you can build up a win-streak!",
 					"enter_guesses": "Begin by typing the name of any block in the search field. Based on your search, up to 10 results will pop up. Click on any of these blocks, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-					"field_explanation": "The properties of your chosen block will be compared to today's block and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+					"field_explanation": "The properties of your chosen block will be compared to today's block and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating whether you should guess higher or lower."
 				},
 				"example": {
 					"title": "Example",
@@ -244,7 +244,7 @@
 				},
 				"partial_matches": {
 					"title": "Partial Match explanation",
-					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
+					"intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing tile colors.",
 					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Tools). If you guessed a block that can be broken with at least one tool that matches the actual block, you will get a partial match. Here's an example for leaves:"
 				},
 				"tips": {
@@ -305,7 +305,7 @@
 			},
 			"loose": {
 				"title": "You've failed to discover today's item",
-				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+				"subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
 			},
 			"win": {
 				"title": "Item discovered!",
@@ -326,13 +326,13 @@
 				"placeholder": {
 					"initial": "Search for an item",
 					"new_tomorrow": "New item tomorrow!",
-					"no_more_guesses": "Run out of guesses!"
+					"no_more_guesses": "Ran out of guesses!"
 				},
 				"submit": {
 					"aria_label": "Try this item"
 				},
 				"ambiguous_result": {
-					"description": "Ambiguous item discovered! Further incorrect ambiguous items will be struck out in red.",
+					"description": "Ambiguous item discovered! Further incorrect ambiguous items will be crossed out in red.",
 					"image_alt": "Treasure hunter - close call"
 				}
 			},
@@ -357,19 +357,19 @@
 				"intro": {
 					"goal": "The goal of this game is to guess a Minecraft item. Every day a new item is chosen, and by continuing to guess the item of the day, you can build up a win-streak.",
 					"enter_guesses": "Begin by typing the name of any item in the search field. Based on your search, up to 10 results will pop up. Click on any of these items, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-					"field_explanation": "The properties of your chosen item will be compared to today's item and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+					"field_explanation": "The properties of your chosen item will be compared to today's item and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating whether you should guess higher or lower."
 				},
 				"example": {
 					"title": "Example",
 					"intro": "Let's look at an example game. First we'll try an arbitrary item.",
-					"table_interpretation_1": "We've learned that the item, like most others is stackable till 64. It's newer than Beta 1.2, has Common rarity, is renewable and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
+					"table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
 					"table_interpretation_2": "We've discovered the items version! Time to look for a Beta 1.8 item that's in the \"Food & Drinks\" creative inventory category. We now need to look for an item with matching use cases and ways how to obtain it.",
 					"table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
 				},
 				"partial_matches": {
 					"title": "Partial Match explanation",
 					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
-					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Inventory Category). If you guessed a item that is in at least one inventory category that matches the actual item, you will get a partial match. Here's an example for string:"
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. the inventory category). If you guessed a item that is in at least one inventory category that matches the actual item, you will get a partial match. Here's an example for string:"
 				},
 				"tips": {
 					"title": "Tips",
@@ -430,7 +430,7 @@
 						"light_level": "Light level",
 						"block": "Block",
 						"grass": "Grass",
-						"nether": "Nether",
+						"nether": "The Nether",
 						"projectile": "Projectile",
 						"conversion": "Conversion",
 						"lightning": "Lightning",
@@ -442,13 +442,15 @@
 						"hatching": "Hatching",
 						"jockey": "Jockey",
 						"duplication": "Duplication",
-						"magic": "Magic"
+						"magic": "Magic",
+						"reinforcements": "Reinforcements",
+						"sieges": "Sieges"
 					}
 				}
 			},
 			"loose": {
 				"title": "You've failed to discover today's mob",
-				"subtitle": "Better luck tomorrow! (or disable the limit in the settings)"
+				"subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
 			},
 			"win": {
 				"title": "Mob discovered!",
@@ -469,13 +471,13 @@
 				"placeholder": {
 					"initial": "Search for a mob",
 					"new_tomorrow": "New mob tomorrow!",
-					"no_more_guesses": "Run out of guesses!"
+					"no_more_guesses": "Ran out of guesses!"
 				},
 				"submit": {
 					"aria_label": "Try this mob"
 				},
 				"ambiguous_result": {
-					"description": "Ambiguous mob discovered! Further incorrect ambiguous mobs will be struck out in red.",
+					"description": "Ambiguous mob discovered! Further incorrect ambiguous mobs will be crossed out in red.",
 					"image_alt": "Treasure hunter - close call"
 				}
 			},
@@ -500,26 +502,26 @@
 				"intro": {
 					"goal": "The goal of this game is to guess a Minecraft mob. Every day a new mob is chosen, and by continuing to guess the mob of the day, you can build up a win-streak.",
 					"enter_guesses": "Begin by typing the name of any mob in the search field. Based on your search, up to 10 results will pop up. Click on any of these mobs, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-					"field_explanation": "The properties of your chosen mob will be compared to today's mob and will be marked green if matching, yellow for partial matches and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating if you should guess higher or lower."
+					"field_explanation": "The properties of your chosen mob will be compared to today's mob and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating whether you should guess higher or lower."
 				},
 				"example": {
 					"title": "Example",
 					"intro": "Let's look at an example game. First we'll try an arbitrary mob.",
-					"table_interpretation_1": "From this guess, we can see that the mob we're looking for is newer then 1.6.1, doesn't have a lot of Health, is less then 1.6 blocks tall, and might be passive or hostile or a mix with one of those two. It's not summoned by Lightning and ain't undead either.",
-					"table_interpretation_2": "Alright, still newer than 1.13, but we got the health: we're looking for a mob with 10 HP, aka 5 hearts. It's less than 0.6 blocks tall, so we're looking for a small mob. The mobs behaviour is again a partial match, so it's very likely passive, but could still be hostile & neutral. Both Spawn & Classification got a partial match, so Biome spawn & some other reason and classified as Animal or Acquatic and maybe something.",
+					"table_interpretation_1": "From this guess, we can see that the mob we're looking for is newer then 1.6.1, doesn't have a lot of health, is less then 1.6 blocks tall, and might be passive, hostile, or a mix with one of those two. It's not summoned by lightning and it's not undead either.",
+					"table_interpretation_2": "Alright, still newer than 1.13, but we got the health: we're looking for a mob with 10 HP, aka 5 hearts. It's less than 0.6 blocks tall, so we're looking for a small mob. The mob's behavior is still a partial match, so it's very likely passive, but could still be hostile & neutral. Both the spawn and classification fields got a partial match, so the mob's spawn origins would be biome and something else, and the mob would be classified as either animal, aquatic, and maybe something else in addition to one of these two possibilities.",
 					"table_interpretation_3": "Let's go! Look who hopped into this tutorial. We've found a little Frog!"
 				},
 				"partial_matches": {
 					"title": "Partial Match explanation",
-					"intro": "Let's look at partial matches in detail, cause these are probably the most confusing tile colors.",
-					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Spawn, Classification or Behavior). If you guessed a mob with at least one list element that matches the actual mob, you will get a partial match. Here's an example for horses:"
+					"intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing tile colors.",
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. the spawn, classification, or behavior fields). If you guessed a mob with at least one list element that matches the actual mob, you will get a partial match. Here's an example for horses:"
 				},
 				"tips": {
 					"title": "Tips",
-					"not_all_blocks": "MCdle does not contain every type of entity. Only living entities, like e.g. pigs or zombies are included. Armorstands, projectiles or similar not living entities are not included. The list is taken from the Minecraft wiki, so if it's not on there in the mob list, it's not in this game.",
+					"not_all_blocks": "MCdle does not contain every type of entity. Only living entities, like e.g. pigs or zombies are included. Armor stands, projectiles, or similar not living entities are not included. The list is taken from the Minecraft wiki, so if it's not on there in the mob list, it's not in this game.",
 					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
 					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the mob, you can use the wiki to find the mobs that were added in that version, which will help you narrow down your search drastically.",
-					"health_measuring": "Keep in mind that Health is measured in health points, aka half hearts, so 10 HP is 5 hearts."
+					"health_measuring": "Keep in mind that health is measured in health points, aka half hearts, so 10 HP is 5 hearts."
 				}
 			}
 		}

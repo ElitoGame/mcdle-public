@@ -442,7 +442,9 @@
 						"hatching": "Schlüpfen",
 						"jockey": "Reiter",
 						"duplication": "Duplikation",
-						"magic": "Magie"
+						"magic": "Magie",
+						"reinforcements": "Verstärkungen",
+						"sieges": "Belagerungen"
 					}
 				}
 			},
