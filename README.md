@@ -13,6 +13,7 @@ This repo contains the translations of MCdle. I will keep english and german up 
 | German                 | ✅         | ✅       | [![ElitoGame](https://avatars.githubusercontent.com/u/43675593?s=64&v=4)](https://github.com/ElitoGame)                                                                                                                                     |
 | French                 | ✅         | ❌       | [![nalo_](https://avatars.githubusercontent.com/u/37667081?s=64&v=4)](https://github.com/nalo26) [![Simon - fantomitechno](https://avatars.githubusercontent.com/u/67735304?s=64&v=4)](https://github.com/fantomitechno)                    |
 | Spanish                | ✅         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                        |
+| Valencian              | ✅         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                        |
 | Polish                 | ✅         | ❌       | [<img src="https://avatars.githubusercontent.com/u/152759058?s=4&v=2" alt="V1rnax" width="64"/>](https://github.com/V1rnax)                                                                                                                 |
 
 ### How to contribute to the translations
