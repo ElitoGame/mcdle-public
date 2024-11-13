@@ -3,6 +3,9 @@
 		"links": {
 			"cookie": {
 				"title": "Cookie Policy"
+			},
+			"patchnotes": {
+				"title": "Patchnotes"
 			}
 		},
 		"about": {
@@ -36,19 +39,29 @@
 				"credit_list": {
 					"kineticraft": {
 						"pre_link": "Thanks to the server ",
-						"link": "kineticraftreborn.net",
+						"link": "kineticraft.net",
 						"post_link": " for the background image!"
 					},
 					"vanilla_tweaks": {
 						"pre_link": "Thanks to ",
 						"link": "Vanilla Tweaks",
 						"post_link": " for their melon & pumpkin stem textures!"
+					},
+					"alldle": {
+						"post_link": "for featuring MCdle on their site!"
 					}
 				}
 			},
 			"version": {
 				"title": "Version",
 				"description": "Today's game is riddle #{{version}}! The game will choose a new block, item and mob every day at midnight UTC."
+			},
+			"supporters": {
+				"title": "Supporters",
+				"description": {
+					"pre_link": "Thanks to all my",
+					"post_link": " Supporters!"
+				}
 			}
 		}
 	},
@@ -130,7 +143,26 @@
 				"goal": {
 					"title": "MCdle Bestiary (WIP)",
 					"image_alt": "Goal icon"
+				},
+				"bestiary": {
+					"title": "Bestiary",
+					"image_alt": "Bestiary icon",
+					"subtitle": "Track your progress and start collecting! You can also filter what you've already uncovered!"
+				},
+				"kineticraft": {
+					"title": "Play infinitely on kineticraft.net",
+					"image_alt": "Kineticraft icon",
+					"subtitle": "Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
 				}
+			}
+		},
+		"generic": {
+			"game": {
+				"complete_support": {
+					"start": "If you enjoyed it, consider supporting the project on",
+					"end": "!"
+				},
+				"see_in_bestiary": "Check it out in the bestiary!"
 			}
 		},
 		"block": {
@@ -146,6 +178,9 @@
 				},
 				"help": {
 					"tooltip": "How to play"
+				},
+				"bestiary": {
+					"tooltip": "Bestiary"
 				}
 			},
 			"table": {
@@ -154,10 +189,10 @@
 					"release": "Release",
 					"stack_size": "Stack size",
 					"tools": "Tool(s)",
-					"blast_resistance": "Blast resis-tance",
+					"blast_resistance": "Blast resis<wbr>tance",
 					"hardness": "Hardness",
-					"flammable": "Flamm-able",
-					"transparent": "Trans-parent"
+					"flammable": "Flamm<wbr>able",
+					"transparent": "Trans<wbr>parent"
 				},
 				"data": {
 					"tools": {
@@ -195,6 +230,7 @@
 				"warning": {
 					"zero": "{{remaining}} guesses remaining!",
 					"one": "{{remaining}} guess remaining!",
+					"two-four": "{{remaining}} guesses remaining!",
 					"many": "{{remaining}} guesses remaining!"
 				}
 			},
@@ -268,6 +304,9 @@
 				},
 				"help": {
 					"tooltip": "How to play"
+				},
+				"bestiary": {
+					"tooltip": "Bestiary"
 				}
 			},
 			"table": {
@@ -319,6 +358,7 @@
 				"warning": {
 					"zero": "{{remaining}} guesses remaining!",
 					"one": "{{remaining}} guess remaining!",
+					"two-four": "{{remaining}} guesses remaining!",
 					"many": "{{remaining}} guesses remaining!"
 				}
 			},
@@ -341,7 +381,7 @@
 				"next_in": "Next item in {{time}}"
 			},
 			"yesterday_info": {
-				"description": "Yesterday's item was "
+				"description": "Yesterday's item was {{name}}!"
 			},
 			"next_game": {
 				"name": "Items",
@@ -393,6 +433,9 @@
 				},
 				"help": {
 					"tooltip": "How to play"
+				},
+				"bestiary": {
+					"tooltip": "Bestiary"
 				}
 			},
 			"table": {
@@ -403,7 +446,7 @@
 					"height": "Height",
 					"behavior": "Behavior",
 					"spawn": "Spawn",
-					"classification": "Class- ification"
+					"classification": "Class<wbr>ification"
 				},
 				"data": {
 					"behavior": {
@@ -464,6 +507,7 @@
 				"warning": {
 					"zero": "{{remaining}} guesses remaining!",
 					"one": "{{remaining}} guess remaining!",
+					"two-four": "{{remaining}} guesses remaining!",
 					"many": "{{remaining}} guesses remaining!"
 				}
 			},
@@ -524,6 +568,61 @@
 					"health_measuring": "Keep in mind that health is measured in health points, aka half hearts, so 10 HP is 5 hearts."
 				}
 			}
+		},
+		"bestiary": {
+			"index": {
+				"title": "Bestiary",
+				"books": {
+					"blocks": {
+						"title": "The Book of Blocks",
+						"cover_alt_text": "Block Book Cover"
+					},
+					"items": {
+						"title": "The Book of Items",
+						"cover_alt_text": "Item Book Cover"
+					},
+					"mobs": {
+						"title": "The Book of Mobs",
+						"cover_alt_text": "Mob Book Cover"
+					}
+				}
+			},
+			"blocks": {
+				"title": "Block Bestiary"
+			},
+			"generic": {
+				"overview": {
+					"title": "Overview",
+					"library_back": "Back to library",
+					"explanation": "Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"sorting": {
+						"alphabet_tooltip": "Sort alphabetically",
+						"alphabet_alt": "A-Z Sort",
+						"release_tooltip": "Sort by release",
+						"release_alt": "Release Sort"
+					}
+				},
+				"entry": {
+					"overview_back": "Overview",
+					"not_found": "Norbert didn't find any matching entries in your discovered list =(",
+					"try_different": "Try different filters!",
+					"discovered": {
+						"first_discovered": "First discovered:",
+						"in": "in",
+						"and": "and",
+						"more": "more!"
+					}
+				},
+				"filters": {
+					"applied": "Filters applied",
+					"search_placeholder": "Search",
+					"search_alt": "Search icon",
+					"clear": "Clear Filters",
+					"open": "Filters (Global)",
+					"min": "Min",
+					"max": "Max"
+				}
+			}
 		}
 	},
 	"components": {
@@ -566,6 +665,7 @@
 			"already_guessed": {
 				"zero": "players already guessed correctly!",
 				"one": "player already guessed correctly!",
+				"two-four": "players already guessed correctly!",
 				"many": "players already guessed correctly!"
 			}
 		},
@@ -606,6 +706,11 @@
 			"image": {
 				"description": "Zoomed image hint",
 				"solution": "Can you see what's hiding in this 8x zoomed in image?"
+			}
+		},
+		"toasts": {
+			"patchnotes": {
+				"live": " are now live! Check them out!"
 			}
 		}
 	},

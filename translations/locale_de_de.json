@@ -3,6 +3,9 @@
 		"links": {
 			"cookie": {
 				"title": "Cookie Richtlinien"
+			},
+			"patchnotes": {
+				"title": "Patchnotitzen"
 			}
 		},
 		"about": {
@@ -36,19 +39,29 @@
 				"credit_list": {
 					"kineticraft": {
 						"pre_link": "Danke an den Server ",
-						"link": "kineticraftreborn.net",
+						"link": "kineticraft.net",
 						"post_link": " für das Hintergrund bild!"
 					},
 					"vanilla_tweaks": {
 						"pre_link": "Danke an ",
 						"link": "Vanilla Tweaks",
 						"post_link": " für deren Melonen und Kürbis Stiel Textur."
+					},
+					"alldle": {
+						"post_link": "für das Hervorheben von MCdle auf ihrer Seite!"
 					}
 				}
 			},
 			"version": {
 				"title": "Version",
 				"description": "Das heutige Rätsel ist Version #{{version}}! Das Spiel wählt jeden Tag um Mitternacht UTC einen neuen Block, Gegenstand und Mob aus."
+			},
+			"supporters": {
+				"title": "Unterstützer",
+				"description": {
+					"pre_link": "Danke an all meine",
+					"post_link": "Unterstützer!"
+				}
 			}
 		}
 	},
@@ -130,7 +143,26 @@
 				"goal": {
 					"image_alt": "Ziel Icon",
 					"title": "MCdle Bestiarium (WIP)"
+				},
+				"bestiary": {
+					"title": "Bestiarium",
+					"image_alt": "Bestiarium Icon",
+					"subtitle": "Verfolge deinen Fortschritt und fang an zu sammeln! Du kannst auch filtern was du schon entdeckt hast!"
+				},
+				"kineticraft": {
+					"title": "Spiel unbegrenzt auf kineticraft.net",
+					"image_alt": "Kineticraft Icon",
+					"subtitle": "Mob, Block and Gegenstand Spielmodi können unbegrenzt gespielt werden, aber du musst sie in der Welt finden! /mcdle"
 				}
+			}
+		},
+		"generic": {
+			"game": {
+				"complete_support": {
+					"start": "Falls dir das Spiel gefällt, bitte unterstütze es, indem du es teilst oder auf ",
+					"end": " spendest! Danke!"
+				},
+				"see_in_bestiary": "Schau es dir im Bestiarium an!"
 			}
 		},
 		"block": {
@@ -146,18 +178,21 @@
 				},
 				"help": {
 					"tooltip": "Wie spielt man?"
+				},
+				"bestiary": {
+					"tooltip": "Bestiarium"
 				}
 			},
 			"table": {
 				"header": {
 					"title": "Block",
-					"release": "Veröffen-tlichung",
+					"release": "Veröffen<wbr>tlichung",
 					"stack_size": "Stack Größe",
 					"tools": "Werk-zeuge",
-					"blast_resistance": "Explosions Wider-stand",
+					"blast_resistance": "Explosions Wider<wbr>stand",
 					"hardness": "Härte",
-					"flammable": "Flamm-barkeit",
-					"transparent": "Trans-parenz"
+					"flammable": "Flamm<wbr>barkeit",
+					"transparent": "Trans<wbr>parenz"
 				},
 				"data": {
 					"tools": {
@@ -195,6 +230,7 @@
 				"warning": {
 					"zero": "{{remaining}} Versuche übrig!",
 					"one": "{{remaining}} Versuch übrig!",
+					"two-four": "{{remaining}} Versuche übrig!",
 					"many": "{{remaining}} Versuche übrig!"
 				}
 			},
@@ -268,18 +304,21 @@
 				},
 				"help": {
 					"tooltip": "Wie spielt man?"
+				},
+				"bestiary": {
+					"tooltip": "Bestiarium"
 				}
 			},
 			"table": {
 				"header": {
-					"title": "Gegen-stand",
-					"release": "Veröffen-tlichung",
+					"title": "Gegen<wbr>stand",
+					"release": "Veröffen<wbr>tlichung",
 					"stack_size": "Stack Größe",
 					"rarity": "Seltenheit",
 					"inventory_categories": "Inventar Kategorie",
 					"renewable": "Erneuerbar",
-					"usage": "Verwen-dungs-möglich-keiten",
-					"source": "Erzeug-ungs-möglich-keiten"
+					"usage": "Verwen<wbr>dungs<wbr>möglich<wbr>keiten",
+					"source": "Erzeug<wbr>ungs<wbr>möglich<wbr>keiten"
 				},
 				"data": {
 					"rarity": {
@@ -319,6 +358,7 @@
 				"warning": {
 					"zero": "{{remaining}} Versuche übrig!",
 					"one": "{{remaining}} Versuch übrig!",
+					"two-four": "{{remaining}} Versuche übrig!",
 					"many": "{{remaining}} Versuche übrig!"
 				}
 			},
@@ -341,7 +381,7 @@
 				"next_in": "Nächster Gegenstand in {{time}}"
 			},
 			"yesterday_info": {
-				"description": "Der gestrige Gegenstand war "
+				"description": "Der gestrige Gegenstand war {{name}}!"
 			},
 			"next_game": {
 				"name": "Gegenstände",
@@ -393,17 +433,20 @@
 				},
 				"help": {
 					"tooltip": "Wie spielt man?"
+				},
+				"bestiary": {
+					"tooltip": "Bestiarium"
 				}
 			},
 			"table": {
 				"header": {
 					"title": "Mob",
-					"release": "Veröffen-tlichung",
+					"release": "Veröffen<wbr>tlichung",
 					"health": "Leben",
 					"height": "Höhe",
 					"behavior": "Verhalten",
 					"spawn": "Spawn",
-					"classification": "Klass-ifikation"
+					"classification": "Klass<wbr>ifikation"
 				},
 				"data": {
 					"behavior": {
@@ -415,7 +458,7 @@
 					"classification": {
 						"none": "Nichts",
 						"animal": "Tier",
-						"aquatic": "Aquatic",
+						"aquatic": "Aquatisch",
 						"arthropod": "Gleiderfüßer",
 						"undead": "Untot",
 						"illager": "Illager",
@@ -464,6 +507,7 @@
 				"warning": {
 					"zero": "{{remaining}} Versuche übrig!",
 					"one": "{{remaining}} Versuch übrig!",
+					"two-four": "{{remaining}} Versuche übrig!",
 					"many": "{{remaining}} Versuche übrig!"
 				}
 			},
@@ -524,6 +568,61 @@
 					"health_measuring": "Vergiss nicht das Leben in Lebenspunkten, also halben Herzen gemessen wird. Daher sind 10 HP also 5 Herzen."
 				}
 			}
+		},
+		"bestiary": {
+			"index": {
+				"title": "Bestiarium",
+				"books": {
+					"blocks": {
+						"title": "Das Buch der Blöcke",
+						"cover_alt_text": "Block Buch Cover"
+					},
+					"items": {
+						"title": "Das Buch der Gegenstände",
+						"cover_alt_text": "Gegenstand Buch Cover"
+					},
+					"mobs": {
+						"title": "Das Buch der Mobs",
+						"cover_alt_text": "Mob Buch Cover"
+					}
+				}
+			},
+			"blocks": {
+				"title": "Block Bestiarium"
+			},
+			"generic": {
+				"overview": {
+					"title": "Übersicht",
+					"library_back": "Zurück zur Bibliothek",
+					"explanation": "Drücke auf einen Eintrag um dessen Seite zu sehen oder verwende das Lupen Icon um zu suchen. Dort kannst du auch die Filter anwenden, um überall nur passende Einträge zu sehen. (nicht nur bei den Suchergebnissen)",
+					"sorting": {
+						"alphabet_tooltip": "Sortiere nach Alphabet",
+						"alphabet_alt": "A-Z Sortierung",
+						"release_tooltip": "Sortiere nach Veröffentlichung",
+						"release_alt": "Veröffentlichungs Sortierung"
+					}
+				},
+				"entry": {
+					"overview_back": "Übersicht",
+					"not_found": "Norbert hat leider keinen passendedn Eintrag unter deinen Entdeckungen gefunden =(",
+					"try_different": "Versuche andere Filter!",
+					"discovered": {
+						"first_discovered": "Zuerst entdeckt:",
+						"in": "in",
+						"and": "und",
+						"more": "mehr!"
+					}
+				},
+				"filters": {
+					"applied": "Filter angewendet",
+					"search_placeholder": "Suche",
+					"search_alt": "Such Icon",
+					"clear": "Filter zurücksetzen",
+					"open": "Filter (Global)",
+					"min": "Min",
+					"max": "Max"
+				}
+			}
 		}
 	},
 	"components": {
@@ -566,6 +665,7 @@
 			"already_guessed": {
 				"zero": "Spieler haben schon richtig geraten!",
 				"one": "Spieler hat schon richtig geraten!",
+				"two-four": "Spieler haben schon richtig geraten!{{remaining}} ",
 				"many": "Spieler haben schon richtig geraten!"
 			}
 		},
@@ -606,6 +706,11 @@
 			"image": {
 				"description": "Gezoomter Bild Tipp",
 				"solution": "Kannst du erkennen was sich in dem 8x gezoomten Bild versteckt?"
+			}
+		},
+		"toasts": {
+			"patchnotes": {
+				"live": " sind jetzt verfügbar! Schau sie dir an!"
 			}
 		}
 	},
@@ -669,7 +774,6 @@
 		"bricks": "Ziegelsteine",
 		"mushroom": "Pilz",
 		"mushroom_block": "Pilzblock",
-		"budding_amethyst": "Amethystknospenblock",
 		"cactus": "Kaktus",
 		"cake": "Kuchen",
 		"calcite": "Kalzit",

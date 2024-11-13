@@ -3,6 +3,9 @@
 		"links": {
 			"cookie": {
 				"title": "Polityka plików cookie (ciasteczka)"
+			},
+			"patchnotes": {
+				"title": "🌍Patchnotes"
 			}
 		},
 		"about": {
@@ -36,19 +39,29 @@
 				"credit_list": {
 					"kineticraft": {
 						"pre_link": "Podziękowania ",
-						"link": "kineticraftreborn.net",
+						"link": "kineticraft.net",
 						"post_link": " za obraz w tle!"
 					},
 					"vanilla_tweaks": {
 						"pre_link": "Podziękowania ",
 						"link": "Vanilla Tweaks",
 						"post_link": " za ich tekstury łodyg dyni i melona!"
+					},
+					"alldle": {
+						"post_link": "🌍for featuring MCdle on their site!"
 					}
 				}
 			},
 			"version": {
 				"title": "Wersja",
 				"description": "Dzisiejsza gra to zagadka #{{version}}! Gra będzie wybierać nowy blok, przedmiot i moba każdego dnia o północy UTC."
+			},
+			"supporters": {
+				"title": "🌍Supporters",
+				"description": {
+					"pre_link": "🌍Thanks to all my",
+					"post_link": "🌍 Supporters!"
+				}
 			}
 		}
 	},
@@ -130,7 +143,26 @@
 				"goal": {
 					"title": "Bestiariusz MCdle (WIP)",
 					"image_alt": "Ikona celu"
+				},
+				"bestiary": {
+					"title": "🌍Bestiary",
+					"image_alt": "🌍Bestiary icon",
+					"subtitle": "🌍Track your progress and start collecting! You can also filter what you've already uncovered!"
+				},
+				"kineticraft": {
+					"title": "🌍Play infinitely on kineticraft.net",
+					"image_alt": "🌍Kineticraft icon",
+					"subtitle": "🌍Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
 				}
+			}
+		},
+		"generic": {
+			"game": {
+				"complete_support": {
+					"start": "🌍If you enjoyed it, consider supporting the project on",
+					"end": "🌍!"
+				},
+				"see_in_bestiary": "🌍Check it out in the bestiary!"
 			}
 		},
 		"block": {
@@ -146,6 +178,9 @@
 				},
 				"help": {
 					"tooltip": "Jak grać"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
@@ -153,11 +188,11 @@
 					"title": "Blok",
 					"release": "Wersja dodania",
 					"stack_size": "Wielkość stacka",
-					"tools": "Narzę-dzie/a",
+					"tools": "Narzę<wbr>dzie/a",
 					"blast_resistance": "Odporność na wybuchy",
 					"hardness": "Twardość",
-					"flammable": "Łatwo-palne",
-					"transparent": "Przeźro-czyste"
+					"flammable": "Łatwo<wbr>palne",
+					"transparent": "Przeźro<wbr>czyste"
 				},
 				"data": {
 					"tools": {
@@ -269,6 +304,9 @@
 				},
 				"help": {
 					"tooltip": "Jak grać"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
@@ -277,7 +315,7 @@
 					"release": "Wersja dodania",
 					"stack_size": "Wielkość stacka",
 					"rarity": "Rzadkość",
-					"inventory_categories": "Kate-goria",
+					"inventory_categories": "Kate<wbr>goria",
 					"renewable": "Odnawialny",
 					"usage": "Liczba użyć",
 					"source": "Liczba źródeł"
@@ -343,7 +381,7 @@
 				"next_in": "Następny przedmiot za {{time}}"
 			},
 			"yesterday_info": {
-				"description": "Wczorajszy przedmiot to "
+				"description": "Wczorajszy przedmiot to {{name}}!"
 			},
 			"next_game": {
 				"name": "Przedmioty",
@@ -395,6 +433,9 @@
 				},
 				"help": {
 					"tooltip": "Jak grać"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
@@ -403,9 +444,9 @@
 					"release": "Wersja dodania",
 					"health": "Życie",
 					"height": "Wysokość",
-					"behavior": "Zacho-wanie",
-					"spawn": "Wystę-powanie",
-					"classification": "Klasy-fikacja"
+					"behavior": "Zacho<wbr>wanie",
+					"spawn": "Wystę<wbr>powanie",
+					"classification": "Klasy<wbr>fikacja"
 				},
 				"data": {
 					"behavior": {
@@ -514,7 +555,6 @@
 					"table_interpretation_2": "No dobrze, nadal nowszy niż 1.13, ale mamy jego życie: szukamy moba z punktami życia = 10, czyli 5 serduszkami. Jest mniejszy niż 0.6 bloku wysokości, więc patrzymy na małego moba. Zachowanie moba nadal jest zgodne tylko częściowo, więc najprawdopodobniej jest to mob pasywny, ale nadal może być agresywny lub neutralny. Zarówno Spawn jak i klasyfikacja są częściowo zgodne, a więc pojawianie się w biomie i jakaś inna przyczyna, klasyfikowany jako zwierze lub morskie i może coś innego.",
 					"table_interpretation_3": "Mamy go! popatrz co przeskoczyło przez ten samouczek, znaleźliśmy małą żabkę!"
 				},
-
 				"partial_matches": {
 					"title": "Wyjaśnienie częściowej zgodności",
 					"intro": "Przyjżyjmy się częściowym zgodnościom trochę dokładniej, bo są one pewnie najdziwniejszym z możliwych kolorów.",
@@ -526,6 +566,61 @@
 					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! patrz na sugestje, mogą ci pomóc zawęzić szukanie.",
 					"use_the_wiki": "Śmiało, nie bój się używać Minecraft wiki. Po znalezieniu wersji moba możesz użyć wiki aby znaleźć moby dodane w tej wersji, pomoże ci to zawęzić obszar poszukiwań.",
 					"health_measuring": "Pamiętaj, że życie jest liczone w punktach życia, czyli połówkach serduszka, a więc 10hp to 5 serc życia."
+				}
+			}
+		},
+		"bestiary": {
+			"index": {
+				"title": "🌍Bestiary",
+				"books": {
+					"blocks": {
+						"title": "🌍The Book of Blocks",
+						"cover_alt_text": "🌍Block Book Cover"
+					},
+					"items": {
+						"title": "🌍The Book of Items",
+						"cover_alt_text": "🌍Item Book Cover"
+					},
+					"mobs": {
+						"title": "🌍The Book of Mobs",
+						"cover_alt_text": "🌍Mob Book Cover"
+					}
+				}
+			},
+			"blocks": {
+				"title": "🌍Block Bestiary"
+			},
+			"generic": {
+				"overview": {
+					"title": "🌍Overview",
+					"library_back": "🌍Back to library",
+					"explanation": "🌍Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"sorting": {
+						"alphabet_tooltip": "🌍Sort alphabetically",
+						"alphabet_alt": "🌍A-Z Sort",
+						"release_tooltip": "🌍Sort by release",
+						"release_alt": "🌍Release Sort"
+					}
+				},
+				"entry": {
+					"overview_back": "🌍Overview",
+					"not_found": "🌍Norbert didn't find any matching entries in your discovered list =(",
+					"try_different": "🌍Try different filters!",
+					"discovered": {
+						"first_discovered": "🌍First discovered:",
+						"in": "🌍in",
+						"and": "🌍and",
+						"more": "🌍more!"
+					}
+				},
+				"filters": {
+					"applied": "🌍Filters applied",
+					"search_placeholder": "🌍Search",
+					"search_alt": "🌍Search icon",
+					"clear": "🌍Clear Filters",
+					"open": "🌍Filters (Global)",
+					"min": "🌍Min",
+					"max": "🌍Max"
 				}
 			}
 		}
@@ -570,6 +665,7 @@
 			"already_guessed": {
 				"zero": "graczy już zgadło prawidłowo!",
 				"one": "gracz już zgadł prawidłowo!",
+				"two-four": "🌍graczy już zgadło prawidłowo!",
 				"many": "graczy już zgadło prawidłowo!"
 			}
 		},
@@ -610,6 +706,11 @@
 			"image": {
 				"description": "wskazówka przybliżonej kamery",
 				"solution": "czy widzisz co się kryje na tym 8x przybliżonym zdjęciu?"
+			}
+		},
+		"toasts": {
+			"patchnotes": {
+				"live": "🌍 are now live! Check them out!"
 			}
 		}
 	},
@@ -1051,7 +1152,6 @@
 		"rotten_flesh": "Zgniłe mięso",
 		"saddle": "Siodło",
 		"salmon": "Surowy łosoś",
-		"scute": "Tarczka",
 		"shears": "Nożyce",
 		"shield": "Tarcza",
 		"shulker_shell": "Skorupa shulkera",

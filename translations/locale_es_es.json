@@ -3,6 +3,9 @@
 		"links": {
 			"cookie": {
 				"title": "Cookie de política"
+			},
+			"patchnotes": {
+				"title": "🌍Patchnotes"
 			}
 		},
 		"about": {
@@ -36,19 +39,29 @@
 				"credit_list": {
 					"kineticraft": {
 						"pre_link": "Gracias al servidor ",
-						"link": "kineticraftreborn.net",
+						"link": "kineticraft.net",
 						"post_link": " por la imagen de fondo!"
 					},
 					"vanilla_tweaks": {
 						"pre_link": "Gracias a ",
 						"link": "Vanilla Tweaks",
 						"post_link": " por sus texturas de los tallos de calabaza y sandía!"
+					},
+					"alldle": {
+						"post_link": "🌍for featuring MCdle on their site!"
 					}
 				}
 			},
 			"version": {
 				"title": "Versión",
 				"description": "Actualmente la versión del juego es la #{{version}}! El juego elegirá un nuevo bloque, objeto y criatura cada día a medianoche en horario UTC."
+			},
+			"supporters": {
+				"title": "🌍Supporters",
+				"description": {
+					"pre_link": "🌍Thanks to all my",
+					"post_link": "🌍 Supporters!"
+				}
 			}
 		}
 	},
@@ -130,7 +143,26 @@
 				"goal": {
 					"title": "MCdle Bestiary (WIP)",
 					"image_alt": "Ícono de victoria"
+				},
+				"bestiary": {
+					"title": "🌍Bestiary",
+					"image_alt": "🌍Bestiary icon",
+					"subtitle": "🌍Track your progress and start collecting! You can also filter what you've already uncovered!"
+				},
+				"kineticraft": {
+					"title": "🌍Play infinitely on kineticraft.net",
+					"image_alt": "🌍Kineticraft icon",
+					"subtitle": "🌍Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
 				}
+			}
+		},
+		"generic": {
+			"game": {
+				"complete_support": {
+					"start": "🌍If you enjoyed it, consider supporting the project on",
+					"end": "🌍!"
+				},
+				"see_in_bestiary": "🌍Check it out in the bestiary!"
 			}
 		},
 		"block": {
@@ -146,18 +178,21 @@
 				},
 				"help": {
 					"tooltip": "Cómo jugar"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
 				"header": {
 					"title": "Bloque",
-					"release": "Lanza-miento",
+					"release": "Lanza<wbr>miento",
 					"stack_size": "Tamaño de stack",
-					"tools": "Herra-mienta(s)",
-					"blast_resistance": "Resis-tencia a las explo-siones",
+					"tools": "Herra<wbr>mienta(s)",
+					"blast_resistance": "Resis<wbr>tencia a las explo<wbr>siones",
 					"hardness": "Dureza",
-					"flammable": "Infla-mable",
-					"transparent": "Transpa-rente"
+					"flammable": "Infla<wbr>mable",
+					"transparent": "Transpa<wbr>rente"
 				},
 				"data": {
 					"tools": {
@@ -195,6 +230,7 @@
 				"warning": {
 					"zero": "{{remaining}} intentos restantes!",
 					"one": "{{remaining}} intento restante!",
+					"two-four": "{{remaining}} intentos restantes!",
 					"many": "{{remaining}} intentos restantes!"
 				}
 			},
@@ -268,16 +304,19 @@
 				},
 				"help": {
 					"tooltip": "Cómo jugar"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
 				"header": {
 					"title": "Objeto",
-					"release": "Lanza-miento",
+					"release": "Lanza<wbr>miento",
 					"stack_size": "Tamaño de stack",
 					"rarity": "Rareza",
-					"inventory_category": "Acción",
-					"renewable": "Reno-vable",
+					"inventory_categories": "Acción",
+					"renewable": "Reno<wbr>vable",
 					"usage": "Número de usos",
 					"source": "Número de fuentes"
 				},
@@ -299,7 +338,7 @@
 						"food_and_drinks": "Comidas y Bebidas",
 						"none": "Ninguno",
 						"spawn_eggs": "Huevos de Spawn",
-						"operator_utilities": "Herramientas de admin."
+						"operator_utilities": "Herra-mientas de admin."
 					}
 				}
 			},
@@ -319,6 +358,7 @@
 				"warning": {
 					"zero": "{{remaining}} intentos restantes!",
 					"one": "{{remaining}} intento restante!",
+					"two-four": "{{remaining}} intentos restantes!",
 					"many": "{{remaining}} intentos restantes!"
 				}
 			},
@@ -341,7 +381,7 @@
 				"next_in": "Siguiente objeto en {{time}}"
 			},
 			"yesterday_info": {
-				"description": "El objeto de ayer fue "
+				"description": "El objeto de ayer fue {{name}}!"
 			},
 			"next_game": {
 				"name": "Objetos",
@@ -393,6 +433,9 @@
 				},
 				"help": {
 					"tooltip": "Cómo jugar"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
@@ -401,9 +444,9 @@
 					"release": "Lanza-miento",
 					"health": "Vida",
 					"height": "Altura",
-					"behavior": "Compor-tamiento",
+					"behavior": "Compor<wbr>tamiento",
 					"spawn": "Spawn",
-					"classification": "Clasifi-cación"
+					"classification": "Clasifi<wbr>cación"
 				},
 				"data": {
 					"behavior": {
@@ -442,7 +485,9 @@
 						"hatching": "Huevo",
 						"jockey": "Jinete",
 						"duplication": "Duplicación",
-						"magic": "Magia"
+						"magic": "Magia",
+						"reinforcements": "Refuerzos",
+						"sieges": "Asedio"
 					}
 				}
 			},
@@ -462,6 +507,7 @@
 				"warning": {
 					"zero": "{{remaining}} intentos restantes!",
 					"one": "{{remaining}} intento restante!",
+					"two-four": "{{remaining}} intentos restantes!",
 					"many": "{{remaining}} intentos restantes!"
 				}
 			},
@@ -522,6 +568,61 @@
 					"health_measuring": "Ten en cuenta que la Vida se mide en Puntos de Vida, aka medios corazones, así que 10 HP son 5 corazones."
 				}
 			}
+		},
+		"bestiary": {
+			"index": {
+				"title": "🌍Bestiary",
+				"books": {
+					"blocks": {
+						"title": "🌍The Book of Blocks",
+						"cover_alt_text": "🌍Block Book Cover"
+					},
+					"items": {
+						"title": "🌍The Book of Items",
+						"cover_alt_text": "🌍Item Book Cover"
+					},
+					"mobs": {
+						"title": "🌍The Book of Mobs",
+						"cover_alt_text": "🌍Mob Book Cover"
+					}
+				}
+			},
+			"blocks": {
+				"title": "🌍Block Bestiary"
+			},
+			"generic": {
+				"overview": {
+					"title": "🌍Overview",
+					"library_back": "🌍Back to library",
+					"explanation": "🌍Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"sorting": {
+						"alphabet_tooltip": "🌍Sort alphabetically",
+						"alphabet_alt": "🌍A-Z Sort",
+						"release_tooltip": "🌍Sort by release",
+						"release_alt": "🌍Release Sort"
+					}
+				},
+				"entry": {
+					"overview_back": "🌍Overview",
+					"not_found": "🌍Norbert didn't find any matching entries in your discovered list =(",
+					"try_different": "🌍Try different filters!",
+					"discovered": {
+						"first_discovered": "🌍First discovered:",
+						"in": "🌍in",
+						"and": "🌍and",
+						"more": "🌍more!"
+					}
+				},
+				"filters": {
+					"applied": "🌍Filters applied",
+					"search_placeholder": "🌍Search",
+					"search_alt": "🌍Search icon",
+					"clear": "🌍Clear Filters",
+					"open": "🌍Filters (Global)",
+					"min": "🌍Min",
+					"max": "🌍Max"
+				}
+			}
 		}
 	},
 	"components": {
@@ -564,6 +665,7 @@
 			"already_guessed": {
 				"zero": "jugadores ya acertaron correctamente!",
 				"one": "jugador ya acertó correctamente!",
+				"two-four": "jugadores ya acertaron correctamente!",
 				"many": "jugadores ya acertaron correctamente!"
 			}
 		},
@@ -604,6 +706,11 @@
 			"image": {
 				"description": "Zoomed image hint",
 				"solution": "Puedes ver que se esconde en esta imágen 8x?"
+			}
+		},
+		"toasts": {
+			"patchnotes": {
+				"live": "🌍 are now live! Check them out!"
 			}
 		}
 	},
@@ -736,7 +843,7 @@
 		"flower_pot": "Maceta",
 		"frogspawn": "Huevas de Rana",
 		"furnace": "Horno",
-		"glow_lichen": "Liquen Luminoso",
+		"glow_lichen": "Líquen Luminoso",
 		"glowstone": "Piedra Luminosa",
 		"gold_block": "Bloque de Oro",
 		"gold_ore": "Mena De Oro",
@@ -746,7 +853,7 @@
 		"grindstone": "Afiladora",
 		"hanging_roots": "Raíces Colgantes",
 		"hay_block": "Bloque de Heno",
-		"heavy_core": "Núcleo pesado",
+		"heavy_core": "Núcleo Pesado",
 		"heavy_weighted_pressure_plate": "Placa de Presión para Peso Elevado",
 		"honey_block": "Bloque de Miel",
 		"honeycomb_block": "Bloque de Panal de Miel",
@@ -770,7 +877,7 @@
 		"lever": "Palanca",
 		"light": "Luz",
 		"lightning_rod": "Pararrayos",
-		"lily_pad": "Nenufar",
+		"lily_pad": "Nenúfar",
 		"lodestone": "Piedra Imán",
 		"loom": "Telar",
 		"magma_block": "Bloque de Magma",

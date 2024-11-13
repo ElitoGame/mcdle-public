@@ -3,6 +3,9 @@
 		"links": {
 			"cookie": {
 				"title": "Politique relative aux cookies"
+			},
+			"patchnotes": {
+				"title": "🌍Patchnotes"
 			}
 		},
 		"about": {
@@ -36,19 +39,29 @@
 				"credit_list": {
 					"kineticraft": {
 						"pre_link": "Merci au serveur ",
-						"link": "kineticraftreborn.net",
+						"link": "kineticraft.net",
 						"post_link": " pour l'imagine d'arrière-plan !"
 					},
 					"vanilla_tweaks": {
 						"pre_link": "Merci à ",
 						"link": "Vanilla Tweaks",
 						"post_link": " pour leurs textures de tige de pastèque et citrouille !"
+					},
+					"alldle": {
+						"post_link": "🌍for featuring MCdle on their site!"
 					}
 				}
 			},
 			"version": {
 				"title": "Version",
 				"description": "La partie du jour est l'énigme #{{version}} ! Le jeu choisira un nouveau bloc, un nouvel objet et une nouvelle créature chaque jour à minuit UTC."
+			},
+			"supporters": {
+				"title": "🌍Supporters",
+				"description": {
+					"pre_link": "🌍Thanks to all my",
+					"post_link": "🌍 Supporters!"
+				}
 			}
 		}
 	},
@@ -130,7 +143,26 @@
 				"goal": {
 					"title": "Catalogue MCdle (WIP)",
 					"image_alt": "Icône objectif"
+				},
+				"bestiary": {
+					"title": "🌍Bestiary",
+					"image_alt": "🌍Bestiary icon",
+					"subtitle": "🌍Track your progress and start collecting! You can also filter what you've already uncovered!"
+				},
+				"kineticraft": {
+					"title": "🌍Play infinitely on kineticraft.net",
+					"image_alt": "🌍Kineticraft icon",
+					"subtitle": "🌍Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
 				}
+			}
+		},
+		"generic": {
+			"game": {
+				"complete_support": {
+					"start": "🌍If you enjoyed it, consider supporting the project on",
+					"end": "🌍!"
+				},
+				"see_in_bestiary": "🌍Check it out in the bestiary!"
 			}
 		},
 		"block": {
@@ -146,6 +178,9 @@
 				},
 				"help": {
 					"tooltip": "Comment jouer"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
@@ -154,10 +189,10 @@
 					"release": "Sortie",
 					"stack_size": "Taille de pile",
 					"tools": "Outil(s)",
-					"blast_resistance": "Résist-ance",
+					"blast_resistance": "Résist<wbr>ance",
 					"hardness": "Dureté",
-					"flammable": "Inflam-mable",
-					"transparent": "Trans-parent"
+					"flammable": "Inflam<wbr>mable",
+					"transparent": "Trans<wbr>parent"
 				},
 				"data": {
 					"tools": {
@@ -195,6 +230,7 @@
 				"warning": {
 					"zero": "{{remaining}} essais restants !",
 					"one": "{{remaining}} essai restant !",
+					"two-four": "{{remaining}} essais restants !",
 					"many": "{{remaining}} essais restants !"
 				}
 			},
@@ -268,6 +304,9 @@
 				},
 				"help": {
 					"tooltip": "Comment jouer"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
@@ -277,9 +316,9 @@
 					"stack_size": "Taille de pile",
 					"rarity": "Rareté",
 					"inventory_categories": "Catégorie Inv. Créatif",
-					"renewable": "Renou-velable",
-					"usage": "Nombre d'utili-sations",
-					"source": "Nombre de pro-venances"
+					"renewable": "Renou<wbr>velable",
+					"usage": "Nombre d'utili<wbr>sations",
+					"source": "Nombre de pro<wbr>venances"
 				},
 				"data": {
 					"rarity": {
@@ -319,6 +358,7 @@
 				"warning": {
 					"zero": "{{remaining}} essais restants !",
 					"one": "{{remaining}} essai restant !",
+					"two-four": "{{remaining}} essais restants !",
 					"many": "{{remaining}} essais restants !"
 				}
 			},
@@ -341,7 +381,7 @@
 				"next_in": "Prochain objet dans {{time}}"
 			},
 			"yesterday_info": {
-				"description": "L'objet d'hier était "
+				"description": "L'objet d'hier était {{name}} !"
 			},
 			"next_game": {
 				"name": "Objets",
@@ -393,6 +433,9 @@
 				},
 				"help": {
 					"tooltip": "Comment jouer"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
 				}
 			},
 			"table": {
@@ -401,9 +444,9 @@
 					"release": "Sortie",
 					"health": "Vie",
 					"height": "Taille",
-					"behavior": "Compor-tement",
+					"behavior": "Compor<wbr>tement",
 					"spawn": "Apparition",
-					"classification": "Class- ification"
+					"classification": "Class<wbr>ification"
 				},
 				"data": {
 					"behavior": {
@@ -464,6 +507,7 @@
 				"warning": {
 					"zero": "{{remaining}} essais restants !",
 					"one": "{{remaining}} essai restant !",
+					"two-four": "{{remaining}} essais restants !",
 					"many": "{{remaining}} essais restants !"
 				}
 			},
@@ -524,6 +568,61 @@
 					"health_measuring": "Garde à l'esprit que la Vie est mesurée en points de santé, alias demi-coeurs, donc 10 points de vie correspondent à 5 cœurs."
 				}
 			}
+		},
+		"bestiary": {
+			"index": {
+				"title": "🌍Bestiary",
+				"books": {
+					"blocks": {
+						"title": "🌍The Book of Blocks",
+						"cover_alt_text": "🌍Block Book Cover"
+					},
+					"items": {
+						"title": "🌍The Book of Items",
+						"cover_alt_text": "🌍Item Book Cover"
+					},
+					"mobs": {
+						"title": "🌍The Book of Mobs",
+						"cover_alt_text": "🌍Mob Book Cover"
+					}
+				}
+			},
+			"blocks": {
+				"title": "🌍Block Bestiary"
+			},
+			"generic": {
+				"overview": {
+					"title": "🌍Overview",
+					"library_back": "🌍Back to library",
+					"explanation": "🌍Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"sorting": {
+						"alphabet_tooltip": "🌍Sort alphabetically",
+						"alphabet_alt": "🌍A-Z Sort",
+						"release_tooltip": "🌍Sort by release",
+						"release_alt": "🌍Release Sort"
+					}
+				},
+				"entry": {
+					"overview_back": "🌍Overview",
+					"not_found": "🌍Norbert didn't find any matching entries in your discovered list =(",
+					"try_different": "🌍Try different filters!",
+					"discovered": {
+						"first_discovered": "🌍First discovered:",
+						"in": "🌍in",
+						"and": "🌍and",
+						"more": "🌍more!"
+					}
+				},
+				"filters": {
+					"applied": "🌍Filters applied",
+					"search_placeholder": "🌍Search",
+					"search_alt": "🌍Search icon",
+					"clear": "🌍Clear Filters",
+					"open": "🌍Filters (Global)",
+					"min": "🌍Min",
+					"max": "🌍Max"
+				}
+			}
 		}
 	},
 	"components": {
@@ -566,6 +665,7 @@
 			"already_guessed": {
 				"zero": "joueurs ont trouvé la bonne réponse !",
 				"one": "joueur a trouvé la bonne réponse !",
+				"two-four": "joueurs ont trouvé la bonne réponse !",
 				"many": "joueurs ont trouvé la bonne réponse !"
 			}
 		},
@@ -606,6 +706,11 @@
 			"image": {
 				"description": "Indice d'image zoomée",
 				"solution": "Peux-tu voir ce qui se cache dans cette image agrandie 8 fois ?"
+			}
+		},
+		"toasts": {
+			"patchnotes": {
+				"live": "🌍 are now live! Check them out!"
 			}
 		}
 	},
@@ -669,7 +774,6 @@
 		"bricks": "Briques",
 		"mushroom": "Champignon",
 		"mushroom_block": "Bloc de champignon",
-		"budding_amethyst": "Druse d'améthyste",
 		"cactus": "Cactus",
 		"cake": "Gâteau",
 		"calcite": "Calcite",
