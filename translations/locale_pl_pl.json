@@ -5,7 +5,7 @@
 				"title": "Polityka plików cookie (ciasteczka)"
 			},
 			"patchnotes": {
-				"title": "🌍Patchnotes"
+				"title": "aktualizacja"
 			}
 		},
 		"about": {
@@ -48,7 +48,7 @@
 						"post_link": " za ich tekstury łodyg dyni i melona!"
 					},
 					"alldle": {
-						"post_link": "🌍for featuring MCdle on their site!"
+						"post_link": "za prezentaccję MCdle na ich stronie!"
 					}
 				}
 			},
@@ -57,10 +57,10 @@
 				"description": "Dzisiejsza gra to zagadka #{{version}}! Gra będzie wybierać nowy blok, przedmiot i moba każdego dnia o północy UTC."
 			},
 			"supporters": {
-				"title": "🌍Supporters",
+				"title": "Wspierający",
 				"description": {
-					"pre_link": "🌍Thanks to all my",
-					"post_link": "🌍 Supporters!"
+					"pre_link": "Dziękuje wszystkim",
+					"post_link": "Wspierającym!"
 				}
 			}
 		}
@@ -145,24 +145,24 @@
 					"image_alt": "Ikona celu"
 				},
 				"bestiary": {
-					"title": "🌍Bestiary",
-					"image_alt": "🌍Bestiary icon",
-					"subtitle": "🌍Track your progress and start collecting! You can also filter what you've already uncovered!"
+					"title": "Bestiariusz",
+					"image_alt": "Ikona Bestiariusza",
+					"subtitle": "Śledź swój postęp i zacznij kolekcję! Możesz też sortować to, co już odkryłeś!"
 				},
 				"kineticraft": {
-					"title": "🌍Play infinitely on kineticraft.net",
-					"image_alt": "🌍Kineticraft icon",
-					"subtitle": "🌍Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
+					"title": "Graj ile chcesz na serwerze kineticraft.net",
+					"image_alt": "Ikona Kineticraft",
+					"subtitle": "Tryby Mobów, Bloków i Przedmiotów mogą być grane bez opóźnień, ale musisz znaleść je na świecie! /mcdle"
 				}
 			}
 		},
 		"generic": {
 			"game": {
 				"complete_support": {
-					"start": "🌍If you enjoyed it, consider supporting the project on",
-					"end": "🌍!"
+					"start": "Jeśli podoba ci się to co robię, pomyśl nad wspieraniem projektu na",
+					"end": "!"
 				},
-				"see_in_bestiary": "🌍Check it out in the bestiary!"
+				"see_in_bestiary": "sprawdź w bestiariuszu!"
 			}
 		},
 		"block": {
@@ -180,7 +180,7 @@
 					"tooltip": "Jak grać"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiariusz"
 				}
 			},
 			"table": {
@@ -306,7 +306,7 @@
 					"tooltip": "Jak grać"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiariusz"
 				}
 			},
 			"table": {
@@ -435,7 +435,7 @@
 					"tooltip": "Jak grać"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiariusz"
 				}
 			},
 			"table": {
@@ -571,56 +571,56 @@
 		},
 		"bestiary": {
 			"index": {
-				"title": "🌍Bestiary",
+				"title": "Bestiariusz",
 				"books": {
 					"blocks": {
-						"title": "🌍The Book of Blocks",
-						"cover_alt_text": "🌍Block Book Cover"
+						"title": "Księga Bloków",
+						"cover_alt_text": "Okładka Księgi Bloków"
 					},
 					"items": {
-						"title": "🌍The Book of Items",
-						"cover_alt_text": "🌍Item Book Cover"
+						"title": "Księga Przedmiotów",
+						"cover_alt_text": "Okładka Księgi Przedmiotów"
 					},
 					"mobs": {
-						"title": "🌍The Book of Mobs",
-						"cover_alt_text": "🌍Mob Book Cover"
+						"title": "Księga Mobów",
+						"cover_alt_text": "Okładka Księgi Mobów"
 					}
 				}
 			},
 			"blocks": {
-				"title": "🌍Block Bestiary"
+				"title": "Kolekcja Bloków"
 			},
 			"generic": {
 				"overview": {
-					"title": "🌍Overview",
-					"library_back": "🌍Back to library",
-					"explanation": "🌍Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"title": "Omówienie",
+					"library_back": "Powrót do biblioteki",
+					"explanation": "Kliknij na jeden z wpisów księgi aby zobaczyć jego stronę lub użyj wyszukiwania w prawym gówrnym rogu aby znaleść jeden, lub dodaj filtry sortujące wszystkie wpisy (nie tyko wyniki wyszukiwania).",
 					"sorting": {
-						"alphabet_tooltip": "🌍Sort alphabetically",
-						"alphabet_alt": "🌍A-Z Sort",
-						"release_tooltip": "🌍Sort by release",
-						"release_alt": "🌍Release Sort"
+						"alphabet_tooltip": "Sortuj alfabetycznie",
+						"alphabet_alt": "Sortowanie A-Z",
+						"release_tooltip": "Sortuj według daty dodania",
+						"release_alt": "Sortowanie datą dodania"
 					}
 				},
 				"entry": {
-					"overview_back": "🌍Overview",
-					"not_found": "🌍Norbert didn't find any matching entries in your discovered list =(",
-					"try_different": "🌍Try different filters!",
+					"overview_back": "Omówienie",
+					"not_found": "Norbert nie znalazł żadnych pasujących wpisów w twoich kolekcjach =(",
+					"try_different": "Spróbuj innych filtrów!",
 					"discovered": {
-						"first_discovered": "🌍First discovered:",
-						"in": "🌍in",
-						"and": "🌍and",
-						"more": "🌍more!"
+						"first_discovered": "Poraz pierwszy odkryte :",
+						"in": "w",
+						"and": "i",
+						"more": "więcej!"
 					}
 				},
 				"filters": {
-					"applied": "🌍Filters applied",
-					"search_placeholder": "🌍Search",
-					"search_alt": "🌍Search icon",
-					"clear": "🌍Clear Filters",
-					"open": "🌍Filters (Global)",
-					"min": "🌍Min",
-					"max": "🌍Max"
+					"applied": "Filtry w użyciu",
+					"search_placeholder": "Szukaj",
+					"search_alt": "ikona wyszukiwania",
+					"clear": "wyczyść filtry",
+					"open": "Filtry (Globalnie)",
+					"min": "Min",
+					"max": "Max"
 				}
 			}
 		}
@@ -665,7 +665,7 @@
 			"already_guessed": {
 				"zero": "graczy już zgadło prawidłowo!",
 				"one": "gracz już zgadł prawidłowo!",
-				"two-four": "🌍graczy już zgadło prawidłowo!",
+				"two-four": "graczy już zgadło prawidłowo!",
 				"many": "graczy już zgadło prawidłowo!"
 			}
 		},
@@ -710,7 +710,7 @@
 		},
 		"toasts": {
 			"patchnotes": {
-				"live": "🌍 are now live! Check them out!"
+				"live": "są teraz na stronie! Sprawdź je!"
 			}
 		}
 	},
