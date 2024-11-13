@@ -14,7 +14,7 @@ This repo contains the translations of MCdle. I will keep english and german up 
 | French                 | ❌         | ❌       | [![nalo_](https://avatars.githubusercontent.com/u/37667081?s=64&v=4)](https://github.com/nalo26) [![Simon - fantomitechno](https://avatars.githubusercontent.com/u/67735304?s=64&v=4)](https://github.com/fantomitechno)                    |
 | Spanish                | ❌         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                        |
 | Valencian              | ❌         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                        |
-| Polish                 | ❌         | ❌       | [<img src="https://avatars.githubusercontent.com/u/152759058?s=4&v=2" alt="V1rnax" width="64"/>](https://github.com/V1rnax)                                                                                                                 |
+| Polish                 | ✅         | ❌       | [<img src="https://avatars.githubusercontent.com/u/152759058?s=4&v=2" alt="V1rnax" width="64"/>](https://github.com/V1rnax)                                                                                                                 |
 
 ### How to contribute to the translations
 
@@ -22,7 +22,7 @@ Optionally but recommended - join the MCdle [discord server](https://discord.gg/
 
 1. Fork this repo
 2. Create a new branch
-3. Open [mcdle.net/translate_mcdle](https://www.mcdle.net/translate_mcdle) and click `Generate`.
+3. Open [mcdle.net/tools/translate](https://www.mcdle.net/tools/translate) and click `Generate`.
 4. Pick a target language (the one you want to translate into) - this is used for generating the item names as well as the file name
 5. Pick a base language (will choose an available translation to provide you with some basics)
 6. Optional, but recommended: you can enable marking likely edits of the item names and printing the resulting json in pretty formatting.
