@@ -588,7 +588,16 @@
 				}
 			},
 			"blocks": {
-				"title": "Bestiaire des Blocs"
+				"title": "Bestiaire des Blocs",
+				"description": "🌍For all the Blocks you might encounter in MCdle."
+			},
+			"items": {
+				"title": "Bestiaire des Objets",
+				"description": "🌍For all the Items you might encounter in MCdle."
+			},
+			"mobs": {
+				"title": "Bestiaire des Créatures",
+				"description": "🌍For all the Mobs you might encounter in MCdle."
 			},
 			"generic": {
 				"overview": {
@@ -599,7 +608,7 @@
 						"alphabet_tooltip": "Trier alphabétiquement",
 						"alphabet_alt": "Tri A-Z",
 						"release_tooltip": "Trier par date de sortie",
-						"release_alt": "Tri par sortie" 
+						"release_alt": "Tri par sortie"
 					}
 				},
 				"entry": {

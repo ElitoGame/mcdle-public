@@ -588,7 +588,16 @@
 				}
 			},
 			"blocks": {
-				"title": "Block Bestiarium"
+				"title": "Block Bestiarium",
+				"description": "Für all die Blöcke die du in MCdle entdecken kannst."
+			},
+			"items": {
+				"title": "Gegenstand Bestiarium",
+				"description": "Für all die Gegestände die du in MCdle entdecken kannst."
+			},
+			"mobs": {
+				"title": "Mob Bestiarium",
+				"description": "Für all die Mobs die du in MCdle entdecken kannst."
 			},
 			"generic": {
 				"overview": {

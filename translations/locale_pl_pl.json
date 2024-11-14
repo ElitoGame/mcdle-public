@@ -588,7 +588,16 @@
 				}
 			},
 			"blocks": {
-				"title": "Kolekcja Bloków"
+				"title": "Kolekcja Bloków",
+				"description": "🌍For all the Blocks you might encounter in MCdle."
+			},
+			"items": {
+				"title": "Kolekcja Przedmiotów",
+				"description": "🌍For all the Items you might encounter in MCdle."
+			},
+			"mob": {
+				"title": "Kolekcja Mobów",
+				"description": "For all the Mobs you might encounter in MCdle."
 			},
 			"generic": {
 				"overview": {

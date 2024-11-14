@@ -579,7 +579,16 @@
 				}
 			},
 			"blocks": {
-				"title": "Block Bestiary"
+				"title": "Block Bestiary",
+				"description": "For all the Blocks you might encounter in MCdle."
+			},
+			"items": {
+				"title": "Item Bestiary",
+				"description": "For all the Items you might encounter in MCdle."
+			},
+			"mobs": {
+				"title": "Mob Bestiary",
+				"description": "For all the Mobs you might encounter in MCdle."
 			},
 			"generic": {
 				"overview": {
