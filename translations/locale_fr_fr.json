@@ -5,7 +5,7 @@
 				"title": "Politique relative aux cookies"
 			},
 			"patchnotes": {
-				"title": "🌍Patchnotes"
+				"title": "Notes de mise à jour"
 			}
 		},
 		"about": {
@@ -48,7 +48,7 @@
 						"post_link": " pour leurs textures de tige de pastèque et citrouille !"
 					},
 					"alldle": {
-						"post_link": "🌍for featuring MCdle on their site!"
+						"post_link": "pour inclure MCdle sur leur site!"
 					}
 				}
 			},
@@ -57,10 +57,10 @@
 				"description": "La partie du jour est l'énigme #{{version}} ! Le jeu choisira un nouveau bloc, un nouvel objet et une nouvelle créature chaque jour à minuit UTC."
 			},
 			"supporters": {
-				"title": "🌍Supporters",
+				"title": "Finançeurs",
 				"description": {
-					"pre_link": "🌍Thanks to all my",
-					"post_link": "🌍 Supporters!"
+					"pre_link": "Merci à tous mes",
+					"post_link": " Finançeurs!"
 				}
 			}
 		}
@@ -145,24 +145,24 @@
 					"image_alt": "Icône objectif"
 				},
 				"bestiary": {
-					"title": "🌍Bestiary",
-					"image_alt": "🌍Bestiary icon",
-					"subtitle": "🌍Track your progress and start collecting! You can also filter what you've already uncovered!"
+					"title": "Bestiaire",
+					"image_alt": "Icône du bestiaire",
+					"subtitle": "Suis ta progression et commence à collectionner ! Tu peux aussi trier ce que tu as déjà découvert !"
 				},
 				"kineticraft": {
-					"title": "🌍Play infinitely on kineticraft.net",
-					"image_alt": "🌍Kineticraft icon",
-					"subtitle": "🌍Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
+					"title": "Joue indéfiniment sur kineticraft.net",
+					"image_alt": "Icône de Kineticraft",
+					"subtitle": "Les modes de jeu Créature, Bloc et Objets peuvent être joués sans délai, mais il faut les trouver dans le monde ! /mcdle"
 				}
 			}
 		},
 		"generic": {
 			"game": {
 				"complete_support": {
-					"start": "🌍If you enjoyed it, consider supporting the project on",
-					"end": "🌍!"
+					"start": "Si tu as apprécié, pense à soutenir le projet sur",
+					"end": " !"
 				},
-				"see_in_bestiary": "🌍Check it out in the bestiary!"
+				"see_in_bestiary": "Retrouve-le dans le bestiaire !"
 			}
 		},
 		"block": {
@@ -180,7 +180,7 @@
 					"tooltip": "Comment jouer"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiaire"
 				}
 			},
 			"table": {
@@ -306,7 +306,7 @@
 					"tooltip": "Comment jouer"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiaire"
 				}
 			},
 			"table": {
@@ -435,7 +435,7 @@
 					"tooltip": "Comment jouer"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiaire"
 				}
 			},
 			"table": {
@@ -571,56 +571,56 @@
 		},
 		"bestiary": {
 			"index": {
-				"title": "🌍Bestiary",
+				"title": "Bestiaire",
 				"books": {
 					"blocks": {
-						"title": "🌍The Book of Blocks",
-						"cover_alt_text": "🌍Block Book Cover"
+						"title": "Le Livre des Blocs",
+						"cover_alt_text": "Couverture du Livre des Blocs"
 					},
 					"items": {
-						"title": "🌍The Book of Items",
-						"cover_alt_text": "🌍Item Book Cover"
+						"title": "Le Livre des Objets",
+						"cover_alt_text": "Couverture du Livre des Objets"
 					},
 					"mobs": {
-						"title": "🌍The Book of Mobs",
-						"cover_alt_text": "🌍Mob Book Cover"
+						"title": "Le Livre des Créatures",
+						"cover_alt_text": "Couverture du Livres des Créatures"
 					}
 				}
 			},
 			"blocks": {
-				"title": "🌍Block Bestiary"
+				"title": "Bestiaire des Blocs"
 			},
 			"generic": {
 				"overview": {
-					"title": "🌍Overview",
-					"library_back": "🌍Back to library",
-					"explanation": "🌍Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"title": "Vue d'ensemble",
+					"library_back": "Retour à la bibliothèque",
+					"explanation": "Clique sur une entrée pour afficher sa page ou utilise l'icône de recherche en haut à droite pour trouver une entrée ou appliquer des filtres à l'ensemble de la page (et pas seulement aux résultats de la recherche).",
 					"sorting": {
-						"alphabet_tooltip": "🌍Sort alphabetically",
-						"alphabet_alt": "🌍A-Z Sort",
-						"release_tooltip": "🌍Sort by release",
-						"release_alt": "🌍Release Sort"
+						"alphabet_tooltip": "Trier alphabétiquement",
+						"alphabet_alt": "Tri A-Z",
+						"release_tooltip": "Trier par date de sortie",
+						"release_alt": "Tri par sortie" 
 					}
 				},
 				"entry": {
-					"overview_back": "🌍Overview",
-					"not_found": "🌍Norbert didn't find any matching entries in your discovered list =(",
-					"try_different": "🌍Try different filters!",
+					"overview_back": "Vue d'ensemble",
+					"not_found": "Norbert n'a trouvé aucune entrée correspondante dans la liste de tes découvertes =(",
+					"try_different": "Essaie avec d'autres filtres !",
 					"discovered": {
-						"first_discovered": "🌍First discovered:",
-						"in": "🌍in",
-						"and": "🌍and",
-						"more": "🌍more!"
+						"first_discovered": "Première découverte :",
+						"in": "en",
+						"and": "et",
+						"more": "plus !"
 					}
 				},
 				"filters": {
-					"applied": "🌍Filters applied",
-					"search_placeholder": "🌍Search",
-					"search_alt": "🌍Search icon",
-					"clear": "🌍Clear Filters",
-					"open": "🌍Filters (Global)",
-					"min": "🌍Min",
-					"max": "🌍Max"
+					"applied": "Filtres appliqués",
+					"search_placeholder": "Rechercher",
+					"search_alt": "Icône de recherche",
+					"clear": "Effacer les filtres",
+					"open": "Filtres (Globaux)",
+					"min": "Min",
+					"max": "Max"
 				}
 			}
 		}
@@ -710,7 +710,7 @@
 		},
 		"toasts": {
 			"patchnotes": {
-				"live": "🌍 are now live! Check them out!"
+				"live": " sont maintenant disponibles ! Jette-y un oeil !"
 			}
 		}
 	},
