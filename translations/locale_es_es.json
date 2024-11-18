@@ -5,7 +5,7 @@
 				"title": "Cookie de política"
 			},
 			"patchnotes": {
-				"title": "🌍Patchnotes"
+				"title": "Notas del parche"
 			}
 		},
 		"about": {
@@ -48,7 +48,7 @@
 						"post_link": " por sus texturas de los tallos de calabaza y sandía!"
 					},
 					"alldle": {
-						"post_link": "🌍for featuring MCdle on their site!"
+						"post_link": "por destacar MCdle en su web!"
 					}
 				}
 			},
@@ -57,10 +57,10 @@
 				"description": "Actualmente la versión del juego es la #{{version}}! El juego elegirá un nuevo bloque, objeto y criatura cada día a medianoche en horario UTC."
 			},
 			"supporters": {
-				"title": "🌍Supporters",
+				"title": "Colaboradores",
 				"description": {
-					"pre_link": "🌍Thanks to all my",
-					"post_link": "🌍 Supporters!"
+					"pre_link": "Gracias a todos mis",
+					"post_link": " Colaboradores!"
 				}
 			}
 		}
@@ -141,28 +141,28 @@
 					"title": "Criaturas"
 				},
 				"goal": {
-					"title": "MCdle Bestiary (WIP)",
+					"title": "MCdle Bestiario",
 					"image_alt": "Ícono de victoria"
 				},
 				"bestiary": {
-					"title": "🌍Bestiary",
-					"image_alt": "🌍Bestiary icon",
-					"subtitle": "🌍Track your progress and start collecting! You can also filter what you've already uncovered!"
+					"title": "Bestiario",
+					"image_alt": "Ícono de Bestiario",
+					"subtitle": "Sigue tu progreso y empieza a coleccionar! También puedes filtrar lo que ya has descubierto!"
 				},
 				"kineticraft": {
-					"title": "🌍Play infinitely on kineticraft.net",
-					"image_alt": "🌍Kineticraft icon",
-					"subtitle": "🌍Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
+					"title": "Juega infinitamente en kineticraft.net",
+					"image_alt": "Ícono de Kineticraft",
+					"subtitle": "Los modos de juego Mob, Bloque y Objeto pueden ser jugados sin tiempo de espera, pero tienes que encontrarlos en el mundo! /mcdle"
 				}
 			}
 		},
 		"generic": {
 			"game": {
 				"complete_support": {
-					"start": "🌍If you enjoyed it, consider supporting the project on",
-					"end": "🌍!"
+					"start": "Si lo has disfrutado, considera apoyar el proyecto en",
+					"end": "!"
 				},
-				"see_in_bestiary": "🌍Check it out in the bestiary!"
+				"see_in_bestiary": "Revísalo en el bestiario!"
 			}
 		},
 		"block": {
@@ -180,7 +180,7 @@
 					"tooltip": "Cómo jugar"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiario"
 				}
 			},
 			"table": {
@@ -306,7 +306,7 @@
 					"tooltip": "Cómo jugar"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiario"
 				}
 			},
 			"table": {
@@ -435,7 +435,7 @@
 					"tooltip": "Cómo jugar"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiario"
 				}
 			},
 			"table": {
@@ -571,65 +571,65 @@
 		},
 		"bestiary": {
 			"index": {
-				"title": "🌍Bestiary",
+				"title": "Bestiario",
 				"books": {
 					"blocks": {
-						"title": "🌍The Book of Blocks",
-						"cover_alt_text": "🌍Block Book Cover"
+						"title": "El libro de Bloques",
+						"cover_alt_text": "Cubierta del Libro de Bloques"
 					},
 					"items": {
-						"title": "🌍The Book of Items",
-						"cover_alt_text": "🌍Item Book Cover"
+						"title": "El libro de Objetos",
+						"cover_alt_text": "Cubierta del Libro de Objetos"
 					},
 					"mobs": {
-						"title": "🌍The Book of Mobs",
-						"cover_alt_text": "🌍Mob Book Cover"
+						"title": "El libro de Mobs",
+						"cover_alt_text": "Cubierta del Libro de Mobs"
 					}
 				}
 			},
 			"blocks": {
-				"title": "🌍Block Bestiary",
-				"description": "For all the Blocks you might encounter in MCdle."
+				"title": "Bestiario de Bloques",
+				"description": "Para todos los Bloques que puedes encontrar en MCdle."
 			},
 			"items": {
-				"title": "🌍Item Bestiary",
-				"description": "For all the Items you might encounter in MCdle."
+				"title": "Bestiario de Objetos",
+				"description": "Para todos los Objetos que puedes encontrar en MCdle."
 			},
 			"mob": {
-				"title": "🌍Mob Bestiary",
-				"description": "For all the Mobs you might encounter in MCdle."
+				"title": "Bestiario de Mobs",
+				"description": "Para todos los Mobs que puedes encontrar en MCdle."
 			},
 			"generic": {
 				"overview": {
-					"title": "🌍Overview",
-					"library_back": "🌍Back to library",
-					"explanation": "🌍Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"title": "Vista General",
+					"library_back": "Volver a la biblioteca",
+					"explanation": "Pulsa en una entrada para ver su página o usa el ícono de búsqueda arriba a la derecha para encontrar uno o aplicar filtros a toda la página (no sólo buscar resultados).",
 					"sorting": {
-						"alphabet_tooltip": "🌍Sort alphabetically",
-						"alphabet_alt": "🌍A-Z Sort",
-						"release_tooltip": "🌍Sort by release",
-						"release_alt": "🌍Release Sort"
+						"alphabet_tooltip": "Ordenar alfabéticamente",
+						"alphabet_alt": "Orden A-Z",
+						"release_tooltip": "Ordenar por lanzamiento",
+						"release_alt": "Orden por lanzamiento"
 					}
 				},
 				"entry": {
-					"overview_back": "🌍Overview",
-					"not_found": "🌍Norbert didn't find any matching entries in your discovered list =(",
-					"try_different": "🌍Try different filters!",
+					"overview_back": "Vista General",
+					"not_found": "Filiberto no ha encontrado coincidencias en tu lista de descubiertos =(",
+					"try_different": "Intenta diferentes filtros!",
 					"discovered": {
-						"first_discovered": "🌍First discovered:",
-						"in": "🌍in",
-						"and": "🌍and",
-						"more": "🌍more!"
+						"first_discovered": "Primer descubierto:",
+						"in": "en",
+						"and": "y",
+						"more": "más!"
 					}
 				},
 				"filters": {
-					"applied": "🌍Filters applied",
-					"search_placeholder": "🌍Search",
-					"search_alt": "🌍Search icon",
-					"clear": "🌍Clear Filters",
-					"open": "🌍Filters (Global)",
-					"min": "🌍Min",
-					"max": "🌍Max"
+					"applied": "Filtros aplicados",
+					"search_placeholder": "Buscar",
+					"search_alt": "ïcono de Búsqueda",
+					"clear": "Limpiar filtros",
+					"open": "Filtros (Global)",
+					"min": "Min",
+					"max": "Máx"
 				}
 			}
 		}
@@ -719,7 +719,7 @@
 		},
 		"toasts": {
 			"patchnotes": {
-				"live": "🌍 are now live! Check them out!"
+				"live": " están ahora en directo! Revísalos!"
 			}
 		}
 	},
