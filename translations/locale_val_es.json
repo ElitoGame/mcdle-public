@@ -595,7 +595,7 @@
 				"title": "🌍Item Bestiary",
 				"description": "🌍For all the Items you might encounter in MCdle."
 			},
-			"mob": {
+			"mobs": {
 				"title": "🌍Mob Bestiary",
 				"description": "🌍For all the Mobs you might encounter in MCdle."
 			},

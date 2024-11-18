@@ -595,7 +595,7 @@
 				"title": "Bestiario de Objetos",
 				"description": "Para todos los Objetos que puedes encontrar en MCdle."
 			},
-			"mob": {
+			"mobs": {
 				"title": "Bestiario de Mobs",
 				"description": "Para todos los Mobs que puedes encontrar en MCdle."
 			},

@@ -141,8 +141,8 @@
 					"title": "Mobs"
 				},
 				"goal": {
-					"image_alt": "Ziel Icon",
-					"title": "MCdle Bestiarium (WIP)"
+					"title": "MCdle Bestiarium",
+					"image_alt": "Ziel Icon"
 				},
 				"bestiary": {
 					"title": "Bestiarium",
@@ -244,7 +244,7 @@
 					"aria_label": "Probier diesen Block"
 				},
 				"ambiguous_result": {
-					"description": "Uneindeutiger Block gefunden! Weitere flasche uneindeutige Blöcke werden rot durchgestrichen.",
+					"description": "Uneindeutiger Block gefunden! Weitere falsche uneindeutige Blöcke werden rot durchgestrichen.",
 					"image_alt": "Schatzjäger - fast geschafft"
 				}
 			},
@@ -372,7 +372,7 @@
 					"aria_label": "Probier diesen Gegenstand"
 				},
 				"ambiguous_result": {
-					"description": "Uneindeutiger Gegenstand gefunden! Weitere flasche uneindeutige Gegenstände werden rot durchgestrichen.",
+					"description": "Uneindeutiger Gegenstand gefunden! Weitere falsche uneindeutige Gegenstände werden rot durchgestrichen.",
 					"image_alt": "Schatzjäger - fast geschafft"
 				}
 			},
@@ -521,7 +521,7 @@
 					"aria_label": "Probier dieses Mob"
 				},
 				"ambiguous_result": {
-					"description": "Uneindeutiges Mob gefunden! Weitere flasche uneindeutige Mobs werden rot durchgestrichen.",
+					"description": "Uneindeutiges Mob gefunden! Weitere falsche uneindeutige Mobs werden rot durchgestrichen.",
 					"image_alt": "Schatzjäger - fast geschafft"
 				}
 			},
