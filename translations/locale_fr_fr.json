@@ -589,15 +589,15 @@
 			},
 			"blocks": {
 				"title": "Bestiaire des Blocs",
-				"description": "🌍For all the Blocks you might encounter in MCdle."
+				"description": "Pour tous les Blocs que tu peux rencontrer dans MCdle."
 			},
 			"items": {
 				"title": "Bestiaire des Objets",
-				"description": "🌍For all the Items you might encounter in MCdle."
+				"description": "Pour tous les Objets que tu peux rencontrer dans MCdle."
 			},
 			"mobs": {
 				"title": "Bestiaire des Créatures",
-				"description": "🌍For all the Mobs you might encounter in MCdle."
+				"description": "Pour toutes les Créatures que tu peux rencontrer dans MCdle."
 			},
 			"generic": {
 				"overview": {
