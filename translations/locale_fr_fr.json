@@ -192,7 +192,8 @@
 					"blast_resistance": "Résist<wbr>ance",
 					"hardness": "Dureté",
 					"flammable": "Inflam<wbr>mable",
-					"transparent": "Trans<wbr>parent"
+					"transparent": "Trans<wbr>parent",
+					"full_block": "🌍Full block"
 				},
 				"data": {
 					"tools": {
@@ -318,7 +319,9 @@
 					"inventory_categories": "Catégorie Inv. Créatif",
 					"renewable": "Renou<wbr>velable",
 					"usage": "Nombre d'utili<wbr>sations",
-					"source": "Nombre de pro<wbr>venances"
+					"source": "Nombre de pro<wbr>venances",
+					"recipe": "🌍Recipe",
+					"loot": "🌍Loot"
 				},
 				"data": {
 					"rarity": {
@@ -339,6 +342,17 @@
 						"none": "Aucune",
 						"spawn_eggs": "Oeufs d'apparition",
 						"operator_utilities": "Utilitaires d'opérateur"
+					},
+					"recipe": {
+						"crafting_table": "🌍Crafting Table",
+						"furnace": "🌍Furnace",
+						"brewing_stand": "🌍Brewing Stand",
+						"none": "🌍None"
+					},
+					"loot": {
+						"container": "🌍Container",
+						"mob": "🌍Mob",
+						"none": "🌍None"
 					}
 				}
 			},
@@ -817,6 +831,7 @@
 		"copper_trapdoor": "Trappe en cuivre",
 		"crafter": "Fabricateur",
 		"crafting_table": "Établi",
+		"creaking_heart": "Coeur de grinceur",
 		"head": "Tête",
 		"fungus": "Champignon du Nether",
 		"nylium": "Nylium",
@@ -845,6 +860,7 @@
 		"end_stone": "Pierre de l'End",
 		"end_stone_bricks": "Pierre taillée de l'End",
 		"ender_chest": "Coffre de l'Ender",
+		"eyeblossom": "Oeilchidée",
 		"farmland": "Terre labourée",
 		"fern": "Fougère",
 		"fire": "Feu",
@@ -915,6 +931,9 @@
 		"froglight": "Grelampe",
 		"packed_ice": "Glace compactée",
 		"packed_mud": "Terre crue",
+		"pale_hanging_moss": "Mousse pâle suspendue",
+		"pale_moss_block": "Bloc de mousse pâle",
+		"pale_moss_carpet": "Tapis de mousse pâle",
 		"petrified_oak_slab": "Dalle en chêne pétrifiée",
 		"pink_petals": "Pétales roses",
 		"piston": "Piston",
@@ -942,6 +961,9 @@
 		"redstone_wire": "Câble de redstone",
 		"reinforced_deepslate": "Ardoise des abîmes renforcée",
 		"repeater": "Répéteur de redstone",
+		"resin_block": "Bloc de résine",
+		"resin_bricks": "Briques de résine",
+		"resin_clump": "Amas de résine",
 		"respawn_anchor": "Ancre de réapparition",
 		"rooted_dirt": "Terre racineuse",
 		"sand": "Sable",
@@ -1157,6 +1179,7 @@
 		"raw_iron": "Fer brut",
 		"recovery_compass": "Boussole de récupération",
 		"redstone": "Poudre de redstone",
+		"resin_brick": "Brique de résine",
 		"rotten_flesh": "Chair putréfiée",
 		"saddle": "Selle",
 		"salmon": "Saumon cru",
@@ -1208,6 +1231,7 @@
 		"chicken": "Poule",
 		"cod": "Morue",
 		"cow": "Vache",
+		"creaking": "Grinceur",
 		"creeper": "Creeper",
 		"dolphin": "Dauphin",
 		"donkey": "Âne",

@@ -192,7 +192,8 @@
 					"blast_resistance": "Blast resis<wbr>tance",
 					"hardness": "Hardness",
 					"flammable": "Flamm<wbr>able",
-					"transparent": "Trans<wbr>parent"
+					"transparent": "Trans<wbr>parent",
+					"full_block": "Full block"
 				},
 				"data": {
 					"tools": {
@@ -318,7 +319,9 @@
 					"inventory_categories": "Creative Inv. Category",
 					"renewable": "Renewable",
 					"usage": "Usage count",
-					"source": "Source count"
+					"source": "Source count",
+					"recipe": "Recipe",
+					"loot": "Loot"
 				},
 				"data": {
 					"rarity": {
@@ -339,6 +342,17 @@
 						"none": "None",
 						"spawn_eggs": "Spawn Eggs",
 						"operator_utilities": "Operator Utilities"
+					},
+					"recipe": {
+						"crafting_table": "Crafting Table",
+						"furnace": "Furnace",
+						"brewing_stand": "Brewing Stand",
+						"none": "None"
+					},
+					"loot": {
+						"container": "Container",
+						"mob": "Mob",
+						"none": "None"
 					}
 				}
 			},
@@ -817,6 +831,7 @@
 		"copper_trapdoor": "Copper Trapdoor",
 		"crafter": "Crafter",
 		"crafting_table": "Crafting Table",
+		"creaking_heart": "Creaking Heart",
 		"head": "Head",
 		"fungus": "Fungus",
 		"nylium": "Nylium",
@@ -845,6 +860,7 @@
 		"end_stone": "End Stone",
 		"end_stone_bricks": "End Stone Bricks",
 		"ender_chest": "Ender Chest",
+		"eyeblossom": "Eyeblossom",
 		"farmland": "Farmland",
 		"fern": "Fern",
 		"fire": "Fire",
@@ -915,6 +931,9 @@
 		"froglight": "Froglight",
 		"packed_ice": "Packed Ice",
 		"packed_mud": "Packed Mud",
+		"pale_hanging_moss": "Pale Hanging Moss",
+		"pale_moss_block": "Pale Moss Block",
+		"pale_moss_carpet": "Pale Moss Carpet",
 		"petrified_oak_slab": "Petrified Oak Slab",
 		"pink_petals": "Pink Petals",
 		"piston": "Piston",
@@ -942,6 +961,9 @@
 		"redstone_wire": "Redstone Wire",
 		"reinforced_deepslate": "Reinforced Deepslate",
 		"repeater": "Redstone Repeater",
+		"resin_block": "Block of Resin",
+		"resin_bricks": "Resin Bricks",
+		"resin_clump": "Resin Clump",
 		"respawn_anchor": "Respawn Anchor",
 		"rooted_dirt": "Rooted Dirt",
 		"sand": "Sand",
@@ -1005,6 +1027,7 @@
 		"amethyst_shard": "Amethyst Shard",
 		"pottery_sherd": "Pottery Sherd",
 		"apple": "Apple",
+		"armadillo_scute": "Armadillo Scute",
 		"armor_stand": "Armor Stand",
 		"arrow": "Arrow",
 		"aquatic_mob_bucket": "Bucket of Aquatic Mob",
@@ -1129,8 +1152,8 @@
 		"nether_wart": "Nether Wart",
 		"netherite_ingot": "Netherite Ingot",
 		"netherite_scrap": "Netherite Scrap",
+		"netherite_upgrade_smithing_template": "Smithing Template",
 		"ominous_bottle": "Ominous Bottle",
-		"netherite_upgrade_smithing_template": "Netherite Upgrade",
 		"painting": "Painting",
 		"paper": "Paper",
 		"phantom_membrane": "Phantom Membrane",
@@ -1157,11 +1180,10 @@
 		"raw_iron": "Raw Iron",
 		"recovery_compass": "Recovery Compass",
 		"redstone": "Redstone Dust",
+		"resin_brick": "Resin Brick",
 		"rotten_flesh": "Rotten Flesh",
 		"saddle": "Saddle",
 		"salmon": "Raw Salmon",
-		"turtle_scute": "Turtle Scute",
-		"armadillo_scute": "Armadillo Scute",
 		"shears": "Shears",
 		"shield": "Shield",
 		"shulker_shell": "Shulker Shell",
@@ -1183,6 +1205,7 @@
 		"trial_key": "Trial Key",
 		"trident": "Trident",
 		"tropical_fish": "Tropical Fish",
+		"turtle_scute": "Turtle Scute",
 		"warped_fungus_on_a_stick": "Warped Fungus on a Stick",
 		"water_bucket": "Water Bucket",
 		"wheat": "Wheat",
@@ -1208,6 +1231,7 @@
 		"chicken": "Chicken",
 		"cod": "Cod",
 		"cow": "Cow",
+		"creaking": "Creaking",
 		"creeper": "Creeper",
 		"dolphin": "Dolphin",
 		"donkey": "Donkey",
