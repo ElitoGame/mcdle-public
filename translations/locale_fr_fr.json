@@ -193,7 +193,7 @@
 					"hardness": "Dureté",
 					"flammable": "Inflam<wbr>mable",
 					"transparent": "Trans<wbr>parent",
-					"full_block": "🌍Full block"
+					"full_block": "Bloc plein"
 				},
 				"data": {
 					"tools": {
@@ -320,8 +320,8 @@
 					"renewable": "Renou<wbr>velable",
 					"usage": "Nombre d'utili<wbr>sations",
 					"source": "Nombre de pro<wbr>venances",
-					"recipe": "🌍Recipe",
-					"loot": "🌍Loot"
+					"recipe": "Recette",
+					"loot": "Butin"
 				},
 				"data": {
 					"rarity": {
@@ -344,15 +344,15 @@
 						"operator_utilities": "Utilitaires d'opérateur"
 					},
 					"recipe": {
-						"crafting_table": "🌍Crafting Table",
-						"furnace": "🌍Furnace",
-						"brewing_stand": "🌍Brewing Stand",
-						"none": "🌍None"
+						"crafting_table": "Établi",
+						"furnace": "Fourneau",
+						"brewing_stand": "Alambic",
+						"none": "Aucune"
 					},
 					"loot": {
-						"container": "🌍Container",
-						"mob": "🌍Mob",
-						"none": "🌍None"
+						"container": "Contenant",
+						"mob": "Créature",
+						"none": "Aucun"
 					}
 				}
 			},
