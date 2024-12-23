@@ -352,6 +352,7 @@
 					"loot": {
 						"container": "Container",
 						"mob": "Mob",
+						"fishing": "Fishing",
 						"none": "None"
 					}
 				}
@@ -1058,7 +1059,7 @@
 		"clay_ball": "Clay Ball",
 		"clock": "Clock",
 		"coal": "Coal",
-		"armor_trim_smithing_template": "Smithing Template",
+		"armor_trim_smithing_template": "Armor Trim",
 		"cocoa_beans": "Cocoa Beans",
 		"cod": "Raw Cod",
 		"command_block_minecart": "Minecart with Command Block",

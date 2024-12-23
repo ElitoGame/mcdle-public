@@ -15,6 +15,7 @@ This repo contains the translations of MCdle. I will keep english and german up 
 | Spanish                | ❌         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                        |
 | Valencian              | ❌         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                        |
 | Polish                 | ❌         | ❌       | [<img src="https://avatars.githubusercontent.com/u/152759058?s=4&v=2" alt="V1rnax" width="64"/>](https://github.com/V1rnax)                                                                                                                 |
+| Brazilian              | ✅         | ❌       | [<img src="https://avatars.githubusercontent.com/u/160981502?s=64&v=2" alt="allanGabriels" width="64"/>](https://github.com/allanGabriels)                                                                                                  |
 
 ## Contributing
 

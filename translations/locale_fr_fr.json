@@ -352,6 +352,7 @@
 					"loot": {
 						"container": "Contenant",
 						"mob": "Créature",
+						"fishing": "Pêche",
 						"none": "Aucun"
 					}
 				}

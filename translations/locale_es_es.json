@@ -352,6 +352,7 @@
 					"loot": {
 						"container": "🌍Container",
 						"mob": "🌍Mob",
+						"fishing": "Pesca",
 						"none": "🌍None"
 					}
 				}

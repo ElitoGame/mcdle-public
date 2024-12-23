@@ -352,6 +352,7 @@
 					"loot": {
 						"container": "Container",
 						"mob": "Mob",
+						"fishing": "Fischen",
 						"none": "Keins"
 					}
 				}
@@ -1057,7 +1058,7 @@
 		"clay_ball": "Tonklumpen",
 		"clock": "Uhr",
 		"coal": "Kohle",
-		"armor_trim_smithing_template": "Schmiedevorlage",
+		"armor_trim_smithing_template": "Rüstungsbesatz",
 		"cocoa_beans": "Kakaobohnen",
 		"cod": "Roher Kabeljau",
 		"command_block_minecart": "Befehlsblocklore",
