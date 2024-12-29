@@ -54,7 +54,7 @@
 			},
 			"version": {
 				"title": "Versió",
-				"description": "Actualment la versió del joc  és la #{{version}}! El joc seleccionarà un nou bloc, objecte i criatura cada dia a mitjanit en horari UTC."
+				"description": "Actualment la versió del joc és la #{{version}}! El joc seleccionarà un nou bloc, objecte i criatura cada dia a mitjanit en horari UTC."
 			},
 			"supporters": {
 				"title": "Colaboradors",
@@ -250,7 +250,7 @@
 			},
 			"midnight_timer": {
 				"next_thing": "Recàrrega la pàgina per a obtenir la nova!",
-				"next_in": "Següent bloc en {{estafe}}"
+				"next_in": "Següent bloc en {{time}}"
 			},
 			"yesterday_info": {
 				"description": "El bloc d'ahir  va ser {{name}}!"
@@ -378,7 +378,7 @@
 			},
 			"midnight_timer": {
 				"next_thing": "Recàrrega la pàgina per a obtenir la nova!",
-				"next_in": "Següent objecte en {{estafe}}"
+				"next_in": "Següent objecte en {{time}}"
 			},
 			"yesterday_info": {
 				"description": "L'objecte d'ahir era {{name}}!"
@@ -527,7 +527,7 @@
 			},
 			"midnight_timer": {
 				"next_thing": "Recàrrega la pàgina per a obtindre la nova!",
-				"next_in": "Següent criatura en {{estafe}}"
+				"next_in": "Següent criatura en {{time}}"
 			},
 			"yesterday_info": {
 				"description": "La criatura d'ahir va anar el/la {{name}}!"
@@ -693,7 +693,7 @@
 				"many": "Vaig descobrir el/la #MCdle {{type}} del dia {{date}} en {{number}} intents! {{emoji}}"
 			},
 			"short_guess_line": {
-				"intro": "Vaig descobrir el/la #MCdle {{type}} del dia {{dona't}}",
+				"intro": "Vaig descobrir el/la #MCdle {{type}} del dia {{date}}",
 				"one": "en {{number}} intent!",
 				"many": "en {{number}} intents!",
 				"conjunction": " i "
