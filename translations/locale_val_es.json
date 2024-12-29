@@ -5,7 +5,7 @@
 				"title": "Cookie de política"
 			},
 			"patchnotes": {
-				"title": "🌍Patchnotes"
+				"title": "Notes del parche"
 			}
 		},
 		"about": {
@@ -48,7 +48,7 @@
 						"post_link": " per els seves textures dels talls de carabassa i sandia!"
 					},
 					"alldle": {
-						"post_link": "🌍for featuring MCdle on their site!"
+						"post_link": "per destacar MCdle en la seua web!"
 					}
 				}
 			},
@@ -57,10 +57,10 @@
 				"description": "Actualment la versió del joc  és la #{{version}}! El joc seleccionarà un nou bloc, objecte i criatura cada dia a mitjanit en horari UTC."
 			},
 			"supporters": {
-				"title": "🌍Supporters",
+				"title": "Colaboradors",
 				"description": {
-					"pre_link": "🌍Thanks to all my",
-					"post_link": "🌍 Supporters!"
+					"pre_link": "Gràcies a tots els meus",
+					"post_link": " Colaboradors!"
 				}
 			}
 		}
@@ -145,24 +145,24 @@
 					"image_alt": "Ícon de victòria"
 				},
 				"bestiary": {
-					"title": "🌍Bestiary",
-					"image_alt": "🌍Bestiary icon",
-					"subtitle": "🌍Track your progress and start collecting! You can also filter what you've already uncovered!"
+					"title": "Bestiari",
+					"image_alt": "Ícon Bestiari",
+					"subtitle": "Seguix el teu progrés i comença a coleccionar! També pots filtrar lo que ja has descobert!"
 				},
 				"kineticraft": {
-					"title": "🌍Play infinitely on kineticraft.net",
-					"image_alt": "🌍Kineticraft icon",
-					"subtitle": "🌍Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
+					"title": "Juga infinitament a kineticraft.net",
+					"image_alt": "Ícon Kineticraft",
+					"subtitle": "Els modes de joc Mob, Bloc i Objecte poden ser jugats sense temps d'espera, però has de trobar-los en el món! /mcdle"
 				}
 			}
 		},
 		"generic": {
 			"game": {
 				"complete_support": {
-					"start": "🌍If you enjoyed it, consider supporting the project on",
-					"end": "🌍!"
+					"start": "Si has disfrutat, considera secundar el projecte en",
+					"end": "!"
 				},
-				"see_in_bestiary": "🌍Check it out in the bestiary!"
+				"see_in_bestiary": "Revísa-ho en el Bestiari!"
 			}
 		},
 		"block": {
@@ -180,7 +180,7 @@
 					"tooltip": "Com jugar"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiari"
 				}
 			},
 			"table": {
@@ -193,7 +193,7 @@
 					"hardness": "Duresa",
 					"flammable": "Unfla<wbr>mable",
 					"transparent": "Transpa<wbr>rent",
-					"full_block": "🌍Full block"
+					"full_block": "Bloc complet"
 				},
 				"data": {
 					"tools": {
@@ -307,7 +307,7 @@
 					"tooltip": "Com jugar"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiari"
 				}
 			},
 			"table": {
@@ -320,8 +320,8 @@
 					"renewable": "Reno<wbr>vable",
 					"usage": "Nombre d'usos",
 					"source": "Nombre de fonts",
-					"recipe": "🌍Recipe",
-					"loot": "🌍Loot"
+					"recipe": "Recepta",
+					"loot": "Botí"
 				},
 				"data": {
 					"rarity": {
@@ -344,16 +344,16 @@
 						"operator_utilities": "Ferra-ments d'admin."
 					},
 					"recipe": {
-						"crafting_table": "🌍Crafting Table",
-						"furnace": "🌍Furnace",
-						"brewing_stand": "🌍Brewing Stand",
-						"none": "🌍None"
+						"crafting_table": "Taula de Crafteo",
+						"furnace": "Forn",
+						"brewing_stand": "Suport de Pocions",
+						"none": "Ningun"
 					},
 					"loot": {
-						"container": "🌍Container",
-						"mob": "🌍Mob",
-						"fishing": "🌍Fishing",
-						"none": "🌍None"
+						"container": "Contenedor",
+						"mob": "Criatura",
+						"fishing": "Pesca",
+						"none": "Ningun"
 					}
 				}
 			},
@@ -450,7 +450,7 @@
 					"tooltip": "Com jugar"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiari"
 				}
 			},
 			"table": {
@@ -586,65 +586,65 @@
 		},
 		"bestiary": {
 			"index": {
-				"title": "🌍Bestiary",
+				"title": "Bestiari",
 				"books": {
 					"blocks": {
-						"title": "🌍The Book of Blocks",
-						"cover_alt_text": "🌍Block Book Cover"
+						"title": "Llibre dels Blocs",
+						"cover_alt_text": "Coberta del llibre de Blocks"
 					},
 					"items": {
-						"title": "🌍The Book of Items",
-						"cover_alt_text": "🌍Item Book Cover"
+						"title": "Llibre dels Objectes",
+						"cover_alt_text": "Coberta del llibre d'Objectes"
 					},
 					"mobs": {
-						"title": "🌍The Book of Mobs",
-						"cover_alt_text": "🌍Mob Book Cover"
+						"title": "Llibre de les Ciatures",
+						"cover_alt_text": "Coberta del llibre de Criatures"
 					}
 				}
 			},
 			"blocks": {
-				"title": "🌍Block Bestiary",
-				"description": "🌍For all the Blocks you might encounter in MCdle."
+				"title": "Bestiari de Blocs",
+				"description": "Per als Blocs que pots encontrar en MCdle."
 			},
 			"items": {
-				"title": "🌍Item Bestiary",
-				"description": "🌍For all the Items you might encounter in MCdle."
+				"title": "Bestiari d'Objectes",
+				"description": "Per als Objectes que pots encontrar en MCdle."
 			},
-			"mobs": {
-				"title": "🌍Mob Bestiary",
-				"description": "🌍For all the Mobs you might encounter in MCdle."
+			"mob": {
+				"title": "Bestiari de Criatures",
+				"description": "Per a les Criatures que pots encontrar en MCdle."
 			},
 			"generic": {
 				"overview": {
-					"title": "🌍Overview",
-					"library_back": "🌍Back to library",
-					"explanation": "🌍Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"title": "Vista general",
+					"library_back": "Tornar a la biblioteca",
+					"explanation": "Pulsa en una entrada per a vore la seua pàgina o utilitza el ícon de búsqueda dalt a la dreta per a trobar una o aplicar filtres que s'aplicaran en tota la pàgina (no sols als resultats de búsqueda).",
 					"sorting": {
-						"alphabet_tooltip": "🌍Sort alphabetically",
-						"alphabet_alt": "🌍A-Z Sort",
-						"release_tooltip": "🌍Sort by release",
-						"release_alt": "🌍Release Sort"
+						"alphabet_tooltip": "Ordenar alfabèticament",
+						"alphabet_alt": "Ordre A-Z",
+						"release_tooltip": "Ordenar per llançament",
+						"release_alt": "Ordre per llançament"
 					}
 				},
 				"entry": {
-					"overview_back": "🌍Overview",
-					"not_found": "🌍Norbert didn't find any matching entries in your discovered list =(",
-					"try_different": "🌍Try different filters!",
+					"overview_back": "Vista general",
+					"not_found": "Anaclet no ha trobat ninguna coicidència en la teua llista d'entrades descobertes =(",
+					"try_different": "Intenta filtres diferents!",
 					"discovered": {
-						"first_discovered": "🌍First discovered:",
-						"in": "🌍in",
-						"and": "🌍and",
-						"more": "🌍more!"
+						"first_discovered": "Primer descobert:",
+						"in": "en",
+						"and": "i",
+						"more": "mes!"
 					}
 				},
 				"filters": {
-					"applied": "🌍Filters applied",
-					"search_placeholder": "🌍Search",
-					"search_alt": "🌍Search icon",
-					"clear": "🌍Clear Filters",
-					"open": "🌍Filters (Global)",
-					"min": "🌍Min",
-					"max": "🌍Max"
+					"applied": "Filtres aplicats",
+					"search_placeholder": "Buscar",
+					"search_alt": "Ícon Buscar",
+					"clear": "Buidar Filtres",
+					"open": "Filtres (Global)",
+					"min": "Mín",
+					"max": "Màx"
 				}
 			}
 		}
@@ -734,7 +734,7 @@
 		},
 		"toasts": {
 			"patchnotes": {
-				"live": "🌍 are now live! Check them out!"
+				"live": "estan en viu ara! Revísa'ls!"
 			}
 		}
 	},

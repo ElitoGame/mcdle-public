@@ -193,7 +193,7 @@
 					"hardness": "Dureza",
 					"flammable": "Infla<wbr>mable",
 					"transparent": "Transpa<wbr>rente",
-					"full_block": "🌍Full block"
+					"full_block": "Bloque completo"
 				},
 				"data": {
 					"tools": {
@@ -320,8 +320,8 @@
 					"renewable": "Reno<wbr>vable",
 					"usage": "Número de usos",
 					"source": "Número de fuentes",
-					"recipe": "🌍Recipe",
-					"loot": "🌍Loot"
+					"recipe": "Receta",
+					"loot": "Botín"
 				},
 				"data": {
 					"rarity": {
@@ -344,16 +344,16 @@
 						"operator_utilities": "Herra-mientas de admin."
 					},
 					"recipe": {
-						"crafting_table": "🌍Crafting Table",
-						"furnace": "🌍Furnace",
-						"brewing_stand": "🌍Brewing Stand",
-						"none": "🌍None"
+						"crafting_table": "Mesa de Crafteo",
+						"furnace": "Horno",
+						"brewing_stand": "Soporte de Pociones",
+						"none": "Ninguno"
 					},
 					"loot": {
-						"container": "🌍Container",
-						"mob": "🌍Mob",
+						"container": "Contenedor",
+						"mob": "Criatura",
 						"fishing": "Pesca",
-						"none": "🌍None"
+						"none": "Ninguno"
 					}
 				}
 			},
