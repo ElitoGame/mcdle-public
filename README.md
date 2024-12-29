@@ -1,6 +1,6 @@
 # mcdle-public
 
-Public Repo of MCdle. Post issues here or on discord!
+Welcome to the public repository of [mcdle.net](https://www.mcdle.net)!
 
 ## Translations
 
@@ -14,9 +14,10 @@ This repo contains the translations of MCdle. I will keep english and german up 
 | French                 | ✅         | ❌       | [![nalo_](https://avatars.githubusercontent.com/u/37667081?s=64&v=4)](https://github.com/nalo26) [![Simon - fantomitechno](https://avatars.githubusercontent.com/u/67735304?s=64&v=4)](https://github.com/fantomitechno)                    |
 | Spanish                | ❌         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                        |
 | Valencian              | ❌         | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                        |
-| Polish                 | ✅         | ❌       | [<img src="https://avatars.githubusercontent.com/u/152759058?s=4&v=2" alt="V1rnax" width="64"/>](https://github.com/V1rnax)                                                                                                                 |
+| Polish                 | ❌         | ❌       | [<img src="https://avatars.githubusercontent.com/u/152759058?s=4&v=2" alt="V1rnax" width="64"/>](https://github.com/V1rnax)                                                                                                                 |
+| Brazilian              | ✅         | ❌       | [<img src="https://avatars.githubusercontent.com/u/160981502?s=64&v=2" alt="allanGabriels" width="64"/>](https://github.com/allanGabriels)                                                                                                  |
 
-### How to contribute to the translations
+## Contributing
 
 Optionally but recommended - join the MCdle [discord server](https://discord.gg/3rDDPcFd4f) and open a Post in the #translations forum channel to let me know what you are working on. There we can discuss any questions you might have and you might even get some translation help from others!
 

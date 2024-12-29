@@ -141,8 +141,8 @@
 					"title": "Mobs"
 				},
 				"goal": {
-					"image_alt": "Ziel Icon",
-					"title": "MCdle Bestiarium (WIP)"
+					"title": "MCdle Bestiarium",
+					"image_alt": "Ziel Icon"
 				},
 				"bestiary": {
 					"title": "Bestiarium",
@@ -192,7 +192,8 @@
 					"blast_resistance": "Explosions Wider<wbr>stand",
 					"hardness": "Härte",
 					"flammable": "Flamm<wbr>barkeit",
-					"transparent": "Trans<wbr>parenz"
+					"transparent": "Trans<wbr>parenz",
+					"full_block": "Ganzer Block"
 				},
 				"data": {
 					"tools": {
@@ -244,7 +245,7 @@
 					"aria_label": "Probier diesen Block"
 				},
 				"ambiguous_result": {
-					"description": "Uneindeutiger Block gefunden! Weitere flasche uneindeutige Blöcke werden rot durchgestrichen.",
+					"description": "Uneindeutiger Block gefunden! Weitere falsche uneindeutige Blöcke werden rot durchgestrichen.",
 					"image_alt": "Schatzjäger - fast geschafft"
 				}
 			},
@@ -318,7 +319,9 @@
 					"inventory_categories": "Inventar Kategorie",
 					"renewable": "Erneuerbar",
 					"usage": "Verwen<wbr>dungs<wbr>möglich<wbr>keiten",
-					"source": "Erzeug<wbr>ungs<wbr>möglich<wbr>keiten"
+					"source": "Erzeug<wbr>ungs<wbr>möglich<wbr>keiten",
+					"recipe": "Rezept",
+					"loot": "Beute"
 				},
 				"data": {
 					"rarity": {
@@ -339,6 +342,18 @@
 						"none": "Nichts",
 						"spawn_eggs": "Spawn-Eier",
 						"operator_utilities": "Operatorhilfsmittel"
+					},
+					"recipe": {
+						"crafting_table": "Werkbank",
+						"furnace": "Ofen",
+						"brewing_stand": "Braustand",
+						"none": "Keins"
+					},
+					"loot": {
+						"container": "Container",
+						"mob": "Mob",
+						"fishing": "Fischen",
+						"none": "Keins"
 					}
 				}
 			},
@@ -372,7 +387,7 @@
 					"aria_label": "Probier diesen Gegenstand"
 				},
 				"ambiguous_result": {
-					"description": "Uneindeutiger Gegenstand gefunden! Weitere flasche uneindeutige Gegenstände werden rot durchgestrichen.",
+					"description": "Uneindeutiger Gegenstand gefunden! Weitere falsche uneindeutige Gegenstände werden rot durchgestrichen.",
 					"image_alt": "Schatzjäger - fast geschafft"
 				}
 			},
@@ -521,7 +536,7 @@
 					"aria_label": "Probier dieses Mob"
 				},
 				"ambiguous_result": {
-					"description": "Uneindeutiges Mob gefunden! Weitere flasche uneindeutige Mobs werden rot durchgestrichen.",
+					"description": "Uneindeutiges Mob gefunden! Weitere falsche uneindeutige Mobs werden rot durchgestrichen.",
 					"image_alt": "Schatzjäger - fast geschafft"
 				}
 			},
@@ -817,6 +832,7 @@
 		"copper_trapdoor": "Kupferfalltür",
 		"crafter": "Werker",
 		"crafting_table": "Werkbank",
+		"creaking_heart": "Knarzherz",
 		"head": "Kopf",
 		"fungus": "Pilz",
 		"nylium": "Nezel",
@@ -845,6 +861,7 @@
 		"end_stone": "Endstein",
 		"end_stone_bricks": "Endsteinziegel",
 		"ender_chest": "Endertruhe",
+		"eyeblossom": "Augenblüte",
 		"farmland": "Ackerboden",
 		"fern": "Farn",
 		"fire": "Feuer",
@@ -915,6 +932,9 @@
 		"froglight": "Froschlicht",
 		"packed_ice": "Packeis",
 		"packed_mud": "Fester Schlamm",
+		"pale_hanging_moss": "Hängendes Blassmoos",
+		"pale_moss_block": "Blassmoosblock",
+		"pale_moss_carpet": "Blassmoosteppich",
 		"petrified_oak_slab": "Versteinerte Eichenholzstufe",
 		"pink_petals": "Rosa Blütenblätter",
 		"piston": "Kolben",
@@ -942,6 +962,9 @@
 		"redstone_wire": "Redstone-Leitung",
 		"reinforced_deepslate": "Verstärkter Tiefenschiefer",
 		"repeater": "Redstone-Verstärker",
+		"resin_block": "Harzblock",
+		"resin_bricks": "Harzziegel",
+		"resin_clump": "Harzklumpen",
 		"respawn_anchor": "Seelenanker",
 		"rooted_dirt": "Wurzelerde",
 		"sand": "Sand",
@@ -1035,7 +1058,7 @@
 		"clay_ball": "Tonklumpen",
 		"clock": "Uhr",
 		"coal": "Kohle",
-		"armor_trim_smithing_template": "Schmiedevorlage",
+		"armor_trim_smithing_template": "Rüstungsbesatz",
 		"cocoa_beans": "Kakaobohnen",
 		"cod": "Roher Kabeljau",
 		"command_block_minecart": "Befehlsblocklore",
@@ -1157,6 +1180,7 @@
 		"raw_iron": "Roheisen",
 		"recovery_compass": "Bergungskompass",
 		"redstone": "Redstone-Staub",
+		"resin_brick": "Harzziegel",
 		"rotten_flesh": "Verrottetes Fleisch",
 		"saddle": "Sattel",
 		"salmon": "Roher Lachs",
@@ -1208,6 +1232,7 @@
 		"chicken": "Huhn",
 		"cod": "Kabeljau",
 		"cow": "Kuh",
+		"creaking": "Knarz",
 		"creeper": "Creeper",
 		"dolphin": "Delfin",
 		"donkey": "Esel",

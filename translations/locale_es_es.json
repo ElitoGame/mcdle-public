@@ -192,7 +192,8 @@
 					"blast_resistance": "Resis<wbr>tencia a las explo<wbr>siones",
 					"hardness": "Dureza",
 					"flammable": "Infla<wbr>mable",
-					"transparent": "Transpa<wbr>rente"
+					"transparent": "Transpa<wbr>rente",
+					"full_block": "🌍Full block"
 				},
 				"data": {
 					"tools": {
@@ -318,7 +319,9 @@
 					"inventory_categories": "Acción",
 					"renewable": "Reno<wbr>vable",
 					"usage": "Número de usos",
-					"source": "Número de fuentes"
+					"source": "Número de fuentes",
+					"recipe": "🌍Recipe",
+					"loot": "🌍Loot"
 				},
 				"data": {
 					"rarity": {
@@ -339,6 +342,18 @@
 						"none": "Ninguno",
 						"spawn_eggs": "Huevos de Spawn",
 						"operator_utilities": "Herra-mientas de admin."
+					},
+					"recipe": {
+						"crafting_table": "🌍Crafting Table",
+						"furnace": "🌍Furnace",
+						"brewing_stand": "🌍Brewing Stand",
+						"none": "🌍None"
+					},
+					"loot": {
+						"container": "🌍Container",
+						"mob": "🌍Mob",
+						"fishing": "Pesca",
+						"none": "🌍None"
 					}
 				}
 			},
@@ -595,7 +610,7 @@
 				"title": "Bestiario de Objetos",
 				"description": "Para todos los Objetos que puedes encontrar en MCdle."
 			},
-			"mob": {
+			"mobs": {
 				"title": "Bestiario de Mobs",
 				"description": "Para todos los Mobs que puedes encontrar en MCdle."
 			},
@@ -817,6 +832,7 @@
 		"copper_trapdoor": "Trampilla de cobre",
 		"crafter": "Fabricador",
 		"crafting_table": "Mesa de Crafteo",
+		"creaking_heart": "Corazón de crepitante",
 		"head": "Cabeza",
 		"fungus": "Hongo",
 		"nylium": "Necelio",
@@ -845,6 +861,7 @@
 		"end_stone": "Piedra del End",
 		"end_stone_bricks": "Ladrillos de Piedra del End",
 		"ender_chest": "Cofre del End",
+		"eyeblossom": "Miraflor",
 		"farmland": "Tierra de cultivo",
 		"fern": "Helecho",
 		"fire": "Fuego",
@@ -915,6 +932,9 @@
 		"froglight": "Ranaluz",
 		"packed_ice": "Hielo Compacto",
 		"packed_mud": "Barro Empaquetado",
+		"pale_hanging_moss": "Musgo pálido colgante",
+		"pale_moss_block": "Bloque de musgo pálido",
+		"pale_moss_carpet": "Capa de musgo pálido",
 		"petrified_oak_slab": "Losa de Roble Petrificada",
 		"pink_petals": "Pétalos Rosa",
 		"piston": "Pistón",
@@ -942,6 +962,9 @@
 		"redstone_wire": "Cable de Redstone",
 		"reinforced_deepslate": "Pizarra Profunda Reforzada",
 		"repeater": "Repetidor",
+		"resin_block": "Bloque de resina",
+		"resin_bricks": "Ladrillos de resina",
+		"resin_clump": "Grumo de resina",
 		"respawn_anchor": "Ancla de Reaparición",
 		"rooted_dirt": "Tierra Enraizada",
 		"sand": "Arena",
@@ -1157,6 +1180,7 @@
 		"raw_iron": "Hierro en bruto",
 		"recovery_compass": "Brújula de recuperación",
 		"redstone": "Polvo de redstone",
+		"resin_brick": "Ladrillo de resina",
 		"rotten_flesh": "Carne podrida",
 		"saddle": "Montura",
 		"salmon": "Salmón crudo",
@@ -1208,6 +1232,7 @@
 		"chicken": "Pollo",
 		"cod": "Bacalao",
 		"cow": "Vaca",
+		"creaking": "Crepitante",
 		"creeper": "Creeper",
 		"dolphin": "Delfín",
 		"donkey": "Burro",

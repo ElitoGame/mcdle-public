@@ -141,7 +141,7 @@
 					"title": "Moby"
 				},
 				"goal": {
-					"title": "Bestiariusz MCdle (WIP)",
+					"title": "Bestiariusz MCdle",
 					"image_alt": "Ikona celu"
 				},
 				"bestiary": {
@@ -192,7 +192,8 @@
 					"blast_resistance": "Odporność na wybuchy",
 					"hardness": "Twardość",
 					"flammable": "Łatwo<wbr>palne",
-					"transparent": "Przeźro<wbr>czyste"
+					"transparent": "Przeźro<wbr>czyste",
+					"full_block": "🌍Full block"
 				},
 				"data": {
 					"tools": {
@@ -318,7 +319,9 @@
 					"inventory_categories": "Kate<wbr>goria",
 					"renewable": "Odnawialny",
 					"usage": "Liczba użyć",
-					"source": "Liczba źródeł"
+					"source": "Liczba źródeł",
+					"recipe": "🌍Recipe",
+					"loot": "🌍Loot"
 				},
 				"data": {
 					"rarity": {
@@ -339,6 +342,18 @@
 						"none": "Żadna",
 						"spawn_eggs": "Jaja mobów",
 						"operator_utilities": "Narzędzia operatora"
+					},
+					"recipe": {
+						"crafting_table": "🌍Crafting Table",
+						"furnace": "🌍Furnace",
+						"brewing_stand": "🌍Brewing Stand",
+						"none": "🌍None"
+					},
+					"loot": {
+						"container": "🌍Container",
+						"mob": "🌍Mob",
+						"fishing": "🌍Fishing",
+						"none": "🌍None"
 					}
 				}
 			},
@@ -595,7 +610,7 @@
 				"title": "Kolekcja Przedmiotów",
 				"description": "🌍For all the Items you might encounter in MCdle."
 			},
-			"mob": {
+			"mobs": {
 				"title": "Kolekcja Mobów",
 				"description": "For all the Mobs you might encounter in MCdle."
 			},
@@ -817,6 +832,7 @@
 		"copper_trapdoor": "Miedziana klapa",
 		"crafter": "Wytwarzacz",
 		"crafting_table": "Stół rzemieślniczy",
+		"creaking_heart": "Trzeszczące serce",
 		"head": "Głowa",
 		"fungus": "Grzyb",
 		"nylium": "Nylium",
@@ -845,6 +861,7 @@
 		"end_stone": "Kamień Endu",
 		"end_stone_bricks": "Endowe kamienne cegły",
 		"ender_chest": "Skrzynia Endu",
+		"eyeblossom": "Zerkwiat",
 		"farmland": "Pole uprawne",
 		"fern": "Paproć",
 		"fire": "Ogień",
@@ -915,6 +932,9 @@
 		"froglight": "Żabia lampa",
 		"packed_ice": "Zbity lód",
 		"packed_mud": "Utwardzone błoto",
+		"pale_hanging_moss": "Zwisający blady mech",
+		"pale_moss_block": "Blok bladego mchu",
+		"pale_moss_carpet": "Warstwa bladego mchu",
 		"petrified_oak_slab": "Skamieniała dębowa płyta",
 		"pink_petals": "Różowe kwiatki",
 		"piston": "Tłok",
@@ -942,6 +962,9 @@
 		"redstone_wire": "Przewód redstone",
 		"reinforced_deepslate": "Zbrojony łupek",
 		"repeater": "Przekaźnik redstone",
+		"resin_block": "Blok żywicy",
+		"resin_bricks": "Żywicowe cegły",
+		"resin_clump": "Gruda żywicy",
 		"respawn_anchor": "Kotwica odrodzenia",
 		"rooted_dirt": "Zakorzeniona ziemia",
 		"sand": "Piasek",
@@ -1158,6 +1181,7 @@
 		"raw_iron": "Ruda żelaza",
 		"recovery_compass": "Kompas powrotny",
 		"redstone": "Sproszkowany redstone",
+		"resin_brick": "Żywicowa cegła",
 		"rotten_flesh": "Zgniłe mięso",
 		"saddle": "Siodło",
 		"salmon": "Surowy łosoś",
@@ -1208,6 +1232,7 @@
 		"chicken": "Kura",
 		"cod": "Dorsz",
 		"cow": "Krowa",
+		"creaking": "Trzeszcz",
 		"creeper": "Creeper",
 		"dolphin": "Delfin",
 		"donkey": "Osioł",
