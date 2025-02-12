@@ -1,11 +1,11 @@
-{
+﻿{
 	"footer": {
 		"links": {
 			"cookie": {
 				"title": "Polityka plików cookie (ciasteczka)"
 			},
 			"patchnotes": {
-				"title": "aktualizacja"
+				"title": "Aktualizacje"
 			}
 		},
 		"about": {
@@ -48,7 +48,7 @@
 						"post_link": " za ich tekstury łodyg dyni i melona!"
 					},
 					"alldle": {
-						"post_link": "za prezentaccję MCdle na ich stronie!"
+						"post_link": "za prezentację MCdle na ich stronie!"
 					}
 				}
 			},
@@ -88,11 +88,11 @@
 					"showcase": {
 						"fallback": "Wybierz trudność wyszukiwania!",
 						"game_knowledge": {
-							"description": "brak podpowiedzi, musisz się oprzeć na własnej wiedzy o grze!",
+							"description": "Brak podpowiedzi, musisz się oprzeć na własnej wiedzy o grze!",
 							"image_alt": "Wyszukiwanie w trybie wiedzy o grze"
 						},
 						"logical": {
-							"description": "wyszukiwanie będzie pokazywało wszystkie dostępne categorie, zmieniając MCdle w grę logiczną!",
+							"description": "Wyszukiwanie będzie pokazywało wszystkie dostępne kategorie, zmieniając MCdle w grę logiczną!",
 							"image_alt": "Wyszukiwanie w trybie logicznym"
 						}
 					},
@@ -193,7 +193,7 @@
 					"hardness": "Twardość",
 					"flammable": "Łatwo<wbr>palne",
 					"transparent": "Przeźro<wbr>czyste",
-					"full_block": "🌍Full block"
+					"full_block": "Pełny Blok"
 				},
 				"data": {
 					"tools": {
@@ -201,7 +201,7 @@
 						"axe": "Siekiera",
 						"pickaxe": "Kilof",
 						"hoe": "Motyka",
-						"shears": "Norzycae",
+						"shears": "Norzyce",
 						"sword": "Miecz",
 						"none": "Żadne",
 						"shovel": "Łopata",
@@ -224,7 +224,7 @@
 				"subtitle": "Dzisiejszym blokiem jest {{name}}!"
 			},
 			"intro": {
-				"description": "Zgadnij dzisiejszy blok z minecrafta!",
+				"description": "Zgadnij dzisiejszy blok z Minecrafta!",
 				"start_help": "Pisz poniżej aby zacząć!"
 			},
 			"limited_attempts": {
@@ -239,7 +239,7 @@
 				"placeholder": {
 					"initial": "Szukaj bloku",
 					"new_tomorrow": "Nowy blok już jutro!",
-					"no_more_guesses": "brak prób!"
+					"no_more_guesses": "Brak prób!"
 				},
 				"submit": {
 					"aria_label": "Spróbuj tego bloku"
@@ -250,7 +250,7 @@
 				}
 			},
 			"midnight_timer": {
-				"next_thing": "Odśwież stronę aby dostać następnego!",
+				"next_thing": "Odśwież stronę aby zagrać ponownie!",
 				"next_in": "Następny blok za {{time}}"
 			},
 			"yesterday_info": {
@@ -268,26 +268,26 @@
 			"help": {
 				"title": "Jak grać",
 				"intro": {
-					"goal": "Celem gry jest zgadnięcie bloku. każdego dnia nowy blok jest wybierany, a próbując codziennie zgadnąć blok dnia, możesz zbudować Pasmo zwycięstw!",
+					"goal": "Celem gry jest zgadnięcie bloku. każdego dnia nowy blok jest wybierany, a próbując codziennie zgadnąć blok dnia, możesz zbudować passę zwycięstw!",
 					"enter_guesses": "Zacznij wpisując nazwę dowolnego bloku w polu wyszukiwania. Bazując na wyszukanej frazie, wyskoczy (maksymalnie) 10 propozycji bloków. Kliknij w jeden z nich, lub dojdź do nich za pomocą strzałek i kliknij enter aby sprawdzić swój blok.",
-					"field_explanation": "Właściwości wybranego bloku będą porównane do dzisiejszego i zostaną zaznaczone na zielono jeśli są takie same, na żółto jeśli są częściowo zgodne i na czerwono jeśli nie poprawne. Za błędnymi liczbami/wersjami znajdziesz też strzałkę pokazującą czy podane dane są niższe czy wyższe od tych dzisiejszego bloku."
+					"field_explanation": "Właściwości wybranego bloku będą porównane do dzisiejszego i zostaną zaznaczone na zielono jeśli są takie same, na żółto jeśli są częściowo zgodne i na czerwono jeśli nie poprawne. Za błędnymi liczbami lub wersjami znajdziesz też strzałkę pokazującą czy podane dane są niższe czy wyższe od tych dzisiejszego bloku."
 				},
 				"example": {
 					"title": "Przykład",
 					"intro": "Popatrzmy na przykładową grę. Najpierw spróbujmy zwykły blok.",
 					"table_interpretation_1": "Dowiedzieliśmy się, że jak wiele innych, może być przetrzymywany do 64 sztuk w ręce, i nie jest łatwopalny (nie pali się). Nie jest to blok dodany przed alfą i nie może być wykopany kilofem (kilof nie jest efektywny). Więc spróbujmy innego, nowszego bloku.",
-					"table_interpretation_2": "Odgadneliśmy wersję dzisiejszego bloku! Pora na szukanie bloku z wersji Beta 1.8. Dodatkowo, mamy częściowo zgodne narzędzia, co oznacza że blok jest niszczony najefektywniej używając siekiery lub innego narzędzia (którego jeszcze nie znamy). następną informacją jest to, że blok nie jest ani przeźroczysty (\"Tak\") ani nieprzeźroczysty (\"Nie\"), więc musi być częściowo przeźroczysty (nie przeźroczysty, ale przepuszcza światło). Poszukajmy bloku który spełnia wszystkie te łaściwości.",
-					"table_interpretation_3": "Mamy go! znaleźliśmy przykładowy blok, był nim arbuz, przepysznie!"
+					"table_interpretation_2": "Odgadneliśmy wersję dzisiejszego bloku! Pora na szukanie bloku z wersji Beta 1.8. Dodatkowo, mamy częściowo zgodne narzędzia, co oznacza że blok jest niszczony najefektywniej używając siekiery lub innego narzędzia (którego jeszcze nie znamy). Następną informacją jest to, że blok nie jest ani przeźroczysty (\"Tak\") ani nieprzeźroczysty (\"Nie\"), więc musi być częściowo przeźroczysty (nie przeźroczysty, ale przepuszcza światło). Poszukajmy bloku który spełnia wszystkie te łaściwości.",
+					"table_interpretation_3": "Mamy go! Znaleźliśmy przykładowy blok, był nim arbuz, przepysznie!"
 				},
 				"partial_matches": {
 					"title": "Wyjaśnienie częściowej zgodności",
 					"intro": "Przyjżyjmy się częściowym zgodnościom trochę dokładniej, bo są one pewnie najdziwniejszym z możliwych kolorów.",
-					"explanation": "częściowa zgodność może pojawić się tylko w polach które są listami (n.p. narzędzia). Jeśli próbowałeś zgadnąć blok który może być zepsuty przynajmniej jednym narzędziem które pasuje do tego bloku, dostaniesz częściową zgodność. Tutaj jest przykład z liśćmi:"
+					"explanation": "Częściowa zgodność może pojawić się tylko w polach które są listami (n.p. narzędzia). Jeśli próbowałeś zgadnąć blok który może być zepsuty przynajmniej jednym narzędziem które pasuje do tego bloku, dostaniesz częściową zgodność. Tutaj jest przykład z liśćmi:"
 				},
 				"tips": {
-					"title": "wskazówki",
-					"not_all_blocks": "MCdle nie ma wszystkich wariantów bloków. Wszystkie kolorowe warianty betonu, terakoty, wełny, itd. są zastąpione jednym blokiem reprezętującym je wszystkie, n.p. \"beton\" lub \"Wełna\". To samo dotyczy typów: drewna, ścian, schodów, itd.",
-					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! patrz na sugestje, mogą ci pomóc zawęzić szukanie.",
+					"title": "Wskazówki",
+					"not_all_blocks": "MCdle nie ma wszystkich wariantów bloków. Wszystkie kolorowe warianty betonu, terakoty, wełny, itd. są zastąpione jednym blokiem reprezętującym je wszystkie, n.p. \"beton\" lub \"Wełna\". To samo dotyczy typów: drewna, desek, schodów, itd.",
+					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! Patrz na sugestie, mogą ci pomóc zawęzić szukanie.",
 					"use_the_wiki": "Śmiało, nie bój się używać Minecraft wiki. Po znalezieniu wersji bloku możesz użyć wiki aby znaleźć bloki dodane w tej wersji, pomoże ci to zawęzić obszar poszukiwań."
 				}
 			}
@@ -320,8 +320,8 @@
 					"renewable": "Odnawialny",
 					"usage": "Liczba użyć",
 					"source": "Liczba źródeł",
-					"recipe": "🌍Recipe",
-					"loot": "🌍Loot"
+					"recipe": "Do Stworzenia w",
+					"loot": "Drop Z"
 				},
 				"data": {
 					"rarity": {
@@ -332,7 +332,7 @@
 						"mixed": "Różny"
 					},
 					"inventory_category": {
-						"tools_and_utilities": "narzędzia i przybory",
+						"tools_and_utilities": "Narzędzia i Przybory",
 						"redstone_blocks": "Mechanizmy redstone",
 						"functional_blocks": "Bloki użytkowe",
 						"natural_blocks": "Bloki naturalne",
@@ -344,16 +344,16 @@
 						"operator_utilities": "Narzędzia operatora"
 					},
 					"recipe": {
-						"crafting_table": "🌍Crafting Table",
-						"furnace": "🌍Furnace",
-						"brewing_stand": "🌍Brewing Stand",
-						"none": "🌍None"
+						"crafting_table": "Crafting Table",
+						"furnace": "Furtka",
+						"brewing_stand": "Statyw Alchemiczny",
+						"none": "Brak"
 					},
 					"loot": {
-						"container": "🌍Container",
-						"mob": "🌍Mob",
-						"fishing": "🌍Fishing",
-						"none": "🌍None"
+						"container": "Skrzynia",
+						"mob": "Drop Z moba",
+						"fishing": "Łowienie",
+						"none": "Brak"
 					}
 				}
 			},
@@ -362,7 +362,7 @@
 				"subtitle": "Powodznia następnym razem! (lub wyłącz limit w ustawieniach)"
 			},
 			"win": {
-				"title": "przegmiot znaleziony!",
+				"title": "Przedmiot znaleziony!",
 				"subtitle": "Dzisiejszym przedmiotem jest {{name}}!"
 			},
 			"intro": {
@@ -381,7 +381,7 @@
 				"placeholder": {
 					"initial": "Szukaj przedmiotu",
 					"new_tomorrow": "Nowy przedmiot już jutro!",
-					"no_more_guesses": "brak prób!"
+					"no_more_guesses": "Brak pozostałych prób!"
 				},
 				"submit": {
 					"aria_label": "Spróbuj tego przedmiotu"
@@ -392,7 +392,7 @@
 				}
 			},
 			"midnight_timer": {
-				"next_thing": "Odśwież stronę aby dostać następnego!",
+				"next_thing": "Odśwież stronę aby zagrać ponownie!",
 				"next_in": "Następny przedmiot za {{time}}"
 			},
 			"yesterday_info": {
@@ -405,7 +405,7 @@
 			"quick_help": {
 				"look_for": "Nadal szukasz lepszego wytłumaczenia? Znajdź ikonę ",
 				"tooltip": "Jak grać",
-				"click_here": "pod tytułem gry lub kliknij tutaj!"
+				"click_here": "Pod tytułem gry lub kliknij tutaj!"
 			},
 			"help": {
 				"title": "Jak grać",
@@ -424,12 +424,12 @@
 				"partial_matches": {
 					"title": "Wyjaśnienie częściowej zgodności",
 					"intro": "Przyjżyjmy się częściowym zgodnościom trochę dokładniej, bo są one pewnie najdziwniejszym z możliwych kolorów.",
-					"explanation": "częściowa zgodność może pojawić się tylko w polach które są listami (n.p. kategorie ekwipunku). Jeśli próbowałeś zgadnąć przedmiot który może być znaleziony w przynajmniej jednej kategorii ekwipunku, dostaniesz częściową zgodność. Tutaj jest przykład z nitką:"
+					"explanation": "Częściowa zgodność może pojawić się tylko w polach które są listami (n.p. kategorie ekwipunku). Jeśli próbowałeś zgadnąć przedmiot który może być znaleziony w przynajmniej jednej kategorii ekwipunku, dostaniesz częściową zgodność. Tutaj jest przykład z nitką:"
 				},
 				"tips": {
 					"title": "wskazówki",
 					"not_all_items": "MCdle nie zawiera wszystkich wariantów przedmiotów. Lista przedmiotów jest wzięta z wiki i pomija bardzo podobne do siebie przedmioty, takie jak warianty zbroji lub narzędzi.",
-					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! patrz na sugestje, mogą ci pomóc zawęzić szukanie.",
+					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! patrz na sugestie, mogą ci pomóc zawęzić szukanie.",
 					"use_the_wiki": "Śmiało, nie bój się używać Minecraft wiki. Po znalezieniu wersji przedmiotu możesz użyć wiki aby znaleźć przedmioty dodane w tej wersji, pomoże ci to zawęzić obszar poszukiwań.",
 					"usage_and_source_explanation": "Jeśli chcesz się dowiedzieć jak obliczane jest liczenie rodzajów użyć i źródeł, sprawdź stronę przedmiotów na minecraft wiki i zjedź do \"Otrzymywanie\" i \"Używanie\". Nagłówki tych sekcji zostały użyte do zliczenia ich różnych użyć. Jeśli niektórych z nich brakowało, twórca tej strony, Deweloper, dodał je ręcznie."
 				}
@@ -520,20 +520,20 @@
 			},
 			"limited_attempts": {
 				"warning": {
-					"zero": "pozostało {{remaining}} prób!",
-					"one": "pozostała {{remaining}} próba!",
-					"two-four": "pozostały {{remaining}} próby!",
-					"many": "pozostało {{remaining}} prób!"
+					"zero": "Pozostało {{remaining}} prób!",
+					"one": "Pozostała {{remaining}} próba!",
+					"two-four": "Pozostały {{remaining}} próby!",
+					"many": "Pozostało {{remaining}} prób!"
 				}
 			},
 			"search": {
 				"placeholder": {
 					"initial": "Szukaj moba",
 					"new_tomorrow": "Nowy mob już jutro!",
-					"no_more_guesses": "brak prób!"
+					"no_more_guesses": "Brak pozostałych prób!"
 				},
 				"submit": {
-					"aria_label": "Spróbuj tego moba"
+					"aria_label": "Sprawdź tego moba"
 				},
 				"ambiguous_result": {
 					"description": "Odkryto niejednoznacznego moba! Kolejne niepoprawne niejednoznaczne moby będą zaznaczane czerwonym.",
@@ -541,7 +541,7 @@
 				}
 			},
 			"midnight_timer": {
-				"next_thing": "Odśwież stronę aby dostać następnego!",
+				"next_thing": "Odśwież stronę aby zagrać ponownie!",
 				"next_in": "Następny mob za {{time}}"
 			},
 			"yesterday_info": {
@@ -554,7 +554,7 @@
 			"quick_help": {
 				"look_for": "Nadal szukasz lepszego wytłumaczenia? Znajdź ikonę ",
 				"tooltip": "Jak grać",
-				"click_here": "pod tytułem gry lub kliknij tutaj!"
+				"click_here": "Pod tytułem gry lub kliknij tutaj!"
 			},
 			"help": {
 				"title": "Jak grać",
@@ -573,12 +573,12 @@
 				"partial_matches": {
 					"title": "Wyjaśnienie częściowej zgodności",
 					"intro": "Przyjżyjmy się częściowym zgodnościom trochę dokładniej, bo są one pewnie najdziwniejszym z możliwych kolorów.",
-					"explanation": "częściowa zgodność może pojawić się tylko w polach które są listami (n.p. spawn, klasyfikacja czy zachowanie). Jeśli próbowałeś zgadnąć moba który może być znaleziony w przynajmniej jednym biomie, dostaniesz częściową zgodność. Tutaj jest przykład z końmi:"
+					"explanation": "Częściowa zgodność może pojawić się tylko w polach które są listami (n.p. spawn, klasyfikacja czy zachowanie). Jeśli próbowałeś zgadnąć moba który może być znaleziony w przynajmniej jednym biomie, dostaniesz częściową zgodność. Tutaj jest przykład z końmi:"
 				},
 				"tips": {
-					"title": "wskazówki",
+					"title": "Wskazówki",
 					"not_all_blocks": "MCdle nie ma wszystkich jednostek. Tylko żywe jednostki, jak n.p. świnie czy zombiaki są dodane. Stojaki na zbroje, strzały czy inne podobne nie żyjące jednostki nie są częścią gry. Lista jest wzięta z Minecraft wiki, więc jeśli nie ma jednostki na tej liście, to nie ma jej i tutaj.",
-					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! patrz na sugestje, mogą ci pomóc zawęzić szukanie.",
+					"utilize_the_search": "Dobrze wykorzystuj pasek wyszukiwania! Patrz na sugestie, mogą ci pomóc zawęzić szukanie.",
 					"use_the_wiki": "Śmiało, nie bój się używać Minecraft wiki. Po znalezieniu wersji moba możesz użyć wiki aby znaleźć moby dodane w tej wersji, pomoże ci to zawęzić obszar poszukiwań.",
 					"health_measuring": "Pamiętaj, że życie jest liczone w punktach życia, czyli połówkach serduszka, a więc 10hp to 5 serc życia."
 				}
@@ -604,15 +604,15 @@
 			},
 			"blocks": {
 				"title": "Kolekcja Bloków",
-				"description": "🌍For all the Blocks you might encounter in MCdle."
+				"description": "Dla wszystkich Bloków które spotkasz w MCdle"
 			},
 			"items": {
 				"title": "Kolekcja Przedmiotów",
-				"description": "🌍For all the Items you might encounter in MCdle."
+				"description": "Dla wszystkich Przedmiotów które spotkasz w MCdle"
 			},
 			"mobs": {
 				"title": "Kolekcja Mobów",
-				"description": "For all the Mobs you might encounter in MCdle."
+				"description": "Dla wszystkich Mobów które spotkasz w MCdle"
 			},
 			"generic": {
 				"overview": {
@@ -641,7 +641,7 @@
 					"applied": "Filtry w użyciu",
 					"search_placeholder": "Szukaj",
 					"search_alt": "ikona wyszukiwania",
-					"clear": "wyczyść filtry",
+					"clear": "Wyczyść filtry",
 					"open": "Filtry (Globalnie)",
 					"min": "Min",
 					"max": "Max"
@@ -651,7 +651,7 @@
 	},
 	"components": {
 		"quick_help": {
-			"show_button": "Pokarz szybką pomoc",
+			"show_button": "Pokaż szybką pomoc",
 			"color_explanation": {
 				"title": "Wyjaśnienie kolorów",
 				"correct": "Poprawne pole",
@@ -670,15 +670,15 @@
 				"total_wins": "🎉 Wygrane gry: {{number}}",
 				"average_guesses": "🧮 Średnia prób {{number}}",
 				"one_shots": "🎯 strzał w 10 {{number}}",
-				"current_streak": "🚀 aktualne passmo Zwycięstw {{number}}",
-				"max_streak": "📈 Największe passmo Zwycięstw {{number}}"
+				"current_streak": "🚀 aktualna passa Zwycięstw {{number}}",
+				"max_streak": "📈 Największa passa Zwycięstw {{number}}"
 			},
 			"stat_labels": {
 				"total_wins": "Wygrane gry",
 				"average_guesses": "Średnia prób",
 				"one_shots": "🎯 strzał w 10",
-				"current_streak": "aktualne passmo Zwycięstw",
-				"max_streak": "Największe passmo Zwycięstw"
+				"current_streak": "aktualna passa Zwycięstw",
+				"max_streak": "Największa passa Zwycięstw"
 			},
 			"chart_labels": {
 				"guesses": "Próby"
@@ -704,12 +704,12 @@
 				"mob": "moba"
 			},
 			"guess_line": {
-				"one": "znalazłem {{date}}'s {{type}} #MCdle za {{number}} razem! {{emoji}}",
-				"many": "znalazłem {{date}}'s {{type}} #MCdle  w {{number}} próbach! {{emoji}}"
+				"one": "Znalazłem #MCdle {{type}} z {{date}} w {{number}} próbie! {{emoji}}",
+				"many": "Znalazłem #MCdle {{type}} z {{date}} za {{number}} razem! {{emoji}}"
 			},
 			"short_guess_line": {
-				"intro": "znalazłem {{date}}'s #MCdle ",
-				"one": "{{type}} za {{number}} razem!",
+				"intro": "Znalazłem #MCdle z {{date}}",
+				"one": "{{type}} w {{number}} próbie!",
 				"many": "{{type}} w {{number}} próbach",
 				"conjunction": " i "
 			}
@@ -720,21 +720,21 @@
 				"many": "za {{number}} próby!"
 			},
 			"version": {
-				"description": "wskazówka versji wydania",
-				"solution": "szukasz elementu {{version}} wersji!"
+				"description": "Wskazówka wersji wydania",
+				"solution": "Szukasz elementu {{version}} wersji!"
 			},
 			"letter": {
-				"description": "wskazówka pierwszej litery",
-				"solution": "rozwiązanie zaczyna się na literę {{letter}}..."
+				"description": "Wskazówka pierwszej litery",
+				"solution": "Rozwiązanie zaczyna się na literę {{letter}}..."
 			},
 			"image": {
-				"description": "wskazówka przybliżonej kamery",
-				"solution": "czy widzisz co się kryje na tym 8x przybliżonym zdjęciu?"
+				"description": "Wskazówka przybliżonej kamery",
+				"solution": "Czy widzisz co się kryje na tym ośmiokrotnie przybliżonym zdjęciu?"
 			}
 		},
 		"toasts": {
 			"patchnotes": {
-				"live": "są teraz na stronie! Sprawdź je!"
+				"live": "Są teraz na stronie! Sprawdź je!"
 			}
 		}
 	},
@@ -749,7 +749,7 @@
 		"pressure_plate": "Płytka naciskowa",
 		"sapling": "Sadzonka",
 		"sign": "Tabliczka",
-		"slab": "Półblok/Płyta",
+		"slab": "Półblok",
 		"stairs": "Schody",
 		"trapdoor": "Klapa",
 		"wood": "Drewno",
@@ -768,7 +768,7 @@
 		"barrel": "Beczka",
 		"barrier": "Bariera",
 		"basalt": "Bazalt",
-		"beacon": "Magiczna latarnia",
+		"beacon": "Beacon",
 		"bedrock": "Skała macierzysta",
 		"bee_nest": "Gniazdo pszczół",
 		"beetroots": "Buraki",
@@ -788,7 +788,7 @@
 		"wool": "Wełna",
 		"blackstone": "Czernit",
 		"blast_furnace": "Piec hutniczy",
-		"blue_ice": "Niebieski lód lodowcowy",
+		"blue_ice": "Niebieski lód",
 		"bone_block": "Blok kości",
 		"bookshelf": "Biblioteczka",
 		"coral": "Koralowiec",
@@ -810,8 +810,8 @@
 		"chain": "Łańcuch",
 		"chest": "Skrzynia",
 		"chiseled_bookshelf": "Rzeźbiona biblioteczka",
-		"chorus_flower": "Kwiat refrenusu",
-		"chorus_plant": "Łodyga refrenusu",
+		"chorus_flower": "Kwiat chorusu",
+		"chorus_plant": "Łodyga chorusu",
 		"clay": "Glina",
 		"coal_block": "Blok węgla",
 		"coal_ore": "Złoże węgla",
@@ -828,7 +828,7 @@
 		"copper_bulb": "Miedziana lampa",
 		"copper_door": "Miedziane drzwi",
 		"copper_grate": "Miedziana krata",
-		"copper_ore": "Złoże miedzi",
+		"copper_ore": "Złożę miedzi",
 		"copper_trapdoor": "Miedziana klapa",
 		"crafter": "Wytwarzacz",
 		"crafting_table": "Stół rzemieślniczy",
@@ -841,7 +841,7 @@
 		"daylight_detector": "Detektor światła dziennego",
 		"dead_bush": "Uschnięty krzak",
 		"decorated_pot": "Dekorowany garniec",
-		"deepslate": "Łupek",
+		"deepslate": "Deepslate",
 		"detector_rail": "Tory z czujnikiem",
 		"diamond_block": "Blok diamentu",
 		"diamond_ore": "Złoże diamentu",
@@ -889,7 +889,7 @@
 		"iron_bars": "Żelazne kraty",
 		"iron_block": "Blok żelaza",
 		"iron_door": "Żelazne drzwi",
-		"iron_ore": "Złoże żelaza",
+		"iron_ore": " Złoże żelaza",
 		"iron_trapdoor": "Żelazna klapa",
 		"jack_o_lantern": "Latarnia dyniowa",
 		"jigsaw": "Blok konstrukcyjny",
