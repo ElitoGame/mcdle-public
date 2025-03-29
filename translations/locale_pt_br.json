@@ -177,9 +177,9 @@
 			"table": {
 				"header": {
 					"title": "Bloco",
-					"release": "Lança<wbr>mento",
+					"initial_release": "Lança<wbr>mento",
 					"stack_size": "Stack",
-					"tools": "Ferr<wbr>amenta(s)",
+					"tool": "Ferr<wbr>amenta(s)",
 					"blast_resistance": "Proteção contra explosões",
 					"hardness": "Dureza",
 					"flammable": "Infla<wbr>mável",
@@ -187,7 +187,7 @@
 					"full_block": "Bloco inteiro"
 				},
 				"data": {
-					"tools": {
+					"tool": {
 						"any_tool": "Qualquer",
 						"axe": "Machado",
 						"pickaxe": "Picareta",
@@ -304,7 +304,7 @@
 			"table": {
 				"header": {
 					"title": "Item",
-					"release": "Lança<wbr>mento",
+					"initial_release": "Lança<wbr>mento",
 					"stack_size": "Quantidade de Stack",
 					"rarity": "Rari<wbr>dade",
 					"inventory_categories": "Categoria do Inv. do Criativo",
@@ -344,6 +344,7 @@
 						"container": "Recipientes",
 						"mob": "Criaturas",
 						"fishing": "Pesca",
+						"trading": "Trocas",
 						"none": "Não há"
 					}
 				}
@@ -447,7 +448,7 @@
 			"table": {
 				"header": {
 					"title": "Criatura",
-					"release": "Lança<wbr>mento",
+					"initial_release": "Lança<wbr>mento",
 					"health": "Pontos de vida",
 					"height": "Altura",
 					"behavior": "Comporta<wbr>mento",
@@ -799,7 +800,9 @@
 		"bricks": "Tijolos",
 		"mushroom": "Cogumelo",
 		"mushroom_block": "Bloco de Cogumelo",
+		"bush": "Arbusto",
 		"cactus": "Cacto",
+		"cactus_flower": "Flor de Cacto",
 		"cake": "Bolo",
 		"calcite": "Calcita",
 		"calibrated_sculk_sensor": "Sensor de Sculk Calibrado",
@@ -866,6 +869,7 @@
 		"farmland": "Terra Arada",
 		"fern": "Samambaia",
 		"fire": "Fogo",
+		"firefly_bush": "Arbusto-vaga-lume",
 		"fletching_table": "Bancada de Arco e Flecha",
 		"flower_pot": "Vaso",
 		"frogspawn": "Ovos de Sapo",
@@ -900,6 +904,7 @@
 		"lantern": "Lampião",
 		"lapis_block": "Bloco de Lápis-lazúli",
 		"lapis_ore": "Minério de Lápis-lazúli",
+		"leaf_litter": "Serrapilheira",
 		"lectern": "Atril",
 		"lever": "Alavanca",
 		"light": "Luz",
@@ -979,6 +984,7 @@
 		"sea_lantern": "Lanterna do Mar",
 		"sea_pickle": "Pepino-do-mar",
 		"seagrass": "Erva Marinha",
+		"dry_grass": "Grama Seca",
 		"short_grass": "Grama Baixa",
 		"shroomlight": "Cogubrilho",
 		"slime_block": "Bloco de Slime",
@@ -1004,6 +1010,8 @@
 		"suspicious_gravel": "Cascalho Suspeito",
 		"sweet_berry_bush": "Arbusto de Bagas Doces",
 		"target": "Alvo",
+		"test_block": "Bloco de Teste",
+		"test_instance_block": "Bloco de Instância de Teste",
 		"tinted_glass": "Vidro Fosco",
 		"tnt": "Dinamite",
 		"torch": "Tocha",
@@ -1020,6 +1028,7 @@
 		"warped_wart_block": "Bloco de Fungos Distorcidos",
 		"weeping_vines": "Trepadeiras Choronas",
 		"wheat": "Plantio de Trigo",
+		"wildflowers": "Flores-do-campo",
 		"wither_rose": "Rosa do Wither"
 	},
 	"items": {
@@ -1139,7 +1148,7 @@
 		"lingering_potion": "Poção Prolongada",
 		"mace": "Clava",
 		"magma_cream": "Creme de Magma",
-		"map": "Mapa em Branco",
+		"map": "Mapa",
 		"melon_seeds": "Sementes de Melancia",
 		"melon_slice": "Fatia de Melancia",
 		"milk_bucket": "Balde de Leite",

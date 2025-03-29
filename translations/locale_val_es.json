@@ -186,9 +186,9 @@
 			"table": {
 				"header": {
 					"title": "Bloc",
-					"release": "Llança<wbr>ment",
+					"initial_release": "Llança<wbr>ment",
 					"stack_size": "Tamany de stack",
-					"tools": "Ferra<wbr>menta(és)",
+					"tool": "Ferra<wbr>menta(és)",
 					"blast_resistance": "Resis<wbr>tència als explo<wbr>sions",
 					"hardness": "Duresa",
 					"flammable": "Unfla<wbr>mable",
@@ -196,7 +196,7 @@
 					"full_block": "Bloc complet"
 				},
 				"data": {
-					"tools": {
+					"tool": {
 						"any_tool": "Qual-sevol",
 						"axe": "Destral",
 						"pickaxe": "Pic",
@@ -313,7 +313,7 @@
 			"table": {
 				"header": {
 					"title": "Objecte",
-					"release": "Llança<wbr>ment",
+					"initial_release": "Llança<wbr>ment",
 					"stack_size": "Tamany de stack",
 					"rarity": "Raresa",
 					"inventory_categories": "Categoría d'inventari",
@@ -353,6 +353,7 @@
 						"container": "Contenedor",
 						"mob": "Criatura",
 						"fishing": "Pesca",
+						"trading": "Intercanvis",
 						"none": "Ningun"
 					}
 				}
@@ -456,7 +457,7 @@
 			"table": {
 				"header": {
 					"title": "Criatura",
-					"release": "Llança<wbr>esmente",
+					"initial_release": "Llança<wbr>esmente",
 					"health": "Vida",
 					"height": "Altura",
 					"behavior": "Compor<wbr>tamiento",
@@ -610,7 +611,7 @@
 				"title": "Bestiari d'Objectes",
 				"description": "Per als Objectes que pots encontrar en MCdle."
 			},
-			"mob": {
+			"mobs": {
 				"title": "Bestiari de Criatures",
 				"description": "Per a les Criatures que pots encontrar en MCdle."
 			},
@@ -798,7 +799,9 @@
 		"bricks": "Rajoles",
 		"mushroom": "Bolet",
 		"mushroom_block": "Bloc de Bolet",
+		"bush": "Arbust",
 		"cactus": "Cactus",
+		"cactus_flower": "Flor de cactus",
 		"cake": "Pastís",
 		"calcite": "Calcita",
 		"calibrated_sculk_sensor": "Sensor de Sculk Calibrat",
@@ -865,6 +868,7 @@
 		"farmland": "Terra de cultiu",
 		"fern": "Falaguera",
 		"fire": "Foc",
+		"firefly_bush": "Arbust amb lluernes",
 		"fletching_table": "Taula de Flecheria",
 		"flower_pot": "Test",
 		"frogspawn": "Freses de Granota",
@@ -899,6 +903,7 @@
 		"lantern": "Fanalet",
 		"lapis_block": "Bloc de Lapislàtzuli",
 		"lapis_ore": "Mena de Lapislàtzuli",
+		"leaf_litter": "Fulles seques",
 		"lectern": "Faristol",
 		"lever": "Palanca",
 		"light": "Llum",
@@ -978,6 +983,7 @@
 		"sea_lantern": "Llanterna Marina",
 		"sea_pickle": "Cogombre de Mar",
 		"seagrass": "Herba Marina",
+		"dry_grass": "Herba seca",
 		"short_grass": "Herba Baixa",
 		"shroomlight": "Brillongo",
 		"slime_block": "Bloc de Slime",
@@ -1003,6 +1009,8 @@
 		"suspicious_gravel": "Grava Sospitosa",
 		"sweet_berry_bush": "Arbust de Baies Dolces",
 		"target": "Diana",
+		"test_block": "Bloc de proves",
+		"test_instance_block": "Bloc de proves d'instància",
 		"tinted_glass": "Cristall Tintat",
 		"tnt": "TNT",
 		"torch": "Torxa",
@@ -1019,6 +1027,7 @@
 		"warped_wart_block": "Bloc de Berruga Retorçada",
 		"weeping_vines": "Plantes enfiladisses Llagrimoses",
 		"wheat": "Blat",
+		"wildflowers": "Flors silvestres",
 		"wither_rose": "Rosa Wither"
 	},
 	"items": {
@@ -1138,7 +1147,7 @@
 		"lingering_potion": "Poció Persistent",
 		"mace": "Maça",
 		"magma_cream": "Crema de Magna",
-		"map": "Mapa Buit",
+		"map": "Mapa",
 		"melon_seeds": "Llavors de Meló",
 		"melon_slice": "Rodanxa de Meló",
 		"milk_bucket": "Cubeta de Llet",

@@ -186,9 +186,9 @@
 			"table": {
 				"header": {
 					"title": "Bloque",
-					"release": "Lanza<wbr>miento",
+					"initial_release": "Lanza<wbr>miento",
 					"stack_size": "Tamaño de stack",
-					"tools": "Herra<wbr>mienta(s)",
+					"tool": "Herra<wbr>mienta(s)",
 					"blast_resistance": "Resis<wbr>tencia a las explo<wbr>siones",
 					"hardness": "Dureza",
 					"flammable": "Infla<wbr>mable",
@@ -196,7 +196,7 @@
 					"full_block": "Bloque completo"
 				},
 				"data": {
-					"tools": {
+					"tool": {
 						"any_tool": "Cual-quier",
 						"axe": "Hacha",
 						"pickaxe": "Pico",
@@ -313,7 +313,7 @@
 			"table": {
 				"header": {
 					"title": "Objeto",
-					"release": "Lanza<wbr>miento",
+					"initial_release": "Lanza<wbr>miento",
 					"stack_size": "Tamaño de stack",
 					"rarity": "Rareza",
 					"inventory_categories": "Acción",
@@ -353,6 +353,7 @@
 						"container": "Contenedor",
 						"mob": "Criatura",
 						"fishing": "Pesca",
+						"trading": "Comercios",
 						"none": "Ninguno"
 					}
 				}
@@ -456,7 +457,7 @@
 			"table": {
 				"header": {
 					"title": "Criatura",
-					"release": "Lanza-miento",
+					"initial_release": "Lanza-miento",
 					"health": "Vida",
 					"height": "Altura",
 					"behavior": "Compor<wbr>tamiento",
@@ -798,7 +799,9 @@
 		"bricks": "Ladrillos",
 		"mushroom": "Seta",
 		"mushroom_block": "Bloque de Seta",
+		"bush": "Arbusto",
 		"cactus": "Cactus",
+		"cactus_flower": "Flor de cactus",
 		"cake": "Tarta",
 		"calcite": "Calcita",
 		"calibrated_sculk_sensor": "Sensor de Sculk Calibrado",
@@ -865,6 +868,7 @@
 		"farmland": "Tierra de cultivo",
 		"fern": "Helecho",
 		"fire": "Fuego",
+		"firefly_bush": "Arbusto de luciérnagas",
 		"fletching_table": "Mesa de Flecheria",
 		"flower_pot": "Maceta",
 		"frogspawn": "Huevas de Rana",
@@ -899,6 +903,7 @@
 		"lantern": "Farolillo",
 		"lapis_block": "Bloque de Lapislázuli",
 		"lapis_ore": "Mena de Lapislázuli",
+		"leaf_litter": "Hojas secas",
 		"lectern": "Atril",
 		"lever": "Palanca",
 		"light": "Luz",
@@ -978,6 +983,7 @@
 		"sea_lantern": "Linterna Marina",
 		"sea_pickle": "Pepino de Mar",
 		"seagrass": "Hierba Marina",
+		"dry_grass": "Hierba seca",
 		"short_grass": "Hierba Baja",
 		"shroomlight": "Brillongo",
 		"slime_block": "Bloque de Slime",
@@ -1003,6 +1009,8 @@
 		"suspicious_gravel": "Grava Sospechosa",
 		"sweet_berry_bush": "Arbusto de Bayas Dulces",
 		"target": "Diana",
+		"test_block": "Bloque de pruebas",
+		"test_instance_block": "Bloque de caso de prueba",
 		"tinted_glass": "Cristal Tintado",
 		"tnt": "Dinamita",
 		"torch": "Antorcha",
@@ -1019,6 +1027,7 @@
 		"warped_wart_block": "Bloque de Verruga Retorcida",
 		"weeping_vines": "Enredaderas Lacrimosas",
 		"wheat": "Trigo",
+		"wildflowers": "Florecillas silvestres",
 		"wither_rose": "Rosa Wither"
 	},
 	"items": {
@@ -1137,7 +1146,7 @@
 		"lingering_potion": "Poción Persistente",
 		"mace": "Maza",
 		"magma_cream": "Crema de Magna",
-		"map": "Mapa Vacío",
+		"map": "Mapa",
 		"melon_seeds": "Semillas de Melón",
 		"melon_slice": "Rodaja de Melón",
 		"milk_bucket": "Cubeta de Leche",

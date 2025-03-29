@@ -186,9 +186,9 @@
 			"table": {
 				"header": {
 					"title": "Bloc",
-					"release": "Sortie",
+					"initial_release": "Sortie",
 					"stack_size": "Taille de pile",
-					"tools": "Outil(s)",
+					"tool": "Outil(s)",
 					"blast_resistance": "Résist<wbr>ance",
 					"hardness": "Dureté",
 					"flammable": "Inflam<wbr>mable",
@@ -196,7 +196,7 @@
 					"full_block": "Bloc plein"
 				},
 				"data": {
-					"tools": {
+					"tool": {
 						"any_tool": "Tout",
 						"axe": "Hache",
 						"pickaxe": "Pioche",
@@ -313,7 +313,7 @@
 			"table": {
 				"header": {
 					"title": "Objet",
-					"release": "Sortie",
+					"initial_release": "Sortie",
 					"stack_size": "Taille de pile",
 					"rarity": "Rareté",
 					"inventory_categories": "Catégorie Inv. Créatif",
@@ -353,6 +353,7 @@
 						"container": "Contenant",
 						"mob": "Créature",
 						"fishing": "Pêche",
+						"trading": "Échanges",
 						"none": "Aucun"
 					}
 				}
@@ -456,7 +457,7 @@
 			"table": {
 				"header": {
 					"title": "Créature",
-					"release": "Sortie",
+					"initial_release": "Sortie",
 					"health": "Vie",
 					"height": "Taille",
 					"behavior": "Compor<wbr>tement",
@@ -798,7 +799,9 @@
 		"bricks": "Briques",
 		"mushroom": "Champignon",
 		"mushroom_block": "Bloc de champignon",
+		"bush": "Buisson",
 		"cactus": "Cactus",
+		"cactus_flower": "Fleur de cactus",
 		"cake": "Gâteau",
 		"calcite": "Calcite",
 		"calibrated_sculk_sensor": "Capteur sculk calibré",
@@ -865,6 +868,7 @@
 		"farmland": "Terre labourée",
 		"fern": "Fougère",
 		"fire": "Feu",
+		"firefly_bush": "Buisson à lucioles",
 		"fletching_table": "Table d'archerie",
 		"flower_pot": "Pot de fleurs",
 		"frogspawn": "Oeufs de grenouille",
@@ -899,6 +903,7 @@
 		"lantern": "Lanterne",
 		"lapis_block": "Bloc de lapis-lazuli",
 		"lapis_ore": "Minerai de lapis-lazuli",
+		"leaf_litter": "Tas de feuilles",
 		"lectern": "Pupitre",
 		"lever": "Levier",
 		"light": "Lumière",
@@ -978,6 +983,7 @@
 		"sea_lantern": "Lanterne aquatique",
 		"sea_pickle": "Cornichon de mer",
 		"seagrass": "Herbe aquatique",
+		"dry_grass": "Herbes sèches",
 		"short_grass": "Petites herbes",
 		"shroomlight": "Champilampe",
 		"slime_block": "Bloc de Slime",
@@ -1003,6 +1009,8 @@
 		"suspicious_gravel": "Gravier suspect",
 		"sweet_berry_bush": "Buisson à baies sucrées",
 		"target": "Cible",
+		"test_block": "Bloc de test",
+		"test_instance_block": "Bloc d'instance de test",
 		"tinted_glass": "Verre teinté",
 		"tnt": "TNT",
 		"torch": "Torche",
@@ -1019,6 +1027,7 @@
 		"warped_wart_block": "Bloc de verrues biscornues",
 		"weeping_vines": "Lianes pleureuses",
 		"wheat": "Plants de blé",
+		"wildflowers": "Fleurs sauvages",
 		"wither_rose": "Rose de Wither"
 	},
 	"items": {
@@ -1137,7 +1146,7 @@
 		"lingering_potion": "Potion persistante",
 		"mace": "Masse",
 		"magma_cream": "Crème de magma",
-		"map": "Carte vierge",
+		"map": "Carte",
 		"melon_seeds": "Graines de pastèque",
 		"melon_slice": "Tranche de pastèque",
 		"milk_bucket": "Seau de lait",

@@ -186,9 +186,9 @@
 			"table": {
 				"header": {
 					"title": "Block",
-					"release": "Release",
+					"initial_release": "Release",
 					"stack_size": "Stack size",
-					"tools": "Tool(s)",
+					"tool": "Tool(s)",
 					"blast_resistance": "Blast resis<wbr>tance",
 					"hardness": "Hardness",
 					"flammable": "Flamm<wbr>able",
@@ -196,7 +196,7 @@
 					"full_block": "Full block"
 				},
 				"data": {
-					"tools": {
+					"tool": {
 						"any_tool": "Any",
 						"axe": "Axe",
 						"pickaxe": "Pickaxe",
@@ -313,7 +313,7 @@
 			"table": {
 				"header": {
 					"title": "Item",
-					"release": "Release",
+					"initial_release": "Release",
 					"stack_size": "Stack size",
 					"rarity": "Rarity",
 					"inventory_categories": "Creative Inv. Category",
@@ -353,6 +353,7 @@
 						"container": "Container",
 						"mob": "Mob",
 						"fishing": "Fishing",
+						"trading": "Trades",
 						"none": "None"
 					}
 				}
@@ -456,7 +457,7 @@
 			"table": {
 				"header": {
 					"title": "Mob",
-					"release": "Release",
+					"initial_release": "Release",
 					"health": "Health",
 					"height": "Height",
 					"behavior": "Behaviour",
@@ -798,7 +799,9 @@
 		"bricks": "Bricks",
 		"mushroom": "Mushroom",
 		"mushroom_block": "Mushroom Block",
+		"bush": "Bush",
 		"cactus": "Cactus",
+		"cactus_flower": "Cactus Flower",
 		"cake": "Cake",
 		"calcite": "Calcite",
 		"calibrated_sculk_sensor": "Calibrated Sculk Sensor",
@@ -865,6 +868,7 @@
 		"farmland": "Farmland",
 		"fern": "Fern",
 		"fire": "Fire",
+		"firefly_bush": "Firefly Bush",
 		"fletching_table": "Fletching Table",
 		"flower_pot": "Flower Pot",
 		"frogspawn": "Frogspawn",
@@ -899,6 +903,7 @@
 		"lantern": "Lantern",
 		"lapis_block": "Block of Lapis Lazuli",
 		"lapis_ore": "Lapis Lazuli Ore",
+		"leaf_litter": "Leaf Litter",
 		"lectern": "Lectern",
 		"lever": "Lever",
 		"light": "Light",
@@ -979,6 +984,7 @@
 		"sea_pickle": "Sea Pickle",
 		"seagrass": "Seagrass",
 		"short_grass": "Short Grass",
+		"dry_grass": "Dry Grass",
 		"shroomlight": "Shroomlight",
 		"slime_block": "Slime Block",
 		"small_dripleaf": "Small Dripleaf",
@@ -1003,6 +1009,8 @@
 		"suspicious_gravel": "Suspicious Gravel",
 		"sweet_berry_bush": "Sweet Berry Bush",
 		"target": "Target",
+		"test_block": "Test Block",
+		"test_instance_block": "Test Instance Block",
 		"tinted_glass": "Tinted Glass",
 		"tnt": "TNT",
 		"torch": "Torch",
@@ -1019,6 +1027,7 @@
 		"warped_wart_block": "Warped Wart Block",
 		"weeping_vines": "Weeping Vines",
 		"wheat": "Wheat Crops",
+		"wildflowers": "Wildflowers",
 		"wither_rose": "Wither Rose"
 	},
 	"items": {
@@ -1137,7 +1146,7 @@
 		"lingering_potion": "Lingering Potion",
 		"mace": "Mace",
 		"magma_cream": "Magma Cream",
-		"map": "Empty Map",
+		"map": "Map",
 		"melon_seeds": "Melon Seeds",
 		"melon_slice": "Melon Slice",
 		"milk_bucket": "Milk Bucket",

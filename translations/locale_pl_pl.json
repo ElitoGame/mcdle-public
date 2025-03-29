@@ -1,4 +1,4 @@
-﻿{
+{
 	"footer": {
 		"links": {
 			"cookie": {
@@ -186,9 +186,9 @@
 			"table": {
 				"header": {
 					"title": "Blok",
-					"release": "Wersja dodania",
+					"initial_release": "Wersja dodania",
 					"stack_size": "Wielkość stacka",
-					"tools": "Narzę<wbr>dzie/a",
+					"tool": "Narzę<wbr>dzie/a",
 					"blast_resistance": "Odporność na wybuchy",
 					"hardness": "Twardość",
 					"flammable": "Łatwo<wbr>palne",
@@ -196,7 +196,7 @@
 					"full_block": "Pełny Blok"
 				},
 				"data": {
-					"tools": {
+					"tool": {
 						"any_tool": "Każde",
 						"axe": "Siekiera",
 						"pickaxe": "Kilof",
@@ -313,7 +313,7 @@
 			"table": {
 				"header": {
 					"title": "Przedmiot",
-					"release": "Wersja dodania",
+					"initial_release": "Wersja dodania",
 					"stack_size": "Wielkość stacka",
 					"rarity": "Rzadkość",
 					"inventory_categories": "Kate<wbr>goria",
@@ -353,6 +353,7 @@
 						"container": "Skrzynia",
 						"mob": "Drop Z moba",
 						"fishing": "Łowienie",
+						"trading": "Oferty",
 						"none": "Brak"
 					}
 				}
@@ -456,7 +457,7 @@
 			"table": {
 				"header": {
 					"title": "Mob",
-					"release": "Wersja dodania",
+					"initial_release": "Wersja dodania",
 					"health": "Życie",
 					"height": "Wysokość",
 					"behavior": "Zacho<wbr>wanie",
@@ -798,7 +799,9 @@
 		"bricks": "Cegły",
 		"mushroom": "Grzyb",
 		"mushroom_block": "Blok grzyba",
+		"bush": "Krzew",
 		"cactus": "Kaktus",
+		"cactus_flower": "Kwiat kaktusa",
 		"cake": "Ciasto",
 		"calcite": "Kalcyt",
 		"calibrated_sculk_sensor": "Skalibrowany sculkowy czujnik",
@@ -865,6 +868,7 @@
 		"farmland": "Pole uprawne",
 		"fern": "Paproć",
 		"fire": "Ogień",
+		"firefly_bush": "Krzew świetlików",
 		"fletching_table": "Stół łuczarski",
 		"flower_pot": "Doniczka",
 		"frogspawn": "Żabi skrzek",
@@ -899,6 +903,7 @@
 		"lantern": "Latarenka",
 		"lapis_block": "Blok lazurytu",
 		"lapis_ore": "Złoże lazurytu",
+		"leaf_litter": "Ściółka",
 		"lectern": "Pulpit",
 		"lever": "Dźwignia",
 		"light": "Światło",
@@ -978,6 +983,7 @@
 		"sea_lantern": "Latarnia morska",
 		"sea_pickle": "Iskrzyłuda",
 		"seagrass": "Trawa morska",
+		"dry_grass": "Niska sucha",
 		"short_grass": "Niska trawa",
 		"shroomlight": "Światłogrzyb",
 		"slime_block": "Blok szlamu",
@@ -1003,6 +1009,8 @@
 		"suspicious_gravel": "Podejrzany żwir",
 		"sweet_berry_bush": "Krzew słodkich jagód",
 		"target": "Tarcza strzelecka",
+		"test_block": "Blok testowy",
+		"test_instance_block": "Blok instancji testowej",
 		"tinted_glass": "Przyciemnione szkło",
 		"tnt": "TNT",
 		"torch": "Pochodnia",
@@ -1019,6 +1027,7 @@
 		"warped_wart_block": "Blok spaczonych brodawek",
 		"weeping_vines": "Płaczące pnącza",
 		"wheat": "Pszenica",
+		"wildflowers": "Polne kwiaty",
 		"wither_rose": "Witherowa róża"
 	},
 	"items": {
@@ -1138,7 +1147,7 @@
 		"lingering_potion": "Trwała mikstura",
 		"mace": "Buzdygan",
 		"magma_cream": "Magmowy krem",
-		"map": "Pusta mapa",
+		"map": "Mapa",
 		"melon_seeds": "Nasiona arbuza",
 		"melon_slice": "Kawałek arbuza",
 		"milk_bucket": "Wiadro mleka",

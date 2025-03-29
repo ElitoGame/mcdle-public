@@ -186,9 +186,9 @@
 			"table": {
 				"header": {
 					"title": "Block",
-					"release": "Veröffen<wbr>tlichung",
+					"initial_release": "Veröffen<wbr>tlichung",
 					"stack_size": "Stack Größe",
-					"tools": "Werk-zeuge",
+					"tool": "Werk-zeuge",
 					"blast_resistance": "Explosions Wider<wbr>stand",
 					"hardness": "Härte",
 					"flammable": "Flamm<wbr>barkeit",
@@ -196,7 +196,7 @@
 					"full_block": "Ganzer Block"
 				},
 				"data": {
-					"tools": {
+					"tool": {
 						"any_tool": "Jedes",
 						"axe": "Axt",
 						"pickaxe": "Spitz-hacke",
@@ -313,7 +313,7 @@
 			"table": {
 				"header": {
 					"title": "Gegen<wbr>stand",
-					"release": "Veröffen<wbr>tlichung",
+					"initial_release": "Veröffen<wbr>tlichung",
 					"stack_size": "Stack Größe",
 					"rarity": "Seltenheit",
 					"inventory_categories": "Inventar Kategorie",
@@ -353,6 +353,7 @@
 						"container": "Container",
 						"mob": "Mob",
 						"fishing": "Fischen",
+						"trading": "Angebote",
 						"none": "Keins"
 					}
 				}
@@ -456,7 +457,7 @@
 			"table": {
 				"header": {
 					"title": "Mob",
-					"release": "Veröffen<wbr>tlichung",
+					"initial_release": "Veröffen<wbr>tlichung",
 					"health": "Leben",
 					"height": "Höhe",
 					"behavior": "Verhalten",
@@ -798,7 +799,9 @@
 		"bricks": "Ziegelsteine",
 		"mushroom": "Pilz",
 		"mushroom_block": "Pilzblock",
+		"bush": "Busch",
 		"cactus": "Kaktus",
+		"cactus_flower": "Kaktusblüte",
 		"cake": "Kuchen",
 		"calcite": "Kalzit",
 		"calibrated_sculk_sensor": "Kalibrierter Sculk-Sensor",
@@ -865,6 +868,7 @@
 		"farmland": "Ackerboden",
 		"fern": "Farn",
 		"fire": "Feuer",
+		"firefly_bush": "Glühwürmchenbusch",
 		"fletching_table": "Bognertisch",
 		"flower_pot": "Blumentopf",
 		"frogspawn": "Froschlaich",
@@ -899,6 +903,7 @@
 		"lantern": "Laterne",
 		"lapis_block": "Lapislazuliblock",
 		"lapis_ore": "Lapislazulierz",
+		"leaf_litter": "Laubhaufen",
 		"lectern": "Lesepult",
 		"lever": "Hebel",
 		"light": "Lichtblock",
@@ -978,6 +983,7 @@
 		"sea_lantern": "Seelaterne",
 		"sea_pickle": "Meeresgurke",
 		"seagrass": "Seegras",
+		"dry_grass": "Trockengras",
 		"short_grass": "Niedriges Gras",
 		"shroomlight": "Pilzlicht",
 		"slime_block": "Schleimblock",
@@ -1003,6 +1009,8 @@
 		"suspicious_gravel": "Seltsamer Kies",
 		"sweet_berry_bush": "Süßbeerstrauch",
 		"target": "Zielblock",
+		"test_block": "Testblock",
+		"test_instance_block": "Testinstanzblock",
 		"tinted_glass": "Getöntes Glas",
 		"tnt": "TNT",
 		"torch": "Fackel",
@@ -1019,6 +1027,7 @@
 		"warped_wart_block": "Wirrwarzenblock",
 		"weeping_vines": "Trauerranken",
 		"wheat": "Weizenpflanze",
+		"wildflowers": "Wildblumen",
 		"wither_rose": "Wither-Rose"
 	},
 	"items": {
@@ -1137,7 +1146,7 @@
 		"lingering_potion": "Verweiltrank",
 		"mace": "Streitkolben",
 		"magma_cream": "Magmacreme",
-		"map": "Leere Karte",
+		"map": "Karte",
 		"melon_seeds": "Melonenkerne",
 		"melon_slice": "Melonenscheibe",
 		"milk_bucket": "Milcheimer",
