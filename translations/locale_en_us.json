@@ -286,7 +286,7 @@
 				},
 				"tips": {
 					"title": "Tips",
-					"not_all_blocks": "MCdle does not contain every type of block. All the coloured variants of concrete, terracotta, wool, etc. are merged into one representative block like \"Concrete\" or \"Wool\". This also applies to the different wood types, walls, stairs, etc.",
+					"not_all_blocks": "MCdle does not contain every type of block. All the colored variants of concrete, terracotta, wool, etc. are merged into one representative block like \"Concrete\" or \"Wool\". This also applies to the different wood types, walls, stairs, etc.",
 					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
 					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the block, you can use the wiki to find the blocks that were added in that version, which will help you narrow down your search drastically."
 				}
