@@ -68,8 +68,8 @@
 	"header": {
 		"settings": {
 			"headers": {
-				"mcdle": "🌍Mcdle",
-				"crafting_bee": "🌍Crafting Bee"
+				"mcdle": "Mcdle",
+				"crafting_bee": "Crafting Bee"
 			},
 			"colorblind": {
 				"input_name": "Режим дальтоника",
@@ -105,75 +105,75 @@
 				"title": "Сложность"
 			},
 			"keybinds": {
-				"title": "🌍Key bindings",
+				"title": "Назначение клавиш",
 				"binds": {
 					"crafting.selectHex.1": {
-						"name": "🌍Select Hexagon 1",
-						"description": "🌍Select Hex Tile #1"
+						"name": "Выбрать шестиугольник 1",
+						"description": "Выбрать шестиугольную плитку #1"
 					},
 					"crafting.selectHex.2": {
-						"name": "🌍Select Hexagon 2",
-						"description": "🌍Select Hex Tile #2"
+						"name": "Выбрать шестиугольник 2",
+						"description": "Выбрать шестиугольную плитку № 2"
 					},
 					"crafting.selectHex.3": {
-						"name": "🌍Select Hexagon 3",
-						"description": "🌍Select Hex Tile #3"
+						"name": "Выбрать шестиугольник 3",
+						"description": "Выбрать шестиугольную плитку № 3"
 					},
 					"crafting.selectHex.4": {
-						"name": "🌍Select Hexagon 4",
-						"description": "🌍Select Hex Tile #4"
+						"name": "Выбрать шестиугольник 4",
+						"description": "Выбрать шестиугольную плитку № 4"
 					},
 					"crafting.selectHex.5": {
-						"name": "🌍Select Hexagon 5",
-						"description": "🌍Select Hex Tile #5"
+						"name": "Выбрать шестиугольник 5",
+						"description": "Выбрать шестиугольную плитку № 5"
 					},
 					"crafting.selectHex.6": {
-						"name": "🌍Select Hexagon 6",
-						"description": "🌍Select Hex Tile #6"
+						"name": "Выбрать шестиугольник 6",
+						"description": "Выбрать шестиугольную плитку № 6"
 					},
 					"crafting.selectHex.7": {
-						"name": "🌍Select Hexagon 7",
-						"description": "🌍Select Hex Tile #7"
+						"name": "Выбрать шестиугольник 7",
+						"description": "Выбрать шестиугольную плитку № 7"
 					},
 					"crafting.grid.nav.up": {
-						"name": "🌍Navigate Crafting Grid Up",
-						"description": "🌍Move the cursor up in the crafting grid"
+						"name": "Переместиться вверх по сетке крафта",
+						"description": "Переместить курсор вверх по сетке крафта"
 					},
 					"crafting.grid.nav.down": {
-						"name": "🌍Navigate Crafting Grid Down",
-						"description": "🌍Move the cursor down in the crafting grid"
+						"name": "Переместиться вниз по сетке крафта",
+						"description": "Переместить курсор вниз в сетке крафта"
 					},
 					"crafting.grid.nav.left": {
-						"name": "🌍Navigate Crafting Grid Left",
-						"description": "🌍Move the cursor left in the crafting grid"
+						"name": "Переместиться влево по сетке крафта",
+						"description": "Переместить курсор влево в сетке крафта"
 					},
 					"crafting.grid.nav.right": {
-						"name": "🌍Navigate Crafting Grid Right",
-						"description": "🌍Move the cursor right in the crafting grid"
+						"name": "Переместиться вправо по сетке крафта",
+						"description": "Переместить курсор вправо в сетке крафта"
 					},
 					"crafting.grid.placeItem": {
-						"name": "🌍Place Item in Grid",
-						"description": "🌍Place the selected item in the crafting grid"
+						"name": "Поместить предмет в сетку",
+						"description": "Поместить выбранный предмет в сетку крафта"
 					},
 					"crafting.grid.craftItem": {
-						"name": "🌍Craft Item",
-						"description": "🌍Craft the item in the crafting grid"
+						"name": "Создать предмет",
+						"description": "Создать предмет в сетке крафта"
 					},
 					"crafting.grid.deleteItem": {
-						"name": "🌍Delete Item in Grid",
-						"description": "🌍Delete the item in the crafting grid"
+						"name": "Удалить предмет из сетки",
+						"description": "Удалить элемент из сетки крафта"
 					},
 					"crafting.grid.clear": {
-						"name": "🌍Clear Crafting Grid",
-						"description": "🌍Clear the crafting grid"
+						"name": "Очистить сетку крафта",
+						"description": "Очистить сетку крафта"
 					},
 					"crafting.grid.clearImmediate": {
-						"name": "🌍Clear Grid Immediately",
-						"description": "🌍Clear the crafting grid immediately without confirmation"
+						"name": "Очистить сетку сразу",
+						"description": "Очистить сетку крафта без подтверждения"
 					},
 					"crafting.randomize": {
-						"name": "🌍Play Random Game",
-						"description": "🌍Pick 7 random items to play with"
+						"name": "Играть в случайную игру",
+						"description": "Выбрать 7 случайных предметов для игры"
 					}
 				}
 			},
@@ -218,9 +218,9 @@
 					"title": "Мобы"
 				},
 				"crafting": {
-					"image_alt": "🌍Crafting Bee icon",
-					"subtitle": "🌍Do you know your recipes?",
-					"title": "🌍Crafting Bee"
+					"image_alt": "Иконка Crafting Bee",
+					"subtitle": "Знаете ли вы свои рецепты?",
+					"title": "Crafting Bee"
 				},
 				"goal": {
 					"title": "Бестиарий MCdle",
@@ -244,7 +244,7 @@
 					"start": "Если вам понравилось, поддержите проект на",
 					"end": "!"
 				},
-				"see_in_bestiary": "Проверьте это в бестиарии!"
+				"see_in_bestiary": "Проверьте его в бестиарии!"
 			}
 		},
 		"block": {
@@ -343,7 +343,7 @@
 				"description": "Угадаете сегодняшний блок?"
 			},
 			"quick_help": {
-				"look_for": "Вы все еще ищете объяснение получше? Ищите значок",
+				"look_for": "Ищете объяснение получше? Ищите значок",
 				"tooltip": "Как играть",
 				"click_here": "под названием игры или нажмите сюда!"
 			},
@@ -407,11 +407,11 @@
 				},
 				"data": {
 					"rarity": {
-						"common": "📝 Обычная",
-						"uncommon": "📝 Необычная",
-						"rare": "📝 Редкая",
-						"epic": "📝 Эпическая",
-						"mixed": "📝 Смешанная"
+						"common": "Обычная",
+						"uncommon": "Необычная",
+						"rare": "Редкая",
+						"epic": "Эпическая",
+						"mixed": "Смешанная"
 					},
 					"inventory_category": {
 						"tools_and_utilities": "Инструменты и приспособления",
@@ -548,16 +548,16 @@
 				},
 				"data": {
 					"behavior": {
-						"passive": "📝 Дружелюбное",
-						"neutral": "📝 Нейтральное",
-						"hostile": "📝 Враждебное",
-						"defensive": "📝 Защищающее"
+						"passive": "Дружелюбное",
+						"neutral": "Нейтральное",
+						"hostile": "Враждебное",
+						"defensive": "Защищающее"
 					},
 					"classification": {
 						"none": "Нет",
 						"animal": "Животное",
 						"aquatic": "Водное",
-						"arthropod": "Членистоногое",
+						"arthropod": "Насекомое",
 						"undead": "Нежить",
 						"illager": "Злодеянин",
 						"golem": "Голем",
@@ -568,7 +568,7 @@
 						"spawner": "Спаунер",
 						"breeding": "Разведение",
 						"biome": "Биом",
-						"light_level": "Уровень освещенности",
+						"light_level": "Уровень света",
 						"block": "Блок",
 						"grass": "Трава",
 						"nether": "Незер",
@@ -668,200 +668,200 @@
 			}
 		},
 		"crafting": {
-			"title": "🌍Gamemode: Crafting Bee",
+			"title": "Режим игры: Crafting Bee",
 			"sub_title_menus": {
 				"stats": {
-					"title": "🌍Stats",
-					"tooltip": "🌍Stats"
+					"title": "Статистика",
+					"tooltip": "Статистика"
 				},
 				"streak": {
-					"title": "🌍Transfer progress",
-					"tooltip": "🌍Win Streak"
+					"title": "Перенести прогресс",
+					"tooltip": "Серия побед"
 				},
 				"help": {
-					"tooltip": "🌍How to play"
+					"tooltip": "Как играть"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Бестиарий"
 				},
 				"editor": {
-					"tooltip": "🌍Editor"
+					"tooltip": "Редактор"
 				}
 			},
 			"regular": {
 				"notifications": {
-					"already_crafted": "🌍Item already crafted!",
+					"already_crafted": "Предмет уже создан!",
 					"other_game_running": {
-						"description": "🌍You have another game saved but are trying to play a new one via a custom link",
-						"prev_game": "🌍Your saved game:",
-						"prev_game_discovered": "🌍{{discoveredCount}}/{{availableRecipes}} discovered already.",
-						"overwrite": "🌍Overwrite",
-						"return": "🌍Return to saved game"
+						"description": "У вас уже есть сохраненная игра, но вы пытаетесь запустить новую через пользовательскую ссылку",
+						"prev_game": "Ваша сохраненная игра:",
+						"prev_game_discovered": "{{discoveredCount}}/{{availableRecipes}} обнаружено.",
+						"overwrite": "Перезаписать",
+						"return": "Вернуться к сохраненной игре"
 					}
 				},
 				"copy_message": {
 					"timer": {
 						"all": {
-							"long": "🌍I have discovered all {{discoveredCount}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
-							"short": "🌍I found all {{discoveredCount}} recipes in {{time}} #MCdle #CraftingBee"
+							"long": "Мне удалось найти все {{discoveredCount}} рецепты за {{time}} в этой  #MCdle #CraftingBee загадке!",
+							"short": "Я нашел все {{discoveredCount}} рецепты за {{time}} #MCdle #CraftingBee"
 						},
 						"partial": {
-							"long": "🌍I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
-							"short": "🌍I found {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} #MCdle #CraftingBee"
+							"long": "Мне удалось найти {{discoveredCount}}/{{availableRecipes}} рецептов за {{time}} в этой #MCdle #CraftingBee загадке!",
+							"short": "Я нашел {{discoveredCount}}/{{availableRecipes}} рецептов за {{time}} #MCdle #CraftingBee"
 						}
 					},
 					"no_timer": {
 						"all": {
-							"long": "🌍I have discovered all {{discoveredCount}} recipes in the following #MCdle #CraftingBee riddle!",
-							"short": "🌍I found all {{discoveredCount}} recipes in this #MCdle #CraftingBee"
+							"long": "Мне удалось найти все {{discoveredCount}} рецепты в этой #MCdle #CraftingBee загадке!",
+							"short": "Я нашел все {{discoveredCount}} рецепты #MCdle #CraftingBee"
 						},
 						"partial": {
-							"long": "🌍I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in the following #MCdle #CraftingBee riddle!",
-							"short": "🌍I found {{discoveredCount}}/{{availableRecipes}} recipes in this #MCdle #CraftingBee"
+							"long": "Мне удалось найти {{discoveredCount}}/{{availableRecipes}} рецептов в этой #MCdle #CraftingBee загадке!",
+							"short": "Я нашел {{discoveredCount}}/{{availableRecipes}} рецептов #MCdle #CraftingBee"
 						}
 					},
 					"copy_button": {
-						"copy": "🌍Copy Riddle",
-						"copied": "🌍Copied!"
+						"copy": "Копировать загадку",
+						"copied": "Скопировано!"
 					},
 					"share_button": {
-						"share": "🌍Share Riddle",
-						"shared": "🌍Shared!"
+						"share": "Поделиться загадкой",
+						"shared": "Поделились!"
 					}
 				},
 				"game_state_box": {
-					"start_playing": "🌍Begin by dragging/clicking items from below into the crafting grid!",
-					"discover_status": "🌍Discovered {{discoveredCount}}/{{availableRecipes}}",
-					"timer": "🌍{{remainingTime}}"
+					"start_playing": "Начните с перетаскивания/щелчка по элементам внизу в сетку крафта!",
+					"discover_status": "Обнаружено {{discoveredCount}}/{{availableRecipes}}",
+					"timer": "{{remainingTime}}"
 				},
 				"game_complete_box": {
-					"congrats": "🌍Congratulations!",
-					"discovered": "🌍You have discovered all {{discoveredCount}} recipes with the current items!",
-					"discovered_time": "🌍You have discovered all {{discoveredCount}} recipes in {{time}} with the current items!",
+					"congrats": "Поздравляем!",
+					"discovered": "Вы нашли все {{discoveredCount}} рецептов с текущими предметами!",
+					"discovered_time": "Вы обнаружили все {{discoveredCount}} рецепта за {{time}} с текущими предметами!",
 					"regenerate": {
-						"description": "🌍Click the button below to reset the game and pick new items.",
-						"button": "🌍Regenerate",
+						"description": "Нажмите кнопку ниже, чтобы сбросить игру и выбрать новые предметы.",
+						"button": "Сгенерировать",
 						"popup": {
-							"title": "🌍Pick new random items?",
-							"hints": "🌍Show remaining recipe hints?",
-							"description": "🌍Click below to randomize the items in the hexagons and start a new game!",
-							"confirm": "🌍Confirm"
+							"title": "Выбрать новые случайные предметы?",
+							"hints": "Показать оставшиеся подсказки по рецепту?",
+							"description": "Нажмите ниже, чтобы перемешать предметы в шестиугольниках и начать новую игру!",
+							"confirm": "Подтвердить"
 						}
 					},
-					"more_crafting_riddles": "🌍or find custom ones on our ",
-					"discord_link": "🌍Discord",
-					"more_crafting_riddles_2": "🌍!"
+					"more_crafting_riddles": "или найти пользовательские на нашем ",
+					"discord_link": "Discord",
+					"more_crafting_riddles_2": "!"
 				},
 				"tools": {
-					"eraser": "🌍Eraser",
+					"eraser": "Ластик",
 					"clear": {
-						"button": "🌍Clear",
+						"button": "Очистить",
 						"popup": {
-							"title": "🌍Clear the Crafting table?",
-							"description": "🌍Click below to remove all items from the crafting table.",
-							"confirm": "🌍Confirm"
+							"title": "Очистить сетку крафта?",
+							"description": "Нажмите ниже, чтобы удалить все предметы на сетке крафта.",
+							"confirm": "Подтвердить"
 						}
 					}
 				},
 				"quick_settings": {
-					"hints": "🌍Show remaining recipe hints?",
-					"timer": "🌍Include timer?",
-					"regenerate": "🌍Generate new Riddle"
+					"hints": "Показать оставшиеся подсказки по рецепту?",
+					"timer": "Включить таймер?",
+					"regenerate": "Создать новую загадку"
 				},
-				"try_editor": "🌍Check out the editor!"
+				"try_editor": "Попробуйте редактор!"
 			},
 			"daily": {
-				"title": "🌍Crafting Bee Daily",
-				"description": "🌍Each day, 7 random items are picked. Can you remember all items you can craft with those?",
+				"title": "Ежедневная загадка Crafting Bee",
+				"description": "Каждый день выбирается 7 случайных предметов. Сможете ли вы вспомнить все предметы, которые можно из них изготовить?",
 				"game_complete_box": {
-					"more_tomorrow": "🌍Come back tomorrow for a new daily riddle, or play ",
-					"infinite_link": "🌍infinitely",
-					"more_tomorrow_2": "🌍!",
-					"more_crafting_riddles": "🌍You can also find player-created riddles on our ",
-					"discord_link": "🌍Discord",
-					"more_crafting_riddles_2": "🌍!"
+					"more_tomorrow": "Заходите завтра за новой загадкой, или играйте ", 
+					"infinite_link": "бесконечно",
+					"more_tomorrow_2": "!",
+					"more_crafting_riddles": "Вы также можете найти загадки, созданные игроками, на нашем ",
+					"discord_link": "Discord",
+					"more_crafting_riddles_2": "!"
 				}
 			},
 			"index": {
 				"daily": {
-					"title": "🌍Daily",
-					"description": "🌍7 Items each day, with streaks"
+				  "title": "Ежедневно",
+				  "description": "7 предметов каждый день, с сериями"
 				},
 				"regular": {
-					"title": "🌍Regular",
-					"description": "🌍7 items, unlimited replay with custom games and randomization."
+				  "title": "Обычная версия",
+				  "description": "7 элементов, неограниченное количество повторов с настраиваемыми играми и рандомизацией."
 				},
 				"editor": {
-					"title": "🌍Editor",
-					"description": "🌍Create your own Crafting Bee riddles!"
+				  "title": "Редактор",
+				  "description": "Создавайте свои собственные загадки Crafting Bee!"
 				}
 			},
 			"editor": {
-				"title": "🌍Crafting Bee Editor",
-				"description": "🌍Editor for the crafting bee gamemode",
+				"title": "Редактор Crafting Bee",
+				"description": "Редактор для игрового режима Crafting Bee",
 				"share_creation": {
-					"before_link": "🌍Share your creation on our",
-					"link": "🌍Discord",
-					"after_link": "🌍!"
+					"before_link": "Поделитесь своим творением на нашем",
+					"link": "Discord",
+					"after_link": "!"
 				},
 				"test_creation": {
-					"before_link": "🌍When you're done,",
-					"link": "🌍test your riddle",
-					"after_link": "🌍or"
+				  "before_link": "Когда закончите,",
+				  "link": "проверьте свою загадку",
+				  "after_link": "или"
 				},
 				"copy_creation": {
-					"copy": "🌍Copy riddle link",
-					"copied": "🌍Copied!"
+				  "copy": "Скопировать ссылку на загадку",
+				  "copied": "Скопировано!"
 				},
-				"search_items": "🌍Search for items...",
+				"search_items": "Поиск предметов...",
 				"table": {
-					"header": {
-						"item": "🌍Item",
-						"individual_usage": "🌍Individual Item Usage",
-						"recipes_with_item": "🌍Recipes Using Item"
-					}
+				  "header": {
+					"item": "Предмет",
+					"individual_usage": "Использование отдельного предмета",
+					"recipes_with_item": "Рецепты с использованием предмета"
+				  }
 				},
-				"found_recipes": "🌍Found recipes: {{count}}",
-				"delete_item": "🌍Delete",
+				"found_recipes": "Найденно рецептов: {{count}}",
+				"delete_item": "Удалить",
 				"import": {
-					"title": "🌍Game Import",
-					"unlimited_button": "🌍Import Unlimited Game",
-					"popup": {
-						"title": "🌍Import Game From the Unlimited Mode?",
-						"description": "🌍Click below to import the current game from the Unlimited Mode. Note that this will overwrite your current editor progress.",
-						"confirm": "🌍Confirm"
-					}
+				  "title": "Импорт игры",
+				  "unlimited_button": "Импорт бесконечной игры",
+				  "popup": {
+					"title": "Импорт игры из режима бесконечной игры?",
+					"description": "Нажмите ниже, чтобы импортировать текущую игру из режима бесконечной игры. Обратите внимание, что это приведет к перезаписи текущего прогресса редактора.",
+					"confirm": "Подтвердить"
+				  }
 				},
-				"return_to_unlimited": "🌍Return to the game!"
+				"return_to_unlimited": "Вернуться в игру!"
 			},
 			"midnight_timer": {
-				"next_thing": "🌍Reload the page to get the next one!",
-				"next_in": "🌍Next ingredients in {{time}}"
+			  	"next_thing": "Перезагрузите страницу, чтобы получить следующий!",
+			  	"next_in": "Следующие ингредиенты через {{time}}"
 			},
 			"next_game": {
-				"name": "🌍Crafting Bee",
-				"description": "🌍Can you remember all recipes with todays items?"
+				"name": "Crafting Bee",
+				"description": "Сможете ли вы вспомнить все рецепты с сегодняшними ингредиентами?"
 			},
 			"help": {
-				"title": "🌍How to play",
+				"title": "Как играть",
 				"intro": {
-					"goal": "🌍The goal of this game is to craft as many items as possible with the 7 items provided in the hexagons. This gamemode has a daily mode, as well as an unlimited mode paired with a editor. By completing the daily mode, you can build up a win-streak. By playing unlimited, you get to learn how to play the game, learn recipes better, and play games that other players created using the editor!",
-					"entering_items": "🌍To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see the desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagon or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
+					"goal": "Цель этой игры — создать как можно больше предметов из 7 предметов, предоставленных в шестиугольниках. В этом режиме игры есть ежедневный режим, а также неограниченный режим в паре с редактором. Завершая ежедневный режим, вы можете набрать серию побед. Играя в бесконечном режиме, вы научитесь играть в игру, лучше запомните рецепты и сможете играть в игры, созданные другими игроками с помощью редактора!",
+					"entering_items": "Чтобы начать игру, выберите предмет в шестиугольниках, а затем щелкните ячейку в сетке стола для создания предметов. При щелчке по нескольким ячейкам эти ячейки будут «закрашены». Повторяйте этот процесс, пока в выходной ячейке не появится нужный рецепт. Затем щелкните по полученному предмету, чтобы его создать! В качестве альтернативы вы также можете перетаскивать предметы из шестиугольника или из одного слота в другой. Кроме того, вы также можете стать «мастером клавиатуры» и выбирать шестиугольники с помощью цифровых клавиш, WASD для слотов стола для крафта, пробел для размещения и Enter для крафта. Клавиши можно настроить в настройках, расположенных слева от заголовка MCdle."
 				},
 				"example": {
-					"title": "🌍Example",
-					"intro": "🌍Let's look at some examples! From a single diamond, we can craft 5 individual items!",
-					"try_example": "🌍Try this example",
-					"hint_info": "🌍Feeling stuck? You can enable hints in the box below the delete/clear buttons. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
-					"mc_wiki": "🌍Minecraft Wiki",
-					"hint_info_2": "🌍to look up recipes.",
-					"test_hints": "🌍Test toggling the hint system"
+					"title": "Пример",
+					"intro": "Давайте посмотрим на несколько примеров! Из одного алмаза мы можем создать 5 отдельных предметов!",
+					"try_example": "Попробуйте этот пример",
+					"hint_info": "Застряли? Вы можете включить подсказки в поле под кнопками удаления/очистки. Подсказки появятся над отдельными шестиугольниками и сообщат вам, сколько предметов вам осталось изготовить из этого ингредиента! Оттуда вы можете перейти на",
+					"mc_wiki": "Вики Minecraft",
+					"hint_info_2": ", чтобы посмотреть рецепты.",
+					"test_hints": "Протестируйте переключить систему подсказок"
 				},
 				"tips": {
-					"title": "🌍Tips",
-					"individual_results_only": "🌍The game only counts individual results, not individual recipes. E.g. Both bamboo and planks make sticks, but once you crafted sticks, that's it!",
-					"where_help": "🌍Use the hint system if you are stuck. The wiki is a great pair for that, just search for the item you are missing!",
-					"not_all_recipes": "🌍Crafting Bee does not contain every craftable recipe. Only standard shaped and shapeless recipes inside the crafting table are included. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
+					"title": "Советы",
+					"individual_results_only": "В игре учитываются только индивидуальные результаты, а не отдельные рецепты. Например, из бамбука и досок можно сделать палки, но как только вы изготовили палки, на этом все!",
+					"where_help": "Если застряли, воспользуйтесь системой подсказок. Вики отлично подходит для этого, просто найдите нужный вам предмет!",
+					"not_all_recipes": "Crafting Bee не содержит всех рецептов изготовления. Включены только стандартные рецепты с фиксированной формой и рецепты без фиксированной формы, доступные в столе для изготовления. Нестандартные рецепты, такие как пользовательские фейерверки, украшенные горшки и т. п., не включены."
 				}
 			}
 		},
@@ -871,19 +871,19 @@
 				"books": {
 					"blocks": {
 						"title": "Книга блоков",
-						"cover_alt_text": "Ковер книги блоков"
+						"cover_alt_text": "Обложка книги блоков"
 					},
 					"items": {
 						"title": "Книга предметов",
-						"cover_alt_text": "Ковер книги предметов"
+						"cover_alt_text": "Обложка книги предметов"
 					},
 					"mobs": {
 						"title": "Книга мобов",
-						"cover_alt_text": "Ковер книги мобов"
+						"cover_alt_text": "Обложка книги мобов"
 					},
 					"crafting": {
-						"title": "🌍The Book of Crafting",
-						"cover_alt_text": "🌍Crafting Bee Book Cover"
+						"title": "Книга изготовления",
+						"cover_alt_text": "Обложка книги изготовления"
 					}
 				}
 			},
@@ -900,21 +900,21 @@
 				"description": "Для всех мобов, которых вы можете встретить в MCdle."
 			},
 			"crafting": {
-				"title": "🌍Crafting Bee Bestiary",
-				"description": "🌍For all the items you can craft in MCdle's Crafting Bee.",
+				"title": "Бестиарий рецептов",
+				"description": "Для всех предметов, которые можно изготовить в MCdle.",
 				"entry": {
 					"discovered": {
-						"label": "🌍Discovered in",
-						"daily": "🌍Daily Challenge",
-						"random": "🌍Random Game",
-						"custom": "🌍Custom Game"
+						"label": "Обнаружено в",
+						"daily": "Ежедневной игре",
+						"random": "Случайной игре",
+						"custom": "Пользовательской игре"
 					},
 					"recipes": {
-						"label": "🌍Recipes"
+						"label": "Рецепты"
 					}
 				},
 				"filters": {
-					"unavailable": "🌍There are currently no filters available."
+					"unavailable": "В настоящее время нет доступных фильтров."
 				}
 			},
 			"generic": {
@@ -990,10 +990,10 @@
 		"today_guesses": {
 			"loading": "Загрузка угадываний игроков...",
 			"already_guessed": {
-				"zero": "игроков уже угадало правильно!",
-				"one": "игрок уже угадало правильно!",
-				"two-four": "игрока уже угадало правильно!",
-				"many": "игроков уже угадало правильно!"
+				"zero": "игроков уже верно угадало!",
+				"one": "игрок уже верно угадало!",
+				"two-four": "игрока уже верно угадало!",
+				"many": "игроков уже верно угадало!"
 			}
 		},
 		"share_win": {
