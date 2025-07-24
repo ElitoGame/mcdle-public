@@ -12,6 +12,7 @@
 			"title": "Sobre",
 			"button_title": "Sobre",
 			"intro": "Mcdle é um jogo de quebra-cabeça do tipo Wordle para conteúdo relacionado ao Minecraft. Todo dia, um novo bloco, item e Criatura do Minecraft é escolhido e você precisa adivinha-los. Volte diariamente para acumular uma sequência de vitórias! Há recursos de compartilhamento social, para que você possa compartilhar suas vitórias e sequências de vitórias com seus amigos!",
+			"help_pointer": "Não sabe como jogar? Toda página de jogo possui um ? abaixo do título, isso abrirá um menu de ajuda com exemplos e descrições detalhadas do modo de jogo atual.",
 			"suggestions": {
 				"title": "Sugestões",
 				"description": {
@@ -55,7 +56,6 @@
 				"title": "Versão",
 				"description": "O jogo de hoje é o enigma #{{version}}! O jogo escolherá um novo bloco, item e Criatura todos os dias à meia-noite UTC."
 			},
-			"help_pointer": "Não sabe como jogar? Toda página de jogo possui um ? abaixo do título, isso abrirá um menu de ajuda com exemplos e descrições detalhadas do modo de jogo atual.",
 			"supporters": {
 				"title": "Apoiadores",
 				"description": {
@@ -67,6 +67,10 @@
 	},
 	"header": {
 		"settings": {
+			"headers": {
+				"mcdle": "🌍Mcdle",
+				"crafting_bee": "🌍Crafting Bee"
+			},
 			"colorblind": {
 				"input_name": "Colorblind mode",
 				"label": "Modo daltônico"
@@ -99,6 +103,79 @@
 					"title": "Pesquisa:"
 				},
 				"title": "Dificuldade"
+			},
+			"keybinds": {
+				"title": "🌍Key bindings",
+				"binds": {
+					"crafting.selectHex.1": {
+						"name": "🌍Select Hexagon 1",
+						"description": "🌍Select Hex Tile #1"
+					},
+					"crafting.selectHex.2": {
+						"name": "🌍Select Hexagon 2",
+						"description": "🌍Select Hex Tile #2"
+					},
+					"crafting.selectHex.3": {
+						"name": "🌍Select Hexagon 3",
+						"description": "🌍Select Hex Tile #3"
+					},
+					"crafting.selectHex.4": {
+						"name": "🌍Select Hexagon 4",
+						"description": "🌍Select Hex Tile #4"
+					},
+					"crafting.selectHex.5": {
+						"name": "🌍Select Hexagon 5",
+						"description": "🌍Select Hex Tile #5"
+					},
+					"crafting.selectHex.6": {
+						"name": "🌍Select Hexagon 6",
+						"description": "🌍Select Hex Tile #6"
+					},
+					"crafting.selectHex.7": {
+						"name": "🌍Select Hexagon 7",
+						"description": "🌍Select Hex Tile #7"
+					},
+					"crafting.grid.nav.up": {
+						"name": "🌍Navigate Crafting Grid Up",
+						"description": "🌍Move the cursor up in the crafting grid"
+					},
+					"crafting.grid.nav.down": {
+						"name": "🌍Navigate Crafting Grid Down",
+						"description": "🌍Move the cursor down in the crafting grid"
+					},
+					"crafting.grid.nav.left": {
+						"name": "🌍Navigate Crafting Grid Left",
+						"description": "🌍Move the cursor left in the crafting grid"
+					},
+					"crafting.grid.nav.right": {
+						"name": "🌍Navigate Crafting Grid Right",
+						"description": "🌍Move the cursor right in the crafting grid"
+					},
+					"crafting.grid.placeItem": {
+						"name": "🌍Place Item in Grid",
+						"description": "🌍Place the selected item in the crafting grid"
+					},
+					"crafting.grid.craftItem": {
+						"name": "🌍Craft Item",
+						"description": "🌍Craft the item in the crafting grid"
+					},
+					"crafting.grid.deleteItem": {
+						"name": "🌍Delete Item in Grid",
+						"description": "🌍Delete the item in the crafting grid"
+					},
+					"crafting.grid.clear": {
+						"name": "🌍Clear Crafting Grid",
+						"description": "🌍Clear the crafting grid"
+					},
+					"crafting.grid.clearImmediate": {
+						"name": "🌍Clear Grid Immediately",
+						"description": "🌍Clear the crafting grid immediately without confirmation"
+					},
+					"crafting.randomize": {
+						"name": "🌍Play Random Game",
+						"description": "🌍Pick 7 random items to play with"
+					}
+				}
 			},
 			"settings_button": {
 				"image_alt": "Botão de configurações",
@@ -140,6 +217,11 @@
 					"subtitle": "Adivinhe a criatura do minecraft de hoje",
 					"title": "Criaturas"
 				},
+				"crafting": {
+					"image_alt": "🌍Crafting Bee icon",
+					"subtitle": "🌍Do you know your recipes?",
+					"title": "🌍Crafting Bee"
+				},
 				"goal": {
 					"title": "Bestiário MCdle (WIP)",
 					"image_alt": "Goal icon"
@@ -154,6 +236,15 @@
 					"image_alt": "Icone do kineticraft",
 					"subtitle": "Os modos de jogo Criatura, Bloco e Item podem ser jogados sem atrasos, mas você tem que encontrá-los no mundo! /mcdle"
 				}
+			}
+		},
+		"generic": {
+			"game": {
+				"complete_support": {
+					"start": "Se gostou, considere apoiar o projeto em ",
+					"end": "!"
+				},
+				"see_in_bestiary": "Veja no bestiário!"
 			}
 		},
 		"block": {
@@ -222,8 +313,8 @@
 				"warning": {
 					"zero": "{{remaining}} palpites restantes!",
 					"one": "{{remaining}} palpite restante!",
-					"many": "{{remaining}} palpites restantes!",
-					"two-four": "{{remaining}} palpites restantes!"
+					"two-four": "{{remaining}} palpites restantes!",
+					"many": "{{remaining}} palpites restantes!"
 				}
 			},
 			"search": {
@@ -365,8 +456,8 @@
 				"warning": {
 					"zero": "{{remaining}} palpites restantes!",
 					"one": "{{remaining}} palpite restante!",
-					"many": "{{remaining}} palpites restantes!",
-					"two-four": "{{remaining}} palpites restantes!"
+					"two-four": "{{remaining}} palpites restantes!",
+					"many": "{{remaining}} palpites restantes!"
 				}
 			},
 			"search": {
@@ -514,8 +605,8 @@
 				"warning": {
 					"zero": "{{remaining}} palpites restantes!",
 					"one": "{{remaining}} palpite restante!",
-					"many": "{{remaining}} palpites restantes!",
-					"two-four": "{{remaining}} palpites restantes!"
+					"two-four": "{{remaining}} palpites restantes!",
+					"many": "{{remaining}} palpites restantes!"
 				}
 			},
 			"search": {
@@ -576,13 +667,202 @@
 				}
 			}
 		},
-		"generic": {
-			"game": {
-				"complete_support": {
-					"start": "Se gostou, considere apoiar o projeto em ",
-					"end": "!"
+		"crafting": {
+			"title": "🌍Gamemode: Crafting Bee",
+			"sub_title_menus": {
+				"stats": {
+					"title": "🌍Stats",
+					"tooltip": "🌍Stats"
 				},
-				"see_in_bestiary": "Veja no bestiário!"
+				"streak": {
+					"title": "🌍Transfer progress",
+					"tooltip": "🌍Win Streak"
+				},
+				"help": {
+					"tooltip": "🌍How to play"
+				},
+				"bestiary": {
+					"tooltip": "🌍Bestiary"
+				},
+				"editor": {
+					"tooltip": "🌍Editor"
+				}
+			},
+			"regular": {
+				"notifications": {
+					"already_crafted": "🌍Item already crafted!",
+					"other_game_running": {
+						"description": "🌍You have another game saved but are trying to play a new one via a custom link",
+						"prev_game": "🌍Your saved game:",
+						"prev_game_discovered": "🌍{{discoveredCount}}/{{availableRecipes}} discovered already.",
+						"overwrite": "🌍Overwrite",
+						"return": "🌍Return to saved game"
+					}
+				},
+				"copy_message": {
+					"timer": {
+						"all": {
+							"long": "🌍I have discovered all {{discoveredCount}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
+							"short": "🌍I found all {{discoveredCount}} recipes in {{time}} #MCdle #CraftingBee"
+						},
+						"partial": {
+							"long": "🌍I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
+							"short": "🌍I found {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} #MCdle #CraftingBee"
+						}
+					},
+					"no_timer": {
+						"all": {
+							"long": "🌍I have discovered all {{discoveredCount}} recipes in the following #MCdle #CraftingBee riddle!",
+							"short": "🌍I found all {{discoveredCount}} recipes in this #MCdle #CraftingBee"
+						},
+						"partial": {
+							"long": "🌍I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in the following #MCdle #CraftingBee riddle!",
+							"short": "🌍I found {{discoveredCount}}/{{availableRecipes}} recipes in this #MCdle #CraftingBee"
+						}
+					},
+					"copy_button": {
+						"copy": "🌍Copy Riddle",
+						"copied": "🌍Copied!"
+					},
+					"share_button": {
+						"share": "🌍Share Riddle",
+						"shared": "🌍Shared!"
+					}
+				},
+				"game_state_box": {
+					"start_playing": "🌍Begin by dragging/clicking items from below into the crafting grid!",
+					"discover_status": "🌍Discovered {{discoveredCount}}/{{availableRecipes}}",
+					"timer": "🌍{{remainingTime}}"
+				},
+				"game_complete_box": {
+					"congrats": "🌍Congratulations!",
+					"discovered": "🌍You have discovered all {{discoveredCount}} recipes with the current items!",
+					"discovered_time": "🌍You have discovered all {{discoveredCount}} recipes in {{time}} with the current items!",
+					"regenerate": {
+						"description": "🌍Click the button below to reset the game and pick new items.",
+						"button": "🌍Regenerate",
+						"popup": {
+							"title": "🌍Pick new random items?",
+							"hints": "🌍Show remaining recipe hints?",
+							"description": "🌍Click below to randomize the items in the hexagons and start a new game!",
+							"confirm": "🌍Confirm"
+						}
+					},
+					"more_crafting_riddles": "🌍or find custom ones on our ",
+					"discord_link": "🌍Discord",
+					"more_crafting_riddles_2": "🌍!"
+				},
+				"tools": {
+					"eraser": "🌍Eraser",
+					"clear": {
+						"button": "🌍Clear",
+						"popup": {
+							"title": "🌍Clear the Crafting table?",
+							"description": "🌍Click below to remove all items from the crafting table.",
+							"confirm": "🌍Confirm"
+						}
+					}
+				},
+				"quick_settings": {
+					"hints": "🌍Show remaining recipe hints?",
+					"timer": "🌍Include timer?",
+					"regenerate": "🌍Generate new Riddle"
+				},
+				"try_editor": "🌍Check out the editor!"
+			},
+			"daily": {
+				"title": "🌍Crafting Bee Daily",
+				"description": "🌍Each day, 7 random items are picked. Can you remember all items you can craft with those?",
+				"game_complete_box": {
+					"more_tomorrow": "🌍Come back tomorrow for a new daily riddle, or play ",
+					"infinite_link": "🌍infinitely",
+					"more_tomorrow_2": "🌍!",
+					"more_crafting_riddles": "🌍You can also find player-created riddles on our ",
+					"discord_link": "🌍Discord",
+					"more_crafting_riddles_2": "🌍!"
+				}
+			},
+			"index": {
+				"daily": {
+					"title": "🌍Daily",
+					"description": "🌍7 Items each day, with streaks"
+				},
+				"regular": {
+					"title": "🌍Regular",
+					"description": "🌍7 items, unlimited replay with custom games and randomization."
+				},
+				"editor": {
+					"title": "🌍Editor",
+					"description": "🌍Create your own Crafting Bee riddles!"
+				}
+			},
+			"editor": {
+				"title": "🌍Crafting Bee Editor",
+				"description": "🌍Editor for the crafting bee gamemode",
+				"share_creation": {
+					"before_link": "🌍Share your creation on our",
+					"link": "🌍Discord",
+					"after_link": "🌍!"
+				},
+				"test_creation": {
+					"before_link": "🌍When you're done,",
+					"link": "🌍test your riddle",
+					"after_link": "🌍or"
+				},
+				"copy_creation": {
+					"copy": "🌍Copy riddle link",
+					"copied": "🌍Copied!"
+				},
+				"search_items": "🌍Search for items...",
+				"table": {
+					"header": {
+						"item": "🌍Item",
+						"individual_usage": "🌍Individual Item Usage",
+						"recipes_with_item": "🌍Recipes Using Item"
+					}
+				},
+				"found_recipes": "🌍Found recipes: {{count}}",
+				"delete_item": "🌍Delete",
+				"import": {
+					"title": "🌍Game Import",
+					"unlimited_button": "🌍Import Unlimited Game",
+					"popup": {
+						"title": "🌍Import Game From the Unlimited Mode?",
+						"description": "🌍Click below to import the current game from the Unlimited Mode. Note that this will overwrite your current editor progress.",
+						"confirm": "🌍Confirm"
+					}
+				},
+				"return_to_unlimited": "🌍Return to the game!"
+			},
+			"midnight_timer": {
+				"next_thing": "🌍Reload the page to get the next one!",
+				"next_in": "🌍Next ingredients in {{time}}"
+			},
+			"next_game": {
+				"name": "🌍Crafting Bee",
+				"description": "🌍Can you remember all recipes with todays items?"
+			},
+			"help": {
+				"title": "🌍How to play",
+				"intro": {
+					"goal": "🌍The goal of this game is to craft as many items as possible with the 7 items provided in the hexagons. This gamemode has a daily mode, as well as an unlimited mode paired with a editor. By completing the daily mode, you can build up a win-streak. By playing unlimited, you get to learn how to play the game, learn recipes better, and play games that other players created using the editor!",
+					"entering_items": "🌍To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see the desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagon or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
+				},
+				"example": {
+					"title": "🌍Example",
+					"intro": "🌍Let's look at some examples! From a single diamond, we can craft 5 individual items!",
+					"try_example": "🌍Try this example",
+					"hint_info": "🌍Feeling stuck? You can enable hints in the box below the delete/clear buttons. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
+					"mc_wiki": "🌍Minecraft Wiki",
+					"hint_info_2": "🌍to look up recipes.",
+					"test_hints": "🌍Test toggling the hint system"
+				},
+				"tips": {
+					"title": "🌍Tips",
+					"individual_results_only": "🌍The game only counts individual results, not individual recipes. E.g. Both bamboo and planks make sticks, but once you crafted sticks, that's it!",
+					"where_help": "🌍Use the hint system if you are stuck. The wiki is a great pair for that, just search for the item you are missing!",
+					"not_all_recipes": "🌍Crafting Bee does not contain every craftable recipe. Only standard shaped and shapeless recipes inside the crafting table are included. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
+				}
 			}
 		},
 		"bestiary": {
@@ -600,6 +880,10 @@
 					"mobs": {
 						"title": "O Livro das Criaturas",
 						"cover_alt_text": "Capa do Livro de Criaturas"
+					},
+					"crafting": {
+						"title": "🌍The Book of Crafting",
+						"cover_alt_text": "🌍Crafting Bee Book Cover"
 					}
 				}
 			},
@@ -615,12 +899,29 @@
 				"title": "Bestiário de Criaturas",
 				"description": "Para todas as Criaturas que você pode encontrar no MCdle."
 			},
+			"crafting": {
+				"title": "🌍Crafting Bee Bestiary",
+				"description": "🌍For all the items you can craft in MCdle's Crafting Bee.",
+				"entry": {
+					"discovered": {
+						"label": "🌍Discovered in",
+						"daily": "🌍Daily Challenge",
+						"random": "🌍Random Game",
+						"custom": "🌍Custom Game"
+					},
+					"recipes": {
+						"label": "🌍Recipes"
+					}
+				},
+				"filters": {
+					"unavailable": "🌍There are currently no filters available."
+				}
+			},
 			"generic": {
 				"overview": {
 					"title": "Visão Geral",
 					"library_back": "Voltar para a biblioteca",
 					"explanation": "Clique em uma entrada para visualizar sua página ou use o ícone de pesquisa no canto superior direito para encontrar uma ou aplicar filtros que se aplicam a toda a página (não apenas aos resultados da pesquisa).",
-
 					"sorting": {
 						"alphabet_tooltip": "Filtrar alfabeticamente",
 						"alphabet_alt": "Ordem alfabética",
@@ -633,9 +934,9 @@
 					"not_found": "Norbert não encontrou nenhuma entrada correspondente na sua lista de descobertas =(",
 					"try_different": "Tente difentes filtros!",
 					"discovered": {
-						"and": "e",
 						"first_discovered": "Primeiro descoberto",
 						"in": "em",
+						"and": "e",
 						"more": "mais!"
 					}
 				},
@@ -643,10 +944,10 @@
 					"applied": "Filtros aplicados",
 					"search_placeholder": "Pesquisa",
 					"search_alt": "Icone de pesquisa",
+					"clear": " Limpar Filtros",
 					"open": "Filtros (Global)",
 					"min": "Min",
-					"max": "Max",
-					"clear": " Limpar Filtros"
+					"max": "Max"
 				}
 			}
 		}
@@ -691,8 +992,8 @@
 			"already_guessed": {
 				"zero": "jogadores já adivinharam corretamente!",
 				"one": "jogador já adivinhou corretamente!",
-				"many": "jogadores já adivinharam corretamente!",
-				"two-four": "jogadores já adivinharam corretamente!"
+				"two-four": "jogadores já adivinharam corretamente!",
+				"many": "jogadores já adivinharam corretamente!"
 			}
 		},
 		"share_win": {
@@ -773,6 +1074,7 @@
 		"beacon": "Sinalizador",
 		"bedrock": "Rocha-mãe",
 		"bee_nest": "Colmeia",
+		"beehive": "Colmeia Artificial",
 		"beetroots": "Beterrabas",
 		"bell": "Sino",
 		"big_dripleaf": "Plantaforma Grande",
@@ -817,7 +1119,6 @@
 		"chorus_flower": "Flor do Coro",
 		"chorus_plant": "Planta do Coro",
 		"clay": "Argila",
-		"eyeblossom": "Olhoquídea",
 		"coal_block": "Bloco de Carvão",
 		"coal_ore": "Minério de Carvão",
 		"coarse_dirt": "Terra Infértil",
@@ -855,6 +1156,7 @@
 		"dirt_path": "Caminho de Terra",
 		"dispenser": "Ejetor",
 		"dragon_egg": "Ovo de Dragão",
+		"dried_ghast": "Ghast Seco",
 		"dried_kelp_block": "Bloco de Algas Secas",
 		"dripstone_block": "Bloco de espeleotema",
 		"dropper": "Liberador",
@@ -866,6 +1168,7 @@
 		"end_stone": "Pedra do End",
 		"end_stone_bricks": "Tijolos de Pedra do End",
 		"ender_chest": "Baú de Ender",
+		"eyeblossom": "Olhoquídea",
 		"farmland": "Terra Arada",
 		"fern": "Samambaia",
 		"fire": "Fogo",
@@ -1085,9 +1388,9 @@
 		"copper_ingot": "Barra de Cobre",
 		"banner_pattern": "Figura para Estandarte",
 		"crossbow": "Besta",
-		"dye": "Corante",
 		"debug_stick": "Graveto de Depuração",
 		"diamond": "Diamante",
+		"dye": "Corante",
 		"axe": "Machado",
 		"boots": "Botas",
 		"chestplate": "Peitoral",
@@ -1132,6 +1435,7 @@
 		"golden_apple": "Maçã Dourada",
 		"golden_carrot": "Cenoura Dourada",
 		"gunpowder": "Pólvora",
+		"harness": "Arreio",
 		"heart_of_the_sea": "Coração do Mar",
 		"honey_bottle": "Frasco de Mel",
 		"honeycomb": "Favo de Mel",
@@ -1259,6 +1563,7 @@
 		"glow_squid": "Lula-brilhante",
 		"goat": "Cabra",
 		"guardian": "Guardião",
+		"happy_ghast": "Ghast Feliz",
 		"hoglin": "Hoglin",
 		"horse": "Cavalo",
 		"husk": "Zumbi-múmia",

@@ -67,6 +67,10 @@
 	},
 	"header": {
 		"settings": {
+			"headers": {
+				"mcdle": "Mcdle",
+				"crafting_bee": "Crafting Bee"
+			},
 			"colorblind": {
 				"input_name": "Farbenblinder Modus",
 				"label": "Farbenblinder Modus"
@@ -99,6 +103,79 @@
 					"title": "Suche:"
 				},
 				"title": "Schwierigkeitsgrad"
+			},
+			"keybinds": {
+				"title": "Tastenbelegung",
+				"binds": {
+					"crafting.selectHex.1": {
+						"name": "Auswahl Hexagon 1",
+						"description": "Wähle Hex Feld #1"
+					},
+					"crafting.selectHex.2": {
+						"name": "Auswahl Hexagon 2",
+						"description": "Wähle Hex Feld #2"
+					},
+					"crafting.selectHex.3": {
+						"name": "Auswahl Hexagon 3",
+						"description": "Wähle Hex Feld #3"
+					},
+					"crafting.selectHex.4": {
+						"name": "Auswahl Hexagon 4",
+						"description": "Wähle Hex Feld #4"
+					},
+					"crafting.selectHex.5": {
+						"name": "Auswahl Hexagon 5",
+						"description": "Wähle Hex Feld #5"
+					},
+					"crafting.selectHex.6": {
+						"name": "Auswahl Hexagon 6",
+						"description": "Wähle Hex Feld #6"
+					},
+					"crafting.selectHex.7": {
+						"name": "Auswahl Hexagon 7",
+						"description": "Wähle Hex Feld #7"
+					},
+					"crafting.grid.nav.up": {
+						"name": "Gehe im Crafting Gitter rauf",
+						"description": "Bewege den Zeiger im Crafting Gitter nach oben"
+					},
+					"crafting.grid.nav.down": {
+						"name": "Gehe im Crafting Gitter runter",
+						"description": "Bewege den Zeiger im Crafting Gitter nach unten"
+					},
+					"crafting.grid.nav.left": {
+						"name": "Gehe im Crafting Gitter links",
+						"description": "Bewege den Zeiger im Crafting Gitter nach links"
+					},
+					"crafting.grid.nav.right": {
+						"name": "Gehe im Crafting Gitter rechts",
+						"description": "Bewege den Zeiger im Crafting Gitter nach rechts"
+					},
+					"crafting.grid.placeItem": {
+						"name": "Platziere den Gegenstand im Gitter",
+						"description": "Platziere den ausgewählten Gegenstand im Crafting Gitter"
+					},
+					"crafting.grid.craftItem": {
+						"name": "Crafte den Gegenstand",
+						"description": "Crafte den Gegenstand vom Crafting Gitter"
+					},
+					"crafting.grid.deleteItem": {
+						"name": "Lösch den Gegenstand im Gitter",
+						"description": "Lösch den Gegenstand im Crafting Gitter"
+					},
+					"crafting.grid.clear": {
+						"name": "Leere das Gitter",
+						"description": "Leere das Crafting Gitter"
+					},
+					"crafting.grid.clearImmediate": {
+						"name": "Leere das Gitter sofort",
+						"description": "Leere das Gitter sofort ohne Bestätigung"
+					},
+					"crafting.randomize": {
+						"name": "Zufälliges Spiel",
+						"description": "Wähle 7 zufällige neue Gegenstände zum Spielen"
+					}
+				}
 			},
 			"settings_button": {
 				"image_alt": "Einstellungs knopf",
@@ -139,6 +216,11 @@
 					"image_alt": "Mobs Icon",
 					"subtitle": "Entdecke das heutige Minecraft Mob",
 					"title": "Mobs"
+				},
+				"crafting": {
+					"image_alt": "Crafting Bee Icon",
+					"subtitle": "Kennst du alle Minecraft Rezepte?",
+					"title": "Crafting Bee"
 				},
 				"goal": {
 					"title": "MCdle Bestiarium",
@@ -585,6 +667,204 @@
 				}
 			}
 		},
+		"crafting": {
+			"title": "Spielmodus: Crafting Bee",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statistiken",
+					"tooltip": "Statistiken"
+				},
+				"streak": {
+					"title": "Fortschritt übertragen",
+					"tooltip": "Gewinnsträhne"
+				},
+				"help": {
+					"tooltip": "Wie spielt man?"
+				},
+				"bestiary": {
+					"tooltip": "Bestiarium"
+				},
+				"editor": {
+					"tooltip": "Editor"
+				}
+			},
+			"regular": {
+				"notifications": {
+					"already_crafted": "Gegenstand bereits gecrafted!",
+					"other_game_running": {
+						"description": "Du hast ein anderes Spiel gespeichert, aber versuchst ein neues Spiel mit einem benutzerdefiniertes Link zu starten.",
+						"prev_game": "Dein gespeichertes Spiel:",
+						"prev_game_discovered": "{{discoveredCount}}/{{availableRecipes}} bereits gefunden.",
+						"overwrite": "Überschreiben",
+						"return": "Zurück zum gespeicherten Spiel"
+					}
+				},
+				"copy_message": {
+					"timer": {
+						"all": {
+							"long": "Ich habe alle {{discoveredCount}} Rezepte in {{time}} in dem folgenden #MCdle #CraftingBee Rätsel gefunden!",
+							"short": "Ich fand alle {{discoveredCount}} Rezepte in {{time}} #MCdle #CraftingBee"
+						},
+						"partial": {
+							"long": "Ich habe es geschaft {{discoveredCount}}/{{availableRecipes}} Rezepte in {{time}} in dem folgenden #MCdle #CraftingBee Rätsel zu finden!",
+							"short": "Ich fand {{discoveredCount}}/{{availableRecipes}} Rezepte in {{time}} #MCdle #CraftingBee"
+						}
+					},
+					"no_timer": {
+						"all": {
+							"long": "Ich habe alle {{discoveredCount}} Rezepte in dem folgenden #MCdle #CraftingBee Rätsel gefunden!",
+							"short": "Ich fand alle {{discoveredCount}} Rezepte in diesem #MCdle #CraftingBee"
+						},
+						"partial": {
+							"long": "Ich habe es geschafft {{discoveredCount}}/{{availableRecipes}} Rezepte in dem folgenden #MCdle #CraftingBee Rätsel zu finden!",
+							"short": "Ich fand {{discoveredCount}}/{{availableRecipes}} Rezepte in diesem #MCdle #CraftingBee"
+						}
+					},
+					"copy_button": {
+						"copy": "Rätsel kopieren",
+						"copied": "Kopiert!"
+					},
+					"share_button": {
+						"share": "Rätsel teilen",
+						"shared": "Geteilt!"
+					}
+				},
+				"game_state_box": {
+					"start_playing": "Beginne indem du Gegenstände von unten in das Crafting Grid ziehst/klickst!",
+					"discover_status": "{{discoveredCount}}/{{availableRecipes}} gefunden",
+					"timer": "{{remainingTime}}"
+				},
+				"game_complete_box": {
+					"congrats": "Gratulation!",
+					"discovered": "Du hast alle {{discoveredCount}} Rezepte mit den momentanen Gegenständen gefunden!",
+					"discovered_time": "Du hast alle {{discoveredCount}} Rezepte in {{time}} mit den momentanen Gegenständen gefunden!",
+					"regenerate": {
+						"description": "Klicke den Knopf unten um das Spiel mit anderen zufällige Gegenstände neu zu starten.",
+						"button": "Neu genereieren",
+						"popup": {
+							"title": "Neue zufällige Gegenstände auswählen?",
+							"hints": "Übrige Rezepte Tip anzeigen?",
+							"description": "Klick unten um die Gegenstände im Hexagon zufällig auszuwählen und ein neues Spiel zu starten!",
+							"confirm": "Bestätigen"
+						}
+					},
+					"more_crafting_riddles": "oder finde benuzerdefinierte auf unserem ",
+					"discord_link": "Discord",
+					"more_crafting_riddles_2": "!"
+				},
+				"tools": {
+					"eraser": "Radierer",
+					"clear": {
+						"button": "Leeren",
+						"popup": {
+							"title": "Leere die Werkbank?",
+							"description": "Klick unten um alle Gegenstände aus der Werkbank zu entfernen.",
+							"confirm": "Bestätigen"
+						}
+					}
+				},
+				"quick_settings": {
+					"hints": "Übrige Rezepte Tip anzeigen?",
+					"timer": "Zeitmesser anzeigen?",
+					"regenerate": "Neues Rätsel generieren"
+				},
+				"try_editor": "Probier den Editor aus!"
+			},
+			"daily": {
+				"title": "Tägliches Crafting Bee",
+				"description": "Jeden Tag werden 7 zufällige Gegenstände ausgewählt. Kannst du dich an alle Gegenstände erinnern die man damit craften kann?",
+				"game_complete_box": {
+					"more_tomorrow": "Komm morgen wieder für ein neues tägliches Rätsel, oder spiele  ",
+					"infinite_link": "unbegrenzt",
+					"more_tomorrow_2": "!",
+					"more_crafting_riddles": "Du kannst auch Benutzer-erstellte Rätsel auf unserem ",
+					"discord_link": "Discord",
+					"more_crafting_riddles_2": " finden!"
+				}
+			},
+			"index": {
+				"daily": {
+					"title": "Tägliches Rätsel",
+					"description": "7 Gegenstände jeden Tag, mit Siegeststrähnen"
+				},
+				"regular": {
+					"title": "Normal",
+					"description": "7 Gegenstände, unbegrenzt wiederspielbar mit benuzerdefinierten und zufälligen Spielen."
+				},
+				"editor": {
+					"title": "Editor",
+					"description": "Erschaffe deine eigenen Crafting Bee Rätsel!"
+				}
+			},
+			"editor": {
+				"title": "Crafting Bee Editor",
+				"description": "Editor für den Craftig Bee Spielmodus",
+				"share_creation": {
+					"before_link": "Teile deine Kreationen auf unserem",
+					"link": "Discord",
+					"after_link": "!"
+				},
+				"test_creation": {
+					"before_link": "Sobald du fertig bist, kannst du",
+					"link": "dein Rätsel testen",
+					"after_link": "oder"
+				},
+				"copy_creation": {
+					"copy": "Kopiere den Rätsel Link",
+					"copied": "Kopiert!"
+				},
+				"search_items": "Suche nach Gegenständen...",
+				"table": {
+					"header": {
+						"item": "Gegenstand",
+						"individual_usage": "Individuelle Verwendungen",
+						"recipes_with_item": "Rezepte mit Gegenstand"
+					}
+				},
+				"found_recipes": "Gefundene Rezepte: {{count}}",
+				"delete_item": "Löschen",
+				"import": {
+					"title": "Spiel importieren",
+					"unlimited_button": "Nomrales Spiel importieren",
+					"popup": {
+						"title": "Spiel aus dem unbegrenzten Modus importieren?",
+						"description": "Klick unten um das laufende Spiel aus dem unbegrenzten Modus zu importieren. Beachte das dies deinen momentanen Editor Fortschritt überschreiben wird.",
+						"confirm": "Bestätigen"
+					}
+				},
+				"return_to_unlimited": "Zurück zum Spiel!"
+			},
+			"midnight_timer": {
+				"next_thing": "Lade die Seite neu, um das nächste Rätsel zu bekommen!",
+				"next_in": "Neue Gegenstände in {{time}}"
+			},
+			"next_game": {
+				"name": "Crafting Bee",
+				"description": "Kannst du dich an alle Rezepte mit den heutigen Gegenständen erinneren?"
+			},
+			"help": {
+				"title": "Wie spielt man?",
+				"intro": {
+					"goal": "Das Ziel von diesem Spiel ist es so viele Gegenstände wie möglich mit den 7 Gegenständen aus den Hexagons zu craften. Dieser Spielmodus hat einen täglichen Modus, sowie einen unbegrenzten Modus mit Editor. In dem du den täglichen Modus spielst, kannst du eine Siegessträhne aufbauen. Wenn du unbegrenzt spielst, lernst du besser wie man das Spiel spielt und welche Rezepte es gibt. Außerdem kannst du Spiele ausprobieren, die von anderen Nutzern im Editor erzeugt wurde.",
+					"entering_items": "Um zu beginnen, wähle einen Gegenstand aus den Hexagons aus und klicke ein Feld im Werkbank Gitter. Du kannst auch ziehen oder mehrmal klicken um diese Felder \"anzumalen\". Wiederhol diesen Prozess bis du das erwünschte Rezept im Ausgabefeld siehst. Klick dieses um es zu craften! Alternativ kannst du auch Gegenstände von den Hexagons in das Gitter ziehen, oder von einem Slot in den nächsten. Oder du wirst zum \"Tastatur Zauberer\" und wählst die Hexagons mit den Nummer Tasten aus und verwendest WASD für die Werkbank felder, Leertaste zum platzieren und Eingabe zum craften. Die Tastenbelegung kann geändert werden in den Einstellungen, die sich links neben dem MCdle Titel befinden."
+				},
+				"example": {
+					"title": "Beispiel",
+					"intro": "Schauen wir uns ein Beispiel an! Aus einem einzelnen Diamanten können wir 5 individuelle Gegenstände craften!",
+					"try_example": "Versuch dieses Beispiel",
+					"hint_info": "Steckst du fest? Du kannst Tips in der Box unter den Radierer/Leeren knöpfen aktivieren. Die Tips werden dann über den einzelnen Hexagonen angezeigt und sagen aus wie oft man den Gegenstand noch in Rezepten verwenden kann. Des weiteren kannst du auch das ",
+					"mc_wiki": "Minecraft Wiki",
+					"hint_info_2": "verwenden um nach Rezepten zu suchen.",
+					"test_hints": "Probier das Tip system ein/aus zuzuschalten"
+				},
+				"tips": {
+					"title": "Tips",
+					"individual_results_only": "Das Spiel zählt nur individuelle Ergebnisse, nicht individuelle Rezepte. Beispielsweise, man kann aus Bambus oder Bretter Stöcke machen, aber sobald man Stöcke einmal gecrafted hat, wars das.",
+					"where_help": "Verwende das Tip System falls du nicht mehr weiter kommst. Das Wiki kann super damit kombiniert werden. Such einfach nach dem Gegenstand wo noch Rezepte fehlen.",
+					"not_all_recipes": "Crafting Bee beinhalted nicht jedes craftbare Rezept. Nur standard geformte oder formlose Rezepte innerhalb der Werkbank sind inkludiert. Nicht Standard Rezepte, wie spezielle Feuerwerke, dekorative Töpfe oder ähnliches kommen nicht vor."
+				}
+			}
+		},
 		"bestiary": {
 			"index": {
 				"title": "Bestiarium",
@@ -600,6 +880,10 @@
 					"mobs": {
 						"title": "Das Buch der Mobs",
 						"cover_alt_text": "Mob Buch Cover"
+					},
+					"crafting": {
+						"title": "Das Buch des Craftens",
+						"cover_alt_text": "Crafting Bee Buch Cover"
 					}
 				}
 			},
@@ -614,6 +898,24 @@
 			"mobs": {
 				"title": "Mob Bestiarium",
 				"description": "Für all die Mobs die du in MCdle entdecken kannst."
+			},
+			"crafting": {
+				"title": "Crafting Bee Bestiarium",
+				"description": "Für all die Gegenstände die du in MCdle's Crafting Bee craften kannst.",
+				"entry": {
+					"discovered": {
+						"label": "Gefunden in",
+						"daily": "Tägliche Herausforderung",
+						"random": "Zufälliges Spiel",
+						"custom": "Benutzerdefiniertes Spiel"
+					},
+					"recipes": {
+						"label": "Rezepte"
+					}
+				},
+				"filters": {
+					"unavailable": "Momentan sind keine Filter verfügbar."
+				}
 			},
 			"generic": {
 				"overview": {
@@ -772,6 +1074,7 @@
 		"beacon": "Leuchtfeuer",
 		"bedrock": "Grundgestein",
 		"bee_nest": "Bienennest",
+		"beehive": "Bienenstock",
 		"beetroots": "Rote Bete",
 		"bell": "Glocke",
 		"big_dripleaf": "Großes Tropfblatt",
@@ -853,6 +1156,7 @@
 		"dirt_path": "Trampelpfad",
 		"dispenser": "Werfer",
 		"dragon_egg": "Drachenei",
+		"dried_ghast": "Ausgetrockneter Ghast",
 		"dried_kelp_block": "Getrockneter Seetangblock",
 		"dripstone_block": "Tropfsteinblock",
 		"dropper": "Spender",
@@ -1037,6 +1341,7 @@
 		"amethyst_shard": "Amethystscherbe",
 		"pottery_sherd": "Töpferscherbe",
 		"apple": "Apfel",
+		"armadillo_scute": "Gürteltier-Hornschild",
 		"armor_stand": "Rüstungsständer",
 		"arrow": "Pfeil",
 		"aquatic_mob_bucket": "Eimer mit Wasserkreatur",
@@ -1130,6 +1435,7 @@
 		"golden_apple": "Goldener Apfel",
 		"golden_carrot": "Goldene Karotte",
 		"gunpowder": "Schwarzpulver",
+		"harness": "Geschirr",
 		"heart_of_the_sea": "Herz des Meeres",
 		"honey_bottle": "Honigflasche",
 		"honeycomb": "Honigwabe",
@@ -1161,8 +1467,8 @@
 		"nether_wart": "Netherwarze",
 		"netherite_ingot": "Netheritbarren",
 		"netherite_scrap": "Netheritplatten",
-		"ominous_bottle": "Unheilvolle Flasche",
 		"netherite_upgrade_smithing_template": "Netherite Verbesserung",
+		"ominous_bottle": "Unheilvolle Flasche",
 		"painting": "Gemälde",
 		"paper": "Papier",
 		"phantom_membrane": "Phantomhaut",
@@ -1193,8 +1499,6 @@
 		"rotten_flesh": "Verrottetes Fleisch",
 		"saddle": "Sattel",
 		"salmon": "Roher Lachs",
-		"turtle_scute": "Schildkröten-Hornschild",
-		"armadillo_scute": "Gürteltier-Hornschild",
 		"shears": "Schere",
 		"shield": "Schild",
 		"shulker_shell": "Shulker-Schale",
@@ -1216,6 +1520,7 @@
 		"trial_key": "Prüfungsschlüssel",
 		"trident": "Dreizack",
 		"tropical_fish": "Tropenfisch",
+		"turtle_scute": "Schildkröten-Hornschild",
 		"warped_fungus_on_a_stick": "Wirrpilzrute",
 		"water_bucket": "Wassereimer",
 		"wheat": "Weizen",
@@ -1258,6 +1563,7 @@
 		"glow_squid": "Leuchttintenfisch",
 		"goat": "Ziege",
 		"guardian": "Wächter",
+		"happy_ghast": "Glücklicher Ghast",
 		"hoglin": "Hoglin",
 		"horse": "Pferd",
 		"husk": "Wüstenzombie",
