@@ -16,6 +16,7 @@ This repo contains the translations of MCdle. I will keep english and german up 
 | Valencian              | ✅️        | ❌       | [![Dinocraft1515YT](https://avatars.githubusercontent.com/u/120250129?s=64&v=4)](https://github.com/Dinocraft1515YT)                                                                                                                                          |
 | Polish                 | ✅️        | ❌       | [<img src="https://avatars.githubusercontent.com/u/152759058?s=64&v=2" alt="V1rnax" width="64"/>](https://github.com/V1rnax)[<img src="https://avatars.githubusercontent.com/u/198136717?s=64&v=2" alt="Tekusiekk" width="64"/>](https://github.com/Tekusiekk) |
 | Brazilian Portuguese              | ✅         | ❌       | [<img src="https://avatars.githubusercontent.com/u/160981502?s=64&v=2" alt="allanGabriels" width="64"/>](https://github.com/allanGabriels)                                                                                                                    |
+| Russian                | ✅️        | ❌       | [<img src="https://avatars.githubusercontent.com/u/76114168?s=64&v=4" alt="thenml" width="64"/>](https://github.com/thenml)                                                                                                                                    |
 
 ## Contributing
 
