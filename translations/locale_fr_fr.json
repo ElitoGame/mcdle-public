@@ -137,19 +137,19 @@
 					},
 					"crafting.grid.nav.up": {
 						"name": "Déplacement Haut Grille de Fabrication",
-						"description": "Déplacer le curseur vers le haut dans la grille de fabrication"
+						"description": "Déplacer la séléction vers le haut dans la grille de fabrication"
 					},
 					"crafting.grid.nav.down": {
 						"name": "Déplacement Bas Grille de Fabrication",
-						"description": "Déplacer le curseur vers le bas dans la grille de fabrication"
+						"description": "Déplacer la séléction vers le bas dans la grille de fabrication"
 					},
 					"crafting.grid.nav.left": {
 						"name": "Déplacement Gauche Grille de Fabrication",
-						"description": "Déplacer le curseur vers la gauche dans la grille de fabrication"
+						"description": "Déplacer la séléction vers la gauche dans la grille de fabrication"
 					},
 					"crafting.grid.nav.right": {
 						"name": "Déplacement Droit Grille de Fabrication",
-						"description": "Déplacer le curseur vers la droite dans la grille de fabrication"
+						"description": "Déplacer la séléction vers la droite dans la grille de fabrication"
 					},
 					"crafting.grid.placeItem": {
 						"name": "Placer un Objet dans la Grille",
@@ -157,7 +157,7 @@
 					},
 					"crafting.grid.craftItem": {
 						"name": "Fabriquer l'Objet",
-						"description": "Fabriquer l'objet dans la grille de fabrication"
+						"description": "Fabriquer l'objet dans la case de fabrication"
 					},
 					"crafting.grid.deleteItem": {
 						"name": "Supprimer l'Objet dans la Grille",
@@ -195,9 +195,9 @@
 	},
 	"pages": {
 		"404": {
-			"compass_alt": "gif de compas",
+			"compass_alt": "gif de boussole",
 			"message": "Tu as rencontré une sortie 404 dans cette grotte...",
-			"return_message": "Utilise ce compas pour retourner à la page d'accueil !"
+			"return_message": "Utilise cette boussole pour retourner à la page d'accueil !"
 		},
 		"index": {
 			"header": "Choisis un mode de jeu !",
@@ -241,7 +241,7 @@
 		"generic": {
 			"game": {
 				"complete_support": {
-					"start": "Si tu as apprécié, pense à soutenir le projet sur",
+					"start": "Si tu apprécie MCdle, pense à soutenir le projet sur",
 					"end": " !"
 				},
 				"see_in_bestiary": "Retrouve-le dans le bestiaire !"
@@ -730,7 +730,7 @@
 					}
 				},
 				"game_state_box": {
-					"start_playing": "Commence par faire glisser/cliquer sur les objets ci-dessous dans la grille de fabrication !",
+					"start_playing": "Commence par cliquer/glisser sur les objets ci-dessous dans la grille de fabrication !",
 					"discover_status": "Découverts : {{discoveredCount}}/{{availableRecipes}}",
 					"timer": "{{remainingTime}}"
 				},
@@ -742,7 +742,7 @@
 						"description": "Clique sur le bouton ci-dessous pour réinitialiser le jeu et choisir de nouveaux objets.",
 						"button": "Regénérer",
 						"popup": {
-							"title": "Choisir de nouveaux objets aléatoires ?",
+							"title": "Nouveaux objets aléatoires ?",
 							"hints": "Indiquer les indices du nombre de recettes restantes",
 							"description": "Clique ci-dessous pour commencer une nouvelle partie avec des objets aléatoires !",
 							"confirm": "Confirmer"
@@ -772,7 +772,7 @@
 			},
 			"daily": {
 				"title": "Crafting Bee Quotidien",
-				"description": "Chaque jour, 7 objets aléatoires sont choisis. Peux-tu te rappeler de tous les objets fabricables avec ceux-ci ?",
+				"description": "Chaque jour, 7 objets aléatoires sont générés. Peux-tu te rappeler de tous les objets fabricables avec ceux-ci ?",
 				"game_complete_box": {
 					"more_tomorrow": "Reviens demain pour la nouvelle énigme quotidienne, ou joue ",
 					"infinite_link": "infiniment",
@@ -840,7 +840,7 @@
 			},
 			"next_game": {
 				"name": "Crafting Bee",
-				"description": "Peux-tu retrouver toutes les recettes à partir des objets d'aujourd'hui ?"
+				"description": "Peux-tu retrouver toutes les recettes à partir des ingrédients d'aujourd'hui ?"
 			},
 			"help": {
 				"title": "Comment jouer",
@@ -859,8 +859,8 @@
 				},
 				"tips": {
 					"title": "Astuces",
-					"individual_results_only": "Le jeu ne prend en compte que les résultats individuels, et non les recettes individuelles. Par exemple, le bambou et les planches permettent tous deux de fabriquer des bâtons, mais une fois que vous avez fabriqué des bâtons, c'est bon !",
-					"where_help": "Utilise les indices si tu es bloqué·e. Le wiki est parfait pour ça, il suffit de rechercher l'objet qu'il te manque !",
+					"individual_results_only": "Le jeu ne prend en compte que les résultats individuels, et non les recettes individuelles. Par exemple, le bambou et les planches permettent tous deux de fabriquer des bâtons, mais une fois que vous avez fabriqué des bâtons avec l'un ou l'autre, c'est bon !",
+					"where_help": "Utilise les indices si tu es bloqué·e. Utilise le wiki en complément, il suffit de rechercher l'objet qu'il te manque !",
 					"not_all_recipes": "Crafting Bee ne contient pas toutes les recettes pouvant être fabriquées. Seules les recettes standards et sans forme disponibles dans l'établi sont incluses. Les recettes non standards, telles que les feux d'artifice personnalisés, les pots décorés ou autres, ne sont pas incluses."
 				}
 			}
