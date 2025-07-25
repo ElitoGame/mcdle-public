@@ -11,14 +11,14 @@
 		"about": {
 			"title": "About",
 			"button_title": "About",
-			"intro": "Mcdle is a Wordle-like puzzle game for Minecraft related content. Every day, a new Minecraft block, item and mob is chosen and you have to guess it. Come back daily to build up a win-streak! There are social sharing features, so you can share your wins & win-streaks with your friends!",
+			"intro": "Mcdle is a Wordle-like puzzle game for Minecraft related content. Every day, a new Minecraft block, item, and mob is chosen and you have to guess it. Come back daily to build up a win-streak! There are social sharing features, so you can share your wins & win-streaks with your friends!",
 			"help_pointer": "Not sure how to play the game? Every game page has a ? icon below the title, which will open a help menu with examples and detailed descriptions of the current gamemode.",
 			"suggestions": {
 				"title": "Suggestions",
 				"description": {
 					"pre_link": "I handle most of the suggestions and bug/issue support on ",
 					"link": "Discord",
-					"post_link": ", feel free to join and hang out, we got melons! We've also got channels to discuss today's quizzes and to share your win-streaks!"
+					"post_link": ", feel free to join and hang out, we've got melons! We've also got channels to discuss today's quizzes and to share your win-streaks!"
 				}
 			},
 			"support": {
@@ -34,7 +34,7 @@
 				"description": {
 					"pre_link": "The data for this is game is acquired from the ",
 					"link": "Minecraft Wiki",
-					"post_link": ". Many of the images are also hosted on there, so a big thanks to them for their hard work keeping the wiki up to date! MCdle is not affiliated with or endorsed by or sponsored by Mojang Studios. But it is obviously based off of Minecraft and inspired by Wordle and LoLdle."
+					"post_link": ". Many of the images are also hosted on there, so a big thanks to them for their hard work keeping the wiki up to date! MCdle is not affiliated with, endorsed by, or sponsored by Mojang Studios. But it is obviously based off of Minecraft and inspired by Wordle and LoLdle."
 				},
 				"credit_list": {
 					"kineticraft": {
@@ -54,7 +54,7 @@
 			},
 			"version": {
 				"title": "Version",
-				"description": "Today's game is riddle #{{version}}! The game will choose a new block, item and mob every day at midnight UTC."
+				"description": "Today's game is riddle #{{version}}! The game will choose a new block, item, and mob every day at midnight UTC."
 			},
 			"supporters": {
 				"title": "Supporters",
@@ -137,19 +137,19 @@
 					},
 					"crafting.grid.nav.up": {
 						"name": "Navigate Crafting Grid Up",
-						"description": "Move the cursor up in the crafting grid"
+						"description": "Move the selector up in the crafting grid"
 					},
 					"crafting.grid.nav.down": {
 						"name": "Navigate Crafting Grid Down",
-						"description": "Move the cursor down in the crafting grid"
+						"description": "Move the selector down in the crafting grid"
 					},
 					"crafting.grid.nav.left": {
 						"name": "Navigate Crafting Grid Left",
-						"description": "Move the cursor left in the crafting grid"
+						"description": "Move the selector left in the crafting grid"
 					},
 					"crafting.grid.nav.right": {
 						"name": "Navigate Crafting Grid Right",
-						"description": "Move the cursor right in the crafting grid"
+						"description": "Move the selector right in the crafting grid"
 					},
 					"crafting.grid.placeItem": {
 						"name": "Place Item in Grid",
@@ -157,7 +157,7 @@
 					},
 					"crafting.grid.craftItem": {
 						"name": "Craft Item",
-						"description": "Craft the item in the crafting grid"
+						"description": "Craft the item in the crafting output"
 					},
 					"crafting.grid.deleteItem": {
 						"name": "Delete Item in Grid",
@@ -173,7 +173,7 @@
 					},
 					"crafting.randomize": {
 						"name": "Play Random Game",
-						"description": "Pick 7 random items to play with"
+						"description": "Get 7 random items to play with"
 					}
 				}
 			},
@@ -187,7 +187,7 @@
 			"title": "Language",
 			"tooltip": "Language",
 			"description": {
-				"pre_link": "Officially this website supports English & German, but through the community, other languages have been made available via ",
+				"pre_link": "This website officially supports English & German, but through the community, other languages have been made available via ",
 				"link": "Github",
 				"post_link": ". There is no guarantee that the unofficial translations are up to date or correct, so if you find any mistakes, feel free to open a pull request!"
 			}
@@ -234,21 +234,21 @@
 				"kineticraft": {
 					"title": "Play infinitely on kineticraft.net",
 					"image_alt": "Kineticraft icon",
-					"subtitle": "Mob, Block and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
+					"subtitle": "Mob, Block, and Item gamemodes can be played without delays, but you have to find them in the world! /mcdle"
 				}
 			}
 		},
 		"generic": {
 			"game": {
 				"complete_support": {
-					"start": "If you enjoyed it, consider supporting the project on",
+					"start": "If you enjoy MCdle, consider supporting the project on",
 					"end": "!"
 				},
 				"see_in_bestiary": "Check it out in the bestiary!"
 			}
 		},
 		"block": {
-			"title": "GameMode: Guess today's Block!",
+			"title": "Gamemode: Guess today's Block!",
 			"sub_title_menus": {
 				"stats": {
 					"title": "Stats",
@@ -256,7 +256,7 @@
 				},
 				"streak": {
 					"title": "Transfer progress",
-					"tooltip": "Win Streak"
+					"tooltip": "Win-Streak"
 				},
 				"help": {
 					"tooltip": "How to play"
@@ -352,18 +352,18 @@
 				"intro": {
 					"goal": "The goal of this game is to guess a Minecraft block. Every day a new block is chosen, and by continuing to guess the block of the day, you can build up a win-streak!",
 					"enter_guesses": "Begin by typing the name of any block in the search field. Based on your search, up to 10 results will pop up. Click on any of these blocks, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-					"field_explanation": "The properties of your chosen block will be compared to today's block and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating whether you should guess higher or lower."
+					"field_explanation": "The properties of your chosen block will be compared to today's block and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
 				},
 				"example": {
 					"title": "Example",
 					"intro": "Let's look at an example game. First we'll try an arbitrary block.",
-					"table_interpretation_1": "We've learned that the block, like most others, is stackable until 64, and it is not flammable. It's not a pre-alpha block and can't be mined with a Pickaxe. So let's try a different, newer, block.",
-					"table_interpretation_2": "We've discovered the block's version! Time to look for a Beta 1.8 block. Additionally, we got a partial match on the tool, so it can be broken by an Axe and some other tool. Also, the block is neither transparent (\"Yes\") nor no transparent (\"No\"), so it must be partially transparent. Let's look for a block that matches all of these properties.",
+					"table_interpretation_1": "We've learned that the block, like most others, is stackable until 64, and it is not flammable. It was not added in the versions pre-alpha and can't be mined with a Pickaxe. So let's try a different, newer, block.",
+					"table_interpretation_2": "We've discovered the block's version! Time to look for a block added in Beta 1.8. Additionally, we got a partial match on the tool, so it can be broken by an Axe and some other tool. Also, the block is neither transparent (\"Yes\") nor non-transparent (\"No\"), so it must be partially transparent. Let's look for a block that matches all of these properties.",
 					"table_interpretation_3": "There we go! We've discovered that the block was a block of melon, what a delight!"
 				},
 				"partial_matches": {
 					"title": "Partial Match explanation",
-					"intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing tile colours.",
+					"intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colours.",
 					"explanation": "A partial match can only appear in fields that consist of a list (e.g. Tools). If you guessed a block that can be broken with at least one tool that matches the actual block, you will get a partial match. Here's an example for leaves:"
 				},
 				"tips": {
@@ -375,7 +375,7 @@
 			}
 		},
 		"item": {
-			"title": "GameMode: Guess today's Item!",
+			"title": "Gamemode: Guess today's Item!",
 			"sub_title_menus": {
 				"stats": {
 					"title": "Stats",
@@ -383,7 +383,7 @@
 				},
 				"streak": {
 					"title": "Transfer progress",
-					"tooltip": "Win Streak"
+					"tooltip": "Win-Streak"
 				},
 				"help": {
 					"tooltip": "How to play"
@@ -495,23 +495,23 @@
 				"intro": {
 					"goal": "The goal of this game is to guess a Minecraft item. Every day a new item is chosen, and by continuing to guess the item of the day, you can build up a win-streak.",
 					"enter_guesses": "Begin by typing the name of any item in the search field. Based on your search, up to 10 results will pop up. Click on any of these items, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-					"field_explanation": "The properties of your chosen item will be compared to today's item and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating whether you should guess higher or lower."
+					"field_explanation": "The properties of your chosen item will be compared to today's item and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
 				},
 				"example": {
 					"title": "Example",
 					"intro": "Let's look at an example game. First we'll try an arbitrary item.",
-					"table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
-					"table_interpretation_2": "We've discovered the items version! Time to look for a Beta 1.8 item that's in the \"Food & Drinks\" creative inventory category. We now need to look for an item with matching use cases and ways how to obtain it.",
+					"table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable, and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
+					"table_interpretation_2": "We've discovered the items version! Time to look for an item added in Beta 1.8 that's in the \"Food & Drinks\" creative inventory category. We now need to look for an item with matching use cases and methods of obtaining.",
 					"table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
 				},
 				"partial_matches": {
 					"title": "Partial Match explanation",
-					"intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing tile colours.",
-					"explanation": "A partial match can only appear in fields that consist of a list (e.g. the inventory category). If you guessed a item that is in at least one inventory category that matches the actual item, you will get a partial match. Here's an example for string:"
+					"intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colours.",
+					"explanation": "A partial match can only appear in fields that consist of a list (e.g. the inventory category). If you guessed an item that is in at least one inventory category that matches the actual item, you will get a partial match. Here's an example for string:"
 				},
 				"tips": {
 					"title": "Tips",
-					"not_all_items": "MCdle does not contain every type of item. The list is taken from the Minecraft wiki and as such does not contain the item forms of various blocks or too similar items, like all the armour/tool variants.",
+					"not_all_items": "MCdle does not contain every type of item. The list is taken from the Minecraft wiki and hence does not contain the item forms of various blocks or too similar items, like all the armour/tool variants.",
 					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
 					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the item, you can use the wiki to find the items that were added in that version, which will help you narrow down your search drastically.",
 					"usage_and_source_explanation": "If you are curious how the Usage count/Source count is calculated, check the item's wiki page and scroll to \"Obtaining\" and \"Usage\". The headers of these sections have been used to count their different usecases. If they were missing, I, the developer, have added them manually."
@@ -519,7 +519,7 @@
 			}
 		},
 		"mob": {
-			"title": "GameMode: Guess today's Mob!",
+			"title": "Gamemode: Guess today's Mob!",
 			"sub_title_menus": {
 				"stats": {
 					"title": "Stats",
@@ -527,7 +527,7 @@
 				},
 				"streak": {
 					"title": "Transfer progress",
-					"tooltip": "Win Streak"
+					"tooltip": "Win-Streak"
 				},
 				"help": {
 					"tooltip": "How to play"
@@ -644,23 +644,23 @@
 				"intro": {
 					"goal": "The goal of this game is to guess a Minecraft mob. Every day a new mob is chosen, and by continuing to guess the mob of the day, you can build up a win-streak.",
 					"enter_guesses": "Begin by typing the name of any mob in the search field. Based on your search, up to 10 results will pop up. Click on any of these mobs, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-					"field_explanation": "The properties of your chosen mob will be compared to today's mob and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields you will also find an arrow indicating whether you should guess higher or lower."
+					"field_explanation": "The properties of your chosen mob will be compared to today's mob and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
 				},
 				"example": {
 					"title": "Example",
 					"intro": "Let's look at an example game. First we'll try an arbitrary mob.",
-					"table_interpretation_1": "From this guess, we can see that the mob we're looking for is newer then 1.6.1, doesn't have a lot of health, is less then 1.6 blocks tall, and might be passive, hostile, or a mix with one of those two. It's not summoned by lightning and it's not undead either.",
+					"table_interpretation_1": "From this guess, we can see that the mob we're looking for was added after version 1.6.1, doesn't have a lot of health, is less then 1.6 blocks tall, and might be passive, hostile, or a mix those two. It's not summoned by lightning and it's not undead either.",
 					"table_interpretation_2": "Alright, still newer than 1.13, but we got the health: we're looking for a mob with 10 HP, aka 5 hearts. It's less than 0.6 blocks tall, so we're looking for a small mob. The mob's behavior is still a partial match, so it's very likely passive, but could still be hostile & neutral. Both the spawn and classification fields got a partial match, so the mob's spawn origins would be biome and something else, and the mob would be classified as either animal, aquatic, and maybe something else in addition to one of these two possibilities.",
 					"table_interpretation_3": "Let's go! Look who hopped into this tutorial. We've found a little frog!"
 				},
 				"partial_matches": {
 					"title": "Partial Match explanation",
-					"intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing tile colours.",
+					"intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colours.",
 					"explanation": "A partial match can only appear in fields that consist of a list (e.g. the spawn, classification, or behavior fields). If you guessed a mob with at least one list element that matches the actual mob, you will get a partial match. Here's an example for horses:"
 				},
 				"tips": {
 					"title": "Tips",
-					"not_all_blocks": "MCdle does not contain every type of entity. Only living entities, like e.g. pigs or zombies are included. Armour stands, projectiles, or similar not living entities are not included. The list is taken from the Minecraft wiki, so if it's not on there in the mob list, it's not in this game.",
+					"not_all_blocks": "MCdle does not contain every type of entity. Only living entities, like pigs or zombies, are included. Armour stands, projectiles, or similar non-living entities are not included. The list is taken from the Minecraft wiki, so if it's not on there in the mob list, it's not in this game.",
 					"utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
 					"use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the mob, you can use the wiki to find the mobs that were added in that version, which will help you narrow down your search drastically.",
 					"health_measuring": "Keep in mind that health is measured in health points, aka half hearts, so 10 HP is 5 hearts."
@@ -676,7 +676,7 @@
 				},
 				"streak": {
 					"title": "Transfer progress",
-					"tooltip": "Win Streak"
+					"tooltip": "Win-Streak"
 				},
 				"help": {
 					"tooltip": "How to play"
@@ -730,7 +730,7 @@
 					}
 				},
 				"game_state_box": {
-					"start_playing": "Begin by dragging/clicking items from below into the crafting grid!",
+					"start_playing": "Begin by clicking/dragging items from below into the crafting grid!",
 					"discover_status": "Discovered {{discoveredCount}}/{{availableRecipes}}",
 					"timer": "{{remainingTime}}"
 				},
@@ -739,12 +739,12 @@
 					"discovered": "You have discovered all {{discoveredCount}} recipes with the current items!",
 					"discovered_time": "You have discovered all {{discoveredCount}} recipes in {{time}} with the current items!",
 					"regenerate": {
-						"description": "Click the button below to reset the game and pick new items.",
+						"description": "Click the button below to reset the game and get new items.",
 						"button": "Regenerate",
 						"popup": {
-							"title": "Pick new random items?",
+							"title": "New random items?",
 							"hints": "Show remaining recipe hints?",
-							"description": "Click below to randomize the items in the hexagons and start a new game!",
+							"description": "Click below to randomise the items in the hexagons and start a new game!",
 							"confirm": "Confirm"
 						}
 					},
@@ -772,7 +772,7 @@
 			},
 			"daily": {
 				"title": "Crafting Bee Daily",
-				"description": "Each day, 7 random items are picked. Can you remember all items you can craft with those?",
+				"description": "Each day, 7 random items are generated. Can you remember all the items craftable with them?",
 				"game_complete_box": {
 					"more_tomorrow": "Come back tomorrow for a new daily riddle, or play ",
 					"infinite_link": "infinitely",
@@ -789,7 +789,7 @@
 				},
 				"regular": {
 					"title": "Regular",
-					"description": "7 items, unlimited replay with custom games and randomization."
+					"description": "7 items, unlimited replay with custom games, and randomisation."
 				},
 				"editor": {
 					"title": "Editor",
@@ -798,7 +798,7 @@
 			},
 			"editor": {
 				"title": "Crafting Bee Editor",
-				"description": "Editor for the crafting bee gamemode",
+				"description": "Editor for the Crafting Bee gamemode",
 				"share_creation": {
 					"before_link": "Share your creation on our",
 					"link": "Discord",
@@ -828,7 +828,7 @@
 					"unlimited_button": "Import Unlimited Game",
 					"popup": {
 						"title": "Import Game From the Unlimited Mode?",
-						"description": "Click below to import the current game from the Unlimited Mode. Note that this will overwrite your current editor progress.",
+						"description": "Click below to import the current game from Unlimited Mode. Note that this will overwrite your current editor progress.",
 						"confirm": "Confirm"
 					}
 				},
@@ -840,13 +840,13 @@
 			},
 			"next_game": {
 				"name": "Crafting Bee",
-				"description": "Can you remember all recipes with todays items?"
+				"description": "Can you remember all craftable items with today's ingredients?"
 			},
 			"help": {
 				"title": "How to play",
 				"intro": {
-					"goal": "The goal of this game is to craft as many items as possible with the 7 items provided in the hexagons. This gamemode has a daily mode, as well as an unlimited mode paired with a editor. By completing the daily mode, you can build up a win-streak. By playing unlimited, you get to learn how to play the game, learn recipes better, and play games that other players created using the editor!",
-					"entering_items": "To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see the desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagon or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD, or arrow keys for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
+					"goal": "The goal of this game is to craft as many items as possible with the 7 items provided in the hexagons. This gamemode has a daily mode, as well as an unlimited mode paired with an editor. By completing the daily mode, you can build up a win-streak. By playing unlimited, you get to learn how to play the game, recipes, and play riddles that other players created using the editor!",
+					"entering_items": "To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see your desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagons or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD or arrow keys for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
 				},
 				"example": {
 					"title": "Example",
@@ -859,8 +859,8 @@
 				},
 				"tips": {
 					"title": "Tips",
-					"individual_results_only": "The game only counts individual results, not individual recipes. E.g. Both bamboo and planks make sticks, but once you crafted sticks, that's it!",
-					"where_help": "Use the hint system if you are stuck. The wiki is a great pair for that, just search for the item you are missing!",
+					"individual_results_only": "The game only counts individual results, not individual recipes. For example, both bamboo and planks make sticks, but once you crafted sticks with either, that's it!",
+					"where_help": "Use the hint system if you are stuck. The wiki pairs well with it, just search for the item you are missing!",
 					"not_all_recipes": "Crafting Bee does not contain every craftable recipe. Only standard shaped and shapeless recipes inside the crafting table are included. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
 				}
 			}
@@ -921,7 +921,7 @@
 				"overview": {
 					"title": "Overview",
 					"library_back": "Back to library",
-					"explanation": "Click on an entry to view it's page or use the search icon in the top right to find one or apply filters that apply to the entire page (not just the search results).",
+					"explanation": "Click on an entry to view its page, use the search icon in the top right to find one, or apply filters that apply to the entire page (not just the search results).",
 					"sorting": {
 						"alphabet_tooltip": "Sort alphabetically",
 						"alphabet_alt": "A-Z Sort",
