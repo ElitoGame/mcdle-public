@@ -1332,7 +1332,10 @@
 		"weeping_vines": "Płaczące pnącza",
 		"wheat": "Pszenica",
 		"wildflowers": "Polne kwiaty",
-		"wither_rose": "Witherowa róża"
+		"wither_rose": "Witherowa róża",
+		"shelf": "Akacjowa półka TODO",
+		"copper_chest": "Miedziana skrzynia",
+		"copper_golem_statue": "Posąg miedzianego golema"
 	},
 	"items": {
 		"boat": "Łódka",
@@ -1529,7 +1532,10 @@
 		"wolf_armor": "Wilcza zbroja",
 		"writable_book": "Książka z piórem",
 		"written_book": "Zapisana książka",
-		"kelp": "Wodorost"
+		"kelp": "Wodorost",
+		"copper_nugget": "Bryłka miedzi",
+		"spear": "Drewniana włócznia TODO",
+		"nautilus_armor": "Netherytowa zbroja łodzika TODO"
 	},
 	"mobs": {
 		"allay": "Otuszek",
@@ -1614,6 +1620,11 @@
 		"zombie": "Zombie",
 		"zombie_horse": "Koń-zombie",
 		"zombie_villager": "Osadnik-zombie",
-		"zombified_piglin": "Zzombifikowany piglin"
+		"zombified_piglin": "Zzombifikowany piglin",
+		"copper_golem": "Miedziany golem",
+		"camel_husk": "Wielbłąd-posuch",
+		"nautilus": "Łodzik",
+		"parched": "Oschlak",
+		"zombie_nautilus": "Łodzik-zombie"
 	}
 }

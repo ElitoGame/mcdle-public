@@ -788,7 +788,7 @@
 					"description": "7 Items each day, with streaks"
 				},
 				"regular": {
-					"title": "Regular",
+					"title": "Unlimited",
 					"description": "7 items, unlimited replay with custom games, and randomisation."
 				},
 				"editor": {
@@ -1332,7 +1332,10 @@
 		"weeping_vines": "Weeping Vines",
 		"wheat": "Wheat Crops",
 		"wildflowers": "Wildflowers",
-		"wither_rose": "Wither Rose"
+		"wither_rose": "Wither Rose",
+		"shelf": "Shelf",
+		"copper_chest": "Copper Chest",
+		"copper_golem_statue": "Copper Golem Statue"
 	},
 	"items": {
 		"boat": "Boat",
@@ -1529,7 +1532,10 @@
 		"wolf_armor": "Wolf Armour",
 		"writable_book": "Book and Quill",
 		"written_book": "Written Book",
-		"kelp": "Kelp"
+		"kelp": "Kelp",
+		"copper_nugget": "Copper Nugget",
+		"spear": "Spear",
+		"nautilus_armor": "Nautilus Armour"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1614,6 +1620,11 @@
 		"zombie": "Zombie",
 		"zombie_horse": "Zombie Horse",
 		"zombie_villager": "Zombie Villager",
-		"zombified_piglin": "Zombified Piglin"
+		"zombified_piglin": "Zombified Piglin",
+		"copper_golem": "Copper Golem",
+		"camel_husk": "Camel Husk",
+		"nautilus": "Nautilus",
+		"parched": "Parched",
+		"zombie_nautilus": "Zombie Nautilus"
 	}
 }

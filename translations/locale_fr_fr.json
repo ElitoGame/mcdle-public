@@ -1332,7 +1332,10 @@
 		"weeping_vines": "Lianes pleureuses",
 		"wheat": "Plants de blé",
 		"wildflowers": "Fleurs sauvages",
-		"wither_rose": "Rose de Wither"
+		"wither_rose": "Rose de Wither",
+		"shelf": "Étagère en acacia TODO",
+		"copper_chest": "Coffre en cuivre",
+		"copper_golem_statue": "Statue de golem de cuivre"
 	},
 	"items": {
 		"boat": "Bateau",
@@ -1529,7 +1532,10 @@
 		"wolf_armor": "Armure pour loup",
 		"writable_book": "Livre et plume",
 		"written_book": "Livre écrit",
-		"kelp": "Algue"
+		"kelp": "Algue",
+		"copper_nugget": "Pépite de cuivre",
+		"spear": "Lance en bois TODO",
+		"nautilus_armor": "Armure en Netherite pour nautile TODO"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1614,6 +1620,11 @@
 		"zombie": "Zombie",
 		"zombie_horse": "Cheval-zombie",
 		"zombie_villager": "Zombie-villageois",
-		"zombified_piglin": "Piglin zombifié"
+		"zombified_piglin": "Piglin zombifié",
+		"copper_golem": "Golem de cuivre",
+		"camel_husk": "Dromadaire momifié",
+		"nautilus": "Nautile",
+		"parched": "Desséché",
+		"zombie_nautilus": "Nautile-zombie"
 	}
 }

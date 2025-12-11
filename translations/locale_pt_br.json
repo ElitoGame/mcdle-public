@@ -1332,7 +1332,10 @@
 		"weeping_vines": "Trepadeiras Choronas",
 		"wheat": "Plantio de Trigo",
 		"wildflowers": "Flores-do-campo",
-		"wither_rose": "Rosa do Wither"
+		"wither_rose": "Rosa do Wither",
+		"shelf": "Estante de Acácia TODO",
+		"copper_chest": "Baú de Cobre",
+		"copper_golem_statue": "Estátua de Golem de Cobre"
 	},
 	"items": {
 		"boat": "Bote",
@@ -1529,7 +1532,10 @@
 		"wolf_armor": "Armadura de Lobo",
 		"writable_book": "Livro e Pena",
 		"written_book": "Livro Escrito",
-		"kelp": "Alga"
+		"kelp": "Alga",
+		"copper_nugget": "Pepita de Cobre",
+		"spear": "Lança de Madeira TODO",
+		"nautilus_armor": "Armadura de Netherita para Náutilo TODO"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1614,6 +1620,11 @@
 		"zombie": "Zumbi",
 		"zombie_horse": "Cavalo-zumbi",
 		"zombie_villager": "Aldeão Zumbi",
-		"zombified_piglin": "Piglin-zumbi"
+		"zombified_piglin": "Piglin-zumbi",
+		"copper_golem": "Golem de Cobre",
+		"camel_husk": "Camelo-Múmia",
+		"nautilus": "Náutilo",
+		"parched": "Ressecado",
+		"zombie_nautilus": "Náutilo-Zumbi"
 	}
 }

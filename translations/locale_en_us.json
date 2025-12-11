@@ -788,7 +788,7 @@
 					"description": "7 Items each day, with streaks"
 				},
 				"regular": {
-					"title": "Regular",
+					"title": "Unlimited",
 					"description": "7 items, unlimited replay with custom games, and randomization."
 				},
 				"editor": {
@@ -1332,7 +1332,10 @@
 		"weeping_vines": "Weeping Vines",
 		"wheat": "Wheat Crops",
 		"wildflowers": "Wildflowers",
-		"wither_rose": "Wither Rose"
+		"wither_rose": "Wither Rose",
+		"shelf": "Shelf",
+		"copper_chest": "Copper Chest",
+		"copper_golem_statue": "Copper Golem Statue"
 	},
 	"items": {
 		"boat": "Boat",
@@ -1467,7 +1470,7 @@
 		"nether_wart": "Nether Wart",
 		"netherite_ingot": "Netherite Ingot",
 		"netherite_scrap": "Netherite Scrap",
-		"netherite_upgrade_smithing_template": "Smithing Template",
+		"netherite_upgrade_smithing_template": "Netherite Upgrade",
 		"ominous_bottle": "Ominous Bottle",
 		"painting": "Painting",
 		"paper": "Paper",
@@ -1529,7 +1532,10 @@
 		"wolf_armor": "Wolf Armor",
 		"writable_book": "Book and Quill",
 		"written_book": "Written Book",
-		"kelp": "Kelp"
+		"kelp": "Kelp",
+		"copper_nugget": "Copper Nugget",
+		"spear": "Spear",
+		"nautilus_armor": "Nautilus Armor"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1614,6 +1620,11 @@
 		"zombie": "Zombie",
 		"zombie_horse": "Zombie Horse",
 		"zombie_villager": "Zombie Villager",
-		"zombified_piglin": "Zombified Piglin"
+		"zombified_piglin": "Zombified Piglin",
+		"copper_golem": "Copper Golem",
+		"camel_husk": "Camel Husk",
+		"nautilus": "Nautilus",
+		"parched": "Parched",
+		"zombie_nautilus": "Zombie Nautilus"
 	}
 }

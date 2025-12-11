@@ -1332,7 +1332,10 @@
 		"weeping_vines": "Enredaderas Lacrimosas",
 		"wheat": "Trigo",
 		"wildflowers": "Florecillas silvestres",
-		"wither_rose": "Rosa Wither"
+		"wither_rose": "Rosa Wither",
+		"shelf": "Estante de acacia TODO",
+		"copper_chest": "Cofre de cobre",
+		"copper_golem_statue": "Estatua de gólem de cobre"
 	},
 	"items": {
 		"boat": "Barca",
@@ -1529,7 +1532,10 @@
 		"wolf_armor": "Armadura para lobo",
 		"writable_book": "Libro y pluma",
 		"written_book": "Libro escrito",
-		"kelp": "Alga"
+		"kelp": "Alga",
+		"copper_nugget": "Pepita de cobre",
+		"spear": "Lanza de madera TODO",
+		"nautilus_armor": "Armadura de netherita para nautilo TODO"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1614,6 +1620,11 @@
 		"zombie": "Zombi",
 		"zombie_horse": "Caballo zombi",
 		"zombie_villager": "Aldeano zombi",
-		"zombified_piglin": "Piglin zombificado"
+		"zombified_piglin": "Piglin zombificado",
+		"copper_golem": "Gólem de cobre",
+		"camel_husk": "Camello disecado",
+		"nautilus": "Nautilo",
+		"parched": "Momificado",
+		"zombie_nautilus": "Nautilo zombi"
 	}
 }
