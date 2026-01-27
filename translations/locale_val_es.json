@@ -1332,7 +1332,10 @@
 		"weeping_vines": "Plantes enfiladisses Llagrimoses",
 		"wheat": "Blat",
 		"wildflowers": "Flors silvestres",
-		"wither_rose": "Rosa Wither"
+		"wither_rose": "Rosa Wither",
+		"shelf": "Prestatgeria d'acàcia TODO",
+		"copper_chest": "Cofre de coure",
+		"copper_golem_statue": "Estàtua de gólem de coure"
 	},
 	"items": {
 		"boat": "Barca",
@@ -1529,7 +1532,10 @@
 		"wolf_armor": "Armadura per a llop",
 		"writable_book": "Llibre i ploma",
 		"written_book": "Llibre escrit",
-		"kelp": "Alga"
+		"kelp": "Alga",
+		"copper_nugget": "Palleta de coure",
+		"spear": "Llança de fusta TODO",
+		"nautilus_armor": "Armadura de netherita per a nautilus TODO"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1614,6 +1620,11 @@
 		"zombie": "Zombi",
 		"zombie_horse": "Cavall zombi",
 		"zombie_villager": "Vilatà zombi",
-		"zombified_piglin": "Piglin zombificat"
+		"zombified_piglin": "Piglin zombificat",
+		"copper_golem": "Gólem de coure",
+		"camel_husk": "Dromedari momificat",
+		"nautilus": "Nautilus",
+		"parched": "Esquelet de les arenes",
+		"zombie_nautilus": "Nautilus zombi"
 	}
 }

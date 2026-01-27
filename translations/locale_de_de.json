@@ -1332,7 +1332,10 @@
 		"weeping_vines": "Trauerranken",
 		"wheat": "Weizenpflanze",
 		"wildflowers": "Wildblumen",
-		"wither_rose": "Wither-Rose"
+		"wither_rose": "Wither-Rose",
+		"shelf": "Holzregal",
+		"copper_chest": "Kupfertruhe",
+		"copper_golem_statue": "Kupfergolemstatue"
 	},
 	"items": {
 		"boat": "Holzboot",
@@ -1529,7 +1532,10 @@
 		"wolf_armor": "Wolfspanzer",
 		"writable_book": "Buch und Feder",
 		"written_book": "Beschriebenes Buch",
-		"kelp": "Seetang"
+		"kelp": "Seetang",
+		"copper_nugget": "Kupferklumpen",
+		"spear": "Speer",
+		"nautilus_armor": "Nautiluspanzer"
 	},
 	"mobs": {
 		"allay": "Hilfsgeist",
@@ -1614,6 +1620,11 @@
 		"zombie": "Zombie",
 		"zombie_horse": "Zombiepferd",
 		"zombie_villager": "Zombiedorfbewohner",
-		"zombified_piglin": "Zombifizierter Piglin"
+		"zombified_piglin": "Zombifizierter Piglin",
+		"copper_golem": "Kupfergolem",
+		"camel_husk": "Zombiedromedar",
+		"nautilus": "Nautilus",
+		"parched": "Vertrockneter",
+		"zombie_nautilus": "Zombienautilus"
 	}
 }
