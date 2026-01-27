@@ -1333,7 +1333,7 @@
 		"wheat": "Blat",
 		"wildflowers": "Flors silvestres",
 		"wither_rose": "Rosa Wither",
-		"shelf": "Prestatgeria d'acàcia TODO",
+		"shelf": "Prestatgeria",
 		"copper_chest": "Cofre de coure",
 		"copper_golem_statue": "Estàtua de gólem de coure"
 	},
@@ -1534,8 +1534,8 @@
 		"written_book": "Llibre escrit",
 		"kelp": "Alga",
 		"copper_nugget": "Palleta de coure",
-		"spear": "Llança de fusta TODO",
-		"nautilus_armor": "Armadura de netherita per a nautilus TODO"
+		"spear": "Llança",
+		"nautilus_armor": "Armadura de netherita per a nautilus"
 	},
 	"mobs": {
 		"allay": "Allay",
