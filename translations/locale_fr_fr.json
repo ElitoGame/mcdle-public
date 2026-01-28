@@ -1333,7 +1333,7 @@
 		"wheat": "Plants de blé",
 		"wildflowers": "Fleurs sauvages",
 		"wither_rose": "Rose de Wither",
-		"shelf": "Étagère en acacia TODO",
+		"shelf": "Étagère",
 		"copper_chest": "Coffre en cuivre",
 		"copper_golem_statue": "Statue de golem de cuivre"
 	},
@@ -1534,8 +1534,8 @@
 		"written_book": "Livre écrit",
 		"kelp": "Algue",
 		"copper_nugget": "Pépite de cuivre",
-		"spear": "Lance en bois TODO",
-		"nautilus_armor": "Armure en Netherite pour nautile TODO"
+		"spear": "Lance",
+		"nautilus_armor": "Armure pour nautile"
 	},
 	"mobs": {
 		"allay": "Allay",
