@@ -32,7 +32,7 @@
 			"credits": {
 				"title": "Crèdits",
 				"description": {
-					"pre_link": "L'informació d'este joc prové de ",
+					"pre_link": "L'informació d'aquestjoc prové de ",
 					"link": "la Wiki de Minecraft",
 					"post_link": ". Moltes de les imàtges estàn hosteades ací, així que moltes gràcies a ells per el gran treball de mantindre al dia  la wiki! MCdle no està afiliat o avalat per Mojang Studios. Però està obviament basat en Minecraft i inspirat en Wordle i LoLdle."
 				},
@@ -68,8 +68,8 @@
 	"header": {
 		"settings": {
 			"headers": {
-				"mcdle": "🌍Mcdle",
-				"crafting_bee": "🌍Crafting Bee"
+				"mcdle": "Mcdle",
+				"crafting_bee": "Crafting Bee"
 			},
 			"colorblind": {
 				"input_name": "Mode daltonisme",
@@ -105,75 +105,75 @@
 				"title": "Dificultat"
 			},
 			"keybinds": {
-				"title": "🌍Key bindings",
+				"title": "Tecles",
 				"binds": {
 					"crafting.selectHex.1": {
-						"name": "🌍Select Hexagon 1",
-						"description": "🌍Select Hex Tile #1"
+						"name": "Seleccionar Hexàgon 1",
+						"description": "Seleccionar celda hexagonal #1"
 					},
 					"crafting.selectHex.2": {
-						"name": "🌍Select Hexagon 2",
-						"description": "🌍Select Hex Tile #2"
+						"name": "Seleccionar Hexàgon 2",
+						"description": "Seleccionar celda hexagonal #2"
 					},
 					"crafting.selectHex.3": {
-						"name": "🌍Select Hexagon 3",
-						"description": "🌍Select Hex Tile #3"
+						"name": "Seleccionar Hexàgon 3",
+						"description": "Seleccionar celda hexagonal #3"
 					},
 					"crafting.selectHex.4": {
-						"name": "🌍Select Hexagon 4",
-						"description": "🌍Select Hex Tile #4"
+						"name": "Seleccionar Hexàgon 4",
+						"description": "Seleccionar celda hexagonal #4"
 					},
 					"crafting.selectHex.5": {
-						"name": "🌍Select Hexagon 5",
-						"description": "🌍Select Hex Tile #5"
+						"name": "Seleccionar Hexàgon 5",
+						"description": "Seleccionar celda hexagonal #5"
 					},
 					"crafting.selectHex.6": {
-						"name": "🌍Select Hexagon 6",
-						"description": "🌍Select Hex Tile #6"
+						"name": "Seleccionar Hexàgon 6",
+						"description": "Seleccionar celda hexagonal #6"
 					},
 					"crafting.selectHex.7": {
-						"name": "🌍Select Hexagon 7",
-						"description": "🌍Select Hex Tile #7"
+						"name": "Seleccionar Hexàgon 7",
+						"description": "Seleccionar celda hexagonal #7"
 					},
 					"crafting.grid.nav.up": {
-						"name": "🌍Navigate Crafting Grid Up",
-						"description": "🌍Move the cursor up in the crafting grid"
+						"name": "Moure's amunt en la graella de Crafteig",
+						"description": "Moure el cursor amunt en la graella de Crafteig"
 					},
 					"crafting.grid.nav.down": {
-						"name": "🌍Navigate Crafting Grid Down",
-						"description": "🌍Move the cursor down in the crafting grid"
+						"name": "Moure's avall en la graella de Crafteig",
+						"description": "Moure el cursor avall en la graella de Crafteig"
 					},
 					"crafting.grid.nav.left": {
-						"name": "🌍Navigate Crafting Grid Left",
-						"description": "🌍Move the cursor left in the crafting grid"
+						"name": "Moure's a l'esquerra en la graella de Crafteig",
+						"description": "Moure el cursor a l'esquerra en la graella de Crafteig"
 					},
 					"crafting.grid.nav.right": {
-						"name": "🌍Navigate Crafting Grid Right",
-						"description": "🌍Move the cursor right in the crafting grid"
+						"name": "Moure's a la dreta en la graella de Crafteig",
+						"description": "Moure el cursor a la dreta en la graella de Crafteig"
 					},
 					"crafting.grid.placeItem": {
-						"name": "🌍Place Item in Grid",
-						"description": "🌍Place the selected item in the crafting grid"
+						"name": "Possar l'objecte en la graella",
+						"description": "Possar l'objecte seleccionat en la graella de Crafteig"
 					},
 					"crafting.grid.craftItem": {
-						"name": "🌍Craft Item",
-						"description": "🌍Craft the item in the crafting grid"
+						"name": "Fabricar l'objecte",
+						"description": "Fabricar l'objecte en la graella de Crafteig"
 					},
 					"crafting.grid.deleteItem": {
-						"name": "🌍Delete Item in Grid",
-						"description": "🌍Delete the item in the crafting grid"
+						"name": "Llevar l'objecte de la graella",
+						"description": "Llevar l'objecte de la graella de Crafteig"
 					},
 					"crafting.grid.clear": {
-						"name": "🌍Clear Crafting Grid",
-						"description": "🌍Clear the crafting grid"
+						"name": "Buidar la graella de Crafteig",
+						"description": "Buidar la graella de Crafteig"
 					},
 					"crafting.grid.clearImmediate": {
-						"name": "🌍Clear Grid Immediately",
-						"description": "🌍Clear the crafting grid immediately without confirmation"
+						"name": "Buidar la graella de Crafteig immediatament",
+						"description": "Buidar la graella de Crafteig immediatament sense confirmació"
 					},
 					"crafting.randomize": {
-						"name": "🌍Play Random Game",
-						"description": "🌍Pick 7 random items to play with"
+						"name": "Jugar un joc aleatori",
+						"description": "Escollir 7 objectes aleatoris per jugar amb"
 					}
 				}
 			},
@@ -218,9 +218,9 @@
 					"title": "Criatures"
 				},
 				"crafting": {
-					"image_alt": "🌍Crafting Bee icon",
-					"subtitle": "🌍Do you know your recipes?",
-					"title": "🌍Crafting Bee"
+					"image_alt": "Ícon de Crafting Bee",
+					"subtitle": "¿Saps les receptes?",
+					"title": "Crafting Bee"
 				},
 				"goal": {
 					"title": "MCdle Bestiary",
@@ -350,7 +350,7 @@
 			"help": {
 				"title": "Com jugar",
 				"intro": {
-					"goal": "La finalitat d'este joc és endevinar un bloc de Minecraft. Cada dia un nou bloc és seleccionat, i si continues acertant el bloc del dia  augmentaràs la teva ratxa!",
+					"goal": "La finalitat d'aquestjoc és endevinar un bloc de Minecraft. Cada dia un nou bloc és seleccionat, i si continues acertant el bloc del dia  augmentaràs la teva ratxa!",
 					"enter_guesses": "Comença escribint cualsevol bloc en la barra de busca. Basat en la teva busca apareixeràn 10 resultats. Fes clic en cualsevol d'estos blocs, o navega fins a ells amb els fletxes i polsa Enter per a bloquejar el teu intent.",
 					"field_explanation": "Els propietats del bloc que hages seleccionat és compararen amb el del bloc de hui i és marcaren en verd si coincideixen, groc en coincidències parcials i roig per a incorrectes. Darrere dels camps incorrectes de noms/versions trobarás fletxes indicant si deuries provar amb un major o menor."
 				},
@@ -493,7 +493,7 @@
 			"help": {
 				"title": "Com jugar",
 				"intro": {
-					"goal": "La meta d'este joc és endevinar un objecte de Minecraft. Cada dia un nou objecte és seleccionat, i si continues encertant l'objecte del dia  augmentaràs la teva ratxa!",
+					"goal": "La finalitat d'aquestjoc és endevinar un objecte de Minecraft. Cada dia un nou objecte és seleccionat, i si continues encertant l'objecte del dia  augmentaràs la teva ratxa!",
 					"enter_guesses": "Comença escribint cualsevol objecte en la barra de busca. Basat en la teva busca apareixeràn 10 resultats. Fes clic en cualsevol d'estos objectes, o navega fins a ells amb els fletxes i polsa Enter per a bloquejar el teu intent.",
 					"field_explanation": "Els propietats de l'objecte  que hages seleccionat és compararen amb el de l'objecte  de hui i és marcaren en verd si coincideixen, groc en coincidències parcials i roig per a incorrectes. Darrere dels camps incorrectes de números/versions trobaràs fletxes indicant si hauries de provar amb un major o menor."
 				},
@@ -642,7 +642,7 @@
 			"help": {
 				"title": "Com jugar",
 				"intro": {
-					"goal": "La meta d'este joc és endevinar una criatura de Minecraft. Cada dia una nova criatura és seleccionat, i si continues encertant la criatura del dia augmentaràs la teua ratxa!",
+					"goal": "La finalitat d'aquest joc és endevinar una criatura de Minecraft. Cada dia una nova criatura és seleccionat, i si continues encertant la criatura del dia augmentaràs la teua ratxa!",
 					"enter_guesses": "Comença escrivint qualsevol criatura en la barra de busca. Basat en la teua busca apareixeran 10 resultats. Fes clic en qualsevol d'estes criatura, o navega cap a ells amb les fletxes i polsa Enter per a bloquejar el teu intent.",
 					"field_explanation": "Les propietats de la criatura que vas triar es compararan amb el de la criatura de hui i es marcaran en verd si coincidixen, groc en coincidències parcials i roig per a incorrectes. Darrere dels camps incorrectes de números/versions trobaràs fletxes indicant si hauries de provar amb un major o menor."
 				},
@@ -668,200 +668,200 @@
 			}
 		},
 		"crafting": {
-			"title": "🌍Gamemode: Crafting Bee",
+			"title": "Mode de joc: Crafting Bee",
 			"sub_title_menus": {
 				"stats": {
-					"title": "🌍Stats",
-					"tooltip": "🌍Stats"
+					"title": "Estadístiques",
+					"tooltip": "Estadístiques"
 				},
 				"streak": {
-					"title": "🌍Transfer progress",
-					"tooltip": "🌍Win Streak"
+					"title": "Transferir progrés",
+					"tooltip": "Ratxa"
 				},
 				"help": {
-					"tooltip": "🌍How to play"
+					"tooltip": "Com jugar"
 				},
 				"bestiary": {
-					"tooltip": "🌍Bestiary"
+					"tooltip": "Bestiari"
 				},
 				"editor": {
-					"tooltip": "🌍Editor"
+					"tooltip": "Editor"
 				}
 			},
 			"regular": {
 				"notifications": {
-					"already_crafted": "🌍Item already crafted!",
+					"already_crafted": "Objecte ja fabricat!",
 					"other_game_running": {
-						"description": "🌍You have another game saved but are trying to play a new one via a custom link",
-						"prev_game": "🌍Your saved game:",
-						"prev_game_discovered": "🌍{{discoveredCount}}/{{availableRecipes}} discovered already.",
-						"overwrite": "🌍Overwrite",
-						"return": "🌍Return to saved game"
+						"description": "Tens un altre joc guardat però estàs intentant jugar un de nou a través d'un enllaç personalitzat",
+						"prev_game": "El teu joc guardat:",
+						"prev_game_discovered": "{{discoveredCount}}/{{availableRecipes}} ja descoberts.",
+						"overwrite": "Sobreescriure",
+						"return": "Tornar al joc guardat"
 					}
 				},
 				"copy_message": {
 					"timer": {
 						"all": {
-							"long": "🌍I have discovered all {{discoveredCount}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
-							"short": "🌍I found all {{discoveredCount}} recipes in {{time}} #MCdle #CraftingBee"
+							"long": "He descobert totes les {{discoveredCount}} receptes en {{time}} en el següent #MCdle #CraftingBee riddle!",
+							"short": "He descobert totes les {{discoveredCount}} receptes en {{time}} #MCdle #CraftingBee"
 						},
 						"partial": {
-							"long": "🌍I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
-							"short": "🌍I found {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} #MCdle #CraftingBee"
+							"long": "He descobert {{discoveredCount}}/{{availableRecipes}} receptes en {{time}} en el següent #MCdle #CraftingBee riddle!",
+							"short": "He descobert {{discoveredCount}}/{{availableRecipes}} receptes en {{time}} #MCdle #CraftingBee"
 						}
 					},
 					"no_timer": {
 						"all": {
-							"long": "🌍I have discovered all {{discoveredCount}} recipes in the following #MCdle #CraftingBee riddle!",
-							"short": "🌍I found all {{discoveredCount}} recipes in this #MCdle #CraftingBee"
+							"long": "He descobert totes les {{discoveredCount}} receptes en el següent #MCdle #CraftingBee riddle!",
+							"short": "He descobert totes les {{discoveredCount}} receptes en aquest #MCdle #CraftingBee"
 						},
 						"partial": {
-							"long": "🌍I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in the following #MCdle #CraftingBee riddle!",
-							"short": "🌍I found {{discoveredCount}}/{{availableRecipes}} recipes in this #MCdle #CraftingBee"
+							"long": "He descobert {{discoveredCount}}/{{availableRecipes}} receptes en el següent #MCdle #CraftingBee riddle!",
+							"short": "He descobert {{discoveredCount}}/{{availableRecipes}} receptes en aquest #MCdle #CraftingBee"
 						}
 					},
 					"copy_button": {
-						"copy": "🌍Copy Riddle",
-						"copied": "🌍Copied!"
+						"copy": "Copiar endevinalla",
+						"copied": "Copiat!"
 					},
 					"share_button": {
-						"share": "🌍Share Riddle",
-						"shared": "🌍Shared!"
+						"share": "Compartir endevinalla",
+						"shared": "Compartit!"
 					}
 				},
 				"game_state_box": {
-					"start_playing": "🌍Begin by dragging/clicking items from below into the crafting grid!",
-					"discover_status": "🌍Discovered {{discoveredCount}}/{{availableRecipes}}",
-					"timer": "🌍{{remainingTime}}"
+					"start_playing": "Començar per arrastrar/clicar elements de sota a la cuadricula de fabricació!",
+					"discover_status": "Descobertes {{discoveredCount}}/{{availableRecipes}}",
+					"timer": "{{remainingTime}}"
 				},
 				"game_complete_box": {
-					"congrats": "🌍Congratulations!",
-					"discovered": "🌍You have discovered all {{discoveredCount}} recipes with the current items!",
-					"discovered_time": "🌍You have discovered all {{discoveredCount}} recipes in {{time}} with the current items!",
+					"congrats": "Felicitats!",
+					"discovered": "Has descobert totes les {{discoveredCount}} receptes amb els elements actuals!",
+					"discovered_time": "Has descobert totes les {{discoveredCount}} receptes en {{time}} amb els elements actuals!",
 					"regenerate": {
-						"description": "🌍Click the button below to reset the game and pick new items.",
-						"button": "🌍Regenerate",
+						"description": "Presiona el botó de sota per reiniciar el joc i triar nous elements.",
+						"button": "Regenerar",
 						"popup": {
-							"title": "🌍Pick new random items?",
-							"hints": "🌍Show remaining recipe hints?",
-							"description": "🌍Click below to randomize the items in the hexagons and start a new game!",
-							"confirm": "🌍Confirm"
+							"title": "Triar nous elements aleatoris?",
+							"hints": "Mostrar pistes de receptes restants?",
+							"description": "Clica a sota per randomitzar els elements dels hexàgons i començar un nou joc!",
+							"confirm": "Confirmar"
 						}
 					},
-					"more_crafting_riddles": "🌍or find custom ones on our ",
-					"discord_link": "🌍Discord",
-					"more_crafting_riddles_2": "🌍!"
+					"more_crafting_riddles": "o troba customitzats al nostre ",
+					"discord_link": "Discord",
+					"more_crafting_riddles_2": "!"
 				},
 				"tools": {
-					"eraser": "🌍Eraser",
+					"eraser": "Esborraor",
 					"clear": {
-						"button": "🌍Clear",
+						"button": "Buidar",
 						"popup": {
-							"title": "🌍Clear the Crafting table?",
-							"description": "🌍Click below to remove all items from the crafting table.",
-							"confirm": "🌍Confirm"
+							"title": "Buidar la taula de fabricació?",
+							"description": "Clica a sota per eliminar tots els elements de la taula de fabricació.",
+							"confirm": "Confirmar"
 						}
 					}
 				},
 				"quick_settings": {
-					"hints": "🌍Show remaining recipe hints?",
-					"timer": "🌍Include timer?",
-					"regenerate": "🌍Generate new Riddle"
+					"hints": "Mostrar pistes de receptes restants?",
+					"timer": "Incluir temporizador?",
+					"regenerate": "Generar nova endevinalla"
 				},
-				"try_editor": "🌍Check out the editor!"
+				"try_editor": "Prova l'editor!"
 			},
 			"daily": {
-				"title": "🌍Crafting Bee Daily",
-				"description": "🌍Each day, 7 random items are picked. Can you remember all items you can craft with those?",
+				"title": "Crafting Bee Diari",
+				"description": "Cada día, 7 objectes aleatoris són triats. Pots recordar tots els objectes que pots fabricar amb aquests?",
 				"game_complete_box": {
-					"more_tomorrow": "🌍Come back tomorrow for a new daily riddle, or play ",
-					"infinite_link": "🌍infinitely",
-					"more_tomorrow_2": "🌍!",
-					"more_crafting_riddles": "🌍You can also find player-created riddles on our ",
-					"discord_link": "🌍Discord",
-					"more_crafting_riddles_2": "🌍!"
+					"more_tomorrow": "Torna demà per una nova endevinalla diària, o juga ",
+					"infinite_link": "infinitament",
+					"more_tomorrow_2": "!",
+					"more_crafting_riddles": "També pots trobar endevinalles creades per jugadors al nostre ",
+					"discord_link": "Discord",
+					"more_crafting_riddles_2": "!"
 				}
 			},
 			"index": {
 				"daily": {
-					"title": "🌍Daily",
-					"description": "🌍7 Items each day, with streaks"
+					"title": "Diari",
+					"description": "7 objectes cada dia, amb ratxes"
 				},
 				"regular": {
-					"title": "🌍Regular",
-					"description": "🌍7 items, unlimited replay with custom games and randomization."
+					"title": "Normal",
+					"description": "7 ojectes, repetició il·limitada amb jocs customitzats i aleatorització."
 				},
 				"editor": {
-					"title": "🌍Editor",
-					"description": "🌍Create your own Crafting Bee riddles!"
+					"title": "Editor",
+					"description": "Crea les teves propies endevinalles de Crafting Bee!"
 				}
 			},
 			"editor": {
-				"title": "🌍Crafting Bee Editor",
-				"description": "🌍Editor for the crafting bee gamemode",
+				"title": "Editor de Crafting Bee",
+				"description": "Editor per al mode de joc Crafting Bee.",
 				"share_creation": {
-					"before_link": "🌍Share your creation on our",
-					"link": "🌍Discord",
-					"after_link": "🌍!"
+					"before_link": "Comparteix la teva creació al nostre",
+					"link": "Discord",
+					"after_link": "!"
 				},
 				"test_creation": {
-					"before_link": "🌍When you're done,",
-					"link": "🌍test your riddle",
-					"after_link": "🌍or"
+					"before_link": "Cuan acabes,",
+					"link": "prova la teva endevinalla",
+					"after_link": "o"
 				},
 				"copy_creation": {
-					"copy": "🌍Copy riddle link",
-					"copied": "🌍Copied!"
+					"copy": "Copiar enllaç de l'endevinalla",
+					"copied": "Copiat!"
 				},
-				"search_items": "🌍Search for items...",
+				"search_items": "Busca objectes...",
 				"table": {
 					"header": {
-						"item": "🌍Item",
-						"individual_usage": "🌍Individual Item Usage",
-						"recipes_with_item": "🌍Recipes Using Item"
+						"item": "Objecte",
+						"individual_usage": "Objecte d'ús individual",
+						"recipes_with_item": "Receptes que utilitzen aquest objecte"
 					}
 				},
-				"found_recipes": "🌍Found recipes: {{count}}",
-				"delete_item": "🌍Delete",
+				"found_recipes": "Receptes trobades: {{count}}",
+				"delete_item": "Eliminar",
 				"import": {
-					"title": "🌍Game Import",
-					"unlimited_button": "🌍Import Unlimited Game",
+					"title": "Importar joc",
+					"unlimited_button": "Importar joc il·limitat",
 					"popup": {
-						"title": "🌍Import Game From the Unlimited Mode?",
-						"description": "🌍Click below to import the current game from the Unlimited Mode. Note that this will overwrite your current editor progress.",
-						"confirm": "🌍Confirm"
+						"title": "Impotar joc desde el mode il·limitat?",
+						"description": "Presiona el botó de sota per importar el joc actual del mode il·limitat. Tingues en compte que això sobreescriurà el teu progrés actual a l'editor.",
+						"confirm": "Confirmar"
 					}
 				},
-				"return_to_unlimited": "🌍Return to the game!"
+				"return_to_unlimited": "Torna al joc!"
 			},
 			"midnight_timer": {
-				"next_thing": "🌍Reload the page to get the next one!",
-				"next_in": "🌍Next ingredients in {{time}}"
+				"next_thing": "Recàrrega la pàgina per a obtindre el següent!",
+				"next_in": "Següents ingredients en {{time}}"
 			},
 			"next_game": {
-				"name": "🌍Crafting Bee",
-				"description": "🌍Can you remember all recipes with todays items?"
+				"name": "Crafting Bee",
+				"description": "Pots recordar totes les receptes amb els objectes d'avui?"
 			},
 			"help": {
-				"title": "🌍How to play",
+				"title": "Com jugar",
 				"intro": {
-					"goal": "🌍The goal of this game is to craft as many items as possible with the 7 items provided in the hexagons. This gamemode has a daily mode, as well as an unlimited mode paired with a editor. By completing the daily mode, you can build up a win-streak. By playing unlimited, you get to learn how to play the game, learn recipes better, and play games that other players created using the editor!",
-					"entering_items": "🌍To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see the desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagon or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
+					"goal": "La finalitat d'aquest joc és fabricar tants objectes com sigui possible amb els 7 objectes proporcionats als hexàgons. Aquest mode de joc té un mode diari, així com un mode il·limitat emparellat amb un editor. Completant el mode diari, pots construir una racha de victòries. Jugant al mode il·limitat, pots aprendre a jugar al joc, aprendre receptes millor i jugar a jocs que altres jugadors han creat utilitzant l'editor!",
+					"entering_items": "Per a començar a jugar, selecciona un objecte als hexàgons i després fes clic a una ranura a la graella de la taula d'elaboració, on fer clic a diverses ranures \"pintarà\" aquestes ranures. Repeteix aquest procés fins que veus la recepta desitjada a la ranura de sortida. A continuació, fes clic a l'objecte resultant per fabricar-lo! Alternativament, pots arrossegar i deixar anar objectes des del hexàgon o d'una ranura a una altra. A més, pots ser un \"Mago del Teclat\" i seleccionar els hexàgons amb les tecles numèriques, WASD per les ranures de la taula d'elaboració, Espai per posar i Enter per fabricar. Els vincles de teclat es poden configurar en els ajustos situats a l'esquerra del títol MCdle."
 				},
 				"example": {
-					"title": "🌍Example",
-					"intro": "🌍Let's look at some examples! From a single diamond, we can craft 5 individual items!",
-					"try_example": "🌍Try this example",
-					"hint_info": "🌍Feeling stuck? You can enable hints in the box below the delete/clear buttons. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
-					"mc_wiki": "🌍Minecraft Wiki",
-					"hint_info_2": "🌍to look up recipes.",
-					"test_hints": "🌍Test toggling the hint system"
+					"title": "Exemple",
+					"intro": "Anem a vore algun exemples! Des d'un diamant sol, podem fabricar 5 objectes individuals!",
+					"try_example": "Intentar aquest exemple",
+					"hint_info": "Et sens atorat? Pots activar els suggeriments en la caixa sota els botons de suprimir/clarificar. Els suggeriments apareixeran sobre els hexàgons individuals i t'indicaran quants objectes et queden per fabricar amb aquest ingredient! Des d'allà, pots visitar el",
+					"mc_wiki": "Wiki de Minecraft",
+					"hint_info_2": "per a buscar receptes.",
+					"test_hints": "Proba a activar els suggeriments"
 				},
 				"tips": {
-					"title": "🌍Tips",
-					"individual_results_only": "🌍The game only counts individual results, not individual recipes. E.g. Both bamboo and planks make sticks, but once you crafted sticks, that's it!",
-					"where_help": "🌍Use the hint system if you are stuck. The wiki is a great pair for that, just search for the item you are missing!",
-					"not_all_recipes": "🌍Crafting Bee does not contain every craftable recipe. Only standard shaped and shapeless recipes inside the crafting table are included. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
+					"title": "Tips",
+					"individual_results_only": "El joc només compta resultats individuals, no receptes individuals. Per exemple, tant el bambú com els planks fan pallassos, però un cop has fabricat pallassos, ja està!",
+					"where_help": "Utilitza el sistema de suggeriments si estàs atorat. La wiki és una gran parella per a això, només cal buscar l'objecte que et falta!",
+					"not_all_recipes": "Crafting Bee no conté totes les receptes fabricables. Només s'inclouen receptes estàndard amb forma i sense forma dins de la taula d'elaboració. Receptes no estàndard, com pòlvora personalitzada, tassons decorats o similars, no s'inclouen."
 				}
 			}
 		},
@@ -882,8 +882,8 @@
 						"cover_alt_text": "Coberta del llibre de Criatures"
 					},
 					"crafting": {
-						"title": "🌍The Book of Crafting",
-						"cover_alt_text": "🌍Crafting Bee Book Cover"
+						"title": "Llibre de Crafting",
+						"cover_alt_text": "Coberta del llibre de Crafting Bee"
 					}
 				}
 			},
@@ -900,21 +900,21 @@
 				"description": "Per a les Criatures que pots encontrar en MCdle."
 			},
 			"crafting": {
-				"title": "🌍Crafting Bee Bestiary",
-				"description": "🌍For all the items you can craft in MCdle's Crafting Bee.",
+				"title": "Bestiari de Crafting Bee",
+				"description": "Per a tots els objectes que pots fabricar en el Crafting Bee de MCdle.",
 				"entry": {
 					"discovered": {
-						"label": "🌍Discovered in",
-						"daily": "🌍Daily Challenge",
-						"random": "🌍Random Game",
-						"custom": "🌍Custom Game"
+						"label": "Descobert en",
+						"daily": "Desafiament Diari",
+						"random": "Joc aleatori",
+						"custom": "Joc personalitzat"
 					},
 					"recipes": {
-						"label": "🌍Recipes"
+						"label": "Receptes"
 					}
 				},
 				"filters": {
-					"unavailable": "🌍There are currently no filters available."
+					"unavailable": "No hi ha filtres disponibles actualment."
 				}
 			},
 			"generic": {
@@ -1333,7 +1333,7 @@
 		"wheat": "Blat",
 		"wildflowers": "Flors silvestres",
 		"wither_rose": "Rosa Wither",
-		"shelf": "Prestatgeria d'acàcia TODO",
+		"shelf": "Prestatgeria",
 		"copper_chest": "Cofre de coure",
 		"copper_golem_statue": "Estàtua de gólem de coure"
 	},
@@ -1534,8 +1534,8 @@
 		"written_book": "Llibre escrit",
 		"kelp": "Alga",
 		"copper_nugget": "Palleta de coure",
-		"spear": "Llança de fusta TODO",
-		"nautilus_armor": "Armadura de netherita per a nautilus TODO"
+		"spear": "Llança",
+		"nautilus_armor": "Armadura de netherita per a nautilus"
 	},
 	"mobs": {
 		"allay": "Allay",
