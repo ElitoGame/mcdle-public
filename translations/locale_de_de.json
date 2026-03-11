@@ -750,7 +750,14 @@
 					},
 					"more_crafting_riddles": "oder finde benuzerdefinierte auf unserem ",
 					"discord_link": "Discord",
-					"more_crafting_riddles_2": "!"
+					"more_crafting_riddles_2": "!",
+					"replay": {
+						"button": "Wiederholen",
+						"popup": {
+							"title": "Wiederhole dieses Spiel",
+							"description": "Klicke den Knopf unten um das selbe Spiel mit den gleichen Gegenständen noch einmal zu spielen!"
+						}
+					}
 				},
 				"tools": {
 					"eraser": "Radierer",
@@ -766,7 +773,8 @@
 				"quick_settings": {
 					"hints": "Übrige Rezepte Tip anzeigen?",
 					"timer": "Zeitmesser anzeigen?",
-					"regenerate": "Neues Rätsel generieren"
+					"regenerate": "Neues Rätsel generieren",
+					"auto_craft": "Automatisch Craften?"
 				},
 				"try_editor": "Probier den Editor aus!"
 			},
@@ -1142,7 +1150,7 @@
 		"head": "Kopf",
 		"fungus": "Pilz",
 		"nylium": "Nezel",
-		"roots": "Wurzeln",
+		"roots": "Nether Wurzeln",
 		"crying_obsidian": "Weinender Obsidian",
 		"daylight_detector": "Tageslichtsensor",
 		"dead_bush": "Toter Busch",
