@@ -774,7 +774,7 @@
 					"hints": "Montrer l'indice du nombre de recettes restantes ?",
 					"timer": "Inclure un chronomètre ?",
 					"regenerate": "Générer une nouvelle énigme",
-					"auto_craft": "🌍Auto craft?"
+					"auto_craft": "Fabrication automatique ?"
 				},
 				"try_editor": "Essaie l'éditeur !"
 			},
