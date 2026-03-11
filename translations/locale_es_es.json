@@ -748,9 +748,16 @@
 							"confirm": "Confirmar"
 						}
 					},
-					"more_crafting_acertijos": "o encuentra personalizadas en nuestro ",
+					"more_crafting_riddles": "o encuentra personalizadas en nuestro ",
 					"discord_link": "Discord",
-					"more_crafting_acertijos_2": "!"
+					"more_crafting_riddles_2": "!",
+					"replay": {
+						"button": "🌍Replay",
+						"popup": {
+							"title": "🌍Replay the current game?",
+							"description": "🌍Click below to play the game again with the same items!"
+						}
+					}
 				},
 				"tools": {
 					"eraser": "Borrar",
@@ -766,7 +773,8 @@
 				"quick_settings": {
 					"hints": "Mostrar pistas de recetas faltantes?",
 					"timer": "Incluir temporalizador?",
-					"regenerate": "Generar nuevo acertijo"
+					"regenerate": "Generar nuevo acertijo",
+					"auto_craft": "🌍Auto craft?"
 				},
 				"try_editor": "Héchale un vistazo al editor!"
 			},
@@ -777,9 +785,9 @@
 					"more_tomorrow": "Vuelve mañana para un nuevo acertijo diario, o juega ",
 					"infinite_link": "infinitamente",
 					"more_tomorrow_2": "!",
-					"more_crafting_acertijos": "Puedes incluso encontrar acertijos creados por otros jugadores en nuestro ",
+					"more_crafting_riddles": "Puedes incluso encontrar acertijos creados por otros jugadores en nuestro ",
 					"discord_link": "Discord",
-					"more_crafting_acertijos_2": "!"
+					"more_crafting_riddles_2": "!"
 				}
 			},
 			"index": {
@@ -1142,7 +1150,7 @@
 		"head": "Cabeza",
 		"fungus": "Hongo",
 		"nylium": "Necelio",
-		"roots": "Raíces",
+		"roots": "Raíces Abisal",
 		"crying_obsidian": "Obsidiana Llorosa",
 		"daylight_detector": "Sensor de Luz Solar",
 		"dead_bush": "Arbusto Muerto",

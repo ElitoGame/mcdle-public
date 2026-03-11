@@ -750,7 +750,14 @@
 					},
 					"more_crafting_riddles": "ou trouves-en des personnalisés sur notre",
 					"discord_link": "Discord",
-					"more_crafting_riddles_2": " !"
+					"more_crafting_riddles_2": " !",
+					"replay": {
+						"button": "🌍Replay",
+						"popup": {
+							"title": "🌍Replay the current game?",
+							"description": "🌍Click below to play the game again with the same items!"
+						}
+					}
 				},
 				"tools": {
 					"eraser": "Gomme",
@@ -766,7 +773,8 @@
 				"quick_settings": {
 					"hints": "Montrer l'indice du nombre de recettes restantes ?",
 					"timer": "Inclure un chronomètre ?",
-					"regenerate": "Générer une nouvelle énigme"
+					"regenerate": "Générer une nouvelle énigme",
+					"auto_craft": "🌍Auto craft?"
 				},
 				"try_editor": "Essaie l'éditeur !"
 			},

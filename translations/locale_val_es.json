@@ -750,7 +750,14 @@
 					},
 					"more_crafting_riddles": "o troba customitzats al nostre ",
 					"discord_link": "Discord",
-					"more_crafting_riddles_2": "!"
+					"more_crafting_riddles_2": "!",
+					"replay": {
+						"button": "🌍Replay",
+						"popup": {
+							"title": "🌍Replay the current game?",
+							"description": "🌍Click below to play the game again with the same items!"
+						}
+					}
 				},
 				"tools": {
 					"eraser": "Esborraor",
@@ -766,7 +773,8 @@
 				"quick_settings": {
 					"hints": "Mostrar pistes de receptes restants?",
 					"timer": "Incluir temporizador?",
-					"regenerate": "Generar nova endevinalla"
+					"regenerate": "Generar nova endevinalla",
+					"auto_craft": "🌍Auto craft?"
 				},
 				"try_editor": "Prova l'editor!"
 			},
@@ -1142,7 +1150,7 @@
 		"head": "Cap",
 		"fungus": "Fong",
 		"nylium": "Necelio",
-		"roots": "Arrels",
+		"roots": "Arrels Abisal",
 		"crying_obsidian": "Obsidiana Plorosa",
 		"daylight_detector": "Sensor de Llum Solar",
 		"dead_bush": "Arbust Mort",
