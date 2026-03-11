@@ -750,7 +750,14 @@
 					},
 					"more_crafting_riddles": "🌍or find custom ones on our ",
 					"discord_link": "🌍Discord",
-					"more_crafting_riddles_2": "🌍!"
+					"more_crafting_riddles_2": "🌍!",
+					"replay": {
+						"button": "🌍Replay",
+						"popup": {
+							"title": "🌍Replay the current game?",
+							"description": "🌍Click below to play the game again with the same items!"
+						}
+					}
 				},
 				"tools": {
 					"eraser": "🌍Eraser",
@@ -766,7 +773,8 @@
 				"quick_settings": {
 					"hints": "🌍Show remaining recipe hints?",
 					"timer": "🌍Include timer?",
-					"regenerate": "🌍Generate new Riddle"
+					"regenerate": "🌍Generate new Riddle",
+					"auto_craft": "🌍Auto craft?"
 				},
 				"try_editor": "🌍Check out the editor!"
 			},
@@ -1142,7 +1150,7 @@
 		"head": "Cabeça",
 		"fungus": "Fungo",
 		"nylium": "Nicélio",
-		"roots": "Raízes",
+		"roots": "Raízes do Nether",
 		"crying_obsidian": "Obsidiana Chorona",
 		"daylight_detector": "Detector de Luz Solar",
 		"dead_bush": "Arbusto Seco",
