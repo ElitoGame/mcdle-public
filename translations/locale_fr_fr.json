@@ -752,10 +752,10 @@
 					"discord_link": "Discord",
 					"more_crafting_riddles_2": " !",
 					"replay": {
-						"button": "🌍Replay",
+						"button": "Recommencer",
 						"popup": {
-							"title": "🌍Replay the current game?",
-							"description": "🌍Click below to play the game again with the same items!"
+							"title": "Recommencer la partie ?",
+							"description": "Clique ci-dessous pour jouer une nouvelle fois avec les mêmes objets !"
 						}
 					}
 				},
@@ -774,7 +774,7 @@
 					"hints": "Montrer l'indice du nombre de recettes restantes ?",
 					"timer": "Inclure un chronomètre ?",
 					"regenerate": "Générer une nouvelle énigme",
-					"auto_craft": "🌍Auto craft?"
+					"auto_craft": "Fabrication automatique ?"
 				},
 				"try_editor": "Essaie l'éditeur !"
 			},
