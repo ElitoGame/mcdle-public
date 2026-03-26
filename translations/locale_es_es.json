@@ -1343,7 +1343,8 @@
 		"wither_rose": "Rosa Wither",
 		"shelf": "Estante",
 		"copper_chest": "Cofre de cobre",
-		"copper_golem_statue": "Estatua de gólem de cobre"
+		"copper_golem_statue": "Estatua de gólem de cobre",
+		"golden_dandelion": "Diente de león dorado"
 	},
 	"items": {
 		"boat": "Barca",

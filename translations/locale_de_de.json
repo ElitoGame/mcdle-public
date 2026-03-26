@@ -1343,7 +1343,8 @@
 		"wither_rose": "Wither-Rose",
 		"shelf": "Holzregal",
 		"copper_chest": "Kupfertruhe",
-		"copper_golem_statue": "Kupfergolemstatue"
+		"copper_golem_statue": "Kupfergolemstatue",
+		"golden_dandelion": "Goldlöwenzahn"
 	},
 	"items": {
 		"boat": "Holzboot",

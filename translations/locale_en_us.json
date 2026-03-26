@@ -1343,7 +1343,8 @@
 		"wither_rose": "Wither Rose",
 		"shelf": "Shelf",
 		"copper_chest": "Copper Chest",
-		"copper_golem_statue": "Copper Golem Statue"
+		"copper_golem_statue": "Copper Golem Statue",
+		"golden_dandelion": "Golden Dandelion"
 	},
 	"items": {
 		"boat": "Boat",

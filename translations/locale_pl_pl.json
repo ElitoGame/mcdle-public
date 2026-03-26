@@ -427,7 +427,7 @@
 					},
 					"recipe": {
 						"crafting_table": "Crafting Table",
-						"furnace": "Furtka",
+						"furnace": "Piec",
 						"brewing_stand": "Statyw Alchemiczny",
 						"none": "Brak"
 					},
@@ -540,7 +540,7 @@
 				"header": {
 					"title": "Mob",
 					"initial_release": "Wersja dodania",
-					"health": "Życie",
+					"health": "Zdrowie",
 					"height": "Wysokość",
 					"behavior": "Zacho<wbr>wanie",
 					"spawn": "Wystę<wbr>powanie",
@@ -1343,7 +1343,8 @@
 		"wither_rose": "Witherowa róża",
 		"shelf": "Akacjowa półka TODO",
 		"copper_chest": "Miedziana skrzynia",
-		"copper_golem_statue": "Posąg miedzianego golema"
+		"copper_golem_statue": "Posąg miedzianego golema",
+		"golden_dandelion": "Złoty mlecz"
 	},
 	"items": {
 		"boat": "Łódka",

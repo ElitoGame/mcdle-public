@@ -1,1639 +1,1639 @@
 {
-  "footer": {
-    "links": {
-      "cookie": {
-        "title": "Süti szabályzat"
-      },
-      "patchnotes": {
-        "title": "Javítási jegyzék"
-      }
-    },
-    "about": {
-      "title": "Névjegy",
-      "button_title": "Névjegy",
-      "intro": "A Mcdle egy Wordle-szerű kirakós játék Minecrafttal kapcsolatos tartalommal. Minden nap egy új Minecraft blokk, tárgy és lény kerül kiválasztásra, amit ki kell találnod. Gyere vissza naponta, hogy győzelmi sorozatot építs! Vannak közösségi megosztási funkciók is, így megoszthatod a győzelmeidet és a sorozataidat a barátaiddal!",
-      "help_pointer": "Nem vagy biztos benne, hogyan kell játszani? Minden játékoldalon van egy ? ikon a cím alatt, amely megnyit egy súgómenüt példákkal és részletes leírásokkal az aktuális játékmódról.",
-      "suggestions": {
-        "title": "Javaslatok",
-        "description": {
-          "pre_link": "A legtöbb javaslatot és hibajelentést/támogatást a ",
-          "link": "Discordon",
-          "post_link": " kezelem, csatlakozz bátran és lógj velünk, van dinnyénk! Vannak csatornáink a napi kvízek megvitatására és a győzelmi sorozatok megosztására is!"
-        }
-      },
-      "support": {
-        "title": "Támogatás",
-        "description": {
-          "pre_link": "Ha szeretnéd támogatni a projektet (pl. fizetni az URL-ért, támogatni új funkciókat stb.), nézd meg a ",
-          "link": "Ko-fi",
-          "post_link": " oldalam!"
-        }
-      },
-      "credits": {
-        "title": "Készítők",
-        "description": {
-          "pre_link": "A játék adatai a ",
-          "link": "Minecraft Wikiről",
-          "post_link": " származnak. Sok kép is ott található, úgyhogy nagy köszönet nekik a kemény munkájukért, amivel naprakészen tartják a wikit! Az MCdle nem áll kapcsolatban, nem támogatott és nem szponzorált a Mojang Studios által. De nyilvánvalóan a Minecrafton alapul, és a Wordle és a LoLdle ihlette."
-        },
-        "credit_list": {
-          "kineticraft": {
-            "pre_link": "Köszönet a ",
-            "link": "kineticraft.net",
-            "post_link": " szervernek a háttérképért!"
-          },
-          "vanilla_tweaks": {
-            "pre_link": "Köszönet a ",
-            "link": "Vanilla Tweaksnek",
-            "post_link": " a dinnye- és tökszár textúrákért!"
-          },
-          "alldle": {
-            "post_link": "hogy kiemelték az MCdle-t az oldalukon!"
-          }
-        }
-      },
-      "version": {
-        "title": "Verzió",
-        "description": "A mai játék a #{{version}} számú rejtvény! A játék minden nap éjfélkor (UTC) választ új blokkot, tárgyat és lényt."
-      },
-      "supporters": {
-        "title": "Támogatók",
-        "description": {
-          "pre_link": "Köszönöm minden",
-          "post_link": " támogatónak!"
-        }
-      }
-    }
-  },
-  "header": {
-    "settings": {
-      "headers": {
-        "mcdle": "Mcdle",
-        "crafting_bee": "Crafting Bee"
-      },
-      "colorblind": {
-        "input_name": "Színtévesztő mód",
-        "label": "Színtévesztő mód"
-      },
-      "difficulty": {
-        "limit_guesses_6": {
-          "input_name": "Korlátozott próbálkozások",
-          "label": "Tippek korlátozása 6 próbálkozásra"
-        },
-        "search": {
-          "game_knowledge": {
-            "input_name": "Játékismeret",
-            "label": "Játékismeret"
-          },
-          "logical": {
-            "input_name": "Logikai",
-            "label": "Logikai"
-          },
-          "showcase": {
-            "fallback": "Válassz nehézséget a kereséshez!",
-            "game_knowledge": {
-              "description": "Nincsenek keresési tippek, magadra vagy utalva a játékismereteddel!",
-              "image_alt": "Játékismeret nehézségi keresés"
-            },
-            "logical": {
-              "description": "A keresés megmutatja az összes elérhető statisztikát, logikai játékká alakítva az MCdle-t!",
-              "image_alt": "Logikai nehézségi keresés"
-            }
-          },
-          "title": "Keresés:"
-        },
-        "title": "Nehézség"
-      },
-      "keybinds": {
-        "title": "Billentyűkiosztás",
-        "binds": {
-          "crafting.selectHex.1": {
-            "name": "1. hatszög kiválasztása",
-            "description": "1. hatszögletű csempe kiválasztása"
-          },
-          "crafting.selectHex.2": {
-            "name": "2. hatszög kiválasztása",
-            "description": "2. hatszögletű csempe kiválasztása"
-          },
-          "crafting.selectHex.3": {
-            "name": "3. hatszög kiválasztása",
-            "description": "3. hatszögletű csempe kiválasztása"
-          },
-          "crafting.selectHex.4": {
-            "name": "4. hatszög kiválasztása",
-            "description": "4. hatszögletű csempe kiválasztása"
-          },
-          "crafting.selectHex.5": {
-            "name": "5. hatszög kiválasztása",
-            "description": "5. hatszögletű csempe kiválasztása"
-          },
-          "crafting.selectHex.6": {
-            "name": "6. hatszög kiválasztása",
-            "description": "6. hatszögletű csempe kiválasztása"
-          },
-          "crafting.selectHex.7": {
-            "name": "7. hatszög kiválasztása",
-            "description": "7. hatszögletű csempe kiválasztása"
-          },
-          "crafting.grid.nav.up": {
-            "name": "Navigálás a barkácsrácson fel",
-            "description": "A kijelölő mozgatása felfelé a barkácsrácson"
-          },
-          "crafting.grid.nav.down": {
-            "name": "Navigálás a barkácsrácson le",
-            "description": "A kijelölő mozgatása lefelé a barkácsrácson"
-          },
-          "crafting.grid.nav.left": {
-            "name": "Navigálás a barkácsrácson balra",
-            "description": "A kijelölő mozgatása balra a barkácsrácson"
-          },
-          "crafting.grid.nav.right": {
-            "name": "Navigálás a barkácsrácson jobbra",
-            "description": "A kijelölő mozgatása jobbra a barkácsrácson"
-          },
-          "crafting.grid.placeItem": {
-            "name": "Tárgy elhelyezése a rácson",
-            "description": "A kiválasztott tárgy elhelyezése a barkácsrácson"
-          },
-          "crafting.grid.craftItem": {
-            "name": "Tárgy barkácsolása",
-            "description": "A tárgy elkészítése a barkácsolás kimenetén"
-          },
-          "crafting.grid.deleteItem": {
-            "name": "Tárgy törlése a rácson",
-            "description": "A tárgy törlése a barkácsrácson"
-          },
-          "crafting.grid.clear": {
-            "name": "Barkácsrács törlése",
-            "description": "A barkácsrács törlése"
-          },
-          "crafting.grid.clearImmediate": {
-            "name": "Rács azonnali törlése",
-            "description": "A barkácsrács azonnali törlése megerősítés nélkül"
-          },
-          "crafting.randomize": {
-            "name": "Véletlenszerű játék",
-            "description": "7 véletlenszerű tárgy kérése a játékhoz"
-          }
-        }
-      },
-      "settings_button": {
-        "image_alt": "Beállítások gomb",
-        "tooltip": "Beállítások"
-      },
-      "title": "Beállítások"
-    },
-    "language": {
-      "title": "Nyelv",
-      "tooltip": "Nyelv",
-      "description": {
-        "pre_link": "Ez a weboldal hivatalosan az angolt és a németet támogatja, de a közösségnek köszönhetően más nyelvek is elérhetővé váltak a ",
-        "link": "Githubon",
-        "post_link": " keresztül. Nincs garancia arra, hogy a nem hivatalos fordítások naprakészek vagy helyesek, szóval ha hibát találsz, nyugodtan nyiss egy pull requestet!"
-      }
-    }
-  },
-  "pages": {
-    "404": {
-      "compass_alt": "Iránytű gif",
-      "message": "Egy 404-es végbe ütköztél ebben a barlangban...",
-      "return_message": "Fogj egy iránytűt a hazatéréshez!"
-    },
-    "index": {
-      "header": "Válassz játékmódot",
-      "links": {
-        "blocks": {
-          "image_alt": "Blokkok ikon",
-          "subtitle": "Találd ki a mai minecraft blokkot",
-          "title": "Blokkok"
-        },
-        "items": {
-          "image_alt": "Tárgyak ikon",
-          "subtitle": "Találd ki a mai minecraft tárgyat",
-          "title": "Tárgyak"
-        },
-        "mobs": {
-          "image_alt": "Lények ikon",
-          "subtitle": "Fedezd fel a mai minecraft lényt",
-          "title": "Lények"
-        },
-        "crafting": {
-          "image_alt": "Crafting Bee ikon",
-          "subtitle": "Ismered a recepteket?",
-          "title": "Crafting Bee"
-        },
-        "goal": {
-          "title": "MCdle Bestiárium",
-          "image_alt": "Cél ikon"
-        },
-        "bestiary": {
-          "title": "Bestiárium",
-          "image_alt": "Bestiárium ikon",
-          "subtitle": "Kövesd a fejlődésed és kezdj el gyűjteni! Szűrheted is, hogy mit fedeztél már fel!"
-        },
-        "kineticraft": {
-          "title": "Játssz végtelenül a kineticraft.net-en",
-          "image_alt": "Kineticraft ikon",
-          "subtitle": "A Lény, Blokk és Tárgy játékmódok késleltetés nélkül játszhatók, de meg kell találnod őket a világban! /mcdle"
-        }
-      }
-    },
-    "generic": {
-      "game": {
-        "complete_support": {
-          "start": "Ha élvezed az MCdle-t, fontold meg a projekt támogatását itt:",
-          "end": "!"
-        },
-        "see_in_bestiary": "Nézd meg a bestiáriumban!"
-      }
-    },
-    "block": {
-      "title": "Játékmód: Találd ki a mai Blokkot!",
-      "sub_title_menus": {
-        "stats": {
-          "title": "Statisztikák",
-          "tooltip": "Statisztikák"
-        },
-        "streak": {
-          "title": "Haladás átvitele",
-          "tooltip": "Győzelmi sorozat"
-        },
-        "help": {
-          "tooltip": "Hogyan játssz"
-        },
-        "bestiary": {
-          "tooltip": "Bestiárium"
-        }
-      },
-      "table": {
-        "header": {
-          "title": "Blokk",
-          "initial_release": "Kiadás",
-          "stack_size": "Készletméret",
-          "tool": "Eszköz(ök)",
-          "blast_resistance": "Robbanás<wbr>ellenállás",
-          "hardness": "Keménység",
-          "flammable": "Gyúlékony",
-          "transparent": "Átlátszó",
-          "full_block": "Teljes blokk"
-        },
-        "data": {
-          "tool": {
-            "any_tool": "Bármelyik",
-            "axe": "Fejsze",
-            "pickaxe": "Csákány",
-            "hoe": "Kapa",
-            "shears": "Olló",
-            "sword": "Kard",
-            "none": "Nincs",
-            "shovel": "Ásó",
-            "bucket": "Vödör",
-            "brush": "Ecset"
-          },
-          "states": {
-            "yes": "Igen",
-            "no": "Nem",
-            "partial": "Részleges"
-          }
-        }
-      },
-      "loose": {
-        "title": "Nem sikerült felfedezned a mai blokkot",
-        "subtitle": "Több szerencsét holnap! (vagy kapcsold ki a tippkorlátot a beállításokban)"
-      },
-      "win": {
-        "title": "Blokk felfedezve!",
-        "subtitle": "A mai blokk a(z) {{name}} volt!"
-      },
-      "intro": {
-        "description": "Találd ki a mai Minecraft blokkot!",
-        "start_help": "Írj lentebb a kezdéshez!"
-      },
-      "limited_attempts": {
-        "warning": {
-          "zero": "{{remaining}} tipped maradt!",
-          "one": "{{remaining}} tipped maradt!",
-          "two-four": "{{remaining}} tipped maradt!",
-          "many": "{{remaining}} tipped maradt!"
-        }
-      },
-      "search": {
-        "placeholder": {
-          "initial": "Keress egy blokkot",
-          "new_tomorrow": "Új blokk holnap!",
-          "no_more_guesses": "Kifogytál a tippekből!"
-        },
-        "submit": {
-          "aria_label": "Próbáld ki ezt a blokkot"
-        },
-        "ambiguous_result": {
-          "description": "Kétértelmű blokk felfedezve! A további helytelen kétértelmű blokkok pirossal lesznek áthúzva.",
-          "image_alt": "Kincsvadász - szoros volt"
-        }
-      },
-      "midnight_timer": {
-        "next_thing": "Frissítsd az oldalt a következőhöz!",
-        "next_in": "Következő blokk {{time}} múlva"
-      },
-      "yesterday_info": {
-        "description": "A tegnapi blokk a(z) {{name}} volt!"
-      },
-      "next_game": {
-        "name": "Blokkok",
-        "description": "Készen állsz a mai blokk kitalálására?"
-      },
-      "quick_help": {
-        "look_for": "Még mindig jobb magyarázatot keresel? Keresd a",
-        "tooltip": "Hogyan játssz",
-        "click_here": "ikont a játék címe alatt, vagy kattints ide!"
-      },
-      "help": {
-        "title": "Hogyan játssz",
-        "intro": {
-          "goal": "A játék célja, hogy kitalálj egy Minecraft blokkot. Minden nap új blokk kerül kiválasztásra, és ha folyamatosan kitalálod a nap blokkját, győzelmi sorozatot építhetsz!",
-          "enter_guesses": "Kezdd azzal, hogy beírod bármelyik blokk nevét a keresőmezőbe. A keresésed alapján legfeljebb 10 találat jelenik meg. Kattints bármelyikre, vagy navigálj rájuk a nyílbillentyűkkel, és nyomd meg az Entert a tipped rögzítéséhez.",
-          "field_explanation": "A választott blokk tulajdonságait összehasonlítjuk a mai blokkal, és zölddel jelöljük, ha egyezik, sárgával a részleges egyezést, és pirossal, ha helytelen. A helytelen szám/verzió mezők mögött egy nyilat is találsz, ami jelzi, hogy nagyobbat vagy kisebbet kell-e tippelned."
-        },
-        "example": {
-          "title": "Példa",
-          "intro": "Nézzünk egy példajátékot. Először megpróbálunk egy tetszőleges blokkot.",
-          "table_interpretation_1": "Megtudtuk, hogy a blokk, mint a legtöbb másik, 64-ig halmozható, és nem gyúlékony. Nem a pre-alpha verziókban került be, és nem bányászható csákánnyal. Szóval próbáljunk egy másik, újabb blokkot.",
-          "table_interpretation_2": "Felfedeztük a blokk verzióját! Ideje olyan blokkot keresni, ami a Beta 1.8-ban került be. Ráadásul részleges egyezést kaptunk az eszköznél, tehát fejszével és valamilyen más eszközzel is törhető. Továbbá a blokk se nem átlátszó (\"Igen\"), se nem nem-átlátszó (\"Nem\"), tehát részben átlátszó lehet. Keressünk egy blokkot, ami megfelel ezeknek a tulajdonságoknak.",
-          "table_interpretation_3": "Meg is van! Felfedeztük, hogy a blokk egy dinnyeblokk volt, micsoda élvezet!"
-        },
-        "partial_matches": {
-          "title": "Részleges egyezés magyarázata",
-          "intro": "Nézzük meg részletesen a részleges egyezéseket, mert valószínűleg ezek a legzavaróbbak a csempeszínek közül.",
-          "explanation": "Részleges egyezés csak olyan mezőkben jelenhet meg, amelyek listából állnak (pl. Eszközök). Ha olyan blokkot tippeltél, ami legalább egy olyan eszközzel törhető, ami egyezik a tényleges blokkéval, részleges egyezést kapsz. Íme egy példa a levelekre:"
-        },
-        "tips": {
-          "title": "Tippek",
-          "not_all_blocks": "Az MCdle nem tartalmaz minden típusú blokkot. A beton, terrakotta, gyapjú stb. összes színes változata egy reprezentatív blokkba van összevonva, mint pl. \"Beton\" vagy \"Gyapjú\". Ez vonatkozik a különböző fafajtákra, falakra, lépcsőkre stb. is.",
-          "utilize_the_search": "Használd ki a keresősávot! A javaslatok átnézése segít leszűkíteni a keresésedet.",
-          "use_the_wiki": "Nyugodtan használd a Minecraft wikit. Amint meghatároztad a blokk verzióját, a wiki segítségével megtalálhatod az abban a verzióban hozzáadott blokkokat, ami drasztikusan segít leszűkíteni a keresést."
-        }
-      }
-    },
-    "item": {
-      "title": "Játékmód: Találd ki a mai Tárgyat!",
-      "sub_title_menus": {
-        "stats": {
-          "title": "Statisztikák",
-          "tooltip": "Statisztikák"
-        },
-        "streak": {
-          "title": "Haladás átvitele",
-          "tooltip": "Győzelmi sorozat"
-        },
-        "help": {
-          "tooltip": "Hogyan játssz"
-        },
-        "bestiary": {
-          "tooltip": "Bestiárium"
-        }
-      },
-      "table": {
-        "header": {
-          "title": "Tárgy",
-          "initial_release": "Kiadás",
-          "stack_size": "Készletméret",
-          "rarity": "Ritkaság",
-          "inventory_categories": "Kreatív leltár kategória",
-          "renewable": "Megújuló",
-          "usage": "Használat",
-          "source": "Forrás",
-          "recipe": "Recept",
-          "loot": "Zsákmány"
-        },
-        "data": {
-          "rarity": {
-            "common": "Gyakori",
-            "uncommon": "Nem gyakori",
-            "rare": "Ritka",
-            "epic": "Epikus",
-            "mixed": "Vegyes"
-          },
-          "inventory_category": {
-            "tools_and_utilities": "Eszközök",
-            "redstone_blocks": "Redstone blokkok",
-            "functional_blocks": "Funkcionális blokkok",
-            "natural_blocks": "Természetes blokkok",
-            "ingredients": "Hozzávalók",
-            "combat": "Harc",
-            "food_and_drinks": "Étel és ital",
-            "none": "Nincs",
-            "spawn_eggs": "Idézőtojások",
-            "operator_utilities": "Operátori eszközök"
-          },
-          "recipe": {
-            "crafting_table": "Barkácsasztal",
-            "furnace": "Kemence",
-            "brewing_stand": "Főzőállvány",
-            "none": "Nincs"
-          },
-          "loot": {
-            "container": "Tároló",
-            "mob": "Lény",
-            "fishing": "Horgászat",
-            "trading": "Kereskedelem",
-            "none": "Nincs"
-          }
-        }
-      },
-      "loose": {
-        "title": "Nem sikerült felfedezned a mai tárgyat",
-        "subtitle": "Több szerencsét holnap! (vagy kapcsold ki a tippkorlátot a beállításokban)"
-      },
-      "win": {
-        "title": "Tárgy felfedezve!",
-        "subtitle": "A mai tárgy a(z) {{name}} volt!"
-      },
-      "intro": {
-        "description": "Találd ki a mai Minecraft tárgyat!",
-        "start_help": "Írj lentebb a kezdéshez!"
-      },
-      "limited_attempts": {
-        "warning": {
-          "zero": "{{remaining}} tipped maradt!",
-          "one": "{{remaining}} tipped maradt!",
-          "two-four": "{{remaining}} tipped maradt!",
-          "many": "{{remaining}} tipped maradt!"
-        }
-      },
-      "search": {
-        "placeholder": {
-          "initial": "Keress egy tárgyat",
-          "new_tomorrow": "Új tárgy holnap!",
-          "no_more_guesses": "Kifogytál a tippekből!"
-        },
-        "submit": {
-          "aria_label": "Próbáld ki ezt a tárgyat"
-        },
-        "ambiguous_result": {
-          "description": "Kétértelmű tárgy felfedezve! A további helytelen kétértelmű tárgyak pirossal lesznek áthúzva.",
-          "image_alt": "Kincsvadász - szoros volt"
-        }
-      },
-      "midnight_timer": {
-        "next_thing": "Frissítsd az oldalt a következőhöz!",
-        "next_in": "Következő tárgy {{time}} múlva"
-      },
-      "yesterday_info": {
-        "description": "A tegnapi tárgy a(z) {{name}} volt!"
-      },
-      "next_game": {
-        "name": "Tárgyak",
-        "description": "Készen állsz a mai tárgy kitalálására is?"
-      },
-      "quick_help": {
-        "look_for": "Még mindig jobb magyarázatot keresel? Keresd a",
-        "tooltip": "Hogyan játssz",
-        "click_here": "ikont a játék címe alatt, vagy kattints ide!"
-      },
-      "help": {
-        "title": "Hogyan játssz",
-        "intro": {
-          "goal": "A játék célja, hogy kitalálj egy Minecraft tárgyat. Minden nap új tárgy kerül kiválasztásra, és ha folyamatosan kitalálod a nap tárgyát, győzelmi sorozatot építhetsz.",
-          "enter_guesses": "Kezdd azzal, hogy beírod bármelyik tárgy nevét a keresőmezőbe. A keresésed alapján legfeljebb 10 találat jelenik meg. Kattints bármelyikre, vagy navigálj rájuk a nyílbillentyűkkel, és nyomd meg az Entert a tipped rögzítéséhez.",
-          "field_explanation": "A választott tárgy tulajdonságait összehasonlítjuk a mai tárggyal, és zölddel jelöljük, ha egyezik, sárgával a részleges egyezést, és pirossal, ha helytelen. A helytelen szám/verzió mezők mögött egy nyilat is találsz, ami jelzi, hogy nagyobbat vagy kisebbet kell-e tippelned."
-        },
-        "example": {
-          "title": "Példa",
-          "intro": "Nézzünk egy példajátékot. Először megpróbálunk egy tetszőleges tárgyat.",
-          "table_interpretation_1": "Megtudtuk, hogy a tárgy, mint a legtöbb másik, 64-ig halmozható. Újabb, mint a Beta 1.2, Gyakori ritkaságú, megújuló, és a Minecraft wiki szerint kevesebb, mint 5 felhasználási módja és kevesebb, mint 6 megszerzési módja van. A leltárkategóriája elárulja, hogy nem a \"Hozzávalók\" kategóriában lévő tárgyat keresünk. Próbáljunk egy másik tárgyat.",
-          "table_interpretation_2": "Felfedeztük a tárgy verzióját! Ideje olyan tárgyat keresni, ami a Beta 1.8-ban került be, és az \"Étel és ital\" kreatív leltár kategóriában van. Most olyan tárgyat kell keresnünk, amelynek egyeznek a használati esetei és a megszerzési módjai.",
-          "table_interpretation_3": "Meg is van! Felfedeztük, hogy a tárgy egy dinnyeszelet volt, micsoda öröm!"
-        },
-        "partial_matches": {
-          "title": "Részleges egyezés magyarázata",
-          "intro": "Nézzük meg részletesen a részleges egyezéseket, mert valószínűleg ezek a legzavaróbbak a csempeszínek közül.",
-          "explanation": "Részleges egyezés csak olyan mezőkben jelenhet meg, amelyek listából állnak (pl. leltárkategória). Ha olyan tárgyat tippeltél, ami legalább egy olyan leltárkategóriában van, ami egyezik a tényleges tárgyéval, részleges egyezést kapsz. Íme egy példa a fonálra:"
-        },
-        "tips": {
-          "title": "Tippek",
-          "not_all_items": "Az MCdle nem tartalmaz minden típusú tárgyat. A lista a Minecraft wikiről származik, ezért nem tartalmazza a különböző blokkok tárgyformáit vagy a túl hasonló tárgyakat, mint az összes páncél/eszköz variációt.",
-          "utilize_the_search": "Használd ki a keresősávot! A javaslatok átnézése segít leszűkíteni a keresésedet.",
-          "use_the_wiki": "Nyugodtan használd a Minecraft wikit. Amint meghatároztad a tárgy verzióját, a wiki segítségével megtalálhatod az abban a verzióban hozzáadott tárgyakat, ami drasztikusan segít leszűkíteni a keresést.",
-          "usage_and_source_explanation": "Ha kíváncsi vagy, hogyan számítják ki a Használat/Forrás számot, nézd meg a tárgy wiki oldalát, és görgess a \"Megszerzése\" és \"Felhasználása\" részekhez. Ezen szakaszok fejléceit használták a különböző felhasználási esetek összeszámlálására. Ha hiányoztak, én, a fejlesztő, manuálisan adtam hozzá őket."
-        }
-      }
-    },
-    "mob": {
-      "title": "Játékmód: Találd ki a mai Lényt!",
-      "sub_title_menus": {
-        "stats": {
-          "title": "Statisztikák",
-          "tooltip": "Statisztikák"
-        },
-        "streak": {
-          "title": "Haladás átvitele",
-          "tooltip": "Győzelmi sorozat"
-        },
-        "help": {
-          "tooltip": "Hogyan játssz"
-        },
-        "bestiary": {
-          "tooltip": "Bestiárium"
-        }
-      },
-      "table": {
-        "header": {
-          "title": "Lény",
-          "initial_release": "Kiadás",
-          "health": "Élet",
-          "height": "Magasság",
-          "behavior": "Viselkedés",
-          "spawn": "Idézés",
-          "classification": "Besorolás"
-        },
-        "data": {
-          "behavior": {
-            "passive": "Békés",
-            "neutral": "Semleges",
-            "hostile": "Ellenséges",
-            "defensive": "Védekező"
-          },
-          "classification": {
-            "none": "Nincs",
-            "animal": "Állat",
-            "aquatic": "Vízi",
-            "arthropod": "Ízeltlábú",
-            "undead": "Élőhalott",
-            "illager": "Illager",
-            "golem": "Gólem",
-            "boss": "Főellenség"
-          },
-          "spawn": {
-            "structure": "Struktúra",
-            "spawner": "Idézőketrec",
-            "breeding": "Tenyésztés",
-            "biome": "Biom",
-            "light_level": "Fényszint",
-            "block": "Blokk",
-            "grass": "Fű",
-            "nether": "A Nether",
-            "projectile": "Lövedék",
-            "conversion": "Átváltozás",
-            "lightning": "Villám",
-            "the_end": "Az End",
-            "summon": "Idézés",
-            "raids": "Támadások",
-            "command": "Parancs",
-            "overworld": "Felvilág",
-            "hatching": "Kikelés",
-            "jockey": "Zsoké",
-            "duplication": "Duplikálás",
-            "magic": "Mágia",
-            "reinforcements": "Erősítés",
-            "sieges": "Ostromok"
-          }
-        }
-      },
-      "loose": {
-        "title": "Nem sikerült felfedezned a mai lényt",
-        "subtitle": "Több szerencsét holnap! (vagy kapcsold ki a tippkorlátot a beállításokban)"
-      },
-      "win": {
-        "title": "Lény felfedezve!",
-        "subtitle": "A mai lény a(z) {{name}} volt!"
-      },
-      "intro": {
-        "description": "Találd ki a mai Minecraft lényt!",
-        "start_help": "Írj lentebb a kezdéshez!"
-      },
-      "limited_attempts": {
-        "warning": {
-          "zero": "{{remaining}} tipped maradt!",
-          "one": "{{remaining}} tipped maradt!",
-          "two-four": "{{remaining}} tipped maradt!",
-          "many": "{{remaining}} tipped maradt!"
-        }
-      },
-      "search": {
-        "placeholder": {
-          "initial": "Keress egy lényt",
-          "new_tomorrow": "Új lény holnap!",
-          "no_more_guesses": "Kifogytál a tippekből!"
-        },
-        "submit": {
-          "aria_label": "Próbáld ki ezt a lényt"
-        },
-        "ambiguous_result": {
-          "description": "Kétértelmű lény felfedezve! A további helytelen kétértelmű lények pirossal lesznek áthúzva.",
-          "image_alt": "Kincsvadász - szoros volt"
-        }
-      },
-      "midnight_timer": {
-        "next_thing": "Frissítsd az oldalt a következőhöz!",
-        "next_in": "Következő lény {{time}} múlva"
-      },
-      "yesterday_info": {
-        "description": "A tegnapi lény a(z) {{name}} volt!"
-      },
-      "next_game": {
-        "name": "Lények",
-        "description": "Készen állsz a mai lény kitalálására?"
-      },
-      "quick_help": {
-        "look_for": "Még mindig jobb magyarázatot keresel? Keresd a",
-        "tooltip": "Hogyan játssz",
-        "click_here": "ikont a játék címe alatt, vagy kattints ide!"
-      },
-      "help": {
-        "title": "Hogyan játssz",
-        "intro": {
-          "goal": "A játék célja, hogy kitalálj egy Minecraft lényt. Minden nap új lény kerül kiválasztásra, és ha folyamatosan kitalálod a nap lényét, győzelmi sorozatot építhetsz.",
-          "enter_guesses": "Kezdd azzal, hogy beírod bármelyik lény nevét a keresőmezőbe. A keresésed alapján legfeljebb 10 találat jelenik meg. Kattints bármelyikre, vagy navigálj rájuk a nyílbillentyűkkel, és nyomd meg az Entert a tipped rögzítéséhez.",
-          "field_explanation": "A választott lény tulajdonságait összehasonlítjuk a mai lénnyel, és zölddel jelöljük, ha egyezik, sárgával a részleges egyezést, és pirossal, ha helytelen. A helytelen szám/verzió mezők mögött egy nyilat is találsz, ami jelzi, hogy nagyobbat vagy kisebbet kell-e tippelned."
-        },
-        "example": {
-          "title": "Példa",
-          "intro": "Nézzünk egy példajátékot. Először megpróbálunk egy tetszőleges lényt.",
-          "table_interpretation_1": "Ebből a tippből láthatjuk, hogy a keresett lény az 1.6.1 verzió után került be, nincs sok életereje, kevesebb mint 1,6 blokk magas, és lehet békés, ellenséges, vagy a kettő keveréke. Nem villám idézi meg, és nem is élőhalott.",
-          "table_interpretation_2": "Rendben, még mindig újabb az 1.13-nál, de megvan az életerő: olyan lényt keresünk, aminek 10 HP-ja, azaz 5 szíve van. Kevesebb, mint 0,6 blokk magas, szóval egy kis lényt keresünk. A lény viselkedése még mindig részleges egyezés, szóval nagyon valószínű, hogy békés, de lehet még ellenséges és semleges is. Mind az idézés, mind a besorolás mezők részleges egyezést kaptak, tehát a lény származási helye biom és valami más, és a lény besorolása vagy állat, vízi, és esetleg még valami más is e két lehetőség mellett.",
-          "table_interpretation_3": "Gyerünk! Nézd, ki ugrott be ebbe az oktatóanyagba. Megtaláltuk a kis békát!"
-        },
-        "partial_matches": {
-          "title": "Részleges egyezés magyarázata",
-          "intro": "Nézzük meg részletesen a részleges egyezéseket, mert valószínűleg ezek a legzavaróbbak a csempeszínek közül.",
-          "explanation": "Részleges egyezés csak olyan mezőkben jelenhet meg, amelyek listából állnak (pl. az idézés, besorolás vagy viselkedés mezők). Ha olyan lényt tippeltél, aminek legalább egy listaelem egyezik a tényleges lénnyel, részleges egyezést kapsz. Íme egy példa a lovakra:"
-        },
-        "tips": {
-          "title": "Tippek",
-          "not_all_blocks": "Az MCdle nem tartalmaz minden típusú entitást. Csak az élőlények, mint a malacok vagy zombik szerepelnek benne. Páncélállványok, lövedékek vagy hasonló élettelen entitások nincsenek benne. A lista a Minecraft wikiről származik, tehát ha nincs ott a lénylistában, akkor ebben a játékban sincs.",
-          "utilize_the_search": "Használd ki a keresősávot! A javaslatok átnézése segít leszűkíteni a keresésedet.",
-          "use_the_wiki": "Nyugodtan használd a Minecraft wikit. Amint meghatároztad a lény verzióját, a wiki segítségével megtalálhatod az abban a verzióban hozzáadott lényeket, ami drasztikusan segít leszűkíteni a keresést.",
-          "health_measuring": "Ne feledd, hogy az életerőt életerőpontokban mérik, azaz fél szívekben, tehát 10 HP az 5 szív."
-        }
-      }
-    },
-    "crafting": {
-      "title": "Játékmód: Crafting Bee",
-      "sub_title_menus": {
-        "stats": {
-          "title": "Statisztikák",
-          "tooltip": "Statisztikák"
-        },
-        "streak": {
-          "title": "Haladás átvitele",
-          "tooltip": "Győzelmi sorozat"
-        },
-        "help": {
-          "tooltip": "Hogyan játssz"
-        },
-        "bestiary": {
-          "tooltip": "Bestiárium"
-        },
-        "editor": {
-          "tooltip": "Szerkesztő"
-        }
-      },
-      "regular": {
-        "notifications": {
-          "already_crafted": "A tárgy már el lett készítve!",
-          "other_game_running": {
-            "description": "Van egy másik mentett játékod, de egy egyéni linken keresztül újat próbálsz indítani",
-            "prev_game": "A mentett játékod:",
-            "prev_game_discovered": "Már felfedezve: {{discoveredCount}}/{{availableRecipes}}.",
-            "overwrite": "Felülírás",
-            "return": "Visszatérés a mentett játékhoz"
-          }
-        },
-        "copy_message": {
-          "timer": {
-            "all": {
-              "long": "Felfedeztem az összes {{discoveredCount}} receptet {{time}} alatt a következő #MCdle #CraftingBee rejtvényben!",
-              "short": "Megtaláltam az összes {{discoveredCount}} receptet {{time}} alatt #MCdle #CraftingBee"
-            },
-            "partial": {
-              "long": "Sikerült felfedeznem {{discoveredCount}}/{{availableRecipes}} receptet {{time}} alatt a következő #MCdle #CraftingBee rejtvényben!",
-              "short": "Megtaláltam {{discoveredCount}}/{{availableRecipes}} receptet {{time}} alatt #MCdle #CraftingBee"
-            }
-          },
-          "no_timer": {
-            "all": {
-              "long": "Felfedeztem az összes {{discoveredCount}} receptet a következő #MCdle #CraftingBee rejtvényben!",
-              "short": "Megtaláltam az összes {{discoveredCount}} receptet ebben a #MCdle #CraftingBee-ben"
-            },
-            "partial": {
-              "long": "Sikerült felfedeznem {{discoveredCount}}/{{availableRecipes}} receptet a következő #MCdle #CraftingBee rejtvényben!",
-              "short": "Megtaláltam {{discoveredCount}}/{{availableRecipes}} receptet ebben a #MCdle #CraftingBee-ben"
-            }
-          },
-          "copy_button": {
-            "copy": "Rejtvény másolása",
-            "copied": "Másolva!"
-          },
-          "share_button": {
-            "share": "Rejtvény megosztása",
-            "shared": "Megosztva!"
-          }
-        },
-        "game_state_box": {
-          "start_playing": "Kezdd azzal, hogy kattintasz/áthúzod a tárgyakat lentről a barkácsrácsba!",
-          "discover_status": "Felfedezve: {{discoveredCount}}/{{availableRecipes}}",
-          "timer": "{{remainingTime}}"
-        },
-        "game_complete_box": {
-          "congrats": "Gratulálunk!",
-          "discovered": "Felfedezted az összes {{discoveredCount}} receptet a jelenlegi tárgyakkal!",
-          "discovered_time": "Felfedezted az összes {{discoveredCount}} receptet {{time}} alatt a jelenlegi tárgyakkal!",
-          "regenerate": {
-            "description": "Kattints az alábbi gombra a játék alaphelyzetbe állításához és új tárgyak kéréséhez.",
-            "button": "Újragenerálás",
-            "popup": {
-              "title": "Új véletlenszerű tárgyak?",
-              "hints": "Megjelenjenek a hátralévő recept tippek?",
-              "description": "Kattints lentebb a hatszögekben lévő tárgyak véletlenszerűsítéséhez és egy új játék indításához!",
-              "confirm": "Megerősítés"
-            }
-          },
-          "more_crafting_riddles": "vagy találj egyénieket a ",
-          "discord_link": "Discordunkon",
-          "more_crafting_riddles_2": "!",
-          "replay": {
-            "button": "Újrajátszás",
-            "popup": {
-              "title": "Újrajátszod a jelenlegi játékot?",
-              "description": "Kattints lentebb a játék újbóli lejátszásához ugyanazokkal a tárgyakkal!"
-            }
-          }
-        },
-        "tools": {
-          "eraser": "Radír",
-          "clear": {
-            "button": "Törlés",
-            "popup": {
-              "title": "Törlöd a barkácsasztalt?",
-              "description": "Kattints lentebb az összes tárgy eltávolításához a barkácsasztalról.",
-              "confirm": "Megerősítés"
-            }
-          }
-        },
-        "quick_settings": {
-          "hints": "Megjelenjenek a hátralévő recept tippek?",
-          "timer": "Tartalmazzon időzítőt?",
-          "regenerate": "Új rejtvény generálása",
-          "auto_craft": "Automatikus barkácsolás?"
-        },
-        "try_editor": "Nézd meg a szerkesztőt!"
-      },
-      "daily": {
-        "title": "Napi Crafting Bee",
-        "description": "Minden nap 7 véletlenszerű tárgy generálódik. Emlékszel az összes velük barkácsolható tárgyra?",
-        "game_complete_box": {
-          "more_tomorrow": "Gyere vissza holnap egy új napi rejtvényért, vagy játssz ",
-          "infinite_link": "végtelenül",
-          "more_tomorrow_2": "!",
-          "more_crafting_riddles": "Játékosok által készített rejtvényeket is találhatsz a ",
-          "discord_link": "Discordunkon",
-          "more_crafting_riddles_2": "!"
-        }
-      },
-      "index": {
-        "daily": {
-          "title": "Napi",
-          "description": "7 tárgy minden nap, sorozatokkal"
-        },
-        "regular": {
-          "title": "Korlátlan",
-          "description": "7 tárgy, korlátlan újrajátszás egyéni játékokkal és véletlenszerűsítéssel."
-        },
-        "editor": {
-          "title": "Szerkesztő",
-          "description": "Készítsd el a saját Crafting Bee rejtvényeidet!"
-        }
-      },
-      "editor": {
-        "title": "Crafting Bee Szerkesztő",
-        "description": "Szerkesztő a Crafting Bee játékmódhoz",
-        "share_creation": {
-          "before_link": "Oszd meg az alkotásodat a",
-          "link": "Discordunkon",
-          "after_link": "!"
-        },
-        "test_creation": {
-          "before_link": "Ha kész vagy,",
-          "link": "teszteld a rejtvényedet",
-          "after_link": "vagy"
-        },
-        "copy_creation": {
-          "copy": "Rejtvény link másolása",
-          "copied": "Másolva!"
-        },
-        "search_items": "Tárgyak keresése...",
-        "table": {
-          "header": {
-            "item": "Tárgy",
-            "individual_usage": "Egyéni tárgyhasználat",
-            "recipes_with_item": "Receptek a tárggyal"
-          }
-        },
-        "found_recipes": "Talált receptek: {{count}}",
-        "delete_item": "Törlés",
-        "import": {
-          "title": "Játék importálása",
-          "unlimited_button": "Korlátlan játék importálása",
-          "popup": {
-            "title": "Importálod a játékot a Korlátlan módból?",
-            "description": "Kattints lentebb a jelenlegi játék importálásához a Korlátlan módból. Vedd figyelembe, hogy ez felülírja a jelenlegi szerkesztői folyamatodat.",
-            "confirm": "Megerősítés"
-          }
-        },
-        "return_to_unlimited": "Visszatérés a játékhoz!"
-      },
-      "midnight_timer": {
-        "next_thing": "Frissítsd az oldalt a következőhöz!",
-        "next_in": "Következő hozzávalók {{time}} múlva"
-      },
-      "next_game": {
-        "name": "Crafting Bee",
-        "description": "Emlékszel minden craftolható tárgyra a mai hozzávalókból?"
-      },
-      "help": {
-        "title": "Hogyan játssz",
-        "intro": {
-          "goal": "A játék célja, hogy minél több tárgyat barkácsolj a hatszögekben megadott 7 tárgyból. Ennek a játékmódnak van egy napi módja, valamint egy korlátlan módja szerkesztővel párosítva. A napi mód teljesítésével győzelmi sorozatot építhetsz. A korlátlan játékkal megtanulhatod, hogyan kell játszani, a recepteket, és játszhatsz más játékosok által a szerkesztővel készített rejtvényekkel!",
-          "entering_items": "A játék elkezdéséhez válassz ki egy tárgyat a hatszögekben, majd kattints egy mezőre a barkácsasztal rácson, ahol több mezőre kattintva \"befestheted\" ezeket a mezőket. Ismételd ezt a folyamatot, amíg meg nem látod a kívánt receptet a kimeneti mezőben. Ezután kattints az eredményül kapott tárgyra a barkácsoláshoz! Alternatív megoldásként áthúzhatod a tárgyakat a hatszögekből vagy egyik mezőből a másikba. Ezenkívül lehetsz \"Billentyűzetvarázsló\" is, és kiválaszthatod a hatszögeket a számbillentyűkkel, a WASD vagy nyílbillentyűkkel a barkácsasztal mezőit, a szóközzel az elhelyezést, és az Enterrel a barkácsolást. A billentyűkiosztás konfigurálható a beállításokban az MCdle cím bal oldalán."
-        },
-        "example": {
-          "title": "Példa",
-          "intro": "Nézzünk néhány példát! Egyetlen gyémántból 5 különböző tárgyat barkácsolhatunk!",
-          "try_example": "Próbáld ki ezt a példát",
-          "hint_info": "Elakadtál? Bekapcsolhatod a tippeket a törlés/tisztítás gombok alatti dobozban. A tippek megjelennek az egyes hatszögek felett, és elmondják, hány tárgyat barkácsolhatsz még azzal az összetevővel! Innen meglátogathatod a",
-          "mc_wiki": "Minecraft Wikit",
-          "hint_info_2": "hogy kikeresd a recepteket.",
-          "test_hints": "Teszteld a tipprendszer váltását"
-        },
-        "tips": {
-          "title": "Tippek",
-          "individual_results_only": "A játék csak az egyéni eredményeket számolja, nem az egyéni recepteket. Például a bambuszból és a deszkából is készülhet bot, de miután az egyikkel barkácsoltál botot, ennyi!",
-          "where_help": "Használd a tipprendszert, ha elakadtál. A wiki jól párosítható vele, csak keress rá a hiányzó tárgyra!",
-          "not_all_recipes": "A Crafting Bee nem tartalmaz minden barkácsolható receptet. Csak a barkácsasztalon belüli szabványos formázott és formázatlan receptek szerepelnek benne. A nem szabványos receptek, mint az egyedi tűzijátékok, díszített cserepek vagy hasonlók nincsenek benne."
-        }
-      }
-    },
-    "bestiary": {
-      "index": {
-        "title": "Bestiárium",
-        "books": {
-          "blocks": {
-            "title": "A Blokkok Könyve",
-            "cover_alt_text": "Blokk könyvborító"
-          },
-          "items": {
-            "title": "A Tárgyak Könyve",
-            "cover_alt_text": "Tárgy könyvborító"
-          },
-          "mobs": {
-            "title": "A Lények Könyve",
-            "cover_alt_text": "Lény könyvborító"
-          },
-          "crafting": {
-            "title": "A Barkácsolás Könyve",
-            "cover_alt_text": "Crafting Bee könyvborító"
-          }
-        }
-      },
-      "blocks": {
-        "title": "Blokk Bestiárium",
-        "description": "Az összes Blokkhoz, amivel az MCdle-ben találkozhatsz."
-      },
-      "items": {
-        "title": "Tárgy Bestiárium",
-        "description": "Az összes Tárgyhoz, amivel az MCdle-ben találkozhatsz."
-      },
-      "mobs": {
-        "title": "Lény Bestiárium",
-        "description": "Az összes Lényhez, amivel az MCdle-ben találkozhatsz."
-      },
-      "crafting": {
-        "title": "Crafting Bee Bestiárium",
-        "description": "Az összes tárgyhoz, amit az MCdle Crafting Bee-jében barkácsolhatsz.",
-        "entry": {
-          "discovered": {
-            "label": "Felfedezve itt:",
-            "daily": "Napi kihívás",
-            "random": "Véletlenszerű játék",
-            "custom": "Egyéni játék"
-          },
-          "recipes": {
-            "label": "Receptek"
-          }
-        },
-        "filters": {
-          "unavailable": "Jelenleg nincsenek elérhető szűrők."
-        }
-      },
-      "generic": {
-        "overview": {
-          "title": "Áttekintés",
-          "library_back": "Vissza a könyvtárhoz",
-          "explanation": "Kattints egy bejegyzésre az oldala megtekintéséhez, használd a kereső ikont a jobb felső sarokban a kereséshez, vagy alkalmazz szűrőket, amelyek az egész oldalra vonatkoznak (nem csak a keresési eredményekre).",
-          "sorting": {
-            "alphabet_tooltip": "Rendezés betűrendben",
-            "alphabet_alt": "A-Z rendezés",
-            "release_tooltip": "Rendezés kiadás szerint",
-            "release_alt": "Kiadás szerinti rendezés"
-          }
-        },
-        "entry": {
-          "overview_back": "Áttekintés",
-          "not_found": "Norbert nem talált egyező bejegyzéseket a felfedezett listádban =(",
-          "try_different": "Próbálj más szűrőket!",
-          "discovered": {
-            "first_discovered": "Első felfedezés:",
-            "in": "itt:",
-            "and": "és",
-            "more": "továbbiak!"
-          }
-        },
-        "filters": {
-          "applied": "Szűrők alkalmazva",
-          "search_placeholder": "Keresés",
-          "search_alt": "Keresés ikon",
-          "clear": "Szűrők törlése",
-          "open": "Szűrők (Globális)",
-          "min": "Min",
-          "max": "Max"
-        }
-      }
-    }
-  },
-  "components": {
-    "quick_help": {
-      "show_button": "Gyorssúgó megjelenítése",
-      "color_explanation": {
-        "title": "Színek magyarázata",
-        "correct": "Helyes mező",
-        "incorrect": "Helytelen mező",
-        "partial": "Részben helyes mező"
-      }
-    },
-    "stats": {
-      "copy_button": "Másolás",
-      "copied_confirmation": "Másolva!",
-      "share": "Megosztás",
-      "copy_message": {
-        "header_block": "Az #MCdle blokk statisztikáim 🏆",
-        "header_item": "Az #MCdle tárgy statisztikáim 🏆",
-        "header_mob": "Az #MCdle lény statisztikáim 🏆",
-        "total_wins": "🎉 Megnyert játékok {{number}}",
-        "average_guesses": "🧮 Átlagos tippek {{number}}",
-        "one_shots": "🎯 Telitalálatok {{number}}",
-        "current_streak": "🚀 Jelenlegi sorozat {{number}}",
-        "max_streak": "📈 Max sorozat {{number}}"
-      },
-      "stat_labels": {
-        "total_wins": "Megnyert játékok",
-        "average_guesses": "Átlagos tippek",
-        "one_shots": "Telitalálatok",
-        "current_streak": "Jelenlegi sorozat",
-        "max_streak": "Max sorozat"
-      },
-      "chart_labels": {
-        "guesses": "Tippek"
-      }
-    },
-    "today_guesses": {
-      "loading": "Játékos tippek betöltése...",
-      "already_guessed": {
-        "zero": "játékos találta már ki helyesen!",
-        "one": "játékos találta már ki helyesen!",
-        "two-four": "játékos találta már ki helyesen!",
-        "many": "játékos találta már ki helyesen!"
-      }
-    },
-    "share_win": {
-      "copy_button": "Másolás",
-      "copied_confirmation": "Másolva!",
-      "share": "Megosztás",
-      "all_games": "Összes játék",
-      "guess_type": {
-        "block": "blokk",
-        "item": "tárgy",
-        "mob": "lény"
-      },
-      "guess_line": {
-        "one": "Felfedeztem {{date}} #MCdle {{type}}ját {{number}} próbálkozásból! {{emoji}}",
-        "many": "Felfedeztem {{date}} #MCdle {{type}}ját {{number}} próbálkozásból! {{emoji}}"
-      },
-      "short_guess_line": {
-        "intro": "Felfedeztem {{date}} #MCdle ",
-        "one": "{{type}}ját {{number}} próbálkozásból",
-        "many": "{{type}}ját {{number}} próbálkozásból",
-        "conjunction": " és "
-      }
-    },
-    "hints": {
-      "in_x_guesses": {
-        "one": "{{number}} tippből!",
-        "many": "{{number}} tippből!"
-      },
-      "version": {
-        "description": "Kiadási verzió tipp",
-        "solution": "Egy {{version}} kiadást keresel!"
-      },
-      "letter": {
-        "description": "Kezdőbetű tipp",
-        "solution": "A megoldás {{letter}} betűvel kezdődik..."
-      },
-      "image": {
-        "description": "Nagyított kép tipp",
-        "solution": "Látod, mi rejtőzik ezen a 8x-os nagyítású képen?"
-      }
-    },
-    "toasts": {
-      "patchnotes": {
-        "live": " már éles! Nézd meg őket!"
-      }
-    }
-  },
-  "blocks": {
-    "button": "Akáciafa gomb",
-    "door": "Akáciafa ajtó",
-    "fence": "Akáciafa kerítés",
-    "fence_gate": "Akáciafa kerítéskapu",
-    "leaves": "Akácialevelek",
-    "log": "Akáciarönk",
-    "planks": "Akáciadeszka",
-    "pressure_plate": "Akáciafa nyomólap",
-    "sapling": "Akáciacsemete",
-    "shelf": "Akáciafa polc",
-    "sign": "Akáciafa tábla",
-    "slab": "Akáciafa lap",
-    "stairs": "Akáciafa lépcső",
-    "trapdoor": "Akáciafa csapóajtó",
-    "wood": "Akáciablokk",
-    "activator_rail": "Aktiválósín",
-    "flower": "Hagymavirág",
-    "amethyst_block": "Ametisztblokk",
-    "amethyst_cluster": "Ametiszt-kristálycsoport",
-    "ancient_debris": "Ősi törmelék",
-    "andesite": "Andezit",
-    "wall": "Andezitfal",
-    "anvil": "Üllő",
-    "azalea": "Azálea",
-    "bamboo": "Bambusz",
-    "bamboo_block": "Bambuszblokk",
-    "bamboo_mosaic": "Bambuszmozaik",
-    "barrel": "Hordó",
-    "barrier": "Akadály",
-    "basalt": "Bazalt",
-    "beacon": "Jelzőfény",
-    "bedrock": "Alapkő",
-    "bee_nest": "Méhkas",
-    "beehive": "Méhkaptár",
-    "beetroots": "Cékla",
-    "bell": "Harang",
-    "big_dripleaf": "Nagy csepplevél",
-    "banner": "Fekete zászló",
-    "bed": "Fekete ágy",
-    "candle": "Fekete gyertya",
-    "carpet": "Fekete szőnyeg",
-    "concrete": "Fekete beton",
-    "concrete_powder": "Fekete szárazbeton",
-    "glazed_terracotta": "Fekete mázas kerámia",
-    "shulker_box": "Fekete shulkerdoboz",
-    "glass": "Fekete festett üveg",
-    "glass_pane": "Fekete festett üveglap",
-    "terracotta": "Fekete terrakotta",
-    "wool": "Fekete gyapjú",
-    "blackstone": "Feketekő",
-    "blast_furnace": "Kohó",
-    "blue_ice": "Kék jég",
-    "bone_block": "Csontblokk",
-    "bookshelf": "Könyvespolc",
-    "coral": "Agykorall",
-    "coral_block": "Agykorall-blokk",
-    "coral_fan": "Agykorall-legyező",
-    "brewing_stand": "Főzőállvány",
-    "bricks": "Tégla",
-    "mushroom": "Barna gomba",
-    "mushroom_block": "Barna gombablokk",
-    "bush": "Cserje",
-    "cactus": "Kaktusz",
-    "cactus_flower": "Kaktuszvirág",
-    "cake": "Torta",
-    "calcite": "Kalcit",
-    "calibrated_sculk_sensor": "Behangolt sculkérzékelő",
-    "campfire": "Tábortűz",
-    "carrots": "Sárgarépák",
-    "cartography_table": "Térképasztal",
-    "cauldron": "Üst",
-    "cave_vines": "Barlangi indák",
-    "chain": "Vaslánc",
-    "chest": "Láda",
-    "chiseled_bookshelf": "Faragott könyvespolc",
-    "chorus_flower": "Refrénvirág",
-    "chorus_plant": "Refrénnövény",
-    "clay": "Agyag",
-    "eyeblossom": "Zárt szemvirág",
-    "coal_block": "Szénblokk",
-    "coal_ore": "Szénérc",
-    "coarse_dirt": "Terméketlen föld",
-    "cobbled_deepslate": "Zúzott mélypala",
-    "cobblestone": "Zúzottkő",
-    "cobweb": "Pókháló",
-    "cocoa": "Kakaó",
-    "command_block": "Parancsblokk",
-    "comparator": "Redstone-komparátor",
-    "composter": "Komposztáló",
-    "conduit": "Csatorna",
-    "copper_block": "Rézblokk",
-    "copper_bulb": "Rézizzó",
-    "copper_chest": "Rézláda",
-    "copper_door": "Rézajtó",
-    "copper_golem_statue": "Rézgólem-szobor",
-    "copper_grate": "Rézrostély",
-    "copper_ore": "Rézérc",
-    "copper_trapdoor": "Réz csapóajtó",
-    "crafter": "Barkácsoló",
-    "crafting_table": "Barkácsasztal",
-    "creaking_heart": "Nyikorgószív",
-    "head": "Creeperfej",
-    "fungus": "Karmazsin gomba",
-    "nylium": "Karmazsin nílium",
-    "roots": "Karmazsin gyökerek",
-    "crying_obsidian": "Könnyező obszidián",
-    "daylight_detector": "Napfényérzékelő",
-    "dead_bush": "Száraz kóró",
-    "decorated_pot": "Díszített cserépedény",
-    "deepslate": "Mélypala",
-    "detector_rail": "Érzékelősín",
-    "diamond_block": "Gyémántblokk",
-    "diamond_ore": "Gyémántérc",
-    "diorite": "Diorit",
-    "dirt": "Föld",
-    "dirt_path": "Ösvény",
-    "dispenser": "Adagoló",
-    "dragon_egg": "Sárkánytojás",
-    "dried_ghast": "Kiszáradt Ghast",
-    "dried_kelp_block": "Szárított hínárblokk",
-    "dripstone_block": "Cseppkőblokk",
-    "dropper": "Kidobó",
-    "emerald_block": "Smaragdblokk",
-    "emerald_ore": "Smaragdérc",
-    "enchanting_table": "Varázslóasztal",
-    "end_portal_frame": "Endportál-keret",
-    "end_rod": "End-rúd",
-    "end_stone": "Endkő",
-    "end_stone_bricks": "Endkőtégla",
-    "ender_chest": "Enderláda",
-    "farmland": "Termőföld",
-    "fern": "Páfrány",
-    "fire": "Tűz",
-    "firefly_bush": "Szentjánosbogár-bokor",
-    "fletching_table": "Íjászasztal",
-    "flower_pot": "Virágcserép",
-    "frogspawn": "Békapeték",
-    "furnace": "Kemence",
-    "glow_lichen": "Fénylő zuzmó",
-    "glowstone": "Izzókő",
-    "gold_block": "Aranyblokk",
-    "gold_ore": "Aranyérc",
-    "golden_dandelion": "Aranypitypang",
-    "granite": "Gránit",
-    "grass_block": "Füves földblokk",
-    "gravel": "Sóder",
-    "grindstone": "Köszörűkő",
-    "hanging_roots": "Lógó gyökerek",
-    "hay_block": "Szalmabála",
-    "heavy_core": "Nehéz mag",
-    "heavy_weighted_pressure_plate": "Nehéz súlymérő nyomólap",
-    "honey_block": "Mézblokk",
-    "honeycomb_block": "Méhsejtblokk",
-    "hopper": "Tölcsér",
-    "ice": "Jég",
-    "infested_block": "Vésett kőtégla ezüstmollyal",
-    "iron_bars": "Vasrács",
-    "iron_block": "Vasblokk",
-    "iron_door": "Vasajtó",
-    "iron_ore": "Vasérc",
-    "iron_trapdoor": "Vas csapóajtó",
-    "jack_o_lantern": "Töklámpás",
-    "jigsaw": "Kirakósblokk",
-    "jukebox": "Zenegép",
-    "kelp": "Hínár",
-    "ladder": "Létra",
-    "lantern": "Lámpás",
-    "lapis_block": "Lazuritblokk",
-    "lapis_ore": "Lazuritérc",
-    "leaf_litter": "Avar",
-    "lectern": "Olvasóállvány",
-    "lever": "Kar",
-    "light": "Fény",
-    "lightning_rod": "Villámhárító",
-    "lily_pad": "Tavirózsa",
-    "lodestone": "Iránykő",
-    "loom": "Szövőszék",
-    "magma_block": "Magmablokk",
-    "mangrove_propagule": "Mangrovemagonc",
-    "mangrove_roots": "Mangrovegyökerek",
-    "melon": "Dinnye",
-    "melon_stem": "Dinnyeszár",
-    "moss_block": "Mohablokk",
-    "moss_carpet": "Mohaszőnyeg",
-    "mossy_cobblestone": "Mohás zúzottkő",
-    "mud": "Iszap",
-    "mud_bricks": "Vályogtégla",
-    "muddy_mangrove_roots": "Iszapos mangrovegyökerek",
-    "mycelium": "Micélium",
-    "nether_bricks": "Nethertégla",
-    "nether_gold_ore": "Netheraranyérc",
-    "nether_quartz_ore": "Netherkvarcérc",
-    "nether_sprouts": "Nethercsírák",
-    "nether_wart": "Netherbibircsók",
-    "nether_wart_block": "Netherbibircsók-blokk",
-    "netherite_block": "Netheritblokk",
-    "netherrack": "Netherrack",
-    "note_block": "Hangdoboz",
-    "observer": "Megfigyelő",
-    "obsidian": "Obszidián",
-    "froglight": "Okker varangyfény",
-    "packed_ice": "Tömör jég",
-    "packed_mud": "Vályog",
-    "pale_hanging_moss": "Lógó fátyolmoha",
-    "pale_moss_block": "Fátyolmoha-blokk",
-    "pale_moss_carpet": "Fátyolmoha-szőnyeg",
-    "petrified_oak_slab": "Megkövült tölgyfa lap",
-    "pink_petals": "Rózsaszín szirmok",
-    "piston": "Dugattyú",
-    "pitcher_crop": "Kancsókahüvely",
-    "pitcher_plant": "Kancsókanövény",
-    "podzol": "Podzol",
-    "pointed_dripstone": "Hegyes cseppkő",
-    "polished_blackstone": "Csiszolt feketekő",
-    "potatoes": "Burgonyák",
-    "powder_snow": "Porhó",
-    "powered_rail": "Gyorsítósín",
-    "prismarine": "Prizmarin",
-    "pumpkin": "Tök",
-    "pumpkin_stem": "Tökszár",
-    "purpur_block": "Purpurblokk",
-    "quartz_block": "Kvarcblokk",
-    "rail": "Sín",
-    "raw_copper_block": "Nyersrézblokk",
-    "raw_gold_block": "Nyersaranyblokk",
-    "raw_iron_block": "Nyersvasblokk",
-    "redstone_block": "Redstone-blokk",
-    "redstone_lamp": "Redstone-lámpa",
-    "redstone_ore": "Redstone-érc",
-    "redstone_torch": "Redstone-fáklya",
-    "redstone_wire": "Redstone-vezeték",
-    "reinforced_deepslate": "Megerősített mélypala",
-    "repeater": "Redstone-jelismétlő",
-    "resin_block": "Gyantablokk",
-    "resin_bricks": "Gyantatégla",
-    "resin_clump": "Gyantadarab",
-    "respawn_anchor": "Újraéledés-kapocs",
-    "rooted_dirt": "Gyökeres föld",
-    "sand": "Homok",
-    "sandstone": "Homokkő",
-    "scaffolding": "Állványzat",
-    "sculk": "Sculk",
-    "sculk_catalyst": "Sculkgerjesztő",
-    "sculk_sensor": "Sculkérzékelő",
-    "sculk_shrieker": "Sculksikoltó",
-    "sculk_vein": "Sculkvéna",
-    "sea_lantern": "Tengeri lámpás",
-    "sea_pickle": "Világító zsákállat",
-    "seagrass": "Tengerifű",
-    "dry_grass": "Rövid száraz fű",
-    "short_grass": "Alacsony fű",
-    "shroomlight": "Fényspóra",
-    "slime_block": "Nyálkablokk",
-    "small_dripleaf": "Kis csepplevél",
-    "smithing_table": "Kovácsasztal",
-    "smoker": "Füstölő",
-    "smooth_quartz": "Csiszolt kvarcblokk",
-    "smooth_stone": "Csiszolt kő",
-    "sniffer_egg": "Orrontótojás",
-    "snow": "Hó",
-    "snow_block": "Hóblokk",
-    "soul_sand": "Lélekhomok",
-    "soul_soil": "Lélektalaj",
-    "spawner": "Idézőketrec",
-    "sponge": "Szivacs",
-    "spore_blossom": "Spóravirág",
-    "stone": "Kő",
-    "stone_bricks": "Kőtégla",
-    "stonecutter": "Kővágó",
-    "structure_block": "Struktúrablokk",
-    "structure_void": "Struktúraűr",
-    "sugar_cane": "Cukornád",
-    "suspicious_gravel": "Gyanús sóder",
-    "sweet_berry_bush": "Édesbogyóbokor",
-    "target": "Céltábla",
-    "test_block": "Tesztblokk",
-    "test_instance_block": "Tesztpéldány-blokk",
-    "tinted_glass": "Sötétített üveg",
-    "tnt": "TNT",
-    "torch": "Fáklya",
-    "torchflower": "Fáklyaliliom",
-    "trapped_chest": "Csapdaláda",
-    "trial_spawner": "Küzdőtéri idézőketrec",
-    "tripwire": "Botlódrót",
-    "tripwire_hook": "Botlódrót-horog",
-    "tuff": "Tufa",
-    "turtle_egg": "Teknőstojás",
-    "twisting_vines": "Tekergő indák",
-    "vault": "Széf",
-    "vine": "Inda",
-    "warped_wart_block": "Torz bibircsókblokk",
-    "weeping_vines": "Keserves indák",
-    "wheat": "Búzatermés",
-    "wildflowers": "Vadvirágok",
-    "wither_rose": "Witherrózsa"
-  },
-  "items": {
-    "boat": "Akáciafa csónak",
-    "chest_boat": "Akáciafa csónak ládával",
-    "spawn_egg": "Nyugtancsidéző tojás",
-    "amethyst_shard": "Ametisztszilánk",
-    "pottery_sherd": "Horgász cseréptöredék",
-    "apple": "Alma",
-    "armadillo_scute": "Tatu-szarulemez",
-    "armor_stand": "Páncélállvány",
-    "arrow": "Nyílvessző",
-    "aquatic_mob_bucket": "Axolotl vödörben",
-    "baked_potato": "Sült burgonya",
-    "beef": "Nyers marhahús",
-    "beetroot": "Cékla",
-    "beetroot_seeds": "Céklamag",
-    "beetroot_soup": "Céklaleves",
-    "blaze_powder": "Őrlángpor",
-    "blaze_rod": "Lángrúd",
-    "bone": "Csont",
-    "bone_meal": "Csontliszt",
-    "book": "Könyv",
-    "bow": "Íj",
-    "bowl": "Tál",
-    "bread": "Kenyér",
-    "breeze_rod": "Szélrúd",
-    "brick": "Tégla",
-    "brush": "Ecset",
-    "bucket": "Vödör",
-    "bundle": "Batyu",
-    "carrot": "Sárgarépa",
-    "carrot_on_a_stick": "Répa horgászboton",
-    "charcoal": "Faszén",
-    "chest_minecart": "Tárolócsille",
-    "chicken": "Nyers csirkehús",
-    "chorus_fruit": "Refréngyümölcs",
-    "clay_ball": "Agyaggolyó",
-    "clock": "Óra",
-    "coal": "Szén",
-    "armor_trim_smithing_template": "Kovácssablon",
-    "cocoa_beans": "Kakaóbab",
-    "cod": "Nyers tőkehal",
-    "command_block_minecart": "Parancsblokk-csille",
-    "compass": "Iránytű",
-    "cooked_beef": "Sült marhahús",
-    "cooked_chicken": "Sült csirke",
-    "cooked_cod": "Sült tőkehal",
-    "cooked_mutton": "Sült birkahús",
-    "cooked_porkchop": "Sült sertésszelet",
-    "cooked_rabbit": "Sült nyúlhús",
-    "cooked_salmon": "Sült lazac",
-    "cookie": "Csokis süti",
-    "copper_ingot": "Rézrúd",
-    "copper_nugget": "Rézrög",
-    "banner_pattern": "Zászlóminta",
-    "crossbow": "Számszeríj",
-    "dye": "Türkizkék festék",
-    "debug_stick": "Debugpálca",
-    "diamond": "Gyémánt",
-    "axe": "Gyémántfejsze",
-    "boots": "Gyémántcsizma",
-    "chestplate": "Gyémánt mellvért",
-    "helmet": "Gyémántsisak",
-    "hoe": "Gyémántkapa",
-    "horse_armor": "Gyémánt lópáncél",
-    "leggings": "Gyémánt lábszárvédő",
-    "pickaxe": "Gyémántcsákány",
-    "shovel": "Gyémántásó",
-    "sword": "Gyémántkard",
-    "disc_fragment": "Hanglemez-szilánk",
-    "dragon_breath": "Sárkánylehelet",
-    "dried_kelp": "Szárított hínár",
-    "echo_shard": "Visszhangszilánk",
-    "egg": "Tojás",
-    "elytra": "Kitinszárny",
-    "emerald": "Smaragd",
-    "enchanted_book": "Varázskönyv",
-    "enchanted_golden_apple": "Bűvös aranyalma",
-    "end_crystal": "Endkristály",
-    "ender_eye": "Ender szeme",
-    "ender_pearl": "Endergyöngy",
-    "experience_bottle": "Varázslat palackja",
-    "feather": "Toll",
-    "fermented_spider_eye": "Erjesztett pókszem",
-    "fire_charge": "Tűzgolyó",
-    "firework_rocket": "Tűzijáték",
-    "firework_star": "Tűzijátékcsillag",
-    "fishing_rod": "Horgászbot",
-    "flint": "Kovakő",
-    "flint_and_steel": "Kovakő és acél",
-    "furnace_minecart": "Csille kemencével",
-    "ghast_tear": "Ghastkönny",
-    "glass_bottle": "Üvegpalack",
-    "glistering_melon_slice": "Csillámló dinnyeszelet",
-    "glow_berries": "Fényszeder",
-    "glow_ink_sac": "Fénylő tintazsák",
-    "glowstone_dust": "Izzókőpor",
-    "goat_horn": "Kecsketülök",
-    "gold_ingot": "Aranyrúd",
-    "gold_nugget": "Aranyrög",
-    "golden_apple": "Aranyalma",
-    "golden_carrot": "Aranyrépa",
-    "gunpowder": "Puskapor",
-    "harness": "Hám",
-    "heart_of_the_sea": "Tenger szíve",
-    "honey_bottle": "Mézespalack",
-    "honeycomb": "Méhsejt",
-    "hopper_minecart": "Tölcséres csille",
-    "ink_sac": "Tintazsák",
-    "iron_ingot": "Vasrúd",
-    "iron_nugget": "Vasrög",
-    "item_frame": "Eszközkeret",
-    "knowledge_book": "Tudás könyve",
-    "lapis_lazuli": "Lazurit",
-    "lava_bucket": "Lávásvödör",
-    "lead": "Lasszó",
-    "leather": "Bőr",
-    "lingering_potion": "Időző bájital",
-    "mace": "Buzogány",
-    "magma_cream": "Magmakrém",
-    "map": "Üres térkép",
-    "melon_seeds": "Dinnyemag",
-    "melon_slice": "Dinnyeszelet",
-    "milk_bucket": "Tejesvödör",
-    "minecart": "Csille",
-    "mushroom_stew": "Gombaragu",
-    "music_disc": "Hanglemez",
-    "mutton": "Nyers birkahús",
-    "name_tag": "Cédula",
-    "nautilus_shell": "Nautiluszhéj",
-    "nether_brick": "Nethertégla",
-    "nether_star": "Nethercsillag",
-    "nether_wart": "Netherbibircsók",
-    "netherite_ingot": "Netheritrúd",
-    "nautilus_armor": "Netherit nautiluszpáncél",
-    "netherite_scrap": "Netheritdarab",
-    "netherite_upgrade_smithing_template": "Kovácssablon",
-    "ominous_bottle": "Vészjósló palack",
-    "painting": "Festmény",
-    "paper": "Papír",
-    "phantom_membrane": "Fantommembrán",
-    "pitcher_plant": "Kancsókanövény",
-    "pitcher_pod": "Kancsókahüvely",
-    "poisonous_potato": "Mérgező burgonya",
-    "popped_chorus_fruit": "Pattogatott refréngyümölcs",
-    "porkchop": "Nyers disznóhús",
-    "potato": "Burgonya",
-    "potion": "Bájital",
-    "powder_snow_bucket": "Porhavas vödör",
-    "prismarine_crystals": "Prizmarinkristály",
-    "prismarine_shard": "Prizmarinszilánk",
-    "pufferfish": "Gömbhal",
-    "pumpkin_pie": "Tökpite",
-    "pumpkin_seeds": "Tökmag",
-    "quartz": "Netherkvarc",
-    "rabbit": "Nyers nyúlhús",
-    "rabbit_foot": "Nyúlláb",
-    "rabbit_hide": "Nyúlbőr",
-    "rabbit_stew": "Nyúlpörkölt",
-    "raw_copper": "Nyersréz",
-    "raw_gold": "Nyersarany",
-    "raw_iron": "Nyersvas",
-    "recovery_compass": "Visszatérés iránytűje",
-    "redstone": "Redstone-por",
-    "resin_brick": "Gyantatégla",
-    "rotten_flesh": "Rohadt hús",
-    "saddle": "Nyereg",
-    "salmon": "Nyers lazac",
-    "shears": "Metszőolló",
-    "shield": "Pajzs",
-    "shulker_shell": "Shulkerhéj",
-    "slime_ball": "Nyálkagolyó",
-    "snowball": "Hógolyó",
-    "spectral_arrow": "Spektrálnyíl",
-    "spider_eye": "Pókszem",
-    "splash_potion": "Robbanó bájital",
-    "spyglass": "Távcső",
-    "stick": "Bot",
-    "string": "Fonál",
-    "sugar": "Cukor",
-    "suspicious_stew": "Gyanús pörkölt",
-    "sweet_berries": "Édes bogyók",
-    "tipped_arrow": "Varázsnyíl",
-    "tnt_minecart": "TNT-csille",
-    "torchflower_seeds": "Fáklyaliliommagok",
-    "totem_of_undying": "Életmentés toteme",
-    "trial_key": "Küzdőtéri kulcs",
-    "trident": "Szigony",
-    "tropical_fish": "Trópusi hal",
-    "turtle_scute": "Teknős-szarulemez",
-    "warped_fungus_on_a_stick": "Torz gomba horgászboton",
-    "water_bucket": "Vizesvödör",
-    "wheat": "Búza",
-    "wheat_seeds": "Búzamag",
-    "wind_charge": "Széllöket",
-    "wolf_armor": "Farkaspáncél",
-    "spear": "Falándzsa",
-    "writable_book": "Könyv és toll",
-    "written_book": "Befejezett könyv",
-    "kelp": "Hínár"
-  },
-  "mobs": {
-    "allay": "Nyugtancs",
-    "armadillo": "Tatu",
-    "axolotl": "Axolotl",
-    "bat": "Denevér",
-    "bee": "Méh",
-    "blaze": "Őrláng",
-    "bogged": "Láplövész",
-    "breeze": "Őrszél",
-    "camel": "Teve",
-    "camel_husk": "Kiszáradt teve",
-    "cat": "Macska",
-    "cave_spider": "Barlangi pók",
-    "chicken": "Csirke",
-    "cod": "Tőkehal",
-    "copper_golem": "Rézgólem",
-    "cow": "Tehén",
-    "creaking": "Nyikorgó",
-    "creeper": "Creeper",
-    "dolphin": "Delfin",
-    "donkey": "Szamár",
-    "drowned": "Vízbefúlt",
-    "elder_guardian": "Vén őrszem",
-    "ender_dragon": "Endersárkány",
-    "enderman": "Enderman",
-    "endermite": "Endermite",
-    "evoker": "Idéző",
-    "fox": "Róka",
-    "frog": "Béka",
-    "ghast": "Ghast",
-    "giant": "Óriás",
-    "glow_squid": "Fénylő tintahal",
-    "goat": "Kecske",
-    "guardian": "Őrszem",
-    "happy_ghast": "Vidám Ghast",
-    "hoglin": "Hoglin",
-    "horse": "Ló",
-    "husk": "Kiszáradt zombi",
-    "illusioner": "Szemfényvesztő",
-    "iron_golem": "Vasgólem",
-    "llama": "Láma",
-    "magma_cube": "Magmakocka",
-    "mooshroom": "Mooshroom",
-    "mule": "Öszvér",
-    "nautilus": "Nautilusz",
-    "ocelot": "Ocelot",
-    "panda": "Panda",
-    "parched": "Perzselt",
-    "parrot": "Papagáj",
-    "phantom": "Fantom",
-    "pig": "Malac",
-    "piglin": "Piglin",
-    "piglin_brute": "Piglin verőlegény",
-    "pillager": "Rabló",
-    "polar_bear": "Jegesmedve",
-    "pufferfish": "Gömbhal",
-    "rabbit": "Nyúl",
-    "ravager": "Pusztító",
-    "salmon": "Lazac",
-    "sheep": "Birka",
-    "shulker": "Shulker",
-    "silverfish": "Ezüstmoly",
-    "skeleton": "Csontváz",
-    "skeleton_horse": "Csontvázló",
-    "slime": "Nyálka",
-    "sniffer": "Orrontó",
-    "snow_golem": "Hógólem",
-    "spider": "Pók",
-    "squid": "Tintahal",
-    "stray": "Kóborló",
-    "strider": "Álomfutó",
-    "tadpole": "Ebihal",
-    "tropical_fish": "Trópusi hal",
-    "turtle": "Teknős",
-    "vex": "Bosszancs",
-    "villager": "Falusi",
-    "vindicator": "Bosszúálló",
-    "wandering_trader": "Vándorkereskedő",
-    "warden": "Strázsa",
-    "witch": "Boszorkány",
-    "wither": "Wither",
-    "wither_skeleton": "Withercsontváz",
-    "wolf": "Farkas",
-    "zoglin": "Zoglin",
-    "zombie": "Zombi",
-    "zombie_horse": "Zombiló",
-    "zombie_nautilus": "Zautilusz",
-    "zombie_villager": "Élőhalott falusi",
-    "zombified_piglin": "Élőhalott piglin"
-  }
+	"footer": {
+		"links": {
+			"cookie": {
+				"title": "Süti szabályzat"
+			},
+			"patchnotes": {
+				"title": "Javítási jegyzék"
+			}
+		},
+		"about": {
+			"title": "Névjegy",
+			"button_title": "Névjegy",
+			"intro": "A Mcdle egy Wordle-szerű kirakós játék Minecrafttal kapcsolatos tartalommal. Minden nap egy új Minecraft blokk, tárgy és lény kerül kiválasztásra, amit ki kell találnod. Gyere vissza naponta, hogy győzelmi sorozatot építs! Vannak közösségi megosztási funkciók is, így megoszthatod a győzelmeidet és a sorozataidat a barátaiddal!",
+			"help_pointer": "Nem vagy biztos benne, hogyan kell játszani? Minden játékoldalon van egy ? ikon a cím alatt, amely megnyit egy súgómenüt példákkal és részletes leírásokkal az aktuális játékmódról.",
+			"suggestions": {
+				"title": "Javaslatok",
+				"description": {
+					"pre_link": "A legtöbb javaslatot és hibajelentést/támogatást a ",
+					"link": "Discordon",
+					"post_link": " kezelem, csatlakozz bátran és lógj velünk, van dinnyénk! Vannak csatornáink a napi kvízek megvitatására és a győzelmi sorozatok megosztására is!"
+				}
+			},
+			"support": {
+				"title": "Támogatás",
+				"description": {
+					"pre_link": "Ha szeretnéd támogatni a projektet (pl. fizetni az URL-ért, támogatni új funkciókat stb.), nézd meg a ",
+					"link": "Ko-fi",
+					"post_link": " oldalam!"
+				}
+			},
+			"credits": {
+				"title": "Készítők",
+				"description": {
+					"pre_link": "A játék adatai a ",
+					"link": "Minecraft Wikiről",
+					"post_link": " származnak. Sok kép is ott található, úgyhogy nagy köszönet nekik a kemény munkájukért, amivel naprakészen tartják a wikit! Az MCdle nem áll kapcsolatban, nem támogatott és nem szponzorált a Mojang Studios által. De nyilvánvalóan a Minecrafton alapul, és a Wordle és a LoLdle ihlette."
+				},
+				"credit_list": {
+					"kineticraft": {
+						"pre_link": "Köszönet a ",
+						"link": "kineticraft.net",
+						"post_link": " szervernek a háttérképért!"
+					},
+					"vanilla_tweaks": {
+						"pre_link": "Köszönet a ",
+						"link": "Vanilla Tweaksnek",
+						"post_link": " a dinnye- és tökszár textúrákért!"
+					},
+					"alldle": {
+						"post_link": "hogy kiemelték az MCdle-t az oldalukon!"
+					}
+				}
+			},
+			"version": {
+				"title": "Verzió",
+				"description": "A mai játék a #{{version}} számú rejtvény! A játék minden nap éjfélkor (UTC) választ új blokkot, tárgyat és lényt."
+			},
+			"supporters": {
+				"title": "Támogatók",
+				"description": {
+					"pre_link": "Köszönöm minden",
+					"post_link": " támogatónak!"
+				}
+			}
+		}
+	},
+	"header": {
+		"settings": {
+			"headers": {
+				"mcdle": "Mcdle",
+				"crafting_bee": "Crafting Bee"
+			},
+			"colorblind": {
+				"input_name": "Színtévesztő mód",
+				"label": "Színtévesztő mód"
+			},
+			"difficulty": {
+				"limit_guesses_6": {
+					"input_name": "Korlátozott próbálkozások",
+					"label": "Tippek korlátozása 6 próbálkozásra"
+				},
+				"search": {
+					"game_knowledge": {
+						"input_name": "Játékismeret",
+						"label": "Játékismeret"
+					},
+					"logical": {
+						"input_name": "Logikai",
+						"label": "Logikai"
+					},
+					"showcase": {
+						"fallback": "Válassz nehézséget a kereséshez!",
+						"game_knowledge": {
+							"description": "Nincsenek keresési tippek, magadra vagy utalva a játékismereteddel!",
+							"image_alt": "Játékismeret nehézségi keresés"
+						},
+						"logical": {
+							"description": "A keresés megmutatja az összes elérhető statisztikát, logikai játékká alakítva az MCdle-t!",
+							"image_alt": "Logikai nehézségi keresés"
+						}
+					},
+					"title": "Keresés:"
+				},
+				"title": "Nehézség"
+			},
+			"keybinds": {
+				"title": "Billentyűkiosztás",
+				"binds": {
+					"crafting.selectHex.1": {
+						"name": "1. hatszög kiválasztása",
+						"description": "1. hatszögletű csempe kiválasztása"
+					},
+					"crafting.selectHex.2": {
+						"name": "2. hatszög kiválasztása",
+						"description": "2. hatszögletű csempe kiválasztása"
+					},
+					"crafting.selectHex.3": {
+						"name": "3. hatszög kiválasztása",
+						"description": "3. hatszögletű csempe kiválasztása"
+					},
+					"crafting.selectHex.4": {
+						"name": "4. hatszög kiválasztása",
+						"description": "4. hatszögletű csempe kiválasztása"
+					},
+					"crafting.selectHex.5": {
+						"name": "5. hatszög kiválasztása",
+						"description": "5. hatszögletű csempe kiválasztása"
+					},
+					"crafting.selectHex.6": {
+						"name": "6. hatszög kiválasztása",
+						"description": "6. hatszögletű csempe kiválasztása"
+					},
+					"crafting.selectHex.7": {
+						"name": "7. hatszög kiválasztása",
+						"description": "7. hatszögletű csempe kiválasztása"
+					},
+					"crafting.grid.nav.up": {
+						"name": "Navigálás a barkácsrácson fel",
+						"description": "A kijelölő mozgatása felfelé a barkácsrácson"
+					},
+					"crafting.grid.nav.down": {
+						"name": "Navigálás a barkácsrácson le",
+						"description": "A kijelölő mozgatása lefelé a barkácsrácson"
+					},
+					"crafting.grid.nav.left": {
+						"name": "Navigálás a barkácsrácson balra",
+						"description": "A kijelölő mozgatása balra a barkácsrácson"
+					},
+					"crafting.grid.nav.right": {
+						"name": "Navigálás a barkácsrácson jobbra",
+						"description": "A kijelölő mozgatása jobbra a barkácsrácson"
+					},
+					"crafting.grid.placeItem": {
+						"name": "Tárgy elhelyezése a rácson",
+						"description": "A kiválasztott tárgy elhelyezése a barkácsrácson"
+					},
+					"crafting.grid.craftItem": {
+						"name": "Tárgy barkácsolása",
+						"description": "A tárgy elkészítése a barkácsolás kimenetén"
+					},
+					"crafting.grid.deleteItem": {
+						"name": "Tárgy törlése a rácson",
+						"description": "A tárgy törlése a barkácsrácson"
+					},
+					"crafting.grid.clear": {
+						"name": "Barkácsrács törlése",
+						"description": "A barkácsrács törlése"
+					},
+					"crafting.grid.clearImmediate": {
+						"name": "Rács azonnali törlése",
+						"description": "A barkácsrács azonnali törlése megerősítés nélkül"
+					},
+					"crafting.randomize": {
+						"name": "Véletlenszerű játék",
+						"description": "7 véletlenszerű tárgy kérése a játékhoz"
+					}
+				}
+			},
+			"settings_button": {
+				"image_alt": "Beállítások gomb",
+				"tooltip": "Beállítások"
+			},
+			"title": "Beállítások"
+		},
+		"language": {
+			"title": "Nyelv",
+			"tooltip": "Nyelv",
+			"description": {
+				"pre_link": "Ez a weboldal hivatalosan az angolt és a németet támogatja, de a közösségnek köszönhetően más nyelvek is elérhetővé váltak a ",
+				"link": "Githubon",
+				"post_link": " keresztül. Nincs garancia arra, hogy a nem hivatalos fordítások naprakészek vagy helyesek, szóval ha hibát találsz, nyugodtan nyiss egy pull requestet!"
+			}
+		}
+	},
+	"pages": {
+		"404": {
+			"compass_alt": "Iránytű gif",
+			"message": "Egy 404-es végbe ütköztél ebben a barlangban...",
+			"return_message": "Fogj egy iránytűt a hazatéréshez!"
+		},
+		"index": {
+			"header": "Válassz játékmódot",
+			"links": {
+				"blocks": {
+					"image_alt": "Blokkok ikon",
+					"subtitle": "Találd ki a mai minecraft blokkot",
+					"title": "Blokkok"
+				},
+				"items": {
+					"image_alt": "Tárgyak ikon",
+					"subtitle": "Találd ki a mai minecraft tárgyat",
+					"title": "Tárgyak"
+				},
+				"mobs": {
+					"image_alt": "Lények ikon",
+					"subtitle": "Fedezd fel a mai minecraft lényt",
+					"title": "Lények"
+				},
+				"crafting": {
+					"image_alt": "Crafting Bee ikon",
+					"subtitle": "Ismered a recepteket?",
+					"title": "Crafting Bee"
+				},
+				"goal": {
+					"title": "MCdle Bestiárium",
+					"image_alt": "Cél ikon"
+				},
+				"bestiary": {
+					"title": "Bestiárium",
+					"image_alt": "Bestiárium ikon",
+					"subtitle": "Kövesd a fejlődésed és kezdj el gyűjteni! Szűrheted is, hogy mit fedeztél már fel!"
+				},
+				"kineticraft": {
+					"title": "Játssz végtelenül a kineticraft.net-en",
+					"image_alt": "Kineticraft ikon",
+					"subtitle": "A Lény, Blokk és Tárgy játékmódok késleltetés nélkül játszhatók, de meg kell találnod őket a világban! /mcdle"
+				}
+			}
+		},
+		"generic": {
+			"game": {
+				"complete_support": {
+					"start": "Ha élvezed az MCdle-t, fontold meg a projekt támogatását itt:",
+					"end": "!"
+				},
+				"see_in_bestiary": "Nézd meg a bestiáriumban!"
+			}
+		},
+		"block": {
+			"title": "Játékmód: Találd ki a mai Blokkot!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statisztikák",
+					"tooltip": "Statisztikák"
+				},
+				"streak": {
+					"title": "Haladás átvitele",
+					"tooltip": "Győzelmi sorozat"
+				},
+				"help": {
+					"tooltip": "Hogyan játssz"
+				},
+				"bestiary": {
+					"tooltip": "Bestiárium"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Blokk",
+					"initial_release": "Kiadás",
+					"stack_size": "Készletméret",
+					"tool": "Eszköz(ök)",
+					"blast_resistance": "Robbanás<wbr>ellenállás",
+					"hardness": "Keménység",
+					"flammable": "Gyúlékony",
+					"transparent": "Átlátszó",
+					"full_block": "Teljes blokk"
+				},
+				"data": {
+					"tool": {
+						"any_tool": "Bármelyik",
+						"axe": "Fejsze",
+						"pickaxe": "Csákány",
+						"hoe": "Kapa",
+						"shears": "Olló",
+						"sword": "Kard",
+						"none": "Nincs",
+						"shovel": "Ásó",
+						"bucket": "Vödör",
+						"brush": "Ecset"
+					},
+					"states": {
+						"yes": "Igen",
+						"no": "Nem",
+						"partial": "Részleges"
+					}
+				}
+			},
+			"loose": {
+				"title": "Nem sikerült felfedezned a mai blokkot",
+				"subtitle": "Több szerencsét holnap! (vagy kapcsold ki a tippkorlátot a beállításokban)"
+			},
+			"win": {
+				"title": "Blokk felfedezve!",
+				"subtitle": "A mai blokk a(z) {{name}} volt!"
+			},
+			"intro": {
+				"description": "Találd ki a mai Minecraft blokkot!",
+				"start_help": "Írj lentebb a kezdéshez!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} tipped maradt!",
+					"one": "{{remaining}} tipped maradt!",
+					"two-four": "{{remaining}} tipped maradt!",
+					"many": "{{remaining}} tipped maradt!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Keress egy blokkot",
+					"new_tomorrow": "Új blokk holnap!",
+					"no_more_guesses": "Kifogytál a tippekből!"
+				},
+				"submit": {
+					"aria_label": "Próbáld ki ezt a blokkot"
+				},
+				"ambiguous_result": {
+					"description": "Kétértelmű blokk felfedezve! A további helytelen kétértelmű blokkok pirossal lesznek áthúzva.",
+					"image_alt": "Kincsvadász - szoros volt"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Frissítsd az oldalt a következőhöz!",
+				"next_in": "Következő blokk {{time}} múlva"
+			},
+			"yesterday_info": {
+				"description": "A tegnapi blokk a(z) {{name}} volt!"
+			},
+			"next_game": {
+				"name": "Blokkok",
+				"description": "Készen állsz a mai blokk kitalálására?"
+			},
+			"quick_help": {
+				"look_for": "Még mindig jobb magyarázatot keresel? Keresd a",
+				"tooltip": "Hogyan játssz",
+				"click_here": "ikont a játék címe alatt, vagy kattints ide!"
+			},
+			"help": {
+				"title": "Hogyan játssz",
+				"intro": {
+					"goal": "A játék célja, hogy kitalálj egy Minecraft blokkot. Minden nap új blokk kerül kiválasztásra, és ha folyamatosan kitalálod a nap blokkját, győzelmi sorozatot építhetsz!",
+					"enter_guesses": "Kezdd azzal, hogy beírod bármelyik blokk nevét a keresőmezőbe. A keresésed alapján legfeljebb 10 találat jelenik meg. Kattints bármelyikre, vagy navigálj rájuk a nyílbillentyűkkel, és nyomd meg az Entert a tipped rögzítéséhez.",
+					"field_explanation": "A választott blokk tulajdonságait összehasonlítjuk a mai blokkal, és zölddel jelöljük, ha egyezik, sárgával a részleges egyezést, és pirossal, ha helytelen. A helytelen szám/verzió mezők mögött egy nyilat is találsz, ami jelzi, hogy nagyobbat vagy kisebbet kell-e tippelned."
+				},
+				"example": {
+					"title": "Példa",
+					"intro": "Nézzünk egy példajátékot. Először megpróbálunk egy tetszőleges blokkot.",
+					"table_interpretation_1": "Megtudtuk, hogy a blokk, mint a legtöbb másik, 64-ig halmozható, és nem gyúlékony. Nem a pre-alpha verziókban került be, és nem bányászható csákánnyal. Szóval próbáljunk egy másik, újabb blokkot.",
+					"table_interpretation_2": "Felfedeztük a blokk verzióját! Ideje olyan blokkot keresni, ami a Beta 1.8-ban került be. Ráadásul részleges egyezést kaptunk az eszköznél, tehát fejszével és valamilyen más eszközzel is törhető. Továbbá a blokk se nem átlátszó (\"Igen\"), se nem nem-átlátszó (\"Nem\"), tehát részben átlátszó lehet. Keressünk egy blokkot, ami megfelel ezeknek a tulajdonságoknak.",
+					"table_interpretation_3": "Meg is van! Felfedeztük, hogy a blokk egy dinnyeblokk volt, micsoda élvezet!"
+				},
+				"partial_matches": {
+					"title": "Részleges egyezés magyarázata",
+					"intro": "Nézzük meg részletesen a részleges egyezéseket, mert valószínűleg ezek a legzavaróbbak a csempeszínek közül.",
+					"explanation": "Részleges egyezés csak olyan mezőkben jelenhet meg, amelyek listából állnak (pl. Eszközök). Ha olyan blokkot tippeltél, ami legalább egy olyan eszközzel törhető, ami egyezik a tényleges blokkéval, részleges egyezést kapsz. Íme egy példa a levelekre:"
+				},
+				"tips": {
+					"title": "Tippek",
+					"not_all_blocks": "Az MCdle nem tartalmaz minden típusú blokkot. A beton, terrakotta, gyapjú stb. összes színes változata egy reprezentatív blokkba van összevonva, mint pl. \"Beton\" vagy \"Gyapjú\". Ez vonatkozik a különböző fafajtákra, falakra, lépcsőkre stb. is.",
+					"utilize_the_search": "Használd ki a keresősávot! A javaslatok átnézése segít leszűkíteni a keresésedet.",
+					"use_the_wiki": "Nyugodtan használd a Minecraft wikit. Amint meghatároztad a blokk verzióját, a wiki segítségével megtalálhatod az abban a verzióban hozzáadott blokkokat, ami drasztikusan segít leszűkíteni a keresést."
+				}
+			}
+		},
+		"item": {
+			"title": "Játékmód: Találd ki a mai Tárgyat!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statisztikák",
+					"tooltip": "Statisztikák"
+				},
+				"streak": {
+					"title": "Haladás átvitele",
+					"tooltip": "Győzelmi sorozat"
+				},
+				"help": {
+					"tooltip": "Hogyan játssz"
+				},
+				"bestiary": {
+					"tooltip": "Bestiárium"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Tárgy",
+					"initial_release": "Kiadás",
+					"stack_size": "Készletméret",
+					"rarity": "Ritkaság",
+					"inventory_categories": "Kreatív leltár kategória",
+					"renewable": "Megújuló",
+					"usage": "Használat",
+					"source": "Forrás",
+					"recipe": "Recept",
+					"loot": "Zsákmány"
+				},
+				"data": {
+					"rarity": {
+						"common": "Gyakori",
+						"uncommon": "Nem gyakori",
+						"rare": "Ritka",
+						"epic": "Epikus",
+						"mixed": "Vegyes"
+					},
+					"inventory_category": {
+						"tools_and_utilities": "Eszközök",
+						"redstone_blocks": "Redstone blokkok",
+						"functional_blocks": "Funkcionális blokkok",
+						"natural_blocks": "Természetes blokkok",
+						"ingredients": "Hozzávalók",
+						"combat": "Harc",
+						"food_and_drinks": "Étel és ital",
+						"none": "Nincs",
+						"spawn_eggs": "Idézőtojások",
+						"operator_utilities": "Operátori eszközök"
+					},
+					"recipe": {
+						"crafting_table": "Barkácsasztal",
+						"furnace": "Kemence",
+						"brewing_stand": "Főzőállvány",
+						"none": "Nincs"
+					},
+					"loot": {
+						"container": "Tároló",
+						"mob": "Lény",
+						"fishing": "Horgászat",
+						"trading": "Kereskedelem",
+						"none": "Nincs"
+					}
+				}
+			},
+			"loose": {
+				"title": "Nem sikerült felfedezned a mai tárgyat",
+				"subtitle": "Több szerencsét holnap! (vagy kapcsold ki a tippkorlátot a beállításokban)"
+			},
+			"win": {
+				"title": "Tárgy felfedezve!",
+				"subtitle": "A mai tárgy a(z) {{name}} volt!"
+			},
+			"intro": {
+				"description": "Találd ki a mai Minecraft tárgyat!",
+				"start_help": "Írj lentebb a kezdéshez!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} tipped maradt!",
+					"one": "{{remaining}} tipped maradt!",
+					"two-four": "{{remaining}} tipped maradt!",
+					"many": "{{remaining}} tipped maradt!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Keress egy tárgyat",
+					"new_tomorrow": "Új tárgy holnap!",
+					"no_more_guesses": "Kifogytál a tippekből!"
+				},
+				"submit": {
+					"aria_label": "Próbáld ki ezt a tárgyat"
+				},
+				"ambiguous_result": {
+					"description": "Kétértelmű tárgy felfedezve! A további helytelen kétértelmű tárgyak pirossal lesznek áthúzva.",
+					"image_alt": "Kincsvadász - szoros volt"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Frissítsd az oldalt a következőhöz!",
+				"next_in": "Következő tárgy {{time}} múlva"
+			},
+			"yesterday_info": {
+				"description": "A tegnapi tárgy a(z) {{name}} volt!"
+			},
+			"next_game": {
+				"name": "Tárgyak",
+				"description": "Készen állsz a mai tárgy kitalálására is?"
+			},
+			"quick_help": {
+				"look_for": "Még mindig jobb magyarázatot keresel? Keresd a",
+				"tooltip": "Hogyan játssz",
+				"click_here": "ikont a játék címe alatt, vagy kattints ide!"
+			},
+			"help": {
+				"title": "Hogyan játssz",
+				"intro": {
+					"goal": "A játék célja, hogy kitalálj egy Minecraft tárgyat. Minden nap új tárgy kerül kiválasztásra, és ha folyamatosan kitalálod a nap tárgyát, győzelmi sorozatot építhetsz.",
+					"enter_guesses": "Kezdd azzal, hogy beírod bármelyik tárgy nevét a keresőmezőbe. A keresésed alapján legfeljebb 10 találat jelenik meg. Kattints bármelyikre, vagy navigálj rájuk a nyílbillentyűkkel, és nyomd meg az Entert a tipped rögzítéséhez.",
+					"field_explanation": "A választott tárgy tulajdonságait összehasonlítjuk a mai tárggyal, és zölddel jelöljük, ha egyezik, sárgával a részleges egyezést, és pirossal, ha helytelen. A helytelen szám/verzió mezők mögött egy nyilat is találsz, ami jelzi, hogy nagyobbat vagy kisebbet kell-e tippelned."
+				},
+				"example": {
+					"title": "Példa",
+					"intro": "Nézzünk egy példajátékot. Először megpróbálunk egy tetszőleges tárgyat.",
+					"table_interpretation_1": "Megtudtuk, hogy a tárgy, mint a legtöbb másik, 64-ig halmozható. Újabb, mint a Beta 1.2, Gyakori ritkaságú, megújuló, és a Minecraft wiki szerint kevesebb, mint 5 felhasználási módja és kevesebb, mint 6 megszerzési módja van. A leltárkategóriája elárulja, hogy nem a \"Hozzávalók\" kategóriában lévő tárgyat keresünk. Próbáljunk egy másik tárgyat.",
+					"table_interpretation_2": "Felfedeztük a tárgy verzióját! Ideje olyan tárgyat keresni, ami a Beta 1.8-ban került be, és az \"Étel és ital\" kreatív leltár kategóriában van. Most olyan tárgyat kell keresnünk, amelynek egyeznek a használati esetei és a megszerzési módjai.",
+					"table_interpretation_3": "Meg is van! Felfedeztük, hogy a tárgy egy dinnyeszelet volt, micsoda öröm!"
+				},
+				"partial_matches": {
+					"title": "Részleges egyezés magyarázata",
+					"intro": "Nézzük meg részletesen a részleges egyezéseket, mert valószínűleg ezek a legzavaróbbak a csempeszínek közül.",
+					"explanation": "Részleges egyezés csak olyan mezőkben jelenhet meg, amelyek listából állnak (pl. leltárkategória). Ha olyan tárgyat tippeltél, ami legalább egy olyan leltárkategóriában van, ami egyezik a tényleges tárgyéval, részleges egyezést kapsz. Íme egy példa a fonálra:"
+				},
+				"tips": {
+					"title": "Tippek",
+					"not_all_items": "Az MCdle nem tartalmaz minden típusú tárgyat. A lista a Minecraft wikiről származik, ezért nem tartalmazza a különböző blokkok tárgyformáit vagy a túl hasonló tárgyakat, mint az összes páncél/eszköz variációt.",
+					"utilize_the_search": "Használd ki a keresősávot! A javaslatok átnézése segít leszűkíteni a keresésedet.",
+					"use_the_wiki": "Nyugodtan használd a Minecraft wikit. Amint meghatároztad a tárgy verzióját, a wiki segítségével megtalálhatod az abban a verzióban hozzáadott tárgyakat, ami drasztikusan segít leszűkíteni a keresést.",
+					"usage_and_source_explanation": "Ha kíváncsi vagy, hogyan számítják ki a Használat/Forrás számot, nézd meg a tárgy wiki oldalát, és görgess a \"Megszerzése\" és \"Felhasználása\" részekhez. Ezen szakaszok fejléceit használták a különböző felhasználási esetek összeszámlálására. Ha hiányoztak, én, a fejlesztő, manuálisan adtam hozzá őket."
+				}
+			}
+		},
+		"mob": {
+			"title": "Játékmód: Találd ki a mai Lényt!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statisztikák",
+					"tooltip": "Statisztikák"
+				},
+				"streak": {
+					"title": "Haladás átvitele",
+					"tooltip": "Győzelmi sorozat"
+				},
+				"help": {
+					"tooltip": "Hogyan játssz"
+				},
+				"bestiary": {
+					"tooltip": "Bestiárium"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Lény",
+					"initial_release": "Kiadás",
+					"health": "Élet",
+					"height": "Magasság",
+					"behavior": "Viselkedés",
+					"spawn": "Idézés",
+					"classification": "Besorolás"
+				},
+				"data": {
+					"behavior": {
+						"passive": "Békés",
+						"neutral": "Semleges",
+						"hostile": "Ellenséges",
+						"defensive": "Védekező"
+					},
+					"classification": {
+						"none": "Nincs",
+						"animal": "Állat",
+						"aquatic": "Vízi",
+						"arthropod": "Ízeltlábú",
+						"undead": "Élőhalott",
+						"illager": "Illager",
+						"golem": "Gólem",
+						"boss": "Főellenség"
+					},
+					"spawn": {
+						"structure": "Struktúra",
+						"spawner": "Idézőketrec",
+						"breeding": "Tenyésztés",
+						"biome": "Biom",
+						"light_level": "Fényszint",
+						"block": "Blokk",
+						"grass": "Fű",
+						"nether": "A Nether",
+						"projectile": "Lövedék",
+						"conversion": "Átváltozás",
+						"lightning": "Villám",
+						"the_end": "Az End",
+						"summon": "Idézés",
+						"raids": "Támadások",
+						"command": "Parancs",
+						"overworld": "Felvilág",
+						"hatching": "Kikelés",
+						"jockey": "Zsoké",
+						"duplication": "Duplikálás",
+						"magic": "Mágia",
+						"reinforcements": "Erősítés",
+						"sieges": "Ostromok"
+					}
+				}
+			},
+			"loose": {
+				"title": "Nem sikerült felfedezned a mai lényt",
+				"subtitle": "Több szerencsét holnap! (vagy kapcsold ki a tippkorlátot a beállításokban)"
+			},
+			"win": {
+				"title": "Lény felfedezve!",
+				"subtitle": "A mai lény a(z) {{name}} volt!"
+			},
+			"intro": {
+				"description": "Találd ki a mai Minecraft lényt!",
+				"start_help": "Írj lentebb a kezdéshez!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} tipped maradt!",
+					"one": "{{remaining}} tipped maradt!",
+					"two-four": "{{remaining}} tipped maradt!",
+					"many": "{{remaining}} tipped maradt!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Keress egy lényt",
+					"new_tomorrow": "Új lény holnap!",
+					"no_more_guesses": "Kifogytál a tippekből!"
+				},
+				"submit": {
+					"aria_label": "Próbáld ki ezt a lényt"
+				},
+				"ambiguous_result": {
+					"description": "Kétértelmű lény felfedezve! A további helytelen kétértelmű lények pirossal lesznek áthúzva.",
+					"image_alt": "Kincsvadász - szoros volt"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Frissítsd az oldalt a következőhöz!",
+				"next_in": "Következő lény {{time}} múlva"
+			},
+			"yesterday_info": {
+				"description": "A tegnapi lény a(z) {{name}} volt!"
+			},
+			"next_game": {
+				"name": "Lények",
+				"description": "Készen állsz a mai lény kitalálására?"
+			},
+			"quick_help": {
+				"look_for": "Még mindig jobb magyarázatot keresel? Keresd a",
+				"tooltip": "Hogyan játssz",
+				"click_here": "ikont a játék címe alatt, vagy kattints ide!"
+			},
+			"help": {
+				"title": "Hogyan játssz",
+				"intro": {
+					"goal": "A játék célja, hogy kitalálj egy Minecraft lényt. Minden nap új lény kerül kiválasztásra, és ha folyamatosan kitalálod a nap lényét, győzelmi sorozatot építhetsz.",
+					"enter_guesses": "Kezdd azzal, hogy beírod bármelyik lény nevét a keresőmezőbe. A keresésed alapján legfeljebb 10 találat jelenik meg. Kattints bármelyikre, vagy navigálj rájuk a nyílbillentyűkkel, és nyomd meg az Entert a tipped rögzítéséhez.",
+					"field_explanation": "A választott lény tulajdonságait összehasonlítjuk a mai lénnyel, és zölddel jelöljük, ha egyezik, sárgával a részleges egyezést, és pirossal, ha helytelen. A helytelen szám/verzió mezők mögött egy nyilat is találsz, ami jelzi, hogy nagyobbat vagy kisebbet kell-e tippelned."
+				},
+				"example": {
+					"title": "Példa",
+					"intro": "Nézzünk egy példajátékot. Először megpróbálunk egy tetszőleges lényt.",
+					"table_interpretation_1": "Ebből a tippből láthatjuk, hogy a keresett lény az 1.6.1 verzió után került be, nincs sok életereje, kevesebb mint 1,6 blokk magas, és lehet békés, ellenséges, vagy a kettő keveréke. Nem villám idézi meg, és nem is élőhalott.",
+					"table_interpretation_2": "Rendben, még mindig újabb az 1.13-nál, de megvan az életerő: olyan lényt keresünk, aminek 10 HP-ja, azaz 5 szíve van. Kevesebb, mint 0,6 blokk magas, szóval egy kis lényt keresünk. A lény viselkedése még mindig részleges egyezés, szóval nagyon valószínű, hogy békés, de lehet még ellenséges és semleges is. Mind az idézés, mind a besorolás mezők részleges egyezést kaptak, tehát a lény származási helye biom és valami más, és a lény besorolása vagy állat, vízi, és esetleg még valami más is e két lehetőség mellett.",
+					"table_interpretation_3": "Gyerünk! Nézd, ki ugrott be ebbe az oktatóanyagba. Megtaláltuk a kis békát!"
+				},
+				"partial_matches": {
+					"title": "Részleges egyezés magyarázata",
+					"intro": "Nézzük meg részletesen a részleges egyezéseket, mert valószínűleg ezek a legzavaróbbak a csempeszínek közül.",
+					"explanation": "Részleges egyezés csak olyan mezőkben jelenhet meg, amelyek listából állnak (pl. az idézés, besorolás vagy viselkedés mezők). Ha olyan lényt tippeltél, aminek legalább egy listaelem egyezik a tényleges lénnyel, részleges egyezést kapsz. Íme egy példa a lovakra:"
+				},
+				"tips": {
+					"title": "Tippek",
+					"not_all_blocks": "Az MCdle nem tartalmaz minden típusú entitást. Csak az élőlények, mint a malacok vagy zombik szerepelnek benne. Páncélállványok, lövedékek vagy hasonló élettelen entitások nincsenek benne. A lista a Minecraft wikiről származik, tehát ha nincs ott a lénylistában, akkor ebben a játékban sincs.",
+					"utilize_the_search": "Használd ki a keresősávot! A javaslatok átnézése segít leszűkíteni a keresésedet.",
+					"use_the_wiki": "Nyugodtan használd a Minecraft wikit. Amint meghatároztad a lény verzióját, a wiki segítségével megtalálhatod az abban a verzióban hozzáadott lényeket, ami drasztikusan segít leszűkíteni a keresést.",
+					"health_measuring": "Ne feledd, hogy az életerőt életerőpontokban mérik, azaz fél szívekben, tehát 10 HP az 5 szív."
+				}
+			}
+		},
+		"crafting": {
+			"title": "Játékmód: Crafting Bee",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Statisztikák",
+					"tooltip": "Statisztikák"
+				},
+				"streak": {
+					"title": "Haladás átvitele",
+					"tooltip": "Győzelmi sorozat"
+				},
+				"help": {
+					"tooltip": "Hogyan játssz"
+				},
+				"bestiary": {
+					"tooltip": "Bestiárium"
+				},
+				"editor": {
+					"tooltip": "Szerkesztő"
+				}
+			},
+			"regular": {
+				"notifications": {
+					"already_crafted": "A tárgy már el lett készítve!",
+					"other_game_running": {
+						"description": "Van egy másik mentett játékod, de egy egyéni linken keresztül újat próbálsz indítani",
+						"prev_game": "A mentett játékod:",
+						"prev_game_discovered": "Már felfedezve: {{discoveredCount}}/{{availableRecipes}}.",
+						"overwrite": "Felülírás",
+						"return": "Visszatérés a mentett játékhoz"
+					}
+				},
+				"copy_message": {
+					"timer": {
+						"all": {
+							"long": "Felfedeztem az összes {{discoveredCount}} receptet {{time}} alatt a következő #MCdle #CraftingBee rejtvényben!",
+							"short": "Megtaláltam az összes {{discoveredCount}} receptet {{time}} alatt #MCdle #CraftingBee"
+						},
+						"partial": {
+							"long": "Sikerült felfedeznem {{discoveredCount}}/{{availableRecipes}} receptet {{time}} alatt a következő #MCdle #CraftingBee rejtvényben!",
+							"short": "Megtaláltam {{discoveredCount}}/{{availableRecipes}} receptet {{time}} alatt #MCdle #CraftingBee"
+						}
+					},
+					"no_timer": {
+						"all": {
+							"long": "Felfedeztem az összes {{discoveredCount}} receptet a következő #MCdle #CraftingBee rejtvényben!",
+							"short": "Megtaláltam az összes {{discoveredCount}} receptet ebben a #MCdle #CraftingBee-ben"
+						},
+						"partial": {
+							"long": "Sikerült felfedeznem {{discoveredCount}}/{{availableRecipes}} receptet a következő #MCdle #CraftingBee rejtvényben!",
+							"short": "Megtaláltam {{discoveredCount}}/{{availableRecipes}} receptet ebben a #MCdle #CraftingBee-ben"
+						}
+					},
+					"copy_button": {
+						"copy": "Rejtvény másolása",
+						"copied": "Másolva!"
+					},
+					"share_button": {
+						"share": "Rejtvény megosztása",
+						"shared": "Megosztva!"
+					}
+				},
+				"game_state_box": {
+					"start_playing": "Kezdd azzal, hogy kattintasz/áthúzod a tárgyakat lentről a barkácsrácsba!",
+					"discover_status": "Felfedezve: {{discoveredCount}}/{{availableRecipes}}",
+					"timer": "{{remainingTime}}"
+				},
+				"game_complete_box": {
+					"congrats": "Gratulálunk!",
+					"discovered": "Felfedezted az összes {{discoveredCount}} receptet a jelenlegi tárgyakkal!",
+					"discovered_time": "Felfedezted az összes {{discoveredCount}} receptet {{time}} alatt a jelenlegi tárgyakkal!",
+					"regenerate": {
+						"description": "Kattints az alábbi gombra a játék alaphelyzetbe állításához és új tárgyak kéréséhez.",
+						"button": "Újragenerálás",
+						"popup": {
+							"title": "Új véletlenszerű tárgyak?",
+							"hints": "Megjelenjenek a hátralévő recept tippek?",
+							"description": "Kattints lentebb a hatszögekben lévő tárgyak véletlenszerűsítéséhez és egy új játék indításához!",
+							"confirm": "Megerősítés"
+						}
+					},
+					"more_crafting_riddles": "vagy találj egyénieket a ",
+					"discord_link": "Discordunkon",
+					"more_crafting_riddles_2": "!",
+					"replay": {
+						"button": "Újrajátszás",
+						"popup": {
+							"title": "Újrajátszod a jelenlegi játékot?",
+							"description": "Kattints lentebb a játék újbóli lejátszásához ugyanazokkal a tárgyakkal!"
+						}
+					}
+				},
+				"tools": {
+					"eraser": "Radír",
+					"clear": {
+						"button": "Törlés",
+						"popup": {
+							"title": "Törlöd a barkácsasztalt?",
+							"description": "Kattints lentebb az összes tárgy eltávolításához a barkácsasztalról.",
+							"confirm": "Megerősítés"
+						}
+					}
+				},
+				"quick_settings": {
+					"hints": "Megjelenjenek a hátralévő recept tippek?",
+					"timer": "Tartalmazzon időzítőt?",
+					"regenerate": "Új rejtvény generálása",
+					"auto_craft": "Automatikus barkácsolás?"
+				},
+				"try_editor": "Nézd meg a szerkesztőt!"
+			},
+			"daily": {
+				"title": "Napi Crafting Bee",
+				"description": "Minden nap 7 véletlenszerű tárgy generálódik. Emlékszel az összes velük barkácsolható tárgyra?",
+				"game_complete_box": {
+					"more_tomorrow": "Gyere vissza holnap egy új napi rejtvényért, vagy játssz ",
+					"infinite_link": "végtelenül",
+					"more_tomorrow_2": "!",
+					"more_crafting_riddles": "Játékosok által készített rejtvényeket is találhatsz a ",
+					"discord_link": "Discordunkon",
+					"more_crafting_riddles_2": "!"
+				}
+			},
+			"index": {
+				"daily": {
+					"title": "Napi",
+					"description": "7 tárgy minden nap, sorozatokkal"
+				},
+				"regular": {
+					"title": "Korlátlan",
+					"description": "7 tárgy, korlátlan újrajátszás egyéni játékokkal és véletlenszerűsítéssel."
+				},
+				"editor": {
+					"title": "Szerkesztő",
+					"description": "Készítsd el a saját Crafting Bee rejtvényeidet!"
+				}
+			},
+			"editor": {
+				"title": "Crafting Bee Szerkesztő",
+				"description": "Szerkesztő a Crafting Bee játékmódhoz",
+				"share_creation": {
+					"before_link": "Oszd meg az alkotásodat a",
+					"link": "Discordunkon",
+					"after_link": "!"
+				},
+				"test_creation": {
+					"before_link": "Ha kész vagy,",
+					"link": "teszteld a rejtvényedet",
+					"after_link": "vagy"
+				},
+				"copy_creation": {
+					"copy": "Rejtvény link másolása",
+					"copied": "Másolva!"
+				},
+				"search_items": "Tárgyak keresése...",
+				"table": {
+					"header": {
+						"item": "Tárgy",
+						"individual_usage": "Egyéni tárgyhasználat",
+						"recipes_with_item": "Receptek a tárggyal"
+					}
+				},
+				"found_recipes": "Talált receptek: {{count}}",
+				"delete_item": "Törlés",
+				"import": {
+					"title": "Játék importálása",
+					"unlimited_button": "Korlátlan játék importálása",
+					"popup": {
+						"title": "Importálod a játékot a Korlátlan módból?",
+						"description": "Kattints lentebb a jelenlegi játék importálásához a Korlátlan módból. Vedd figyelembe, hogy ez felülírja a jelenlegi szerkesztői folyamatodat.",
+						"confirm": "Megerősítés"
+					}
+				},
+				"return_to_unlimited": "Visszatérés a játékhoz!"
+			},
+			"midnight_timer": {
+				"next_thing": "Frissítsd az oldalt a következőhöz!",
+				"next_in": "Következő hozzávalók {{time}} múlva"
+			},
+			"next_game": {
+				"name": "Crafting Bee",
+				"description": "Emlékszel minden craftolható tárgyra a mai hozzávalókból?"
+			},
+			"help": {
+				"title": "Hogyan játssz",
+				"intro": {
+					"goal": "A játék célja, hogy minél több tárgyat barkácsolj a hatszögekben megadott 7 tárgyból. Ennek a játékmódnak van egy napi módja, valamint egy korlátlan módja szerkesztővel párosítva. A napi mód teljesítésével győzelmi sorozatot építhetsz. A korlátlan játékkal megtanulhatod, hogyan kell játszani, a recepteket, és játszhatsz más játékosok által a szerkesztővel készített rejtvényekkel!",
+					"entering_items": "A játék elkezdéséhez válassz ki egy tárgyat a hatszögekben, majd kattints egy mezőre a barkácsasztal rácson, ahol több mezőre kattintva \"befestheted\" ezeket a mezőket. Ismételd ezt a folyamatot, amíg meg nem látod a kívánt receptet a kimeneti mezőben. Ezután kattints az eredményül kapott tárgyra a barkácsoláshoz! Alternatív megoldásként áthúzhatod a tárgyakat a hatszögekből vagy egyik mezőből a másikba. Ezenkívül lehetsz \"Billentyűzetvarázsló\" is, és kiválaszthatod a hatszögeket a számbillentyűkkel, a WASD vagy nyílbillentyűkkel a barkácsasztal mezőit, a szóközzel az elhelyezést, és az Enterrel a barkácsolást. A billentyűkiosztás konfigurálható a beállításokban az MCdle cím bal oldalán."
+				},
+				"example": {
+					"title": "Példa",
+					"intro": "Nézzünk néhány példát! Egyetlen gyémántból 5 különböző tárgyat barkácsolhatunk!",
+					"try_example": "Próbáld ki ezt a példát",
+					"hint_info": "Elakadtál? Bekapcsolhatod a tippeket a törlés/tisztítás gombok alatti dobozban. A tippek megjelennek az egyes hatszögek felett, és elmondják, hány tárgyat barkácsolhatsz még azzal az összetevővel! Innen meglátogathatod a",
+					"mc_wiki": "Minecraft Wikit",
+					"hint_info_2": "hogy kikeresd a recepteket.",
+					"test_hints": "Teszteld a tipprendszer váltását"
+				},
+				"tips": {
+					"title": "Tippek",
+					"individual_results_only": "A játék csak az egyéni eredményeket számolja, nem az egyéni recepteket. Például a bambuszból és a deszkából is készülhet bot, de miután az egyikkel barkácsoltál botot, ennyi!",
+					"where_help": "Használd a tipprendszert, ha elakadtál. A wiki jól párosítható vele, csak keress rá a hiányzó tárgyra!",
+					"not_all_recipes": "A Crafting Bee nem tartalmaz minden barkácsolható receptet. Csak a barkácsasztalon belüli szabványos formázott és formázatlan receptek szerepelnek benne. A nem szabványos receptek, mint az egyedi tűzijátékok, díszített cserepek vagy hasonlók nincsenek benne."
+				}
+			}
+		},
+		"bestiary": {
+			"index": {
+				"title": "Bestiárium",
+				"books": {
+					"blocks": {
+						"title": "A Blokkok Könyve",
+						"cover_alt_text": "Blokk könyvborító"
+					},
+					"items": {
+						"title": "A Tárgyak Könyve",
+						"cover_alt_text": "Tárgy könyvborító"
+					},
+					"mobs": {
+						"title": "A Lények Könyve",
+						"cover_alt_text": "Lény könyvborító"
+					},
+					"crafting": {
+						"title": "A Barkácsolás Könyve",
+						"cover_alt_text": "Crafting Bee könyvborító"
+					}
+				}
+			},
+			"blocks": {
+				"title": "Blokk Bestiárium",
+				"description": "Az összes Blokkhoz, amivel az MCdle-ben találkozhatsz."
+			},
+			"items": {
+				"title": "Tárgy Bestiárium",
+				"description": "Az összes Tárgyhoz, amivel az MCdle-ben találkozhatsz."
+			},
+			"mobs": {
+				"title": "Lény Bestiárium",
+				"description": "Az összes Lényhez, amivel az MCdle-ben találkozhatsz."
+			},
+			"crafting": {
+				"title": "Crafting Bee Bestiárium",
+				"description": "Az összes tárgyhoz, amit az MCdle Crafting Bee-jében barkácsolhatsz.",
+				"entry": {
+					"discovered": {
+						"label": "Felfedezve itt:",
+						"daily": "Napi kihívás",
+						"random": "Véletlenszerű játék",
+						"custom": "Egyéni játék"
+					},
+					"recipes": {
+						"label": "Receptek"
+					}
+				},
+				"filters": {
+					"unavailable": "Jelenleg nincsenek elérhető szűrők."
+				}
+			},
+			"generic": {
+				"overview": {
+					"title": "Áttekintés",
+					"library_back": "Vissza a könyvtárhoz",
+					"explanation": "Kattints egy bejegyzésre az oldala megtekintéséhez, használd a kereső ikont a jobb felső sarokban a kereséshez, vagy alkalmazz szűrőket, amelyek az egész oldalra vonatkoznak (nem csak a keresési eredményekre).",
+					"sorting": {
+						"alphabet_tooltip": "Rendezés betűrendben",
+						"alphabet_alt": "A-Z rendezés",
+						"release_tooltip": "Rendezés kiadás szerint",
+						"release_alt": "Kiadás szerinti rendezés"
+					}
+				},
+				"entry": {
+					"overview_back": "Áttekintés",
+					"not_found": "Norbert nem talált egyező bejegyzéseket a felfedezett listádban =(",
+					"try_different": "Próbálj más szűrőket!",
+					"discovered": {
+						"first_discovered": "Első felfedezés:",
+						"in": "itt:",
+						"and": "és",
+						"more": "továbbiak!"
+					}
+				},
+				"filters": {
+					"applied": "Szűrők alkalmazva",
+					"search_placeholder": "Keresés",
+					"search_alt": "Keresés ikon",
+					"clear": "Szűrők törlése",
+					"open": "Szűrők (Globális)",
+					"min": "Min",
+					"max": "Max"
+				}
+			}
+		}
+	},
+	"components": {
+		"quick_help": {
+			"show_button": "Gyorssúgó megjelenítése",
+			"color_explanation": {
+				"title": "Színek magyarázata",
+				"correct": "Helyes mező",
+				"incorrect": "Helytelen mező",
+				"partial": "Részben helyes mező"
+			}
+		},
+		"stats": {
+			"copy_button": "Másolás",
+			"copied_confirmation": "Másolva!",
+			"share": "Megosztás",
+			"copy_message": {
+				"header_block": "Az #MCdle blokk statisztikáim 🏆",
+				"header_item": "Az #MCdle tárgy statisztikáim 🏆",
+				"header_mob": "Az #MCdle lény statisztikáim 🏆",
+				"total_wins": "🎉 Megnyert játékok {{number}}",
+				"average_guesses": "🧮 Átlagos tippek {{number}}",
+				"one_shots": "🎯 Telitalálatok {{number}}",
+				"current_streak": "🚀 Jelenlegi sorozat {{number}}",
+				"max_streak": "📈 Max sorozat {{number}}"
+			},
+			"stat_labels": {
+				"total_wins": "Megnyert játékok",
+				"average_guesses": "Átlagos tippek",
+				"one_shots": "Telitalálatok",
+				"current_streak": "Jelenlegi sorozat",
+				"max_streak": "Max sorozat"
+			},
+			"chart_labels": {
+				"guesses": "Tippek"
+			}
+		},
+		"today_guesses": {
+			"loading": "Játékos tippek betöltése...",
+			"already_guessed": {
+				"zero": "játékos találta már ki helyesen!",
+				"one": "játékos találta már ki helyesen!",
+				"two-four": "játékos találta már ki helyesen!",
+				"many": "játékos találta már ki helyesen!"
+			}
+		},
+		"share_win": {
+			"copy_button": "Másolás",
+			"copied_confirmation": "Másolva!",
+			"share": "Megosztás",
+			"all_games": "Összes játék",
+			"guess_type": {
+				"block": "blokk",
+				"item": "tárgy",
+				"mob": "lény"
+			},
+			"guess_line": {
+				"one": "Felfedeztem {{date}} #MCdle {{type}}ját {{number}} próbálkozásból! {{emoji}}",
+				"many": "Felfedeztem {{date}} #MCdle {{type}}ját {{number}} próbálkozásból! {{emoji}}"
+			},
+			"short_guess_line": {
+				"intro": "Felfedeztem {{date}} #MCdle ",
+				"one": "{{type}}ját {{number}} próbálkozásból",
+				"many": "{{type}}ját {{number}} próbálkozásból",
+				"conjunction": " és "
+			}
+		},
+		"hints": {
+			"in_x_guesses": {
+				"one": "{{number}} tippből!",
+				"many": "{{number}} tippből!"
+			},
+			"version": {
+				"description": "Kiadási verzió tipp",
+				"solution": "Egy {{version}} kiadást keresel!"
+			},
+			"letter": {
+				"description": "Kezdőbetű tipp",
+				"solution": "A megoldás {{letter}} betűvel kezdődik..."
+			},
+			"image": {
+				"description": "Nagyított kép tipp",
+				"solution": "Látod, mi rejtőzik ezen a 8x-os nagyítású képen?"
+			}
+		},
+		"toasts": {
+			"patchnotes": {
+				"live": " már éles! Nézd meg őket!"
+			}
+		}
+	},
+	"blocks": {
+		"button": "Akáciafa gomb",
+		"door": "Akáciafa ajtó",
+		"fence": "Akáciafa kerítés",
+		"fence_gate": "Akáciafa kerítéskapu",
+		"leaves": "Akácialevelek",
+		"log": "Akáciarönk",
+		"planks": "Akáciadeszka",
+		"pressure_plate": "Akáciafa nyomólap",
+		"sapling": "Akáciacsemete",
+		"shelf": "Akáciafa polc",
+		"sign": "Akáciafa tábla",
+		"slab": "Akáciafa lap",
+		"stairs": "Akáciafa lépcső",
+		"trapdoor": "Akáciafa csapóajtó",
+		"wood": "Akáciablokk",
+		"activator_rail": "Aktiválósín",
+		"flower": "Hagymavirág",
+		"amethyst_block": "Ametisztblokk",
+		"amethyst_cluster": "Ametiszt-kristálycsoport",
+		"ancient_debris": "Ősi törmelék",
+		"andesite": "Andezit",
+		"wall": "Andezitfal",
+		"anvil": "Üllő",
+		"azalea": "Azálea",
+		"bamboo": "Bambusz",
+		"bamboo_block": "Bambuszblokk",
+		"bamboo_mosaic": "Bambuszmozaik",
+		"barrel": "Hordó",
+		"barrier": "Akadály",
+		"basalt": "Bazalt",
+		"beacon": "Jelzőfény",
+		"bedrock": "Alapkő",
+		"bee_nest": "Méhkas",
+		"beehive": "Méhkaptár",
+		"beetroots": "Cékla",
+		"bell": "Harang",
+		"big_dripleaf": "Nagy csepplevél",
+		"banner": "Fekete zászló",
+		"bed": "Fekete ágy",
+		"candle": "Fekete gyertya",
+		"carpet": "Fekete szőnyeg",
+		"concrete": "Fekete beton",
+		"concrete_powder": "Fekete szárazbeton",
+		"glazed_terracotta": "Fekete mázas kerámia",
+		"shulker_box": "Fekete shulkerdoboz",
+		"glass": "Fekete festett üveg",
+		"glass_pane": "Fekete festett üveglap",
+		"terracotta": "Fekete terrakotta",
+		"wool": "Fekete gyapjú",
+		"blackstone": "Feketekő",
+		"blast_furnace": "Kohó",
+		"blue_ice": "Kék jég",
+		"bone_block": "Csontblokk",
+		"bookshelf": "Könyvespolc",
+		"coral": "Agykorall",
+		"coral_block": "Agykorall-blokk",
+		"coral_fan": "Agykorall-legyező",
+		"brewing_stand": "Főzőállvány",
+		"bricks": "Tégla",
+		"mushroom": "Barna gomba",
+		"mushroom_block": "Barna gombablokk",
+		"bush": "Cserje",
+		"cactus": "Kaktusz",
+		"cactus_flower": "Kaktuszvirág",
+		"cake": "Torta",
+		"calcite": "Kalcit",
+		"calibrated_sculk_sensor": "Behangolt sculkérzékelő",
+		"campfire": "Tábortűz",
+		"carrots": "Sárgarépák",
+		"cartography_table": "Térképasztal",
+		"cauldron": "Üst",
+		"cave_vines": "Barlangi indák",
+		"chain": "Vaslánc",
+		"chest": "Láda",
+		"chiseled_bookshelf": "Faragott könyvespolc",
+		"chorus_flower": "Refrénvirág",
+		"chorus_plant": "Refrénnövény",
+		"clay": "Agyag",
+		"eyeblossom": "Zárt szemvirág",
+		"coal_block": "Szénblokk",
+		"coal_ore": "Szénérc",
+		"coarse_dirt": "Terméketlen föld",
+		"cobbled_deepslate": "Zúzott mélypala",
+		"cobblestone": "Zúzottkő",
+		"cobweb": "Pókháló",
+		"cocoa": "Kakaó",
+		"command_block": "Parancsblokk",
+		"comparator": "Redstone-komparátor",
+		"composter": "Komposztáló",
+		"conduit": "Csatorna",
+		"copper_block": "Rézblokk",
+		"copper_bulb": "Rézizzó",
+		"copper_chest": "Rézláda",
+		"copper_door": "Rézajtó",
+		"copper_golem_statue": "Rézgólem-szobor",
+		"copper_grate": "Rézrostély",
+		"copper_ore": "Rézérc",
+		"copper_trapdoor": "Réz csapóajtó",
+		"crafter": "Barkácsoló",
+		"crafting_table": "Barkácsasztal",
+		"creaking_heart": "Nyikorgószív",
+		"head": "Creeperfej",
+		"fungus": "Karmazsin gomba",
+		"nylium": "Karmazsin nílium",
+		"roots": "Karmazsin gyökerek",
+		"crying_obsidian": "Könnyező obszidián",
+		"daylight_detector": "Napfényérzékelő",
+		"dead_bush": "Száraz kóró",
+		"decorated_pot": "Díszített cserépedény",
+		"deepslate": "Mélypala",
+		"detector_rail": "Érzékelősín",
+		"diamond_block": "Gyémántblokk",
+		"diamond_ore": "Gyémántérc",
+		"diorite": "Diorit",
+		"dirt": "Föld",
+		"dirt_path": "Ösvény",
+		"dispenser": "Adagoló",
+		"dragon_egg": "Sárkánytojás",
+		"dried_ghast": "Kiszáradt Ghast",
+		"dried_kelp_block": "Szárított hínárblokk",
+		"dripstone_block": "Cseppkőblokk",
+		"dropper": "Kidobó",
+		"emerald_block": "Smaragdblokk",
+		"emerald_ore": "Smaragdérc",
+		"enchanting_table": "Varázslóasztal",
+		"end_portal_frame": "Endportál-keret",
+		"end_rod": "End-rúd",
+		"end_stone": "Endkő",
+		"end_stone_bricks": "Endkőtégla",
+		"ender_chest": "Enderláda",
+		"farmland": "Termőföld",
+		"fern": "Páfrány",
+		"fire": "Tűz",
+		"firefly_bush": "Szentjánosbogár-bokor",
+		"fletching_table": "Íjászasztal",
+		"flower_pot": "Virágcserép",
+		"frogspawn": "Békapeték",
+		"furnace": "Kemence",
+		"glow_lichen": "Fénylő zuzmó",
+		"glowstone": "Izzókő",
+		"gold_block": "Aranyblokk",
+		"gold_ore": "Aranyérc",
+		"golden_dandelion": "Aranypitypang",
+		"granite": "Gránit",
+		"grass_block": "Füves földblokk",
+		"gravel": "Sóder",
+		"grindstone": "Köszörűkő",
+		"hanging_roots": "Lógó gyökerek",
+		"hay_block": "Szalmabála",
+		"heavy_core": "Nehéz mag",
+		"heavy_weighted_pressure_plate": "Nehéz súlymérő nyomólap",
+		"honey_block": "Mézblokk",
+		"honeycomb_block": "Méhsejtblokk",
+		"hopper": "Tölcsér",
+		"ice": "Jég",
+		"infested_block": "Vésett kőtégla ezüstmollyal",
+		"iron_bars": "Vasrács",
+		"iron_block": "Vasblokk",
+		"iron_door": "Vasajtó",
+		"iron_ore": "Vasérc",
+		"iron_trapdoor": "Vas csapóajtó",
+		"jack_o_lantern": "Töklámpás",
+		"jigsaw": "Kirakósblokk",
+		"jukebox": "Zenegép",
+		"kelp": "Hínár",
+		"ladder": "Létra",
+		"lantern": "Lámpás",
+		"lapis_block": "Lazuritblokk",
+		"lapis_ore": "Lazuritérc",
+		"leaf_litter": "Avar",
+		"lectern": "Olvasóállvány",
+		"lever": "Kar",
+		"light": "Fény",
+		"lightning_rod": "Villámhárító",
+		"lily_pad": "Tavirózsa",
+		"lodestone": "Iránykő",
+		"loom": "Szövőszék",
+		"magma_block": "Magmablokk",
+		"mangrove_propagule": "Mangrovemagonc",
+		"mangrove_roots": "Mangrovegyökerek",
+		"melon": "Dinnye",
+		"melon_stem": "Dinnyeszár",
+		"moss_block": "Mohablokk",
+		"moss_carpet": "Mohaszőnyeg",
+		"mossy_cobblestone": "Mohás zúzottkő",
+		"mud": "Iszap",
+		"mud_bricks": "Vályogtégla",
+		"muddy_mangrove_roots": "Iszapos mangrovegyökerek",
+		"mycelium": "Micélium",
+		"nether_bricks": "Nethertégla",
+		"nether_gold_ore": "Netheraranyérc",
+		"nether_quartz_ore": "Netherkvarcérc",
+		"nether_sprouts": "Nethercsírák",
+		"nether_wart": "Netherbibircsók",
+		"nether_wart_block": "Netherbibircsók-blokk",
+		"netherite_block": "Netheritblokk",
+		"netherrack": "Netherrack",
+		"note_block": "Hangdoboz",
+		"observer": "Megfigyelő",
+		"obsidian": "Obszidián",
+		"froglight": "Okker varangyfény",
+		"packed_ice": "Tömör jég",
+		"packed_mud": "Vályog",
+		"pale_hanging_moss": "Lógó fátyolmoha",
+		"pale_moss_block": "Fátyolmoha-blokk",
+		"pale_moss_carpet": "Fátyolmoha-szőnyeg",
+		"petrified_oak_slab": "Megkövült tölgyfa lap",
+		"pink_petals": "Rózsaszín szirmok",
+		"piston": "Dugattyú",
+		"pitcher_crop": "Kancsókahüvely",
+		"pitcher_plant": "Kancsókanövény",
+		"podzol": "Podzol",
+		"pointed_dripstone": "Hegyes cseppkő",
+		"polished_blackstone": "Csiszolt feketekő",
+		"potatoes": "Burgonyák",
+		"powder_snow": "Porhó",
+		"powered_rail": "Gyorsítósín",
+		"prismarine": "Prizmarin",
+		"pumpkin": "Tök",
+		"pumpkin_stem": "Tökszár",
+		"purpur_block": "Purpurblokk",
+		"quartz_block": "Kvarcblokk",
+		"rail": "Sín",
+		"raw_copper_block": "Nyersrézblokk",
+		"raw_gold_block": "Nyersaranyblokk",
+		"raw_iron_block": "Nyersvasblokk",
+		"redstone_block": "Redstone-blokk",
+		"redstone_lamp": "Redstone-lámpa",
+		"redstone_ore": "Redstone-érc",
+		"redstone_torch": "Redstone-fáklya",
+		"redstone_wire": "Redstone-vezeték",
+		"reinforced_deepslate": "Megerősített mélypala",
+		"repeater": "Redstone-jelismétlő",
+		"resin_block": "Gyantablokk",
+		"resin_bricks": "Gyantatégla",
+		"resin_clump": "Gyantadarab",
+		"respawn_anchor": "Újraéledés-kapocs",
+		"rooted_dirt": "Gyökeres föld",
+		"sand": "Homok",
+		"sandstone": "Homokkő",
+		"scaffolding": "Állványzat",
+		"sculk": "Sculk",
+		"sculk_catalyst": "Sculkgerjesztő",
+		"sculk_sensor": "Sculkérzékelő",
+		"sculk_shrieker": "Sculksikoltó",
+		"sculk_vein": "Sculkvéna",
+		"sea_lantern": "Tengeri lámpás",
+		"sea_pickle": "Világító zsákállat",
+		"seagrass": "Tengerifű",
+		"dry_grass": "Rövid száraz fű",
+		"short_grass": "Alacsony fű",
+		"shroomlight": "Fényspóra",
+		"slime_block": "Nyálkablokk",
+		"small_dripleaf": "Kis csepplevél",
+		"smithing_table": "Kovácsasztal",
+		"smoker": "Füstölő",
+		"smooth_quartz": "Csiszolt kvarcblokk",
+		"smooth_stone": "Csiszolt kő",
+		"sniffer_egg": "Orrontótojás",
+		"snow": "Hó",
+		"snow_block": "Hóblokk",
+		"soul_sand": "Lélekhomok",
+		"soul_soil": "Lélektalaj",
+		"spawner": "Idézőketrec",
+		"sponge": "Szivacs",
+		"spore_blossom": "Spóravirág",
+		"stone": "Kő",
+		"stone_bricks": "Kőtégla",
+		"stonecutter": "Kővágó",
+		"structure_block": "Struktúrablokk",
+		"structure_void": "Struktúraűr",
+		"sugar_cane": "Cukornád",
+		"suspicious_gravel": "Gyanús sóder",
+		"sweet_berry_bush": "Édesbogyóbokor",
+		"target": "Céltábla",
+		"test_block": "Tesztblokk",
+		"test_instance_block": "Tesztpéldány-blokk",
+		"tinted_glass": "Sötétített üveg",
+		"tnt": "TNT",
+		"torch": "Fáklya",
+		"torchflower": "Fáklyaliliom",
+		"trapped_chest": "Csapdaláda",
+		"trial_spawner": "Küzdőtéri idézőketrec",
+		"tripwire": "Botlódrót",
+		"tripwire_hook": "Botlódrót-horog",
+		"tuff": "Tufa",
+		"turtle_egg": "Teknőstojás",
+		"twisting_vines": "Tekergő indák",
+		"vault": "Széf",
+		"vine": "Inda",
+		"warped_wart_block": "Torz bibircsókblokk",
+		"weeping_vines": "Keserves indák",
+		"wheat": "Búzatermés",
+		"wildflowers": "Vadvirágok",
+		"wither_rose": "Witherrózsa"
+	},
+	"items": {
+		"boat": "Akáciafa csónak",
+		"chest_boat": "Akáciafa csónak ládával",
+		"spawn_egg": "Nyugtancsidéző tojás",
+		"amethyst_shard": "Ametisztszilánk",
+		"pottery_sherd": "Horgász cseréptöredék",
+		"apple": "Alma",
+		"armadillo_scute": "Tatu-szarulemez",
+		"armor_stand": "Páncélállvány",
+		"arrow": "Nyílvessző",
+		"aquatic_mob_bucket": "Axolotl vödörben",
+		"baked_potato": "Sült burgonya",
+		"beef": "Nyers marhahús",
+		"beetroot": "Cékla",
+		"beetroot_seeds": "Céklamag",
+		"beetroot_soup": "Céklaleves",
+		"blaze_powder": "Őrlángpor",
+		"blaze_rod": "Lángrúd",
+		"bone": "Csont",
+		"bone_meal": "Csontliszt",
+		"book": "Könyv",
+		"bow": "Íj",
+		"bowl": "Tál",
+		"bread": "Kenyér",
+		"breeze_rod": "Szélrúd",
+		"brick": "Tégla",
+		"brush": "Ecset",
+		"bucket": "Vödör",
+		"bundle": "Batyu",
+		"carrot": "Sárgarépa",
+		"carrot_on_a_stick": "Répa horgászboton",
+		"charcoal": "Faszén",
+		"chest_minecart": "Tárolócsille",
+		"chicken": "Nyers csirkehús",
+		"chorus_fruit": "Refréngyümölcs",
+		"clay_ball": "Agyaggolyó",
+		"clock": "Óra",
+		"coal": "Szén",
+		"armor_trim_smithing_template": "Kovácssablon",
+		"cocoa_beans": "Kakaóbab",
+		"cod": "Nyers tőkehal",
+		"command_block_minecart": "Parancsblokk-csille",
+		"compass": "Iránytű",
+		"cooked_beef": "Sült marhahús",
+		"cooked_chicken": "Sült csirke",
+		"cooked_cod": "Sült tőkehal",
+		"cooked_mutton": "Sült birkahús",
+		"cooked_porkchop": "Sült sertésszelet",
+		"cooked_rabbit": "Sült nyúlhús",
+		"cooked_salmon": "Sült lazac",
+		"cookie": "Csokis süti",
+		"copper_ingot": "Rézrúd",
+		"copper_nugget": "Rézrög",
+		"banner_pattern": "Zászlóminta",
+		"crossbow": "Számszeríj",
+		"dye": "Türkizkék festék",
+		"debug_stick": "Debugpálca",
+		"diamond": "Gyémánt",
+		"axe": "Gyémántfejsze",
+		"boots": "Gyémántcsizma",
+		"chestplate": "Gyémánt mellvért",
+		"helmet": "Gyémántsisak",
+		"hoe": "Gyémántkapa",
+		"horse_armor": "Gyémánt lópáncél",
+		"leggings": "Gyémánt lábszárvédő",
+		"pickaxe": "Gyémántcsákány",
+		"shovel": "Gyémántásó",
+		"sword": "Gyémántkard",
+		"disc_fragment": "Hanglemez-szilánk",
+		"dragon_breath": "Sárkánylehelet",
+		"dried_kelp": "Szárított hínár",
+		"echo_shard": "Visszhangszilánk",
+		"egg": "Tojás",
+		"elytra": "Kitinszárny",
+		"emerald": "Smaragd",
+		"enchanted_book": "Varázskönyv",
+		"enchanted_golden_apple": "Bűvös aranyalma",
+		"end_crystal": "Endkristály",
+		"ender_eye": "Ender szeme",
+		"ender_pearl": "Endergyöngy",
+		"experience_bottle": "Varázslat palackja",
+		"feather": "Toll",
+		"fermented_spider_eye": "Erjesztett pókszem",
+		"fire_charge": "Tűzgolyó",
+		"firework_rocket": "Tűzijáték",
+		"firework_star": "Tűzijátékcsillag",
+		"fishing_rod": "Horgászbot",
+		"flint": "Kovakő",
+		"flint_and_steel": "Kovakő és acél",
+		"furnace_minecart": "Csille kemencével",
+		"ghast_tear": "Ghastkönny",
+		"glass_bottle": "Üvegpalack",
+		"glistering_melon_slice": "Csillámló dinnyeszelet",
+		"glow_berries": "Fényszeder",
+		"glow_ink_sac": "Fénylő tintazsák",
+		"glowstone_dust": "Izzókőpor",
+		"goat_horn": "Kecsketülök",
+		"gold_ingot": "Aranyrúd",
+		"gold_nugget": "Aranyrög",
+		"golden_apple": "Aranyalma",
+		"golden_carrot": "Aranyrépa",
+		"gunpowder": "Puskapor",
+		"harness": "Hám",
+		"heart_of_the_sea": "Tenger szíve",
+		"honey_bottle": "Mézespalack",
+		"honeycomb": "Méhsejt",
+		"hopper_minecart": "Tölcséres csille",
+		"ink_sac": "Tintazsák",
+		"iron_ingot": "Vasrúd",
+		"iron_nugget": "Vasrög",
+		"item_frame": "Eszközkeret",
+		"knowledge_book": "Tudás könyve",
+		"lapis_lazuli": "Lazurit",
+		"lava_bucket": "Lávásvödör",
+		"lead": "Lasszó",
+		"leather": "Bőr",
+		"lingering_potion": "Időző bájital",
+		"mace": "Buzogány",
+		"magma_cream": "Magmakrém",
+		"map": "Üres térkép",
+		"melon_seeds": "Dinnyemag",
+		"melon_slice": "Dinnyeszelet",
+		"milk_bucket": "Tejesvödör",
+		"minecart": "Csille",
+		"mushroom_stew": "Gombaragu",
+		"music_disc": "Hanglemez",
+		"mutton": "Nyers birkahús",
+		"name_tag": "Cédula",
+		"nautilus_shell": "Nautiluszhéj",
+		"nether_brick": "Nethertégla",
+		"nether_star": "Nethercsillag",
+		"nether_wart": "Netherbibircsók",
+		"netherite_ingot": "Netheritrúd",
+		"nautilus_armor": "Netherit nautiluszpáncél",
+		"netherite_scrap": "Netheritdarab",
+		"netherite_upgrade_smithing_template": "Kovácssablon",
+		"ominous_bottle": "Vészjósló palack",
+		"painting": "Festmény",
+		"paper": "Papír",
+		"phantom_membrane": "Fantommembrán",
+		"pitcher_plant": "Kancsókanövény",
+		"pitcher_pod": "Kancsókahüvely",
+		"poisonous_potato": "Mérgező burgonya",
+		"popped_chorus_fruit": "Pattogatott refréngyümölcs",
+		"porkchop": "Nyers disznóhús",
+		"potato": "Burgonya",
+		"potion": "Bájital",
+		"powder_snow_bucket": "Porhavas vödör",
+		"prismarine_crystals": "Prizmarinkristály",
+		"prismarine_shard": "Prizmarinszilánk",
+		"pufferfish": "Gömbhal",
+		"pumpkin_pie": "Tökpite",
+		"pumpkin_seeds": "Tökmag",
+		"quartz": "Netherkvarc",
+		"rabbit": "Nyers nyúlhús",
+		"rabbit_foot": "Nyúlláb",
+		"rabbit_hide": "Nyúlbőr",
+		"rabbit_stew": "Nyúlpörkölt",
+		"raw_copper": "Nyersréz",
+		"raw_gold": "Nyersarany",
+		"raw_iron": "Nyersvas",
+		"recovery_compass": "Visszatérés iránytűje",
+		"redstone": "Redstone-por",
+		"resin_brick": "Gyantatégla",
+		"rotten_flesh": "Rohadt hús",
+		"saddle": "Nyereg",
+		"salmon": "Nyers lazac",
+		"shears": "Metszőolló",
+		"shield": "Pajzs",
+		"shulker_shell": "Shulkerhéj",
+		"slime_ball": "Nyálkagolyó",
+		"snowball": "Hógolyó",
+		"spectral_arrow": "Spektrálnyíl",
+		"spider_eye": "Pókszem",
+		"splash_potion": "Robbanó bájital",
+		"spyglass": "Távcső",
+		"stick": "Bot",
+		"string": "Fonál",
+		"sugar": "Cukor",
+		"suspicious_stew": "Gyanús pörkölt",
+		"sweet_berries": "Édes bogyók",
+		"tipped_arrow": "Varázsnyíl",
+		"tnt_minecart": "TNT-csille",
+		"torchflower_seeds": "Fáklyaliliommagok",
+		"totem_of_undying": "Életmentés toteme",
+		"trial_key": "Küzdőtéri kulcs",
+		"trident": "Szigony",
+		"tropical_fish": "Trópusi hal",
+		"turtle_scute": "Teknős-szarulemez",
+		"warped_fungus_on_a_stick": "Torz gomba horgászboton",
+		"water_bucket": "Vizesvödör",
+		"wheat": "Búza",
+		"wheat_seeds": "Búzamag",
+		"wind_charge": "Széllöket",
+		"wolf_armor": "Farkaspáncél",
+		"spear": "Falándzsa",
+		"writable_book": "Könyv és toll",
+		"written_book": "Befejezett könyv",
+		"kelp": "Hínár"
+	},
+	"mobs": {
+		"allay": "Nyugtancs",
+		"armadillo": "Tatu",
+		"axolotl": "Axolotl",
+		"bat": "Denevér",
+		"bee": "Méh",
+		"blaze": "Őrláng",
+		"bogged": "Láplövész",
+		"breeze": "Őrszél",
+		"camel": "Teve",
+		"camel_husk": "Kiszáradt teve",
+		"cat": "Macska",
+		"cave_spider": "Barlangi pók",
+		"chicken": "Csirke",
+		"cod": "Tőkehal",
+		"copper_golem": "Rézgólem",
+		"cow": "Tehén",
+		"creaking": "Nyikorgó",
+		"creeper": "Creeper",
+		"dolphin": "Delfin",
+		"donkey": "Szamár",
+		"drowned": "Vízbefúlt",
+		"elder_guardian": "Vén őrszem",
+		"ender_dragon": "Endersárkány",
+		"enderman": "Enderman",
+		"endermite": "Endermite",
+		"evoker": "Idéző",
+		"fox": "Róka",
+		"frog": "Béka",
+		"ghast": "Ghast",
+		"giant": "Óriás",
+		"glow_squid": "Fénylő tintahal",
+		"goat": "Kecske",
+		"guardian": "Őrszem",
+		"happy_ghast": "Vidám Ghast",
+		"hoglin": "Hoglin",
+		"horse": "Ló",
+		"husk": "Kiszáradt zombi",
+		"illusioner": "Szemfényvesztő",
+		"iron_golem": "Vasgólem",
+		"llama": "Láma",
+		"magma_cube": "Magmakocka",
+		"mooshroom": "Mooshroom",
+		"mule": "Öszvér",
+		"nautilus": "Nautilusz",
+		"ocelot": "Ocelot",
+		"panda": "Panda",
+		"parched": "Perzselt",
+		"parrot": "Papagáj",
+		"phantom": "Fantom",
+		"pig": "Malac",
+		"piglin": "Piglin",
+		"piglin_brute": "Piglin verőlegény",
+		"pillager": "Rabló",
+		"polar_bear": "Jegesmedve",
+		"pufferfish": "Gömbhal",
+		"rabbit": "Nyúl",
+		"ravager": "Pusztító",
+		"salmon": "Lazac",
+		"sheep": "Birka",
+		"shulker": "Shulker",
+		"silverfish": "Ezüstmoly",
+		"skeleton": "Csontváz",
+		"skeleton_horse": "Csontvázló",
+		"slime": "Nyálka",
+		"sniffer": "Orrontó",
+		"snow_golem": "Hógólem",
+		"spider": "Pók",
+		"squid": "Tintahal",
+		"stray": "Kóborló",
+		"strider": "Álomfutó",
+		"tadpole": "Ebihal",
+		"tropical_fish": "Trópusi hal",
+		"turtle": "Teknős",
+		"vex": "Bosszancs",
+		"villager": "Falusi",
+		"vindicator": "Bosszúálló",
+		"wandering_trader": "Vándorkereskedő",
+		"warden": "Strázsa",
+		"witch": "Boszorkány",
+		"wither": "Wither",
+		"wither_skeleton": "Withercsontváz",
+		"wolf": "Farkas",
+		"zoglin": "Zoglin",
+		"zombie": "Zombi",
+		"zombie_horse": "Zombiló",
+		"zombie_nautilus": "Zautilusz",
+		"zombie_villager": "Élőhalott falusi",
+		"zombified_piglin": "Élőhalott piglin"
+	}
 }

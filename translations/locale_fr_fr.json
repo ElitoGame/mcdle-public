@@ -1343,7 +1343,8 @@
 		"wither_rose": "Rose de Wither",
 		"shelf": "Étagère",
 		"copper_chest": "Coffre en cuivre",
-		"copper_golem_statue": "Statue de golem de cuivre"
+		"copper_golem_statue": "Statue de golem de cuivre",
+		"golden_dandelion": "Pissenlit doré"
 	},
 	"items": {
 		"boat": "Bateau",
