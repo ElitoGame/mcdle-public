@@ -69,7 +69,7 @@
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Barkács méh"
 			},
 			"colorblind": {
 				"input_name": "Színtévesztő mód",
@@ -269,17 +269,17 @@
 				"header": {
 					"title": "Blokk",
 					"initial_release": "Kiadás",
-					"stack_size": "Készletméret",
-					"tool": "Eszköz(ök)",
-					"blast_resistance": "Robbanás<wbr>ellenállás",
-					"hardness": "Keménység",
+					"stack_size": "Készlet<wbr>méret",
+					"tool": "Eszköz",
+					"blast_resistance": "Ellenáll",
+					"hardness": "Kemény",
 					"flammable": "Gyúlékony",
 					"transparent": "Átlátszó",
 					"full_block": "Teljes blokk"
 				},
 				"data": {
 					"tool": {
-						"any_tool": "Bármelyik",
+						"any_tool": "Mind",
 						"axe": "Fejsze",
 						"pickaxe": "Csákány",
 						"hoe": "Kapa",
@@ -293,7 +293,7 @@
 					"states": {
 						"yes": "Igen",
 						"no": "Nem",
-						"partial": "Részleges"
+						"partial": "Némileg"
 					}
 				}
 			},
@@ -396,9 +396,9 @@
 				"header": {
 					"title": "Tárgy",
 					"initial_release": "Kiadás",
-					"stack_size": "Készletméret",
+					"stack_size": "Készlet<wbr>méret",
 					"rarity": "Ritkaság",
-					"inventory_categories": "Kreatív leltár kategória",
+					"inventory_categories": "Kreatív<wbr>kateg.",
 					"renewable": "Megújuló",
 					"usage": "Használat",
 					"source": "Forrás",
@@ -878,19 +878,19 @@
 				"title": "Bestiárium",
 				"books": {
 					"blocks": {
-						"title": "A Blokkok Könyve",
+						"title": "A blokkok könyve",
 						"cover_alt_text": "Blokk könyvborító"
 					},
 					"items": {
-						"title": "A Tárgyak Könyve",
+						"title": "A tárgyak könyve",
 						"cover_alt_text": "Tárgy könyvborító"
 					},
 					"mobs": {
-						"title": "A Lények Könyve",
+						"title": "A lények könyve",
 						"cover_alt_text": "Lény könyvborító"
 					},
 					"crafting": {
-						"title": "A Barkácsolás Könyve",
+						"title": "A barkácsolás könyve",
 						"cover_alt_text": "Crafting Bee könyvborító"
 					}
 				}
