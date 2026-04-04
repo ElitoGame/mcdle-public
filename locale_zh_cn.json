@@ -16,41 +16,46 @@
       "suggestions": {
         "title": "建议与交流",
         "description": {
-          "pre_link": "大部分建议和问题反馈都会在",
+          "pre_link": "大部分建议和问题反馈都会在 ",
           "link": "Discord",
-          "post_link": "上处理，快来加入聊天吧，还有游戏小彩蛋噢！我们有专门的频道来讨论今天的谜题，还可以分享你的连胜记录！"
+          "post_link": " 上处理，快来加入聊天吧，还有小彩蛋噢！我们有专门的频道来讨论今天的谜题，还可以分享你的连胜记录！"
         }
       },
       "support": {
         "title": "支持我们",
         "description": {
-          "pre_link": "如果你想支持这个项目（比如支付域名费用、支持新功能等），可以看看我的",
+          "pre_link": "如果你想支持这个项目（比如支付域名费用、支持新功能等），可以看看我的 ",
           "link": "Ko-fi",
-          "post_link": "页面!"
+          "post_link": " 页面!"
         }
       },
       "credits": {
         "title": "鸣谢",
         "description": {
-          "pre_link": "游戏的数据来自",
+          "pre_link": "游戏的数据来自 ",
           "link": "Minecraft Wiki",
-          "post_link": "。很多图片也来自 Minecraft Wiki，感谢他们一直以来的整理与更新！MCdle 是一个非官方项目，与 Mojang Studios 没有官方关联。游戏基于minecraft，玩法灵感来自 Wordle 和 LoLdle。"
+          "post_link": "，很多图片也来自 Minecraft Wiki，感谢他们一直以来的整理与更新！MCdle 是一个非官方项目，与 Mojang Studios 没有官方关联。游戏基于 Minecraft，玩法灵感来自 Wordle 和 LoLdle。"
         },
         "credit_list": {
           "kineticraft": {
-            "pre_link": "感谢服务器",
+            "pre_link": "感谢服务器 ",
             "link": "kineticraft.net",
-            "post_link": "提供背景图！"
+            "post_link": " 提供背景图！"
           },
           "vanilla_tweaks": {
-            "pre_link": "感谢",
+            "pre_link": "感谢 ",
             "link": "Vanilla Tweaks",
-            "post_link": "提供的西瓜茎和南瓜茎材质！"
+            "post_link": " 提供的西瓜茎和南瓜茎材质！"
           },
           "alldle": {
-            "pre_link": "感谢",
+            "pre_link": "感谢 ",
             "link": "Alldle",
-            "post_link": "在网站上推荐了MCdle！"
+            "post_link": " 在网站上推荐了 MCdle！"
+          },
+          "alldle": {
+            "pre_link": "感谢 ",
+            "link": "Matéo \"lazered\" Guidi",
+            "post_link": " 提供了域名 minecraftdle.net!"
           }
         }
       },
@@ -202,7 +207,7 @@
       "return_message": "快用指南针回头吧！"
     },
     "index": {
-      "header": "今天玩什么？",
+      "header": "今天玩什么=D",
       "links": {
         "blocks": {
           "image_alt": "方块图标",
@@ -365,8 +370,8 @@
         },
         "partial_matches": {
           "title": "部分匹配",
-          "intro": "现在来详细讲讲‘部分匹配’，这部分最容易搞混。",
-          "explanation": "部分匹配”只会出现在包含多个选项的信息栏中（比如工具）。如果所猜方块可以用至少一种与答案相同的工具破坏，就会显示为部分匹配。以树叶为例："
+          "intro": "现在来详细讲讲“部分匹配”，这部分最容易搞混。",
+          "explanation": "“部分匹配”只会出现在包含多个选项的信息栏中（比如工具）。如果所猜方块可以用至少一种与答案相同的工具破坏，就会显示为部分匹配。以树叶为例："
         },
         "tips": {
           "title": "小提示",
@@ -508,7 +513,7 @@
         },
         "partial_matches": {
           "title": "部分匹配",
-          "intro": "现在来详细讲讲‘部分匹配’，这部分最容易搞混。",
+          "intro": "现在来详细讲讲“部分匹配”，这部分最容易搞混。",
           "explanation": "部分匹配”只会出现在包含多个选项的字段中（比如创造模式分类）。如果所猜物品至少有一个分类和正确答案一致，就会显示为部分匹配。以线为例："
         },
         "tips": {
@@ -657,7 +662,7 @@
         },
         "partial_matches": {
           "title": "部分匹配",
-          "intro": "现在来详细讲讲‘部分匹配’，这部分最容易搞混。",
+          "intro": "现在来详细讲讲“部分匹配”，这部分最容易搞混。",
           "explanation": "“部分匹配”只会出现在包含多个选项的字段中（比如行为、生成方式、分类）。如果所猜的生物至少有一个选项与答案匹配，就会显示为部分匹配。以马为例："
         },
         "tips": {
@@ -1000,10 +1005,10 @@
     "today_guesses": {
       "loading": "正在加载玩家的猜测记录……",
       "already_guessed": {
-        "zero": "还没人猜对哦！",
-        "one": "已有1位玩家猜对！",
-        "two-four": "位玩家已猜对！",
-        "many": "位玩家已猜对！"
+        "zero": "位玩家已猜对ʕ•̀ ω • ʔ",
+        "one": "位玩家已猜对ʕ•̀ ω • ʔ",
+        "two-four": "位玩家已猜对ʕ•̀ ω • ʔ",
+        "many": "位玩家已猜对ʕ•̀ ω • ʔ"
       }
     },
     "share_win": {
@@ -1017,8 +1022,8 @@
         "mob": "生物猜猜乐"
       },
       "guess_line": {
-        "one": "一击即中！我在 {{date}} #MC猜猜乐 的{{type}}中仅用{{number}}次机会就猜出了答案! {{emoji}}",
-        "many": "{{number}}次猜测后，我解出了{{date}} #MC猜猜乐 的{{type}}! {{emoji}}"
+        "one": "一击即中！我在{{date}} #MC猜猜乐 的{{type}}里取得了{{number}}次猜中的好成绩{{emoji}}，你也来试试吧！",
+        "many": "我在{{date}} #MC猜猜乐 的{{type}}里取得了{{number}}次猜中的好成绩{{emoji}}，你也来试试吧！"
       },
       "short_guess_line": {
         "intro": "我完成了{{date}} #MC猜猜乐 的",
@@ -1029,8 +1034,8 @@
     },
     "hints": {
       "in_x_guesses": {
-        "one": "仅用{{number}}次机会！",
-        "many": "用了{{number}}次机会！"
+        "one": "还需要猜{{number}}次",
+        "many": "还需要猜{{number}}次"
       },
       "version": {
         "description": "版本提示",
@@ -1068,7 +1073,7 @@
     "trapdoor": "木活板门",
     "wood": "橡木",
     "activator_rail": "激活铁轨",
-    "flower": "蒲公英",
+    "flower": "花",
     "amethyst_block": "紫水晶块",
     "amethyst_cluster": "紫水晶簇",
     "ancient_debris": "远古残骸",
