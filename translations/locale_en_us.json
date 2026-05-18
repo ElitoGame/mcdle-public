@@ -500,7 +500,7 @@
 				"example": {
 					"title": "Example",
 					"intro": "Let's look at an example game. First we'll try an arbitrary item.",
-					"table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable, and there are less than 5 ways how to use it, and less than 6 ways to obtain it, according to the Minecraft wiki. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
+					"table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable, uncraftable, and can't be looted in chests or village raids, according to the Minecraft wiki. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
 					"table_interpretation_2": "We've discovered the items version! Time to look for an item added in Beta 1.8 that's in the \"Food & Drinks\" creative inventory category. We now need to look for an item with matching use cases and methods of obtaining.",
 					"table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
 				},

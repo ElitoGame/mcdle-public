@@ -500,7 +500,7 @@
 				"example": {
 					"title": "Ejemplo",
 					"intro": "Veamos un ejemplo. Primero probaremos un objeto al azar.",
-					"table_interpretation_1": "Vemos que el objeto, al igul que la mayoría es stackeable en 64. Es posterior a la Beta 1.2, Tiene rareza Común, es renovable y hay al menos 5 usos para él, y menos de 6 formas de obtenerlo, de acuerdo con la Wiki de Minecraft. Incluso, no es usado en el mundo ni en crafteos. Probemos un objeto diferente.",
+					"table_interpretation_1": "Vemos que el objeto, al igual que la mayoría es stackeable en 64. Es posterior a la Beta 1.2, Tiene rareza Común, es renovable, no es crafteable y no se puede saquear en cofres o asaltos de aldeas, de acuerdo con la Wiki de Minecraft. Incluso, no es usado en el mundo ni en crafteos. Probemos un objeto diferente.",
 					"table_interpretation_2": "Descubrimos que es de una versión más reciente! Veamos un objeto de la Beta 1.8 que está en la categoría \"uso\" de acuerdo con la wiki de Minecraft. Necesitamos un objeto que coincida con la cantidad de usos y maneras de obtener.",
 					"table_interpretation_3": "Aquí está! Descubrimos que el objeto era la rodaja de sandía, que divertido!"
 				},
