@@ -1,0 +1,1639 @@
+{
+	"footer": {
+		"links": {
+			"cookie": {
+				"title": "Política de les galetes (cookies)"
+			},
+			"patchnotes": {
+				"title": "Notes de l'actualització"
+			}
+		},
+		"about": {
+			"title": "Sobre",
+			"button_title": "Sobre",
+			"intro": "Mcdle és un joc tipus trencaclosques a l'estil Wordle sobre contingut de Minecraft. Cada dia, un nou bloc, objecte i criatura de Minecraft són seleccionats i has d'endevinar-los. Torna diàriament per a augmentar la teva ratxa d'encerts! Hi ha un servidor de Discord on pots compartir amb el teus amics els teus encerts i ratxes!",
+			"help_pointer": "Com jugar-hi? En cada joc habrà un símbol ? sota el títol, el qual obre una pestanya d'ajuda amb exemples i descripcions detallades del mode de joc en el qual estàs.",
+			"suggestions": {
+				"title": "Suggerencies",
+				"description": {
+					"pre_link": "Envia suggerències i reporta errors a ",
+					"link": "Discord",
+					"post_link": ", sent-te lliure d'unir-te, tenim melons! També tenim canals per a comentar les endevinalles d'avui i compartir les teves ratxes!"
+				}
+			},
+			"support": {
+				"title": "Dona'ns suport",
+				"description": {
+					"pre_link": "Si vols donar suport al projecte  (p. ex. pagar la url, donar suport a noves característiques, etc), revisa el meu ",
+					"link": "Ko-fi",
+					"post_link": "!"
+				}
+			},
+			"credits": {
+				"title": "Crèdits",
+				"description": {
+					"pre_link": "La informació d'aquest joc prové de ",
+					"link": "la Wiki de Minecraft",
+					"post_link": ". Moltes de les imatges estan guardades aquí, així que moltes gràcies a ells pel gran treball de mantindre al dia la wiki! MCdle no està afiliat o avalat per Mojang Studios. Però està obviament basat en Minecraft i inspirat en Wordle i LoLdle."
+				},
+				"credit_list": {
+					"kineticraft": {
+						"pre_link": "Gràcies al servidor ",
+						"link": "kineticraft.net",
+						"post_link": " per la imatge de fons!"
+					},
+					"vanilla_tweaks": {
+						"pre_link": "Gràcies a ",
+						"link": "Vanilla Tweaks",
+						"post_link": " per els seves textures dels talls de carabassa i síndria!"
+					},
+					"alldle": {
+						"post_link": "per destacar MCdle en la seva web!"
+					}
+				}
+			},
+			"version": {
+				"title": "Versió",
+				"description": "Actualment la versió del joc és la #{{version}}! El joc seleccionarà un nou bloc, objecte i criatura cada dia a mitjanit en horari UTC."
+			},
+			"supporters": {
+				"title": "Colaboradors",
+				"description": {
+					"pre_link": "Gràcies a tots els meus",
+					"post_link": " colaboradors!"
+				}
+			}
+		}
+	},
+	"header": {
+		"settings": {
+			"headers": {
+				"mcdle": "MCdle",
+				"crafting_bee": "Crafting Bee"
+			},
+			"colorblind": {
+				"input_name": "Mode daltonisme",
+				"label": "Mode daltonisme"
+			},
+			"difficulty": {
+				"limit_guesses_6": {
+					"input_name": "Intents limitats",
+					"label": "Intents per endevinar limitats a 6"
+				},
+				"search": {
+					"game_knowledge": {
+						"input_name": "Coneixement del joc ",
+						"label": "Coneixement del joc "
+					},
+					"logical": {
+						"input_name": "Lògic",
+						"label": "Lògic"
+					},
+					"showcase": {
+						"fallback": "Selecciona una dificultat per les teves partides!",
+						"game_knowledge": {
+							"description": "Sense pistes de busca, estàs sol amb el teu coneixement del joc!",
+							"image_alt": "Dificultat de busca determinada pel teu coneixement"
+						},
+						"logical": {
+							"description": "Buscar et mostrarà totes les estadístiques disponibles, fent llògic el joc MCdle!",
+							"image_alt": "Dificultat de busca lògic"
+						}
+					},
+					"title": "Buscar:"
+				},
+				"title": "Dificultat"
+			},
+			"keybinds": {
+				"title": "Tecles",
+				"binds": {
+					"crafting.selectHex.1": {
+						"name": "Seleccionar Hexàgon 1",
+						"description": "Seleccionar cel·la hexagonal #1"
+					},
+					"crafting.selectHex.2": {
+						"name": "Seleccionar Hexàgon 2",
+						"description": "Seleccionar cel·la hexagonal #2"
+					},
+					"crafting.selectHex.3": {
+						"name": "Seleccionar Hexàgon 3",
+						"description": "Seleccionar cel·la hexagonal #3"
+					},
+					"crafting.selectHex.4": {
+						"name": "Seleccionar Hexàgon 4",
+						"description": "Seleccionar cel·la hexagonal #4"
+					},
+					"crafting.selectHex.5": {
+						"name": "Seleccionar Hexàgon 5",
+						"description": "Seleccionar cel·la hexagonal #5"
+					},
+					"crafting.selectHex.6": {
+						"name": "Seleccionar Hexàgon 6",
+						"description": "Seleccionar cel·la hexagonal #6"
+					},
+					"crafting.selectHex.7": {
+						"name": "Seleccionar Hexàgon 7",
+						"description": "Seleccionar cel·la hexagonal #7"
+					},
+					"crafting.grid.nav.up": {
+						"name": "Moure's amunt en la graella d'elaboració",
+						"description": "Moure el cursor amunt en la graella d'elaboració"
+					},
+					"crafting.grid.nav.down": {
+						"name": "Moure's avall en la graella d'elaboració",
+						"description": "Moure el cursor avall en la graella d'elaboració"
+					},
+					"crafting.grid.nav.left": {
+						"name": "Moure's a l'esquerra en la graella d'elaboració",
+						"description": "Moure el cursor a l'esquerra en la graella d'elaboració"
+					},
+					"crafting.grid.nav.right": {
+						"name": "Moure's a la dreta en la graella d'elaboració",
+						"description": "Moure el cursor a la dreta en la graella d'elaboració"
+					},
+					"crafting.grid.placeItem": {
+						"name": "Possar l'objecte en la graella",
+						"description": "Possar l'objecte seleccionat en la graella d'elaboració"
+					},
+					"crafting.grid.craftItem": {
+						"name": "Fabricar l'objecte",
+						"description": "Fabricar l'objecte en la graella d'elaboració"
+					},
+					"crafting.grid.deleteItem": {
+						"name": "Llevar l'objecte de la graella",
+						"description": "Llevar l'objecte de la graella d'elaboració"
+					},
+					"crafting.grid.clear": {
+						"name": "Buidar la graella d'elaboració",
+						"description": "Buidar la graella d'elaboració"
+					},
+					"crafting.grid.clearImmediate": {
+						"name": "Buidar la graella d'elaboració immediatament",
+						"description": "Buidar la graella d'elaboració immediatament sense confirmació"
+					},
+					"crafting.randomize": {
+						"name": "Jugar un joc aleatori",
+						"description": "Escollir 7 objectes aleatoris per jugar amb"
+					}
+				}
+			},
+			"settings_button": {
+				"image_alt": "Va botar d'opcions",
+				"tooltip": "Opcions"
+			},
+			"title": "Opcions"
+		},
+		"language": {
+			"title": "Idioma",
+			"tooltip": "Idioma",
+			"description": {
+				"pre_link": "Oficialment aquesta pàgina és compatible amb anglès i alemany, però a través de la comunitat, altres idiomes estan disponibles via ",
+				"link": "Github",
+				"post_link": ". No hi ha garantia que les traduccions no oficials estiguin al dia i sense errors, així que si trobes algun error, sigues lliure de crear una enquesta!"
+			}
+		}
+	},
+	"pages": {
+		"404": {
+			"compass_alt": "GIF brúixola",
+			"message": "Has trobat un 404 al final d'aquesta cova...",
+			"return_message": "Agafa una brúixola per a tornar a casa!"
+		},
+		"index": {
+			"header": "Selecciona un mode de joc",
+			"links": {
+				"blocks": {
+					"image_alt": "Icona de blocs",
+					"subtitle": "Endevina el bloc d'avui",
+					"title": "Blocs"
+				},
+				"items": {
+					"image_alt": "Icona d'objectes",
+					"subtitle": "Endevina l'objecte d'avui",
+					"title": "Objectes"
+				},
+				"mobs": {
+					"image_alt": "Icona de criatures",
+					"subtitle": "Endevina la criatura d'avui",
+					"title": "Criatures"
+				},
+				"crafting": {
+					"image_alt": "Icona de Crafting Bee",
+					"subtitle": "Saps les receptes?",
+					"title": "Crafting Bee"
+				},
+				"goal": {
+					"title": "MCdle Bestiary",
+					"image_alt": "Icona de victòria"
+				},
+				"bestiary": {
+					"title": "Bestiari",
+					"image_alt": "Icona del bestiari",
+					"subtitle": "Seguix el teu progrés i comença a coleccionar! També pots filtrar el que ja has descobert!"
+				},
+				"kineticraft": {
+					"title": "Juga infinitament a kineticraft.net",
+					"image_alt": "Icona Kineticraft",
+					"subtitle": "Els modes de joc Criatura, Bloc i Objecte poden ser jugats sense temps d'espera, però has de trobar-los en el món! /mcdle"
+				}
+			}
+		},
+		"generic": {
+			"game": {
+				"complete_support": {
+					"start": "Si has gaudit, considera secundar el projecte en",
+					"end": "!"
+				},
+				"see_in_bestiary": "Revisa-ho al bestiari!"
+			}
+		},
+		"block": {
+			"title": "Mode de joc: endevina el bloc d'avui!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Estadístiques",
+					"tooltip": "Estadístiques"
+				},
+				"streak": {
+					"title": "Transferir progrés",
+					"tooltip": "Ratxa"
+				},
+				"help": {
+					"tooltip": "Com jugar"
+				},
+				"bestiary": {
+					"tooltip": "Bestiari"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Bloc",
+					"initial_release": "Llança<wbr>ment",
+					"stack_size": "Mida de la pila",
+					"tool": "Eina",
+					"blast_resistance": "Resis<wbr>tència a les explo<wbr>sions",
+					"hardness": "Duresa",
+					"flammable": "Infla<wbr>mable",
+					"transparent": "Transpa<wbr>rent",
+					"full_block": "Bloc complet"
+				},
+				"data": {
+					"tool": {
+						"any_tool": "Qualsevol",
+						"axe": "Destral",
+						"pickaxe": "Pic",
+						"hoe": "Aixada",
+						"shears": "Tisores",
+						"sword": "Espasa",
+						"none": "Cap",
+						"shovel": "Pala",
+						"bucket": "Cubeta",
+						"brush": "Pinzell"
+					},
+					"states": {
+						"yes": "Sí",
+						"no": "No",
+						"partial": "Parcial"
+					}
+				}
+			},
+			"loose": {
+				"title": "Has fallat intentant endevinar el bloc d'avui",
+				"subtitle": "Sort demà (o deshabilita el límit en les opcions)"
+			},
+			"win": {
+				"title": "Bloc descobert!",
+				"subtitle": "El bloc d'avui era {{name}}!"
+			},
+			"intro": {
+				"description": "Endevina el bloc d'avui",
+				"start_help": "Escriu a baix per començar!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} intents restants!",
+					"one": "{{remaining}} intent restant!",
+					"two-four": "{{remaining}} intents restants!",
+					"many": "{{remaining}} intents restants!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Busca un bloc",
+					"new_tomorrow": "Nou bloc demà!",
+					"no_more_guesses": "T'has quedat sense intents!"
+				},
+				"submit": {
+					"aria_label": "Intenta aquest bloc"
+				},
+				"ambiguous_result": {
+					"description": "Bloc ambigu descobert! Els altres blocs ambigus incorrectes és marcaran en vermell.",
+					"image_alt": "Caça-tresors - penjar"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Recarrega la pàgina per a obtenir la nova!",
+				"next_in": "Següent bloc en {{estafe}}"
+			},
+			"yesterday_info": {
+				"description": "El bloc d'ahir va ser {{name}}!"
+			},
+			"next_game": {
+				"name": "Blocs",
+				"description": "Preparat per a endevinar el bloc d'avui?"
+			},
+			"quick_help": {
+				"look_for": "Continues buscant una millor explicació? Mira la",
+				"tooltip": "Com jugar",
+				"click_here": "icona sota el títol o fes clic aquí!"
+			},
+			"help": {
+				"title": "Com jugar",
+				"intro": {
+					"goal": "La finalitat d'aquest joc és endevinar un bloc de Minecraft. Cada dia un nou bloc és seleccionat i si continues encertant el bloc del dia augmentaràs la teva ratxa!",
+					"enter_guesses": "Comença escribint cualsevol bloc en la barra de cerca. Basat en la teva cerca apareixeràn 10 resultats. Fes clic en cualsevol d'aquests blocs, o navega fins a ells amb les fletxes i prem Enter per a bloquejar el teu intent.",
+					"field_explanation": "Les propietats del bloc que hagis seleccionat és compararan amb el del bloc d'avui i és marcaran en verd si coincideixen, groc en coincidències parcials i vermell per a incorrectes. Darrere dels camps incorrectes de números/versions trobaras fletxes indicant si hauries de provar amb un nombre major o menor."
+				},
+				"example": {
+					"title": "Exemple",
+					"intro": "Anem a veure un exemple. Primer provarem un bloc a l'atzar.",
+					"table_interpretation_1": "Veiem que el bloc, igual que la majoria, és apilable fins a 64, i no és inflamable. No és un bloc de la Pre-Alpha i pot ser minat amb un pic. Així que provem amb un bloc, nou, diferent.",
+					"table_interpretation_2": "Descobrim la versió del bloc! Provem un bloc de la Beta 1.8. Adicionalment, tenim una coincidència parcial amb l'eina, que pot tencar-se tant amb una destral com amb una altra eina. També, el bloc tampoc és transparent (\"Sí\") ni no transparent (\"No\"), així que deu ser parcialment transparent. Així que mirem un bloc que tinga aquestes característiques.",
+					"table_interpretation_3": "Ja ho tenim! Descobrim que el bloc era el bloc de síndria, quina delícia!"
+				},
+				"partial_matches": {
+					"title": "Explicació de la coincidència parcial",
+					"intro": "Mirem les coincidències parcials a detall, perquè aquests són, probablement, els camps de color més confusos.",
+					"explanation": "Una coincidència parcial només pot aparéixer si el camp el consisteix en una llista (p. ex. Eines). Si has intentat un bloc que pot trencar-se amb almenys una, obtens una coincidència parcial. Aquí hi ha un exemple amb fulles:"
+				},
+				"tips": {
+					"title": "Consells",
+					"not_all_blocks": "MCdle no conté cada tipus d'objecte. Totes les variants de color de terracota, formigó, llana, etc. estan units en un, tal com \"Formigó\" o \"Llana\". Això s'atribueix també a les variants de fusta, murs, escales, etc.",
+					"utilize_the_search": "Fes un bon ús de la barra de busca! Amb els suggeriments aniràs reduint la teva cerca.",
+					"use_the_wiki": "Sigues lliure d'usar la Wiki de Minecraft. Tan aviat determinis la versió del bloc, pots usar la wiki per a veure quins blocs es van afegir en aquella versió, la qual cosa reduirà dràsticament la teva cerca."
+				}
+			}
+		}, 
+		"item": {
+			"title": "Mode de joc: Endevina l'objecte d'avui!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Estadístiques",
+					"tooltip": "Estadístiques"
+				},
+				"streak": {
+					"title": "Transferir progrés",
+					"tooltip": "Ratxa"
+				},
+				"help": {
+					"tooltip": "Com jugar"
+				},
+				"bestiary": {
+					"tooltip": "Bestiari"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Objecte",
+					"initial_release": "Llança<wbr>ment",
+					"stack_size": "Mida de la pila",
+					"rarity": "Raresa",
+					"inventory_categories": "Categoría d'inventari",
+					"renewable": "Reno<wbr>vable",
+					"usage": "Nombre d'usos",
+					"source": "Nombre de fonts",
+					"recipe": "Recepta",
+					"loot": "Botí"
+				},
+				"data": {
+					"rarity": {
+						"common": "Comú",
+						"uncommon": "No-comú",
+						"rare": "Rar",
+						"epic": "Èpic",
+						"mixed": "Mixt"
+					},
+					"inventory_category": {
+						"tools_and_utilities": "Eines i Utili-tats",
+						"redstone_blocks": "Redstone",
+						"functional_blocks": "Blocs Funcio-nals",
+						"natural_blocks": "Blocs Naturals",
+						"ingredients": "Ingredients",
+						"combat": "Combat",
+						"food_and_drinks": "Menjars i Begudes",
+						"none": "Cap",
+						"spawn_eggs": "Ous de Spawn",
+						"operator_utilities": "Eines d'admin."
+					},
+					"recipe": {
+						"crafting_table": "Taula d'elaboració",
+						"furnace": "Forn",
+						"brewing_stand": "Suport de Pocions",
+						"none": "Cap"
+					},
+					"loot": {
+						"container": "Contenidor",
+						"mob": "Criatura",
+						"fishing": "Pesca",
+						"trading": "Intercanvis",
+						"none": "Cap"
+					}
+				}
+			},
+			"loose": {
+				"title": "Has fallat intentant endevinar l'objecte d'avui",
+				"subtitle": "Sort demà (o deshabilita el límit en les opcions)"
+			},
+			"win": {
+				"title": "Objecte descobert",
+				"subtitle": "L'objecte d'avui era {{name}}!"
+			},
+			"intro": {
+				"description": "Endevina l'objecte d'avui!",
+				"start_help": "Escriu a baix per començar!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} intents restants!",
+					"one": "{{remaining}} intent restant!",
+					"two-four": "{{remaining}} intents restants!",
+					"many": "{{remaining}} intents restants!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Busca un objecte",
+					"new_tomorrow": "Nou objecte demà!",
+					"no_more_guesses": "T'has quedat sense intents!"
+				},
+				"submit": {
+					"aria_label": "Intenta aquest objecte"
+				},
+				"ambiguous_result": {
+					"description": "Objecte ambigu descobert! Els altres objectes ambigus incorrectes és marcaran en vermell.",
+					"image_alt": "Caça-tresors - penjar"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Recarrega la pàgina per a obtenir la nova!",
+				"next_in": "Següent objecte en {{estafe}}"
+			},
+			"yesterday_info": {
+				"description": "L'objecte d'ahir era {{name}}!"
+			},
+			"next_game": {
+				"name": "Objectes",
+				"description": "Preparat per a endevinar l'objecte d'avui?"
+			},
+			"quick_help": {
+				"look_for": "Continues buscant una millor explicació? Mira la",
+				"tooltip": "Com jugar",
+				"click_here": "icona sota el títol o fes clic aquí!"
+			},
+			"help": {
+				"title": "Com jugar",
+				"intro": {
+					"goal": "La finalitat d'aquest joc és endevinar un objecte de Minecraft. Cada dia un nou objecte és seleccionat i si continues encertant l'objecte del dia augmentaràs la teva ratxa!",
+					"enter_guesses": "Comença escrivint cualsevol objecte en la barra de cerca. Basat en la teva cerca apareixeràn 10 resultats. Fes clic en cualsevol d'aquests objectes, o navega fins a ells amb les fletxes i prem Enter per a bloquejar el teu intent.",
+					"field_explanation": "Les propietats de l'objecte que hagis seleccionat és compararan amb el de l'objecte d'avui i és marcaran en verd si coincideixen, groc en coincidències parcials i vermell per a incorrectes. Darrere dels camps incorrectes de números/versions trobaràs fletxes indicant si hauries de provar amb un nombre major o menor."
+				},
+				"example": {
+					"title": "Exemple",
+					"intro": "Anem a veure un exemple. Primer provarem un objecte a l'atzar.",
+					"table_interpretation_1": "Veiem que l'objecte, igual que la majoria és apilable fins a 64. És posterior a la Beta 1.2, Té raresa Comuna, és renovable, no es pot elaborar i no es pot obtenir de contenidors o tractes amb vilatans, d'acord amb la Wiki de Minecraft. La part de categoria d'inventari diu que no busquem un \"Ingredient\". Provem un objecte diferent.",
+					"table_interpretation_2": "Descobrim que és d'una versió més recent! Veiem un objecte de la Beta 1.8 que està en la categoria \"Menjar i Beguda\". Hem de buscar un objecte que compleixi les condicions.",
+					"table_interpretation_3": "Ja ho tenim! Descobrim que l'objecte era la tallada de síndria, que divertit!"
+				},
+				"partial_matches": {
+					"title": "Explicació de la coincidència parcial",
+					"intro": "Mirem les coincidències parcials detalladament, perquè aquests són, probablement, els camps de color més confusos.",
+					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (p. ex. Acció). Si ho intentes amb un objecte amb almenys una acció que coinsideixi amb l'objecte, obtindràs una coincidència parcial. Aquí hi ha un exemple amb lapislàtzuli:"
+				},
+				"tips": {
+					"title": "Consells",
+					"not_all_items": "MCdle no conté cada tipus d'objecte. La llista procedix de la wiki de Minecraft i no conté l'objecte de diversos blocs o objectes massa similars, com totes les variants d'armadures/eines.",
+					"utilize_the_search": "Fes un bon ús de la barra de busca! Amb els suggeriments aniràs reduint la teva cerca.",
+					"use_the_wiki": "Sigues lliure d'usar la Wiki de Minecraft. Tan aviat determinis la versió de l'objecte, pots usar la wiki per a veure quins objectes es van afegir en aquella versió, la qual cosa reduirà dràsticament la teva cerca.",
+					"usage_and_source_explanation": "Si sents curiositat sobre com es calculen els nombres d'usos/nombre de fonts, revisa la pàgina de l'objecte en la wiki i baixa fins a \"Obtenció\" i \"Usos\". Les capçaleres d'aquestes seccions han sigut usades per a comptar els seus diferents usos. Si estan perdudes, jo, el desenvolupador, les afegeixo manualment."
+				}
+			}
+		},
+		"mob": {
+			"title": "Mode de joc: endevina la criatura d'avui!",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Estadístiques",
+					"tooltip": "Estadístiques"
+				},
+				"streak": {
+					"title": "Transferir progrés",
+					"tooltip": "Ratxa"
+				},
+				"help": {
+					"tooltip": "Com jugar"
+				},
+				"bestiary": {
+					"tooltip": "Bestiari"
+				}
+			},
+			"table": {
+				"header": {
+					"title": "Criatura",
+					"initial_release": "Llança<wbr>ment",
+					"health": "Vida",
+					"height": "Altura",
+					"behavior": "Compor<wbr>tament",
+					"spawn": "Aparició",
+					"classification": "Clasifi<wbr>cació"
+				},
+				"data": {
+					"behavior": {
+						"passive": "Passiu",
+						"neutral": "Neutral",
+						"hostile": "Hostil",
+						"defensive": "Defensiu"
+					},
+					"classification": {
+						"none": "Cap",
+						"animal": "Animal",
+						"aquatic": "Aquàtic",
+						"arthropod": "Artròpode",
+						"undead": "No-mort",
+						"illager": "Malvat",
+						"golem": "Golem",
+						"boss": "Cap final"
+					},
+					"spawn": {
+						"structure": "Estructura",
+						"spawner": "Generador",
+						"breeding": "Reproducció",
+						"biome": "Bioma",
+						"light_level": "Nivell de llum",
+						"block": "Bloc",
+						"grass": "Herba",
+						"nether": "Nether",
+						"projectile": "Projectil",
+						"conversion": "Transformació",
+						"lightning": "Llamp",
+						"the_end": "L'End ",
+						"summon": "Invocació",
+						"raids": "Invasió",
+						"command": "Ordre",
+						"overworld": "Overworld",
+						"hatching": "Ou",
+						"jockey": "Genet",
+						"duplication": "Duplicació",
+						"magic": "Màgia",
+						"reinforcements": "Reforços",
+						"sieges": "Setges"
+					}
+				}
+			},
+			"loose": {
+				"title": "Has fallat intentant endevinar la criatura d'avui",
+				"subtitle": "Sort demà! (o deshabilita el límit en les opcions)"
+			},
+			"win": {
+				"title": "Criatura descoberta!",
+				"subtitle": "La criatura d'avui era el/la {{name}}!"
+			},
+			"intro": {
+				"description": "Endevina la criatura d'avui!",
+				"start_help": "Escriu a baix per a començar!"
+			},
+			"limited_attempts": {
+				"warning": {
+					"zero": "{{remaining}} intents restants!",
+					"one": "{{remaining}} intent restant!",
+					"two-four": "{{remaining}} intents restants!",
+					"many": "{{remaining}} intents restants!"
+				}
+			},
+			"search": {
+				"placeholder": {
+					"initial": "Busca una criatura",
+					"new_tomorrow": "Nova criatura demà!",
+					"no_more_guesses": "T'has quedat sense intents!"
+				},
+				"submit": {
+					"aria_label": "Intenta aquesta criatura"
+				},
+				"ambiguous_result": {
+					"description": "Criatura ambigua descoberta! Altres criatures ambigües incorrectes es marcaran en vermell.",
+					"image_alt": "Caça-tresors - penjar"
+				}
+			},
+			"midnight_timer": {
+				"next_thing": "Recàrrega la pàgina per a obtenir la nova!",
+				"next_in": "Següent criatura en {{estafe}}"
+			},
+			"yesterday_info": {
+				"description": "La criatura d'ahir va ser el/la {{name}}!"
+			},
+			"next_game": {
+				"name": "Criatura",
+				"description": "Quina és aquesta criatura?..."
+			},
+			"quick_help": {
+				"look_for": "Continues buscant una millor explicació? Mira la",
+				"tooltip": "Com jugar",
+				"click_here": "icona sota el títol o fes clic aquí!"
+			},
+			"help": {
+				"title": "Com jugar",
+				"intro": {
+					"goal": "La finalitat d'aquest joc és endevinar una criatura de Minecraft. Cada dia una nova criatura és seleccionada, i si continues encertant la criatura del dia augmentaràs la teva ratxa!",
+					"enter_guesses": "Comença escrivint qualsevol criatura en la barra de busca. Basats en la teva cerca apareixeran 10 resultats. Fes clic en qualsevol d'aquestes criatura, o navega per elles amb les fletxes i prem Enter per a bloquejar el teu intent.",
+					"field_explanation": "Les propietats de la criatura que hagis seleccionat es compararan amb el de la criatura d'avui i es marcaran en verd si coincideixen, groc en coincidències parcials i vermell per a incorrectes. Darrere dels camps incorrectes de números/versions trobaràs fletxes indicant si hauries de provar amb un nombre major o menor."
+				},
+				"example": {
+					"title": "Exemple",
+					"intro": "Anem a veure un exemple. Primer provarem una criatura a l'atzar.",
+					"table_interpretation_1": "Per a aquesta endevinalla, podem veure que la criatura que estem buscant és posterior a la 1.6.1, no té gaire vida, no arriba als 1,6 blocs d'alt, i ha de ser passiu, agressiu o un mix entre aquests dos. No apareix per llamp i tampoc és un no-mort.",
+					"table_interpretation_2": "Bé, continua sent posterior a la 1.13, però tenim la vida: busquem a una criatura amb 10 punts de vida, o sigui, 5 cors. No arriba als 0,6 blocs d'altura, així que busquem una criatura baixeta. La criatura té de nou una coincidència parcial, així que generalment és passiu, però pot ser hostil i neutral. L'aparició i la classificació han obringut una coincidència parcial, així que pot apareixer per bioma i altres raons i és qualificat com Animal o Aquàtic i potser alguna cosa més a part.",
+					"table_interpretation_3": "Ja ho tenim! Mira qui ha saltat en aquest tutorial. Hem trobat una granota petiteta!"
+				},
+				"partial_matches": {
+					"title": "Explicació de la coincidència parcial",
+					"intro": "Mirem les coincidències parcials detalladament, perquè aquests són, probablement, els camps de color més confusos.",
+					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (p. ex. Aparició, Classificació o Comportament). Si has intentat una criatura amb almenys un dels elements d'aquesta llista que coinsideixi amb la criatura actual, obtindràs una coincidència parcial. Aquí hi ha un exemple amb els cavalls:"
+				},
+				"tips": {
+					"title": "Consells",
+					"not_all_blocks": "MCdle no conté cada tipus de criatura. Només entitats vivents, com p. ex. porcs o zombis estan inclosos. Suport d'armadura, projectils o entitats no-vivents similars no estan incloses. La llista prové de la wiki de Minecraft, així que si no està en la llista de criatures, no està en el joc.",
+					"utilize_the_search": "Fes un bon ús de la barra de busca! Amb els suggeriments aniràs reduint la teua cerca.",
+					"use_the_wiki": "Sigues lliure d'usar la Wiki de Minecraft. Tan aviat com determinis la versió de la criatura, pots usar la wiki per veure quines criatures es van afegir en aquella versió, la qual cosa t'ajudarà a reduir dràsticament la teva cerca.",
+					"health_measuring": "Tingues en compte que la Vida es mesura en Punts de Vida, o sigui, mitjos cors, així que 10 punts de vida són 5 cors."
+				}
+			}
+		},
+		"crafting": {
+			"title": "Mode de joc: Crafting Bee",
+			"sub_title_menus": {
+				"stats": {
+					"title": "Estadístiques",
+					"tooltip": "Estadístiques"
+				},
+				"streak": {
+					"title": "Transferir progrés",
+					"tooltip": "Ratxa"
+				},
+				"help": {
+					"tooltip": "Com jugar"
+				},
+				"bestiary": {
+					"tooltip": "Bestiari"
+				},
+				"editor": {
+					"tooltip": "Editor"
+				}
+			},
+			"regular": {
+				"notifications": {
+					"already_crafted": "Objecte ja fabricat!",
+					"other_game_running": {
+						"description": "Tens un altre joc guardat però estàs intentant jugar a un de nou a través d'un enllaç personalitzat",
+						"prev_game": "El teu joc guardat:",
+						"prev_game_discovered": "{{discoveredCount}}/{{availableRecipes}} ja descoberts.",
+						"overwrite": "Sobreescriure",
+						"return": "Tornar al joc guardat"
+					}
+				},
+				"copy_message": {
+					"timer": {
+						"all": {
+							"long": "He descobert totes les {{discoveredCount}} receptes en {{time}} en el següent enigma a #MCdle #CraftingBee!",
+							"short": "He descobert totes les {{discoveredCount}} receptes en {{time}} #MCdle #CraftingBee"
+						},
+						"partial": {
+							"long": "He descobert {{discoveredCount}}/{{availableRecipes}} receptes en {{time}} en el següent enigma a #MCdle #CraftingBee!",
+							"short": "He descobert {{discoveredCount}}/{{availableRecipes}} receptes en {{time}} #MCdle #CraftingBee"
+						}
+					},
+					"no_timer": {
+						"all": {
+							"long": "He descobert totes les {{discoveredCount}} receptes en el següent enigma a #MCdle #CraftingBee!",
+							"short": "He descobert totes les {{discoveredCount}} receptes en aquest #MCdle #CraftingBee"
+						},
+						"partial": {
+							"long": "He descobert {{discoveredCount}}/{{availableRecipes}} receptes en el següent enigma a #MCdle #CraftingBee!",
+							"short": "He descobert {{discoveredCount}}/{{availableRecipes}} receptes en aquest #MCdle #CraftingBee"
+						}
+					},
+					"copy_button": {
+						"copy": "Copiar endevinalla",
+						"copied": "Copiat!"
+					},
+					"share_button": {
+						"share": "Compartir endevinalla",
+						"shared": "Compartit!"
+					}
+				},
+				"game_state_box": {
+					"start_playing": "Comença arrossegant/clicant elements de sota a la cuadricula de fabricació!",
+					"discover_status": "Descobertes {{discoveredCount}}/{{availableRecipes}}",
+					"timer": "{{remainingTime}}"
+				},
+				"game_complete_box": {
+					"congrats": "Felicitats!",
+					"discovered": "Has descobert totes les {{discoveredCount}} receptes amb els elements actuals!",
+					"discovered_time": "Has descobert totes les {{discoveredCount}} receptes en {{time}} amb els elements actuals!",
+					"regenerate": {
+						"description": "Presiona el botó de sota per reiniciar el joc i triar nous elements.",
+						"button": "Regenerar",
+						"popup": {
+							"title": "Triar nous elements aleatoris?",
+							"hints": "Mostrar pistes de receptes restants?",
+							"description": "Clica a sota per aleatoritzar els elements dels hexàgons i començar un nou joc!",
+							"confirm": "Confirmar"
+						}
+					},
+					"more_crafting_riddles": "o troba'n de personalitzats al nostre ",
+					"discord_link": "Discord",
+					"more_crafting_riddles_2": "!",
+					"replay": {
+						"button": "Tornar a jugar",
+						"popup": {
+							"title": "Tornar a jugar el joc actual?",
+							"description": "Clica a sota per jugar de nou el mateix joc amb els mateixos objectes!"
+						}
+					}
+				},
+				"tools": {
+					"eraser": "Esborrador",
+					"clear": {
+						"button": "Buidar",
+						"popup": {
+							"title": "Buidar la taula d'elaboració?",
+							"description": "Clica a sota per eliminar tots els elements de la taula d'elaboració.",
+							"confirm": "Confirmar"
+						}
+					}
+				},
+				"quick_settings": {
+					"hints": "Mostrar pistes de receptes restants?",
+					"timer": "Incloure temporizador?",
+					"regenerate": "Generar nova endevinalla",
+					"auto_craft": "Auto elaborar?"
+				},
+				"try_editor": "Prova l'editor!"
+			},
+			"daily": {
+				"title": "Crafting Bee Diari",
+				"description": "Cada dia, 7 objectes aleatoris són triats. Pots recordar tots els objectes que pots fabricar amb aquests?",
+				"game_complete_box": {
+					"more_tomorrow": "Torna demà per una nova endevinalla diària, o juga ",
+					"infinite_link": "infinitament",
+					"more_tomorrow_2": "!",
+					"more_crafting_riddles": "També pots trobar endevinalles creades per jugadors al nostre ",
+					"discord_link": "Discord",
+					"more_crafting_riddles_2": "!"
+				}
+			},
+			"index": {
+				"daily": {
+					"title": "Diari",
+					"description": "7 objectes cada dia, amb ratxes"
+				},
+				"regular": {
+					"title": "Normal",
+					"description": "7 ojectes, repetició il·limitada amb jocs personalitzats i aleatorització."
+				},
+				"editor": {
+					"title": "Editor",
+					"description": "Crea les teves propies endevinalles de Crafting Bee!"
+				}
+			},
+			"editor": {
+				"title": "Editor de Crafting Bee",
+				"description": "Editor per al mode de joc Crafting Bee.",
+				"share_creation": {
+					"before_link": "Comparteix la teva creació al nostre",
+					"link": "Discord",
+					"after_link": "!"
+				},
+				"test_creation": {
+					"before_link": "Quan acabis,",
+					"link": "prova la teva endevinalla",
+					"after_link": "o"
+				},
+				"copy_creation": {
+					"copy": "Copiar enllaç de l'endevinalla",
+					"copied": "Copiat!"
+				},
+				"search_items": "Busca objectes...",
+				"table": {
+					"header": {
+						"item": "Objecte",
+						"individual_usage": "Objecte d'ús individual",
+						"recipes_with_item": "Receptes que utilitzen aquest objecte"
+					}
+				},
+				"found_recipes": "Receptes trobades: {{count}}",
+				"delete_item": "Eliminar",
+				"import": {
+					"title": "Importar joc",
+					"unlimited_button": "Importar joc il·limitat",
+					"popup": {
+						"title": "Impotar joc desde el mode il·limitat?",
+						"description": "Presiona el botó de sota per importar el joc actual del mode il·limitat. Tingues en compte que això sobreescriurà el teu progrés actual a l'editor.",
+						"confirm": "Confirmar"
+					}
+				},
+				"return_to_unlimited": "Torna al joc!"
+			},
+			"midnight_timer": {
+				"next_thing": "Recàrrega la pàgina per a obtindre el següent!",
+				"next_in": "Següents ingredients en {{time}}"
+			},
+			"next_game": {
+				"name": "Crafting Bee",
+				"description": "Pots recordar totes les receptes amb els objectes d'avui?"
+			},
+			"help": {
+				"title": "Com jugar",
+				"intro": {
+					"goal": "La finalitat d'aquest joc és fabricar tants objectes com sigui possible amb els 7 objectes proporcionats als hexàgons. Aquest mode de joc té un mode diari, així com un mode il·limitat emparellat amb un editor. Completant el mode diari, pots construir una racha de victòries. Jugant al mode il·limitat, pots aprendre a jugar al joc, aprendre receptes millor i jugar a jocs que altres jugadors han creat utilitzant l'editor!",
+					"entering_items": "Per a començar a jugar, selecciona un objecte als hexàgons i després fes clic a una ranura a la graella de la taula d'elaboració, on fer clic a diverses ranures \"pintarà\" aquestes ranures. Repeteix aquest procés fins que veus la recepta desitjada a la ranura de sortida. A continuació, fes clic a l'objecte resultant per fabricar-lo! Alternativament, pots arrossegar i deixar anar objectes des del hexàgon o d'una ranura a una altra. A més, pots ser un \"Mestre del Teclat\" i seleccionar els hexàgons amb les tecles numèriques, WASD per les ranures de la taula d'elaboració, Espai per posar i Enter per fabricar. Els vincles de teclat es poden configurar en els ajustos situats a l'esquerra del títol MCdle."
+				},
+				"example": {
+					"title": "Exemple",
+					"intro": "Anem a veure algun exemples! Des d'un diamant sol, podem fabricar 5 objectes individuals!",
+					"try_example": "Intentar aquest exemple",
+					"hint_info": "Et sens encallat? Pots activar els suggeriments en la caixa sota els botons d'esborrar/buidar. Els suggeriments apareixeran sobre els hexàgons individuals i t'indicaran quants objectes et queden per fabricar amb aquest ingredient! Des d'allà, pots visitar la",
+					"mc_wiki": "Wiki de Minecraft",
+					"hint_info_2": "per a buscar receptes.",
+					"test_hints": "Prova a activar els suggeriments"
+				},
+				"tips": {
+					"title": "Consells",
+					"individual_results_only": "El joc només compta resultats individuals, no receptes individuals. Per exemple, tant el bambú com els taulons fan pals, però un cop hagis fabricat pals amb qualsevol dels dos, ja està!",
+					"where_help": "Utilitza el sistema de suggeriments si estàs encallat. La wiki és una gran parella per a això, només cal buscar l'objecte que et falta!",
+					"not_all_recipes": "Crafting Bee no conté totes les receptes fabricables. Només s'inclouen receptes estàndard amb forma i sense forma dins de la taula d'elaboració. Receptes no estàndard, com pòlvora personalitzada, tassons decorats o similars, no s'inclouen."
+				}
+			}
+		},
+		"bestiary": {
+			"index": {
+				"title": "Bestiari",
+				"books": {
+					"blocks": {
+						"title": "Llibre dels Blocs",
+						"cover_alt_text": "Portada del llibre de Blocs"
+					},
+					"items": {
+						"title": "Llibre dels Objectes",
+						"cover_alt_text": "Portada del llibre d'Objectes"
+					},
+					"mobs": {
+						"title": "Llibre de les Criatures",
+						"cover_alt_text": "Portada del llibre de Criatures"
+					},
+					"crafting": {
+						"title": "Llibre de Crafting Bee",
+						"cover_alt_text": "Portada del llibre de Crafting Bee"
+					}
+				}
+			},
+			"blocks": {
+				"title": "Bestiari de Blocs",
+				"description": "Per als Blocs que pots trobar en MCdle."
+			},
+			"items": {
+				"title": "Bestiari d'Objectes",
+				"description": "Per als Objectes que pots trobar en MCdle."
+			},
+			"mobs": {
+				"title": "Bestiari de Criatures",
+				"description": "Per a les Criatures que pots trobar en MCdle."
+			},
+			"crafting": {
+				"title": "Bestiari de Crafting Bee",
+				"description": "Per a tots els objectes que pots fabricar en el Crafting Bee de MCdle.",
+				"entry": {
+					"discovered": {
+						"label": "Descobert en",
+						"daily": "Desafiament Diari",
+						"random": "Joc aleatori",
+						"custom": "Joc personalitzat"
+					},
+					"recipes": {
+						"label": "Receptes"
+					}
+				},
+				"filters": {
+					"unavailable": "No hi ha filtres disponibles actualment."
+				}
+			},
+			"generic": {
+				"overview": {
+					"title": "Vista general",
+					"library_back": "Tornar a la biblioteca",
+					"explanation": "Prem en una entrada per a veure la seva pàgina o utilitza la icona de cerca a dalt a la dreta per a trobar-ne una en específic, o aplicar filtres que s'aplicaran en tota la pàgina (no sols als resultats de búsqueda).",
+					"sorting": {
+						"alphabet_tooltip": "Ordenar alfabèticament",
+						"alphabet_alt": "Ordre A-Z",
+						"release_tooltip": "Ordenar per llançament",
+						"release_alt": "Ordre per llançament"
+					}
+				},
+				"entry": {
+					"overview_back": "Vista general",
+					"not_found": "No s'ha trobat cap coicidència en la teva llista d'entrades descobertes =(",
+					"try_different": "Prova amb filtres diferents!",
+					"discovered": {
+						"first_discovered": "Primer descobert:",
+						"in": "en",
+						"and": "i",
+						"more": "mes!"
+					}
+				},
+				"filters": {
+					"applied": "Filtres aplicats",
+					"search_placeholder": "Cercar",
+					"search_alt": "Icona cercar",
+					"clear": "Buidar Filtres",
+					"open": "Filtres (Global)",
+					"min": "Mín",
+					"max": "Màx"
+				}
+			}
+		}
+	},
+	"components": {
+		"quick_help": {
+			"show_button": "Mostrar ajuda ràpida",
+			"color_explanation": {
+				"title": "Explicació de Color",
+				"correct": "Camp correcte",
+				"incorrect": "Camp incorrecte",
+				"partial": "Camp parcialment correcte"
+			}
+		},
+		"stats": {
+			"copy_button": "Copiar",
+			"copied_confirmation": "Copiat!",
+			"share": "Compartir",
+			"copy_message": {
+				"header_block": "Les meves estadístiques de #MCdle bloc 🏆",
+				"header_item": "Les meves estadístiques de #MCdle objecte 🏆",
+				"header_mob": "Les meves estadístiques de #MCdle criatura 🏆",
+				"total_wins": "🎉 Partides guanyades {{number}}",
+				"average_guesses": "🧮 Mitjana d'encerts {{number}}",
+				"one_shots": "🎯 Encerts a la primera {{number}}",
+				"current_streak": "🚀 Ratxa actual {{number}}",
+				"max_streak": "📈 Ratxa màxima {{number}}"
+			},
+			"stat_labels": {
+				"total_wins": "Partides guanyades",
+				"average_guesses": "Mitjana d'encerts",
+				"one_shots": "Encerts a la primera",
+				"current_streak": "Ratxa actual",
+				"max_streak": "Ratxa màxima"
+			},
+			"chart_labels": {
+				"guesses": "Intents"
+			}
+		},
+		"today_guesses": {
+			"loading": "Carregant intents del jugador...",
+			"already_guessed": {
+				"zero": "jugadors ja l'han encertat correctament!",
+				"one": "jugador ja l'ha encertat correctament!",
+				"two-four": "jugadors ja l'han encertat correctament!",
+				"many": "jugadors ja l'han encertat correctament!"
+			}
+		},
+		"share_win": {
+			"copy_button": "Copiar",
+			"copied_confirmation": "Copiat!",
+			"share": "Compartir",
+			"all_games": "Tots els jocs",
+			"guess_type": {
+				"block": "bloc",
+				"item": "objecte",
+				"mob": "criatura"
+			},
+			"guess_line": {
+				"one": "He descobert el/la #MCdle {{type}} del dia {{date}} en {{number}} intent! {{emoji}}",
+				"many": "He descobert el/la #MCdle {{type}} del dia {{date}} en {{number}} intents! {{emoji}}"
+			},
+			"short_guess_line": {
+				"intro": "He descobert l'enigma #MCdle del dia {{date}}",
+				"one": "en {{number}} intent",
+				"many": "en {{number}} intents",
+				"conjunction": " i "
+			}
+		},
+		"hints": {
+			"in_x_guesses": {
+				"one": "en {{number}} intent!",
+				"many": "en {{number}} intents!"
+			},
+			"version": {
+				"description": "Pistes de versió de llançament",
+				"solution": "Estàs buscant alguna cosa de la versió {{version}}!"
+			},
+			"letter": {
+				"description": "Lletra per la qual comença",
+				"solution": "La solució comença per la lletra {{letter}}..."
+			},
+			"image": {
+				"description": "Zoomed image hint",
+				"solution": "Pots veure què s'amaga en aquesta imatge en 8x?"
+			}
+		},
+		"toasts": {
+			"patchnotes": {
+				"live": "estan en directe ara! Revisa'ls!"
+			}
+		}
+	},
+	"blocks": {
+		"button": "Botó d'acàcia",
+		"door": "Porta d'acàcia",
+		"fence": "Tanca d'acàcia",
+		"fence_gate": "Porta de tanca d'acàcia",
+		"leaves": "Fulles d'acàcia",
+		"log": "Tronc d'acàcia",
+		"planks": "Fusta d'acàcia",
+		"pressure_plate": "Placa de pressió d'acàcia",
+		"sapling": "Esqueix d'acàcia",
+		"shelf": "Prestatge d'acàcia",
+		"sign": "Cartell d'acàcia",
+		"slab": "Llosa d'acàcia",
+		"stairs": "Escales d'acàcia",
+		"trapdoor": "Trapa d'acàcia",
+		"wood": "Fusta d'acàcia",
+		"activator_rail": "Rail activador",
+		"flower": "All bord",
+		"amethyst_block": "Bloc d'ametista",
+		"amethyst_cluster": "Cúmul d'ametista",
+		"ancient_debris": "Restes ancestrals",
+		"andesite": "Andesita",
+		"wall": "Mur d'andesita",
+		"anvil": "Enclusa",
+		"azalea": "Azalea",
+		"bamboo": "Bambú",
+		"bamboo_block": "Bloc de bambú",
+		"bamboo_mosaic": "Bambú entrellaçat",
+		"barrel": "Barril",
+		"barrier": "Barrera",
+		"basalt": "Basalt",
+		"beacon": "Far",
+		"bedrock": "Roca base",
+		"bee_nest": "Rusc",
+		"beehive": "Rusc fix",
+		"beetroots": "Remolatxes",
+		"bell": "Campana",
+		"big_dripleaf": "Degotadora gran",
+		"banner": "Estendard de sable",
+		"bed": "Llit negre",
+		"candle": "Espelma negra",
+		"carpet": "Catifa negra",
+		"concrete": "Formigó negre",
+		"concrete_powder": "Pols de formigó negre",
+		"glazed_terracotta": "Rajola negra",
+		"shulker_box": "Caixa de shulker negra",
+		"glass": "Vidre tenyit de negre",
+		"glass_pane": "Panell de vidre tenyit de negre",
+		"terracotta": "Terracota negra",
+		"wool": "Llana negra",
+		"blackstone": "Roca negra",
+		"blast_furnace": "Alt forn",
+		"blue_ice": "Gel blau",
+		"bone_block": "Bloc d'os",
+		"bookshelf": "Llibreria",
+		"coral": "Corall de cervell",
+		"coral_block": "Bloc de corall de cervell",
+		"coral_fan": "Gorgònia de cervell",
+		"brewing_stand": "Altar de pocions",
+		"bricks": "Maons",
+		"mushroom": "Bolet marró",
+		"mushroom_block": "Bloc de bolet marró",
+		"bush": "Matoll",
+		"cactus": "Cactus",
+		"cactus_flower": "Flor de Cactus",
+		"cake": "Pastís",
+		"calcite": "Calcita",
+		"calibrated_sculk_sensor": "Sensor Sculk calibrat",
+		"campfire": "Foguera",
+		"carrots": "Pastanagues",
+		"cartography_table": "Taula de cartografia",
+		"cauldron": "Calderó",
+		"cave_vines": "Lianes de cova",
+		"chain": "Cadena",
+		"chest": "Cofre",
+		"chiseled_bookshelf": "Prestatgeria",
+		"chorus_flower": "Flor de tornada",
+		"chorus_plant": "Planta de tornada",
+		"clay": "Argila",
+		"eyeblossom": "Iridàcia tancada",
+		"coal_block": "Bloc de carbó",
+		"coal_ore": "Mena de carbó",
+		"coarse_dirt": "Terra seca",
+		"cobbled_deepslate": "Empedrat de pissarra",
+		"cobblestone": "Pedra",
+		"cobweb": "Teranyina",
+		"cocoa": "Cacau",
+		"command_block": "Bloc de comandaments",
+		"comparator": "Comparador",
+		"composter": "Compostador",
+		"conduit": "Canalitzador",
+		"copper_block": "Bloc de coure",
+		"copper_bulb": "Bombeta de coure",
+		"copper_chest": "Bagul de coure",
+		"copper_door": "Porta de coure",
+		"copper_golem_statue": "Estàtua de Gòlem de Coure",
+		"copper_grate": "Reixa de coure",
+		"copper_ore": "Mena de coure",
+		"copper_trapdoor": "Trapa de coure",
+		"crafter": "Elaborador",
+		"crafting_table": "Taula d'elaboració",
+		"creaking_heart": "Cor de cruixidor",
+		"head": "Cap de creeper",
+		"fungus": "Fong carmesí",
+		"nylium": "Netheli carmesí",
+		"roots": "Arrels carmesines",
+		"crying_obsidian": "Obsidiana plorosa",
+		"daylight_detector": "Sensor de llum solar",
+		"dead_bush": "Arbust mort",
+		"decorated_pot": "Gerro decorat",
+		"deepslate": "Pissarra",
+		"detector_rail": "Rail detector",
+		"diamond_block": "Bloc de diamant",
+		"diamond_ore": "Mena de diamant",
+		"diorite": "Diorita",
+		"dirt": "Terra",
+		"dirt_path": "Camí de terra",
+		"dispenser": "Dispensador",
+		"dragon_egg": "Ou de drac",
+		"dried_ghast": "Ghast Sec",
+		"dried_kelp_block": "Bloc d'algues seques",
+		"dripstone_block": "Bloc d'espeleotema",
+		"dropper": "Subministrador",
+		"emerald_block": "Bloc de maragda",
+		"emerald_ore": "Mena de maragda",
+		"enchanting_table": "Taula d'encanteris",
+		"end_portal_frame": "Marc del portal de l'End",
+		"end_rod": "Vara de l'End",
+		"end_stone": "Roca de l'End",
+		"end_stone_bricks": "Maons de roca de l'End",
+		"ender_chest": "Cofre d'Ender",
+		"farmland": "Terra de cultiu",
+		"fern": "Falguera",
+		"fire": "Foc",
+		"firefly_bush": "Matoll de cuques de llum",
+		"fletching_table": "Taula de fletxes",
+		"flower_pot": "Test",
+		"frogspawn": "Ous de granota",
+		"furnace": "Forn",
+		"glow_lichen": "Liquen lluent",
+		"glowstone": "Roca brillant",
+		"gold_block": "Bloc d'or",
+		"gold_ore": "Mena d'or",
+		"golden_dandelion": "Dent de lleó daurat",
+		"granite": "Granit",
+		"grass_block": "Bloc d'herba",
+		"gravel": "Grava",
+		"grindstone": "Afiladora",
+		"hanging_roots": "Arrels penjants",
+		"hay_block": "Bala de fenc",
+		"heavy_core": "Nucli dens",
+		"heavy_weighted_pressure_plate": "Placa de pressió per a pes elevat",
+		"honey_block": "Bloc de mel",
+		"honeycomb_block": "Bloc de bresca",
+		"hopper": "Tremuja",
+		"ice": "Gel",
+		"infested_block": "Maons de roca cisellats infestats",
+		"iron_bars": "Barrots de ferro",
+		"iron_block": "Bloc de ferro",
+		"iron_door": "Porta de ferro",
+		"iron_ore": "Mena de ferro",
+		"iron_trapdoor": "Trapa de ferro",
+		"jack_o_lantern": "Carbassa de Halloween",
+		"jigsaw": "Bloc trencaclosques",
+		"jukebox": "Tocadiscs",
+		"kelp": "Alga",
+		"ladder": "Escala",
+		"lantern": "Fanal",
+		"lapis_block": "Bloc de lapislàtzuli",
+		"lapis_ore": "Mena de lapislàtzuli",
+		"leaf_litter": "Fulles seques",
+		"lectern": "Faristol",
+		"lever": "Palanca",
+		"light": "Llum",
+		"lightning_rod": "Parallamps",
+		"lily_pad": "Nenúfar",
+		"lodestone": "Fita",
+		"loom": "Teler",
+		"magma_block": "Bloc de magma",
+		"mangrove_propagule": "Propàgul de mangle",
+		"mangrove_roots": "Arrels de mangle",
+		"melon": "Síndria",
+		"melon_stem": "Tija de síndria",
+		"moss_block": "Bloc de molsa",
+		"moss_carpet": "Catifa de molsa",
+		"mossy_cobblestone": "Pedra amb molsa",
+		"mud": "Fang",
+		"mud_bricks": "Tova",
+		"muddy_mangrove_roots": "Arrels de mangle enfangades",
+		"mycelium": "Miceli",
+		"nether_bricks": "Maons del Nether",
+		"nether_gold_ore": "Mena d'or del Nether",
+		"nether_quartz_ore": "Mena de quars del Nether",
+		"nether_sprouts": "Brots del Nether",
+		"nether_wart": "Berruga del Nether",
+		"nether_wart_block": "Bloc de berrugues del Nether",
+		"netherite_block": "Bloc de netherita",
+		"netherrack": "Netherrack",
+		"note_block": "Bloc musical",
+		"observer": "Observador",
+		"obsidian": "Obsidiana",
+		"froglight": "Granollum ocre",
+		"packed_ice": "Gel compactat",
+		"packed_mud": "Fang compactat",
+		"pale_hanging_moss": "Molsa pàl·lida penjant",
+		"pale_moss_block": "Bloc de molsa pàl·lida",
+		"pale_moss_carpet": "Catifa de molsa pàl·lida",
+		"petrified_oak_slab": "Llosa de pomer petrificada",
+		"pink_petals": "Pètals rosa",
+		"piston": "Pistó",
+		"pitcher_crop": "Cultiu de planta gerro",
+		"pitcher_plant": "Planta gerro",
+		"podzol": "Pinassa",
+		"pointed_dripstone": "Espeleotema punxegut",
+		"polished_blackstone": "Roca negra polida",
+		"potatoes": "Patates",
+		"powder_snow": "Neu pols",
+		"powered_rail": "Rail propulsor",
+		"prismarine": "Prismarina",
+		"pumpkin": "Carbassa",
+		"pumpkin_stem": "Tija de carabassa",
+		"purpur_block": "Bloc de purpur",
+		"quartz_block": "Bloc de quars",
+		"rail": "Rail",
+		"raw_copper_block": "Bloc de coure en brut",
+		"raw_gold_block": "Bloc d'or en brut",
+		"raw_iron_block": "Bloc de ferro en brut",
+		"redstone_block": "Bloc de redstone",
+		"redstone_lamp": "Làmpada de redstone",
+		"redstone_ore": "Mena de redstone",
+		"redstone_torch": "Torxa de redstone",
+		"redstone_wire": "Cable de redstone",
+		"reinforced_deepslate": "Pissarra reforçada",
+		"repeater": "Repetidor",
+		"resin_block": "Bloc de resina",
+		"resin_bricks": "Maons de resina",
+		"resin_clump": "Grumoll de resina",
+		"respawn_anchor": "Àncora de reaparició",
+		"rooted_dirt": "Terra amb arrels",
+		"sand": "Sorra",
+		"sandstone": "Roca sorrenca",
+		"scaffolding": "Bastida",
+		"sculk": "Sculk",
+		"sculk_catalyst": "Sculk catalitzador",
+		"sculk_sensor": "Sensor sculk",
+		"sculk_shrieker": "Sculk xisclador",
+		"sculk_vein": "Nervis d'sculk",
+		"sea_lantern": "Llanterna marina",
+		"sea_pickle": "Cogombre de mar",
+		"seagrass": "Herba marina",
+		"dry_grass": "Herba seca baixa",
+		"short_grass": "Herba curta",
+		"shroomlight": "Girgolàmpada",
+		"slime_block": "Bloc de llim",
+		"small_dripleaf": "Degotadora petita",
+		"smithing_table": "Taula de ferreria",
+		"smoker": "Fumador",
+		"smooth_quartz": "Bloc de quars llis",
+		"smooth_stone": "Roca llisa",
+		"sniffer_egg": "Ou d'ensumador",
+		"snow": "Neu",
+		"snow_block": "Bloc de neu",
+		"soul_sand": "Sorra d'ànimes",
+		"soul_soil": "Sòl d'ànimes",
+		"spawner": "Generador de monstres",
+		"sponge": "Esponja",
+		"spore_blossom": "Flor d'espores",
+		"stone": "Roca",
+		"stone_bricks": "Maons de roca",
+		"stonecutter": "Talla-roques",
+		"structure_block": "Bloc estructural",
+		"structure_void": "Buit estructural",
+		"sugar_cane": "Canya de sucre",
+		"suspicious_gravel": "Grava sospitosa",
+		"sweet_berry_bush": "Arbust de baies dolces",
+		"target": "Blanc",
+		"test_block": "Bloc de proves",
+		"test_instance_block": "Bloc de prova d'instàncies",
+		"tinted_glass": "Vidre opac",
+		"tnt": "Dinamita",
+		"torch": "Torxa",
+		"torchflower": "Florxa",
+		"trapped_chest": "Cofre trampa",
+		"trial_spawner": "Generador de reptes",
+		"tripwire": "Corda",
+		"tripwire_hook": "Ganxo",
+		"tuff": "Tuf",
+		"turtle_egg": "Ou de tortuga",
+		"twisting_vines": "Lianes retorçades",
+		"vault": "Caixa forta",
+		"vine": "Lianes",
+		"warped_wart_block": "Bloc de berrugues guerxes",
+		"weeping_vines": "Lianes ploroses",
+		"wheat": "Cultiu de blat",
+		"wildflowers": "Flors silvestres",
+		"wither_rose": "Rosa de wither"
+	},
+	"items": {
+		"boat": "Barca d'acàcia",
+		"chest_boat": "Barca d'acàcia amb cofre",
+		"spawn_egg": "Generar allay",
+		"amethyst_shard": "Fragment d'ametista",
+		"pottery_sherd": "Fragment de ceràmica de canya de pescar",
+		"apple": "Poma",
+		"armadillo_scute": "Escata d'armadillo",
+		"armor_stand": "Maniquí",
+		"arrow": "Fletxa",
+		"aquatic_mob_bucket": "Galleda amb axolot",
+		"baked_potato": "Patata cuita",
+		"beef": "Bistec cru",
+		"beetroot": "Remolatxa",
+		"beetroot_seeds": "Llavors de remolatxa",
+		"beetroot_soup": "Sopa de remolatxa",
+		"blaze_powder": "Pols de foc",
+		"blaze_rod": "Vara flamejant",
+		"bone": "Os",
+		"bone_meal": "Farina d'ossos",
+		"book": "Llibre",
+		"bow": "Arc",
+		"bowl": "Bol",
+		"bread": "Pa",
+		"breeze_rod": "Vara de brisa",
+		"brick": "Maó",
+		"brush": "Pinzell",
+		"bucket": "Galleda",
+		"bundle": "Sarró",
+		"carrot": "Pastanaga",
+		"carrot_on_a_stick": "Canya amb pastanaga",
+		"charcoal": "Carbó vegetal",
+		"chest_minecart": "Vagoneta amb cofre",
+		"chicken": "Carn de pollastre",
+		"chorus_fruit": "Fruita de tornada",
+		"clay_ball": "Bola d'argila",
+		"clock": "Rellotge",
+		"coal": "Carbó",
+		"armor_trim_smithing_template": "Patró de ferreria",
+		"cocoa_beans": "Grans de cacau",
+		"cod": "Bacallà cru",
+		"command_block_minecart": "Vagoneta amb bloc de comandaments",
+		"compass": "Brúixola",
+		"cooked_beef": "Bistec",
+		"cooked_chicken": "Pollastre rostit",
+		"cooked_cod": "Bacallà cuit",
+		"cooked_mutton": "Carn d'ovella cuita",
+		"cooked_porkchop": "Carn de porc cuita",
+		"cooked_rabbit": "Conill rostit",
+		"cooked_salmon": "Salmó cuit",
+		"cookie": "Galeta",
+		"copper_ingot": "Lingot de coure",
+		"copper_nugget": "Grànul de coure",
+		"banner_pattern": "Patró de creeper",
+		"crossbow": "Ballesta",
+		"dye": "Tint cian",
+		"debug_stick": "Pal de proves",
+		"diamond": "Diamant",
+		"axe": "Destral de diamant",
+		"boots": "Botes de diamant",
+		"chestplate": "Cuirassa de diamant",
+		"helmet": "Casc de diamant",
+		"hoe": "Aixada de diamant",
+		"horse_armor": "Armadura de diamant per a cavalls",
+		"leggings": "Malles de diamant",
+		"pickaxe": "Pic de diamant",
+		"shovel": "Pala de diamant",
+		"sword": "Espasa de diamant",
+		"disc_fragment": "Fragment de disc",
+		"dragon_breath": "Alè de drac",
+		"dried_kelp": "Algues seques",
+		"echo_shard": "Fragment d'eco",
+		"egg": "Ou",
+		"elytra": "Èlitres",
+		"emerald": "Maragda",
+		"enchanted_book": "Llibre encantat",
+		"enchanted_golden_apple": "Poma daurada encantada",
+		"end_crystal": "Cristall de l'End",
+		"ender_eye": "Ull d'Ender",
+		"ender_pearl": "Perla d'Ender",
+		"experience_bottle": "Ampolla màgica",
+		"feather": "Ploma",
+		"fermented_spider_eye": "Ull d'aranya fermentat",
+		"fire_charge": "Càrrega de foc",
+		"firework_rocket": "Focs artificials",
+		"firework_star": "Estrella de focs artificials",
+		"fishing_rod": "Canya de pescar",
+		"flint": "Sílex",
+		"flint_and_steel": "Sílex i acer",
+		"furnace_minecart": "Vagoneta amb forn",
+		"ghast_tear": "Llàgrima de ghast",
+		"glass_bottle": "Ampolla de vidre",
+		"glistering_melon_slice": "Tallada de síndria daurada",
+		"glow_berries": "Baies brillants",
+		"glow_ink_sac": "Sac de tinta lluent",
+		"glowstone_dust": "Pols de roca brillant",
+		"goat_horn": "Banya de cabra",
+		"gold_ingot": "Lingot d'or",
+		"gold_nugget": "Grànul d'or",
+		"golden_apple": "Poma d'or",
+		"golden_carrot": "Pastanaga daurada",
+		"gunpowder": "Pólvora",
+		"harness": "Arnès",
+		"heart_of_the_sea": "Cor del mar",
+		"honey_bottle": "Pot de mel",
+		"honeycomb": "Bresca",
+		"hopper_minecart": "Vagoneta amb tremuja",
+		"ink_sac": "Sac de tinta",
+		"iron_ingot": "Lingot de ferro",
+		"iron_nugget": "Grànul de ferro",
+		"item_frame": "Marc",
+		"knowledge_book": "Llibre del coneixement",
+		"lapis_lazuli": "Lapislàtzuli",
+		"lava_bucket": "Galleda de lava",
+		"lead": "Llaç",
+		"leather": "Cuir",
+		"lingering_potion": "Poció persistent",
+		"mace": "Maça",
+		"magma_cream": "Crema de magma",
+		"map": "Mapa en blanc",
+		"melon_seeds": "Llavors de síndria",
+		"melon_slice": "Tallada de síndria",
+		"milk_bucket": "Galleda amb llet",
+		"minecart": "Vagoneta",
+		"mushroom_stew": "Estofat de bolets",
+		"music_disc": "Disc de música",
+		"mutton": "Carn d'ovella crua",
+		"name_tag": "Etiqueta de nom",
+		"nautilus_shell": "Closca de nàutil",
+		"nether_brick": "Maó del Nether",
+		"nether_star": "Estrella del Nether",
+		"nether_wart": "Berruga del Nether",
+		"netherite_ingot": "Lingot de netherita",
+		"nautilus_armor": "Armadura de Nautilus de netherita",
+		"netherite_scrap": "Ferralla de netherita",
+		"netherite_upgrade_smithing_template": "Patró de ferreria",
+		"ominous_bottle": "Ampolla ominosa",
+		"painting": "Quadre",
+		"paper": "Paper",
+		"phantom_membrane": "Membrana fantasmal",
+		"pitcher_plant": "Planta gerro",
+		"pitcher_pod": "Beina de planta gerro",
+		"poisonous_potato": "Patata verinosa",
+		"popped_chorus_fruit": "Fruita de tornada cuita",
+		"porkchop": "Carn de porc crua",
+		"potato": "Patata",
+		"potion": "Poció",
+		"powder_snow_bucket": "Galleda de neu pols",
+		"prismarine_crystals": "Cristalls de prismarina",
+		"prismarine_shard": "Fragment de prismarina",
+		"pufferfish": "Peix globus",
+		"pumpkin_pie": "Pastís de carbassa",
+		"pumpkin_seeds": "Llavors de carbassa",
+		"quartz": "Quars del Nether",
+		"rabbit": "Carn de conill crua",
+		"rabbit_foot": "Pota de conill",
+		"rabbit_hide": "Pell de conill",
+		"rabbit_stew": "Estofat de conill",
+		"raw_copper": "Coure en brut",
+		"raw_gold": "Or en brut",
+		"raw_iron": "Ferro en brut",
+		"recovery_compass": "Brúixola de retorn",
+		"redstone": "Pols de redstone",
+		"resin_brick": "Maons de resina",
+		"rotten_flesh": "Carn podrida",
+		"saddle": "Sella de muntar",
+		"salmon": "Salmó cru",
+		"shears": "Tisores d'esquilar",
+		"shield": "Escut",
+		"shulker_shell": "Closca de shulker",
+		"slime_ball": "Bola de llim",
+		"snowball": "Bola de neu",
+		"spectral_arrow": "Fletxa fantasmal",
+		"spider_eye": "Ull d'aranya",
+		"splash_potion": "Poció llancívola",
+		"spyglass": "Ullera de llarga vista",
+		"stick": "Pal",
+		"string": "Fil",
+		"sugar": "Sucre",
+		"suspicious_stew": "Estofat sospitós",
+		"sweet_berries": "Baies dolces",
+		"tipped_arrow": "Fletxa amb efecte",
+		"tnt_minecart": "Vagoneta amb dinamita",
+		"torchflower_seeds": "Llavors de florxa",
+		"totem_of_undying": "Tòtem de l'immortalitat",
+		"trial_key": "Clau de reptes",
+		"trident": "Trident",
+		"tropical_fish": "Peix tropical",
+		"turtle_scute": "Escata de tortuga",
+		"warped_fungus_on_a_stick": "Canya amb fong guerxo",
+		"water_bucket": "Galleda d'aigua",
+		"wheat": "Blat",
+		"wheat_seeds": "Llavors de blat",
+		"wind_charge": "Càrrega Ventosa",
+		"wolf_armor": "Armadura de llop",
+		"spear": "Llança de fusta",
+		"writable_book": "Llibre i tinter",
+		"written_book": "Llibre escrit",
+		"kelp": "Alga"
+	},
+	"mobs": {
+		"allay": "Allay",
+		"armadillo": "Armadillo",
+		"axolotl": "Axolot",
+		"bat": "Ratpenat",
+		"bee": "Abella",
+		"blaze": "Esperit del foc",
+		"bogged": "Aiguamoll",
+		"breeze": "Brisa",
+		"camel": "Dromedari",
+		"camel_husk": "Pell de camell",
+		"cat": "Gat",
+		"cave_spider": "Aranya de cova",
+		"chicken": "Pollastre",
+		"cod": "Bacallà",
+		"copper_golem": "Gòlem de coure",
+		"cow": "Vaca",
+		"creaking": "Cruixidor",
+		"creeper": "Creeper",
+		"dolphin": "Dofí",
+		"donkey": "Ruc",
+		"drowned": "Ofegat",
+		"elder_guardian": "Guardià ancià",
+		"ender_dragon": "Drac d'Ender",
+		"enderman": "Enderman",
+		"endermite": "Endermite",
+		"evoker": "Invocador",
+		"fox": "Guineu",
+		"frog": "Granota",
+		"ghast": "Ghast",
+		"giant": "Gegant",
+		"glow_squid": "Calamar lluent",
+		"goat": "Cabra",
+		"guardian": "Guardià",
+		"happy_ghast": "Ghast Feliç",
+		"hoglin": "Hoglin",
+		"horse": "Cavall",
+		"husk": "Zombi ressec",
+		"illusioner": "Il·lusionista",
+		"iron_golem": "Gòlem de ferro",
+		"llama": "Llama",
+		"magma_cube": "Cub de magma",
+		"mooshroom": "Mooshroom",
+		"mule": "Mula",
+		"nautilus": "Nautilus",
+		"ocelot": "Ocelot",
+		"panda": "Panda",
+		"parched": "Assedegat",
+		"parrot": "Lloro",
+		"phantom": "Fantasma",
+		"pig": "Porc",
+		"piglin": "Piglin",
+		"piglin_brute": "Piglin ferotge",
+		"pillager": "Saquejador",
+		"polar_bear": "Ós polar",
+		"pufferfish": "Peix globus",
+		"rabbit": "Conill",
+		"ravager": "Devastador",
+		"salmon": "Salmó",
+		"sheep": "Ovella",
+		"shulker": "Shulker",
+		"silverfish": "Peixet de plata",
+		"skeleton": "Esquelet",
+		"skeleton_horse": "Cavall esquelètic",
+		"slime": "Llim",
+		"sniffer": "Ensumador",
+		"snow_golem": "Gòlem de neu",
+		"spider": "Aranya",
+		"squid": "Calamar",
+		"stray": "Esquelet extraviat",
+		"strider": "Caminant",
+		"tadpole": "Capgròs",
+		"tropical_fish": "Peix tropical",
+		"turtle": "Tortuga",
+		"vex": "Esperit",
+		"villager": "Vilatà",
+		"vindicator": "Vindicador",
+		"wandering_trader": "Comerciant",
+		"warden": "Vigilant",
+		"witch": "Bruixa",
+		"wither": "Wither",
+		"wither_skeleton": "Esquelet wither",
+		"wolf": "Llop",
+		"zoglin": "Zoglin",
+		"zombie": "Zombi",
+		"zombie_horse": "Cavall zombi",
+		"zombie_nautilus": "Zombie Nautilus",
+		"zombie_villager": "Vilatà zombi",
+		"zombified_piglin": "Piglin zombificat"
+	}
+}
