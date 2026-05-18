@@ -11,10 +11,10 @@
 		"about": {
 			"title": "Sobre",
 			"button_title": "Sobre",
-			"intro": "Mcdle és un joc tipus trencaclosques a l'estil Wordle sobre contingut de Minecraft. Cada dia, un nou bloc, objecte i criatura de Minecraft són seleccionats i has d'endevinar-los. Torna diàriament per a augmentar la teva ratxa d'encerts! Hi ha un servidor de Discord on pots compartir amb el teus amics els teus encerts i ratxes!",
-			"help_pointer": "Com jugar-hi? En cada joc habrà un símbol ? sota el títol, el qual obre una pestanya d'ajuda amb exemples i descripcions detallades del mode de joc en el qual estàs.",
+			"intro": "Mcdle és un joc tipus trencaclosques a l'estil Wordle sobre contingut de Minecraft. Cada dia, un nou bloc, objecte i criatura de Minecraft són seleccionats i has d'endevinar-los. Torna diàriament per a augmentar la teva ratxa d'encerts! Hi ha un servidor de Discord on pots compartir amb els teus amics els teus encerts i ratxes!",
+			"help_pointer": "Com jugar-hi? A cada joc hi haurà un símbol ? sota el títol, el qual obre una pestanya d'ajuda amb exemples i descripcions detallades del mode de joc en el qual estàs.",
 			"suggestions": {
-				"title": "Suggerencies",
+				"title": "Suggerències",
 				"description": {
 					"pre_link": "Envia suggerències i reporta errors a ",
 					"link": "Discord",
@@ -34,7 +34,7 @@
 				"description": {
 					"pre_link": "La informació d'aquest joc prové de ",
 					"link": "la Wiki de Minecraft",
-					"post_link": ". Moltes de les imatges estan guardades aquí, així que moltes gràcies a ells pel gran treball de mantindre al dia la wiki! MCdle no està afiliat o avalat per Mojang Studios. Però està obviament basat en Minecraft i inspirat en Wordle i LoLdle."
+					"post_link": ". Moltes de les imatges estan guardades aquí, així que moltes gràcies a ells pel gran treball de mantenir al dia la wiki! MCdle no està afiliat o avalat per Mojang Studios. Però està òbviament basat en Minecraft i inspirat en Wordle i LoLdle."
 				},
 				"credit_list": {
 					"kineticraft": {
@@ -45,7 +45,7 @@
 					"vanilla_tweaks": {
 						"pre_link": "Gràcies a ",
 						"link": "Vanilla Tweaks",
-						"post_link": " per els seves textures dels talls de carabassa i síndria!"
+						"post_link": " per les seves textures dels talls de carabassa i síndria!"
 					},
 					"alldle": {
 						"post_link": "per destacar MCdle en la seva web!"
@@ -57,10 +57,10 @@
 				"description": "Actualment la versió del joc és la #{{version}}! El joc seleccionarà un nou bloc, objecte i criatura cada dia a mitjanit en horari UTC."
 			},
 			"supporters": {
-				"title": "Colaboradors",
+				"title": "Col·laboradors",
 				"description": {
 					"pre_link": "Gràcies a tots els meus",
-					"post_link": " colaboradors!"
+					"post_link": " col·laboradors!"
 				}
 			}
 		}
@@ -96,8 +96,8 @@
 							"image_alt": "Dificultat de busca determinada pel teu coneixement"
 						},
 						"logical": {
-							"description": "Buscar et mostrarà totes les estadístiques disponibles, fent llògic el joc MCdle!",
-							"image_alt": "Dificultat de busca lògic"
+							"description": "Buscar et mostrarà totes les estadístiques disponibles, fent lògic el joc MCdle!",
+							"image_alt": "Dificultat de busca lògica"
 						}
 					},
 					"title": "Buscar:"
@@ -152,8 +152,8 @@
 						"description": "Moure el cursor a la dreta en la graella d'elaboració"
 					},
 					"crafting.grid.placeItem": {
-						"name": "Possar l'objecte en la graella",
-						"description": "Possar l'objecte seleccionat en la graella d'elaboració"
+						"name": "Posar l'objecte en la graella",
+						"description": "Posar l'objecte seleccionat en la graella d'elaboració"
 					},
 					"crafting.grid.craftItem": {
 						"name": "Fabricar l'objecte",
@@ -178,7 +178,7 @@
 				}
 			},
 			"settings_button": {
-				"image_alt": "Va botar d'opcions",
+				"image_alt": "Botó d'opcions",
 				"tooltip": "Opcions"
 			},
 			"title": "Opcions"
@@ -229,7 +229,7 @@
 				"bestiary": {
 					"title": "Bestiari",
 					"image_alt": "Icona del bestiari",
-					"subtitle": "Seguix el teu progrés i comença a coleccionar! També pots filtrar el que ja has descobert!"
+					"subtitle": "Segueix el teu progrés i comença a col·leccionar! També pots filtrar el que ja has descobert!"
 				},
 				"kineticraft": {
 					"title": "Juga infinitament a kineticraft.net",
@@ -279,7 +279,7 @@
 				},
 				"data": {
 					"tool": {
-						"any_tool": "Qualsevol",
+						"any_tool": "Qual-sevol",
 						"axe": "Destral",
 						"pickaxe": "Pic",
 						"hoe": "Aixada",
@@ -327,13 +327,13 @@
 					"aria_label": "Intenta aquest bloc"
 				},
 				"ambiguous_result": {
-					"description": "Bloc ambigu descobert! Els altres blocs ambigus incorrectes és marcaran en vermell.",
+					"description": "Bloc ambigu descobert! Els altres blocs ambigus incorrectes es marcaran en vermell.",
 					"image_alt": "Caça-tresors - penjar"
 				}
 			},
 			"midnight_timer": {
 				"next_thing": "Recarrega la pàgina per a obtenir la nova!",
-				"next_in": "Següent bloc en {{estafe}}"
+				"next_in": "Següent bloc en {{time}}"
 			},
 			"yesterday_info": {
 				"description": "El bloc d'ahir va ser {{name}}!"
@@ -351,25 +351,25 @@
 				"title": "Com jugar",
 				"intro": {
 					"goal": "La finalitat d'aquest joc és endevinar un bloc de Minecraft. Cada dia un nou bloc és seleccionat i si continues encertant el bloc del dia augmentaràs la teva ratxa!",
-					"enter_guesses": "Comença escribint cualsevol bloc en la barra de cerca. Basat en la teva cerca apareixeràn 10 resultats. Fes clic en cualsevol d'aquests blocs, o navega fins a ells amb les fletxes i prem Enter per a bloquejar el teu intent.",
-					"field_explanation": "Les propietats del bloc que hagis seleccionat és compararan amb el del bloc d'avui i és marcaran en verd si coincideixen, groc en coincidències parcials i vermell per a incorrectes. Darrere dels camps incorrectes de números/versions trobaras fletxes indicant si hauries de provar amb un nombre major o menor."
+					"enter_guesses": "Comença escrivint qualsevol bloc en la barra de cerca. Basat en la teva cerca apareixeràn 10 resultats. Fes clic en cualsevol d'aquests blocs, o navega fins a ells amb les fletxes i prem Enter per a bloquejar el teu intent.",
+					"field_explanation": "Les propietats del bloc que hagis seleccionat es compararan amb el del bloc d'avui i es marcaran en verd si coincideixen, groc en coincidències parcials i vermell per a incorrectes. Darrere dels camps incorrectes de números/versions trobaras fletxes indicant si hauries de provar amb un nombre major o menor."
 				},
 				"example": {
 					"title": "Exemple",
 					"intro": "Anem a veure un exemple. Primer provarem un bloc a l'atzar.",
 					"table_interpretation_1": "Veiem que el bloc, igual que la majoria, és apilable fins a 64, i no és inflamable. No és un bloc de la Pre-Alpha i pot ser minat amb un pic. Així que provem amb un bloc, nou, diferent.",
-					"table_interpretation_2": "Descobrim la versió del bloc! Provem un bloc de la Beta 1.8. Adicionalment, tenim una coincidència parcial amb l'eina, que pot tencar-se tant amb una destral com amb una altra eina. També, el bloc tampoc és transparent (\"Sí\") ni no transparent (\"No\"), així que deu ser parcialment transparent. Així que mirem un bloc que tinga aquestes característiques.",
+					"table_interpretation_2": "Descobrim la versió del bloc! Provem un bloc de la Beta 1.8. Addicionalment, tenim una coincidència parcial amb l'eina, que pot trencar-se tant amb una destral com amb una altra eina. També, el bloc tampoc és transparent (\"Sí\") ni no transparent (\"No\"), així que deu ser parcialment transparent. Així que mirem un bloc que tingui aquestes característiques.",
 					"table_interpretation_3": "Ja ho tenim! Descobrim que el bloc era el bloc de síndria, quina delícia!"
 				},
 				"partial_matches": {
 					"title": "Explicació de la coincidència parcial",
 					"intro": "Mirem les coincidències parcials a detall, perquè aquests són, probablement, els camps de color més confusos.",
-					"explanation": "Una coincidència parcial només pot aparéixer si el camp el consisteix en una llista (p. ex. Eines). Si has intentat un bloc que pot trencar-se amb almenys una, obtens una coincidència parcial. Aquí hi ha un exemple amb fulles:"
+					"explanation": "Una coincidència parcial només pot aparèixer si el camp el consisteix en una llista (p. ex. Eines). Si has intentat un bloc que pot trencar-se amb almenys una, obtens una coincidència parcial. Aquí hi ha un exemple amb fulles:"
 				},
 				"tips": {
 					"title": "Consells",
 					"not_all_blocks": "MCdle no conté cada tipus d'objecte. Totes les variants de color de terracota, formigó, llana, etc. estan units en un, tal com \"Formigó\" o \"Llana\". Això s'atribueix també a les variants de fusta, murs, escales, etc.",
-					"utilize_the_search": "Fes un bon ús de la barra de busca! Amb els suggeriments aniràs reduint la teva cerca.",
+					"utilize_the_search": "Fes un bon ús de la barra de cerca! Amb els suggeriments aniràs reduint la teva cerca.",
 					"use_the_wiki": "Sigues lliure d'usar la Wiki de Minecraft. Tan aviat determinis la versió del bloc, pots usar la wiki per a veure quins blocs es van afegir en aquella versió, la qual cosa reduirà dràsticament la teva cerca."
 				}
 			}
@@ -398,7 +398,7 @@
 					"initial_release": "Llança<wbr>ment",
 					"stack_size": "Mida de la pila",
 					"rarity": "Raresa",
-					"inventory_categories": "Categoría d'inventari",
+					"inventory_categories": "Categoria d'inventari",
 					"renewable": "Reno<wbr>vable",
 					"usage": "Nombre d'usos",
 					"source": "Nombre de fonts",
@@ -470,13 +470,13 @@
 					"aria_label": "Intenta aquest objecte"
 				},
 				"ambiguous_result": {
-					"description": "Objecte ambigu descobert! Els altres objectes ambigus incorrectes és marcaran en vermell.",
+					"description": "Objecte ambigu descobert! Els altres objectes ambigus incorrectes es marcaran en vermell.",
 					"image_alt": "Caça-tresors - penjar"
 				}
 			},
 			"midnight_timer": {
 				"next_thing": "Recarrega la pàgina per a obtenir la nova!",
-				"next_in": "Següent objecte en {{estafe}}"
+				"next_in": "Següent objecte en {{time}}"
 			},
 			"yesterday_info": {
 				"description": "L'objecte d'ahir era {{name}}!"
@@ -495,7 +495,7 @@
 				"intro": {
 					"goal": "La finalitat d'aquest joc és endevinar un objecte de Minecraft. Cada dia un nou objecte és seleccionat i si continues encertant l'objecte del dia augmentaràs la teva ratxa!",
 					"enter_guesses": "Comença escrivint cualsevol objecte en la barra de cerca. Basat en la teva cerca apareixeràn 10 resultats. Fes clic en cualsevol d'aquests objectes, o navega fins a ells amb les fletxes i prem Enter per a bloquejar el teu intent.",
-					"field_explanation": "Les propietats de l'objecte que hagis seleccionat és compararan amb el de l'objecte d'avui i és marcaran en verd si coincideixen, groc en coincidències parcials i vermell per a incorrectes. Darrere dels camps incorrectes de números/versions trobaràs fletxes indicant si hauries de provar amb un nombre major o menor."
+					"field_explanation": "Les propietats de l'objecte que hagis seleccionat es compararan amb el de l'objecte d'avui i es marcaran en verd si coincideixen, groc en coincidències parcials i vermell per a incorrectes. Darrere dels camps incorrectes de números/versions trobaràs fletxes indicant si hauries de provar amb un nombre major o menor."
 				},
 				"example": {
 					"title": "Exemple",
@@ -507,12 +507,12 @@
 				"partial_matches": {
 					"title": "Explicació de la coincidència parcial",
 					"intro": "Mirem les coincidències parcials detalladament, perquè aquests són, probablement, els camps de color més confusos.",
-					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (p. ex. Acció). Si ho intentes amb un objecte amb almenys una acció que coinsideixi amb l'objecte, obtindràs una coincidència parcial. Aquí hi ha un exemple amb lapislàtzuli:"
+					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (p. ex. Acció). Si ho intentes amb un objecte amb almenys una acció que coincideixi amb l'objecte, obtindràs una coincidència parcial. Aquí hi ha un exemple amb lapislàtzuli:"
 				},
 				"tips": {
 					"title": "Consells",
-					"not_all_items": "MCdle no conté cada tipus d'objecte. La llista procedix de la wiki de Minecraft i no conté l'objecte de diversos blocs o objectes massa similars, com totes les variants d'armadures/eines.",
-					"utilize_the_search": "Fes un bon ús de la barra de busca! Amb els suggeriments aniràs reduint la teva cerca.",
+					"not_all_items": "MCdle no conté cada tipus d'objecte. La llista prové de la wiki de Minecraft i no conté l'objecte de diversos blocs o objectes massa similars, com totes les variants d'armadures/eines.",
+					"utilize_the_search": "Fes un bon ús de la barra de cerca! Amb els suggeriments aniràs reduint la teva cerca.",
 					"use_the_wiki": "Sigues lliure d'usar la Wiki de Minecraft. Tan aviat determinis la versió de l'objecte, pots usar la wiki per a veure quins objectes es van afegir en aquella versió, la qual cosa reduirà dràsticament la teva cerca.",
 					"usage_and_source_explanation": "Si sents curiositat sobre com es calculen els nombres d'usos/nombre de fonts, revisa la pàgina de l'objecte en la wiki i baixa fins a \"Obtenció\" i \"Usos\". Les capçaleres d'aquestes seccions han sigut usades per a comptar els seus diferents usos. Si estan perdudes, jo, el desenvolupador, les afegeixo manualment."
 				}
@@ -544,7 +544,7 @@
 					"height": "Altura",
 					"behavior": "Compor<wbr>tament",
 					"spawn": "Aparició",
-					"classification": "Clasifi<wbr>cació"
+					"classification": "Classifi<wbr>cació"
 				},
 				"data": {
 					"behavior": {
@@ -625,7 +625,7 @@
 			},
 			"midnight_timer": {
 				"next_thing": "Recàrrega la pàgina per a obtenir la nova!",
-				"next_in": "Següent criatura en {{estafe}}"
+				"next_in": "Següent criatura en {{time}}"
 			},
 			"yesterday_info": {
 				"description": "La criatura d'ahir va ser el/la {{name}}!"
@@ -643,25 +643,25 @@
 				"title": "Com jugar",
 				"intro": {
 					"goal": "La finalitat d'aquest joc és endevinar una criatura de Minecraft. Cada dia una nova criatura és seleccionada, i si continues encertant la criatura del dia augmentaràs la teva ratxa!",
-					"enter_guesses": "Comença escrivint qualsevol criatura en la barra de busca. Basats en la teva cerca apareixeran 10 resultats. Fes clic en qualsevol d'aquestes criatura, o navega per elles amb les fletxes i prem Enter per a bloquejar el teu intent.",
+					"enter_guesses": "Comença escrivint qualsevol criatura en la barra de cerca. Basats en la teva cerca apareixeran 10 resultats. Fes clic en qualsevol d'aquestes criatures, o navega per elles amb les fletxes i prem Enter per a bloquejar el teu intent.",
 					"field_explanation": "Les propietats de la criatura que hagis seleccionat es compararan amb el de la criatura d'avui i es marcaran en verd si coincideixen, groc en coincidències parcials i vermell per a incorrectes. Darrere dels camps incorrectes de números/versions trobaràs fletxes indicant si hauries de provar amb un nombre major o menor."
 				},
 				"example": {
 					"title": "Exemple",
 					"intro": "Anem a veure un exemple. Primer provarem una criatura a l'atzar.",
 					"table_interpretation_1": "Per a aquesta endevinalla, podem veure que la criatura que estem buscant és posterior a la 1.6.1, no té gaire vida, no arriba als 1,6 blocs d'alt, i ha de ser passiu, agressiu o un mix entre aquests dos. No apareix per llamp i tampoc és un no-mort.",
-					"table_interpretation_2": "Bé, continua sent posterior a la 1.13, però tenim la vida: busquem a una criatura amb 10 punts de vida, o sigui, 5 cors. No arriba als 0,6 blocs d'altura, així que busquem una criatura baixeta. La criatura té de nou una coincidència parcial, així que generalment és passiu, però pot ser hostil i neutral. L'aparició i la classificació han obringut una coincidència parcial, així que pot apareixer per bioma i altres raons i és qualificat com Animal o Aquàtic i potser alguna cosa més a part.",
+					"table_interpretation_2": "Bé, continua sent posterior a la 1.13, però tenim la vida: busquem a una criatura amb 10 punts de vida, o sigui, 5 cors. No arriba als 0,6 blocs d'altura, així que busquem una criatura baixeta. La criatura té de nou una coincidència parcial, així que generalment és passiu, però pot ser hostil i neutral. L'aparició i la classificació han obtingut una coincidència parcial, així que pot apareixer per bioma i altres raons i és qualificat com Animal o Aquàtic i potser alguna cosa més a part.",
 					"table_interpretation_3": "Ja ho tenim! Mira qui ha saltat en aquest tutorial. Hem trobat una granota petiteta!"
 				},
 				"partial_matches": {
 					"title": "Explicació de la coincidència parcial",
 					"intro": "Mirem les coincidències parcials detalladament, perquè aquests són, probablement, els camps de color més confusos.",
-					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (p. ex. Aparició, Classificació o Comportament). Si has intentat una criatura amb almenys un dels elements d'aquesta llista que coinsideixi amb la criatura actual, obtindràs una coincidència parcial. Aquí hi ha un exemple amb els cavalls:"
+					"explanation": "Una coincidència parcial només pot aparéixer si el camp consta d'una llista (p. ex. Aparició, Classificació o Comportament). Si has intentat una criatura amb almenys un dels elements d'aquesta llista que coincideixi amb la criatura actual, obtindràs una coincidència parcial. Aquí hi ha un exemple amb els cavalls:"
 				},
 				"tips": {
 					"title": "Consells",
 					"not_all_blocks": "MCdle no conté cada tipus de criatura. Només entitats vivents, com p. ex. porcs o zombis estan inclosos. Suport d'armadura, projectils o entitats no-vivents similars no estan incloses. La llista prové de la wiki de Minecraft, així que si no està en la llista de criatures, no està en el joc.",
-					"utilize_the_search": "Fes un bon ús de la barra de busca! Amb els suggeriments aniràs reduint la teua cerca.",
+					"utilize_the_search": "Fes un bon ús de la barra de cerca! Amb els suggeriments aniràs reduint la teva cerca.",
 					"use_the_wiki": "Sigues lliure d'usar la Wiki de Minecraft. Tan aviat com determinis la versió de la criatura, pots usar la wiki per veure quines criatures es van afegir en aquella versió, la qual cosa t'ajudarà a reduir dràsticament la teva cerca.",
 					"health_measuring": "Tingues en compte que la Vida es mesura en Punts de Vida, o sigui, mitjos cors, així que 10 punts de vida són 5 cors."
 				}
@@ -739,7 +739,7 @@
 					"discovered": "Has descobert totes les {{discoveredCount}} receptes amb els elements actuals!",
 					"discovered_time": "Has descobert totes les {{discoveredCount}} receptes en {{time}} amb els elements actuals!",
 					"regenerate": {
-						"description": "Presiona el botó de sota per reiniciar el joc i triar nous elements.",
+						"description": "Prem el botó de sota per reiniciar el joc i triar nous elements.",
 						"button": "Regenerar",
 						"popup": {
 							"title": "Triar nous elements aleatoris?",
@@ -797,11 +797,11 @@
 				},
 				"regular": {
 					"title": "Normal",
-					"description": "7 ojectes, repetició il·limitada amb jocs personalitzats i aleatorització."
+					"description": "7 objectes, repetició il·limitada amb jocs personalitzats i aleatorització."
 				},
 				"editor": {
 					"title": "Editor",
-					"description": "Crea les teves propies endevinalles de Crafting Bee!"
+					"description": "Crea les teves pròpies endevinalles de Crafting Bee!"
 				}
 			},
 			"editor": {
@@ -835,7 +835,7 @@
 					"title": "Importar joc",
 					"unlimited_button": "Importar joc il·limitat",
 					"popup": {
-						"title": "Impotar joc desde el mode il·limitat?",
+						"title": "Importar joc des el mode il·limitat?",
 						"description": "Presiona el botó de sota per importar el joc actual del mode il·limitat. Tingues en compte que això sobreescriurà el teu progrés actual a l'editor.",
 						"confirm": "Confirmar"
 					}
@@ -843,7 +843,7 @@
 				"return_to_unlimited": "Torna al joc!"
 			},
 			"midnight_timer": {
-				"next_thing": "Recàrrega la pàgina per a obtindre el següent!",
+				"next_thing": "Recarrega la pàgina per a obtenir el següent!",
 				"next_in": "Següents ingredients en {{time}}"
 			},
 			"next_game": {
@@ -854,7 +854,7 @@
 				"title": "Com jugar",
 				"intro": {
 					"goal": "La finalitat d'aquest joc és fabricar tants objectes com sigui possible amb els 7 objectes proporcionats als hexàgons. Aquest mode de joc té un mode diari, així com un mode il·limitat emparellat amb un editor. Completant el mode diari, pots construir una racha de victòries. Jugant al mode il·limitat, pots aprendre a jugar al joc, aprendre receptes millor i jugar a jocs que altres jugadors han creat utilitzant l'editor!",
-					"entering_items": "Per a començar a jugar, selecciona un objecte als hexàgons i després fes clic a una ranura a la graella de la taula d'elaboració, on fer clic a diverses ranures \"pintarà\" aquestes ranures. Repeteix aquest procés fins que veus la recepta desitjada a la ranura de sortida. A continuació, fes clic a l'objecte resultant per fabricar-lo! Alternativament, pots arrossegar i deixar anar objectes des del hexàgon o d'una ranura a una altra. A més, pots ser un \"Mestre del Teclat\" i seleccionar els hexàgons amb les tecles numèriques, WASD per les ranures de la taula d'elaboració, Espai per posar i Enter per fabricar. Els vincles de teclat es poden configurar en els ajustos situats a l'esquerra del títol MCdle."
+					"entering_items": "Per a començar a jugar, selecciona un objecte als hexàgons i després fes clic a una ranura a la graella de la taula d'elaboració, on fer clic a diverses ranures \"pintarà\" aquestes ranures. Repeteix aquest procés fins que veus la recepta desitjada a la ranura de sortida. A continuació, fes clic a l'objecte resultant per fabricar-lo! Alternativament, pots arrossegar i deixar anar objectes des de l'hexàgon o d'una ranura a una altra. A més, pots ser un \"Mestre del Teclat\" i seleccionar els hexàgons amb les tecles numèriques, WASD per les ranures de la taula d'elaboració, Espai per posar i Enter per fabricar. Els vincles de teclat es poden configurar en els ajustos situats a l'esquerra del títol MCdle."
 				},
 				"example": {
 					"title": "Exemple",
@@ -929,7 +929,7 @@
 				"overview": {
 					"title": "Vista general",
 					"library_back": "Tornar a la biblioteca",
-					"explanation": "Prem en una entrada per a veure la seva pàgina o utilitza la icona de cerca a dalt a la dreta per a trobar-ne una en específic, o aplicar filtres que s'aplicaran en tota la pàgina (no sols als resultats de búsqueda).",
+					"explanation": "Prem en una entrada per a veure la seva pàgina o utilitza la icona de cerca a dalt a la dreta per a trobar-ne una en específic, o aplicar filtres que s'aplicaran en tota la pàgina (no sols als resultats de cerca).",
 					"sorting": {
 						"alphabet_tooltip": "Ordenar alfabèticament",
 						"alphabet_alt": "Ordre A-Z",
@@ -939,13 +939,13 @@
 				},
 				"entry": {
 					"overview_back": "Vista general",
-					"not_found": "No s'ha trobat cap coicidència en la teva llista d'entrades descobertes =(",
+					"not_found": "No s'ha trobat cap coincidència en la teva llista d'entrades descobertes =(",
 					"try_different": "Prova amb filtres diferents!",
 					"discovered": {
 						"first_discovered": "Primer descobert:",
 						"in": "en",
 						"and": "i",
-						"more": "mes!"
+						"more": "més!"
 					}
 				},
 				"filters": {
