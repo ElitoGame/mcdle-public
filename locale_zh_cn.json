@@ -1,0 +1,1646 @@
+{
+  "footer": {
+    "links": {
+      "cookie": {
+        "title": "Cookie 政策"
+      },
+      "patchnotes": {
+        "title": "更新日志"
+      }
+    },
+    "about": {
+      "title": "介绍",
+      "button_title": "介绍",
+      "intro": "MC猜猜乐（Mcdle）以《我的世界》为题材，每天随机选择一个方块、物品和生物，玩家需要猜测正确答案。每天打开链接，看看你能连续猜对几天！游戏支持社交分享功能，快把连对记录分享给朋友吧。",
+      "help_pointer": "不知道怎么玩？进入不同玩法的页面，标题下都有“？”图标，点击即可打开帮助菜单，查看当前模式的示例玩法和详细说明。",
+      "suggestions": {
+        "title": "建议与交流",
+        "description": {
+          "pre_link": "大部分建议和问题反馈都会在 ",
+          "link": "Discord",
+          "post_link": " 上处理，快来加入聊天吧，还有小彩蛋噢！我们有专门的频道来讨论今天的谜题，还可以分享你的连胜记录！"
+        }
+      },
+      "support": {
+        "title": "支持我们",
+        "description": {
+          "pre_link": "如果你想支持这个项目（比如支付域名费用、支持新功能等），可以看看我的 ",
+          "link": "Ko-fi",
+          "post_link": " 页面!"
+        }
+      },
+      "credits": {
+        "title": "鸣谢",
+        "description": {
+          "pre_link": "游戏的数据来自 ",
+          "link": "Minecraft Wiki",
+          "post_link": "，很多图片也来自 Minecraft Wiki，感谢他们一直以来的整理与更新！MCdle 是一个非官方项目，与 Mojang Studios 没有官方关联。游戏基于 Minecraft，玩法灵感来自 Wordle 和 LoLdle。"
+        },
+        "credit_list": {
+          "kineticraft": {
+            "pre_link": "感谢服务器 ",
+            "link": "kineticraft.net",
+            "post_link": " 提供背景图！"
+          },
+          "vanilla_tweaks": {
+            "pre_link": "感谢 ",
+            "link": "Vanilla Tweaks",
+            "post_link": " 提供的西瓜茎和南瓜茎材质！"
+          },
+          "alldle": {
+            "pre_link": "感谢 ",
+            "link": "Alldle",
+            "post_link": " 在网站上推荐了 MCdle！"
+          },
+          "alldle": {
+            "pre_link": "感谢 ",
+            "link": "Matéo \"lazered\" Guidi",
+            "post_link": " 提供了域名 minecraftdle.net!"
+          }
+        }
+      },
+      "version": {
+        "title": "版本信息",
+        "description": "今天是第{{version}}期谜题！每天UTC零点会准时更新当期的方块、物品和生物。"
+      },
+      "supporters": {
+        "title": "赞助",
+        "description": {
+          "pre_link": "感谢",
+          "post_link": "的朋友们一直支持我们！"
+        }
+      }
+    }
+  },
+  "header": {
+    "settings": {
+      "headers": {
+        "mcdle": "MC猜猜乐",
+        "crafting_bee": "蜜脾工坊"
+      },
+      "colorblind": {
+        "input_name": "色盲模式",
+        "label": "色盲模式"
+      },
+      "difficulty": {
+        "limit_guesses_6": {
+          "input_name": "限制猜测次数",
+          "label": "将猜测次数设置为6次"
+        },
+        "search": {
+          "game_knowledge": {
+            "input_name": "老手搜索",
+            "label": "老手搜索"
+          },
+          "logical": {
+            "input_name": "逻辑搜索",
+            "label": "逻辑搜索"
+          },
+          "showcase": {
+            "fallback": "请选择搜索模式！",
+            "game_knowledge": {
+              "description": "没有搜索提示，全凭游戏经验！",
+              "image_alt": "老手搜索"
+            },
+            "logical": {
+              "description": "搜索会显示所有可用数据，让MC猜猜乐更有逻辑！",
+              "image_alt": "逻辑搜索"
+            }
+          },
+          "title": "搜索模式："
+        },
+        "title": "难度"
+      },
+      "keybinds": {
+        "title": "按键绑定",
+        "binds": {
+          "crafting.selectHex.1": {
+            "name": "蜂巢格子1",
+            "description": "选择蜂巢格子 #1"
+          },
+          "crafting.selectHex.2": {
+            "name": "蜂巢格子2",
+            "description": "选择蜂巢格子 #2"
+          },
+          "crafting.selectHex.3": {
+            "name": "蜂巢格子3",
+            "description": "选择蜂巢格子 #3"
+          },
+          "crafting.selectHex.4": {
+            "name": "蜂巢格子4",
+            "description": "选择蜂巢格子 #4"
+          },
+          "crafting.selectHex.5": {
+            "name": "蜂巢格子5",
+            "description": "选择蜂巢格子 #5"
+          },
+          "crafting.selectHex.6": {
+            "name": "蜂巢格子6",
+            "description": "选择蜂巢格子 #6"
+          },
+          "crafting.selectHex.7": {
+            "name": "蜂巢格子7",
+            "description": "选择蜂巢格子 #7"
+          },
+          "crafting.grid.nav.up": {
+            "name": "向上移动",
+            "description": "在工作台中向上移动以选中框"
+          },
+          "crafting.grid.nav.down": {
+            "name": "向下移动",
+            "description": "在工作台中向下移动以选中框"
+          },
+          "crafting.grid.nav.left": {
+            "name": "向左移动",
+            "description": "在工作台中向左移动以选中框"
+          },
+          "crafting.grid.nav.right": {
+            "name": "向右移动",
+            "description": "在工作台中向右移动以选中框"
+          },
+          "crafting.grid.placeItem": {
+            "name": "放置物品",
+            "description": "在工作台中放置已选择物品"
+          },
+          "crafting.grid.craftItem": {
+            "name": "合成物品",
+            "description": "在输出格合成物品"
+          },
+          "crafting.grid.deleteItem": {
+            "name": "清除物品",
+            "description": "清除工作台格子中物品"
+          },
+          "crafting.grid.clear": {
+            "name": "清空工作台",
+            "description": "清空工作台所有物品"
+          },
+          "crafting.grid.clearImmediate": {
+            "name": "立即清空",
+            "description": "立即清空工作台所有物品，无需确认"
+          },
+          "crafting.randomize": {
+            "name": "随机游戏",
+            "description": "获取7个随机物品开始合成挑战"
+          }
+        }
+      },
+      "settings_button": {
+        "image_alt": "设置按钮",
+        "tooltip": "设置"
+      },
+      "title": "设置"
+    },
+    "language": {
+      "title": "语言",
+      "tooltip": "语言",
+      "description": {
+        "pre_link": "网站官方提供英语和德语，其他语言由社区通过",
+        "link": "Github",
+        "post_link": "提供。如果发现非官方翻译有错误或过时，欢迎在Github提交pull request!"
+      }
+    }
+  },
+  "pages": {
+    "404": {
+      "compass_alt": "指南针动图",
+      "message": "你来到了洞穴的尽头（404）……",
+      "return_message": "快用指南针回头吧！"
+    },
+    "index": {
+      "header": "今天玩什么=D",
+      "links": {
+        "blocks": {
+          "image_alt": "方块图标",
+          "subtitle": "今天会是什么方块呢？",
+          "title": "方块猜猜乐"
+        },
+        "items": {
+          "image_alt": "物品图标",
+          "subtitle": "快来猜猜今天的物品吧！",
+          "title": "物品猜猜乐"
+        },
+        "mobs": {
+          "image_alt": "生物图标",
+          "subtitle": "今天会遇到什么生物呢？",
+          "title": "生物猜猜乐"
+        },
+        "crafting": {
+          "image_alt": "蜜脾工坊图标",
+          "subtitle": "你真的会合成吗？",
+          "title": "蜜脾工坊"
+        },
+        "goal": {
+          "title": "MC猜猜乐图鉴",
+          "image_alt": "目标图标"
+        },
+        "bestiary": {
+          "title": "图鉴",
+          "image_alt": "图鉴图标",
+          "subtitle": "记录进度并开始收集吧！可以筛选已发现的内容。"
+        },
+        "kineticraft": {
+          "title": "在kineticraft.net无尽游玩",
+          "image_alt": "Kineticraft icon",
+          "subtitle": "无延迟游玩每种猜猜乐，但要在世界里找到它们！/mcdle"
+        }
+      }
+    },
+    "generic": {
+      "game": {
+        "complete_support": {
+          "start": "如果喜欢MC猜猜乐，可以在",
+          "end": "支持我们！"
+        },
+        "see_in_bestiary": "在图鉴中查看吧！"
+      }
+    },
+    "block": {
+      "title": "方块猜猜乐",
+      "sub_title_menus": {
+        "stats": {
+          "title": "统计",
+          "tooltip": "统计"
+        },
+        "streak": {
+          "title": "同步进度",
+          "tooltip": "连胜记录"
+        },
+        "help": {
+          "tooltip": "玩法介绍"
+        },
+        "bestiary": {
+          "tooltip": "图鉴"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "方块",
+          "initial_release": "版本",
+          "stack_size": "堆叠上限",
+          "tool": "采集工具",
+          "blast_resistance": "爆炸抗性",
+          "hardness": "硬度",
+          "flammable": "可燃",
+          "transparent": "透光",
+          "full_block": "完整方块"
+        },
+        "data": {
+          "tool": {
+            "any_tool": "任意工具",
+            "axe": "斧",
+            "pickaxe": "镐",
+            "hoe": "锄",
+            "shears": "剪刀",
+            "sword": "剑",
+            "none": "无",
+            "shovel": "锹",
+            "bucket": "桶",
+            "brush": "刷子"
+          },
+          "states": {
+            "yes": "是",
+            "no": "否",
+            "partial": "部分"
+          }
+        }
+      },
+      "loose": {
+        "title": "没有猜出今天的方块……",
+        "subtitle": "明天再接再厉！（或者在设置中取消猜测次数限制）"
+      },
+      "win": {
+        "title": "猜对了！",
+        "subtitle": "今天的方块是{{name}}!"
+      },
+      "intro": {
+        "description": "快来猜猜今天的方块吧！",
+        "start_help": "输入方块，即刻开猜！"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "剩余{{remaining}}次猜测！",
+          "one": "剩余{{remaining}}次猜测！",
+          "two-four": "剩余{{remaining}}次猜测！",
+          "many": "剩余{{remaining}}次猜测！"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "搜索方块",
+          "new_tomorrow": "新方块即将到来！",
+          "no_more_guesses": "次数耗尽！"
+        },
+        "submit": {
+          "aria_label": "试试这个方块"
+        },
+        "ambiguous_result": {
+          "description": "找到了相似方块！ 后续错误的相似方块会被红色划掉。",
+          "image_alt": "寻宝猎人-就差一点"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "刷新页面获取下一题！",
+        "next_in": "下个方块到来还有{{time}}"
+      },
+      "yesterday_info": {
+        "description": "昨天的方块是{{name}}！"
+      },
+      "next_game": {
+        "name": "方块",
+        "description": "来猜猜今天的方块？"
+      },
+      "quick_help": {
+        "look_for": "需要更详细的说明？看看",
+        "tooltip": "玩法介绍",
+        "click_here": "图标，或者点这里！"
+      },
+      "help": {
+        "title": "玩法介绍",
+        "intro": {
+          "goal": "游戏的目标是猜出一个minecraft中的方块。方块每天都会随机刷新，网站还会统计你的连胜天数！",
+          "enter_guesses": "搜索框内输入任意方块开始游戏。系统会根据你的输入显示最多10个候选结果。点击其中一个方块，或者用方向键选择后按回车键提交。",
+          "field_explanation": "所选的方块会和今日的答案进行对比：绿色表示完全匹配，黄色表示部分匹配，红色表示不匹配。数字或版本等不匹配的字段，会显示箭头提示大小。"
+        },
+        "example": {
+          "title": "示例",
+          "intro": "我们来看个简单的例子。先随便猜一个方块。",
+          "table_interpretation_1": "和大多数方块一样，这个方块可以堆叠到64个，且不可燃。不是在pre-alpha时加入，也不能用镐子挖掘。那再来试一个和石头不太一样的新方块吧。",
+          "table_interpretation_2": "现在我们确定了方块的版本，接下来就找找Beta 1.8加入的方块吧！请注意，工具一栏显示部分匹配，说明可以用斧头以及其他工具破坏。还有，这个方块在“是否透光”上既不是完全透光（是）也不是完全不透光（否），说明它是部分透光的。继续找找符合这些条件的方块吧。",
+          "table_interpretation_3": "西瓜块，到手了！怎么样，有意思吧！"
+        },
+        "partial_matches": {
+          "title": "部分匹配",
+          "intro": "现在来详细讲讲“部分匹配”，这部分最容易搞混。",
+          "explanation": "“部分匹配”只会出现在包含多个选项的信息栏中（比如工具）。如果所猜方块可以用至少一种与答案相同的工具破坏，就会显示为部分匹配。以树叶为例："
+        },
+        "tips": {
+          "title": "小提示",
+          "not_all_blocks": "猜猜乐并不包含所有方块类型。像不同颜色的混凝土、陶瓦、羊毛等都会合并为一个代表方块（比如“混凝土”、“羊毛”）。不同木头、墙、台阶等也是同样做了合并处理。",
+          "utilize_the_search": "善用搜索框！多看看候选列表，可以快速缩小范围。",
+          "use_the_wiki": "也可以参考Minecraft Wiki，一旦确定了版本，就可以查找该版本加入的方块，大大缩小搜索范围。"
+        }
+      }
+    },
+    "item": {
+      "title": "物品猜猜乐",
+      "sub_title_menus": {
+        "stats": {
+          "title": "统计",
+          "tooltip": "统计"
+        },
+        "streak": {
+          "title": "同步进度",
+          "tooltip": "连胜记录"
+        },
+        "help": {
+          "tooltip": "玩法介绍"
+        },
+        "bestiary": {
+          "tooltip": "图鉴"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "物品",
+          "initial_release": "版本",
+          "stack_size": "堆叠上限",
+          "rarity": "稀有度",
+          "inventory_categories": "创造模式分类",
+          "renewable": "可再生",
+          "usage": "用途种类",
+          "source": "来源种类",
+          "recipe": "合成方式",
+          "loot": "获取途径"
+        },
+        "data": {
+          "rarity": {
+            "common": "普通",
+            "uncommon": "少见",
+            "rare": "稀有",
+            "epic": "史诗",
+            "mixed": "混合"
+          },
+          "inventory_category": {
+            "tools_and_utilities": "工具与实用物品",
+            "redstone_blocks": "红石",
+            "functional_blocks": "功能方块",
+            "natural_blocks": "自然方块",
+            "ingredients": "材料",
+            "combat": "战斗",
+            "food_and_drinks": "食物与饮品",
+            "none": "无",
+            "spawn_eggs": "刷怪蛋",
+            "operator_utilities": "管理员工具"
+          },
+          "recipe": {
+            "crafting_table": "工作台",
+            "furnace": "熔炉",
+            "brewing_stand": "酿造台",
+            "none": "无"
+          },
+          "loot": {
+            "container": "箱子获得",
+            "mob": "生物掉落",
+            "fishing": "钓鱼",
+            "trading": "交易",
+            "none": "无"
+          }
+        }
+      },
+      "loose": {
+        "title": "没有猜出今天的物品……",
+        "subtitle": "明天再接再厉！（或者在设置中取消猜测次数限制）"
+      },
+      "win": {
+        "title": "猜对了！",
+        "subtitle": "今天的物品是{{name}}!"
+      },
+      "intro": {
+        "description": "快来猜猜今天的物品吧！",
+        "start_help": "输入物品，即刻开猜！"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "剩余{{remaining}}次猜测！",
+          "one": "剩余{{remaining}}次猜测！",
+          "two-four": "剩余{{remaining}}次猜测！",
+          "many": "剩余{{remaining}}次猜测！"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "搜索物品",
+          "new_tomorrow": "新物品即将到来！",
+          "no_more_guesses": "次数耗尽！"
+        },
+        "submit": {
+          "aria_label": "试试这个物品"
+        },
+        "ambiguous_result": {
+          "description": "发现了相似物品！后续错误的相似物品会被红色划掉。",
+          "image_alt": "寻宝猎人-就差一点"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "刷新页面获取下一题！",
+        "next_in": "下个物品到来还有{{time}}"
+      },
+      "yesterday_info": {
+        "description": "昨天的物品是{{name}}!"
+      },
+      "next_game": {
+        "name": "物品",
+        "description": "准备好迎接今天的谜题了吗?"
+      },
+      "quick_help": {
+        "look_for": "需要更详细的说明？看看",
+        "tooltip": "玩法介绍",
+        "click_here": "图标，或者点这里！"
+      },
+      "help": {
+        "title": "玩法介绍",
+        "intro": {
+          "goal": "游戏的目标是猜出一个minecraft中的物品。物品每天都会随机刷新，网站还会统计你的连胜天数！",
+          "enter_guesses": "搜索框内输入任意物品开始游戏。系统会根据你的输入显示最多10个候选结果。点击其中一个物品，或者用方向键选择后按回车键提交。",
+          "field_explanation": "所选的物品会和今日的答案进行对比：绿色表示完全匹配，黄色表示部分匹配，红色表示不匹配。数字或版本等不匹配的字段，会显示箭头提示大小。"
+        },
+        "example": {
+          "title": "示例",
+          "intro": "我们来看个简单的例子。先随便猜一个物品。",
+          "table_interpretation_1": "和大多数物品一样，这个物品可以堆叠到64个。它在Beta 1.2后加入的，稀有度为普通，且可再生。据 Minecraft Wiki，它的用途少于 5 种，获取方式也不到 6 种。从创造模式分类来看，它不属于“材料”这一类。现在换个物品试试。",
+          "table_interpretation_2": "现在我们确定了这个物品的版本，接下来就找找Beta 1.8加入、且属于“食物与饮品”分类的物品吧！还要记得匹配用途数量和获取方式噢。",
+          "table_interpretation_3": "答案是——西瓜片！蛮有意思的吧！"
+        },
+        "partial_matches": {
+          "title": "部分匹配",
+          "intro": "现在来详细讲讲“部分匹配”，这部分最容易搞混。",
+          "explanation": "部分匹配”只会出现在包含多个选项的字段中（比如创造模式分类）。如果所猜物品至少有一个分类和正确答案一致，就会显示为部分匹配。以线为例："
+        },
+        "tips": {
+          "title": "小提示",
+          "not_all_items": "猜猜乐并不包含所有物品。物品参考了 Minecraft Wiki，所以不会包含方块对应的物品形式，或一些十分相似的物品（如装备或工具的不同变种）。",
+          "utilize_the_search": "善用搜索框！多看看候选列表，可以帮你快速缩小范围。",
+          "use_the_wiki": "也可以参考 Minecraft Wiki。一旦确定了物品的版本，就可以查寻该版本新增的物品，大幅缩小搜索范围。",
+          "usage_and_source_explanation": "“用途种类/来源种类”的信息参考了该物品Wiki页面中的“Obtaining（获取）”和“Usage（用途）”部分。如未提供，则由我（开发者）手动补充。"
+        }
+      }
+    },
+    "mob": {
+      "title": "生物猜猜乐",
+      "sub_title_menus": {
+        "stats": {
+          "title": "统计",
+          "tooltip": "统计"
+        },
+        "streak": {
+          "title": "同步进度",
+          "tooltip": "连胜记录"
+        },
+        "help": {
+          "tooltip": "玩法介绍"
+        },
+        "bestiary": {
+          "tooltip": "图鉴"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "生物",
+          "initial_release": "版本",
+          "health": "血量",
+          "height": "高度",
+          "behavior": "类型",
+          "spawn": "生成",
+          "classification": "种类"
+        },
+        "data": {
+          "behavior": {
+            "passive": "友好",
+            "neutral": "中立",
+            "hostile": "敌对",
+            "defensive": "防御"
+          },
+          "classification": {
+            "none": "无",
+            "animal": "动物",
+            "aquatic": "水生",
+            "arthropod": "节肢动物",
+            "undead": "亡灵",
+            "illager": "灾厄",
+            "golem": "傀儡",
+            "boss": "Boss"
+          },
+          "spawn": {
+            "structure": "结构",
+            "spawner": "刷怪笼",
+            "breeding": "繁殖",
+            "biome": "群系",
+            "light_level": "光照等级",
+            "block": "方块",
+            "grass": "草地",
+            "nether": "下界",
+            "projectile": "投射物",
+            "conversion": "转化",
+            "lightning": "闪电",
+            "the_end": "末地",
+            "summon": "召唤",
+            "raids": "袭击",
+            "command": "指令",
+            "overworld": "主世界",
+            "hatching": "孵化",
+            "jockey": "坐骑",
+            "duplication": "复制",
+            "magic": "魔法",
+            "reinforcements": "增援",
+            "sieges": "围城"
+          }
+        }
+      },
+      "loose": {
+        "title": "没有猜出今天的生物……",
+        "subtitle": "明天再接再厉！（或者在设置中取消猜测次数限制）"
+      },
+      "win": {
+        "title": "猜对了！",
+        "subtitle": "今天的生物是{{name}}!"
+      },
+      "intro": {
+        "description": "快来猜猜今天的生物吧！",
+        "start_help": "输入生物，即刻开猜！"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "剩余{{remaining}}次猜测！",
+          "one": "剩余{{remaining}}次猜测！",
+          "two-four": "剩余{{remaining}}次猜测！",
+          "many": "剩余{{remaining}}次猜测！"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "搜索生物",
+          "new_tomorrow": "新生物即将到来！",
+          "no_more_guesses": "次数耗尽！"
+        },
+        "submit": {
+          "aria_label": "试试这个生物"
+        },
+        "ambiguous_result": {
+          "description": "发现了近似生物！后续错误的相似生物会被红色划掉。",
+          "image_alt": "寻宝猎人-就差一点"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "刷新页面获取下一题！",
+        "next_in": "下个生物到来还有{{time}}"
+      },
+      "yesterday_info": {
+        "description": "昨天的生物是{{name}}！"
+      },
+      "next_game": {
+        "name": "生物",
+        "description": "不想知道今天的生物是什么吗？"
+      },
+      "quick_help": {
+        "look_for": "需要更详细的说明？看看",
+        "tooltip": "玩法介绍",
+        "click_here": "图标，或者点这里！"
+      },
+      "help": {
+        "title": "玩法介绍",
+        "intro": {
+          "goal": "游戏的目标是猜出一个 Minecraft 中的生物。生物每天都会随机刷新，网站还会统计你的连胜天数！",
+          "enter_guesses": "在搜索框输入任意生物名称开始游戏。系统会根据你的输入显示最多 10 个候选结果。点击其中一个生物，或者用方向键选择后按回车键提交。",
+          "field_explanation": "你选择的生物属性会和今日答案对比：绿色表示完全匹配，黄色表示部分匹配，红色表示不匹配。数字或版本等不匹配的字段，会显示箭头提示大小。"
+        },
+        "example": {
+          "title": "示例",
+          "intro": "我们来看个简单的例子。先随便猜一个生物。",
+          "table_interpretation_1": "从提示得出，我们的目标生物在1.6.1后加入，血量不高，身形矮于1.6个完整方块，可能是友好、敌对或中立生物。闪电无法召唤该生物，它也不属于亡灵类。",
+          "table_interpretation_2": "它出现的版本仍然在1.13之后，但血量正确了！我们要找的家伙是一个有着10点血量，即5颗心的生物。它身高低于0.6方块，是个小生物。类型仍然只有部分匹配，它可能是友好的，但也可能有敌对或中立行为。生成和种类都只是部分匹配，所以它在不仅只在群系中生成，且属于动物、水生或者其他种类。",
+          "table_interpretation_3": "哈！一只小青蛙，手到擒来！"
+        },
+        "partial_matches": {
+          "title": "部分匹配",
+          "intro": "现在来详细讲讲“部分匹配”，这部分最容易搞混。",
+          "explanation": "“部分匹配”只会出现在包含多个选项的字段中（比如行为、生成方式、分类）。如果所猜的生物至少有一个选项与答案匹配，就会显示为部分匹配。以马为例："
+        },
+        "tips": {
+          "title": "小提示",
+          "not_all_blocks": "猜猜乐并不包含所有生物，只包含有生命的实体，比如猪或僵尸。盔甲架、投射物或类似非生物实体未包含在内。信息参考Minecraft Wiki，如果Wiki上没有列出，就不会出现在",
+          "utilize_the_search": "善用搜索框！多看看候选列表，可以快速缩小范围。",
+          "use_the_wiki": "也可以参考 Minecraft Wiki，一旦确定了生物版本，就可以查找该版本加入的生物，从而大幅缩小搜索范围。",
+          "health_measuring": "请注意，血量是以半颗心为单位计算的，所以10滴血就是5颗心。"
+        }
+      }
+    },
+    "crafting": {
+      "title": "蜜脾工坊",
+      "sub_title_menus": {
+        "stats": {
+          "title": "统计",
+          "tooltip": "统计"
+        },
+        "streak": {
+          "title": "同步进度",
+          "tooltip": "连胜记录"
+        },
+        "help": {
+          "tooltip": "玩法介绍"
+        },
+        "bestiary": {
+          "tooltip": "图鉴"
+        },
+        "editor": {
+          "tooltip": "编辑器"
+        }
+      },
+      "regular": {
+        "notifications": {
+          "already_crafted": "物品已制作",
+          "other_game_running": {
+            "description": "你有一局未完成的挑战，是否要通过自定义链接开始新游戏",
+            "prev_game": "未完成挑战:",
+            "prev_game_discovered": "已收集{{discoveredCount}}/{{availableRecipes}}个配方",
+            "overwrite": "覆盖当前挑战",
+            "return": "返回未完成挑战"
+          }
+        },
+        "copy_message": {
+          "timer": {
+            "all": {
+              "long": "我在{{time}}内完成了这个 #方块猜猜乐 #蜜脾工坊 挑战，一共合成了{{discoveredCount}}个物品！",
+              "short": "我在{{time}}内合成{{discoveredCount}}了个物品！ #方块猜猜乐 #蜜脾工坊"
+            },
+            "partial": {
+              "long": "我在{{time}}内挑战物品合成 #方块猜猜乐 #蜜脾工坊 ，合成了{{discoveredCount}}/{{availableRecipes}}个物品！",
+              "short": "我在{{time}}内合成{{discoveredCount}}/{{availableRecipes}}个物品！ #方块猜猜乐 #蜜脾工坊"
+            }
+          },
+          "no_timer": {
+            "all": {
+              "long": "我完成了这个 #方块猜猜乐 #蜜脾工坊 挑战，一共合成了{{discoveredCount}}个物品！",
+              "short": "我合成了{{discoveredCount}} 个配方！ #方块猜猜乐 #蜜脾工坊"
+            },
+            "partial": {
+              "long": "我在 #M方块猜猜乐 #蜜脾工坊 挑战物品合成，合成了{{discoveredCount}}/{{availableRecipes}}个物品！",
+              "short": "我合成了{{discoveredCount}}/{{availableRecipes}}个物品！ #方块猜猜乐 #蜜脾工坊"
+            }
+          },
+          "copy_button": {
+            "copy": "复制谜题",
+            "copied": "已复制"
+          },
+          "share_button": {
+            "share": "分享谜题",
+            "shared": "已分享"
+          }
+        },
+        "game_state_box": {
+          "start_playing": "从下方拖动或点击物品放入工作台，开始合成挑战吧！",
+          "discover_status": "已发现{{discoveredCount}}/{{availableRecipes}}",
+          "timer": "{{remainingTime}}"
+        },
+        "game_complete_box": {
+          "congrats": "恭喜！",
+          "discovered": "你已经找齐所有物品的{{discoveredCount}}个合成配方啦！",
+          "discovered_time": "你在{{time}}内用找齐了全部物品的{{discoveredCount}}个配方！",
+          "regenerate": {
+            "description": "点击下方按钮重置挑战与物品。",
+            "button": "新挑战",
+            "popup": {
+              "title": "要生成新的随机物品吗？",
+              "hints": "是否提示剩余配方数？",
+              "description": "点击下方蜂巢中随机排列中的物品，开始新的合成挑战吧！",
+              "confirm": "确认"
+            }
+          },
+          "more_crafting_riddles": "也可以在",
+          "discord_link": "Discord",
+          "more_crafting_riddles_2": "上找到更多自制谜题!",
+          "replay": {
+            "button": "重置",
+            "popup": {
+              "title": "确定重置当前游戏吗？",
+              "description": "点击下方物品重新开始挑战！"
+            }
+          }
+        },
+        "tools": {
+          "eraser": "橡皮",
+          "clear": {
+            "button": "清空",
+            "popup": {
+              "title": "是否清空合成栏？",
+              "description": "点击下方移除工作台中的所有物品。",
+              "confirm": "确认"
+            }
+          }
+        },
+        "quick_settings": {
+          "hints": "是否提示剩余配方数？",
+          "timer": "显示计时器？",
+          "regenerate": "生成新挑战",
+          "auto_craft": "自动合成？"
+        },
+        "try_editor": "试试编辑器吧！"
+      },
+      "daily": {
+        "title": "每日挑战",
+        "description": "每天随机生成7个物品。你能用它们合成出所有相应物品吗？",
+        "game_complete_box": {
+          "more_tomorrow": "明天再来，或者挑战 ",
+          "infinite_link": "无限模式",
+          "more_tomorrow_2": "！",
+          "more_crafting_riddles": "也可以在",
+          "discord_link": "Discord",
+          "more_crafting_riddles_2": "找到玩家自制谜题！"
+        }
+      },
+      "index": {
+        "daily": {
+          "title": "每日挑战",
+          "description": "每天7个物品，坚持连胜！"
+        },
+        "regular": {
+          "title": "无限模式",
+          "description": "7个物品，自定义谜题，无线随机生成！"
+        },
+        "editor": {
+          "title": "编辑器",
+          "description": "制作你自己的合成挑战！"
+        }
+      },
+      "editor": {
+        "title": "蜜脾工坊编辑器",
+        "description": "用于蜜脾工坊玩法的编辑器",
+        "share_creation": {
+          "before_link": "在我们的",
+          "link": "Discord",
+          "after_link": "上分享你的作品吧！"
+        },
+        "test_creation": {
+          "before_link": "完成后，",
+          "link": "测试你的挑战",
+          "after_link": "或者"
+        },
+        "copy_creation": {
+          "copy": "复制挑战链接",
+          "copied": "已复制"
+        },
+        "search_items": "搜索物品……",
+        "table": {
+          "header": {
+            "item": "物品",
+            "individual_usage": "单个物品用途",
+            "recipes_with_item": "包含该物品的配方"
+          }
+        },
+        "found_recipes": "已合成：{{count}}",
+        "delete_item": "删除",
+        "import": {
+          "title": "导入",
+          "unlimited_button": "导入进度",
+          "popup": {
+            "title": "导入无限模式进度？",
+            "description": "点击下方导入无限模式中的当前游戏。请注意：此操作会清空并替换你当前的编辑器内容。",
+            "confirm": "确认"
+          }
+        },
+        "return_to_unlimited": "返回游戏"
+      },
+      "midnight_timer": {
+        "next_thing": "刷新页面即可获取新一轮！",
+        "next_in": "下一组材料将在{{time}}后更新"
+      },
+      "next_game": {
+        "name": "蜜脾工坊",
+        "description": "今天的材料，你能合成多少物品？"
+      },
+      "help": {
+        "title": "玩法说明",
+        "intro": {
+          "goal": "你的目标是：用六边形中的 7 个物品，尽可能合成出更多物品。这个模式包含每日挑战和无限模式，还有一个编辑器可以自定义谜题。完成每日挑战可以积累连胜；多玩无限模式，你会慢慢熟悉配方，还能体验其他玩家制作的谜题！",
+          "entering_items": "从蜂巢格中选择材料，放入工作台，即可开始游戏。长按划过多个合成框可以连续摆放。重复此过程，直到输出格出现物品，点击物品即完成合成。也可以直接把物品拖到合成框中，或再合成框之间拖动调整。如果喜欢使用键盘操作，可以使用数字键选择材料，WASD或方向键移动，空格放置，回车合成。按键设置可以在标题左侧的设置里修改。"
+        },
+        "example": {
+          "title": "示例",
+          "intro": "我们来看个简单的例子。只用一颗钻石，合成5种不同的物品！",
+          "try_example": "现在你来试试",
+          "hint_info": "有点没头绪？可以在删除/清空按钮下方打开提示。开启后，每个材料上方会显示还能用它合成多少物品。也可以在",
+          "mc_wiki": "Minecraft Wiki",
+          "hint_info_2": "查找具体配方。",
+          "test_hints": "试试开关提示功能吧"
+        },
+        "tips": {
+          "title": "小提示",
+          "individual_results_only": "游戏只统计“合成结果”，不区分具体配方。比如竹子和木板都能做木棍，但只要用其中一种做出木棍，就算完成。",
+          "where_help": "没有思路时可以打开提示，再配合Wiki查询，就知道缺什么了。",
+          "not_all_recipes": "蜜脾工坊并不包含所有合成方式。只收录工作台中的标准有序/无序配方，一些特殊合成（比如自定义烟花、饰纹陶罐等）是不算的。"
+        }
+      }
+    },
+    "bestiary": {
+      "index": {
+        "title": "图鉴",
+        "books": {
+          "blocks": {
+            "title": "方块图鉴册",
+            "cover_alt_text": "方块图鉴封面"
+          },
+          "items": {
+            "title": "物品图鉴册",
+            "cover_alt_text": "物品图鉴封面"
+          },
+          "mobs": {
+            "title": "生物图鉴册",
+            "cover_alt_text": "生物图鉴封面"
+          },
+          "crafting": {
+            "title": "合成图鉴册",
+            "cover_alt_text": "蜜脾工坊图鉴封面"
+          }
+        }
+      },
+      "blocks": {
+        "title": "方块图鉴",
+        "description": "收录你在猜猜乐中可能遇到的方块。"
+      },
+      "items": {
+        "title": "物品图鉴",
+        "description": "收录你在猜猜乐中可能遇到的物品。"
+      },
+      "mobs": {
+        "title": "生物图鉴",
+        "description": "收录你在猜猜乐中可能遇到的生物。"
+      },
+      "crafting": {
+        "title": "蜜脾工坊图鉴",
+        "description": "收录蜜脾工坊中合成的所有物品。",
+        "entry": {
+          "discovered": {
+            "label": "发现于",
+            "daily": "每日挑战",
+            "random": "随机模式",
+            "custom": "自定义模式"
+          },
+          "recipes": {
+            "label": "配方"
+          }
+        },
+        "filters": {
+          "unavailable": "暂时没有可用的筛选条件"
+        }
+      },
+      "generic": {
+        "overview": {
+          "title": "概览",
+          "library_back": "概览",
+          "explanation": "点击条目查看详情；也可以用右上角的搜索功能查找，或使用筛选（将作用于整个页面）。",
+          "sorting": {
+            "alphabet_tooltip": "按名称排序",
+            "alphabet_alt": "A-Z排序",
+            "release_tooltip": "按加入版本排序",
+            "release_alt": "版本排序"
+          }
+        },
+        "entry": {
+          "overview_back": "概览",
+          "not_found": "Norbert在你的已发现列表中找不到匹配条目 =(",
+          "try_different": "试试其他筛选条件",
+          "discovered": {
+            "first_discovered": "首次发现：",
+            "in": "于",
+            "and": "和",
+            "more": "更多"
+          }
+        },
+        "filters": {
+          "applied": "已应用筛选",
+          "search_placeholder": "搜索",
+          "search_alt": "搜索图标",
+          "clear": "清楚筛选",
+          "open": "全局筛选",
+          "min": "最小值",
+          "max": "最大值"
+        }
+      }
+    }
+  },
+  "components": {
+    "quick_help": {
+      "show_button": "显示快速帮助",
+      "color_explanation": {
+        "title": "颜色介绍",
+        "correct": "完全匹配",
+        "incorrect": "不匹配",
+        "partial": "部分匹配"
+      }
+    },
+    "stats": {
+      "copy_button": "复制",
+      "copied_confirmation": "已复制",
+      "share": "分享",
+      "copy_message": {
+        "header_block": "我的 #方块猜猜乐 方块收集 🏆",
+        "header_item": "我的 #方块猜猜乐 物品收集 🏆",
+        "header_mob": "我的 #方块猜猜乐 生物收集 🏆",
+        "total_wins": "🎉 总共胜利{{number}}次",
+        "average_guesses": "🧮 平均猜测{{number}}次",
+        "one_shots": "🎯 一击即中{{number}}次",
+        "current_streak": "🚀 当前连胜{{number}}天",
+        "max_streak": "📈 最高连胜{{number}}天"
+      },
+      "stat_labels": {
+        "total_wins": "胜利次数",
+        "average_guesses": "平均猜测次数",
+        "one_shots": "一击即中",
+        "current_streak": "当前连胜",
+        "max_streak": "最高连胜"
+      },
+      "chart_labels": {
+        "guesses": "尝试次数"
+      }
+    },
+    "today_guesses": {
+      "loading": "正在加载玩家的猜测记录……",
+      "already_guessed": {
+        "zero": "位玩家已猜对ʕ•̀ ω • ʔ",
+        "one": "位玩家已猜对ʕ•̀ ω • ʔ",
+        "two-four": "位玩家已猜对ʕ•̀ ω • ʔ",
+        "many": "位玩家已猜对ʕ•̀ ω • ʔ"
+      }
+    },
+    "share_win": {
+      "copy_button": "复制",
+      "copied_confirmation": "已复制",
+      "share": "分享",
+      "all_games": "所有游戏",
+      "guess_type": {
+        "block": "方块猜猜乐",
+        "item": "物品猜猜乐",
+        "mob": "生物猜猜乐"
+      },
+      "guess_line": {
+        "one": "一击即中！我在{{date}} #MC猜猜乐 的{{type}}里取得了{{number}}次猜中的好成绩{{emoji}}，你也来试试吧！",
+        "many": "我在{{date}} #MC猜猜乐 的{{type}}里取得了{{number}}次猜中的好成绩{{emoji}}，你也来试试吧！"
+      },
+      "short_guess_line": {
+        "intro": "我完成了{{date}} #MC猜猜乐 的",
+        "one": "{{type}}，一击即中",
+        "many": "{{type}}，尝试了{{number}}次",
+        "conjunction": "和"
+      }
+    },
+    "hints": {
+      "in_x_guesses": {
+        "one": "还需要猜{{number}}次",
+        "many": "还需要猜{{number}}次"
+      },
+      "version": {
+        "description": "版本提示",
+        "solution": "目标自{{version}}加入"
+      },
+      "letter": {
+        "description": "首字母提示",
+        "solution": "目标以{{letter}}开头"
+      },
+      "image": {
+        "description": "缩放图片提示",
+        "solution": "你能从这张放大了八倍的图片中看出什么吗？"
+      }
+    },
+    "toasts": {
+      "patchnotes": {
+        "live": " 已上线！快去看看吧！"
+      }
+    }
+  },
+  "blocks": {
+    "button": "按钮",
+    "door": "木门",
+    "fence": "木栅栏",
+    "fence_gate": "木栅栏门",
+    "leaves": "树叶",
+    "log": "原木",
+    "planks": "木板",
+    "pressure_plate": "木压力板",
+    "sapling": "树苗",
+    "shelf": "木展示架",
+    "sign": "告示牌",
+    "slab": "圆石台阶",
+    "stairs": "楼梯",
+    "trapdoor": "木活板门",
+    "wood": "橡木",
+    "activator_rail": "激活铁轨",
+    "flower": "花",
+    "amethyst_block": "紫水晶块",
+    "amethyst_cluster": "紫水晶簇",
+    "ancient_debris": "远古残骸",
+    "andesite": "安山岩",
+    "wall": "圆石墙",
+    "anvil": "铁砧",
+    "azalea": "杜鹃花丛",
+    "bamboo": "竹子",
+    "bamboo_block": "竹块",
+    "bamboo_mosaic": "竹马赛克",
+    "barrel": "木桶",
+    "barrier": "屏障",
+    "basalt": "玄武岩",
+    "beacon": "信标",
+    "bedrock": "基岩",
+    "bee_nest": "蜂巢",
+    "beehive": "蜂箱",
+    "beetroots": "甜菜根",
+    "bell": "钟",
+    "big_dripleaf": "大型垂滴叶",
+    "banner": "白色旗帜",
+    "bed": "白色床",
+    "candle": "蜡烛",
+    "carpet": "白色地毯",
+    "concrete": "白色混凝土",
+    "concrete_powder": "白色混凝土粉末",
+    "glazed_terracotta": "白色带釉陶瓦",
+    "shulker_box": "潜影盒",
+    "glass": "玻璃",
+    "glass_pane": "玻璃板",
+    "terracotta": "陶瓦",
+    "wool": "白色羊毛",
+    "blackstone": "黑石",
+    "blast_furnace": "高炉",
+    "blue_ice": "蓝冰",
+    "bone_block": "骨块",
+    "bookshelf": "书架",
+    "coral": "管珊瑚",
+    "coral_block": "管珊瑚块",
+    "coral_fan": "管珊瑚扇",
+    "brewing_stand": "酿造台",
+    "bricks": "红砖块",
+    "mushroom": "红色蘑菇",
+    "mushroom_block": "红色蘑菇方块",
+    "bush": "灌木丛",
+    "cactus": "仙人掌",
+    "cactus_flower": "仙人掌花",
+    "cake": "蛋糕",
+    "calcite": "方解石",
+    "calibrated_sculk_sensor": "校频幽匿感测体",
+    "campfire": "营火",
+    "carrots": "胡萝卜",
+    "cartography_table": "制图台",
+    "cauldron": "炼药锅",
+    "cave_vines": "洞穴藤蔓",
+    "chain": "锁链",
+    "chest": "箱子",
+    "chiseled_bookshelf": "雕纹书架",
+    "chorus_flower": "紫颂花",
+    "chorus_plant": "紫颂植株",
+    "clay": "黏土",
+    "eyeblossom": "张开的眼眸花",
+    "coal_block": "煤炭块",
+    "coal_ore": "煤矿石",
+    "coarse_dirt": "砂土",
+    "cobbled_deepslate": "深板岩圆石",
+    "cobblestone": "圆石",
+    "cobweb": "蜘蛛网",
+    "cocoa": "可可果",
+    "command_block": "命令方块",
+    "comparator": "红石比较器",
+    "composter": "堆肥桶",
+    "conduit": "潮涌核心",
+    "copper_block": "铜块",
+    "copper_bulb": "铜灯",
+    "copper_chest": "铜箱子",
+    "copper_door": "铜门",
+    "copper_golem_statue": "铜傀儡像",
+    "copper_grate": "铜格栅",
+    "copper_ore": "铜矿石",
+    "copper_trapdoor": "铜活板门",
+    "crafter": "合成器",
+    "crafting_table": "工作台",
+    "creaking_heart": "嘎枝之心",
+    "head": "骷髅头颅",
+    "fungus": "绯红菌",
+    "nylium": "绯红菌岩",
+    "roots": "绯红菌索",
+    "crying_obsidian": "哭泣的黑曜石",
+    "daylight_detector": "阳光探测器",
+    "dead_bush": "枯萎的灌木",
+    "decorated_pot": "饰纹陶罐",
+    "deepslate": "深板岩",
+    "detector_rail": "探测铁轨",
+    "diamond_block": "钻石块",
+    "diamond_ore": "钻石矿石",
+    "diorite": "闪长岩",
+    "dirt": "泥土",
+    "dirt_path": "土径",
+    "dispenser": "发射器",
+    "dragon_egg": "龙蛋",
+    "dried_ghast": "失水恶魂",
+    "dried_kelp_block": "干海带块",
+    "dripstone_block": "滴水石块",
+    "dropper": "投掷器",
+    "emerald_block": "绿宝石块",
+    "emerald_ore": "绿宝石矿石",
+    "enchanting_table": "附魔台",
+    "end_portal_frame": "末地传送门框架",
+    "end_rod": "末地烛",
+    "end_stone": "末地石",
+    "end_stone_bricks": "末地石砖",
+    "ender_chest": "末影箱",
+    "farmland": "耕地",
+    "fern": "蕨",
+    "fire": "火",
+    "firefly_bush": "萤火虫灌木丛",
+    "fletching_table": "制箭台",
+    "flower_pot": "花盆",
+    "frogspawn": "青蛙卵",
+    "furnace": "熔炉",
+    "glow_lichen": "发光地衣",
+    "glowstone": "荧石",
+    "gold_block": "金块",
+    "gold_ore": "金矿石",
+    "golden_dandelion": "金蒲公英",
+    "granite": "花岗岩",
+    "grass_block": "草方块",
+    "gravel": "沙砾",
+    "grindstone": "砂轮",
+    "hanging_roots": "垂根",
+    "hay_block": "干草捆",
+    "heavy_core": "沉重核心",
+    "heavy_weighted_pressure_plate": "重质测重压力板",
+    "honey_block": "蜂蜜块",
+    "honeycomb_block": "蜜脾块",
+    "hopper": "漏斗",
+    "ice": "冰",
+    "infested_block": "虫蚀圆石",
+    "iron_bars": "铁栏杆",
+    "iron_block": "铁块",
+    "iron_door": "铁门",
+    "iron_ore": "铁矿石",
+    "iron_trapdoor": "铁活板门",
+    "jack_o_lantern": "南瓜灯",
+    "jigsaw": "拼图方块",
+    "jukebox": "唱片机",
+    "kelp": "海带",
+    "ladder": "梯子",
+    "lantern": "灯笼",
+    "lapis_block": "青金石块",
+    "lapis_ore": "青金石矿石",
+    "leaf_litter": "枯叶堆",
+    "lectern": "讲台",
+    "lever": "拉杆",
+    "light": "光源方块",
+    "lightning_rod": "避雷针",
+    "lily_pad": "睡莲",
+    "lodestone": "磁石",
+    "loom": "织布机",
+    "magma_block": "岩浆块",
+    "mangrove_propagule": "红树胎生苗",
+    "mangrove_roots": "红树根",
+    "melon": "西瓜",
+    "melon_stem": "西瓜茎",
+    "moss_block": "苔藓块",
+    "moss_carpet": "覆地苔藓",
+    "mossy_cobblestone": "苔石",
+    "mud": "泥巴",
+    "mud_bricks": "泥砖",
+    "muddy_mangrove_roots": "沾泥的红树根",
+    "mycelium": "菌丝体",
+    "nether_bricks": "下界砖块",
+    "nether_gold_ore": "下界金矿石",
+    "nether_quartz_ore": "下界石英矿石",
+    "nether_sprouts": "下界苗",
+    "nether_wart": "下界疣",
+    "nether_wart_block": "下界疣块",
+    "netherite_block": "下界合金块",
+    "netherrack": "下界岩",
+    "note_block": "音符盒",
+    "observer": "侦测器",
+    "obsidian": "黑曜石",
+    "froglight": "珠光蛙明灯",
+    "packed_ice": "浮冰",
+    "packed_mud": "泥坯",
+    "pale_hanging_moss": "苍白垂须",
+    "pale_moss_block": "苍白苔藓块",
+    "pale_moss_carpet": "苍白覆地苔藓",
+    "petrified_oak_slab": "石化橡木台阶",
+    "pink_petals": "粉红色花簇",
+    "piston": "活塞",
+    "pitcher_crop": "瓶子草植株",
+    "pitcher_plant": "瓶子草",
+    "podzol": "灰化土",
+    "pointed_dripstone": "滴水石锥",
+    "polished_blackstone": "磨制黑石",
+    "potatoes": "马铃薯",
+    "powder_snow": "细雪",
+    "powered_rail": "动力铁轨",
+    "prismarine": "海晶石",
+    "pumpkin": "南瓜",
+    "pumpkin_stem": "南瓜茎",
+    "purpur_block": "紫珀块",
+    "quartz_block": "石英块",
+    "rail": "铁轨",
+    "raw_copper_block": "粗铜块",
+    "raw_gold_block": "粗金块",
+    "raw_iron_block": "粗铁块",
+    "redstone_block": "红石块",
+    "redstone_lamp": "红石灯",
+    "redstone_ore": "红石矿石",
+    "redstone_torch": "红石火把",
+    "redstone_wire": "红石线",
+    "reinforced_deepslate": "强化深板岩",
+    "repeater": "红石中继器",
+    "resin_block": "树脂块",
+    "resin_bricks": "树脂砖块",
+    "resin_clump": "树脂团",
+    "respawn_anchor": "重生锚",
+    "rooted_dirt": "缠根泥土",
+    "sand": "沙子",
+    "sandstone": "砂岩",
+    "scaffolding": "脚手架",
+    "sculk": "幽匿块",
+    "sculk_catalyst": "幽匿催发体",
+    "sculk_sensor": "幽匿感测体",
+    "sculk_shrieker": "幽匿尖啸体",
+    "sculk_vein": "幽匿脉络",
+    "sea_lantern": "海晶灯",
+    "sea_pickle": "海泡菜",
+    "seagrass": "海草",
+    "dry_grass": "矮枯草丛",
+    "short_grass": "矮草丛",
+    "shroomlight": "菌光体",
+    "slime_block": "黏液块",
+    "small_dripleaf": "小型垂滴叶",
+    "smithing_table": "锻造台",
+    "smoker": "烟熏炉",
+    "smooth_quartz": "平滑石英块",
+    "smooth_stone": "平滑石头",
+    "sniffer_egg": "嗅探兽蛋",
+    "snow": "雪",
+    "snow_block": "雪块",
+    "soul_sand": "灵魂沙",
+    "soul_soil": "灵魂土",
+    "spawner": "刷怪笼",
+    "sponge": "海绵",
+    "spore_blossom": "孢子花",
+    "stone": "石头",
+    "stone_bricks": "石砖",
+    "stonecutter": "切石机",
+    "structure_block": "结构方块",
+    "structure_void": "结构空位",
+    "sugar_cane": "甘蔗",
+    "suspicious_gravel": "可疑的沙砾",
+    "sweet_berry_bush": "甜浆果丛",
+    "target": "标靶",
+    "test_block": "测试方块",
+    "test_instance_block": "测试实例方块",
+    "tinted_glass": "遮光玻璃",
+    "tnt": "TNT",
+    "torch": "火把",
+    "torchflower": "火把花",
+    "trapped_chest": "陷阱箱",
+    "trial_spawner": "试炼刷怪笼",
+    "tripwire": "绊线",
+    "tripwire_hook": "绊线钩",
+    "tuff": "凝灰岩",
+    "turtle_egg": "海龟蛋",
+    "twisting_vines": "缠怨藤",
+    "vault": "宝库",
+    "vine": "藤蔓",
+    "warped_wart_block": "诡异疣块",
+    "weeping_vines": "垂泪藤",
+    "wheat": "小麦植株",
+    "wildflowers": "野花簇",
+    "wither_rose": "凋灵玫瑰"
+  },
+  "items": {
+    "boat": "橡木船",
+    "chest_boat": "橡木运输船",
+    "spawn_egg": "刷怪蛋",
+    "amethyst_shard": "紫水晶碎片",
+    "pottery_sherd": "垂钓纹样陶片",
+    "apple": "苹果",
+    "armadillo_scute": "犰狳鳞甲",
+    "armor_stand": "盔甲架",
+    "arrow": "箭",
+    "aquatic_mob_bucket": "鳕鱼桶",
+    "baked_potato": "烤马铃薯",
+    "beef": "生牛肉",
+    "beetroot": "甜菜根",
+    "beetroot_seeds": "甜菜种子",
+    "beetroot_soup": "甜菜汤",
+    "blaze_powder": "烈焰粉",
+    "blaze_rod": "烈焰棒",
+    "bone": "骨头",
+    "bone_meal": "骨粉",
+    "book": "书",
+    "bow": "弓",
+    "bowl": "碗",
+    "bread": "面包",
+    "breeze_rod": "旋风棒",
+    "brick": "红砖",
+    "brush": "刷子",
+    "bucket": "铁桶",
+    "bundle": "收纳袋",
+    "carrot": "胡萝卜",
+    "carrot_on_a_stick": "胡萝卜钓竿",
+    "charcoal": "木炭",
+    "chest_minecart": "运输矿车",
+    "chicken": "生鸡肉",
+    "chorus_fruit": "紫颂果",
+    "clay_ball": "黏土球",
+    "clock": "时钟",
+    "coal": "煤炭",
+    "armor_trim_smithing_template": "海岸盔甲纹饰",
+    "cocoa_beans": "可可豆",
+    "cod": "生鳕鱼",
+    "command_block_minecart": "命令方块矿车",
+    "compass": "指南针",
+    "cooked_beef": "牛排",
+    "cooked_chicken": "熟鸡肉",
+    "cooked_cod": "熟鳕鱼",
+    "cooked_mutton": "熟羊肉",
+    "cooked_porkchop": "熟猪排",
+    "cooked_rabbit": "熟兔肉",
+    "cooked_salmon": "熟鲑鱼",
+    "cookie": "曲奇",
+    "copper_ingot": "铜锭",
+    "copper_nugget": "铜粒",
+    "banner_pattern": "旗帜图案",
+    "crossbow": "弩",
+    "dye": "青色染料",
+    "debug_stick": "调试棒",
+    "diamond": "钻石",
+    "axe": "钻石斧",
+    "boots": "钻石靴子",
+    "chestplate": "钻石胸甲",
+    "helmet": "钻石头盔",
+    "hoe": "钻石锄",
+    "horse_armor": "钻石马铠",
+    "leggings": "钻石护腿",
+    "pickaxe": "钻石镐",
+    "shovel": "钻石锹",
+    "sword": "钻石剑",
+    "disc_fragment": "唱片残片",
+    "dragon_breath": "龙息",
+    "dried_kelp": "干海带",
+    "echo_shard": "回响碎片",
+    "egg": "鸡蛋",
+    "elytra": "鞘翅",
+    "emerald": "绿宝石",
+    "enchanted_book": "附魔书",
+    "enchanted_golden_apple": "附魔金苹果",
+    "end_crystal": "末地水晶",
+    "ender_eye": "末影之眼",
+    "ender_pearl": "末影珍珠",
+    "experience_bottle": "附魔之瓶",
+    "feather": "羽毛",
+    "fermented_spider_eye": "发酵蛛眼",
+    "fire_charge": "火焰弹",
+    "firework_rocket": "烟花火箭",
+    "firework_star": "烟火之星",
+    "fishing_rod": "钓鱼竿",
+    "flint": "燧石",
+    "flint_and_steel": "打火石",
+    "furnace_minecart": "动力矿车",
+    "ghast_tear": "恶魂之泪",
+    "glass_bottle": "玻璃瓶",
+    "glistering_melon_slice": "闪烁的西瓜片",
+    "glow_berries": "发光浆果",
+    "glow_ink_sac": "荧光墨囊",
+    "glowstone_dust": "荧石粉",
+    "goat_horn": "山羊角",
+    "gold_ingot": "金锭",
+    "gold_nugget": "金粒",
+    "golden_apple": "金苹果",
+    "golden_carrot": "金胡萝卜",
+    "gunpowder": "火药",
+    "harness": "挽具",
+    "heart_of_the_sea": "海洋之心",
+    "honey_bottle": "蜂蜜瓶",
+    "honeycomb": "蜜脾",
+    "hopper_minecart": "漏斗矿车",
+    "ink_sac": "墨囊",
+    "iron_ingot": "铁锭",
+    "iron_nugget": "铁粒",
+    "item_frame": "物品展示框",
+    "knowledge_book": "知识之书",
+    "lapis_lazuli": "青金石",
+    "lava_bucket": "熔岩桶",
+    "lead": "拴绳",
+    "leather": "皮革",
+    "lingering_potion": "滞留药水",
+    "mace": "重锤",
+    "magma_cream": "岩浆膏",
+    "map": "地图",
+    "melon_seeds": "西瓜种子",
+    "melon_slice": "西瓜片",
+    "milk_bucket": "奶桶",
+    "minecart": "矿车",
+    "mushroom_stew": "蘑菇煲",
+    "music_disc": "音乐唱片",
+    "mutton": "生羊肉",
+    "name_tag": "命名牌",
+    "nautilus_shell": "鹦鹉螺壳",
+    "nether_brick": "下界砖",
+    "nether_star": "下界之星",
+    "nether_wart": "下界疣",
+    "netherite_ingot": "下界合金锭",
+    "nautilus_armor": "铁鹦鹉螺铠",
+    "netherite_scrap": "下界合金碎片",
+    "netherite_upgrade_smithing_template": "锻造模板",
+    "ominous_bottle": "不祥之瓶",
+    "painting": "画",
+    "paper": "纸",
+    "phantom_membrane": "幻翼膜",
+    "pitcher_plant": "瓶子草",
+    "pitcher_pod": "瓶子草荚果",
+    "poisonous_potato": "毒马铃薯",
+    "popped_chorus_fruit": "爆裂紫颂果",
+    "porkchop": "生猪排",
+    "potato": "马铃薯",
+    "potion": "药水",
+    "powder_snow_bucket": "细雪桶",
+    "prismarine_crystals": "海晶砂粒",
+    "prismarine_shard": "海晶碎片",
+    "pufferfish": "河豚",
+    "pumpkin_pie": "南瓜派",
+    "pumpkin_seeds": "南瓜种子",
+    "quartz": "下界石英",
+    "rabbit": "生兔肉",
+    "rabbit_foot": "兔子脚",
+    "rabbit_hide": "兔子皮",
+    "rabbit_stew": "兔肉煲",
+    "raw_copper": "粗铜",
+    "raw_gold": "粗金",
+    "raw_iron": "粗铁",
+    "recovery_compass": "追溯指针",
+    "redstone": "红石粉",
+    "resin_brick": "树脂砖",
+    "rotten_flesh": "腐肉",
+    "saddle": "鞍",
+    "salmon": "生鲑鱼",
+    "shears": "剪刀",
+    "shield": "盾牌",
+    "shulker_shell": "潜影壳",
+    "slime_ball": "黏液球",
+    "snowball": "雪球",
+    "spectral_arrow": "光灵箭",
+    "spider_eye": "蜘蛛眼",
+    "splash_potion": "喷溅药水",
+    "spyglass": "望远镜",
+    "stick": "木棍",
+    "string": "线",
+    "sugar": "糖",
+    "suspicious_stew": "谜之炖菜",
+    "sweet_berries": "甜浆果",
+    "tipped_arrow": "药箭",
+    "tnt_minecart": "TNT矿车",
+    "torchflower_seeds": "火把花种子",
+    "totem_of_undying": "不死图腾",
+    "trial_key": "试炼钥匙",
+    "trident": "三叉戟",
+    "tropical_fish": "热带鱼",
+    "turtle_scute": "海龟鳞甲",
+    "warped_fungus_on_a_stick": "诡异菌钓竿",
+    "water_bucket": "水桶",
+    "wheat": "小麦",
+    "wheat_seeds": "小麦种子",
+    "wind_charge": "风弹",
+    "wolf_armor": "狼铠",
+    "spear": "钻石矛",
+    "writable_book": "书与笔",
+    "written_book": "成书",
+    "kelp": "海带"
+  },
+  "mobs": {
+    "allay": "悦灵",
+    "armadillo": "犰狳",
+    "axolotl": "美西螈",
+    "bat": "蝙蝠",
+    "bee": "蜜蜂",
+    "blaze": "烈焰人",
+    "bogged": "沼骸",
+    "breeze": "旋风人",
+    "camel": "骆驼",
+    "camel_husk": "骆驼尸壳",
+    "cat": "猫",
+    "cave_spider": "洞穴蜘蛛",
+    "chicken": "鸡",
+    "cod": "鳕鱼",
+    "copper_golem": "铜傀儡",
+    "cow": "牛",
+    "creaking": "嘎枝",
+    "creeper": "苦力怕",
+    "dolphin": "海豚",
+    "donkey": "驴",
+    "drowned": "溺尸",
+    "elder_guardian": "远古守卫者",
+    "ender_dragon": "末影龙",
+    "enderman": "末影人",
+    "endermite": "末影螨",
+    "evoker": "唤魔者",
+    "fox": "狐狸",
+    "frog": "青蛙",
+    "ghast": "恶魂",
+    "giant": "巨人",
+    "glow_squid": "发光鱿鱼",
+    "goat": "山羊",
+    "guardian": "守卫者",
+    "happy_ghast": "快乐恶魂",
+    "hoglin": "疣猪兽",
+    "horse": "马",
+    "husk": "尸壳",
+    "illusioner": "幻术师",
+    "iron_golem": "铁傀儡",
+    "llama": "羊驼",
+    "magma_cube": "岩浆怪",
+    "mooshroom": "哞菇",
+    "mule": "骡",
+    "nautilus": "鹦鹉螺",
+    "ocelot": "豹猫",
+    "panda": "熊猫",
+    "parched": "焦骸",
+    "parrot": "鹦鹉",
+    "phantom": "幻翼",
+    "pig": "猪",
+    "piglin": "猪灵",
+    "piglin_brute": "猪灵蛮兵",
+    "pillager": "掠夺者",
+    "polar_bear": "北极熊",
+    "pufferfish": "河豚",
+    "rabbit": "兔子",
+    "ravager": "劫掠兽",
+    "salmon": "鲑鱼",
+    "sheep": "绵羊",
+    "shulker": "潜影贝",
+    "silverfish": "蠹虫",
+    "skeleton": "骷髅",
+    "skeleton_horse": "骷髅马",
+    "slime": "史莱姆",
+    "sniffer": "嗅探兽",
+    "snow_golem": "雪傀儡",
+    "spider": "蜘蛛",
+    "squid": "鱿鱼",
+    "stray": "流浪者",
+    "strider": "炽足兽",
+    "tadpole": "蝌蚪",
+    "tropical_fish": "热带鱼",
+    "turtle": "海龟",
+    "vex": "恼鬼",
+    "villager": "村民",
+    "vindicator": "卫道士",
+    "wandering_trader": "流浪商人",
+    "warden": "监守者",
+    "witch": "女巫",
+    "wither": "凋灵",
+    "wither_skeleton": "凋灵骷髅",
+    "wolf": "狼",
+    "zoglin": "僵尸疣猪兽",
+    "zombie": "僵尸",
+    "zombie_horse": "僵尸马",
+    "zombie_nautilus": "僵尸鹦鹉螺",
+    "zombie_villager": "僵尸村民",
+    "zombified_piglin": "僵尸猪灵"
+  }
+}
