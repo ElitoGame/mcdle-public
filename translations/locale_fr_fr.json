@@ -71,8 +71,8 @@
 			"headers": {
 				"mcdle": "Mcdle",
 				"crafting_bee": "Crafting Bee",
-				"general": "🌍General",
-				"guesser": "🌍Mob, Block, and Item Guesser"
+				"general": "Général",
+				"guesser": "Devine-Créature, Devine-Bloc, et Devine-Objet"
 			},
 			"colorblind": {
 				"input_name": "Mode daltonien",
@@ -108,7 +108,7 @@
 				"title": "Difficulté"
 			},
 			"streak": {
-				"label": "🌍Display Streak"
+				"label": "Afficher les Série de victoires"
 			},
 			"keybinds": {
 				"title": "Raccourcis clavier",
@@ -777,17 +777,17 @@
 					}
 				},
 				"quick_settings": {
-					"title": "🌍Quick Settings",
+					"title": "Paramètres rapides",
 					"hints": "Montrer l'indice du nombre de recettes restantes ?",
 					"timer": "Inclure un chronomètre ?",
 					"regenerate": "Générer une nouvelle énigme",
 					"auto_craft": "Fabrication automatique ?",
-					"shadow_hint": "🌍Show Silhouettes hint?",
+					"shadow_hint": "Afficher les Silhouettes ?",
 					"hint_popup": {
-						"greeting": "🌍Hi, need a ",
-						"hint": "🌍hint",
-						"closing": "🌍?",
-						"pointing_to_hints": "🌍You can also find these hints below!"
+						"greeting": "Salut, besoin d'un",
+						"hint": "indice",
+						"closing": "?",
+						"pointing_to_hints": "Tu peux aussi trouver ces indices ci-dessous !"
 					}
 				},
 				"try_editor": "Essaie l'éditeur !"
