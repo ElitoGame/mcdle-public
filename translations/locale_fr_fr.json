@@ -72,7 +72,7 @@
 				"mcdle": "Mcdle",
 				"crafting_bee": "Crafting Bee",
 				"general": "Général",
-				"guesser": "Devine-Créature, Devine-Bloc, et Devine-Objet"
+				"guesser": "MCdle"
 			},
 			"colorblind": {
 				"input_name": "Mode daltonien",
