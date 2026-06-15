@@ -63,13 +63,16 @@
 					"post_link": "!"
 				}
 			}
-		}
+		},
+		"disclaimer": "НЕ ЯВЛЯЕТСЯ ОФИЦИАЛЬНЫМ ПРОДУКТОМ MINECRAFT. НЕ ОДОБРЕНО И НЕ СВЯЗАНО С КОМПАНИЕЙ MOJANG ИЛИ MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "🌍General",
+				"guesser": "🌍Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Режим дальтоника",
@@ -103,6 +106,9 @@
 					"title": "Поиск:"
 				},
 				"title": "Сложность"
+			},
+			"streak": {
+				"label": "🌍Display Streak"
 			},
 			"keybinds": {
 				"title": "Назначение клавиш",
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "🌍Quick Settings",
 					"hints": "Показать оставшиеся подсказки по рецепту?",
 					"timer": "Включить таймер?",
 					"regenerate": "Создать новую загадку",
-					"auto_craft": "🌍Auto craft?"
+					"auto_craft": "🌍Auto craft?",
+					"shadow_hint": "🌍Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "🌍Hi, need a ",
+						"hint": "🌍hint",
+						"closing": "🌍?",
+						"pointing_to_hints": "🌍You can also find these hints below!"
+					}
 				},
 				"try_editor": "Попробуйте редактор!"
 			},
@@ -1344,7 +1358,10 @@
 		"shelf": "Акациевая полка TODO",
 		"copper_chest": "Медный сундук",
 		"copper_golem_statue": "Статуя медного голема",
-		"golden_dandelion": "Золотой одуванчик"
+		"golden_dandelion": "Золотой одуванчик",
+		"cinnabar": "Киноварь",
+		"sulfur": "Сера",
+		"sulfur_spike": "Серный шип"
 	},
 	"items": {
 		"boat": "Лодка",
@@ -1544,7 +1561,8 @@
 		"kelp": "Ламинария",
 		"copper_nugget": "Кусочек меди",
 		"spear": "Деревянное копьё TODO",
-		"nautilus_armor": "Незеритовая броня наутилуса TODO"
+		"nautilus_armor": "Незеритовая броня наутилуса TODO",
+		"sulfur_cube_bucket": "Серный куб в ведре"
 	},
 	"mobs": {
 		"allay": "Тихоня",
@@ -1634,6 +1652,7 @@
 		"camel_husk": "Верблюд-кадавр",
 		"nautilus": "Наутилус",
 		"parched": "Пустынник",
-		"zombie_nautilus": "Наутилус-зомби"
+		"zombie_nautilus": "Наутилус-зомби",
+		"sulfur_cube": "Серный куб"
 	}
 }

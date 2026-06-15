@@ -63,13 +63,16 @@
 					"post_link": "Unterstützer!"
 				}
 			}
-		}
+		},
+		"disclaimer": "KEIN OFFIZIELLES MINECRAFT PRODUCT. NICHT GENEHMIGT VON ODER VERBUNDEN MIT MOJANG ODER MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "Allgemein",
+				"guesser": "Mob, Block, and Gegenstand Spielmodi"
 			},
 			"colorblind": {
 				"input_name": "Farbenblinder Modus",
@@ -103,6 +106,9 @@
 					"title": "Suche:"
 				},
 				"title": "Schwierigkeitsgrad"
+			},
+			"streak": {
+				"label": "Gewinnsträhne anzeigen"
 			},
 			"keybinds": {
 				"title": "Tastenbelegung",
@@ -500,8 +506,8 @@
 				"example": {
 					"title": "Beispiel",
 					"intro": "Schauen wir uns ein Beispielsspiel an. Als erstes probieren wir einen zufälligen Gegenstand.",
-					"table_interpretation_1": "Wir haben gelerent, dass der Gegenstand, wie die meisten anderen auch, bis 64 stackbar ist. Er ist neuer als Beta 1.2, hat Gewöhnliche Seltenheit und ist erneuerbar. Laut dem Minecraft Wiki gibt es weniger als 5 Möglichkeiten, ihn zu verwenden, und weniger als 6 Möglichkeiten, ihn zu bekommen. Die Inventar Kategorie sagt uns, dass der Gegenstand nicht in der \"Werkstoffe\" Kategorie ist. Probieren wir einen anderen Gegenstand.",
-					"table_interpretation_2": "Wir haben die Version des Gegenstandes herausgefunden! Es ist Zeit, sich nach Beta 1.8 Gegenständen aus der \"Nahrungsmittel & Tränke\" Kategorie umzusehen. Weiters, geht es darum, die richtigen Verwendungszahlen und Erzeugungszahlen zu erraten.",
+					"table_interpretation_1": "Wir haben gelerent, dass der Gegenstand, wie die meisten anderen auch, bis 64 stackbar ist. Er ist neuer als Beta 1.2, hat Gewöhnliche Seltenheit und ist erneuerbar. Es ist nicht craftbar und kann nicht aus Kisten oder durch Handeln bekommen werden. Die Inventar Kategorie sagt uns, dass der Gegenstand nicht in der \"Werkstoffe\" Kategorie ist. Probieren wir einen anderen Gegenstand.",
+					"table_interpretation_2": "Wir haben die Version des Gegenstandes herausgefunden! Es ist Zeit, sich nach Beta 1.8 Gegenständen aus der \"Nahrungsmittel & Tränke\" Kategorie umzusehen. Weiters, wissen wir das es kein crafing oder Ofen Rezept gibt um diesen Gegenstand zu bekommen und das er nicht von einem Mob kommt.",
 					"table_interpretation_3": "Da haben wirs! Wir haben herausgefunden, dass der heutige Gegenstand eine Melonenscheibe war! Wunderbar!"
 				},
 				"partial_matches": {
@@ -743,7 +749,7 @@
 						"button": "Neu genereieren",
 						"popup": {
 							"title": "Neue zufällige Gegenstände auswählen?",
-							"hints": "Übrige Rezepte Tip anzeigen?",
+							"hints": "Übrige Rezepte Tipp anzeigen?",
 							"description": "Klick unten um die Gegenstände im Hexagon zufällig auszuwählen und ein neues Spiel zu starten!",
 							"confirm": "Bestätigen"
 						}
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
-					"hints": "Übrige Rezepte Tip anzeigen?",
+					"title": "Schnelleinstellungen",
+					"hints": "Übrige Rezepte Tipp anzeigen?",
 					"timer": "Zeitmesser anzeigen?",
 					"regenerate": "Neues Rätsel generieren",
-					"auto_craft": "Automatisch Craften?"
+					"auto_craft": "Automatisch Craften?",
+					"shadow_hint": "Silhouetten Tipps anzeigen?",
+					"hint_popup": {
+						"greeting": "Hi, brauchst du einen ",
+						"hint": "Tipp",
+						"closing": "?",
+						"pointing_to_hints": "Du kannst diese Tipps auch unten finden!"
+					}
 				},
 				"try_editor": "Probier den Editor aus!"
 			},
@@ -860,15 +874,15 @@
 					"title": "Beispiel",
 					"intro": "Schauen wir uns ein Beispiel an! Aus einem einzelnen Diamanten können wir 5 individuelle Gegenstände craften!",
 					"try_example": "Versuch dieses Beispiel",
-					"hint_info": "Steckst du fest? Du kannst Tips in der Box unter den Radierer/Leeren knöpfen aktivieren. Die Tips werden dann über den einzelnen Hexagonen angezeigt und sagen aus wie oft man den Gegenstand noch in Rezepten verwenden kann. Des weiteren kannst du auch das ",
+					"hint_info": "Steckst du fest? Du kannst Tipps in der Box unter den Radierer/Leeren knöpfen aktivieren. Die Tipps werden dann über den einzelnen Hexagonen angezeigt und sagen aus wie oft man den Gegenstand noch in Rezepten verwenden kann. Des weiteren kannst du auch das ",
 					"mc_wiki": "Minecraft Wiki",
 					"hint_info_2": "verwenden um nach Rezepten zu suchen.",
-					"test_hints": "Probier das Tip system ein/aus zuzuschalten"
+					"test_hints": "Probier das Tipp system ein/aus zuzuschalten"
 				},
 				"tips": {
-					"title": "Tips",
+					"title": "Tipps",
 					"individual_results_only": "Das Spiel zählt nur individuelle Ergebnisse, nicht individuelle Rezepte. Beispielsweise, man kann aus Bambus oder Bretter Stöcke machen, aber sobald man Stöcke einmal gecrafted hat, wars das.",
-					"where_help": "Verwende das Tip System falls du nicht mehr weiter kommst. Das Wiki kann super damit kombiniert werden. Such einfach nach dem Gegenstand wo noch Rezepte fehlen.",
+					"where_help": "Verwende das Tipp System falls du nicht mehr weiter kommst. Das Wiki kann super damit kombiniert werden. Such einfach nach dem Gegenstand wo noch Rezepte fehlen.",
 					"not_all_recipes": "Crafting Bee beinhalted nicht jedes craftbare Rezept. Nur standard geformte oder formlose Rezepte innerhalb der Werkbank sind inkludiert. Nicht Standard Rezepte, wie spezielle Feuerwerke, dekorative Töpfe oder ähnliches kommen nicht vor."
 				}
 			}
@@ -1344,7 +1358,10 @@
 		"shelf": "Holzregal",
 		"copper_chest": "Kupfertruhe",
 		"copper_golem_statue": "Kupfergolemstatue",
-		"golden_dandelion": "Goldlöwenzahn"
+		"golden_dandelion": "Goldlöwenzahn",
+		"cinnabar": "Zinnober",
+		"sulfur": "Schwefelblock",
+		"sulfur_spike": "Schwefelzapfen"
 	},
 	"items": {
 		"boat": "Holzboot",
@@ -1544,7 +1561,8 @@
 		"kelp": "Seetang",
 		"copper_nugget": "Kupferklumpen",
 		"spear": "Speer",
-		"nautilus_armor": "Nautiluspanzer"
+		"nautilus_armor": "Nautiluspanzer",
+		"sulfur_cube_bucket": "Schwefelwürfeleimer"
 	},
 	"mobs": {
 		"allay": "Hilfsgeist",
@@ -1634,6 +1652,7 @@
 		"camel_husk": "Zombiedromedar",
 		"nautilus": "Nautilus",
 		"parched": "Vertrockneter",
-		"zombie_nautilus": "Zombienautilus"
+		"zombie_nautilus": "Zombienautilus",
+		"sulfur_cube": "Schwefelwürfel"
 	}
 }

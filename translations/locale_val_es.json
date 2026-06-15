@@ -63,13 +63,16 @@
 					"post_link": " Colaboradors!"
 				}
 			}
-		}
+		},
+		"disclaimer": "🌍NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "🌍General",
+				"guesser": "🌍Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Mode daltonisme",
@@ -103,6 +106,9 @@
 					"title": "Buscar:"
 				},
 				"title": "Dificultat"
+			},
+			"streak": {
+				"label": "🌍Display Streak"
 			},
 			"keybinds": {
 				"title": "Tecles",
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "🌍Quick Settings",
 					"hints": "Mostrar pistes de receptes restants?",
 					"timer": "Incluir temporizador?",
 					"regenerate": "Generar nova endevinalla",
-					"auto_craft": "Auto craftear?"
+					"auto_craft": "Auto craftear?",
+					"shadow_hint": "🌍Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "🌍Hi, need a ",
+						"hint": "🌍hint",
+						"closing": "🌍?",
+						"pointing_to_hints": "🌍You can also find these hints below!"
+					}
 				},
 				"try_editor": "Prova l'editor!"
 			},
@@ -1344,7 +1358,10 @@
 		"shelf": "Prestatgeria",
 		"copper_chest": "Cofre de coure",
 		"copper_golem_statue": "Estàtua de gólem de coure",
-		"golden_dandelion": "Dent de lleó daurat"
+		"golden_dandelion": "Dent de lleó daurat",
+		"cinnabar": "Cinabri",
+		"sulfur": "Sofre",
+		"sulfur_spike": "Pic de sofre"
 	},
 	"items": {
 		"boat": "Barca",
@@ -1544,7 +1561,8 @@
 		"kelp": "Alga",
 		"copper_nugget": "Palleta de coure",
 		"spear": "Llança",
-		"nautilus_armor": "Armadura de netherita per a nautilus"
+		"nautilus_armor": "Armadura de netherita per a nautilus",
+		"sulfur_cube_bucket": "Poal amb cub de sofre"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1634,6 +1652,7 @@
 		"camel_husk": "Dromedari momificat",
 		"nautilus": "Nautilus",
 		"parched": "Esquelet de les arenes",
-		"zombie_nautilus": "Nautilus zombi"
+		"zombie_nautilus": "Nautilus zombi",
+		"sulfur_cube": "Cub de sofre"
 	}
 }

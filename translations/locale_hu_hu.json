@@ -63,13 +63,16 @@
 					"post_link": " támogatónak!"
 				}
 			}
-		}
+		},
+		"disclaimer": "🌍NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Barkács méh"
+				"crafting_bee": "Crafting Bee",
+				"general": "🌍General",
+				"guesser": "🌍Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Színtévesztő mód",
@@ -103,6 +106,9 @@
 					"title": "Keresés:"
 				},
 				"title": "Nehézség"
+			},
+			"streak": {
+				"label": "🌍Display Streak"
 			},
 			"keybinds": {
 				"title": "Billentyűkiosztás",
@@ -269,17 +275,17 @@
 				"header": {
 					"title": "Blokk",
 					"initial_release": "Kiadás",
-					"stack_size": "Készlet<wbr>méret",
-					"tool": "Eszköz",
-					"blast_resistance": "Ellenáll",
-					"hardness": "Kemény",
+					"stack_size": "Készletméret",
+					"tool": "Eszköz(ök)",
+					"blast_resistance": "Robbanás<wbr>ellenállás",
+					"hardness": "Keménység",
 					"flammable": "Gyúlékony",
 					"transparent": "Átlátszó",
 					"full_block": "Teljes blokk"
 				},
 				"data": {
 					"tool": {
-						"any_tool": "Mind",
+						"any_tool": "Bármelyik",
 						"axe": "Fejsze",
 						"pickaxe": "Csákány",
 						"hoe": "Kapa",
@@ -293,7 +299,7 @@
 					"states": {
 						"yes": "Igen",
 						"no": "Nem",
-						"partial": "Némileg"
+						"partial": "Részleges"
 					}
 				}
 			},
@@ -396,9 +402,9 @@
 				"header": {
 					"title": "Tárgy",
 					"initial_release": "Kiadás",
-					"stack_size": "Készlet<wbr>méret",
+					"stack_size": "Készletméret",
 					"rarity": "Ritkaság",
-					"inventory_categories": "Kreatív<wbr>kateg.",
+					"inventory_categories": "Kreatív leltár kategória",
 					"renewable": "Megújuló",
 					"usage": "Használat",
 					"source": "Forrás",
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "🌍Quick Settings",
 					"hints": "Megjelenjenek a hátralévő recept tippek?",
 					"timer": "Tartalmazzon időzítőt?",
 					"regenerate": "Új rejtvény generálása",
-					"auto_craft": "Automatikus barkácsolás?"
+					"auto_craft": "Automatikus barkácsolás?",
+					"shadow_hint": "🌍Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "🌍Hi, need a ",
+						"hint": "🌍hint",
+						"closing": "🌍?",
+						"pointing_to_hints": "🌍You can also find these hints below!"
+					}
 				},
 				"try_editor": "Nézd meg a szerkesztőt!"
 			},
@@ -878,19 +892,19 @@
 				"title": "Bestiárium",
 				"books": {
 					"blocks": {
-						"title": "A blokkok könyve",
+						"title": "A Blokkok Könyve",
 						"cover_alt_text": "Blokk könyvborító"
 					},
 					"items": {
-						"title": "A tárgyak könyve",
+						"title": "A Tárgyak Könyve",
 						"cover_alt_text": "Tárgy könyvborító"
 					},
 					"mobs": {
-						"title": "A lények könyve",
+						"title": "A Lények Könyve",
 						"cover_alt_text": "Lény könyvborító"
 					},
 					"crafting": {
-						"title": "A barkácsolás könyve",
+						"title": "A Barkácsolás Könyve",
 						"cover_alt_text": "Crafting Bee könyvborító"
 					}
 				}
@@ -1059,7 +1073,6 @@
 		"planks": "Akáciadeszka",
 		"pressure_plate": "Akáciafa nyomólap",
 		"sapling": "Akáciacsemete",
-		"shelf": "Akáciafa polc",
 		"sign": "Akáciafa tábla",
 		"slab": "Akáciafa lap",
 		"stairs": "Akáciafa lépcső",
@@ -1128,7 +1141,6 @@
 		"chorus_flower": "Refrénvirág",
 		"chorus_plant": "Refrénnövény",
 		"clay": "Agyag",
-		"eyeblossom": "Zárt szemvirág",
 		"coal_block": "Szénblokk",
 		"coal_ore": "Szénérc",
 		"coarse_dirt": "Terméketlen föld",
@@ -1142,9 +1154,7 @@
 		"conduit": "Csatorna",
 		"copper_block": "Rézblokk",
 		"copper_bulb": "Rézizzó",
-		"copper_chest": "Rézláda",
 		"copper_door": "Rézajtó",
-		"copper_golem_statue": "Rézgólem-szobor",
 		"copper_grate": "Rézrostély",
 		"copper_ore": "Rézérc",
 		"copper_trapdoor": "Réz csapóajtó",
@@ -1180,6 +1190,7 @@
 		"end_stone": "Endkő",
 		"end_stone_bricks": "Endkőtégla",
 		"ender_chest": "Enderláda",
+		"eyeblossom": "Zárt szemvirág",
 		"farmland": "Termőföld",
 		"fern": "Páfrány",
 		"fire": "Tűz",
@@ -1192,7 +1203,6 @@
 		"glowstone": "Izzókő",
 		"gold_block": "Aranyblokk",
 		"gold_ore": "Aranyérc",
-		"golden_dandelion": "Aranypitypang",
 		"granite": "Gránit",
 		"grass_block": "Füves földblokk",
 		"gravel": "Sóder",
@@ -1344,7 +1354,14 @@
 		"weeping_vines": "Keserves indák",
 		"wheat": "Búzatermés",
 		"wildflowers": "Vadvirágok",
-		"wither_rose": "Witherrózsa"
+		"wither_rose": "Witherrózsa",
+		"shelf": "Akáciafa polc",
+		"copper_chest": "Rézláda",
+		"copper_golem_statue": "Rézgólem-szobor",
+		"golden_dandelion": "Aranypitypang",
+		"cinnabar": "Cinóber",
+		"sulfur": "Kén",
+		"sulfur_spike": "Kéntüske"
 	},
 	"items": {
 		"boat": "Akáciafa csónak",
@@ -1398,12 +1415,11 @@
 		"cooked_salmon": "Sült lazac",
 		"cookie": "Csokis süti",
 		"copper_ingot": "Rézrúd",
-		"copper_nugget": "Rézrög",
 		"banner_pattern": "Zászlóminta",
 		"crossbow": "Számszeríj",
-		"dye": "Türkizkék festék",
 		"debug_stick": "Debugpálca",
 		"diamond": "Gyémánt",
+		"dye": "Türkizkék festék",
 		"axe": "Gyémántfejsze",
 		"boots": "Gyémántcsizma",
 		"chestplate": "Gyémánt mellvért",
@@ -1479,7 +1495,6 @@
 		"nether_star": "Nethercsillag",
 		"nether_wart": "Netherbibircsók",
 		"netherite_ingot": "Netheritrúd",
-		"nautilus_armor": "Netherit nautiluszpáncél",
 		"netherite_scrap": "Netheritdarab",
 		"netherite_upgrade_smithing_template": "Kovácssablon",
 		"ominous_bottle": "Vészjósló palack",
@@ -1541,10 +1556,13 @@
 		"wheat_seeds": "Búzamag",
 		"wind_charge": "Széllöket",
 		"wolf_armor": "Farkaspáncél",
-		"spear": "Falándzsa",
 		"writable_book": "Könyv és toll",
 		"written_book": "Befejezett könyv",
-		"kelp": "Hínár"
+		"kelp": "Hínár",
+		"copper_nugget": "Rézrög",
+		"spear": "Falándzsa",
+		"nautilus_armor": "Netherit nautiluszpáncél",
+		"sulfur_cube_bucket": "Kénkocka vödörben"
 	},
 	"mobs": {
 		"allay": "Nyugtancs",
@@ -1556,12 +1574,10 @@
 		"bogged": "Láplövész",
 		"breeze": "Őrszél",
 		"camel": "Teve",
-		"camel_husk": "Kiszáradt teve",
 		"cat": "Macska",
 		"cave_spider": "Barlangi pók",
 		"chicken": "Csirke",
 		"cod": "Tőkehal",
-		"copper_golem": "Rézgólem",
 		"cow": "Tehén",
 		"creaking": "Nyikorgó",
 		"creeper": "Creeper",
@@ -1590,10 +1606,8 @@
 		"magma_cube": "Magmakocka",
 		"mooshroom": "Mooshroom",
 		"mule": "Öszvér",
-		"nautilus": "Nautilusz",
 		"ocelot": "Ocelot",
 		"panda": "Panda",
-		"parched": "Perzselt",
 		"parrot": "Papagáj",
 		"phantom": "Fantom",
 		"pig": "Malac",
@@ -1632,8 +1646,13 @@
 		"zoglin": "Zoglin",
 		"zombie": "Zombi",
 		"zombie_horse": "Zombiló",
-		"zombie_nautilus": "Zautilusz",
 		"zombie_villager": "Élőhalott falusi",
-		"zombified_piglin": "Élőhalott piglin"
+		"zombified_piglin": "Élőhalott piglin",
+		"copper_golem": "Rézgólem",
+		"camel_husk": "Kiszáradt teve",
+		"nautilus": "Nautilusz",
+		"parched": "Perzselt",
+		"zombie_nautilus": "Zautilusz",
+		"sulfur_cube": "Kénkocka"
 	}
 }

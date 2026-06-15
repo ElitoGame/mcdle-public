@@ -63,13 +63,16 @@
 					"post_link": " Colaboradores!"
 				}
 			}
-		}
+		},
+		"disclaimer": "NO ES UN PRODUCTO OFICIAL DE MINECRAFT. NO APROBADO POR NI ASOCIADO CON MOJANG O MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "🌍General",
+				"guesser": "🌍Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Modo daltonismo",
@@ -103,6 +106,9 @@
 					"title": "Buscar:"
 				},
 				"title": "Dificultad"
+			},
+			"streak": {
+				"label": "🌍Display Streak"
 			},
 			"keybinds": {
 				"title": "Teclas",
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "🌍Quick Settings",
 					"hints": "Mostrar pistas de recetas faltantes?",
 					"timer": "Incluir temporalizador?",
 					"regenerate": "Generar nuevo acertijo",
-					"auto_craft": "Auto craftear?"
+					"auto_craft": "Auto craftear?",
+					"shadow_hint": "🌍Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "🌍Hi, need a ",
+						"hint": "🌍hint",
+						"closing": "🌍?",
+						"pointing_to_hints": "🌍You can also find these hints below!"
+					}
 				},
 				"try_editor": "Héchale un vistazo al editor!"
 			},
@@ -1344,7 +1358,10 @@
 		"shelf": "Estante",
 		"copper_chest": "Cofre de cobre",
 		"copper_golem_statue": "Estatua de gólem de cobre",
-		"golden_dandelion": "Diente de león dorado"
+		"golden_dandelion": "Diente de león dorado",
+		"cinnabar": "Cinabrio",
+		"sulfur": "Azufre",
+		"sulfur_spike": "Azufre puntiagudo"
 	},
 	"items": {
 		"boat": "Barca",
@@ -1544,7 +1561,8 @@
 		"kelp": "Alga",
 		"copper_nugget": "Pepita de cobre",
 		"spear": "Lanza",
-		"nautilus_armor": "Armadura de netherita para nautilo"
+		"nautilus_armor": "Armadura de netherita para nautilo",
+		"sulfur_cube_bucket": "Cubo con cubo de azufre"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1634,6 +1652,7 @@
 		"camel_husk": "Camello disecado",
 		"nautilus": "Nautilo",
 		"parched": "Momificado",
-		"zombie_nautilus": "Nautilo zombi"
+		"zombie_nautilus": "Nautilo zombi",
+		"sulfur_cube": "Cubo de azufre"
 	}
 }

@@ -63,13 +63,16 @@
 					"post_link": " Supporters!"
 				}
 			}
-		}
+		},
+		"disclaimer": "NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "General",
+				"guesser": "Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Colorblind mode",
@@ -103,6 +106,9 @@
 					"title": "Search:"
 				},
 				"title": "Difficulty"
+			},
+			"streak": {
+				"label": "Display Streak"
 			},
 			"keybinds": {
 				"title": "Key bindings",
@@ -500,8 +506,8 @@
 				"example": {
 					"title": "Example",
 					"intro": "Let's look at an example game. First we'll try an arbitrary item.",
-					"table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable, uncraftable, and can't be looted in chests or village raids, according to the Minecraft wiki. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
-					"table_interpretation_2": "We've discovered the items version! Time to look for an item added in Beta 1.8 that's in the \"Food & Drinks\" creative inventory category. We now need to look for an item with matching use cases and methods of obtaining.",
+					"table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable, it is not craftable, and can't be looted from containers or be obtained from trading. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
+					"table_interpretation_2": "We've discovered the items version! Time to look for an item added in Beta 1.8 that's in the \"Food & Drinks\" creative inventory category. We also know that it cannot be obtained via a crafting or smelting recipe and that it doesn't drop as loot from a mob.",
 					"table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
 				},
 				"partial_matches": {
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "Quick Settings",
 					"hints": "Show remaining recipe hints?",
 					"timer": "Include timer?",
 					"regenerate": "Generate new Riddle",
-					"auto_craft": "Auto craft?"
+					"auto_craft": "Auto craft?",
+					"shadow_hint": "Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "Hi, need a ",
+						"hint": "hint",
+						"closing": "?",
+						"pointing_to_hints": "You can also find these hints below!"
+					}
 				},
 				"try_editor": "Check out the editor!"
 			},
@@ -1344,7 +1358,10 @@
 		"shelf": "Shelf",
 		"copper_chest": "Copper Chest",
 		"copper_golem_statue": "Copper Golem Statue",
-		"golden_dandelion": "Golden Dandelion"
+		"golden_dandelion": "Golden Dandelion",
+		"cinnabar": "Cinnabar",
+		"sulfur": "Sulfur",
+		"sulfur_spike": "Sulfur Spike"
 	},
 	"items": {
 		"boat": "Boat",
@@ -1544,7 +1561,8 @@
 		"kelp": "Kelp",
 		"copper_nugget": "Copper Nugget",
 		"spear": "Spear",
-		"nautilus_armor": "Nautilus Armor"
+		"nautilus_armor": "Nautilus Armor",
+		"sulfur_cube_bucket": "Bucket of Sulfur Cube"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1634,6 +1652,7 @@
 		"camel_husk": "Camel Husk",
 		"nautilus": "Nautilus",
 		"parched": "Parched",
-		"zombie_nautilus": "Zombie Nautilus"
+		"zombie_nautilus": "Zombie Nautilus",
+		"sulfur_cube": "Sulfur Cube"
 	}
 }

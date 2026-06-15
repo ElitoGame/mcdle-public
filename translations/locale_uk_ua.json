@@ -63,13 +63,16 @@
 					"post_link": " спонсорам!"
 				}
 			}
-		}
+		},
+		"disclaimer": "🌍NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "🌍General",
+				"guesser": "🌍Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Режим для дальтоніків",
@@ -103,6 +106,9 @@
 					"title": "Пошук:"
 				},
 				"title": "Складність"
+			},
+			"streak": {
+				"label": "🌍Display Streak"
 			},
 			"keybinds": {
 				"title": "Призначення клавіш",
@@ -754,8 +760,8 @@
 					"replay": {
 						"button": "Повтор",
 						"popup": {
-							"description": "Натисніть нижче, щоб зіграти в гру знову з тими самими предметами",
-							"title": "Повторити поточну гру?"
+							"title": "Повторити поточну гру?",
+							"description": "Натисніть нижче, щоб зіграти в гру знову з тими самими предметами"
 						}
 					}
 				},
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "🌍Quick Settings",
 					"hints": "Показувати підказки щодо рецептів, що залишилися?",
 					"timer": "Додати таймер?",
 					"regenerate": "Згенерувати нову загадку",
-					"auto_craft": "Автокрафт?"
+					"auto_craft": "Автокрафт?",
+					"shadow_hint": "🌍Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "🌍Hi, need a ",
+						"hint": "🌍hint",
+						"closing": "🌍?",
+						"pointing_to_hints": "🌍You can also find these hints below!"
+					}
 				},
 				"try_editor": "Зацініть редактор!"
 			},
@@ -1059,7 +1073,6 @@
 		"planks": "Акацієві дошки",
 		"pressure_plate": "Акацієва натискна плита",
 		"sapling": "Паросток акації",
-		"shelf": "Акацієва полиця",
 		"sign": "Акацієва табличка",
 		"slab": "Акацієва плита",
 		"stairs": "Акацієві сходи",
@@ -1128,7 +1141,6 @@
 		"chorus_flower": "Квітка хорусу",
 		"chorus_plant": "Рослина хорусу",
 		"clay": "Глина",
-		"eyeblossom": "Закритий окоцвіт",
 		"coal_block": "Блок вугілля",
 		"coal_ore": "Вугільна руда",
 		"coarse_dirt": "Загрубілий ґрунт",
@@ -1142,9 +1154,7 @@
 		"conduit": "Провідник",
 		"copper_block": "Блок міді",
 		"copper_bulb": "Мідна жарівка",
-		"copper_chest": "Мідна скриня",
 		"copper_door": "Мідні двері",
-		"copper_golem_statue": "Статуя мідного ґолема",
 		"copper_grate": "Мідна решітка",
 		"copper_ore": "Мідна руда",
 		"copper_trapdoor": "Мідний люк",
@@ -1180,6 +1190,7 @@
 		"end_stone": "Камінь Енду",
 		"end_stone_bricks": "Цегла з каменю Енду",
 		"ender_chest": "Скриня Енду",
+		"eyeblossom": "Закритий окоцвіт",
 		"farmland": "Рілля",
 		"fern": "Папороть",
 		"fire": "Вогонь",
@@ -1344,7 +1355,13 @@
 		"wheat": "Урожай пшениці",
 		"wildflowers": "Польові квіти",
 		"wither_rose": "Троянда візера",
-		"golden_dandelion": "Золота кульбаба"
+		"shelf": "Акацієва полиця",
+		"copper_chest": "Мідна скриня",
+		"copper_golem_statue": "Статуя мідного ґолема",
+		"golden_dandelion": "Золота кульбаба",
+		"cinnabar": "Кіновар",
+		"sulfur": "Сірка",
+		"sulfur_spike": "Сірчаний шип"
 	},
 	"items": {
 		"boat": "Акацієвий човен",
@@ -1398,12 +1415,11 @@
 		"cooked_salmon": "Смажений лосось",
 		"cookie": "Печиво",
 		"copper_ingot": "Мідний злиток",
-		"copper_nugget": "Мідний самородок",
 		"banner_pattern": "Візерунок стяга",
 		"crossbow": "Арбалет",
-		"dye": "Бірюзовий барвник",
 		"debug_stick": "Палиця налагодження",
 		"diamond": "Діамант",
+		"dye": "Бірюзовий барвник",
 		"axe": "Діамантова сокира",
 		"boots": "Діамантові чоботи",
 		"chestplate": "Діамантовий нагрудник",
@@ -1479,7 +1495,6 @@
 		"nether_star": "Зірка Незеру",
 		"nether_wart": "Незерський наріст",
 		"netherite_ingot": "Незеритовий злиток",
-		"nautilus_armor": "Незеритові обладунки навтилуса",
 		"netherite_scrap": "Незеритовий уламок",
 		"netherite_upgrade_smithing_template": "Ковальський шаблон",
 		"ominous_bottle": "Зловісна пляшка",
@@ -1541,10 +1556,13 @@
 		"wheat_seeds": "Насіння пшениці",
 		"wind_charge": "Заряд вітру",
 		"wolf_armor": "Вовчі обладунки",
-		"spear": "Дерев'яний спис",
 		"writable_book": "Книга й перо",
 		"written_book": "Написана книга",
-		"kelp": "Ламінарія"
+		"kelp": "Ламінарія",
+		"copper_nugget": "Мідний самородок",
+		"spear": "Дерев'яний спис",
+		"nautilus_armor": "Незеритові обладунки навтилуса",
+		"sulfur_cube_bucket": "Відро із сіркокубом"
 	},
 	"mobs": {
 		"allay": "Збирик",
@@ -1556,12 +1574,10 @@
 		"bogged": "Болотяник",
 		"breeze": "Вітрень",
 		"camel": "Верблюд",
-		"camel_husk": "Верблюд-висушень",
 		"cat": "Кіт",
 		"cave_spider": "Печерний павук",
 		"chicken": "Курка",
 		"cod": "Тріска",
-		"copper_golem": "Мідний ґолем",
 		"cow": "Корова",
 		"creaking": "Скрипень",
 		"creeper": "Кріпер",
@@ -1590,10 +1606,8 @@
 		"magma_cube": "Магмокуб",
 		"mooshroom": "Мушрум",
 		"mule": "Мул",
-		"nautilus": "Навтилус",
 		"ocelot": "Оцелот",
 		"panda": "Панда",
-		"parched": "Засушень",
 		"parrot": "Папуга",
 		"phantom": "Фантом",
 		"pig": "Свиня",
@@ -1632,8 +1646,13 @@
 		"zoglin": "Зоґлін",
 		"zombie": "Зомбі",
 		"zombie_horse": "Зомбокінь",
-		"zombie_nautilus": "Зомбонавтилус",
 		"zombie_villager": "Зомбоселянин",
-		"zombified_piglin": "Зомбований піґлін"
+		"zombified_piglin": "Зомбований піґлін",
+		"copper_golem": "Мідний ґолем",
+		"camel_husk": "Верблюд-висушень",
+		"nautilus": "Навтилус",
+		"parched": "Засушень",
+		"zombie_nautilus": "Зомбонавтилус",
+		"sulfur_cube": "Сіркокуб"
 	}
 }

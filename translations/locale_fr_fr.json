@@ -63,13 +63,16 @@
 					"post_link": " Finançeurs!"
 				}
 			}
-		}
+		},
+		"disclaimer": "PAS UN PRODUIT MINECRAFT OFFICIEL. NON APPROUVÉ OU ASSOCIÉ À MOJANG OU MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "🌍General",
+				"guesser": "🌍Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Mode daltonien",
@@ -103,6 +106,9 @@
 					"title": "Recherche:"
 				},
 				"title": "Difficulté"
+			},
+			"streak": {
+				"label": "🌍Display Streak"
 			},
 			"keybinds": {
 				"title": "Raccourcis clavier",
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "🌍Quick Settings",
 					"hints": "Montrer l'indice du nombre de recettes restantes ?",
 					"timer": "Inclure un chronomètre ?",
 					"regenerate": "Générer une nouvelle énigme",
-					"auto_craft": "Fabrication automatique ?"
+					"auto_craft": "Fabrication automatique ?",
+					"shadow_hint": "🌍Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "🌍Hi, need a ",
+						"hint": "🌍hint",
+						"closing": "🌍?",
+						"pointing_to_hints": "🌍You can also find these hints below!"
+					}
 				},
 				"try_editor": "Essaie l'éditeur !"
 			},
@@ -1344,7 +1358,10 @@
 		"shelf": "Étagère",
 		"copper_chest": "Coffre en cuivre",
 		"copper_golem_statue": "Statue de golem de cuivre",
-		"golden_dandelion": "Pissenlit doré"
+		"golden_dandelion": "Pissenlit doré",
+		"cinnabar": "Cinabre",
+		"sulfur": "Soufre",
+		"sulfur_spike": "Pointe de soufre"
 	},
 	"items": {
 		"boat": "Bateau",
@@ -1544,7 +1561,8 @@
 		"kelp": "Algue",
 		"copper_nugget": "Pépite de cuivre",
 		"spear": "Lance",
-		"nautilus_armor": "Armure pour nautile"
+		"nautilus_armor": "Armure pour nautile",
+		"sulfur_cube_bucket": "Cube de soufre dans un seau"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1634,6 +1652,7 @@
 		"camel_husk": "Dromadaire momifié",
 		"nautilus": "Nautile",
 		"parched": "Desséché",
-		"zombie_nautilus": "Nautile-zombie"
+		"zombie_nautilus": "Nautile-zombie",
+		"sulfur_cube": "Cube de soufre"
 	}
 }

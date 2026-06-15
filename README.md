@@ -19,6 +19,8 @@ This repo contains the translations of MCdle. I will keep english and german up 
 | Russian                | ✅️         | ❌       | [<img src="https://avatars.githubusercontent.com/u/76114168?s=64&v=4" alt="thenml" width="64"/>](https://github.com/thenml)                                                                                                                                    |
 | Ukrainian              | ✅️         | ❌       | [<img src="https://avatars.githubusercontent.com/u/100997976?s=64&v=4" alt="krakitynsk" width="64"/>](https://github.com/krakitynsk)                                                                                                                           |
 | Hungarian              | ✅         | ❌       | [![Zan1456](https://avatars.githubusercontent.com/u/62830223?s=64&v=4)](https://github.com/zan1456)                                                                                                                                                            |
+| Simplified Chinese     | ✅         | ❌       | [<img src="https://avatars.githubusercontent.com/u/272180470?s=80&u=97127c223e2c8118eac05e11a56a2c6c9913576f&v=4" alt="rangarain88" width="64"/>](https://github.com/rangarain88)                                                                              |
+| Catalan                | ✅         | ❌       | [<img src="https://avatars.githubusercontent.com/u/187427929?s=64&v=4" alt="berni0057" width="64"/>](https://github.com/berni0057)                                                                                                                             |
 
 ## Contributing
 

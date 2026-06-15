@@ -63,13 +63,16 @@
 					"post_link": "Wspierającym!"
 				}
 			}
-		}
+		},
+		"disclaimer": "TO NIE JEST OFICJALNY PRODUKT MINECRAFT. NIEZATWIERDZONE i NIEZWIĄZANE Z MOJANG ANI MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "🌍Mcdle",
-				"crafting_bee": "🌍Crafting Bee"
+				"crafting_bee": "🌍Crafting Bee",
+				"general": "🌍General",
+				"guesser": "🌍Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Tryb dla daltonistów",
@@ -103,6 +106,9 @@
 					"title": "Wyszukiwanie:"
 				},
 				"title": "Trudność"
+			},
+			"streak": {
+				"label": "🌍Display Streak"
 			},
 			"keybinds": {
 				"title": "🌍Key bindings",
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "🌍Quick Settings",
 					"hints": "🌍Show remaining recipe hints?",
 					"timer": "🌍Include timer?",
 					"regenerate": "🌍Generate new Riddle",
-					"auto_craft": "🌍Auto craft?"
+					"auto_craft": "🌍Auto craft?",
+					"shadow_hint": "🌍Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "🌍Hi, need a ",
+						"hint": "🌍hint",
+						"closing": "🌍?",
+						"pointing_to_hints": "🌍You can also find these hints below!"
+					}
 				},
 				"try_editor": "🌍Check out the editor!"
 			},
@@ -1344,7 +1358,10 @@
 		"shelf": "Akacjowa półka TODO",
 		"copper_chest": "Miedziana skrzynia",
 		"copper_golem_statue": "Posąg miedzianego golema",
-		"golden_dandelion": "Złoty mlecz"
+		"golden_dandelion": "Złoty mlecz",
+		"cinnabar": "Cynober",
+		"sulfur": "Siarka",
+		"sulfur_spike": "Siarkowy kolec"
 	},
 	"items": {
 		"boat": "Łódka",
@@ -1544,7 +1561,8 @@
 		"kelp": "Wodorost",
 		"copper_nugget": "Bryłka miedzi",
 		"spear": "Drewniana włócznia TODO",
-		"nautilus_armor": "Netherytowa zbroja łodzika TODO"
+		"nautilus_armor": "Netherytowa zbroja łodzika TODO",
+		"sulfur_cube_bucket": "Wiadro z kostką siarki"
 	},
 	"mobs": {
 		"allay": "Otuszek",
@@ -1634,6 +1652,7 @@
 		"camel_husk": "Wielbłąd-posuch",
 		"nautilus": "Łodzik",
 		"parched": "Oschlak",
-		"zombie_nautilus": "Łodzik-zombie"
+		"zombie_nautilus": "Łodzik-zombie",
+		"sulfur_cube": "Kostka siarki"
 	}
 }

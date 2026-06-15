@@ -63,13 +63,16 @@
 					"post_link": " col·laboradors!"
 				}
 			}
-		}
+		},
+		"disclaimer": "🌍NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "MCdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "🌍General",
+				"guesser": "🌍Mob, Block, and Item Guesser"
 			},
 			"colorblind": {
 				"input_name": "Mode daltonisme",
@@ -103,6 +106,9 @@
 					"title": "Buscar:"
 				},
 				"title": "Dificultat"
+			},
+			"streak": {
+				"label": "🌍Display Streak"
 			},
 			"keybinds": {
 				"title": "Tecles",
@@ -373,7 +379,7 @@
 					"use_the_wiki": "Sigues lliure d'usar la Wiki de Minecraft. Tan aviat determinis la versió del bloc, pots usar la wiki per a veure quins blocs es van afegir en aquella versió, la qual cosa reduirà dràsticament la teva cerca."
 				}
 			}
-		}, 
+		},
 		"item": {
 			"title": "Mode de joc: Endevina l'objecte d'avui!",
 			"sub_title_menus": {
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "🌍Quick Settings",
 					"hints": "Mostrar pistes de receptes restants?",
 					"timer": "Incloure temporizador?",
 					"regenerate": "Generar nova endevinalla",
-					"auto_craft": "Auto elaborar?"
+					"auto_craft": "Auto elaborar?",
+					"shadow_hint": "🌍Show Silhouettes hint?",
+					"hint_popup": {
+						"greeting": "🌍Hi, need a ",
+						"hint": "🌍hint",
+						"closing": "🌍?",
+						"pointing_to_hints": "🌍You can also find these hints below!"
+					}
 				},
 				"try_editor": "Prova l'editor!"
 			},
@@ -1059,7 +1073,6 @@
 		"planks": "Fusta d'acàcia",
 		"pressure_plate": "Placa de pressió d'acàcia",
 		"sapling": "Esqueix d'acàcia",
-		"shelf": "Prestatge d'acàcia",
 		"sign": "Cartell d'acàcia",
 		"slab": "Llosa d'acàcia",
 		"stairs": "Escales d'acàcia",
@@ -1128,7 +1141,6 @@
 		"chorus_flower": "Flor de tornada",
 		"chorus_plant": "Planta de tornada",
 		"clay": "Argila",
-		"eyeblossom": "Iridàcia tancada",
 		"coal_block": "Bloc de carbó",
 		"coal_ore": "Mena de carbó",
 		"coarse_dirt": "Terra seca",
@@ -1142,9 +1154,7 @@
 		"conduit": "Canalitzador",
 		"copper_block": "Bloc de coure",
 		"copper_bulb": "Bombeta de coure",
-		"copper_chest": "Bagul de coure",
 		"copper_door": "Porta de coure",
-		"copper_golem_statue": "Estàtua de Gòlem de Coure",
 		"copper_grate": "Reixa de coure",
 		"copper_ore": "Mena de coure",
 		"copper_trapdoor": "Trapa de coure",
@@ -1180,6 +1190,7 @@
 		"end_stone": "Roca de l'End",
 		"end_stone_bricks": "Maons de roca de l'End",
 		"ender_chest": "Cofre d'Ender",
+		"eyeblossom": "Iridàcia tancada",
 		"farmland": "Terra de cultiu",
 		"fern": "Falguera",
 		"fire": "Foc",
@@ -1192,7 +1203,6 @@
 		"glowstone": "Roca brillant",
 		"gold_block": "Bloc d'or",
 		"gold_ore": "Mena d'or",
-		"golden_dandelion": "Dent de lleó daurat",
 		"granite": "Granit",
 		"grass_block": "Bloc d'herba",
 		"gravel": "Grava",
@@ -1344,7 +1354,14 @@
 		"weeping_vines": "Lianes ploroses",
 		"wheat": "Cultiu de blat",
 		"wildflowers": "Flors silvestres",
-		"wither_rose": "Rosa de wither"
+		"wither_rose": "Rosa de wither",
+		"shelf": "Prestatge d'acàcia",
+		"copper_chest": "Bagul de coure",
+		"copper_golem_statue": "Estàtua de Gòlem de Coure",
+		"golden_dandelion": "Dent de lleó daurat",
+		"cinnabar": "Cinabri",
+		"sulfur": "Sofre",
+		"sulfur_spike": "Pics de sofre"
 	},
 	"items": {
 		"boat": "Barca d'acàcia",
@@ -1398,12 +1415,11 @@
 		"cooked_salmon": "Salmó cuit",
 		"cookie": "Galeta",
 		"copper_ingot": "Lingot de coure",
-		"copper_nugget": "Grànul de coure",
 		"banner_pattern": "Patró de creeper",
 		"crossbow": "Ballesta",
-		"dye": "Tint cian",
 		"debug_stick": "Pal de proves",
 		"diamond": "Diamant",
+		"dye": "Tint cian",
 		"axe": "Destral de diamant",
 		"boots": "Botes de diamant",
 		"chestplate": "Cuirassa de diamant",
@@ -1479,7 +1495,6 @@
 		"nether_star": "Estrella del Nether",
 		"nether_wart": "Berruga del Nether",
 		"netherite_ingot": "Lingot de netherita",
-		"nautilus_armor": "Armadura de Nautilus de netherita",
 		"netherite_scrap": "Ferralla de netherita",
 		"netherite_upgrade_smithing_template": "Patró de ferreria",
 		"ominous_bottle": "Ampolla ominosa",
@@ -1541,10 +1556,13 @@
 		"wheat_seeds": "Llavors de blat",
 		"wind_charge": "Càrrega Ventosa",
 		"wolf_armor": "Armadura de llop",
-		"spear": "Llança de fusta",
 		"writable_book": "Llibre i tinter",
 		"written_book": "Llibre escrit",
-		"kelp": "Alga"
+		"kelp": "Alga",
+		"copper_nugget": "Grànul de coure",
+		"spear": "Llança de fusta",
+		"nautilus_armor": "Armadura de Nautilus de netherita",
+		"sulfur_cube_bucket": "Galleda amb cub de sofre"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1556,12 +1574,10 @@
 		"bogged": "Aiguamoll",
 		"breeze": "Brisa",
 		"camel": "Dromedari",
-		"camel_husk": "Pell de camell",
 		"cat": "Gat",
 		"cave_spider": "Aranya de cova",
 		"chicken": "Pollastre",
 		"cod": "Bacallà",
-		"copper_golem": "Gòlem de coure",
 		"cow": "Vaca",
 		"creaking": "Cruixidor",
 		"creeper": "Creeper",
@@ -1590,10 +1606,8 @@
 		"magma_cube": "Cub de magma",
 		"mooshroom": "Mooshroom",
 		"mule": "Mula",
-		"nautilus": "Nautilus",
 		"ocelot": "Ocelot",
 		"panda": "Panda",
-		"parched": "Assedegat",
 		"parrot": "Lloro",
 		"phantom": "Fantasma",
 		"pig": "Porc",
@@ -1632,8 +1646,13 @@
 		"zoglin": "Zoglin",
 		"zombie": "Zombi",
 		"zombie_horse": "Cavall zombi",
-		"zombie_nautilus": "Zombie Nautilus",
 		"zombie_villager": "Vilatà zombi",
-		"zombified_piglin": "Piglin zombificat"
+		"zombified_piglin": "Piglin zombificat",
+		"copper_golem": "Gòlem de coure",
+		"camel_husk": "Pell de camell",
+		"nautilus": "Nautilus",
+		"parched": "Assedegat",
+		"zombie_nautilus": "Zombie Nautilus",
+		"sulfur_cube": "Cub de Sofre"
 	}
 }
