@@ -500,7 +500,7 @@
 				"example": {
 					"title": "Exemple",
 					"intro": "Vegem un exemple. Primer provarem un objecte a l'atzar.",
-					"table_interpretation_1": "Veiem que l'objecte, a l'igul  que la majoria és stackeable en 64. És posterior a la Beta 1.2, Té raresa Comuna, és renovable i hi ha almenys 5 usos per a ell, i menys de 6 maneres d'obtindre-ho, d'acord amb la Wiki de Minecraft. Fins i tot, no és usat en el món ni en crafteos. Provem un objecte diferent.",
+					"table_interpretation_1": "Veiem que l'objecte, a l'igul  que la majoria és stackeable en 64. És posterior a la Beta 1.2, Té raresa Comuna, és renovable, no es pot craftejar i no es pot saquejar en cofres o assalts de villes, d'acord amb la Wiki de Minecraft. Fins i tot, no és usat en el món ni en crafteos. Provem un objecte diferent.",
 					"table_interpretation_2": "Descobrim que és d'una versió més recent! Vegem un objecte de la Beta 1.8 que està en la categoria \"use\" d'acord amb la wiki de Minecraft. Necessitem un objecte que coincidisca amb la quantitat d'usos i maneres d'obtindre.",
 					"table_interpretation_3": "Ací està! Descobrim que l'objecte era la rodanxa de meló d'Alger, que divertit!"
 				},
