@@ -64,15 +64,15 @@
 				}
 			}
 		},
-		"disclaimer": "🌍NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT"
+		"disclaimer": "NO ES UN PRODUCTE OFICIAL DE MINECRAFT. NO APROVAT NI ASSOCIAT A MOJANG NI A MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
 				"crafting_bee": "Crafting Bee",
-				"general": "🌍General",
-				"guesser": "🌍Mob, Block, and Item Guesser"
+				"general": "General",
+				"guesser": "Endevinalles de Criatura, Bloque, i Objecte"
 			},
 			"colorblind": {
 				"input_name": "Mode daltonisme",
@@ -108,7 +108,7 @@
 				"title": "Dificultat"
 			},
 			"streak": {
-				"label": "🌍Display Streak"
+				"label": "Mostrar ratxa"
 			},
 			"keybinds": {
 				"title": "Tecles",
@@ -777,17 +777,17 @@
 					}
 				},
 				"quick_settings": {
-					"title": "🌍Quick Settings",
+					"title": "Opcions ràpides",
 					"hints": "Mostrar pistes de receptes restants?",
 					"timer": "Incluir temporizador?",
 					"regenerate": "Generar nova endevinalla",
 					"auto_craft": "Auto craftear?",
-					"shadow_hint": "🌍Show Silhouettes hint?",
+					"shadow_hint": "Mostrar pistes de siluetes?",
 					"hint_popup": {
-						"greeting": "🌍Hi, need a ",
-						"hint": "🌍hint",
-						"closing": "🌍?",
-						"pointing_to_hints": "🌍You can also find these hints below!"
+						"greeting": "Hola, necessite una ",
+						"hint": "pista",
+						"closing": "?",
+						"pointing_to_hints": "També pots trobar aquestes pistes avall!"
 					}
 				},
 				"try_editor": "Prova l'editor!"

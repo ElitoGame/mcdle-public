@@ -11,7 +11,7 @@
 		"about": {
 			"title": "Acerca de",
 			"button_title": "Acerca de",
-			"intro": "Mcdle es un juego tipo puzzle al estilo Wordle sobre contenido de Minecraft. Cada día, un nuevo bloque, objeto y criatura de Minecraft es elegido y debes adivinarlo. Regresa diariamente para aumentar tu racha de aciertos! Existe un servidor de Discord donde puedes compartir con tus amigos tus aciertos y rachas!",
+			"intro": "MCdle es un juego tipo puzzle al estilo Wordle sobre contenido de Minecraft. Cada día, un nuevo bloque, objeto, criatura de Minecraft y set de 7 objeto es elegido, y debes adivinar el bloque, objeto o criatura del día, y todas las recetas posibles con los 7 objetos que se te dan. Regresa diariamente para aumentar tu racha de aciertos! Existe un servidor de Discord donde puedes compartir con tus amigos tus aciertos y rachas!",
 			"help_pointer": "Cómo jugar? En cada juego hay un símbolo ? debajo del título, el cual abre una ventana de ayuda con ejemplos y descripciones detalladas del modo de juego en el que estás.",
 			"suggestions": {
 				"title": "Sugerencias",
@@ -24,7 +24,7 @@
 			"support": {
 				"title": "Apóyanos",
 				"description": {
-					"pre_link": "Si tu quieres apoyar el proyecto (ej. pagar por la url, apoyar nuevas características, etc), revisa mi ",
+					"pre_link": "Si quieres apoyar el proyecto (ej. pagar por la url, apoyar nuevas características, etc), revisa mi ",
 					"link": "Ko-fi",
 					"post_link": "!"
 				}
@@ -54,7 +54,7 @@
 			},
 			"version": {
 				"title": "Versión",
-				"description": "Actualmente la versión del juego es la #{{version}}! El juego elegirá un nuevo bloque, objeto y criatura cada día a medianoche en horario UTC."
+				"description": "Actualmente la versión del juego es la #{{version}}! El juego elegirá un nuevo bloque, objeto, criatura y set de 7 objetos cada día a medianoche en horario UTC."
 			},
 			"supporters": {
 				"title": "Colaboradores",
@@ -71,8 +71,8 @@
 			"headers": {
 				"mcdle": "Mcdle",
 				"crafting_bee": "Crafting Bee",
-				"general": "🌍General",
-				"guesser": "🌍Mob, Block, and Item Guesser"
+				"general": "General",
+				"guesser": "Adivinanzas de Criatura, Bloque, y Objeto"
 			},
 			"colorblind": {
 				"input_name": "Modo daltonismo",
@@ -85,7 +85,7 @@
 				},
 				"search": {
 					"game_knowledge": {
-						"input_name": "conocimiento del juego",
+						"input_name": "Conocimiento del juego",
 						"label": "Conocimiento del juego"
 					},
 					"logical": {
@@ -108,7 +108,7 @@
 				"title": "Dificultad"
 			},
 			"streak": {
-				"label": "🌍Display Streak"
+				"label": "Mostrar racha"
 			},
 			"keybinds": {
 				"title": "Teclas",
@@ -225,7 +225,7 @@
 				},
 				"crafting": {
 					"image_alt": "Ícono de Crafting Bee",
-					"subtitle": "¿Sabes las recetas?",
+					"subtitle": "¿Te sabes las recetas?",
 					"title": "Crafting Bee"
 				},
 				"goal": {
@@ -240,7 +240,7 @@
 				"kineticraft": {
 					"title": "Juega infinitamente en kineticraft.net",
 					"image_alt": "Ícono de Kineticraft",
-					"subtitle": "Los modos de juego Mob, Bloque y Objeto pueden ser jugados sin tiempo de espera, pero tienes que encontrarlos en el mundo! /mcdle"
+					"subtitle": "Los modos de juego Criatura, Bloque y Objeto pueden ser jugados sin tiempo de espera, pero tienes que encontrarlos en el mundo! /mcdle"
 				}
 			}
 		},
@@ -274,18 +274,18 @@
 			"table": {
 				"header": {
 					"title": "Bloque",
-					"initial_release": "Lanza<wbr>miento",
+					"initial_release": "Lanza-<wbr>miento",
 					"stack_size": "Tamaño de stack",
-					"tool": "Herra<wbr>mienta(s)",
-					"blast_resistance": "Resis<wbr>tencia a las explo<wbr>siones",
+					"tool": "Herra-<wbr>mienta(s)",
+					"blast_resistance": "Resis-<wbr>tencia a las explo-<wbr>siones",
 					"hardness": "Dureza",
-					"flammable": "Infla<wbr>mable",
-					"transparent": "Transpa<wbr>rente",
+					"flammable": "Infla-<wbr>mable",
+					"transparent": "Transpa-<wbr>rente",
 					"full_block": "Bloque completo"
 				},
 				"data": {
 					"tool": {
-						"any_tool": "Cual-quier",
+						"any_tool": "Cual-quiera",
 						"axe": "Hacha",
 						"pickaxe": "Pico",
 						"hoe": "Azada",
@@ -338,7 +338,7 @@
 				}
 			},
 			"midnight_timer": {
-				"next_thing": "Recarga la página para obtener la nueva!",
+				"next_thing": "Recarga la página para obtener el nuevo bloque a adivinar!",
 				"next_in": "Siguiente bloque en {{time}}"
 			},
 			"yesterday_info": {
@@ -363,7 +363,7 @@
 				"example": {
 					"title": "Ejemplo",
 					"intro": "Veamos un ejemplo. Primero probaremos un bloque al azar.",
-					"table_interpretation_1": "Vemos que el bloque, al igual que la mayoría, es stackeable de 64, y no es inflamable. No es un bloque de la Pre-Alpha y puede ser minado con un Pico. Así que probamos con un bloque, nuevo, diferente.",
+					"table_interpretation_1": "Vemos que el bloque, al igual que la mayoría, es stackeable de 64, y no es inflamable. No es un bloque de la Pre-Alpha y puede ser minado con un Pico. Así que probamos con un bloque, nuevo, y diferente.",
 					"table_interpretation_2": "Descubrimos la versión del bloque! Probemos un bloque de la Beta 1.8. Adicionalmente, tenemos una coincidencia parcial con la herramienta, que puede romperse tanto con un Hacha como con otra herramienta. También, el bloque tampoco es transparente (\"Sí\") ni no transparente (\"No\"), así que debe ser parcialmente transparente. Así que veamos un bloque que tenga estas características.",
 					"table_interpretation_3": "Aquí está! Descubrimos que el bloque era el bloque de sandía, que delícia!"
 				},
@@ -374,7 +374,7 @@
 				},
 				"tips": {
 					"title": "Consejos",
-					"not_all_blocks": "MCdle no contiene cada tipo de bloque. Todas las variantes de color de terracota, concreto, lana, etc. están unidos en uno tal como \"Concreto\" o \"Lana\". Esto se atribuye también a las variantes de cada escaleras de cualquier madera, muros, escaleras, etc.",
+					"not_all_blocks": "MCdle no contiene cada tipo de bloque. Todas las variantes de color de terracota, concreto, lana, etc. están unidos en uno tal como \"Concreto\" o \"Lana\". Esto se atribuye también a las variantes de cada escalera de cualquier madera, muros, escaleras, etc.",
 					"utilize_the_search": "Haz un buen uso de la barra de búsqueda! Con las sugerencias irás reduciendo tu búsqueda.",
 					"use_the_wiki": "Siéntete libre de usar la Wiki de Minecraft. Tan pronto determines la versión del bloque, puedes usar la wiki para ver que bloques se añadieron en esa versión, lo cual reducirá drásticamente tu búsqueda."
 				}
@@ -401,14 +401,12 @@
 			"table": {
 				"header": {
 					"title": "Objeto",
-					"initial_release": "Lanza<wbr>miento",
+					"initial_release": "Lanza-<wbr>miento",
 					"stack_size": "Tamaño de stack",
 					"rarity": "Rareza",
-					"inventory_categories": "Acción",
-					"renewable": "Reno<wbr>vable",
-					"usage": "Número de usos",
-					"source": "Número de fuentes",
-					"recipe": "Receta",
+					"inventory_categories": "Categoría en creativo",
+					"renewable": "Reno-<wbr>vable",
+					"recipe": "Fabricable en",
 					"loot": "Botín"
 				},
 				"data": {
@@ -481,7 +479,7 @@
 				}
 			},
 			"midnight_timer": {
-				"next_thing": "Recarga la página para obtener la nueva!",
+				"next_thing": "Recarga la página para obtener el nuevo objeto a adivinar!",
 				"next_in": "Siguiente objeto en {{time}}"
 			},
 			"yesterday_info": {
@@ -506,21 +504,21 @@
 				"example": {
 					"title": "Ejemplo",
 					"intro": "Veamos un ejemplo. Primero probaremos un objeto al azar.",
-					"table_interpretation_1": "Vemos que el objeto, al igual que la mayoría es stackeable en 64. Es posterior a la Beta 1.2, Tiene rareza Común, es renovable, no es crafteable y no se puede saquear en cofres o asaltos de aldeas, de acuerdo con la Wiki de Minecraft. Incluso, no es usado en el mundo ni en crafteos. Probemos un objeto diferente.",
-					"table_interpretation_2": "Descubrimos que es de una versión más reciente! Veamos un objeto de la Beta 1.8 que está en la categoría \"uso\" de acuerdo con la wiki de Minecraft. Necesitamos un objeto que coincida con la cantidad de usos y maneras de obtener.",
+					"table_interpretation_1": "Vemos que el objeto, al igual que la mayoría es stackeable en 64. Es posterior a la Beta 1.2, tiene rareza Común, es renovable, no es crafteable y no se puede saquear en cofres o asaltos de aldeas, de acuerdo con la Wiki de Minecraft. Probemos un objeto diferente.",
+					"table_interpretation_2": "Descubrimos que es de una versión más reciente! Veamos un objeto de la Beta 1.8 que está en la categoría \"Comidas y bebidas\" de acuerdo con la wiki de Minecraft. Necesitamos un objeto que coincida con dicha categoría.",
 					"table_interpretation_3": "Aquí está! Descubrimos que el objeto era la rodaja de sandía, que divertido!"
 				},
 				"partial_matches": {
 					"title": "Explicación de la coincidencia parcial",
 					"intro": "Miremos las coincidencias parciales en detalle, porque estos son, probablemente, los campos de color más confusos.",
-					"explanation": "Una coincidencia parcial solo puede aparecer si el campo consta de una lista (ej. Acción). Si lo intentas con un objeto con al menos una acción que coincida con el objeto, obtendrás una coincidencia parcial. Aquí hay un ejemplo con el lapis:"
+					"explanation": "Una coincidencia parcial solo puede aparecer si el campo consta de una lista (ej. Categoría en creativo). Si lo intentas con un objeto con al menos una categoría del creativo que coincida con el objeto, obtendrás una coincidencia parcial. Aquí hay un ejemplo con el hilo:"
 				},
 				"tips": {
 					"title": "Consejos",
 					"not_all_items": "MCdle no contiene cada tipo de objeto. La lista procede de la wiki de Minecraft y no contiene el objeto de varios bloques u objetos demasiado similares, como todas las variantes de armaduras/herramientas.",
 					"utilize_the_search": "Haz un buen uso de la barra de búsqueda! Con las sugerencias irás reduciendo tu búsqueda.",
-					"use_the_wiki": "Siéntete libre de usar la Wiki de Minecraft. Tan pronto determines la versión del objeto, puedes usar la wiki para ver que objetos se añadieron en esa versión, lo cual reducirá drásticamente tu búsqueda.",
-					"usage_and_source_explanation": "Si sientes curiosidad sobre cómo se calculan los números de usos/número de fuentes, revisa la página del objeto en la wiki y baja hasta \"Obtención\" y \"Usos\". Las cabeceras de estas secciones han sido usadas para contar sus diferentes usos. Si están perdidas, yo, el desarrollador, las añado manualmente."
+					"use_the_wiki": "Siéntete libre de usar la Wiki de Minecraft. Tan pronto determines la versión del objeto, puedes usar la wiki para ver qué objetos se añadieron en esa versión, lo cual reducirá drásticamente tu búsqueda.",
+					"usage_and_source_explanation": "Si te confunde los diferentes íconos de mesas que ves aparecer en \"Fabricable en\", estos lo que hacen es indicarte en qué mesas de trabajo puedes fabricar el objeto. Un ícono de mesa de crafteo significa que el objeto es fabricable en una mesa de crafteo, un ícono de horno significa que el objeto es fabricable en un horno, y un ícono de soporte de pociones significa que el objeto es fabricable en un soporte de pociones. Si por lo contrario, aparece un ícono de Barrera, significa que el objeto no es fabricable en ninguna mesa de trabajo. Lo mismo aplica para la sección de \"Botín\". Un ícono de cofre significa que el objeto puede ser encontrado en cofres, un ícono de criatura significa que el objeto puede ser soltado por criaturas, un ícono de caña de pescar significa que el objeto puede ser pescado, un ícono de aldeano significa que el objeto puede ser comerciado con aldeanos, y un ícono de Barrera significa que el objeto no puede ser obtenido por ninguna de estas formas, y solo puede ser obtenido por otras formas como generación en el mundo o crafteo."
 				}
 			}
 		},
@@ -777,17 +775,17 @@
 					}
 				},
 				"quick_settings": {
-					"title": "🌍Quick Settings",
+					"title": "Ajustes rápidos",
 					"hints": "Mostrar pistas de recetas faltantes?",
 					"timer": "Incluir temporalizador?",
 					"regenerate": "Generar nuevo acertijo",
 					"auto_craft": "Auto craftear?",
-					"shadow_hint": "🌍Show Silhouettes hint?",
+					"shadow_hint": "¿Mostrar pistas de siluetas?",
 					"hint_popup": {
-						"greeting": "🌍Hi, need a ",
-						"hint": "🌍hint",
-						"closing": "🌍?",
-						"pointing_to_hints": "🌍You can also find these hints below!"
+						"greeting": "Hola, necesito una ",
+						"hint": "pista",
+						"closing": "?",
+						"pointing_to_hints": "¡También puedes encontrar estas pistas abajo!"
 					}
 				},
 				"try_editor": "Héchale un vistazo al editor!"
