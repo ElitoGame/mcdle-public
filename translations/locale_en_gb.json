@@ -1361,7 +1361,9 @@
 		"golden_dandelion": "Golden Dandelion",
 		"cinnabar": "Cinnabar",
 		"sulfur": "Sulphur",
-		"sulfur_spike": "Sulphur Spike"
+		"sulfur_spike": "Sulphur Spike",
+		"shelf_mushroom": "Shelf Mushroom",
+		"straw_bed": "Straw Bed"
 	},
 	"items": {
 		"boat": "Boat",
@@ -1562,7 +1564,10 @@
 		"copper_nugget": "Copper Nugget",
 		"spear": "Spear",
 		"nautilus_armor": "Nautilus Armour",
-		"sulfur_cube_bucket": "Bucket of Sulphur Cube"
+		"sulfur_cube_bucket": "Bucket of Sulphur Cube",
+		"cushion": "Cushion",
+		"explorer_map": "Explorer Map",
+		"straw_bed": "Straw Bed"
 	},
 	"mobs": {
 		"allay": "Allay",

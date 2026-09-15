@@ -1361,7 +1361,9 @@
 		"golden_dandelion": "Pissenlit doré",
 		"cinnabar": "Cinabre",
 		"sulfur": "Soufre",
-		"sulfur_spike": "Pointe de soufre"
+		"sulfur_spike": "Pointe de soufre",
+		"shelf_mushroom": "Polypore",
+		"straw_bed": "Lit de paille"
 	},
 	"items": {
 		"boat": "Bateau",
@@ -1562,7 +1564,10 @@
 		"copper_nugget": "Pépite de cuivre",
 		"spear": "Lance",
 		"nautilus_armor": "Armure pour nautile",
-		"sulfur_cube_bucket": "Cube de soufre dans un seau"
+		"sulfur_cube_bucket": "Cube de soufre dans un seau",
+		"cushion": "Coussin",
+		"explorer_map": "Carte d'exploration",
+		"straw_bed": "Lit de paille"
 	},
 	"mobs": {
 		"allay": "Allay",

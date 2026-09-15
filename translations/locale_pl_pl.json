@@ -1361,7 +1361,9 @@
 		"golden_dandelion": "Złoty mlecz",
 		"cinnabar": "Cynober",
 		"sulfur": "Siarka",
-		"sulfur_spike": "Siarkowy kolec"
+		"sulfur_spike": "Siarkowy kolec",
+		"shelf_mushroom": "Huba",
+		"straw_bed": "Słomiane łóżko"
 	},
 	"items": {
 		"boat": "Łódka",
@@ -1562,7 +1564,10 @@
 		"copper_nugget": "Bryłka miedzi",
 		"spear": "Drewniana włócznia TODO",
 		"nautilus_armor": "Netherytowa zbroja łodzika TODO",
-		"sulfur_cube_bucket": "Wiadro z kostką siarki"
+		"sulfur_cube_bucket": "Wiadro z kostką siarki",
+		"cushion": "Czarna poduszka TODO",
+		"explorer_map": "Mapa eksploracyjna do bagien TODO",
+		"straw_bed": "Słomiane łóżko"
 	},
 	"mobs": {
 		"allay": "Otuszek",

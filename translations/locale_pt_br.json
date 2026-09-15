@@ -1361,7 +1361,9 @@
 		"golden_dandelion": "Dente-de-Leão Dourado",
 		"cinnabar": "Cinábrio",
 		"sulfur": "Enxofre",
-		"sulfur_spike": "Espeleotema de Enxofre"
+		"sulfur_spike": "Espeleotema de Enxofre",
+		"shelf_mushroom": "Políporo",
+		"straw_bed": "Cama de Palha"
 	},
 	"items": {
 		"boat": "Bote",
@@ -1562,7 +1564,10 @@
 		"copper_nugget": "Pepita de Cobre",
 		"spear": "Lança de Madeira TODO",
 		"nautilus_armor": "Armadura de Netherita para Náutilo TODO",
-		"sulfur_cube_bucket": "Balde com Cubo de Enxofre"
+		"sulfur_cube_bucket": "Balde com Cubo de Enxofre",
+		"cushion": "Almofada Preta TODO",
+		"explorer_map": "Mapa de Exploração do Pântano TODO",
+		"straw_bed": "Cama de Palha"
 	},
 	"mobs": {
 		"allay": "Allay",

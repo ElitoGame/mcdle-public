@@ -1361,7 +1361,9 @@
 		"golden_dandelion": "Goldlöwenzahn",
 		"cinnabar": "Zinnober",
 		"sulfur": "Schwefelblock",
-		"sulfur_spike": "Schwefelzapfen"
+		"sulfur_spike": "Schwefelzapfen",
+		"shelf_mushroom": "Baumpilz",
+		"straw_bed": "Strohbett"
 	},
 	"items": {
 		"boat": "Holzboot",
@@ -1562,7 +1564,10 @@
 		"copper_nugget": "Kupferklumpen",
 		"spear": "Speer",
 		"nautilus_armor": "Nautiluspanzer",
-		"sulfur_cube_bucket": "Schwefelwürfeleimer"
+		"sulfur_cube_bucket": "Schwefelwürfeleimer",
+		"cushion": "Kissen",
+		"explorer_map": "Entdeckerkarte",
+		"straw_bed": "Strohbett"
 	},
 	"mobs": {
 		"allay": "Hilfsgeist",

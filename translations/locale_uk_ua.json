@@ -1361,7 +1361,9 @@
 		"golden_dandelion": "Золота кульбаба",
 		"cinnabar": "Кіновар",
 		"sulfur": "Сірка",
-		"sulfur_spike": "Сірчаний шип"
+		"sulfur_spike": "Сірчаний шип",
+		"shelf_mushroom": "Трутовик",
+		"straw_bed": "Солом'яне ліжко"
 	},
 	"items": {
 		"boat": "Акацієвий човен",
@@ -1562,7 +1564,10 @@
 		"copper_nugget": "Мідний самородок",
 		"spear": "Дерев'яний спис",
 		"nautilus_armor": "Незеритові обладунки навтилуса",
-		"sulfur_cube_bucket": "Відро із сіркокубом"
+		"sulfur_cube_bucket": "Відро із сіркокубом",
+		"cushion": "Чорна подушка TODO",
+		"explorer_map": "Мапа дослідника болота TODO",
+		"straw_bed": "Солом'яне ліжко"
 	},
 	"mobs": {
 		"allay": "Збирик",

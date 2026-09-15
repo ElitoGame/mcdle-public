@@ -1361,7 +1361,9 @@
 		"golden_dandelion": "Золотой одуванчик",
 		"cinnabar": "Киноварь",
 		"sulfur": "Сера",
-		"sulfur_spike": "Серный шип"
+		"sulfur_spike": "Серный шип",
+		"shelf_mushroom": "Трутовик",
+		"straw_bed": "Соломенная кровать"
 	},
 	"items": {
 		"boat": "Лодка",
@@ -1562,7 +1564,10 @@
 		"copper_nugget": "Кусочек меди",
 		"spear": "Копьё",
 		"nautilus_armor": "Броня наутилуса",
-		"sulfur_cube_bucket": "Серный куб в ведре"
+		"sulfur_cube_bucket": "Серный куб в ведре",
+		"cushion": "Чёрная подушка TODO",
+		"explorer_map": "Карта исследователя болот TODO",
+		"straw_bed": "Соломенная кровать"
 	},
 	"mobs": {
 		"allay": "Тихоня",

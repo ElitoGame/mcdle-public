@@ -1361,7 +1361,9 @@
 		"golden_dandelion": "Aranypitypang",
 		"cinnabar": "Cinóber",
 		"sulfur": "Kén",
-		"sulfur_spike": "Kéntüske"
+		"sulfur_spike": "Kéntüske",
+		"shelf_mushroom": "Taplógomba",
+		"straw_bed": "Szalmaágy"
 	},
 	"items": {
 		"boat": "Akáciafa csónak",
@@ -1562,7 +1564,10 @@
 		"copper_nugget": "Rézrög",
 		"spear": "Falándzsa",
 		"nautilus_armor": "Netherit nautiluszpáncél",
-		"sulfur_cube_bucket": "Kénkocka vödörben"
+		"sulfur_cube_bucket": "Kénkocka vödörben",
+		"cushion": "Fekete párna TODO",
+		"explorer_map": "Mocsári kunyhó térképe TODO",
+		"straw_bed": "Szalmaágy"
 	},
 	"mobs": {
 		"allay": "Nyugtancs",
