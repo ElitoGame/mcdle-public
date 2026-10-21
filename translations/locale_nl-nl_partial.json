@@ -1,0 +1,1836 @@
+{
+  "footer": {
+    "links": {
+      "cookie": {
+        "title": "Cookie Policy"
+      },
+      "patchnotes": {
+        "title": "Versienotities"
+      }
+    },
+    "about": {
+      "title": "Over ons",
+      "button_title": "Over",
+      "intro": "Mcdle is een Wordleachtige puzzle spel voor Minecraft gerelateerde inhoud. Elke dag, een nieuwe Minecraft blok, voorwerp, en wezen is gekozen en jij moet het raden. Kom dagelijks terug en bouw een winstreeks! Er zijn sociale delen functies, zodat je je overwinningen en win-streaks kunt delen met je vrienden!",
+      "help_pointer": "Niet zeker hoe je het spel moet spelen? Elke spelpagina heeft een ?-icoon onder de titel, waarmee een helpmenu wordt geopend met voorbeelden en gedetailleerde beschrijvingen van de huidige spelmodus.",
+      "suggestions": {
+        "title": "Suggesties",
+        "description": {
+          "pre_link": "Ik ga over de meeste suggesties en bug/issue support op ",
+          "link": "Discord",
+          "post_link": ", voel je vrij om erbij te komen en wat rond te hangen, we hebben meloenen! We hebben ook kanalen waarin we de dagelijkse quiz discussieren en om winstreeks te delen!"
+        }
+      },
+      "support": {
+        "title": "Ondersteunen",
+        "description": {
+          "pre_link": "Als je wilt ondersteunen in dit project (bijv. betalen voor de URL, ondersteunen van nieuwe functies, etc.), ga naar mijn ",
+          "link": "Ko-fi",
+          "post_link": "!"
+        }
+      },
+      "credits": {
+        "title": "Vermeldingen",
+        "description": {
+          "pre_link": "De informatie voor dit spel is verkregen via ",
+          "link": "Minecraft Wiki",
+          "post_link": ". Veel van de afbeeldingen zijn daar ook gehost, dus veel dank aan hun voor het harde werk en het bijhouden van de wiki! MCdle is niet gelieerd met, goedgekeurd door, of gesponsord door Mojang Studios. Maar het is duidelijk gebaseerd op Minecraft en geinspireerd door Wordle en LoLdle."
+        },
+        "credit_list": {
+          "kineticraft": {
+            "pre_link": "Dank naar de server ",
+            "link": "kineticraft.net",
+            "post_link": " voor de achtergronds afbeelding!"
+          },
+          "vanilla_tweaks": {
+            "pre_link": "Dank aan ",
+            "link": "Vanilla Tweaks",
+            "post_link": " voor hun meloen- en pompoenstam textuur!"
+          },
+          "alldle": {
+            "post_link": "voor het vermelden van MCdle op hun website!"
+          }
+        }
+      },
+      "version": {
+        "title": "Versie",
+        "description": "Vandaags spel raadsel is #{{version}}! Het spel kiest een nieuwe blok, voorwerp en wezen elke dag om 00:00 UTC."
+      },
+      "supporters": {
+        "title": "Ondersteuners",
+        "description": {
+          "pre_link": "Dank naar al mijn ondersteuners op ",
+          "post_link": "!"
+        }
+      }
+    },
+    "disclaimer": "NIET EEN OFFICIEEL MINECRAFT PRODUCT. NIET GOEDGEKEURD DOOR OF GEASSOCIEERD MET MOJANG OF MICROSOFT"
+  },
+  "header": {
+    "settings": {
+      "headers": {
+        "mcdle": "Mcdle",
+        "crafting_bee": "Crafting Bee",
+        "general": "Algemeen",
+        "guesser": "Wezen, Blok, en voorwerp Rader"
+      },
+      "colorblind": {
+        "input_name": "Kleurenblind modus",
+        "label": "Kleurenblind modus"
+      },
+      "difficulty": {
+        "limit_guesses_6": {
+          "input_name": "Gelimiteerde pogingen",
+          "label": "Limiteer het aantal pogingen tot 6"
+        },
+        "search": {
+          "game_knowledge": {
+            "input_name": "Spel kennis",
+            "label": "Spel kennis"
+          },
+          "logical": {
+            "input_name": "Logica",
+            "label": "Logica"
+          },
+          "showcase": {
+            "fallback": "Kies een moeilijkheidsgraad voor je zoekopdracht!",
+            "game_knowledge": {
+              "description": "Geen zoekhints, je hebt allen je eigen spel kennis!",
+              "image_alt": "Spel kennis moeilijkheidsgraad zoekopdracht"
+            },
+            "logical": {
+              "description": "Zoekopdracht zal alle statistieken zichtbaar maken, waardoor MCdle een logica spel wordt!",
+              "image_alt": "Logica moeilijkheidsgraad zoekopdracht"
+            }
+          },
+          "title": "Zoekopdracht:"
+        },
+        "title": "Moeijlijkheidsgraad"
+      },
+      "streak": {
+        "label": "Toon Reeks"
+      },
+      "keybinds": {
+        "title": "Toetsbindingen",
+        "binds": {
+          "crafting.selectHex.1": {
+            "name": "Selecteer Zeshoek 1",
+            "description": "Selecteer Zeshoekig Tegel #1"
+          },
+          "crafting.selectHex.2": {
+            "name": "Selecteer Zeshoek 2",
+            "description": "Selecteer Zeshoekig Tegel #2"
+          },
+          "crafting.selectHex.3": {
+            "name": "Selecteer Zeshoek 3",
+            "description": "Selecteer Zeshoekig Tegel #3"
+          },
+          "crafting.selectHex.4": {
+            "name": "Selecteer Zeshoek 4",
+            "description": "Selecteer Zeshoekig Tegel #4"
+          },
+          "crafting.selectHex.5": {
+            "name": "Selecteer Zeshoek 5",
+            "description": "Selecteer Zeshoekig Tegel #5"
+          },
+          "crafting.selectHex.6": {
+            "name": "Selecteer Zeshoek 6",
+            "description": "Selecteer Zeshoekig Tegel #6"
+          },
+          "crafting.selectHex.7": {
+            "name": "Selecteer Zeshoek 7",
+            "description": "Selecteer Zeshoekig Tegel #7"
+          },
+          "crafting.grid.nav.up": {
+            "name": "Navigeer Werkraster Omhoog",
+            "description": "Verplaats de selecteur omhoog in het Werkraster"
+          },
+          "crafting.grid.nav.down": {
+            "name": "Navigeer Werkraster Omlaag",
+            "description": "Verplaats de selecteur omlaag in het Werkraster"
+          },
+          "crafting.grid.nav.left": {
+            "name": "Navigeer Werkraster Links",
+            "description": "Verplaats de selecteur links in het Werkraster"
+          },
+          "crafting.grid.nav.right": {
+            "name": "Navigeer Werkraster Rechts",
+            "description": "Verplaats de selecteur rechts in het Werkraster"
+          },
+          "crafting.grid.placeItem": {
+            "name": "Plaats Voorwerp in Raster",
+            "description": "Plaats het geselecteerde voorwerp in het werkraster"
+          },
+          "crafting.grid.craftItem": {
+            "name": "Vervaardig voorwerp",
+            "description": "Vervaardig het voorwerp in de vervaardigingsuitvoer"
+          },
+          "crafting.grid.deleteItem": {
+            "name": "Verwijder Voorwerp in Raster",
+            "description": "Verwijder het voorwerp in het werkraster"
+          },
+          "crafting.grid.clear": {
+            "name": "Leeg Werkraster",
+            "description": "Leeg het werkraster"
+          },
+          "crafting.grid.clearImmediate": {
+            "name": "Leeg Werkraster Direct",
+            "description": "Leeg het werkraster direct zonder bevestiging"
+          },
+          "crafting.randomize": {
+            "name": "Speel willekeurig spel",
+            "description": "Krijg 7 willekeurige voorwerpen om mee te spelen"
+          }
+        }
+      },
+      "settings_button": {
+        "image_alt": "Instellingen knop",
+        "tooltip": "Instellingen"
+      },
+      "title": "Instellingen"
+    },
+    "language": {
+      "title": "Taal",
+      "tooltip": "Taal",
+      "description": {
+        "pre_link": "Deze website ondersteunt officeel Engels en Duitsm maar door de gemeenschap zijn andere talen beschrikbaar gemaakt via ",
+        "link": "Github",
+        "post_link": ". Er zijn geen verzekeringen dat de onofficele vertalingen actueel of correct zijn, dus als je fouten vindt, maak gerust een pull request!"
+      }
+    }
+  },
+  "pages": {
+    "404": {
+      "compass_alt": "Compass gif",
+      "message": "Je bent een 404 einde tegengekomen in deze grot...",
+      "return_message": "Hier een kompas terug naar huis te gaan!"
+    },
+    "index": {
+      "header": "Kies een Spelmodus",
+      "links": {
+        "blocks": {
+          "image_alt": "Blok icoon",
+          "subtitle": "Raad het blok van vandaag",
+          "title": "blokken"
+        },
+        "items": {
+          "image_alt": "Voorwerp icoon",
+          "subtitle": "Raad het minecraft voorwerp van vandaag",
+          "title": "voorwerpen"
+        },
+        "mobs": {
+          "image_alt": "Wezen icoon",
+          "subtitle": "Ontdek het minecraft wezen van vandaag",
+          "title": "Wezens"
+        },
+        "crafting": {
+          "image_alt": "Crafting Bee icon",
+          "subtitle": "Weet je je recepten?",
+          "title": "Crafting Bee"
+        },
+        "goal": {
+          "title": "MCdle Bestiarium",
+          "image_alt": "Doel icoon"
+        },
+        "bestiary": {
+          "title": "Bestiarium",
+          "image_alt": "Bestiarium icon",
+          "subtitle": "Houd je voortgang bij en begin met verzamelen! Je kunt ook filteren op wat je al hebt ontdekt!"
+        },
+        "kineticraft": {
+          "title": "Speel oneindigd op kineticraft.net",
+          "image_alt": "Kineticraft icon",
+          "subtitle": "Wezen, Blok, en Voorwerp spelmodus kunnen gespeeld worden zonder uitstel, maar je moet ze vinden in de wereld! /mcdle"
+        }
+      }
+    },
+    "generic": {
+      "game": {
+        "complete_support": {
+          "start": "Als je MCdle leuk vindt, over om het project te ondersteunen op",
+          "end": "!"
+        },
+        "see_in_bestiary": "Bekijk het in het Bestiarium!"
+      }
+    },
+    "block": {
+      "title": "Spelmodus: Raad het blok van vandaag!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "Statistieken",
+          "tooltip": "Statistieken"
+        },
+        "streak": {
+          "title": "Overdracht voortgang",
+          "tooltip": "Winstreeks"
+        },
+        "help": {
+          "tooltip": "Hoe speel je"
+        },
+        "bestiary": {
+          "tooltip": "Bestiarium"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Blok",
+          "initial_release": "Publicatie",
+          "stack_size": "Stapel grote",
+          "tool": "Gereed<wbr>schap",
+          "blast_resistance": "Explosie<wbr>weer<wbr>stand",
+          "hardness": "Hardheid",
+          "flammable": "Brand<wbr>baar", 
+          "transparent": "Transparantie",
+          "full_block": "Volledige blok"
+        },
+        "data": {
+          "tool": {
+            "any_tool": "Alle",
+            "axe": "Bijl",
+            "pickaxe": "Houweel",
+            "hoe": "Schoffel",
+            "shears": "Schaar",
+            "sword": "Zwaard",
+            "none": "Geen",
+            "shovel": "Schep",
+            "bucket": "Emmer",
+            "brush": "Borstel"
+          },
+          "states": {
+            "yes": "Ja",
+            "no": "Nee",
+            "partial": "Gedeeltelijk"
+          }
+        }
+      },
+      "loose": {
+        "title": "You've failed to discover today's block",
+        "subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
+      },
+      "win": {
+        "title": "Block discovered!",
+        "subtitle": "Today's block was {{name}}!"
+      },
+      "intro": {
+        "description": "Guess today's Minecraft block!",
+        "start_help": "Type below to start!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} guesses remaining!",
+          "one": "{{remaining}} guess remaining!",
+          "two-four": "{{remaining}} guesses remaining!",
+          "many": "{{remaining}} guesses remaining!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Search for a block",
+          "new_tomorrow": "New block tomorrow!",
+          "no_more_guesses": "Ran out of guesses!"
+        },
+        "submit": {
+          "aria_label": "Try this block"
+        },
+        "ambiguous_result": {
+          "description": "Ambiguous block discovered! Further incorrect ambiguous blocks will be crossed out in red.",
+          "image_alt": "Treasure hunter - close call"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Reload the page to get the next one!",
+        "next_in": "Next block in {{time}}"
+      },
+      "yesterday_info": {
+        "description": "Yesterday's block was {{name}}!"
+      },
+      "next_game": {
+        "name": "Blocks",
+        "description": "Up for guessing today's block?"
+      },
+      "quick_help": {
+        "look_for": "Are you still looking for a better explanation? Look for the",
+        "tooltip": "How to play",
+        "click_here": "icon below the game title or click here!"
+      },
+      "help": {
+        "title": "How to play",
+        "intro": {
+          "goal": "The goal of this game is to guess a Minecraft block. Every day a new block is chosen, and by continuing to guess the block of the day, you can build up a win-streak!",
+          "enter_guesses": "Begin by typing the name of any block in the search field. Based on your search, up to 10 results will pop up. Click on any of these blocks, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+          "field_explanation": "The properties of your chosen block will be compared to today's block and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
+        },
+        "example": {
+          "title": "Example",
+          "intro": "Let's look at an example game. First we'll try an arbitrary block.",
+          "table_interpretation_1": "We've learned that the block, like most others, is stackable until 64, and it is not flammable. It was not added in the versions pre-alpha and can't be mined with a Pickaxe. So let's try a different, newer, block.",
+          "table_interpretation_2": "We've discovered the block's version! Time to look for a block added in Beta 1.8. Additionally, we got a partial match on the tool, so it can be broken by an Axe and some other tool. Also, the block is neither transparent (\"Yes\") nor non-transparent (\"No\"), so it must be partially transparent. Let's look for a block that matches all of these properties.",
+          "table_interpretation_3": "There we go! We've discovered that the block was a block of melon, what a delight!"
+        },
+        "partial_matches": {
+          "title": "Partial Match explanation",
+          "intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colors.",
+          "explanation": "A partial match can only appear in fields that consist of a list (e.g. Tools). If you guessed a block that can be broken with at least one tool that matches the actual block, you will get a partial match. Here's an example for leaves:"
+        },
+        "tips": {
+          "title": "Tips",
+          "not_all_blocks": "MCdle does not contain every type of block. All the colored variants of concrete, terracotta, wool, etc. are merged into one representative block like \"Concrete\" or \"Wool\". This also applies to the different wood types, walls, stairs, etc.",
+          "utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+          "use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the block, you can use the wiki to find the blocks that were added in that version, which will help you narrow down your search drastically."
+        }
+      }
+    },
+    "item": {
+      "title": "Gamemode: Guess today's Item!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "Stats",
+          "tooltip": "Stats"
+        },
+        "streak": {
+          "title": "Transfer progress",
+          "tooltip": "Win-Streak"
+        },
+        "help": {
+          "tooltip": "How to play"
+        },
+        "bestiary": {
+          "tooltip": "Bestiary"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Item",
+          "initial_release": "Release",
+          "stack_size": "Stack size",
+          "rarity": "Rarity",
+          "inventory_categories": "Creative Inv. Category",
+          "renewable": "Renewable",
+          "usage": "Usage count",
+          "source": "Source count",
+          "recipe": "Recipe",
+          "loot": "Loot"
+        },
+        "data": {
+          "rarity": {
+            "common": "Common",
+            "uncommon": "Uncommon",
+            "rare": "Rare",
+            "epic": "Epic",
+            "mixed": "Mixed"
+          },
+          "inventory_category": {
+            "tools_and_utilities": "Tools & Utilities",
+            "redstone_blocks": "Redstone Blocks",
+            "functional_blocks": "Functional Blocks",
+            "natural_blocks": "Natural Blocks",
+            "ingredients": "Ingredients",
+            "combat": "Combat",
+            "food_and_drinks": "Food & Drinks",
+            "none": "None",
+            "spawn_eggs": "Spawn Eggs",
+            "operator_utilities": "Operator Utilities"
+          },
+          "recipe": {
+            "crafting_table": "Crafting Table",
+            "furnace": "Furnace",
+            "brewing_stand": "Brewing Stand",
+            "none": "None"
+          },
+          "loot": {
+            "container": "Container",
+            "mob": "Mob",
+            "fishing": "Fishing",
+            "trading": "Trades",
+            "none": "None"
+          }
+        }
+      },
+      "loose": {
+        "title": "You've failed to discover today's item",
+        "subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
+      },
+      "win": {
+        "title": "Item discovered!",
+        "subtitle": "Today's item was {{name}}!"
+      },
+      "intro": {
+        "description": "Guess today's Minecraft item!",
+        "start_help": "Type below to start!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} guesses remaining!",
+          "one": "{{remaining}} guess remaining!",
+          "two-four": "{{remaining}} guesses remaining!",
+          "many": "{{remaining}} guesses remaining!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Search for an item",
+          "new_tomorrow": "New item tomorrow!",
+          "no_more_guesses": "Ran out of guesses!"
+        },
+        "submit": {
+          "aria_label": "Try this item"
+        },
+        "ambiguous_result": {
+          "description": "Ambiguous item discovered! Further incorrect ambiguous items will be crossed out in red.",
+          "image_alt": "Treasure hunter - close call"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Reload the page to get the next one!",
+        "next_in": "Next item in {{time}}"
+      },
+      "yesterday_info": {
+        "description": "Yesterday's item was {{name}}!"
+      },
+      "next_game": {
+        "name": "Items",
+        "description": "Ready to guess today's item too?"
+      },
+      "quick_help": {
+        "look_for": "Are you still looking for a better explanation? Look for the",
+        "tooltip": "How to play",
+        "click_here": "icon below the game title or click here!"
+      },
+      "help": {
+        "title": "How to play",
+        "intro": {
+          "goal": "The goal of this game is to guess a Minecraft item. Every day a new item is chosen, and by continuing to guess the item of the day, you can build up a win-streak.",
+          "enter_guesses": "Begin by typing the name of any item in the search field. Based on your search, up to 10 results will pop up. Click on any of these items, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+          "field_explanation": "The properties of your chosen item will be compared to today's item and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
+        },
+        "example": {
+          "title": "Example",
+          "intro": "Let's look at an example game. First we'll try an arbitrary item.",
+          "table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable, it is not craftable, and can't be looted from containers or be obtained from trading. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
+          "table_interpretation_2": "We've discovered the items version! Time to look for an item added in Beta 1.8 that's in the \"Food & Drinks\" creative inventory category. We also know that it cannot be obtained via a crafting or smelting recipe and that it doesn't drop as loot from a mob.",
+          "table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
+        },
+        "partial_matches": {
+          "title": "Partial Match explanation",
+          "intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colors.",
+          "explanation": "A partial match can only appear in fields that consist of a list (e.g. the inventory category). If you guessed an item that is in at least one inventory category that matches the actual item, you will get a partial match. Here's an example for string:"
+        },
+        "tips": {
+          "title": "Tips",
+          "not_all_items": "MCdle does not contain every type of item. The list is taken from the Minecraft wiki and hence does not contain the item forms of various blocks or too similar items, like all the armor/tool variants.",
+          "utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+          "use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the item, you can use the wiki to find the items that were added in that version, which will help you narrow down your search drastically.",
+          "usage_and_source_explanation": "If you are curious how the Usage count/Source count is calculated, check the item's wiki page and scroll to \"Obtaining\" and \"Usage\". The headers of these sections have been used to count their different usecases. If they were missing, I, the developer, have added them manually."
+        }
+      }
+    },
+    "mob": {
+      "title": "Gamemode: Guess today's Mob!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "Stats",
+          "tooltip": "Stats"
+        },
+        "streak": {
+          "title": "Transfer progress",
+          "tooltip": "Win-Streak"
+        },
+        "help": {
+          "tooltip": "How to play"
+        },
+        "bestiary": {
+          "tooltip": "Bestiary"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Mob",
+          "initial_release": "Release",
+          "health": "Health",
+          "height": "Height",
+          "behavior": "Behavior",
+          "spawn": "Spawn",
+          "classification": "Class<wbr>ification"
+        },
+        "data": {
+          "behavior": {
+            "passive": "Passive",
+            "neutral": "Neutral",
+            "hostile": "Hostile",
+            "defensive": "Defensive"
+          },
+          "classification": {
+            "none": "None",
+            "animal": "Animal",
+            "aquatic": "Aquatic",
+            "arthropod": "Arthropod",
+            "undead": "Undead",
+            "illager": "Illager",
+            "golem": "Golem",
+            "boss": "Boss"
+          },
+          "spawn": {
+            "structure": "Structure",
+            "spawner": "Spawner",
+            "breeding": "Breeding",
+            "biome": "Biome",
+            "light_level": "Light level",
+            "block": "Block",
+            "grass": "Grass",
+            "nether": "The Nether",
+            "projectile": "Projectile",
+            "conversion": "Conversion",
+            "lightning": "Lightning",
+            "the_end": "The End",
+            "summon": "Summon",
+            "raids": "Raids",
+            "command": "Command",
+            "overworld": "Overworld",
+            "hatching": "Hatching",
+            "jockey": "Jockey",
+            "duplication": "Duplication",
+            "magic": "Magic",
+            "reinforcements": "Reinforcements",
+            "sieges": "Sieges"
+          }
+        }
+      },
+      "loose": {
+        "title": "You've failed to discover today's mob",
+        "subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
+      },
+      "win": {
+        "title": "Mob discovered!",
+        "subtitle": "Today's mob was {{name}}!"
+      },
+      "intro": {
+        "description": "Guess today's Minecraft mob!",
+        "start_help": "Type below to start!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} guesses remaining!",
+          "one": "{{remaining}} guess remaining!",
+          "two-four": "{{remaining}} guesses remaining!",
+          "many": "{{remaining}} guesses remaining!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Search for a mob",
+          "new_tomorrow": "New mob tomorrow!",
+          "no_more_guesses": "Ran out of guesses!"
+        },
+        "submit": {
+          "aria_label": "Try this mob"
+        },
+        "ambiguous_result": {
+          "description": "Ambiguous mob discovered! Further incorrect ambiguous mobs will be crossed out in red.",
+          "image_alt": "Treasure hunter - close call"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Reload the page to get the next one!",
+        "next_in": "Next mob in {{time}}"
+      },
+      "yesterday_info": {
+        "description": "Yesterday's mob was {{name}}!"
+      },
+      "next_game": {
+        "name": "Mobs",
+        "description": "Wanna give today's mob a shot?"
+      },
+      "quick_help": {
+        "look_for": "Are you still looking for a better explanation? Look for the",
+        "tooltip": "How to play",
+        "click_here": "icon below the game title or click here!"
+      },
+      "help": {
+        "title": "How to play",
+        "intro": {
+          "goal": "The goal of this game is to guess a Minecraft mob. Every day a new mob is chosen, and by continuing to guess the mob of the day, you can build up a win-streak.",
+          "enter_guesses": "Begin by typing the name of any mob in the search field. Based on your search, up to 10 results will pop up. Click on any of these mobs, or navigate to them with your arrow keys and press Enter to lock your guess in.",
+          "field_explanation": "The properties of your chosen mob will be compared to today's mob and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
+        },
+        "example": {
+          "title": "Example",
+          "intro": "Let's look at an example game. First we'll try an arbitrary mob.",
+          "table_interpretation_1": "From this guess, we can see that the mob we're looking for was added after version 1.6.1, doesn't have a lot of health, is less then 1.6 blocks tall, and might be passive, hostile, or a mix of the two. It's not summoned by lightning and it's not undead either.",
+          "table_interpretation_2": "Alright, still newer than 1.13, but we got the health: we're looking for a mob with 10 HP, aka 5 hearts. It's less than 0.6 blocks tall, so we're looking for a small mob. The mob's behavior is still a partial match, so it's very likely passive, but could still be hostile & neutral. Both the spawn and classification fields got a partial match, so the mob's spawn origins would be biome and something else, and the mob would be classified as either animal, aquatic, and maybe something else in addition to one of these two possibilities.",
+          "table_interpretation_3": "Let's go! Look who hopped into this tutorial. We've found a little frog!"
+        },
+        "partial_matches": {
+          "title": "Partial Match explanation",
+          "intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colors.",
+          "explanation": "A partial match can only appear in fields that consist of a list (e.g. the spawn, classification, or behavior fields). If you guessed a mob with at least one list element that matches the actual mob, you will get a partial match. Here's an example for horses:"
+        },
+        "tips": {
+          "title": "Tips",
+          "not_all_blocks": "MCdle does not contain every type of entity. Only living entities, like pigs or zombies, are included. Armor stands, projectiles, or similar non-living entities are not included. The list is taken from the Minecraft wiki, so if it's not on there in the mob list, it's not in this game.",
+          "utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
+          "use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the mob, you can use the wiki to find the mobs that were added in that version, which will help you narrow down your search drastically.",
+          "health_measuring": "Keep in mind that health is measured in health points, aka half hearts, so 10 HP is 5 hearts."
+        }
+      }
+    },
+    "crafting": {
+      "title": "Gamemode: Crafting Bee",
+      "sub_title_menus": {
+        "stats": {
+          "title": "Stats",
+          "tooltip": "Stats"
+        },
+        "streak": {
+          "title": "Transfer progress",
+          "tooltip": "Win-Streak"
+        },
+        "help": {
+          "tooltip": "How to play"
+        },
+        "bestiary": {
+          "tooltip": "Bestiary"
+        },
+        "editor": {
+          "tooltip": "Editor"
+        }
+      },
+      "regular": {
+        "notifications": {
+          "already_crafted": "Item already crafted!",
+          "other_game_running": {
+            "description": "You have another game saved but are trying to play a new one via a custom link",
+            "prev_game": "Your saved game:",
+            "prev_game_discovered": "{{discoveredCount}}/{{availableRecipes}} discovered already.",
+            "overwrite": "Overwrite",
+            "return": "Return to saved game"
+          }
+        },
+        "copy_message": {
+          "timer": {
+            "all": {
+              "long": "I have discovered all {{discoveredCount}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
+              "short": "I found all {{discoveredCount}} recipes in {{time}} #MCdle #CraftingBee"
+            },
+            "partial": {
+              "long": "I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
+              "short": "I found {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} #MCdle #CraftingBee"
+            }
+          },
+          "no_timer": {
+            "all": {
+              "long": "I have discovered all {{discoveredCount}} recipes in the following #MCdle #CraftingBee riddle!",
+              "short": "I found all {{discoveredCount}} recipes in this #MCdle #CraftingBee"
+            },
+            "partial": {
+              "long": "I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in the following #MCdle #CraftingBee riddle!",
+              "short": "I found {{discoveredCount}}/{{availableRecipes}} recipes in this #MCdle #CraftingBee"
+            }
+          },
+          "copy_button": {
+            "copy": "Copy Riddle",
+            "copied": "Copied!"
+          },
+          "share_button": {
+            "share": "Share Riddle",
+            "shared": "Shared!"
+          }
+        },
+        "game_state_box": {
+          "start_playing": "Begin by clicking/dragging items from below into the crafting grid!",
+          "discover_status": "Discovered {{discoveredCount}}/{{availableRecipes}}",
+          "timer": "{{remainingTime}}"
+        },
+        "game_complete_box": {
+          "congrats": "Congratulations!",
+          "discovered": "You have discovered all {{discoveredCount}} recipes with the current items!",
+          "discovered_time": "You have discovered all {{discoveredCount}} recipes in {{time}} with the current items!",
+          "regenerate": {
+            "description": "Click the button below to reset the game and get new items.",
+            "button": "Regenerate",
+            "popup": {
+              "title": "New random items?",
+              "hints": "Show remaining recipe hints?",
+              "description": "Click below to randomize the items in the hexagons and start a new game!",
+              "confirm": "Confirm"
+            }
+          },
+          "more_crafting_riddles": "or find custom ones on our ",
+          "discord_link": "Discord",
+          "more_crafting_riddles_2": "!",
+          "replay": {
+            "button": "Replay",
+            "popup": {
+              "title": "Replay the current game?",
+              "description": "Click below to play the game again with the same items!"
+            }
+          }
+        },
+        "tools": {
+          "eraser": "Eraser",
+          "clear": {
+            "button": "Clear",
+            "popup": {
+              "title": "Clear the Crafting table?",
+              "description": "Click below to remove all items from the crafting table.",
+              "confirm": "Confirm"
+            }
+          }
+        },
+        "quick_settings": {
+          "title": "Quick Settings",
+          "hints": "Show remaining recipe hints?",
+          "timer": "Include timer?",
+          "regenerate": "Generate new Riddle",
+          "auto_craft": "Auto craft?",
+          "shadow_hint": "Show Silhouettes hint?",
+          "hint_popup": {
+            "greeting": "Hi, need a ",
+            "hint": "hint",
+            "closing": "?",
+            "pointing_to_hints": "You can also find these hints below!"
+          }
+        },
+        "try_editor": "Check out the editor!"
+      },
+      "daily": {
+        "title": "Crafting Bee Daily",
+        "description": "Each day, 7 random items are generated. Can you remember all the items craftable with them?",
+        "game_complete_box": {
+          "more_tomorrow": "Come back tomorrow for a new daily riddle, or play ",
+          "infinite_link": "infinitely",
+          "more_tomorrow_2": "!",
+          "more_crafting_riddles": "You can also find player-created riddles on our ",
+          "discord_link": "Discord",
+          "more_crafting_riddles_2": "!"
+        }
+      },
+      "index": {
+        "daily": {
+          "title": "Daily",
+          "description": "7 Items each day, with streaks"
+        },
+        "regular": {
+          "title": "Unlimited",
+          "description": "7 items, unlimited replay with custom games, and randomization."
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Create your own Crafting Bee riddles!"
+        }
+      },
+      "editor": {
+        "title": "Crafting Bee Editor",
+        "description": "Editor for the Crafting Bee gamemode",
+        "share_creation": {
+          "before_link": "Share your creation on our",
+          "link": "Discord",
+          "after_link": "!"
+        },
+        "test_creation": {
+          "before_link": "When you're done,",
+          "link": "test your riddle",
+          "after_link": "or"
+        },
+        "copy_creation": {
+          "copy": "Copy riddle link",
+          "copied": "Copied!"
+        },
+        "search_items": "Search for items...",
+        "table": {
+          "header": {
+            "item": "Item",
+            "individual_usage": "Individual Item Usage",
+            "recipes_with_item": "Recipes Using Item"
+          }
+        },
+        "found_recipes": "Found recipes: {{count}}",
+        "delete_item": "Delete",
+        "import": {
+          "title": "Game Import",
+          "unlimited_button": "Import Unlimited Game",
+          "popup": {
+            "title": "Import Game From the Unlimited Mode?",
+            "description": "Click below to import the current game from Unlimited Mode. Note that this will overwrite your current editor progress.",
+            "confirm": "Confirm"
+          }
+        },
+        "return_to_unlimited": "Return to the game!"
+      },
+      "midnight_timer": {
+        "next_thing": "Reload the page to get the next one!",
+        "next_in": "Next ingredients in {{time}}"
+      },
+      "next_game": {
+        "name": "Crafting Bee",
+        "description": "Can you remember all craftable items with today's ingredients"
+      },
+      "help": {
+        "title": "How to play",
+        "intro": {
+          "goal": "The goal of this game is to craft as many items as possible with the 7 items provided in the hexagons. This gamemode has a daily mode, as well as an unlimited mode paired with an editor. By completing the daily mode, you can build up a win-streak. By playing unlimited, you get to learn how to play the game, recipes, and play riddles that other players created using the editor!",
+          "entering_items": "To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see your desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagons or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD or arrow keys for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
+        },
+        "example": {
+          "title": "Example",
+          "intro": "Let's look at some examples! From a single diamond, we can craft 5 individual items!",
+          "try_example": "Try this example",
+          "hint_info": "Feeling stuck? You can enable hints in the box below the delete/clear buttons. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
+          "mc_wiki": "Minecraft Wiki",
+          "hint_info_2": "to look up recipes.",
+          "test_hints": "Test toggling the hint system"
+        },
+        "tips": {
+          "title": "Tips",
+          "individual_results_only": "The game only counts individual results, not individual recipes. For example, both bamboo and planks make sticks, but once you crafted sticks with either, that's it!",
+          "where_help": "Use the hint system if you are stuck. The wiki pairs well with it, just search for the item you are missing!",
+          "not_all_recipes": "Crafting Bee does not contain every craftable recipe. Only standard shaped and shapeless recipes inside the crafting table are included. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
+        }
+      }
+    },
+    "bestiary": {
+      "index": {
+        "title": "Bestiary",
+        "books": {
+          "blocks": {
+            "title": "The Book of Blocks",
+            "cover_alt_text": "Block Book Cover"
+          },
+          "items": {
+            "title": "The Book of Items",
+            "cover_alt_text": "Item Book Cover"
+          },
+          "mobs": {
+            "title": "The Book of Mobs",
+            "cover_alt_text": "Mob Book Cover"
+          },
+          "crafting": {
+            "title": "The Book of Crafting",
+            "cover_alt_text": "Crafting Bee Book Cover"
+          }
+        }
+      },
+      "blocks": {
+        "title": "Block Bestiary",
+        "description": "For all the Blocks you might encounter in MCdle."
+      },
+      "items": {
+        "title": "Item Bestiary",
+        "description": "For all the Items you might encounter in MCdle."
+      },
+      "mobs": {
+        "title": "Mob Bestiary",
+        "description": "For all the Mobs you might encounter in MCdle."
+      },
+      "crafting": {
+        "title": "Crafting Bee Bestiary",
+        "description": "For all the items you can craft in MCdle's Crafting Bee.",
+        "entry": {
+          "discovered": {
+            "label": "Discovered in",
+            "daily": "Daily Challenge",
+            "random": "Random Game",
+            "custom": "Custom Game"
+          },
+          "recipes": {
+            "label": "Recipes"
+          }
+        },
+        "filters": {
+          "unavailable": "There are currently no filters available."
+        }
+      },
+      "generic": {
+        "overview": {
+          "title": "Overview",
+          "library_back": "Back to library",
+          "explanation": "Click on an entry to view its page, use the search icon in the top right to find one, or apply filters that apply to the entire page (not just the search results).",
+          "sorting": {
+            "alphabet_tooltip": "Sort alphabetically",
+            "alphabet_alt": "A-Z Sort",
+            "release_tooltip": "Sort by release",
+            "release_alt": "Release Sort"
+          }
+        },
+        "entry": {
+          "overview_back": "Overview",
+          "not_found": "Norbert didn't find any matching entries in your discovered list =(",
+          "try_different": "Try different filters!",
+          "discovered": {
+            "first_discovered": "First discovered:",
+            "in": "in",
+            "and": "and",
+            "more": "more!"
+          }
+        },
+        "filters": {
+          "applied": "Filters applied",
+          "search_placeholder": "Search",
+          "search_alt": "Search icon",
+          "clear": "Clear Filters",
+          "open": "Filters (Global)",
+          "min": "Min",
+          "max": "Max"
+        }
+      }
+    }
+  },
+  "components": {
+    "quick_help": {
+      "show_button": "Show quick help",
+      "color_explanation": {
+        "title": "Color explanation",
+        "correct": "Correct Field",
+        "incorrect": "Incorrect Field",
+        "partial": "Partially correct Field"
+      }
+    },
+    "stats": {
+      "copy_button": "Copy",
+      "copied_confirmation": "Copied!",
+      "share": "Share",
+      "copy_message": {
+        "header_block": "My #MCdle block statistics 🏆",
+        "header_item": "My #MCdle item statistics 🏆",
+        "header_mob": "My #MCdle mob statistics 🏆",
+        "total_wins": "🎉 Games Won {{number}}",
+        "average_guesses": "🧮 Average Guesses {{number}}",
+        "one_shots": "🎯 One-Shots {{number}}",
+        "current_streak": "🚀 Current Streak {{number}}",
+        "max_streak": "📈 Max Streak {{number}}"
+      },
+      "stat_labels": {
+        "total_wins": "Games Won",
+        "average_guesses": "Average Guesses",
+        "one_shots": "One-Shots",
+        "current_streak": "Current Streak",
+        "max_streak": "Max Streak"
+      },
+      "chart_labels": {
+        "guesses": "Guesses"
+      }
+    },
+    "today_guesses": {
+      "loading": "Loading player guesses...",
+      "already_guessed": {
+        "zero": "players already guessed correctly!",
+        "one": "player already guessed correctly!",
+        "two-four": "players already guessed correctly!",
+        "many": "players already guessed correctly!"
+      }
+    },
+    "share_win": {
+      "copy_button": "Copy",
+      "copied_confirmation": "Copied!",
+      "share": "Share",
+      "all_games": "All Games",
+      "guess_type": {
+        "block": "block",
+        "item": "item",
+        "mob": "mob"
+      },
+      "guess_line": {
+        "one": "I discovered {{date}}'s #MCdle {{type}} in {{number}} try! {{emoji}}",
+        "many": "I discovered {{date}}'s #MCdle {{type}} in {{number}} tries! {{emoji}}"
+      },
+      "short_guess_line": {
+        "intro": "I discovered {{date}}'s #MCdle ",
+        "one": "{{type}} in {{number}} try",
+        "many": "{{type}} in {{number}} tries",
+        "conjunction": " and "
+      }
+    },
+    "hints": {
+      "in_x_guesses": {
+        "one": "in {{number}} guess!",
+        "many": "in {{number}} guesses!"
+      },
+      "version": {
+        "description": "Release version hint",
+        "solution": "You're looking for a {{version}} release!"
+      },
+      "letter": {
+        "description": "Starting letter hint",
+        "solution": "The solution starts with {{letter}}..."
+      },
+      "image": {
+        "description": "Zoomed image hint",
+        "solution": "Can you see what's hiding in this 8x zoomed in image?"
+      }
+    },
+    "toasts": {
+      "patchnotes": {
+        "live": " are now live! Check them out!"
+      }
+    }
+  },
+  "blocks": {
+    "button": "Acaciahouten knop [TODO]",
+    "door": "Acaciahouten deur [TODO]",
+    "fence": "Acaciahouten hek [TODO]",
+    "fence_gate": "Acaciahouten poort [TODO]",
+    "leaves": "Acaciabladeren [TODO]",
+    "log": "Acaciastam [TODO]",
+    "planks": "Acaciahouten planken [TODO]",
+    "pressure_plate": "Acaciahouten drukplaat [TODO]",
+    "sapling": "Acaciazaailing [TODO]",
+    "shelf": "Acaciahouten schap [TODO]",
+    "sign": "Acaciahouten bord [TODO]",
+    "slab": "Acaciahouten plaat [TODO]",
+    "stairs": "Acaciahouten trap [TODO]",
+    "trapdoor": "Acaciahouten valluik [TODO]",
+    "wood": "Acaciahout [TODO]",
+    "activator_rail": "Activatiespoor",
+    "flower": "Look [TODO]",
+    "amethyst_block": "Amethistblok",
+    "amethyst_cluster": "Amethistcluster",
+    "ancient_debris": "Oud puin",
+    "andesite": "Andesiet",
+    "wall": "Andesietmuur [TODO]",
+    "anvil": "Aambeeld",
+    "azalea": "Azalea",
+    "bamboo": "Bamboe",
+    "bamboo_block": "Bamboeblok",
+    "bamboo_mosaic": "Bamboemozaïek",
+    "barrel": "Vat",
+    "barrier": "Barrière",
+    "basalt": "Basalt",
+    "beacon": "Baken",
+    "bedrock": "Bodemsteen",
+    "bee_nest": "Bijennest",
+    "beehive": "Bijenkorf",
+    "beetroots": "Bieten",
+    "bell": "Bel",
+    "big_dripleaf": "Groot druipblad",
+    "banner": "Zwarte banier [TODO]",
+    "bed": "Zwart bed [TODO]",
+    "candle": "Zwarte kaars [TODO]",
+    "carpet": "Zwart tapijt [TODO]",
+    "concrete": "Zwart beton [TODO]",
+    "concrete_powder": "Zwart cement [TODO]",
+    "black_concrete_slab": "Zwarte betonnen plaat",
+    "black_concrete_stairs": "Zwarte betonnen trap",
+    "glazed_terracotta": "Zwartgeglazuurd terracotta [TODO]",
+    "shulker_box": "Zwarte Shulkerdoos [TODO]",
+    "glass": "Zwartgekleurd glas [TODO]",
+    "glass_pane": "Zwartgekleurde glazen ruit [TODO]",
+    "terracotta": "Zwart terracotta [TODO]",
+    "wool": "Zwarte wol [TODO]",
+    "black_wool_slab": "Zwarte wollen plaat",
+    "black_wool_stairs": "Zwarte wollen trap",
+    "blackstone": "Zwartsteen",
+    "blast_furnace": "Hoogoven",
+    "blue_concrete_slab": "Blauwe betonnen plaat",
+    "blue_concrete_stairs": "Blauwe betonnen trap",
+    "blue_ice": "Blauw ijs",
+    "blue_wool_slab": "Blauwe wollen plaat",
+    "blue_wool_stairs": "Blauwe wollen trap",
+    "bone_block": "Bottenblok",
+    "bookshelf": "Boekenkast",
+    "coral": "Hersenkoraal [TODO]",
+    "coral_block": "Hersenkoraalblok [TODO]",
+    "coral_fan": "Hersenkoraalwaaier [TODO]",
+    "brewing_stand": "Brouwstandaard",
+    "bricks": "Bakstenen",
+    "brittle_ice": "Broos ijs",
+    "brown_concrete_slab": "Bruine betonnen plaat",
+    "brown_concrete_stairs": "Bruine betonnen trap",
+    "mushroom": "Bruine paddenstoel [TODO]",
+    "mushroom_block": "Bruin paddenstoelenblok [TODO]",
+    "brown_wool_slab": "Bruine wollen plaat",
+    "brown_wool_stairs": "Bruine wollen trap",
+    "bush": "Struik",
+    "cactus": "Cactus",
+    "cactus_flower": "Cactusbloem",
+    "cake": "Taart",
+    "calcite": "Calciet",
+    "calibrated_sculk_sensor": "Gekalibreerde sculksensor",
+    "campfire": "Kampvuur",
+    "carrots": "Wortels",
+    "cartography_table": "Kartografietafel",
+    "cauldron": "Ketel",
+    "cave_vines": "Grottenlianen",
+    "chain": "Ketting",
+    "chest": "Kist",
+    "chiseled_bookshelf": "Bewerkte boekenkast",
+    "chiseled_cinnabar": "Gebeiteld cinnaber",
+    "chiseled_sulfur": "Gebeiteld zwavel",
+    "chorus_flower": "Chorusbloem",
+    "chorus_plant": "Chorusplant",
+    "cinnabar": "Cinnaber",
+    "cinnabar_brick_slab": "Cinnaberblokstenen plaat",
+    "cinnabar_brick_stairs": "Cinnaberblokstenen trap",
+    "cinnabar_brick_wall": "Cinnaberblokstenen muur",
+    "cinnabar_bricks": "Cinnaberblokstenen",
+    "cinnabar_slab": "Cinnaberplaat",
+    "cinnabar_stairs": "Cinnabertrap",
+    "cinnabar_wall": "Cinnabermuur",
+    "clay": "Klei",
+    "eyeblossom": "Gesloten gluurbloesem [TODO]",
+    "coal_block": "Steenkoolblok",
+    "coal_ore": "Steenkoolerts",
+    "coarse_dirt": "Grove aarde",
+    "cobbled_deepslate": "Geplaveid wrevelsteen",
+    "cobblestone": "Keisteen",
+    "cobweb": "Spinnenweb",
+    "cocoa": "Cacao",
+    "command_block": "Opdrachtblok",
+    "comparator": "Redstonevergelijker",
+    "composter": "Compostbak",
+    "conduit": "Kracht van de zee",
+    "copper_block": "Koperblok",
+    "copper_bulb": "Koperen lamp",
+    "copper_chest": "Koperen kist",
+    "copper_door": "Koperen deur",
+    "copper_golem_statue": "Kopergolemstandbeeld",
+    "copper_grate": "Koperen rooster",
+    "copper_ore": "Kopererts",
+    "copper_trapdoor": "Koperen valluik",
+    "crafter": "Vervaardigingsmachine",
+    "crafting_table": "Werkbank",
+    "creaking_heart": "Schorswakerhart",
+    "head": "Creeperhoofd [TODO]",
+    "fungus": "Helrode zwam [TODO]",
+    "nylium": "Helrood nylium [TODO]",
+    "roots": "Helrode wortels [TODO]",
+    "crying_obsidian": "Huilend obsidiaan",
+    "cyan_concrete_slab": "Turquoise betonnen plaat",
+    "cyan_concrete_stairs": "Turquoise betonnen trap",
+    "cyan_wool_slab": "Turquoise wollen plaat",
+    "cyan_wool_stairs": "Turquoise wollen trap",
+    "daylight_detector": "Daglichtsensor",
+    "dead_bush": "Dode struik",
+    "decorated_pot": "Versierde pot",
+    "deepslate": "Wrevelsteen",
+    "detector_rail": "Detectiespoor",
+    "diamond_block": "Diamantblok",
+    "diamond_ore": "Diamanterts",
+    "diorite": "Dioriet",
+    "dirt": "Aarde",
+    "dirt_path": "Aardepad",
+    "dispenser": "Dispenser",
+    "dragon_egg": "Drakenei",
+    "dried_ghast": "Uitgedroogde Ghast",
+    "dried_kelp_block": "Gedroogd kelpblok",
+    "dripstone_block": "Druipsteenblok",
+    "dropper": "Dropper",
+    "emerald_block": "Smaragdblok",
+    "emerald_ore": "Smaragderts",
+    "enchanting_table": "Betoveringstafel",
+    "end_portal_frame": "Endportaalframe",
+    "end_rod": "Endstaf",
+    "end_stone": "Endsteen",
+    "end_stone_bricks": "Endblokstenen",
+    "ender_chest": "Enderkist",
+    "farmland": "Akkerland",
+    "fern": "Varen",
+    "fire": "Vuur",
+    "firefly_bush": "Vuurvliegjesstruik",
+    "fletching_table": "Bevederingstafel",
+    "flower_pot": "Bloempot",
+    "frogspawn": "Kikkerdril",
+    "furnace": "Oven",
+    "glow_lichen": "Gloeiend korstmos",
+    "glowstone": "Gloeisteen",
+    "gold_block": "Goudblok",
+    "gold_ore": "Gouderts",
+    "golden_dandelion": "Gouden paardenbloem",
+    "granite": "Graniet",
+    "grass_block": "Grasblok",
+    "gravel": "Grind",
+    "gray_concrete_slab": "Grijze betonnen plaat",
+    "gray_concrete_stairs": "Grijze betonnen trap",
+    "gray_wool_slab": "Grijze wollen plaat",
+    "gray_wool_stairs": "Grijze wollen trap",
+    "green_concrete_slab": "Groene betonnen plaat",
+    "green_concrete_stairs": "Groene betonnen trap",
+    "green_wool_slab": "Groene wollen plaat",
+    "green_wool_stairs": "Groene wollen trap",
+    "grindstone": "Slijpsteen",
+    "hanging_roots": "Hangende wortels",
+    "hay_block": "Hooibaal",
+    "heavy_core": "Zware kern",
+    "heavy_weighted_pressure_plate": "Zware drukgevoelige plaat",
+    "honey_block": "Honingblok",
+    "honeycomb_block": "Honingraatblok",
+    "hopper": "Trechter",
+    "ice": "IJs",
+    "ice_crystal": "IJskristal",
+    "icicle": "IJspegel",
+    "infested_block": "Geïnfecteerde gebeitelde blokstenen [TODO]",
+    "iron_bars": "IJzeren tralies",
+    "iron_block": "IJzerblok",
+    "iron_door": "IJzeren deur",
+    "iron_ore": "IJzererts",
+    "iron_trapdoor": "IJzeren valluik",
+    "jack_o_lantern": "Jack-o'-lantern",
+    "jigsaw": "Puzzelblok",
+    "jukebox": "Platenspeler",
+    "kelp": "Kelp",
+    "ladder": "Ladder",
+    "lantern": "Lantaarn",
+    "lapis_block": "Lapislazuliblok",
+    "lapis_ore": "Lapis lazuli-erts",
+    "leaf_litter": "Dode bladeren",
+    "lectern": "Lessenaar",
+    "lever": "Hendel",
+    "light": "Licht",
+    "light_blue_concrete_slab": "Lichtblauwe betonnen plaat",
+    "light_blue_concrete_stairs": "Lichtblauwe betonnen trap",
+    "light_blue_wool_slab": "Lichtblauwe wollen plaat",
+    "light_blue_wool_stairs": "Lichtblauwe wollen trap",
+    "light_gray_concrete_slab": "Lichtgrijze betonnen plaat",
+    "light_gray_concrete_stairs": "Lichtgrijze betonnen trap",
+    "light_gray_wool_slab": "Lichtgrijze wollen plaat",
+    "light_gray_wool_stairs": "Lichtgrijze wollen trap",
+    "lightning_rod": "Bliksemafleider",
+    "lily_pad": "Waterlelie",
+    "lime_concrete_slab": "Lichtgroene betonnen plaat",
+    "lime_concrete_stairs": "Lichtgroene betonnen trap",
+    "lime_wool_slab": "Lichtgroene wollen plaat",
+    "lime_wool_stairs": "Lichtgroene wollen trap",
+    "lodestone": "Zeilsteen",
+    "loom": "Weefgetouw",
+    "magenta_concrete_slab": "Magenta betonnen plaat",
+    "magenta_concrete_stairs": "Magenta betonnen trap",
+    "magenta_wool_slab": "Magenta wollen plaat",
+    "magenta_wool_stairs": "Magenta wollen trap",
+    "magma_block": "Magmablok",
+    "mangrove_propagule": "Mangrovebroedknop",
+    "mangrove_roots": "Mangrovewortels",
+    "melon": "Meloen",
+    "melon_stem": "Meloenstam",
+    "moss_block": "Mosblok",
+    "moss_carpet": "Mostapijt",
+    "mossy_cobblestone": "Mossige keisteen",
+    "mud": "Modder",
+    "mud_bricks": "Modderstenen",
+    "muddy_mangrove_roots": "Modderige mangrovewortels",
+    "mycelium": "Zwamvlok",
+    "nether_bricks": "Netherbakstenen",
+    "nether_gold_ore": "Nethergouderts",
+    "nether_quartz_ore": "Netherkwartserts",
+    "nether_sprouts": "Netherscheuten",
+    "nether_wart": "Netherkruid",
+    "nether_wart_block": "Netherkruidblok",
+    "netherite_block": "Netherietblok",
+    "netherrack": "Netherrack",
+    "note_block": "Nootblok",
+    "observer": "Observeerder",
+    "obsidian": "Obsidiaan",
+    "froglight": "Okergeel kikkerlicht [TODO]",
+    "orange_concrete_slab": "Oranje betonnen plaat",
+    "orange_concrete_stairs": "Oranje betonnen trap",
+    "orange_poplar_leaves": "Oranje populierenbladeren",
+    "orange_wool_slab": "Oranje wollen plaat",
+    "orange_wool_stairs": "Oranje wollen trap",
+    "packed_ice": "Pakijs",
+    "packed_mud": "Pakmodder",
+    "pale_hanging_moss": "Bleek hangend mos",
+    "pale_moss_block": "Bleek mosblok",
+    "pale_moss_carpet": "Bleek mostapijt",
+    "petrified_oak_slab": "Versteende eikenhouten plaat",
+    "pink_concrete_slab": "Roze betonnen plaat",
+    "pink_concrete_stairs": "Roze betonnen trap",
+    "pink_petals": "Roze bloemblaadjes",
+    "pink_wool_slab": "Roze wollen plaat",
+    "pink_wool_stairs": "Roze wollen trap",
+    "piston": "Zuiger",
+    "pitcher_crop": "Bekerplantgewas",
+    "pitcher_plant": "Bekerplant",
+    "podzol": "Podzol",
+    "pointed_dripstone": "Puntige druipsteen",
+    "polished_blackstone": "Gepolijst zwartsteen",
+    "polished_cinnabar": "Gepolijst cinnaber",
+    "polished_cinnabar_slab": "Gepolijste cinnaberplaat",
+    "polished_cinnabar_stairs": "Gepolijste cinnabertrap",
+    "polished_cinnabar_wall": "Gepolijste cinnabermuur",
+    "polished_sulfur": "Gepolijst zwavel",
+    "polished_sulfur_slab": "Gepolijste zwavelplaat",
+    "polished_sulfur_stairs": "Gepolijste zwaveltrap",
+    "polished_sulfur_wall": "Gepolijste zwavelmuur",
+    "poplar_button": "Populierenhouten knop",
+    "poplar_door": "Populierenhouten deur",
+    "poplar_fence": "Populierenhouten hek",
+    "poplar_fence_gate": "Populierenhouten poort",
+    "poplar_hanging_sign": "Populierenhouten hangbord",
+    "poplar_leaves": "Populierenbladeren",
+    "poplar_log": "Populierenstam",
+    "poplar_planks": "Populierenhouten planken",
+    "poplar_pressure_plate": "Populierenhouten drukplaat",
+    "poplar_sapling": "Populierenzaailing",
+    "poplar_shelf": "Populierenhouten schap",
+    "poplar_sign": "Populierenhouten bord",
+    "poplar_slab": "Populierenhouten plaat",
+    "poplar_stairs": "Populierenhouten trap",
+    "poplar_trapdoor": "Populierenhouten valluik",
+    "poplar_wall_hanging_sign": "Populierenhouten uithangbord",
+    "poplar_wall_sign": "Populierenhouten bord aan muur",
+    "poplar_wood": "Populierenhout",
+    "potatoes": "Aardappels",
+    "potent_sulfur": "Reactief zwavel",
+    "potted_poplar_sapling": "Opgepotte populierenzaailing",
+    "powder_snow": "Poedersneeuw",
+    "powered_rail": "Aandrijfspoor",
+    "prismarine": "Prismarien",
+    "pumpkin": "Pompoen",
+    "pumpkin_stem": "Pompoenstam",
+    "purple_concrete_slab": "Paarse betonnen plaat",
+    "purple_concrete_stairs": "Paarse betonnen trap",
+    "purple_wool_slab": "Paarse wollen plaat",
+    "purple_wool_stairs": "Paarse wollen trap",
+    "purpur_block": "Purpurblok",
+    "quartz_block": "Kwartsblok",
+    "rail": "Spoor",
+    "raw_copper_block": "Ruw koperblok",
+    "raw_gold_block": "Ruw goudblok",
+    "raw_iron_block": "Ruw ijzerblok",
+    "red_concrete_slab": "Rode betonnen plaat",
+    "red_concrete_stairs": "Rode betonnen trap",
+    "red_poplar_leaves": "Rode populierenbladeren",
+    "red_shrub": "Rode struik",
+    "red_wool_slab": "Rode wollen plaat",
+    "red_wool_stairs": "Rode wollen trap",
+    "redstone_block": "Redstoneblok",
+    "redstone_lamp": "Redstonelamp",
+    "redstone_ore": "Redstone-erts",
+    "redstone_torch": "Redstonefakkel",
+    "redstone_wire": "Redstonedraad",
+    "reinforced_deepslate": "Gewapend wrevelsteen",
+    "repeater": "Redstoneversterker",
+    "resin_block": "Harsblok",
+    "resin_bricks": "Harsbakstenen",
+    "resin_clump": "Harsdruppels",
+    "respawn_anchor": "Respawnanker",
+    "rooted_dirt": "Gewortelde aarde",
+    "sand": "Zand",
+    "sandstone": "Zandsteen",
+    "scaffolding": "Steiger",
+    "sculk": "Sculk",
+    "sculk_catalyst": "Sculkkatalysator",
+    "sculk_sensor": "Sculksensor",
+    "sculk_shrieker": "Sculkkrijser",
+    "sculk_vein": "Sculkader",
+    "sea_lantern": "Zeelantaarn",
+    "sea_pickle": "Zeeaugurk",
+    "seagrass": "Zeegras",
+    "shelf_mushroom": "Elfenbankje",
+    "dry_grass": "Kort droog gras [TODO]",
+    "short_grass": "Kort gras",
+    "shroomlight": "Zwammenlicht",
+    "slime_block": "Slijmblok",
+    "small_dripleaf": "Klein druipblad",
+    "smithing_table": "Smeedstafel",
+    "smoker": "Roker",
+    "smooth_quartz": "Glad kwartsblok",
+    "smooth_stone": "Gladde steen",
+    "sniffer_egg": "Snuffelaarsei",
+    "snow": "Sneeuw",
+    "snow_block": "Sneeuwblok",
+    "soul_sand": "Zielenzand",
+    "soul_soil": "Zielenaarde",
+    "spawner": "Monsterkooi",
+    "sponge": "Spons",
+    "spore_blossom": "Sporebloesem",
+    "stone": "Steen",
+    "stone_bricks": "Blokstenen",
+    "stonecutter": "Steenzaag",
+    "straw_bed": "Strobed",
+    "stripped_poplar_log": "Gestripte populierenstam",
+    "stripped_poplar_wood": "Gestript populierenhout",
+    "structure_block": "Constructieblok",
+    "structure_void": "Constructieleegte",
+    "sugar_cane": "Suikerriet",
+    "sulfur": "Zwavel",
+    "sulfur_brick_slab": "Zwavelblokstenen plaat",
+    "sulfur_brick_stairs": "Zwavelblokstenen trap",
+    "sulfur_brick_wall": "Zwavelblokstenen muur",
+    "sulfur_bricks": "Zwavelblokstenen",
+    "sulfur_slab": "Zwavelplaat",
+    "sulfur_spike": "Zwaveldruipsteen",
+    "sulfur_stairs": "Zwaveltrap",
+    "sulfur_wall": "Zwavelmuur",
+    "suspicious_gravel": "Verdacht grind",
+    "sweet_berry_bush": "Zoetbesstruik",
+    "target": "Doelwit",
+    "test_block": "Testblok",
+    "test_instance_block": "Testinstantieblok",
+    "tinted_glass": "Getint glas",
+    "tnt": "TNT",
+    "torch": "Fakkel",
+    "torchflower": "Fakkelbloem",
+    "trapped_chest": "Kist met valstrik",
+    "trial_spawner": "Beproevingskooi",
+    "tripwire": "Struikeldraad",
+    "tripwire_hook": "Struikeldraadhaak",
+    "tuff": "Tufsteen",
+    "turtle_egg": "Schildpadei",
+    "twisting_vines": "Verwikkelde klimop",
+    "vault": "Kluis",
+    "vine": "Lianen",
+    "warped_wart_block": "Spookachtig kruidblok",
+    "weeping_vines": "Hangende klimop",
+    "wheat": "Tarwe",
+    "white_concrete_slab": "Witte betonnen plaat",
+    "white_concrete_stairs": "Witte betonnen trap",
+    "white_wool_slab": "Witte wollen plaat",
+    "white_wool_stairs": "Witte wollen trap",
+    "wildflowers": "Wilde bloemen",
+    "wither_rose": "Witherroos",
+    "yellow_concrete_slab": "Gele betonnen plaat",
+    "yellow_concrete_stairs": "Gele betonnen trap",
+    "yellow_poplar_leaves": "Gele populierenbladeren",
+    "yellow_wool_slab": "Gele wollen plaat",
+    "yellow_wool_stairs": "Gele wollen trap"
+  },
+  "items": {
+    "abandoned_camp_map": "Kaart met verlaten kamp",
+    "abandoned_campsite_map": "Kaart met verlaten kamp",
+    "boat": "Acaciahouten boot [TODO]",
+    "chest_boat": "Acaciahouten boot met kist [TODO]",
+    "spawn_egg": "Helperspawnei [TODO]",
+    "amethyst_shard": "Amethistscherf",
+    "ancient_city_map": "Kaart met oude stad",
+    "pottery_sherd": "Aardewerkscherf 'visser' [TODO]",
+    "apple": "Appel",
+    "armadillo_scute": "Gordeldierhoornplaat",
+    "armor_stand": "Harnashouder",
+    "arrow": "Pijl",
+    "aquatic_mob_bucket": "Emmer axolotl [TODO]",
+    "baked_potato": "Gebakken aardappel",
+    "beef": "Rauwe biefstuk",
+    "beetroot": "Biet",
+    "beetroot_seeds": "Bietenzaden",
+    "beetroot_soup": "Bietensoep",
+    "cushion": "Zwart kussen [TODO]",
+    "blaze_powder": "Vlampoeder",
+    "blaze_rod": "Vlamstaf",
+    "blue_cushion": "Blauw kussen",
+    "bone": "Bot",
+    "bone_meal": "Beendermeel",
+    "book": "Boek",
+    "bow": "Boog",
+    "bowl": "Kom",
+    "bread": "Brood",
+    "breeze_rod": "Vlaagstaf",
+    "brick": "Baksteen",
+    "brown_cushion": "Bruin kussen",
+    "brush": "Borstel",
+    "bucket": "Emmer",
+    "bundle": "Bundel",
+    "buried_ancient_city_map": "Kaart met verborgen oude stad",
+    "buried_mineshaft_map": "Kaart met mijnschacht",
+    "buried_treasure_map": "Schatkaart",
+    "buried_trial_chambers_map": "Kaart met beproevingskamer",
+    "carrot": "Wortel",
+    "carrot_on_a_stick": "Wortel aan een stok",
+    "charcoal": "Houtskool",
+    "chest_minecart": "Mijnkar met kist",
+    "chicken": "Rauwe kip",
+    "chorus_fruit": "Chorusfruit",
+    "clay_ball": "Kleibal",
+    "clock": "Klok",
+    "coal": "Steenkool",
+    "armor_trim_smithing_template": "Smeedssjabloon [TODO]",
+    "cocoa_beans": "Cacaobonen",
+    "cod": "Rauwe kabeljauw",
+    "command_block_minecart": "Mijnkar met opdrachtblok",
+    "compass": "Kompas",
+    "cooked_beef": "Biefstuk",
+    "cooked_chicken": "Gebraden kip",
+    "cooked_cod": "Gebakken kabeljauw",
+    "cooked_mutton": "Gebraden schapenvlees",
+    "cooked_porkchop": "Gebraden varkensvlees",
+    "cooked_rabbit": "Gebraden konijnenvlees",
+    "cooked_salmon": "Gebakken zalm",
+    "cookie": "Koekje",
+    "copper_ingot": "Koperstaaf",
+    "copper_nugget": "Koperklompje",
+    "banner_pattern": "Banierpatroon [TODO]",
+    "crossbow": "Kruisboog",
+    "cyan_cushion": "Turquoise kussen",
+    "dye": "Turquoise kleurstof [TODO]",
+    "debug_stick": "Debugstok",
+    "desert_pyramid_map": "Kaart met woestijnpiramide",
+    "desert_village_map": "Kaart met woestijndorp",
+    "diamond": "Diamant",
+    "axe": "Diamanten bijl [TODO]",
+    "boots": "Diamanten laarzen [TODO]",
+    "chestplate": "Diamanten kuras [TODO]",
+    "helmet": "Diamanten helm [TODO]",
+    "hoe": "Diamanten schoffel [TODO]",
+    "horse_armor": "Diamanten paardenharnas [TODO]",
+    "leggings": "Diamanten beenstukken [TODO]",
+    "pickaxe": "Diamanten houweel [TODO]",
+    "shovel": "Diamanten schep [TODO]",
+    "sword": "Diamanten zwaard [TODO]",
+    "disc_fragment": "Muziekplaatfragment [TODO]",
+    "dragon_breath": "Drakenadem",
+    "dried_kelp": "Gedroogde kelp",
+    "echo_shard": "Echoscherf",
+    "egg": "Ei",
+    "elytra": "Dekschild",
+    "emerald": "Smaragd",
+    "enchanted_book": "Betoverd boek",
+    "enchanted_golden_apple": "Betoverde gouden appel",
+    "end_crystal": "Endkristal",
+    "ender_eye": "Enderoog",
+    "ender_pearl": "Enderparel",
+    "experience_bottle": "Magiërsextract",
+    "feather": "Veer",
+    "fermented_spider_eye": "Gefermenteerd spinnenoog",
+    "fire_charge": "Vuurbal",
+    "firework_rocket": "Vuurpijl",
+    "firework_rocket.flight_duration": "Vluchtduur: %s",
+    "firework_star": "Vuurwerkster",
+    "fishing_rod": "Vishengel",
+    "flint": "Vuursteen",
+    "flint_and_steel": "Vuursteen en staal",
+    "frostbite_spawn_egg": "Bevrorenespawnei",
+    "furnace_minecart": "Mijnkar met oven",
+    "ghast_tear": "Ghasttraan",
+    "glass_bottle": "Glazen fles",
+    "glistering_melon_slice": "Glinsterende meloenschijf",
+    "glow_berries": "Gloeibessen",
+    "glow_ink_sac": "Gloeiende inktzak",
+    "glowstone_dust": "Gloeisteenstof",
+    "goat_horn": "Geitenhoorn",
+    "gold_ingot": "Goudstaaf",
+    "gold_nugget": "Goudklompje",
+    "golden_apple": "Gouden appel",
+    "golden_carrot": "Gouden wortel",
+    "gray_cushion": "Grijs kussen",
+    "green_cushion": "Groen kussen",
+    "gunpowder": "Buskruit",
+    "harness": "Tuig",
+    "heart_of_the_sea": "Hart van de zee",
+    "honey_bottle": "Honingfles",
+    "honeycomb": "Honingraat",
+    "hopper_minecart": "Mijnkar met trechter",
+    "ice_ball": "IJsbrok",
+    "ink_sac": "Inktzak",
+    "iron_ingot": "IJzerstaaf",
+    "iron_nugget": "IJzerklompje",
+    "item_frame": "Voorwerplijst",
+    "jungle_explorer_map": "Landkaart met oerwoudtempel",
+    "jungle_pyramid_map": "Kaart met oerwoudtempel",
+    "knowledge_book": "Boek der kennis",
+    "lapis_lazuli": "Lapis lazuli",
+    "lava_bucket": "Emmer lava",
+    "lead": "Leidtouw",
+    "leather": "Leer",
+    "light_blue_cushion": "Lichtblauw kussen",
+    "light_gray_cushion": "Lichtgrijs kussen",
+    "lime_cushion": "Lichtgroen kussen",
+    "lingering_potion": "Aanhoudende drank",
+    "lingering_potion.effect.freezing": "Aanhoudende drank der bevriezing",
+    "mace": "Knots",
+    "magenta_cushion": "Magenta kussen",
+    "magma_cream": "Magmacrème",
+    "map": "Lege kaart [TODO]",
+    "melon_seeds": "Meloenzaden",
+    "melon_slice": "Meloenschijf",
+    "milk_bucket": "Emmer melk",
+    "minecart": "Mijnkar",
+    "mineshaft_map": "Kaart met mijnschacht",
+    "mushroom_stew": "Paddenstoelenstoofpot",
+    "music_disc": "Muziekplaat [TODO]",
+    "music_disc_bounce": "Muziekplaat",
+    "music_disc_bounce.desc": "fingerspit - Bounce",
+    "mutton": "Rauw schapenvlees",
+    "name_tag": "Naamkaartje",
+    "nautilus_shell": "Nautilusschelp",
+    "nether_brick": "Netherbaksteen",
+    "nether_star": "Netherster",
+    "nether_wart": "Netherkruid",
+    "netherite_ingot": "Netherietstaaf",
+    "nautilus_armor": "Netherieten nautilusharnas [TODO]",
+    "netherite_scrap": "Netherietschroot",
+    "netherite_upgrade_smithing_template": "Smeedssjabloon",
+    "ocean_explorer_map": "Landkaart met oceaanmonument",
+    "ocean_monument_map": "Kaart met oceaanmonument",
+    "ominous_bottle": "Onheilspellende fles",
+    "orange_cushion": "Oranje kussen",
+    "painting": "Schilderij",
+    "paper": "Papier",
+    "phantom_membrane": "Fantoommembraan",
+    "pink_cushion": "Roze kussen",
+    "pitcher_plant": "Bekerplant",
+    "pitcher_pod": "Bekerplantpeul",
+    "plains_village_map": "Kaart met veldendorp",
+    "poisonous_potato": "Giftige aardappel",
+    "poplar_boat": "Populierenhouten boot",
+    "poplar_chest_boat": "Populierenhouten boot met kist",
+    "popped_chorus_fruit": "Gepoft chorusfruit",
+    "porkchop": "Rauw varkensvlees",
+    "potato": "Aardappel",
+    "potion": "Drank",
+    "potion.effect.freezing": "Drank der bevriezing",
+    "powder_snow_bucket": "Emmer poedersneeuw",
+    "prismarine_crystals": "Prismarienkristallen",
+    "prismarine_shard": "Prismarienscherf",
+    "pufferfish": "Kogelvis",
+    "pumpkin_pie": "Pompoentaart",
+    "pumpkin_seeds": "Pompoenpitten",
+    "purple_cushion": "Paars kussen",
+    "quartz": "Netherkwarts",
+    "rabbit": "Rauw konijnenvlees",
+    "rabbit_foot": "Konijnenpootje",
+    "rabbit_hide": "Konijnenhuid",
+    "rabbit_stew": "Konijnenstoofpot",
+    "raw_copper": "Ruw koper",
+    "raw_gold": "Ruw goud",
+    "raw_iron": "Ruw ijzer",
+    "recovery_compass": "Herstelkompas",
+    "red_cushion": "Rood kussen",
+    "redstone": "Redstonestof",
+    "resin_brick": "Harsbaksteen",
+    "rotten_flesh": "Bedorven vlees",
+    "saddle": "Zadel",
+    "salmon": "Rauwe zalm",
+    "savanna_village_map": "Kaart met savannedorp",
+    "shears": "Schaar",
+    "shield": "Schild",
+    "shulker_shell": "Shulkerschelp",
+    "slime_ball": "Slijmbal",
+    "snowball": "Sneeuwbal",
+    "snowy_village_map": "Kaart met besneeuwd dorp",
+    "spectral_arrow": "Spectrale pijl",
+    "spider_eye": "Spinnenoog",
+    "splash_potion": "Spattende drank",
+    "splash_potion.effect.freezing": "Spattende drank der bevriezing",
+    "spyglass": "Verrekijker",
+    "stick": "Stok",
+    "straw_bed": "Strobed",
+    "string": "Draad",
+    "sugar": "Suiker",
+    "sulfur_cube_bucket": "Emmer zwavelkubus",
+    "sulfur_cube_spawn_egg": "Zwavelkubusspawnei",
+    "suspicious_stew": "Geheimzinnige stoofpot",
+    "explorer_map": "Landkaart met moerashut [TODO]",
+    "swamp_hut_map": "Kaart met moerashut",
+    "sweet_berries": "Zoetbessen",
+    "taiga_village_map": "Kaart met taigadorp",
+    "tipped_arrow": "Getipte pijl",
+    "tipped_arrow.effect.freezing": "Pijl der bevriezing",
+    "tnt_minecart": "Mijnkar met TNT",
+    "torchflower_seeds": "Fakkelbloemzaden",
+    "totem_of_undying": "Totem der onsterfelijkheid",
+    "trial_explorer_map": "Landkaart met beproevingskamer",
+    "trial_key": "Beproevingssleutel",
+    "trident": "Drietand",
+    "tropical_fish": "Tropische vis",
+    "turtle_scute": "Schildpadhoornschild",
+    "warm_ocean_ruins_map": "Kaart met warme oceaanruïnes",
+    "warped_fungus_on_a_stick": "Spookachtige zwam aan een stok",
+    "water_bucket": "Emmer water",
+    "wheat": "Tarwe",
+    "wheat_seeds": "Tarwezaden",
+    "white_cushion": "Wit kussen",
+    "wind_charge": "Windvlaag",
+    "wolf_armor": "Wolvenharnas",
+    "spear": "Houten speer [TODO]",
+    "woodland_explorer_map": "Landkaart met boslandhuis",
+    "woodland_mansion_map": "Kaart met boslandhuis",
+    "writable_book": "Boek en veer",
+    "written_book": "Geschreven boek",
+    "yellow_cushion": "Geel kussen",
+    "kelp": "Kelp"
+  },
+  "mobs": {
+    "allay": "Helper",
+    "armadillo": "Gordeldier",
+    "axolotl": "Axolotl",
+    "bat": "Vleermuis",
+    "bee": "Bij",
+    "blaze": "Vlam",
+    "bogged": "Zomper",
+    "breeze": "Vlaag",
+    "camel": "Dromedaris",
+    "camel_husk": "Dromedarismummie",
+    "cat": "Kat",
+    "cave_spider": "Grottenspin",
+    "chicken": "Kip",
+    "cod": "Kabeljauw",
+    "copper_golem": "Kopergolem",
+    "cow": "Koe",
+    "creaking": "Schorswaker",
+    "creeper": "Creeper",
+    "cushion": "Kussen",
+    "dolphin": "Dolfijn",
+    "donkey": "Ezel",
+    "drowned": "Drenkeling",
+    "elder_guardian": "Oude bewaker",
+    "ender_dragon": "Enderdraak",
+    "enderman": "Enderman",
+    "endermite": "Endermijt",
+    "evoker": "Oproeper",
+    "fox": "Vos",
+    "frog": "Kikker",
+    "frostbite": "Bevrorene",
+    "ghast": "Ghast",
+    "giant": "Reus",
+    "glow_squid": "Gloeiende inktvis",
+    "goat": "Geit",
+    "guardian": "Bewaker",
+    "happy_ghast": "Vrolijke Ghast",
+    "hoglin": "Hoglin",
+    "horse": "Paard",
+    "husk": "Mummie",
+    "ice_ball": "IJsbrok",
+    "illusioner": "Illusionist",
+    "iron_golem": "IJzergolem",
+    "llama": "Lama",
+    "magma_cube": "Magmakubus",
+    "mooshroom": "Mooshroom",
+    "mule": "Muilezel",
+    "nautilus": "Nautilus",
+    "ocelot": "Ocelot",
+    "panda": "Panda",
+    "parched": "Zoor",
+    "parrot": "Papegaai",
+    "phantom": "Fantoom",
+    "pig": "Varken",
+    "piglin": "Piglin",
+    "piglin_brute": "Piglinbruut",
+    "pillager": "Rover",
+    "polar_bear": "IJsbeer",
+    "poplar_boat": "Populierenhouten boot",
+    "poplar_chest_boat": "Populierenhouten boot met kist",
+    "pufferfish": "Kogelvis",
+    "rabbit": "Konijn",
+    "ravager": "Verwoester",
+    "salmon": "Zalm",
+    "sheep": "Schaap",
+    "shulker": "Shulker",
+    "silverfish": "Zilvervis",
+    "skeleton": "Skelet",
+    "skeleton_horse": "Skeletpaard",
+    "slime": "Slijmkubus",
+    "sniffer": "Snuffelaar",
+    "snow_golem": "Sneeuwgolem",
+    "spider": "Spin",
+    "squid": "Inktvis",
+    "stray": "Verdwaalde",
+    "strider": "Lavaloper",
+    "sulfur_cube": "Zwavelkubus",
+    "sulfur_cube.content": "Bevat: %s",
+    "tadpole": "Kikkervis",
+    "tropical_fish": "Tropische vis",
+    "turtle": "Schildpad",
+    "vex": "Ergernis",
+    "villager": "Dorpeling",
+    "vindicator": "Verdediger",
+    "wandering_trader": "Rondreizende handelaar",
+    "warden": "Hoeder",
+    "witch": "Heks",
+    "wither": "Wither",
+    "wither_skeleton": "Witherskelet",
+    "wolf": "Wolf",
+    "zoglin": "Zoglin",
+    "zombie": "Zombie",
+    "zombie_horse": "Zombiepaard",
+    "zombie_nautilus": "Zombienautilus",
+    "zombie_villager": "Zombiedorpeling",
+    "zombified_piglin": "Zombiepiglin"
+  }
+}
