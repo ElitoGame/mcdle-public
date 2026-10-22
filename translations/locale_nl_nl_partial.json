@@ -370,7 +370,7 @@
         "partial_matches": {
           "title": "Gedeeltelijke overeenkomsten uitgelegd",
           "intro": "Laten we kijken naar de gedeeltelijke overeenkomsten in detail, omdat deze waarschijnlijk de meest verwarrende van de tegelkleuren zijn.",
-          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnne in velden die bestaan uit een lijst (bijv. gereedschap(pen)). Als je een blok hebt geraden dat gebroken kan worden met minstens één gereedschap dat overeenkomt met het daadwerkelijke blok, Zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor bladeren:"
+          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnen in velden die bestaan uit een lijst (bijv. gereedschap(pen)). Als je een blok hebt geraden dat gebroken kan worden met minstens één gereedschap dat overeenkomt met het daadwerkelijke blok, zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor bladeren:"
         },
         "tips": {
           "title": "Tips",
@@ -506,21 +506,21 @@
         "example": {
           "title": "Voorbeeld",
           "intro": "Laten we kijken naar een voorbeeldspel. Eerst proberen we een willekeurige voorwerp.",
-          "table_interpretation_1": "We hebben geleerd dat het voorwerp, zoals de meeste, stapelbaar is tot 64. Het is nieuwer dan Beta 1.2, heeft een gewone zeldzaamheid, is hernieuwbaar, je kan het niet maken in een werkbank, en je kan het niet verkrijgen door kisten of door te handelen. De inventaris categorie vertelt ons dat we niet zoeken naar een voorwerp in het \"Ingrediënten\" categorie. Laten we een andere voorwerp proberen.",
-          "table_interpretation_2": "We zijn achter de voorwerp versie! Time to look for an item added in Beta 1.8 that's in the \"Food & Drinks\" creative inventory category. We also know that it cannot be obtained via a crafting or smelting recipe and that it doesn't drop as loot from a mob.",
-          "table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
+          "table_interpretation_1": "We hebben geleerd dat het voorwerp, zoals de meeste, stapelbaar is tot 64. Het is nieuwer dan Beta 1.2, heeft een gewone zeldzaamheid, is hernieuwbaar, je kan het niet vervaardigen, en je kan het niet verkrijgen door kisten of door te handelen. De inventaris categorie vertelt ons dat we niet zoeken naar een voorwerp in het \"Ingrediënten\" categorie. Laten we een andere voorwerp proberen.",
+          "table_interpretation_2": "We zijn achter de voorwerp versie! Tijd om te kijken naar een voorwerp dat is toegevoegd in Beta 1.8 die in de \"Voedsel & Dranken\" creatieve inventaris categorie. We weten ook dat we niet kunnen verkrijgen via een vervaardigings- of smelt recept en dat het niet als buit van een wezen komt.",
+          "table_interpretation_3": "Dat is 'm! We zijn erachter dat de voorwerp een meloenschijf was, wat heerlijk!"
         },
         "partial_matches": {
-          "title": "Partial Match explanation",
-          "intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colors.",
-          "explanation": "A partial match can only appear in fields that consist of a list (e.g. the inventory category). If you guessed an item that is in at least one inventory category that matches the actual item, you will get a partial match. Here's an example for string:"
+          "title": "Gedeeltelijke overeenkomsten uitgelegd",
+          "intro": "Laten we kijken naar de gedeeltelijke overeenkomsten in detail, omdat deze waarschijnlijk de meest verwarrende van de tegelkleuren zijn.",
+          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnen in velden die bestaan uit een lijst (bijv. Creatieve inventaris categorie). Als je een voorwerp hebt geraden dat gebroken kan worden met minstens één inventaris categorie dat overeenkomt met het daadwerkelijke voorwerp, zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor draad:"
         },
         "tips": {
           "title": "Tips",
-          "not_all_items": "MCdle does not contain every type of item. The list is taken from the Minecraft wiki and hence does not contain the item forms of various blocks or too similar items, like all the armor/tool variants.",
-          "utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
-          "use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the item, you can use the wiki to find the items that were added in that version, which will help you narrow down your search drastically.",
-          "usage_and_source_explanation": "If you are curious how the Usage count/Source count is calculated, check the item's wiki page and scroll to \"Obtaining\" and \"Usage\". The headers of these sections have been used to count their different usecases. If they were missing, I, the developer, have added them manually."
+          "not_all_items": "MCdle heeft niet elke type voorwerp. De lijst is genomen van de Minecraft wiki en bevat daarom niet elke voorwerp vorm van verschillende blokken of te vergelijkbare voorwerp, zoals alle harnas/gereedschap varianten.",
+          "utilize_the_search": "Maak goed gebruik van de zoekbalk! Kijken naar de suggesties zal je helpen je zoekopdracht in te perken.",
+          "use_the_wiki": "Voel je vrij om de Minecraft Wiki te gebruiken. Zodra je de versie van het voorwerp hebt bepaald, kun je de wiki gebruiken om te vinden welke voorwerpen zijn toegevoegd in die versie, wat je zoekopdracht drastisch zal verminderen.",
+          "usage_and_source_explanation": "Als je nieuwsgierig bent naar hoe de gebruik teller/bron teller is berekend, ga naar de wiki page van het voorwerp en scroll naar \"Krijgen\" en \"Gebruik\". De koppen van deze secties zien gebruikt om de verschillende gebruiksscenario te tellen. Als ze er niet waren, heb ik, de ontwikkelaar, ze handmatig toegevoegd."
         }
       }
     },
