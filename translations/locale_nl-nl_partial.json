@@ -276,7 +276,7 @@
           "title": "Blok",
           "initial_release": "Publicatie",
           "stack_size": "Stapel grote",
-          "tool": "Gereed<wbr>schap",
+          "tool": "Gereed<wbr>schap(pen)",
           "blast_resistance": "Explosie<wbr>weer<wbr>stand",
           "hardness": "Hardheid",
           "flammable": "Brand<wbr>baar", 
@@ -304,210 +304,210 @@
         }
       },
       "loose": {
-        "title": "You've failed to discover today's block",
-        "subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
+        "title": "Het is je niet gelukt om de blok van vandaag te raden",
+        "subtitle": "Morgen meer geluk! (of schakel het gok limiet uit in instellingen)"
       },
       "win": {
-        "title": "Block discovered!",
-        "subtitle": "Today's block was {{name}}!"
+        "title": "Blok gevonden!",
+        "subtitle": "Het blok van vandaag was {{name}}!"
       },
       "intro": {
-        "description": "Guess today's Minecraft block!",
-        "start_help": "Type below to start!"
+        "description": "Raad het Minecraft blok van vandaag!",
+        "start_help": "Type hieronder om te starten!"
       },
       "limited_attempts": {
         "warning": {
-          "zero": "{{remaining}} guesses remaining!",
-          "one": "{{remaining}} guess remaining!",
-          "two-four": "{{remaining}} guesses remaining!",
-          "many": "{{remaining}} guesses remaining!"
+          "zero": "{{remaining}} gokken over!",
+          "one": "{{remaining}} gok over!",
+          "two-four": "{{remaining}} gokken over!",
+          "many": "{{remaining}} gokken over!"
         }
       },
       "search": {
         "placeholder": {
-          "initial": "Search for a block",
-          "new_tomorrow": "New block tomorrow!",
-          "no_more_guesses": "Ran out of guesses!"
+          "initial": "Zoek voor een blok",
+          "new_tomorrow": "Nieuwe blok morgen!",
+          "no_more_guesses": "Geen gokken over!"
         },
         "submit": {
-          "aria_label": "Try this block"
+          "aria_label": "Probeer dit blok"
         },
         "ambiguous_result": {
-          "description": "Ambiguous block discovered! Further incorrect ambiguous blocks will be crossed out in red.",
-          "image_alt": "Treasure hunter - close call"
+          "description": "Ambigu blok gevonden! Verdere foute ambigue blokken zullen in rood worden aangegeven.",
+          "image_alt": "Schatzoeker - het schilde niet veel"
         }
       },
       "midnight_timer": {
-        "next_thing": "Reload the page to get the next one!",
-        "next_in": "Next block in {{time}}"
+        "next_thing": "Herlaad de pagina om de volgende te krijgen!",
+        "next_in": "Volgende blok in {{time}}"
       },
       "yesterday_info": {
-        "description": "Yesterday's block was {{name}}!"
+        "description": "Het blok van gisteren was {{name}}!"
       },
       "next_game": {
-        "name": "Blocks",
-        "description": "Up for guessing today's block?"
+        "name": "Blokken",
+        "description": "Klaar om het blok van vandaag te raden?"
       },
       "quick_help": {
-        "look_for": "Are you still looking for a better explanation? Look for the",
-        "tooltip": "How to play",
-        "click_here": "icon below the game title or click here!"
+        "look_for": "Zoek je nog voor een betere uitleg? Kijk naar de",
+        "tooltip": "Hoe speel je",
+        "click_here": "icoon onder de spel titel of klik hier!"
       },
       "help": {
-        "title": "How to play",
+        "title": "Hoe speel je",
         "intro": {
-          "goal": "The goal of this game is to guess a Minecraft block. Every day a new block is chosen, and by continuing to guess the block of the day, you can build up a win-streak!",
-          "enter_guesses": "Begin by typing the name of any block in the search field. Based on your search, up to 10 results will pop up. Click on any of these blocks, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-          "field_explanation": "The properties of your chosen block will be compared to today's block and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
+          "goal": "Het doel van dit spel is om een Minecraft blok te raden. Er wordt elke dag een nieuwe blok gekozen, en door herhaaldelijk het blok van de dag te raden, kun je een winstreeks opbouwen!",
+          "enter_guesses": "Begin met het typen van de naam van welke blok dan ook in het zoekveld. Op basis van je zoekopdracht, verschijnen er tot 10 resultaten. Klik op een van deze blokken, of navigeer ernaar met je pijltjestoetsen en druk op Enter om je gok vast te leggen.",
+          "field_explanation": "De eigenschappen van je gekozen blok zullen worden vergeleken met het blok van vandaag en zal gemarkeerd worden. Groen als het overeenkomt, geel voor gedeeltelijke overeenkomsten, en rood als het incorrect is. Achter incorrecte getal/versie velden zul je ook een pijl vinden die aangeeft of je hoger of lager moet raden."
         },
         "example": {
-          "title": "Example",
-          "intro": "Let's look at an example game. First we'll try an arbitrary block.",
-          "table_interpretation_1": "We've learned that the block, like most others, is stackable until 64, and it is not flammable. It was not added in the versions pre-alpha and can't be mined with a Pickaxe. So let's try a different, newer, block.",
-          "table_interpretation_2": "We've discovered the block's version! Time to look for a block added in Beta 1.8. Additionally, we got a partial match on the tool, so it can be broken by an Axe and some other tool. Also, the block is neither transparent (\"Yes\") nor non-transparent (\"No\"), so it must be partially transparent. Let's look for a block that matches all of these properties.",
-          "table_interpretation_3": "There we go! We've discovered that the block was a block of melon, what a delight!"
+          "title": "Voorbeeld",
+          "intro": "Laten we kijken naar een voorbeeldspel. Eerst proberen we een willekeurige blok.",
+          "table_interpretation_1": "We hebben geleerd dat het blok, zoals de meeste, stapelbaar is to 64, en het is niet brandbaar. Het was niet toegevoegd in versies voor alpha en je kan het niet mijnen met een Houweel. Dus laten we een andere, nieuwere, blok proberen.",
+          "table_interpretation_2": "We zijn achter de blok versie! Tijd om te kijken voor een blok die is toegevoegd in Beta 1.8. Daarnaast kregen we een gedeeltelijke overeenkomst voor de gereedschap, dus het kan worden gebroken door een Bijl en een andere gereedschap. De blok is ook niet transparant (\"Ja\") noch niet-transparant (\"Nee\"), dus het moet gedeeltelijk transparant zijn. Laten we zoeken voor een blok die all deze eigenschappen bevat.",
+          "table_interpretation_3": "Dat is 'm! We zijn erachter dat de blok een meloen was, wat heerlijk!"
         },
         "partial_matches": {
-          "title": "Partial Match explanation",
-          "intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colors.",
-          "explanation": "A partial match can only appear in fields that consist of a list (e.g. Tools). If you guessed a block that can be broken with at least one tool that matches the actual block, you will get a partial match. Here's an example for leaves:"
+          "title": "Gedeeltelijke overeenkomsten uitgelegd",
+          "intro": "Laten we kijken naar de gedeeltelijke overeenkomsten in detail, omdat deze waarschijnlijk de meest verwarrende van de tegelkleuren zijn.",
+          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnne in velden die bestaan uit een lijst (bijv. gereedschap(pen)). Als je een blok hebt geraden dat gebroken kan worden met minstens één gereedschap dat overeenkomt met het daadwerkelijke blok, Zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor bladeren:"
         },
         "tips": {
           "title": "Tips",
-          "not_all_blocks": "MCdle does not contain every type of block. All the colored variants of concrete, terracotta, wool, etc. are merged into one representative block like \"Concrete\" or \"Wool\". This also applies to the different wood types, walls, stairs, etc.",
-          "utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
-          "use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the block, you can use the wiki to find the blocks that were added in that version, which will help you narrow down your search drastically."
+          "not_all_blocks": "MCdle hheft niet elke type blok. Al de gekleurde varianten van beton, terracotta, wol, etc. zijn samengevoegd in één representatieve blok, zoals \"Beton\" or \"Wol\". Dit geld ook voor de verschillende houtsoorten, muren, trappen, enz.",
+          "utilize_the_search": "Maak goed gebruik van de zoekbalk! Kijken naar de suggesties zal je helpen je zoekopdracht in te perken.",
+          "use_the_wiki": "Voel je vrij om de Minecraft Wiki te gebruiken. Zodra je de versie van het blok hebt bepaald, kun je de wiki gebruiken om te vinden welke blokken zijn toegevoegd in die versie, wat je zoekopdracht drastisch zal verminderen."
         }
       }
     },
     "item": {
-      "title": "Gamemode: Guess today's Item!",
+      "title": "Spelmodus: Raad het voorwerp van vandaag!",
       "sub_title_menus": {
         "stats": {
-          "title": "Stats",
-          "tooltip": "Stats"
+          "title": "Statistieken",
+          "tooltip": "Statistieken"
         },
         "streak": {
-          "title": "Transfer progress",
-          "tooltip": "Win-Streak"
+          "title": "Overdracht voortgang",
+          "tooltip": "Winstreeks"
         },
         "help": {
-          "tooltip": "How to play"
+          "tooltip": "Hoe speel je"
         },
         "bestiary": {
-          "tooltip": "Bestiary"
+          "tooltip": "Bestiarium"
         }
       },
       "table": {
         "header": {
-          "title": "Item",
-          "initial_release": "Release",
-          "stack_size": "Stack size",
-          "rarity": "Rarity",
-          "inventory_categories": "Creative Inv. Category",
-          "renewable": "Renewable",
-          "usage": "Usage count",
-          "source": "Source count",
-          "recipe": "Recipe",
-          "loot": "Loot"
+          "title": "Voor<wrb>werp",
+          "initial_release": "Publicatie",
+          "stack_size": "Stapel grote",
+          "rarity": "Zeldzaam<wrb>heid",
+          "inventory_categories": "Creatieve Inv. Categorie",
+          "renewable": "Hernieuw<wrb>baar",
+          "usage": "Gebruik teller",
+          "source": "Bron teller",
+          "recipe": "Recept",
+          "loot": "Verkrijg<wrb>baar"
         },
         "data": {
           "rarity": {
-            "common": "Common",
-            "uncommon": "Uncommon",
-            "rare": "Rare",
-            "epic": "Epic",
-            "mixed": "Mixed"
+            "common": "Gewoon",
+            "uncommon": "Ongewoon",
+            "rare": "Zeldzaam",
+            "epic": "Episch",
+            "mixed": "Gemengd"
           },
           "inventory_category": {
-            "tools_and_utilities": "Tools & Utilities",
-            "redstone_blocks": "Redstone Blocks",
-            "functional_blocks": "Functional Blocks",
-            "natural_blocks": "Natural Blocks",
-            "ingredients": "Ingredients",
-            "combat": "Combat",
-            "food_and_drinks": "Food & Drinks",
-            "none": "None",
-            "spawn_eggs": "Spawn Eggs",
-            "operator_utilities": "Operator Utilities"
+            "tools_and_utilities": "Gereedschap en gebruiksvoorwerpen",
+            "redstone_blocks": "Redstoneblokken",
+            "functional_blocks": "Functionele blokken",
+            "natural_blocks": "Natuurlijke blokken",
+            "ingredients": "Ingrediënten",
+            "combat": "Gevecht",
+            "food_and_drinks": "Voedsel & dranken",
+            "none": "Geen",
+            "spawn_eggs": "Spawneieren",
+            "operator_utilities": "Beheerdersvoorwerpen"
           },
           "recipe": {
-            "crafting_table": "Crafting Table",
-            "furnace": "Furnace",
-            "brewing_stand": "Brewing Stand",
-            "none": "None"
+            "crafting_table": "Werkbank",
+            "furnace": "Oven",
+            "brewing_stand": "Brouwstandaard",
+            "none": "Geen"
           },
           "loot": {
-            "container": "Container",
-            "mob": "Mob",
-            "fishing": "Fishing",
-            "trading": "Trades",
-            "none": "None"
+            "container": "Kist",
+            "mob": "Wezen",
+            "fishing": "Vissen",
+            "trading": "Handelen",
+            "none": "Geen"
           }
         }
       },
       "loose": {
-        "title": "You've failed to discover today's item",
-        "subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
+        "title": "Het is je niet gelukt om de voorwerp van vandaag te raden",
+        "subtitle": "Morgen meer geluk! (of schakel het gok limiet uit in instellingen)"
       },
       "win": {
-        "title": "Item discovered!",
-        "subtitle": "Today's item was {{name}}!"
+        "title": "Voorwerp gevonden!",
+        "subtitle": "Het voorwerp van vandaag was {{name}}!"
       },
       "intro": {
-        "description": "Guess today's Minecraft item!",
-        "start_help": "Type below to start!"
+        "description": "Raad het Minecraft voorwerp van vandaag!",
+        "start_help": "Type hieronder om te starten!"
       },
       "limited_attempts": {
         "warning": {
-          "zero": "{{remaining}} guesses remaining!",
-          "one": "{{remaining}} guess remaining!",
-          "two-four": "{{remaining}} guesses remaining!",
-          "many": "{{remaining}} guesses remaining!"
+          "zero": "{{remaining}} gokken over!",
+          "one": "{{remaining}} gok over!",
+          "two-four": "{{remaining}} gokken over!",
+          "many": "{{remaining}} gokken over!"
         }
       },
       "search": {
         "placeholder": {
-          "initial": "Search for an item",
-          "new_tomorrow": "New item tomorrow!",
-          "no_more_guesses": "Ran out of guesses!"
+          "initial": "Zoek voor een voorwerp",
+          "new_tomorrow": "Nieuwe voorwerp morgen!",
+          "no_more_guesses": "Geen gokken over!"
         },
         "submit": {
-          "aria_label": "Try this item"
+          "aria_label": "Probeer dit voorwerp"
         },
         "ambiguous_result": {
-          "description": "Ambiguous item discovered! Further incorrect ambiguous items will be crossed out in red.",
-          "image_alt": "Treasure hunter - close call"
+          "description": "Ambigu voorwerp gevonden! Verdere foute ambigue voorwerpen zullen in rood worden aangegeven.",
+          "image_alt": "Schatzoeker - het schilde niet veel"
         }
       },
       "midnight_timer": {
-        "next_thing": "Reload the page to get the next one!",
-        "next_in": "Next item in {{time}}"
+        "next_thing": "Herlaad de pagina om de volgende te krijgen!",
+        "next_in": "Volgende voorwerp in {{time}}"
       },
       "yesterday_info": {
-        "description": "Yesterday's item was {{name}}!"
+        "description": "Het voorwerp van gisteren was {{name}}!"
       },
       "next_game": {
-        "name": "Items",
-        "description": "Ready to guess today's item too?"
+        "name": "Voorwerpen",
+        "description": "Klaar om ook het voorwerp van vandaag te raden?"
       },
       "quick_help": {
-        "look_for": "Are you still looking for a better explanation? Look for the",
-        "tooltip": "How to play",
-        "click_here": "icon below the game title or click here!"
+        "look_for": "Zoek je nog voor een betere uitleg? Kijk naar de",
+        "tooltip": "Hoe speel je",
+        "click_here": "icoon onder de spel titel of klik hier!"
       },
       "help": {
-        "title": "How to play",
+        "title": "Hoe speel je",
         "intro": {
-          "goal": "The goal of this game is to guess a Minecraft item. Every day a new item is chosen, and by continuing to guess the item of the day, you can build up a win-streak.",
-          "enter_guesses": "Begin by typing the name of any item in the search field. Based on your search, up to 10 results will pop up. Click on any of these items, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-          "field_explanation": "The properties of your chosen item will be compared to today's item and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
+          "goal": "Het doel van dit spel is om een Minecraft voorwerp te raden. Er wordt elke dag een nieuwe voorwerp gekozen, en door herhaaldelijk het voorwerp van de dag te raden, kun je een winstreeks opbouwen!",
+          "enter_guesses": "Begin met het typen van de naam van welke voorwerp dan ook in het zoekveld. Op basis van je zoekopdracht, verschijnen er tot 10 resultaten. Klik op een van deze voorwerpen, of navigeer ernaar met je pijltjestoetsen en druk op Enter om je gok vast te leggen.",
+          "field_explanation": "De eigenschappen van je gekozen voorwerp zullen worden vergeleken met het blok van vandaag en zal gemarkeerd worden. Groen als het overeenkomt, geel voor gedeeltelijke overeenkomsten, en rood als het incorrect is. Achter incorrecte getal/versie velden zul je ook een pijl vinden die aangeeft of je hoger of lager moet raden."
         },
         "example": {
-          "title": "Example",
-          "intro": "Let's look at an example game. First we'll try an arbitrary item.",
-          "table_interpretation_1": "We've learned that the item, like most others, is stackable until 64. It's newer than Beta 1.2, has Common rarity, is renewable, it is not craftable, and can't be looted from containers or be obtained from trading. It's inventory category tells us that we are not looking for a Item in the \"Ingredient\" category. Let's try a different item.",
-          "table_interpretation_2": "We've discovered the items version! Time to look for an item added in Beta 1.8 that's in the \"Food & Drinks\" creative inventory category. We also know that it cannot be obtained via a crafting or smelting recipe and that it doesn't drop as loot from a mob.",
+          "title": "Voorbeeld",
+          "intro": "Laten we kijken naar een voorbeeldspel. Eerst proberen we een willekeurige voorwerp.",
+          "table_interpretation_1": "We hebben geleerd dat het voorwerp, zoals de meeste, stapelbaar is tot 64. Het is nieuwer dan Beta 1.2, heeft een gewone zeldzaamheid, is hernieuwbaar, je kan het niet maken in een werkbank, en je kan het niet verkrijgen door kisten of door te handelen. De inventaris categorie vertelt ons dat we niet zoeken naar een voorwerp in het \"Ingrediënten\" categorie. Laten we een andere voorwerp proberen.",
+          "table_interpretation_2": "We zijn achter de voorwerp versie! Time to look for an item added in Beta 1.8 that's in the \"Food & Drinks\" creative inventory category. We also know that it cannot be obtained via a crafting or smelting recipe and that it doesn't drop as loot from a mob.",
           "table_interpretation_3": "There we go! We've discovered that the item was a melon slice, what a joy!"
         },
         "partial_matches": {
