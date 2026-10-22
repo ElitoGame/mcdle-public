@@ -943,31 +943,31 @@
         "overview": {
           "title": "Overzicht",
           "library_back": "Terug naar Bibliotheek",
-          "explanation": "Click on an entry to view its page, use the search icon in the top right to find one, or apply filters that apply to the entire page (not just the search results).",
+          "explanation": "Klik op een toegave om zijn pagina te bekijken, gebruik de zoek icoon in de rechterbovenhoek om een te vinden, of pas filters toe die van toepassing zijn op de hele pagina (niet alleen de zoekresultaten).",
           "sorting": {
-            "alphabet_tooltip": "Sort alphabetically",
-            "alphabet_alt": "A-Z Sort",
-            "release_tooltip": "Sort by release",
-            "release_alt": "Release Sort"
+            "alphabet_tooltip": "Sorteer alphabetisch",
+            "alphabet_alt": "Sorteren van A-Z",
+            "release_tooltip": "Sorteren met publicatie",
+            "release_alt": "Publicatie Sort"
           }
         },
         "entry": {
-          "overview_back": "Overview",
-          "not_found": "Norbert didn't find any matching entries in your discovered list =(",
-          "try_different": "Try different filters!",
+          "overview_back": "Overzicht",
+          "not_found": "Norbert kon geen overeenkomstige items vinden in je ontdekte lijst =(",
+          "try_different": "Probeer andere filters!",
           "discovered": {
-            "first_discovered": "First discovered:",
+            "first_discovered": "Eerst ontdekt:",
             "in": "in",
-            "and": "and",
-            "more": "more!"
+            "and": "en",
+            "more": "meer!"
           }
         },
         "filters": {
-          "applied": "Filters applied",
-          "search_placeholder": "Search",
-          "search_alt": "Search icon",
-          "clear": "Clear Filters",
-          "open": "Filters (Global)",
+          "applied": "Filters toegepast",
+          "search_placeholder": "Zoek",
+          "search_alt": "Zoek icoon",
+          "clear": "Leeg Filters",
+          "open": "Filters (Globaal)",
           "min": "Min",
           "max": "Max"
         }
@@ -976,90 +976,90 @@
   },
   "components": {
     "quick_help": {
-      "show_button": "Show quick help",
+      "show_button": "Toon snelle help",
       "color_explanation": {
-        "title": "Color explanation",
-        "correct": "Correct Field",
-        "incorrect": "Incorrect Field",
-        "partial": "Partially correct Field"
+        "title": "Kleur uitleg",
+        "correct": "Correct Veld",
+        "incorrect": "Incorrect Veld",
+        "partial": "Deels correct Veld"
       }
     },
     "stats": {
-      "copy_button": "Copy",
-      "copied_confirmation": "Copied!",
-      "share": "Share",
+      "copy_button": "Kopieer",
+      "copied_confirmation": "Gekopieerd!",
+      "share": "Deel",
       "copy_message": {
-        "header_block": "My #MCdle block statistics 🏆",
-        "header_item": "My #MCdle item statistics 🏆",
-        "header_mob": "My #MCdle mob statistics 🏆",
-        "total_wins": "🎉 Games Won {{number}}",
-        "average_guesses": "🧮 Average Guesses {{number}}",
-        "one_shots": "🎯 One-Shots {{number}}",
-        "current_streak": "🚀 Current Streak {{number}}",
-        "max_streak": "📈 Max Streak {{number}}"
+        "header_block": "Mijn #MCdle blok statistieken 🏆",
+        "header_item": "Mijn #MCdle voorwerp statistieken 🏆",
+        "header_mob": "Mijn #MCdle wezen statistieken 🏆",
+        "total_wins": "🎉 Spellen Gewonnen {{number}}",
+        "average_guesses": "🧮 Gemiddelde Pogingen {{number}}",
+        "one_shots": "🎯 Eerste poging juist {{number}}",
+        "current_streak": "🚀 Huidige Streek {{number}}",
+        "max_streak": "📈 Max Streek {{number}}"
       },
       "stat_labels": {
-        "total_wins": "Games Won",
-        "average_guesses": "Average Guesses",
-        "one_shots": "One-Shots",
-        "current_streak": "Current Streak",
-        "max_streak": "Max Streak"
+        "total_wins": "Spellen Gewonnen",
+        "average_guesses": "Gemiddelde Pogingen",
+        "one_shots": "Eerste poging juist",
+        "current_streak": "Huidige Streek",
+        "max_streak": "Max Streek"
       },
       "chart_labels": {
-        "guesses": "Guesses"
+        "guesses": "Pogingen"
       }
     },
     "today_guesses": {
-      "loading": "Loading player guesses...",
+      "loading": "Laden van spelers pogingen...",
       "already_guessed": {
-        "zero": "players already guessed correctly!",
-        "one": "player already guessed correctly!",
-        "two-four": "players already guessed correctly!",
-        "many": "players already guessed correctly!"
+        "zero": "Speler heeft al correct geraden!",
+        "one": "Speler heeft al correct geraden!",
+        "two-four": "Spelers hebben al correct geraden!",
+        "many": "Spelers hebben al correct geraden!"
       }
     },
     "share_win": {
-      "copy_button": "Copy",
-      "copied_confirmation": "Copied!",
-      "share": "Share",
-      "all_games": "All Games",
+      "copy_button": "Copieer",
+      "copied_confirmation": "Gekopieerd!",
+      "share": "Deel",
+      "all_games": "Alle Spellen",
       "guess_type": {
-        "block": "block",
-        "item": "item",
-        "mob": "mob"
+        "block": "blok",
+        "item": "voorwerp",
+        "mob": "wezen"
       },
       "guess_line": {
-        "one": "I discovered {{date}}'s #MCdle {{type}} in {{number}} try! {{emoji}}",
-        "many": "I discovered {{date}}'s #MCdle {{type}} in {{number}} tries! {{emoji}}"
+        "one": "Ik ontdekte {{date}}'s #MCdle {{type}} in {{number}} poging! {{emoji}}",
+        "many": "Ik ontdekte {{date}}'s #MCdle {{type}} in {{number}} pogingen! {{emoji}}"
       },
       "short_guess_line": {
-        "intro": "I discovered {{date}}'s #MCdle ",
-        "one": "{{type}} in {{number}} try",
-        "many": "{{type}} in {{number}} tries",
-        "conjunction": " and "
+        "intro": "Ik ontdekte {{date}}'s #MCdle ",
+        "one": "{{type}} in {{number}} poging",
+        "many": "{{type}} in {{number}} pogingen",
+        "conjunction": " en "
       }
     },
     "hints": {
       "in_x_guesses": {
-        "one": "in {{number}} guess!",
-        "many": "in {{number}} guesses!"
+        "one": "in {{number}} poging!",
+        "many": "in {{number}} pogingen!"
       },
       "version": {
-        "description": "Release version hint",
-        "solution": "You're looking for a {{version}} release!"
+        "description": "Publicatie versie hint",
+        "solution": "Je zoekt naar de {{version}} publicatie!"
       },
       "letter": {
-        "description": "Starting letter hint",
-        "solution": "The solution starts with {{letter}}..."
+        "description": "Beginnende letter hint",
+        "solution": "Het antwoord begint met {{letter}}..."
       },
       "image": {
-        "description": "Zoomed image hint",
-        "solution": "Can you see what's hiding in this 8x zoomed in image?"
+        "description": "Ingzoomde afbeelding hint",
+        "solution": "Kan je zien wat er verstopt is in deze 8x ingezoomde afbeelding?"
       }
     },
     "toasts": {
       "patchnotes": {
-        "live": " are now live! Check them out!"
+        "live": " zijn nu live! Bekijk ze!"
       }
     }
   },
