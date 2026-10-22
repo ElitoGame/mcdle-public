@@ -11,7 +11,7 @@
     "about": {
       "title": "Over ons",
       "button_title": "Over",
-      "intro": "Mcdle is een Wordleachtige puzzle spel voor Minecraft gerelateerde inhoud. Elke dag, een nieuwe Minecraft blok, voorwerp, en wezen is gekozen en jij moet het raden. Kom dagelijks terug en bouw een winstreeks! Er zijn sociale delen functies, zodat je je overwinningen en winstreeks kunt delen met je vrienden!",
+      "intro": "Mcdle is een Wordleachtige puzzel spel voor Minecraft gerelateerde inhoud. Elke dag, een nieuwe Minecraft blok, voorwerp, en wezen is gekozen en jij moet het raden. Kom dagelijks terug en bouw een winstreeks! Er zijn sociale delen functies, zodat je je overwinningen en winstreeks kunt delen met je vrienden!",
       "help_pointer": "Niet zeker hoe je het spel moet spelen? Elke spelpagina heeft een ?-icoon onder de titel, waarmee een helpmenu wordt geopend met voorbeelden en gedetailleerde beschrijvingen van de huidige spelmodus.",
       "suggestions": {
         "title": "Suggesties",
@@ -674,275 +674,275 @@
       }
     },
     "crafting": {
-      "title": "Gamemode: Crafting Bee",
+      "title": "Spelmodus: Crafting Bee",
       "sub_title_menus": {
         "stats": {
-          "title": "Stats",
-          "tooltip": "Stats"
+          "title": "Statistieken",
+          "tooltip": "Statistieken"
         },
         "streak": {
-          "title": "Transfer progress",
-          "tooltip": "Win-Streak"
+          "title": "Overdracht voortgang",
+          "tooltip": "Winstreeks"
         },
         "help": {
-          "tooltip": "How to play"
+          "tooltip": "Hoe speel je"
         },
         "bestiary": {
-          "tooltip": "Bestiary"
+          "tooltip": "Bestiarium"
         },
         "editor": {
-          "tooltip": "Editor"
+          "tooltip": "Aanpassen"
         }
       },
       "regular": {
         "notifications": {
-          "already_crafted": "Item already crafted!",
+          "already_crafted": "Voorwerp al vervaardigd!",
           "other_game_running": {
-            "description": "You have another game saved but are trying to play a new one via a custom link",
-            "prev_game": "Your saved game:",
-            "prev_game_discovered": "{{discoveredCount}}/{{availableRecipes}} discovered already.",
-            "overwrite": "Overwrite",
-            "return": "Return to saved game"
+            "description": "Je hebt een andere spel opgeslagen maar probeert een nieuwe te spelen via een aangepaste link",
+            "prev_game": "Je opgeslagen spel:",
+            "prev_game_discovered": "{{discoveredCount}}/{{availableRecipes}} al gevonden.",
+            "overwrite": "Overschrijven",
+            "return": "Terug naar opgeslagen spel"
           }
         },
         "copy_message": {
           "timer": {
             "all": {
-              "long": "I have discovered all {{discoveredCount}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
-              "short": "I found all {{discoveredCount}} recipes in {{time}} #MCdle #CraftingBee"
+              "long": "Ik ben achter all {{discoveredCount}} recepten gekomen in {{time}} in de volgende #MCdle #CraftingBee raadsel!",
+              "short": "Ik heb alle {{discoveredCount}} recepten gevonden in {{time}} #MCdle #CraftingBee"
             },
             "partial": {
-              "long": "I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} in the following #MCdle #CraftingBee riddle!",
-              "short": "I found {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} #MCdle #CraftingBee"
+              "long": "Ik ben erin geslaagd om {{discoveredCount}}/{{availableRecipes}} recepten in {{time}} te ontdekken in de volgende #MCdle #CraftingBee raadsel!",
+              "short": "Ik heb {{discoveredCount}}/{{availableRecipes}} recepten gevonden in {{time}} #MCdle #CraftingBee"
             }
           },
           "no_timer": {
             "all": {
-              "long": "I have discovered all {{discoveredCount}} recipes in the following #MCdle #CraftingBee riddle!",
-              "short": "I found all {{discoveredCount}} recipes in this #MCdle #CraftingBee"
+              "long": "Ik ben acher all {{discoveredCount}} recepten in de volgende #MCdle #CraftingBee raadsel!",
+              "short": "Ik heb alle {{discoveredCount}} recepten gevonden in deze #MCdle #CraftingBee"
             },
             "partial": {
-              "long": "I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in the following #MCdle #CraftingBee riddle!",
-              "short": "I found {{discoveredCount}}/{{availableRecipes}} recipes in this #MCdle #CraftingBee"
+              "long": "Ik ben erin geslaagd om {{discoveredCount}}/{{availableRecipes}} recepten te ontdekken in de volgende #MCdle #CraftingBee raadsel!",
+              "short": "Ik heb {{discoveredCount}}/{{availableRecipes}} recepten gevonden in deze #MCdle #CraftingBee"
             }
           },
           "copy_button": {
-            "copy": "Copy Riddle",
-            "copied": "Copied!"
+            "copy": "Copier Raadsel",
+            "copied": "Gecopieerd!"
           },
           "share_button": {
-            "share": "Share Riddle",
-            "shared": "Shared!"
+            "share": "Deel Raadsel",
+            "shared": "Gedeeld!"
           }
         },
         "game_state_box": {
-          "start_playing": "Begin by clicking/dragging items from below into the crafting grid!",
-          "discover_status": "Discovered {{discoveredCount}}/{{availableRecipes}}",
+          "start_playing": "Begin door het klikken/slepen van voorwerpen hieronder in het vervaardigingsraster!",
+          "discover_status": "Gevonden {{discoveredCount}}/{{availableRecipes}}",
           "timer": "{{remainingTime}}"
         },
         "game_complete_box": {
-          "congrats": "Congratulations!",
-          "discovered": "You have discovered all {{discoveredCount}} recipes with the current items!",
-          "discovered_time": "You have discovered all {{discoveredCount}} recipes in {{time}} with the current items!",
+          "congrats": "Gefeliciteerd!",
+          "discovered": "Je hebt alle {{discoveredCount}} recepten gevonden met de huidige voorwerpen!",
+          "discovered_time": "Je hebt alle {{discoveredCount}} recepten in {{time}} gevonden met de huidige voorwerpen!",
           "regenerate": {
-            "description": "Click the button below to reset the game and get new items.",
-            "button": "Regenerate",
+            "description": "Klik de knop hieronder om het spel te resetten en nieuwe voorwerpen te krijgen.",
+            "button": "Regenereren",
             "popup": {
-              "title": "New random items?",
-              "hints": "Show remaining recipe hints?",
-              "description": "Click below to randomize the items in the hexagons and start a new game!",
-              "confirm": "Confirm"
+              "title": "Nieuwe willekeurige voorwerpen?",
+              "hints": "Toon overige recepten hints?",
+              "description": "Klik hieronder om de voorwerpen in de zeshoeken te randomiseren en een nieuwe spel te beginnen!",
+              "confirm": "Bevestigen"
             }
           },
-          "more_crafting_riddles": "or find custom ones on our ",
+          "more_crafting_riddles": "Of vind aangepaste op onze ",
           "discord_link": "Discord",
           "more_crafting_riddles_2": "!",
           "replay": {
-            "button": "Replay",
+            "button": "Opnieuw spelen",
             "popup": {
-              "title": "Replay the current game?",
-              "description": "Click below to play the game again with the same items!"
+              "title": "Speel het huidige spel opnieuw?",
+              "description": "Klik hieronder om het spel opnieuw te spelen met dezelfde voorwerpen!"
             }
           }
         },
         "tools": {
-          "eraser": "Eraser",
+          "eraser": "Gum",
           "clear": {
-            "button": "Clear",
+            "button": "Leeg",
             "popup": {
-              "title": "Clear the Crafting table?",
-              "description": "Click below to remove all items from the crafting table.",
-              "confirm": "Confirm"
+              "title": "Leeg de Werkbank?",
+              "description": "Klik hieronder om alle voorwerpen van de werkbank te verwijderen.",
+              "confirm": "Bevestigen"
             }
           }
         },
         "quick_settings": {
-          "title": "Quick Settings",
-          "hints": "Show remaining recipe hints?",
-          "timer": "Include timer?",
-          "regenerate": "Generate new Riddle",
-          "auto_craft": "Auto craft?",
-          "shadow_hint": "Show Silhouettes hint?",
+          "title": "Snelle Instellingen",
+          "hints": "Toon overige recepten hints?",
+          "timer": "Timer toevoegen?",
+          "regenerate": "Genereer nieuwe raadsel",
+          "auto_craft": "Automatisch vervaardigen?",
+          "shadow_hint": "Toon Silhouetten hint?",
           "hint_popup": {
-            "greeting": "Hi, need a ",
+            "greeting": "Hi, heb je een ",
             "hint": "hint",
             "closing": "?",
-            "pointing_to_hints": "You can also find these hints below!"
+            "pointing_to_hints": "Je kunt deze hints ook hieronder vinden!"
           }
         },
-        "try_editor": "Check out the editor!"
+        "try_editor": "Bekijk de Editor!"
       },
       "daily": {
-        "title": "Crafting Bee Daily",
-        "description": "Each day, 7 random items are generated. Can you remember all the items craftable with them?",
+        "title": "Crafting Bee Dagelijks",
+        "description": "Elke dag, zijn 7 willekeurige voorwerpen gegenereerd. Kan je herinneren wat je met all deze voorwerpen kunt vervaardigen?",
         "game_complete_box": {
-          "more_tomorrow": "Come back tomorrow for a new daily riddle, or play ",
-          "infinite_link": "infinitely",
+          "more_tomorrow": "Kom morgen terug voor een nieuwe dagelijkse raadsel, of speel ",
+          "infinite_link": "Onbeperkt",
           "more_tomorrow_2": "!",
-          "more_crafting_riddles": "You can also find player-created riddles on our ",
+          "more_crafting_riddles": "Je kan ook speler-gemaakt raadsel vinden op onze ",
           "discord_link": "Discord",
           "more_crafting_riddles_2": "!"
         }
       },
       "index": {
         "daily": {
-          "title": "Daily",
-          "description": "7 Items each day, with streaks"
+          "title": "Dagelijks",
+          "description": "7 Voorwerpen elke dag, met streeksen"
         },
         "regular": {
-          "title": "Unlimited",
-          "description": "7 items, unlimited replay with custom games, and randomization."
+          "title": "Onbeperkt",
+          "description": "7 voorwerpen, onbeperkt opnieuw spelen met aangepaste spellen, en willekeurige generatie."
         },
         "editor": {
           "title": "Editor",
-          "description": "Create your own Crafting Bee riddles!"
+          "description": "Maak je eigen Crafting Bee raadsels!"
         }
       },
       "editor": {
         "title": "Crafting Bee Editor",
-        "description": "Editor for the Crafting Bee gamemode",
+        "description": "Editor voor de Crafting Bee spelmodus",
         "share_creation": {
-          "before_link": "Share your creation on our",
+          "before_link": "Deel je creatie op onze",
           "link": "Discord",
           "after_link": "!"
         },
         "test_creation": {
-          "before_link": "When you're done,",
-          "link": "test your riddle",
-          "after_link": "or"
+          "before_link": "Als je klaar bent,",
+          "link": "test je raadsel",
+          "after_link": "of"
         },
         "copy_creation": {
-          "copy": "Copy riddle link",
-          "copied": "Copied!"
+          "copy": "Copieer raadsel link",
+          "copied": "Gecopieerd!"
         },
-        "search_items": "Search for items...",
+        "search_items": "Zoek naar voorwerpen...",
         "table": {
           "header": {
-            "item": "Item",
-            "individual_usage": "Individual Item Usage",
-            "recipes_with_item": "Recipes Using Item"
+            "item": "Voorwerp",
+            "individual_usage": "Individuele Voorwerp Gebruik",
+            "recipes_with_item": "Recepten met Voorwerp"
           }
         },
-        "found_recipes": "Found recipes: {{count}}",
-        "delete_item": "Delete",
+        "found_recipes": "Gevonden recepten: {{count}}",
+        "delete_item": "Verwijder",
         "import": {
-          "title": "Game Import",
-          "unlimited_button": "Import Unlimited Game",
+          "title": "Spel Import",
+          "unlimited_button": "Importeer Onbeperkt Spel",
           "popup": {
-            "title": "Import Game From the Unlimited Mode?",
-            "description": "Click below to import the current game from Unlimited Mode. Note that this will overwrite your current editor progress.",
-            "confirm": "Confirm"
+            "title": "Importeer Spel Van de Onbeperkte Modus?",
+            "description": "Klik hieronder in de huidige spel van de Onbeperkte Modus te importeren. Onthoud dat dit je progressie zal overschrijven in de huidige Editor.",
+            "confirm": "Bevestigen"
           }
         },
-        "return_to_unlimited": "Return to the game!"
+        "return_to_unlimited": "Terug naar het spel!"
       },
       "midnight_timer": {
-        "next_thing": "Reload the page to get the next one!",
-        "next_in": "Next ingredients in {{time}}"
+        "next_thing": "Herlaad de pagina om de volgende te krijgen!",
+        "next_in": "Volgende ingrediënten in {{time}}"
       },
       "next_game": {
         "name": "Crafting Bee",
-        "description": "Can you remember all craftable items with today's ingredients"
+        "description": "Kan je alle vaardbare voorwerpen herinneren met de ingrediënten van vandaag"
       },
       "help": {
-        "title": "How to play",
+        "title": "Hoe speel je",
         "intro": {
-          "goal": "The goal of this game is to craft as many items as possible with the 7 items provided in the hexagons. This gamemode has a daily mode, as well as an unlimited mode paired with an editor. By completing the daily mode, you can build up a win-streak. By playing unlimited, you get to learn how to play the game, recipes, and play riddles that other players created using the editor!",
-          "entering_items": "To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see your desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagons or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD or arrow keys for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
+          "goal": "Het doel van dit spel is om zoveel mogelijk voorwerpen te vervaardigen met de 7 voorziende voorwerpen in de zeshoeken. Deze spelmodus heeft een dagelijkse modus, evenals een oneindigde modus gepaard met een editor. Door het voltooien van de dagelijkse modus, kun je een winstreeks opbouwen. Door het spelen van onbeperkt, krijg je de mogelijkheid om te leren hoe je het spelmoet spelen, recepten, en speel je raadsels die andere spelers hebben gemaakt met gebruik van de Editor!",
+          "entering_items": "Om te beginnen met spelen, selecteer een voorwerp in de zeshoeken en klik dan op een slot in het vervaardegingsraster, waarbij het klikken op meerdere slots deze slots zall \"verven\". Herhaal dit proces totdat je je gewenste recept ziet in het uitvoerslot. Klik dan op het resultaat om het te vervaardigen! Als alternatief, kun je ook de voorwerpen slepen en laten vallen van de zeshoeken of vanaf de ene slot naar de andere. Toevoegend, je kunt ook een \"Toetsenbord Tovenaar\" zijn en selecteer de zeshoeken met de nummer toetsen, WASD of pijltjes toetsen voor de vervaardegings slots, Spatie om te plaatsen, en Enter om te vervaardigen. Toetsenbindings kunnen worden geconfigureerd in de instellingen die zich bevinden aand de linkerkant van de MCdle titel."
         },
         "example": {
-          "title": "Example",
-          "intro": "Let's look at some examples! From a single diamond, we can craft 5 individual items!",
-          "try_example": "Try this example",
-          "hint_info": "Feeling stuck? You can enable hints in the box below the delete/clear buttons. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
+          "title": "Voorbeeld",
+          "intro": "Laten we kijken naar wat voorbeelden! Van één diamant, kunnen we 5 individuale voorwerpen vervaardigen!",
+          "try_example": "Probeer dit voorbeeld",
+          "hint_info": "Zit je vast? Je kunt hints inschakelen in het vakje onder de verwijder/leeg knoppen. De hints zullen verschijnen boven de individuele zeshoeken en vertellen je hoeveel voorwerpen je over hebt om te vervaardigen met dat ingrediënt! Van daar, kun je de",
           "mc_wiki": "Minecraft Wiki",
-          "hint_info_2": "to look up recipes.",
-          "test_hints": "Test toggling the hint system"
+          "hint_info_2": "bezoeken om recepten op te zoeken.",
+          "test_hints": "Test omschakelen van de hint system"
         },
         "tips": {
           "title": "Tips",
-          "individual_results_only": "The game only counts individual results, not individual recipes. For example, both bamboo and planks make sticks, but once you crafted sticks with either, that's it!",
-          "where_help": "Use the hint system if you are stuck. The wiki pairs well with it, just search for the item you are missing!",
-          "not_all_recipes": "Crafting Bee does not contain every craftable recipe. Only standard shaped and shapeless recipes inside the crafting table are included. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
+          "individual_results_only": "Het spel telt alleen individuele resultaten, niet individuele recepten. Bijvoorbeeld, zowel bamboe en planken maken stokken, maar als je eenmaal stokken hebt vervaardigd, is dat het!",
+          "where_help": "Gebruik de hint system als je vast zit. De wiki paart goed er mee, zoek gewoon voor het voorwerp de je mist!",
+          "not_all_recipes": "Crafting Bee heeft niet elk vervaardbare recepten. Alleen standaard gevormde en vormloze recepten binnen de werkbank zijn geincludeerd. Niet standaard recepten, zoals op maat gemaakt vuurwerk, versierde potten, of vergelijkbare zijn niet geincludeerd."
         }
       }
     },
     "bestiary": {
       "index": {
-        "title": "Bestiary",
+        "title": "Bestiarium",
         "books": {
           "blocks": {
-            "title": "The Book of Blocks",
-            "cover_alt_text": "Block Book Cover"
+            "title": "Het Boek van Blokken",
+            "cover_alt_text": "Blok Boek Omslag"
           },
           "items": {
-            "title": "The Book of Items",
-            "cover_alt_text": "Item Book Cover"
+            "title": "Het Boek van Voorwerpen",
+            "cover_alt_text": "Voorwerp Boek Omslag"
           },
           "mobs": {
-            "title": "The Book of Mobs",
-            "cover_alt_text": "Mob Book Cover"
+            "title": "Het Boek van Wezens",
+            "cover_alt_text": "Wezen Boek Omslag"
           },
           "crafting": {
-            "title": "The Book of Crafting",
-            "cover_alt_text": "Crafting Bee Book Cover"
+            "title": "Het Boek van Vervaardiging",
+            "cover_alt_text": "Crafting Bee Boek Omslag"
           }
         }
       },
       "blocks": {
-        "title": "Block Bestiary",
-        "description": "For all the Blocks you might encounter in MCdle."
+        "title": "Blok Bestiarium",
+        "description": "Voor alle Blokken die je in MCdle kunt tegenkomen."
       },
       "items": {
-        "title": "Item Bestiary",
-        "description": "For all the Items you might encounter in MCdle."
+        "title": "Item Bestiarium",
+        "description": "Voor alle Voorwerpen die je in MCdle kunt tegenkomen."
       },
       "mobs": {
-        "title": "Mob Bestiary",
-        "description": "For all the Mobs you might encounter in MCdle."
+        "title": "Mob Bestiarium",
+        "description": "Voor alle Wezens die je in MCdle kunt tegenkomen."
       },
       "crafting": {
-        "title": "Crafting Bee Bestiary",
-        "description": "For all the items you can craft in MCdle's Crafting Bee.",
+        "title": "Crafting Bee Bestiarium",
+        "description": "Voor alle voorwerpen die je in MCdle's Crafting Bee kunt vervaardigen.",
         "entry": {
           "discovered": {
-            "label": "Discovered in",
-            "daily": "Daily Challenge",
-            "random": "Random Game",
-            "custom": "Custom Game"
+            "label": "Ontdekt in",
+            "daily": "Dagelijkse Uitdaging",
+            "random": "Willekeurig Spel",
+            "custom": "Aangepast Spel"
           },
           "recipes": {
-            "label": "Recipes"
+            "label": "Recepten"
           }
         },
         "filters": {
-          "unavailable": "There are currently no filters available."
+          "unavailable": "Er zijn momenteel geen filters beschikbaar."
         }
       },
       "generic": {
         "overview": {
-          "title": "Overview",
-          "library_back": "Back to library",
+          "title": "Overzicht",
+          "library_back": "Terug naar Bibliotheek",
           "explanation": "Click on an entry to view its page, use the search icon in the top right to find one, or apply filters that apply to the entire page (not just the search results).",
           "sorting": {
             "alphabet_tooltip": "Sort alphabetically",
