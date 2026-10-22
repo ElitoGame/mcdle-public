@@ -2,7 +2,7 @@
   "footer": {
     "links": {
       "cookie": {
-        "title": "Cookie Policy"
+        "title": "Cookie Beleid"
       },
       "patchnotes": {
         "title": "Versienotities"
@@ -11,7 +11,7 @@
     "about": {
       "title": "Over ons",
       "button_title": "Over",
-      "intro": "Mcdle is een Wordleachtige puzzle spel voor Minecraft gerelateerde inhoud. Elke dag, een nieuwe Minecraft blok, voorwerp, en wezen is gekozen en jij moet het raden. Kom dagelijks terug en bouw een winstreeks! Er zijn sociale delen functies, zodat je je overwinningen en win-streaks kunt delen met je vrienden!",
+      "intro": "Mcdle is een Wordleachtige puzzle spel voor Minecraft gerelateerde inhoud. Elke dag, een nieuwe Minecraft blok, voorwerp, en wezen is gekozen en jij moet het raden. Kom dagelijks terug en bouw een winstreeks! Er zijn sociale delen functies, zodat je je overwinningen en winstreeks kunt delen met je vrienden!",
       "help_pointer": "Niet zeker hoe je het spel moet spelen? Elke spelpagina heeft een ?-icoon onder de titel, waarmee een helpmenu wordt geopend met voorbeelden en gedetailleerde beschrijvingen van de huidige spelmodus.",
       "suggestions": {
         "title": "Suggesties",
@@ -304,7 +304,7 @@
         }
       },
       "loose": {
-        "title": "Het is je niet gelukt om de blok van vandaag te raden",
+        "title": "Het is je niet gelukt om het blok van vandaag te raden",
         "subtitle": "Morgen meer geluk! (of schakel het gok limiet uit in instellingen)"
       },
       "win": {
@@ -364,8 +364,8 @@
           "title": "Voorbeeld",
           "intro": "Laten we kijken naar een voorbeeldspel. Eerst proberen we een willekeurige blok.",
           "table_interpretation_1": "We hebben geleerd dat het blok, zoals de meeste, stapelbaar is to 64, en het is niet brandbaar. Het was niet toegevoegd in versies voor alpha en je kan het niet mijnen met een Houweel. Dus laten we een andere, nieuwere, blok proberen.",
-          "table_interpretation_2": "We zijn achter de blok versie! Tijd om te kijken voor een blok die is toegevoegd in Beta 1.8. Daarnaast kregen we een gedeeltelijke overeenkomst voor de gereedschap, dus het kan worden gebroken door een Bijl en een andere gereedschap. De blok is ook niet transparant (\"Ja\") noch niet-transparant (\"Nee\"), dus het moet gedeeltelijk transparant zijn. Laten we zoeken voor een blok die all deze eigenschappen bevat.",
-          "table_interpretation_3": "Dat is 'm! We zijn erachter dat de blok een meloen was, wat heerlijk!"
+          "table_interpretation_2": "We zijn achter het blok versie! Tijd om te kijken voor een blok die is toegevoegd in Beta 1.8. Daarnaast kregen we een gedeeltelijke overeenkomst voor de gereedschap, dus het kan worden gebroken door een Bijl en een andere gereedschap. Het blok is ook niet transparant (\"Ja\") noch niet-transparant (\"Nee\"), dus het moet gedeeltelijk transparant zijn. Laten we zoeken voor een blok die all deze eigenschappen bevat.",
+          "table_interpretation_3": "Dat is 'm! We zijn erachter dat het blok een meloen was, wat heerlijk!"
         },
         "partial_matches": {
           "title": "Gedeeltelijke overeenkomsten uitgelegd",
@@ -447,7 +447,7 @@
         }
       },
       "loose": {
-        "title": "Het is je niet gelukt om de voorwerp van vandaag te raden",
+        "title": "Het is je niet gelukt om het voorwerp van vandaag te raden",
         "subtitle": "Morgen meer geluk! (of schakel het gok limiet uit in instellingen)"
       },
       "win": {
@@ -513,7 +513,7 @@
         "partial_matches": {
           "title": "Gedeeltelijke overeenkomsten uitgelegd",
           "intro": "Laten we kijken naar de gedeeltelijke overeenkomsten in detail, omdat deze waarschijnlijk de meest verwarrende van de tegelkleuren zijn.",
-          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnen in velden die bestaan uit een lijst (bijv. Creatieve inventaris categorie). Als je een voorwerp hebt geraden dat gebroken kan worden met minstens één inventaris categorie dat overeenkomt met het daadwerkelijke voorwerp, zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor draad:"
+          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnen in velden die bestaan uit een lijst (bijv. Creatieve inventaris categorie). Als je een voorwerp hebt geraden dat gevonden kan worden in minstens één inventaris categorie dat overeenkomt met het daadwerkelijke voorwerp, zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor draad:"
         },
         "tips": {
           "title": "Tips",
@@ -525,151 +525,151 @@
       }
     },
     "mob": {
-      "title": "Gamemode: Guess today's Mob!",
+      "title": "Spelmodus: Raad het wezen van vandaag!",
       "sub_title_menus": {
         "stats": {
-          "title": "Stats",
-          "tooltip": "Stats"
+          "title": "Statistieken",
+          "tooltip": "Statistieken"
         },
         "streak": {
-          "title": "Transfer progress",
-          "tooltip": "Win-Streak"
+          "title": "Overdracht voortgang",
+          "tooltip": "Winstreeks"
         },
         "help": {
-          "tooltip": "How to play"
+          "tooltip": "Hoe speel je"
         },
         "bestiary": {
-          "tooltip": "Bestiary"
+          "tooltip": "Bestiarium"
         }
       },
       "table": {
         "header": {
-          "title": "Mob",
-          "initial_release": "Release",
-          "health": "Health",
-          "height": "Height",
-          "behavior": "Behavior",
+          "title": "Wezen",
+          "initial_release": "Publicatie",
+          "health": "Gezondheid",
+          "height": "Hoogte",
+          "behavior": "Gedrag",
           "spawn": "Spawn",
-          "classification": "Class<wbr>ification"
+          "classification": "Class<wbr>ificatie"
         },
         "data": {
           "behavior": {
-            "passive": "Passive",
-            "neutral": "Neutral",
-            "hostile": "Hostile",
-            "defensive": "Defensive"
+            "passive": "Passief",
+            "neutral": "Neutraal",
+            "hostile": "Agressief",
+            "defensive": "Defensief"
           },
           "classification": {
-            "none": "None",
-            "animal": "Animal",
-            "aquatic": "Aquatic",
-            "arthropod": "Arthropod",
-            "undead": "Undead",
+            "none": "Geen",
+            "animal": "Dier",
+            "aquatic": "Aquatisch",
+            "arthropod": "Geleedpotige",
+            "undead": "Ondood",
             "illager": "Illager",
             "golem": "Golem",
-            "boss": "Boss"
+            "boss": "Baas"
           },
           "spawn": {
-            "structure": "Structure",
+            "structure": "Structuur",
             "spawner": "Spawner",
-            "breeding": "Breeding",
-            "biome": "Biome",
-            "light_level": "Light level",
-            "block": "Block",
-            "grass": "Grass",
+            "breeding": "Fokken",
+            "biome": "Klimaat",
+            "light_level": "Lichtniveau",
+            "block": "Blok",
+            "grass": "Gras",
             "nether": "The Nether",
-            "projectile": "Projectile",
-            "conversion": "Conversion",
-            "lightning": "Lightning",
+            "projectile": "Projectiel",
+            "conversion": "Gesprek",
+            "lightning": "Bliksem",
             "the_end": "The End",
-            "summon": "Summon",
-            "raids": "Raids",
+            "summon": "Oproepen",
+            "raids": "Invallen",
             "command": "Command",
             "overworld": "Overworld",
-            "hatching": "Hatching",
-            "jockey": "Jockey",
-            "duplication": "Duplication",
-            "magic": "Magic",
-            "reinforcements": "Reinforcements",
-            "sieges": "Sieges"
+            "hatching": "Uitkomen",
+            "jockey": "Berijder",
+            "duplication": "Duplicatie",
+            "magic": "Magie",
+            "reinforcements": "Versterkingen",
+            "sieges": "Belegeringen"
           }
         }
       },
       "loose": {
-        "title": "You've failed to discover today's mob",
-        "subtitle": "Better luck tomorrow! (or disable the guess limit in the settings)"
+        "title": "Het is je niet gelukt om het wezen van vandaag te raden",
+        "subtitle": "Morgen meer geluk! (of schakel het gok limiet uit in instellingen)"
       },
       "win": {
-        "title": "Mob discovered!",
-        "subtitle": "Today's mob was {{name}}!"
+        "title": "Wezen gevonden!",
+        "subtitle": "Het wezen van vandaag was {{name}}!"
       },
       "intro": {
-        "description": "Guess today's Minecraft mob!",
-        "start_help": "Type below to start!"
+        "description": "Raad het Minecraft wezen van vandaag!",
+        "start_help": "Type hieronder om te starten!"
       },
       "limited_attempts": {
         "warning": {
-          "zero": "{{remaining}} guesses remaining!",
-          "one": "{{remaining}} guess remaining!",
-          "two-four": "{{remaining}} guesses remaining!",
-          "many": "{{remaining}} guesses remaining!"
+          "zero": "{{remaining}} gokken over!",
+          "one": "{{remaining}} gok over!",
+          "two-four": "{{remaining}} gokken over!",
+          "many": "{{remaining}} gokken over!"
         }
       },
       "search": {
         "placeholder": {
-          "initial": "Search for a mob",
-          "new_tomorrow": "New mob tomorrow!",
-          "no_more_guesses": "Ran out of guesses!"
+          "initial": "Zoek voor een wezen",
+          "new_tomorrow": "Nieuwe wezen morgen!",
+          "no_more_guesses": "Geen gokken over!"
         },
         "submit": {
-          "aria_label": "Try this mob"
+          "aria_label": "Probeer dit wezen"
         },
         "ambiguous_result": {
-          "description": "Ambiguous mob discovered! Further incorrect ambiguous mobs will be crossed out in red.",
-          "image_alt": "Treasure hunter - close call"
+          "description": "Ambigu wezen gevonden! Verdere foute ambigue wezens zullen in rood worden aangegeven.",
+          "image_alt": "Schatzoeker - het schilde niet veel"
         }
       },
       "midnight_timer": {
-        "next_thing": "Reload the page to get the next one!",
-        "next_in": "Next mob in {{time}}"
+        "next_thing": "Herlaad de pagina om de volgende te krijgen!",
+        "next_in": "Volgende wezen in {{time}}"
       },
       "yesterday_info": {
-        "description": "Yesterday's mob was {{name}}!"
+        "description": "Het wezen van gisteren was {{name}}!"
       },
       "next_game": {
-        "name": "Mobs",
-        "description": "Wanna give today's mob a shot?"
+        "name": "Wezens",
+        "description": "Wil je het wezen van vandaag een poging wagen?"
       },
       "quick_help": {
-        "look_for": "Are you still looking for a better explanation? Look for the",
-        "tooltip": "How to play",
-        "click_here": "icon below the game title or click here!"
+        "look_for": "Zoek je nog voor een betere uitleg? Kijk naar de",
+        "tooltip": "Hoe speel je",
+        "click_here": "icoon onder de spel titel of klik hier!"
       },
       "help": {
-        "title": "How to play",
+        "title": "Hoe speel je",
         "intro": {
-          "goal": "The goal of this game is to guess a Minecraft mob. Every day a new mob is chosen, and by continuing to guess the mob of the day, you can build up a win-streak.",
-          "enter_guesses": "Begin by typing the name of any mob in the search field. Based on your search, up to 10 results will pop up. Click on any of these mobs, or navigate to them with your arrow keys and press Enter to lock your guess in.",
-          "field_explanation": "The properties of your chosen mob will be compared to today's mob and will be marked green if matching, yellow for partial matches, and red if incorrect. Behind incorrect number/version fields, you will also find an arrow indicating whether you should guess higher or lower."
+          "goal": "Het doel van dit spel is om een Minecraft wezen te raden. Er wordt elke dag een nieuwe wezen gekozen, en door herhaaldelijk het wezen van de dag te raden, kun je een winstreeks opbouwen!",
+          "enter_guesses": "Begin met het typen van de naam van welke wezen dan ook in het zoekveld. Op basis van je zoekopdracht, verschijnen er tot 10 resultaten. Klik op een van deze wezens, of navigeer ernaar met je pijltjestoetsen en druk op Enter om je gok vast te leggen.",
+          "field_explanation": "De eigenschappen van je gekozen wezen zullen worden vergeleken met het wezen van vandaag en zal gemarkeerd worden. Groen als het overeenkomt, geel voor gedeeltelijke overeenkomsten, en rood als het incorrect is. Achter incorrecte getal/versie velden zul je ook een pijl vinden die aangeeft of je hoger of lager moet raden."
         },
         "example": {
-          "title": "Example",
-          "intro": "Let's look at an example game. First we'll try an arbitrary mob.",
-          "table_interpretation_1": "From this guess, we can see that the mob we're looking for was added after version 1.6.1, doesn't have a lot of health, is less then 1.6 blocks tall, and might be passive, hostile, or a mix of the two. It's not summoned by lightning and it's not undead either.",
-          "table_interpretation_2": "Alright, still newer than 1.13, but we got the health: we're looking for a mob with 10 HP, aka 5 hearts. It's less than 0.6 blocks tall, so we're looking for a small mob. The mob's behavior is still a partial match, so it's very likely passive, but could still be hostile & neutral. Both the spawn and classification fields got a partial match, so the mob's spawn origins would be biome and something else, and the mob would be classified as either animal, aquatic, and maybe something else in addition to one of these two possibilities.",
-          "table_interpretation_3": "Let's go! Look who hopped into this tutorial. We've found a little frog!"
+          "title": "Voorbeeld",
+          "intro": "Laten we kijken naar een voorbeeldspel. Eerst proberen we een willekeurige wezen.",
+          "table_interpretation_1": "Door deze gok kunnen we zien dat het wezen dat we zoeken is toegevoegd na versie 1.6.1, niet veel gezondheid heeft, minder dan 1.6 blokken hoog, en is misschien passief, agressief, of een combinatie van de twee. Het wordt niet opgeroepen door bliksem en het is ook niet ondood.",
+          "table_interpretation_2": "Oké, nog steeds niewer dan 1.13, maar we hebben de gezondheid: we zoeken naar een wezen met 10 HP, oftewel 5 harten. Het is minder dan 0.6 blokken hoog, dus we zoeken naar een klein wezen. Het gedrag van het wezen is nog steeds een gedeeltelijke overeenkomst, dus het is zeer waarschijnlijk passief, maar kan nog steeds agressief of neutraal zijn. Zowel het spawn- als het classificatieveld hebben een gedeeltelijke overeenkomst, dus de oorsprong van het wezen zou klimaat en iets anders kunnen zijn, en het wezen zou geclassificeerd kunnen worden als dier, aquatisch, en mogelijk iets anders in aanvulling op één van deze twee mogelijkheden.",
+          "table_interpretation_3": "Yes, gelukt! Kijk naar wie in deze tutorial is gesprongen. We hebben een kleine kikker gevonden!"
         },
         "partial_matches": {
-          "title": "Partial Match explanation",
-          "intro": "Let's look at partial matches in detail, 'cause these are probably the most confusing of the tile colors.",
-          "explanation": "A partial match can only appear in fields that consist of a list (e.g. the spawn, classification, or behavior fields). If you guessed a mob with at least one list element that matches the actual mob, you will get a partial match. Here's an example for horses:"
+          "title": "Gedeeltelijke overeenkomsten uitgelegd",
+          "intro": "Laten we kijken naar de gedeeltelijke overeenkomsten in detail, omdat deze waarschijnlijk de meest verwarrende van de tegelkleuren zijn.",
+          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnen in velden die bestaan uit een lijst (bijv. spawn, classificatie, of gedrags velden). Als je een wezen hebt geraden met minstens één lijst element dat overeenkomt met het daadwerkelijke voorwerp, zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor paarden:"
         },
         "tips": {
           "title": "Tips",
-          "not_all_blocks": "MCdle does not contain every type of entity. Only living entities, like pigs or zombies, are included. Armor stands, projectiles, or similar non-living entities are not included. The list is taken from the Minecraft wiki, so if it's not on there in the mob list, it's not in this game.",
-          "utilize_the_search": "Make good use of the search bar! Looking through the suggestions will help you narrow down your search.",
-          "use_the_wiki": "Feel free to use the Minecraft wiki. As soon as you've determined the version of the mob, you can use the wiki to find the mobs that were added in that version, which will help you narrow down your search drastically.",
-          "health_measuring": "Keep in mind that health is measured in health points, aka half hearts, so 10 HP is 5 hearts."
+          "not_all_blocks": "MCdle heeft niet elk type entiteit. Alleen de levende entiteiten, zoals varkens or zombies, zijn inbegrepen. Harnashouders, projectielen, of vergelijkbare niet-levende entiteiten zijn niet inbegrepen. De lijst is genomen van de Minecraft wiki, dus als het niet in de wezen lijst is, is het niet in dit spel.",
+          "utilize_the_search": "Maak goed gebruik van de zoekbalk! Kijken naar de suggesties zal je helpen je zoekopdracht in te perken.",
+          "use_the_wiki": "Voel je vrij om de Minecraft Wiki te gebruiken. Zodra je de versie van het voorwerp hebt bepaald, kun je de wiki gebruiken om te vinden welke wezens zijn toegevoegd in die versie, wat je zoekopdracht drastisch zal verminderen.",
+          "health_measuring": "Houd in gedachte dat gezondheid is gemeten in halve gezondsheidspunten, oftewel halve harten, dus 10 HP is gelijk aan 5 harten."
         }
       }
     },
