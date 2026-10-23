@@ -1,0 +1,1836 @@
+{
+  "footer": {
+    "links": {
+      "cookie": {
+        "title": "Cookie Beleid"
+      },
+      "patchnotes": {
+        "title": "Versienotities"
+      }
+    },
+    "about": {
+      "title": "Over ons",
+      "button_title": "Over",
+      "intro": "Mcdle is een Wordleachtige puzzel spel voor Minecraft gerelateerde inhoud. Elke dag, een nieuwe Minecraft blok, voorwerp, en wezen is gekozen en jij moet het raden. Kom dagelijks terug en bouw een winstreeks! Er zijn sociale delen functies, zodat je je overwinningen en winstreeks kunt delen met je vrienden!",
+      "help_pointer": "Niet zeker hoe je het spel moet spelen? Elke spelpagina heeft een ?-icoon onder de titel, waarmee een helpmenu wordt geopend met voorbeelden en gedetailleerde beschrijvingen van de huidige spelmodus.",
+      "suggestions": {
+        "title": "Suggesties",
+        "description": {
+          "pre_link": "Ik ga over de meeste suggesties en bug/issue support op ",
+          "link": "Discord",
+          "post_link": ", voel je vrij om erbij te komen en wat rond te hangen, we hebben meloenen! We hebben ook kanalen waarin we de dagelijkse quiz discussieren en om winstreeks te delen!"
+        }
+      },
+      "support": {
+        "title": "Ondersteunen",
+        "description": {
+          "pre_link": "Als je wilt ondersteunen in dit project (bijv. betalen voor de URL, ondersteunen van nieuwe functies, etc.), ga naar mijn ",
+          "link": "Ko-fi",
+          "post_link": "!"
+        }
+      },
+      "credits": {
+        "title": "Vermeldingen",
+        "description": {
+          "pre_link": "De informatie voor dit spel is verkregen via ",
+          "link": "Minecraft Wiki",
+          "post_link": ". Veel van de afbeeldingen zijn daar ook gehost, dus veel dank aan hun voor het harde werk en het bijhouden van de wiki! MCdle is niet gelieerd met, goedgekeurd door, of gesponsord door Mojang Studios. Maar het is duidelijk gebaseerd op Minecraft en geinspireerd door Wordle en LoLdle."
+        },
+        "credit_list": {
+          "kineticraft": {
+            "pre_link": "Dank naar de server ",
+            "link": "kineticraft.net",
+            "post_link": " voor de achtergronds afbeelding!"
+          },
+          "vanilla_tweaks": {
+            "pre_link": "Dank aan ",
+            "link": "Vanilla Tweaks",
+            "post_link": " voor hun meloen- en pompoenstam textuur!"
+          },
+          "alldle": {
+            "post_link": "voor het vermelden van MCdle op hun website!"
+          }
+        }
+      },
+      "version": {
+        "title": "Versie",
+        "description": "Vandaags spel raadsel is #{{version}}! Het spel kiest een nieuwe blok, voorwerp en wezen elke dag om 00:00 UTC."
+      },
+      "supporters": {
+        "title": "Ondersteuners",
+        "description": {
+          "pre_link": "Dank naar al mijn ondersteuners op ",
+          "post_link": "!"
+        }
+      }
+    },
+    "disclaimer": "NIET EEN OFFICIEEL MINECRAFT PRODUCT. NIET GOEDGEKEURD DOOR OF GEASSOCIEERD MET MOJANG OF MICROSOFT"
+  },
+  "header": {
+    "settings": {
+      "headers": {
+        "mcdle": "Mcdle",
+        "crafting_bee": "Crafting Bee",
+        "general": "Algemeen",
+        "guesser": "Wezen, Blok, en voorwerp Rader"
+      },
+      "colorblind": {
+        "input_name": "Kleurenblind modus",
+        "label": "Kleurenblind modus"
+      },
+      "difficulty": {
+        "limit_guesses_6": {
+          "input_name": "Gelimiteerde pogingen",
+          "label": "Limiteer het aantal pogingen tot 6"
+        },
+        "search": {
+          "game_knowledge": {
+            "input_name": "Spel kennis",
+            "label": "Spel kennis"
+          },
+          "logical": {
+            "input_name": "Logica",
+            "label": "Logica"
+          },
+          "showcase": {
+            "fallback": "Kies een moeilijkheidsgraad voor je zoekopdracht!",
+            "game_knowledge": {
+              "description": "Geen zoekhints, je hebt allen je eigen spel kennis!",
+              "image_alt": "Spel kennis moeilijkheidsgraad zoekopdracht"
+            },
+            "logical": {
+              "description": "Zoekopdracht zal alle statistieken zichtbaar maken, waardoor MCdle een logica spel wordt!",
+              "image_alt": "Logica moeilijkheidsgraad zoekopdracht"
+            }
+          },
+          "title": "Zoekopdracht:"
+        },
+        "title": "Moeijlijkheidsgraad"
+      },
+      "streak": {
+        "label": "Toon Reeks"
+      },
+      "keybinds": {
+        "title": "Toetsbindingen",
+        "binds": {
+          "crafting.selectHex.1": {
+            "name": "Selecteer Zeshoek 1",
+            "description": "Selecteer Zeshoekig Tegel #1"
+          },
+          "crafting.selectHex.2": {
+            "name": "Selecteer Zeshoek 2",
+            "description": "Selecteer Zeshoekig Tegel #2"
+          },
+          "crafting.selectHex.3": {
+            "name": "Selecteer Zeshoek 3",
+            "description": "Selecteer Zeshoekig Tegel #3"
+          },
+          "crafting.selectHex.4": {
+            "name": "Selecteer Zeshoek 4",
+            "description": "Selecteer Zeshoekig Tegel #4"
+          },
+          "crafting.selectHex.5": {
+            "name": "Selecteer Zeshoek 5",
+            "description": "Selecteer Zeshoekig Tegel #5"
+          },
+          "crafting.selectHex.6": {
+            "name": "Selecteer Zeshoek 6",
+            "description": "Selecteer Zeshoekig Tegel #6"
+          },
+          "crafting.selectHex.7": {
+            "name": "Selecteer Zeshoek 7",
+            "description": "Selecteer Zeshoekig Tegel #7"
+          },
+          "crafting.grid.nav.up": {
+            "name": "Navigeer Werkraster Omhoog",
+            "description": "Verplaats de selecteur omhoog in het Werkraster"
+          },
+          "crafting.grid.nav.down": {
+            "name": "Navigeer Werkraster Omlaag",
+            "description": "Verplaats de selecteur omlaag in het Werkraster"
+          },
+          "crafting.grid.nav.left": {
+            "name": "Navigeer Werkraster Links",
+            "description": "Verplaats de selecteur links in het Werkraster"
+          },
+          "crafting.grid.nav.right": {
+            "name": "Navigeer Werkraster Rechts",
+            "description": "Verplaats de selecteur rechts in het Werkraster"
+          },
+          "crafting.grid.placeItem": {
+            "name": "Plaats Voorwerp in Raster",
+            "description": "Plaats het geselecteerde voorwerp in het werkraster"
+          },
+          "crafting.grid.craftItem": {
+            "name": "Vervaardig voorwerp",
+            "description": "Vervaardig het voorwerp in de vervaardigingsuitvoer"
+          },
+          "crafting.grid.deleteItem": {
+            "name": "Verwijder Voorwerp in Raster",
+            "description": "Verwijder het voorwerp in het werkraster"
+          },
+          "crafting.grid.clear": {
+            "name": "Leeg Werkraster",
+            "description": "Leeg het werkraster"
+          },
+          "crafting.grid.clearImmediate": {
+            "name": "Leeg Werkraster Direct",
+            "description": "Leeg het werkraster direct zonder bevestiging"
+          },
+          "crafting.randomize": {
+            "name": "Speel willekeurig spel",
+            "description": "Krijg 7 willekeurige voorwerpen om mee te spelen"
+          }
+        }
+      },
+      "settings_button": {
+        "image_alt": "Instellingen knop",
+        "tooltip": "Instellingen"
+      },
+      "title": "Instellingen"
+    },
+    "language": {
+      "title": "Taal",
+      "tooltip": "Taal",
+      "description": {
+        "pre_link": "Deze website ondersteunt officeel Engels en Duitsm maar door de gemeenschap zijn andere talen beschrikbaar gemaakt via ",
+        "link": "Github",
+        "post_link": ". Er zijn geen verzekeringen dat de onofficele vertalingen actueel of correct zijn, dus als je fouten vindt, maak gerust een pull request!"
+      }
+    }
+  },
+  "pages": {
+    "404": {
+      "compass_alt": "Compass gif",
+      "message": "Je bent een 404 einde tegengekomen in deze grot...",
+      "return_message": "Hier een kompas terug naar huis te gaan!"
+    },
+    "index": {
+      "header": "Kies een Spelmodus",
+      "links": {
+        "blocks": {
+          "image_alt": "Blok icoon",
+          "subtitle": "Raad het blok van vandaag",
+          "title": "blokken"
+        },
+        "items": {
+          "image_alt": "Voorwerp icoon",
+          "subtitle": "Raad het minecraft voorwerp van vandaag",
+          "title": "voorwerpen"
+        },
+        "mobs": {
+          "image_alt": "Wezen icoon",
+          "subtitle": "Ontdek het minecraft wezen van vandaag",
+          "title": "Wezens"
+        },
+        "crafting": {
+          "image_alt": "Crafting Bee icon",
+          "subtitle": "Weet je je recepten?",
+          "title": "Crafting Bee"
+        },
+        "goal": {
+          "title": "MCdle Bestiarium",
+          "image_alt": "Doel icoon"
+        },
+        "bestiary": {
+          "title": "Bestiarium",
+          "image_alt": "Bestiarium icon",
+          "subtitle": "Houd je voortgang bij en begin met verzamelen! Je kunt ook filteren op wat je al hebt ontdekt!"
+        },
+        "kineticraft": {
+          "title": "Speel oneindigd op kineticraft.net",
+          "image_alt": "Kineticraft icon",
+          "subtitle": "Wezen, Blok, en Voorwerp spelmodus kunnen gespeeld worden zonder uitstel, maar je moet ze vinden in de wereld! /mcdle"
+        }
+      }
+    },
+    "generic": {
+      "game": {
+        "complete_support": {
+          "start": "Als je MCdle leuk vindt, over om het project te ondersteunen op",
+          "end": "!"
+        },
+        "see_in_bestiary": "Bekijk het in het Bestiarium!"
+      }
+    },
+    "block": {
+      "title": "Spelmodus: Raad het blok van vandaag!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "Statistieken",
+          "tooltip": "Statistieken"
+        },
+        "streak": {
+          "title": "Overdracht voortgang",
+          "tooltip": "Winstreeks"
+        },
+        "help": {
+          "tooltip": "Hoe speel je"
+        },
+        "bestiary": {
+          "tooltip": "Bestiarium"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Blok",
+          "initial_release": "Publicatie",
+          "stack_size": "Stapel grote",
+          "tool": "Gereed<wbr>schap(pen)",
+          "blast_resistance": "Explosie<wbr>weer<wbr>stand",
+          "hardness": "Hardheid",
+          "flammable": "Brand<wbr>baar", 
+          "transparent": "Transparantie",
+          "full_block": "Volledige blok"
+        },
+        "data": {
+          "tool": {
+            "any_tool": "Alle",
+            "axe": "Bijl",
+            "pickaxe": "Houweel",
+            "hoe": "Schoffel",
+            "shears": "Schaar",
+            "sword": "Zwaard",
+            "none": "Geen",
+            "shovel": "Schep",
+            "bucket": "Emmer",
+            "brush": "Borstel"
+          },
+          "states": {
+            "yes": "Ja",
+            "no": "Nee",
+            "partial": "Gedeeltelijk"
+          }
+        }
+      },
+      "loose": {
+        "title": "Het is je niet gelukt om het blok van vandaag te raden",
+        "subtitle": "Morgen meer geluk! (of schakel het gok limiet uit in instellingen)"
+      },
+      "win": {
+        "title": "Blok gevonden!",
+        "subtitle": "Het blok van vandaag was {{name}}!"
+      },
+      "intro": {
+        "description": "Raad het Minecraft blok van vandaag!",
+        "start_help": "Type hieronder om te starten!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} gokken over!",
+          "one": "{{remaining}} gok over!",
+          "two-four": "{{remaining}} gokken over!",
+          "many": "{{remaining}} gokken over!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Zoek voor een blok",
+          "new_tomorrow": "Nieuwe blok morgen!",
+          "no_more_guesses": "Geen gokken over!"
+        },
+        "submit": {
+          "aria_label": "Probeer dit blok"
+        },
+        "ambiguous_result": {
+          "description": "Ambigu blok gevonden! Verdere foute ambigue blokken zullen in rood worden aangegeven.",
+          "image_alt": "Schatzoeker - het schilde niet veel"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Herlaad de pagina om de volgende te krijgen!",
+        "next_in": "Volgende blok in {{time}}"
+      },
+      "yesterday_info": {
+        "description": "Het blok van gisteren was {{name}}!"
+      },
+      "next_game": {
+        "name": "Blokken",
+        "description": "Klaar om het blok van vandaag te raden?"
+      },
+      "quick_help": {
+        "look_for": "Zoek je nog voor een betere uitleg? Kijk naar de",
+        "tooltip": "Hoe speel je",
+        "click_here": "icoon onder de spel titel of klik hier!"
+      },
+      "help": {
+        "title": "Hoe speel je",
+        "intro": {
+          "goal": "Het doel van dit spel is om een Minecraft blok te raden. Er wordt elke dag een nieuwe blok gekozen, en door herhaaldelijk het blok van de dag te raden, kun je een winstreeks opbouwen!",
+          "enter_guesses": "Begin met het typen van de naam van welke blok dan ook in het zoekveld. Op basis van je zoekopdracht, verschijnen er tot 10 resultaten. Klik op een van deze blokken, of navigeer ernaar met je pijltjestoetsen en druk op Enter om je gok vast te leggen.",
+          "field_explanation": "De eigenschappen van je gekozen blok zullen worden vergeleken met het blok van vandaag en zal gemarkeerd worden. Groen als het overeenkomt, geel voor gedeeltelijke overeenkomsten, en rood als het incorrect is. Achter incorrecte getal/versie velden zul je ook een pijl vinden die aangeeft of je hoger of lager moet raden."
+        },
+        "example": {
+          "title": "Voorbeeld",
+          "intro": "Laten we kijken naar een voorbeeldspel. Eerst proberen we een willekeurige blok.",
+          "table_interpretation_1": "We hebben geleerd dat het blok, zoals de meeste, stapelbaar is to 64, en het is niet brandbaar. Het was niet toegevoegd in versies voor alpha en je kan het niet mijnen met een Houweel. Dus laten we een andere, nieuwere, blok proberen.",
+          "table_interpretation_2": "We zijn achter het blok versie! Tijd om te kijken voor een blok die is toegevoegd in Beta 1.8. Daarnaast kregen we een gedeeltelijke overeenkomst voor de gereedschap, dus het kan worden gebroken door een Bijl en een andere gereedschap. Het blok is ook niet transparant (\"Ja\") noch niet-transparant (\"Nee\"), dus het moet gedeeltelijk transparant zijn. Laten we zoeken voor een blok die all deze eigenschappen bevat.",
+          "table_interpretation_3": "Dat is 'm! We zijn erachter dat het blok een meloen was, wat heerlijk!"
+        },
+        "partial_matches": {
+          "title": "Gedeeltelijke overeenkomsten uitgelegd",
+          "intro": "Laten we kijken naar de gedeeltelijke overeenkomsten in detail, omdat deze waarschijnlijk de meest verwarrende van de tegelkleuren zijn.",
+          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnen in velden die bestaan uit een lijst (bijv. gereedschap(pen)). Als je een blok hebt geraden dat gebroken kan worden met minstens één gereedschap dat overeenkomt met het daadwerkelijke blok, zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor bladeren:"
+        },
+        "tips": {
+          "title": "Tips",
+          "not_all_blocks": "MCdle hheft niet elke type blok. Al de gekleurde varianten van beton, terracotta, wol, etc. zijn samengevoegd in één representatieve blok, zoals \"Beton\" or \"Wol\". Dit geld ook voor de verschillende houtsoorten, muren, trappen, enz.",
+          "utilize_the_search": "Maak goed gebruik van de zoekbalk! Kijken naar de suggesties zal je helpen je zoekopdracht in te perken.",
+          "use_the_wiki": "Voel je vrij om de Minecraft Wiki te gebruiken. Zodra je de versie van het blok hebt bepaald, kun je de wiki gebruiken om te vinden welke blokken zijn toegevoegd in die versie, wat je zoekopdracht drastisch zal verminderen."
+        }
+      }
+    },
+    "item": {
+      "title": "Spelmodus: Raad het voorwerp van vandaag!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "Statistieken",
+          "tooltip": "Statistieken"
+        },
+        "streak": {
+          "title": "Overdracht voortgang",
+          "tooltip": "Winstreeks"
+        },
+        "help": {
+          "tooltip": "Hoe speel je"
+        },
+        "bestiary": {
+          "tooltip": "Bestiarium"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Voor<wrb>werp",
+          "initial_release": "Publicatie",
+          "stack_size": "Stapel grote",
+          "rarity": "Zeldzaam<wrb>heid",
+          "inventory_categories": "Creatieve Inv. Categorie",
+          "renewable": "Hernieuw<wrb>baar",
+          "usage": "Gebruik teller",
+          "source": "Bron teller",
+          "recipe": "Recept",
+          "loot": "Verkrijg<wrb>baar"
+        },
+        "data": {
+          "rarity": {
+            "common": "Gewoon",
+            "uncommon": "Ongewoon",
+            "rare": "Zeldzaam",
+            "epic": "Episch",
+            "mixed": "Gemengd"
+          },
+          "inventory_category": {
+            "tools_and_utilities": "Gereedschap en gebruiksvoorwerpen",
+            "redstone_blocks": "Redstoneblokken",
+            "functional_blocks": "Functionele blokken",
+            "natural_blocks": "Natuurlijke blokken",
+            "ingredients": "Ingrediënten",
+            "combat": "Gevecht",
+            "food_and_drinks": "Voedsel & dranken",
+            "none": "Geen",
+            "spawn_eggs": "Spawneieren",
+            "operator_utilities": "Beheerdersvoorwerpen"
+          },
+          "recipe": {
+            "crafting_table": "Werkbank",
+            "furnace": "Oven",
+            "brewing_stand": "Brouwstandaard",
+            "none": "Geen"
+          },
+          "loot": {
+            "container": "Kist",
+            "mob": "Wezen",
+            "fishing": "Vissen",
+            "trading": "Handelen",
+            "none": "Geen"
+          }
+        }
+      },
+      "loose": {
+        "title": "Het is je niet gelukt om het voorwerp van vandaag te raden",
+        "subtitle": "Morgen meer geluk! (of schakel het gok limiet uit in instellingen)"
+      },
+      "win": {
+        "title": "Voorwerp gevonden!",
+        "subtitle": "Het voorwerp van vandaag was {{name}}!"
+      },
+      "intro": {
+        "description": "Raad het Minecraft voorwerp van vandaag!",
+        "start_help": "Type hieronder om te starten!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} gokken over!",
+          "one": "{{remaining}} gok over!",
+          "two-four": "{{remaining}} gokken over!",
+          "many": "{{remaining}} gokken over!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Zoek voor een voorwerp",
+          "new_tomorrow": "Nieuwe voorwerp morgen!",
+          "no_more_guesses": "Geen gokken over!"
+        },
+        "submit": {
+          "aria_label": "Probeer dit voorwerp"
+        },
+        "ambiguous_result": {
+          "description": "Ambigu voorwerp gevonden! Verdere foute ambigue voorwerpen zullen in rood worden aangegeven.",
+          "image_alt": "Schatzoeker - het schilde niet veel"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Herlaad de pagina om de volgende te krijgen!",
+        "next_in": "Volgende voorwerp in {{time}}"
+      },
+      "yesterday_info": {
+        "description": "Het voorwerp van gisteren was {{name}}!"
+      },
+      "next_game": {
+        "name": "Voorwerpen",
+        "description": "Klaar om ook het voorwerp van vandaag te raden?"
+      },
+      "quick_help": {
+        "look_for": "Zoek je nog voor een betere uitleg? Kijk naar de",
+        "tooltip": "Hoe speel je",
+        "click_here": "icoon onder de spel titel of klik hier!"
+      },
+      "help": {
+        "title": "Hoe speel je",
+        "intro": {
+          "goal": "Het doel van dit spel is om een Minecraft voorwerp te raden. Er wordt elke dag een nieuwe voorwerp gekozen, en door herhaaldelijk het voorwerp van de dag te raden, kun je een winstreeks opbouwen!",
+          "enter_guesses": "Begin met het typen van de naam van welke voorwerp dan ook in het zoekveld. Op basis van je zoekopdracht, verschijnen er tot 10 resultaten. Klik op een van deze voorwerpen, of navigeer ernaar met je pijltjestoetsen en druk op Enter om je gok vast te leggen.",
+          "field_explanation": "De eigenschappen van je gekozen voorwerp zullen worden vergeleken met het blok van vandaag en zal gemarkeerd worden. Groen als het overeenkomt, geel voor gedeeltelijke overeenkomsten, en rood als het incorrect is. Achter incorrecte getal/versie velden zul je ook een pijl vinden die aangeeft of je hoger of lager moet raden."
+        },
+        "example": {
+          "title": "Voorbeeld",
+          "intro": "Laten we kijken naar een voorbeeldspel. Eerst proberen we een willekeurige voorwerp.",
+          "table_interpretation_1": "We hebben geleerd dat het voorwerp, zoals de meeste, stapelbaar is tot 64. Het is nieuwer dan Beta 1.2, heeft een gewone zeldzaamheid, is hernieuwbaar, je kan het niet vervaardigen, en je kan het niet verkrijgen door kisten of door te handelen. De inventaris categorie vertelt ons dat we niet zoeken naar een voorwerp in het \"Ingrediënten\" categorie. Laten we een andere voorwerp proberen.",
+          "table_interpretation_2": "We zijn achter de voorwerp versie! Tijd om te kijken naar een voorwerp dat is toegevoegd in Beta 1.8 die in de \"Voedsel & Dranken\" creatieve inventaris categorie. We weten ook dat we niet kunnen verkrijgen via een vervaardigings- of smelt recept en dat het niet als buit van een wezen komt.",
+          "table_interpretation_3": "Dat is 'm! We zijn erachter dat de voorwerp een meloenschijf was, wat heerlijk!"
+        },
+        "partial_matches": {
+          "title": "Gedeeltelijke overeenkomsten uitgelegd",
+          "intro": "Laten we kijken naar de gedeeltelijke overeenkomsten in detail, omdat deze waarschijnlijk de meest verwarrende van de tegelkleuren zijn.",
+          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnen in velden die bestaan uit een lijst (bijv. Creatieve inventaris categorie). Als je een voorwerp hebt geraden dat gevonden kan worden in minstens één inventaris categorie dat overeenkomt met het daadwerkelijke voorwerp, zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor draad:"
+        },
+        "tips": {
+          "title": "Tips",
+          "not_all_items": "MCdle heeft niet elke type voorwerp. De lijst is genomen van de Minecraft wiki en bevat daarom niet elke voorwerp vorm van verschillende blokken of te vergelijkbare voorwerp, zoals alle harnas/gereedschap varianten.",
+          "utilize_the_search": "Maak goed gebruik van de zoekbalk! Kijken naar de suggesties zal je helpen je zoekopdracht in te perken.",
+          "use_the_wiki": "Voel je vrij om de Minecraft Wiki te gebruiken. Zodra je de versie van het voorwerp hebt bepaald, kun je de wiki gebruiken om te vinden welke voorwerpen zijn toegevoegd in die versie, wat je zoekopdracht drastisch zal verminderen.",
+          "usage_and_source_explanation": "Als je nieuwsgierig bent naar hoe de gebruik teller/bron teller is berekend, ga naar de wiki page van het voorwerp en scroll naar \"Krijgen\" en \"Gebruik\". De koppen van deze secties zien gebruikt om de verschillende gebruiksscenario te tellen. Als ze er niet waren, heb ik, de ontwikkelaar, ze handmatig toegevoegd."
+        }
+      }
+    },
+    "mob": {
+      "title": "Spelmodus: Raad het wezen van vandaag!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "Statistieken",
+          "tooltip": "Statistieken"
+        },
+        "streak": {
+          "title": "Overdracht voortgang",
+          "tooltip": "Winstreeks"
+        },
+        "help": {
+          "tooltip": "Hoe speel je"
+        },
+        "bestiary": {
+          "tooltip": "Bestiarium"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Wezen",
+          "initial_release": "Publicatie",
+          "health": "Gezondheid",
+          "height": "Hoogte",
+          "behavior": "Gedrag",
+          "spawn": "Spawn",
+          "classification": "Class<wbr>ificatie"
+        },
+        "data": {
+          "behavior": {
+            "passive": "Passief",
+            "neutral": "Neutraal",
+            "hostile": "Agressief",
+            "defensive": "Defensief"
+          },
+          "classification": {
+            "none": "Geen",
+            "animal": "Dier",
+            "aquatic": "Aquatisch",
+            "arthropod": "Geleedpotige",
+            "undead": "Ondood",
+            "illager": "Illager",
+            "golem": "Golem",
+            "boss": "Baas"
+          },
+          "spawn": {
+            "structure": "Structuur",
+            "spawner": "Spawner",
+            "breeding": "Fokken",
+            "biome": "Klimaat",
+            "light_level": "Lichtniveau",
+            "block": "Blok",
+            "grass": "Gras",
+            "nether": "The Nether",
+            "projectile": "Projectiel",
+            "conversion": "Gesprek",
+            "lightning": "Bliksem",
+            "the_end": "The End",
+            "summon": "Oproepen",
+            "raids": "Invallen",
+            "command": "Command",
+            "overworld": "Overworld",
+            "hatching": "Uitkomen",
+            "jockey": "Berijder",
+            "duplication": "Duplicatie",
+            "magic": "Magie",
+            "reinforcements": "Versterkingen",
+            "sieges": "Belegeringen"
+          }
+        }
+      },
+      "loose": {
+        "title": "Het is je niet gelukt om het wezen van vandaag te raden",
+        "subtitle": "Morgen meer geluk! (of schakel het gok limiet uit in instellingen)"
+      },
+      "win": {
+        "title": "Wezen gevonden!",
+        "subtitle": "Het wezen van vandaag was {{name}}!"
+      },
+      "intro": {
+        "description": "Raad het Minecraft wezen van vandaag!",
+        "start_help": "Type hieronder om te starten!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} gokken over!",
+          "one": "{{remaining}} gok over!",
+          "two-four": "{{remaining}} gokken over!",
+          "many": "{{remaining}} gokken over!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Zoek voor een wezen",
+          "new_tomorrow": "Nieuwe wezen morgen!",
+          "no_more_guesses": "Geen gokken over!"
+        },
+        "submit": {
+          "aria_label": "Probeer dit wezen"
+        },
+        "ambiguous_result": {
+          "description": "Ambigu wezen gevonden! Verdere foute ambigue wezens zullen in rood worden aangegeven.",
+          "image_alt": "Schatzoeker - het schilde niet veel"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Herlaad de pagina om de volgende te krijgen!",
+        "next_in": "Volgende wezen in {{time}}"
+      },
+      "yesterday_info": {
+        "description": "Het wezen van gisteren was {{name}}!"
+      },
+      "next_game": {
+        "name": "Wezens",
+        "description": "Wil je het wezen van vandaag een poging wagen?"
+      },
+      "quick_help": {
+        "look_for": "Zoek je nog voor een betere uitleg? Kijk naar de",
+        "tooltip": "Hoe speel je",
+        "click_here": "icoon onder de spel titel of klik hier!"
+      },
+      "help": {
+        "title": "Hoe speel je",
+        "intro": {
+          "goal": "Het doel van dit spel is om een Minecraft wezen te raden. Er wordt elke dag een nieuwe wezen gekozen, en door herhaaldelijk het wezen van de dag te raden, kun je een winstreeks opbouwen!",
+          "enter_guesses": "Begin met het typen van de naam van welke wezen dan ook in het zoekveld. Op basis van je zoekopdracht, verschijnen er tot 10 resultaten. Klik op een van deze wezens, of navigeer ernaar met je pijltjestoetsen en druk op Enter om je gok vast te leggen.",
+          "field_explanation": "De eigenschappen van je gekozen wezen zullen worden vergeleken met het wezen van vandaag en zal gemarkeerd worden. Groen als het overeenkomt, geel voor gedeeltelijke overeenkomsten, en rood als het incorrect is. Achter incorrecte getal/versie velden zul je ook een pijl vinden die aangeeft of je hoger of lager moet raden."
+        },
+        "example": {
+          "title": "Voorbeeld",
+          "intro": "Laten we kijken naar een voorbeeldspel. Eerst proberen we een willekeurige wezen.",
+          "table_interpretation_1": "Door deze gok kunnen we zien dat het wezen dat we zoeken is toegevoegd na versie 1.6.1, niet veel gezondheid heeft, minder dan 1.6 blokken hoog, en is misschien passief, agressief, of een combinatie van de twee. Het wordt niet opgeroepen door bliksem en het is ook niet ondood.",
+          "table_interpretation_2": "Oké, nog steeds niewer dan 1.13, maar we hebben de gezondheid: we zoeken naar een wezen met 10 HP, oftewel 5 harten. Het is minder dan 0.6 blokken hoog, dus we zoeken naar een klein wezen. Het gedrag van het wezen is nog steeds een gedeeltelijke overeenkomst, dus het is zeer waarschijnlijk passief, maar kan nog steeds agressief of neutraal zijn. Zowel het spawn- als het classificatieveld hebben een gedeeltelijke overeenkomst, dus de oorsprong van het wezen zou klimaat en iets anders kunnen zijn, en het wezen zou geclassificeerd kunnen worden als dier, aquatisch, en mogelijk iets anders in aanvulling op één van deze twee mogelijkheden.",
+          "table_interpretation_3": "Yes, gelukt! Kijk naar wie in deze tutorial is gesprongen. We hebben een kleine kikker gevonden!"
+        },
+        "partial_matches": {
+          "title": "Gedeeltelijke overeenkomsten uitgelegd",
+          "intro": "Laten we kijken naar de gedeeltelijke overeenkomsten in detail, omdat deze waarschijnlijk de meest verwarrende van de tegelkleuren zijn.",
+          "explanation": "Een gedeeltelijke overeenkomst kan alleen verschijnen in velden die bestaan uit een lijst (bijv. spawn, classificatie, of gedrags velden). Als je een wezen hebt geraden met minstens één lijst element dat overeenkomt met het daadwerkelijke voorwerp, zul je een gedeeltelijke overeenkomst krijgen. Hier een voorbeeld voor paarden:"
+        },
+        "tips": {
+          "title": "Tips",
+          "not_all_blocks": "MCdle heeft niet elk type entiteit. Alleen de levende entiteiten, zoals varkens or zombies, zijn inbegrepen. Harnashouders, projectielen, of vergelijkbare niet-levende entiteiten zijn niet inbegrepen. De lijst is genomen van de Minecraft wiki, dus als het niet in de wezen lijst is, is het niet in dit spel.",
+          "utilize_the_search": "Maak goed gebruik van de zoekbalk! Kijken naar de suggesties zal je helpen je zoekopdracht in te perken.",
+          "use_the_wiki": "Voel je vrij om de Minecraft Wiki te gebruiken. Zodra je de versie van het voorwerp hebt bepaald, kun je de wiki gebruiken om te vinden welke wezens zijn toegevoegd in die versie, wat je zoekopdracht drastisch zal verminderen.",
+          "health_measuring": "Houd in gedachte dat gezondheid is gemeten in halve gezondsheidspunten, oftewel halve harten, dus 10 HP is gelijk aan 5 harten."
+        }
+      }
+    },
+    "crafting": {
+      "title": "Spelmodus: Crafting Bee",
+      "sub_title_menus": {
+        "stats": {
+          "title": "Statistieken",
+          "tooltip": "Statistieken"
+        },
+        "streak": {
+          "title": "Overdracht voortgang",
+          "tooltip": "Winstreeks"
+        },
+        "help": {
+          "tooltip": "Hoe speel je"
+        },
+        "bestiary": {
+          "tooltip": "Bestiarium"
+        },
+        "editor": {
+          "tooltip": "Aanpassen"
+        }
+      },
+      "regular": {
+        "notifications": {
+          "already_crafted": "Voorwerp al vervaardigd!",
+          "other_game_running": {
+            "description": "Je hebt een andere spel opgeslagen maar probeert een nieuwe te spelen via een aangepaste link",
+            "prev_game": "Je opgeslagen spel:",
+            "prev_game_discovered": "{{discoveredCount}}/{{availableRecipes}} al gevonden.",
+            "overwrite": "Overschrijven",
+            "return": "Terug naar opgeslagen spel"
+          }
+        },
+        "copy_message": {
+          "timer": {
+            "all": {
+              "long": "Ik ben achter all {{discoveredCount}} recepten gekomen in {{time}} in de volgende #MCdle #CraftingBee raadsel!",
+              "short": "Ik heb alle {{discoveredCount}} recepten gevonden in {{time}} #MCdle #CraftingBee"
+            },
+            "partial": {
+              "long": "Ik ben erin geslaagd om {{discoveredCount}}/{{availableRecipes}} recepten in {{time}} te ontdekken in de volgende #MCdle #CraftingBee raadsel!",
+              "short": "Ik heb {{discoveredCount}}/{{availableRecipes}} recepten gevonden in {{time}} #MCdle #CraftingBee"
+            }
+          },
+          "no_timer": {
+            "all": {
+              "long": "Ik ben achter all {{discoveredCount}} recepten gekomen in de volgende #MCdle #CraftingBee raadsel!",
+              "short": "Ik heb alle {{discoveredCount}} recepten gevonden in deze #MCdle #CraftingBee"
+            },
+            "partial": {
+              "long": "Ik ben erin geslaagd om {{discoveredCount}}/{{availableRecipes}} recepten te ontdekken in de volgende #MCdle #CraftingBee raadsel!",
+              "short": "Ik heb {{discoveredCount}}/{{availableRecipes}} recepten gevonden in deze #MCdle #CraftingBee"
+            }
+          },
+          "copy_button": {
+            "copy": "Kopieer Raadsel",
+            "copied": "Gekopieerd!"
+          },
+          "share_button": {
+            "share": "Deel Raadsel",
+            "shared": "Gedeeld!"
+          }
+        },
+        "game_state_box": {
+          "start_playing": "Begin door het klikken/slepen van voorwerpen hieronder in het vervaardigingsraster!",
+          "discover_status": "Gevonden {{discoveredCount}}/{{availableRecipes}}",
+          "timer": "{{remainingTime}}"
+        },
+        "game_complete_box": {
+          "congrats": "Gefeliciteerd!",
+          "discovered": "Je hebt alle {{discoveredCount}} recepten gevonden met de huidige voorwerpen!",
+          "discovered_time": "Je hebt alle {{discoveredCount}} recepten in {{time}} gevonden met de huidige voorwerpen!",
+          "regenerate": {
+            "description": "Klik de knop hieronder om het spel te resetten en nieuwe voorwerpen te krijgen.",
+            "button": "Regenereren",
+            "popup": {
+              "title": "Nieuwe willekeurige voorwerpen?",
+              "hints": "Toon overige recepten hints?",
+              "description": "Klik hieronder om de voorwerpen in de zeshoeken te randomiseren en een nieuwe spel te beginnen!",
+              "confirm": "Bevestigen"
+            }
+          },
+          "more_crafting_riddles": "Of vind aangepaste op onze ",
+          "discord_link": "Discord",
+          "more_crafting_riddles_2": "!",
+          "replay": {
+            "button": "Opnieuw spelen",
+            "popup": {
+              "title": "Speel het huidige spel opnieuw?",
+              "description": "Klik hieronder om het spel opnieuw te spelen met dezelfde voorwerpen!"
+            }
+          }
+        },
+        "tools": {
+          "eraser": "Gum",
+          "clear": {
+            "button": "Leeg",
+            "popup": {
+              "title": "Leeg de Werkbank?",
+              "description": "Klik hieronder om alle voorwerpen van de werkbank te verwijderen.",
+              "confirm": "Bevestigen"
+            }
+          }
+        },
+        "quick_settings": {
+          "title": "Snelle Instellingen",
+          "hints": "Toon overige recepten hints?",
+          "timer": "Timer toevoegen?",
+          "regenerate": "Genereer nieuwe raadsel",
+          "auto_craft": "Automatisch vervaardigen?",
+          "shadow_hint": "Toon Silhouetten hint?",
+          "hint_popup": {
+            "greeting": "Hi, heb je een ",
+            "hint": "hint",
+            "closing": "?",
+            "pointing_to_hints": "Je kunt deze hints ook hieronder vinden!"
+          }
+        },
+        "try_editor": "Bekijk de Editor!"
+      },
+      "daily": {
+        "title": "Crafting Bee Dagelijks",
+        "description": "Elke dag, zijn 7 willekeurige voorwerpen gegenereerd. Kan je herinneren wat je met all deze voorwerpen kunt vervaardigen?",
+        "game_complete_box": {
+          "more_tomorrow": "Kom morgen terug voor een nieuwe dagelijkse raadsel, of speel ",
+          "infinite_link": "Onbeperkt",
+          "more_tomorrow_2": "!",
+          "more_crafting_riddles": "Je kan ook speler-gemaakt raadsel vinden op onze ",
+          "discord_link": "Discord",
+          "more_crafting_riddles_2": "!"
+        }
+      },
+      "index": {
+        "daily": {
+          "title": "Dagelijks",
+          "description": "7 Voorwerpen elke dag, met streeksen"
+        },
+        "regular": {
+          "title": "Onbeperkt",
+          "description": "7 voorwerpen, onbeperkt opnieuw spelen met aangepaste spellen, en willekeurige generatie."
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Maak je eigen Crafting Bee raadsels!"
+        }
+      },
+      "editor": {
+        "title": "Crafting Bee Editor",
+        "description": "Editor voor de Crafting Bee spelmodus",
+        "share_creation": {
+          "before_link": "Deel je creatie op onze",
+          "link": "Discord",
+          "after_link": "!"
+        },
+        "test_creation": {
+          "before_link": "Als je klaar bent,",
+          "link": "test je raadsel",
+          "after_link": "of"
+        },
+        "copy_creation": {
+          "copy": "Kopieer raadsel link",
+          "copied": "Gekopieerd!"
+        },
+        "search_items": "Zoek naar voorwerpen...",
+        "table": {
+          "header": {
+            "item": "Voorwerp",
+            "individual_usage": "Individuele Voorwerp Gebruik",
+            "recipes_with_item": "Recepten met Voorwerp"
+          }
+        },
+        "found_recipes": "Gevonden recepten: {{count}}",
+        "delete_item": "Verwijder",
+        "import": {
+          "title": "Spel Import",
+          "unlimited_button": "Importeer Onbeperkt Spel",
+          "popup": {
+            "title": "Importeer Spel Van de Onbeperkte Modus?",
+            "description": "Klik hieronder in de huidige spel van de Onbeperkte Modus te importeren. Onthoud dat dit je progressie zal overschrijven in de huidige Editor.",
+            "confirm": "Bevestigen"
+          }
+        },
+        "return_to_unlimited": "Terug naar het spel!"
+      },
+      "midnight_timer": {
+        "next_thing": "Herlaad de pagina om de volgende te krijgen!",
+        "next_in": "Volgende ingrediënten in {{time}}"
+      },
+      "next_game": {
+        "name": "Crafting Bee",
+        "description": "Kan je alle vaardbare voorwerpen herinneren met de ingrediënten van vandaag"
+      },
+      "help": {
+        "title": "Hoe speel je",
+        "intro": {
+          "goal": "Het doel van dit spel is om zoveel mogelijk voorwerpen te vervaardigen met de 7 voorziende voorwerpen in de zeshoeken. Deze spelmodus heeft een dagelijkse modus, evenals een oneindigde modus gepaard met een editor. Door het voltooien van de dagelijkse modus, kun je een winstreeks opbouwen. Door het spelen van onbeperkt, krijg je de mogelijkheid om te leren hoe je het spelmoet spelen, recepten, en speel je raadsels die andere spelers hebben gemaakt met gebruik van de Editor!",
+          "entering_items": "Om te beginnen met spelen, selecteer een voorwerp in de zeshoeken en klik dan op een slot in het vervaardegingsraster, waarbij het klikken op meerdere slots deze slots zall \"verven\". Herhaal dit proces totdat je je gewenste recept ziet in het uitvoerslot. Klik dan op het resultaat om het te vervaardigen! Als alternatief, kun je ook de voorwerpen slepen en laten vallen van de zeshoeken of vanaf de ene slot naar de andere. Toevoegend, je kunt ook een \"Toetsenbord Tovenaar\" zijn en selecteer de zeshoeken met de nummer toetsen, WASD of pijltjes toetsen voor de vervaardegings slots, Spatie om te plaatsen, en Enter om te vervaardigen. Toetsenbindings kunnen worden geconfigureerd in de instellingen die zich bevinden aand de linkerkant van de MCdle titel."
+        },
+        "example": {
+          "title": "Voorbeeld",
+          "intro": "Laten we kijken naar wat voorbeelden! Van één diamant, kunnen we 5 individuale voorwerpen vervaardigen!",
+          "try_example": "Probeer dit voorbeeld",
+          "hint_info": "Zit je vast? Je kunt hints inschakelen in het vakje onder de verwijder/leeg knoppen. De hints zullen verschijnen boven de individuele zeshoeken en vertellen je hoeveel voorwerpen je over hebt om te vervaardigen met dat ingrediënt! Van daar, kun je de",
+          "mc_wiki": "Minecraft Wiki",
+          "hint_info_2": "bezoeken om recepten op te zoeken.",
+          "test_hints": "Test omschakelen van de hint system"
+        },
+        "tips": {
+          "title": "Tips",
+          "individual_results_only": "Het spel telt alleen individuele resultaten, niet individuele recepten. Bijvoorbeeld, zowel bamboe en planken maken stokken, maar als je eenmaal stokken hebt vervaardigd, is dat het!",
+          "where_help": "Gebruik de hint system als je vast zit. De wiki paart goed er mee, zoek gewoon voor het voorwerp de je mist!",
+          "not_all_recipes": "Crafting Bee heeft niet elk vervaardbare recepten. Alleen standaard gevormde en vormloze recepten binnen de werkbank zijn geincludeerd. Niet standaard recepten, zoals op maat gemaakt vuurwerk, versierde potten, of vergelijkbare zijn niet geincludeerd."
+        }
+      }
+    },
+    "bestiary": {
+      "index": {
+        "title": "Bestiarium",
+        "books": {
+          "blocks": {
+            "title": "Het Boek van Blokken",
+            "cover_alt_text": "Blok Boek Omslag"
+          },
+          "items": {
+            "title": "Het Boek van Voorwerpen",
+            "cover_alt_text": "Voorwerp Boek Omslag"
+          },
+          "mobs": {
+            "title": "Het Boek van Wezens",
+            "cover_alt_text": "Wezen Boek Omslag"
+          },
+          "crafting": {
+            "title": "Het Boek van Vervaardiging",
+            "cover_alt_text": "Crafting Bee Boek Omslag"
+          }
+        }
+      },
+      "blocks": {
+        "title": "Blok Bestiarium",
+        "description": "Voor alle Blokken die je in MCdle kunt tegenkomen."
+      },
+      "items": {
+        "title": "Item Bestiarium",
+        "description": "Voor alle Voorwerpen die je in MCdle kunt tegenkomen."
+      },
+      "mobs": {
+        "title": "Mob Bestiarium",
+        "description": "Voor alle Wezens die je in MCdle kunt tegenkomen."
+      },
+      "crafting": {
+        "title": "Crafting Bee Bestiarium",
+        "description": "Voor alle voorwerpen die je in MCdle's Crafting Bee kunt vervaardigen.",
+        "entry": {
+          "discovered": {
+            "label": "Ontdekt in",
+            "daily": "Dagelijkse Uitdaging",
+            "random": "Willekeurig Spel",
+            "custom": "Aangepast Spel"
+          },
+          "recipes": {
+            "label": "Recepten"
+          }
+        },
+        "filters": {
+          "unavailable": "Er zijn momenteel geen filters beschikbaar."
+        }
+      },
+      "generic": {
+        "overview": {
+          "title": "Overzicht",
+          "library_back": "Terug naar Bibliotheek",
+          "explanation": "Klik op een toegave om zijn pagina te bekijken, gebruik de zoek icoon in de rechterbovenhoek om een te vinden, of pas filters toe die van toepassing zijn op de hele pagina (niet alleen de zoekresultaten).",
+          "sorting": {
+            "alphabet_tooltip": "Sorteer alphabetisch",
+            "alphabet_alt": "Sorteren van A-Z",
+            "release_tooltip": "Sorteren met publicatie",
+            "release_alt": "Publicatie Sort"
+          }
+        },
+        "entry": {
+          "overview_back": "Overzicht",
+          "not_found": "Norbert kon geen overeenkomstige items vinden in je ontdekte lijst =(",
+          "try_different": "Probeer andere filters!",
+          "discovered": {
+            "first_discovered": "Eerst ontdekt:",
+            "in": "in",
+            "and": "en",
+            "more": "meer!"
+          }
+        },
+        "filters": {
+          "applied": "Filters toegepast",
+          "search_placeholder": "Zoek",
+          "search_alt": "Zoek icoon",
+          "clear": "Leeg Filters",
+          "open": "Filters (Globaal)",
+          "min": "Min",
+          "max": "Max"
+        }
+      }
+    }
+  },
+  "components": {
+    "quick_help": {
+      "show_button": "Toon snelle help",
+      "color_explanation": {
+        "title": "Kleur uitleg",
+        "correct": "Correct Veld",
+        "incorrect": "Incorrect Veld",
+        "partial": "Deels correct Veld"
+      }
+    },
+    "stats": {
+      "copy_button": "Kopieer",
+      "copied_confirmation": "Gekopieerd!",
+      "share": "Deel",
+      "copy_message": {
+        "header_block": "Mijn #MCdle blok statistieken 🏆",
+        "header_item": "Mijn #MCdle voorwerp statistieken 🏆",
+        "header_mob": "Mijn #MCdle wezen statistieken 🏆",
+        "total_wins": "🎉 Spellen Gewonnen {{number}}",
+        "average_guesses": "🧮 Gemiddelde Pogingen {{number}}",
+        "one_shots": "🎯 Eerste poging juist {{number}}",
+        "current_streak": "🚀 Huidige Streek {{number}}",
+        "max_streak": "📈 Max Streek {{number}}"
+      },
+      "stat_labels": {
+        "total_wins": "Spellen Gewonnen",
+        "average_guesses": "Gemiddelde Pogingen",
+        "one_shots": "Eerste poging juist",
+        "current_streak": "Huidige Streek",
+        "max_streak": "Max Streek"
+      },
+      "chart_labels": {
+        "guesses": "Pogingen"
+      }
+    },
+    "today_guesses": {
+      "loading": "Laden van spelers pogingen...",
+      "already_guessed": {
+        "zero": "Speler heeft al correct geraden!",
+        "one": "Speler heeft al correct geraden!",
+        "two-four": "Spelers hebben al correct geraden!",
+        "many": "Spelers hebben al correct geraden!"
+      }
+    },
+    "share_win": {
+      "copy_button": "Kopieer",
+      "copied_confirmation": "Gekopieerd!",
+      "share": "Deel",
+      "all_games": "Alle Spellen",
+      "guess_type": {
+        "block": "blok",
+        "item": "voorwerp",
+        "mob": "wezen"
+      },
+      "guess_line": {
+        "one": "Ik ontdekte {{date}}'s #MCdle {{type}} in {{number}} poging! {{emoji}}",
+        "many": "Ik ontdekte {{date}}'s #MCdle {{type}} in {{number}} pogingen! {{emoji}}"
+      },
+      "short_guess_line": {
+        "intro": "Ik ontdekte {{date}}'s #MCdle ",
+        "one": "{{type}} in {{number}} poging",
+        "many": "{{type}} in {{number}} pogingen",
+        "conjunction": " en "
+      }
+    },
+    "hints": {
+      "in_x_guesses": {
+        "one": "in {{number}} poging!",
+        "many": "in {{number}} pogingen!"
+      },
+      "version": {
+        "description": "Publicatie versie hint",
+        "solution": "Je zoekt naar de {{version}} publicatie!"
+      },
+      "letter": {
+        "description": "Beginnende letter hint",
+        "solution": "Het antwoord begint met {{letter}}..."
+      },
+      "image": {
+        "description": "Ingzoomde afbeelding hint",
+        "solution": "Kan je zien wat er verstopt is in deze 8x ingezoomde afbeelding?"
+      }
+    },
+    "toasts": {
+      "patchnotes": {
+        "live": " zijn nu live! Bekijk ze!"
+      }
+    }
+  },
+  "blocks": {
+    "button": "Knop",
+    "door": "Deur",
+    "fence": "Hek",
+    "fence_gate": "Poort",
+    "leaves": "Bladeren",
+    "log": "Stam",
+    "planks": "Planken",
+    "pressure_plate": "Drukplaat",
+    "sapling": "Zaailing",
+    "shelf": "Schap",
+    "sign": "Bord",
+    "slab": "Plaat",
+    "stairs": "Trappen",
+    "trapdoor": "Valluik",
+    "wood": "Hout",
+    "activator_rail": "Activatiespoor",
+    "flower": "Bloem",
+    "amethyst_block": "Amethistblok",
+    "amethyst_cluster": "Amethistcluster",
+    "ancient_debris": "Oud puin",
+    "andesite": "Andesiet",
+    "wall": "Andesietmuur",
+    "anvil": "Aambeeld",
+    "azalea": "Azalea",
+    "bamboo": "Bamboe",
+    "bamboo_block": "Bamboeblok",
+    "bamboo_mosaic": "Bamboemozaïek",
+    "barrel": "Vat",
+    "barrier": "Barrière",
+    "basalt": "Basalt",
+    "beacon": "Baken",
+    "bedrock": "Bodemsteen",
+    "bee_nest": "Bijennest",
+    "beehive": "Bijenkorf",
+    "beetroots": "Bieten",
+    "bell": "Bel",
+    "big_dripleaf": "Groot druipblad",
+    "banner": "Banier",
+    "bed": "Bed",
+    "candle": "Kaars",
+    "carpet": "Tapijt",
+    "concrete": "Beton",
+    "concrete_powder": "Cement",
+    "black_concrete_slab": "Zwarte betonnen plaat",
+    "black_concrete_stairs": "Zwarte betonnen trap",
+    "glazed_terracotta": "Geglazuurd terracotta",
+    "shulker_box": "Shulkerdoos",
+    "glass": "Gekleurd glas",
+    "glass_pane": "Gekleurde glazen ruit",
+    "terracotta": "Terracotta",
+    "wool": "Wol",
+    "black_wool_slab": "Zwarte wollen plaat",
+    "black_wool_stairs": "Zwarte wollen trap",
+    "blackstone": "Zwartsteen",
+    "blast_furnace": "Hoogoven",
+    "blue_concrete_slab": "Blauwe betonnen plaat",
+    "blue_concrete_stairs": "Blauwe betonnen trap",
+    "blue_ice": "Blauw ijs",
+    "blue_wool_slab": "Blauwe wollen plaat",
+    "blue_wool_stairs": "Blauwe wollen trap",
+    "bone_block": "Bottenblok",
+    "bookshelf": "Boekenkast",
+    "coral": "Koraal",
+    "coral_block": "Koraalblok",
+    "coral_fan": "Koraalwaaier",
+    "brewing_stand": "Brouwstandaard",
+    "bricks": "Bakstenen",
+    "brittle_ice": "Broos ijs",
+    "brown_concrete_slab": "Bruine betonnen plaat",
+    "brown_concrete_stairs": "Bruine betonnen trap",
+    "mushroom": "Paddenstoel",
+    "mushroom_block": "Paddenstoelenblok",
+    "brown_wool_slab": "Bruine wollen plaat",
+    "brown_wool_stairs": "Bruine wollen trap",
+    "bush": "Struik",
+    "cactus": "Cactus",
+    "cactus_flower": "Cactusbloem",
+    "cake": "Taart",
+    "calcite": "Calciet",
+    "calibrated_sculk_sensor": "Gekalibreerde sculksensor",
+    "campfire": "Kampvuur",
+    "carrots": "Wortels",
+    "cartography_table": "Kartografietafel",
+    "cauldron": "Ketel",
+    "cave_vines": "Grottenlianen",
+    "chain": "Ketting",
+    "chest": "Kist",
+    "chiseled_bookshelf": "Bewerkte boekenkast",
+    "chiseled_cinnabar": "Gebeiteld cinnaber",
+    "chiseled_sulfur": "Gebeiteld zwavel",
+    "chorus_flower": "Chorusbloem",
+    "chorus_plant": "Chorusplant",
+    "cinnabar": "Cinnaber",
+    "cinnabar_brick_slab": "Cinnaberblokstenen plaat",
+    "cinnabar_brick_stairs": "Cinnaberblokstenen trap",
+    "cinnabar_brick_wall": "Cinnaberblokstenen muur",
+    "cinnabar_bricks": "Cinnaberblokstenen",
+    "cinnabar_slab": "Cinnaberplaat",
+    "cinnabar_stairs": "Cinnabertrap",
+    "cinnabar_wall": "Cinnabermuur",
+    "clay": "Klei",
+    "eyeblossom": "Gesloten gluurbloesem",
+    "coal_block": "Steenkoolblok",
+    "coal_ore": "Steenkoolerts",
+    "coarse_dirt": "Grove aarde",
+    "cobbled_deepslate": "Geplaveid wrevelsteen",
+    "cobblestone": "Keisteen",
+    "cobweb": "Spinnenweb",
+    "cocoa": "Cacao",
+    "command_block": "Opdrachtblok",
+    "comparator": "Redstonevergelijker",
+    "composter": "Compostbak",
+    "conduit": "Kracht van de zee",
+    "copper_block": "Koperblok",
+    "copper_bulb": "Koperen lamp",
+    "copper_chest": "Koperen kist",
+    "copper_door": "Koperen deur",
+    "copper_golem_statue": "Kopergolemstandbeeld",
+    "copper_grate": "Koperen rooster",
+    "copper_ore": "Kopererts",
+    "copper_trapdoor": "Koperen valluik",
+    "crafter": "Vervaardigingsmachine",
+    "crafting_table": "Werkbank",
+    "creaking_heart": "Schorswakerhart",
+    "head": "Hoofd",
+    "fungus": "Zwam",
+    "nylium": "Nylium",
+    "roots": "Wortels",
+    "crying_obsidian": "Huilend obsidiaan",
+    "cyan_concrete_slab": "Turquoise betonnen plaat",
+    "cyan_concrete_stairs": "Turquoise betonnen trap",
+    "cyan_wool_slab": "Turquoise wollen plaat",
+    "cyan_wool_stairs": "Turquoise wollen trap",
+    "daylight_detector": "Daglichtsensor",
+    "dead_bush": "Dode struik",
+    "decorated_pot": "Versierde pot",
+    "deepslate": "Wrevelsteen",
+    "detector_rail": "Detectiespoor",
+    "diamond_block": "Diamantblok",
+    "diamond_ore": "Diamanterts",
+    "diorite": "Dioriet",
+    "dirt": "Aarde",
+    "dirt_path": "Aardepad",
+    "dispenser": "Dispenser",
+    "dragon_egg": "Drakenei",
+    "dried_ghast": "Uitgedroogde Ghast",
+    "dried_kelp_block": "Gedroogd kelpblok",
+    "dripstone_block": "Druipsteenblok",
+    "dropper": "Dropper",
+    "emerald_block": "Smaragdblok",
+    "emerald_ore": "Smaragderts",
+    "enchanting_table": "Betoveringstafel",
+    "end_portal_frame": "Endportaalframe",
+    "end_rod": "Endstaf",
+    "end_stone": "Endsteen",
+    "end_stone_bricks": "Endblokstenen",
+    "ender_chest": "Enderkist",
+    "farmland": "Akkerland",
+    "fern": "Varen",
+    "fire": "Vuur",
+    "firefly_bush": "Vuurvliegjesstruik",
+    "fletching_table": "Bevederingstafel",
+    "flower_pot": "Bloempot",
+    "frogspawn": "Kikkerdril",
+    "furnace": "Oven",
+    "glow_lichen": "Gloeiend korstmos",
+    "glowstone": "Gloeisteen",
+    "gold_block": "Goudblok",
+    "gold_ore": "Gouderts",
+    "golden_dandelion": "Gouden paardenbloem",
+    "granite": "Graniet",
+    "grass_block": "Grasblok",
+    "gravel": "Grind",
+    "gray_concrete_slab": "Grijze betonnen plaat",
+    "gray_concrete_stairs": "Grijze betonnen trap",
+    "gray_wool_slab": "Grijze wollen plaat",
+    "gray_wool_stairs": "Grijze wollen trap",
+    "green_concrete_slab": "Groene betonnen plaat",
+    "green_concrete_stairs": "Groene betonnen trap",
+    "green_wool_slab": "Groene wollen plaat",
+    "green_wool_stairs": "Groene wollen trap",
+    "grindstone": "Slijpsteen",
+    "hanging_roots": "Hangende wortels",
+    "hay_block": "Hooibaal",
+    "heavy_core": "Zware kern",
+    "heavy_weighted_pressure_plate": "Zware drukgevoelige plaat",
+    "honey_block": "Honingblok",
+    "honeycomb_block": "Honingraatblok",
+    "hopper": "Trechter",
+    "ice": "IJs",
+    "ice_crystal": "IJskristal",
+    "icicle": "IJspegel",
+    "infested_block": "Geïnfecteerde blok",
+    "iron_bars": "IJzeren tralies",
+    "iron_block": "IJzerblok",
+    "iron_door": "IJzeren deur",
+    "iron_ore": "IJzererts",
+    "iron_trapdoor": "IJzeren valluik",
+    "jack_o_lantern": "Jack-o'-lantern",
+    "jigsaw": "Puzzelblok",
+    "jukebox": "Platenspeler",
+    "kelp": "Kelp",
+    "ladder": "Ladder",
+    "lantern": "Lantaarn",
+    "lapis_block": "Lapislazuliblok",
+    "lapis_ore": "Lapis lazuli-erts",
+    "leaf_litter": "Dode bladeren",
+    "lectern": "Lessenaar",
+    "lever": "Hendel",
+    "light": "Licht",
+    "light_blue_concrete_slab": "Lichtblauwe betonnen plaat",
+    "light_blue_concrete_stairs": "Lichtblauwe betonnen trap",
+    "light_blue_wool_slab": "Lichtblauwe wollen plaat",
+    "light_blue_wool_stairs": "Lichtblauwe wollen trap",
+    "light_gray_concrete_slab": "Lichtgrijze betonnen plaat",
+    "light_gray_concrete_stairs": "Lichtgrijze betonnen trap",
+    "light_gray_wool_slab": "Lichtgrijze wollen plaat",
+    "light_gray_wool_stairs": "Lichtgrijze wollen trap",
+    "lightning_rod": "Bliksemafleider",
+    "lily_pad": "Waterlelie",
+    "lime_concrete_slab": "Lichtgroene betonnen plaat",
+    "lime_concrete_stairs": "Lichtgroene betonnen trap",
+    "lime_wool_slab": "Lichtgroene wollen plaat",
+    "lime_wool_stairs": "Lichtgroene wollen trap",
+    "lodestone": "Zeilsteen",
+    "loom": "Weefgetouw",
+    "magenta_concrete_slab": "Magenta betonnen plaat",
+    "magenta_concrete_stairs": "Magenta betonnen trap",
+    "magenta_wool_slab": "Magenta wollen plaat",
+    "magenta_wool_stairs": "Magenta wollen trap",
+    "magma_block": "Magmablok",
+    "mangrove_propagule": "Mangrovebroedknop",
+    "mangrove_roots": "Mangrovewortels",
+    "melon": "Meloen",
+    "melon_stem": "Meloenstam",
+    "moss_block": "Mosblok",
+    "moss_carpet": "Mostapijt",
+    "mossy_cobblestone": "Mossige keisteen",
+    "mud": "Modder",
+    "mud_bricks": "Modderstenen",
+    "muddy_mangrove_roots": "Modderige mangrovewortels",
+    "mycelium": "Zwamvlok",
+    "nether_bricks": "Netherbakstenen",
+    "nether_gold_ore": "Nethergouderts",
+    "nether_quartz_ore": "Netherkwartserts",
+    "nether_sprouts": "Netherscheuten",
+    "nether_wart": "Netherkruid",
+    "nether_wart_block": "Netherkruidblok",
+    "netherite_block": "Netherietblok",
+    "netherrack": "Netherrack",
+    "note_block": "Nootblok",
+    "observer": "Observeerder",
+    "obsidian": "Obsidiaan",
+    "froglight": "Kikkerlicht",
+    "orange_concrete_slab": "Oranje betonnen plaat",
+    "orange_concrete_stairs": "Oranje betonnen trap",
+    "orange_poplar_leaves": "Oranje populierenbladeren",
+    "orange_wool_slab": "Oranje wollen plaat",
+    "orange_wool_stairs": "Oranje wollen trap",
+    "packed_ice": "Pakijs",
+    "packed_mud": "Pakmodder",
+    "pale_hanging_moss": "Bleek hangend mos",
+    "pale_moss_block": "Bleek mosblok",
+    "pale_moss_carpet": "Bleek mostapijt",
+    "petrified_oak_slab": "Versteende eikenhouten plaat",
+    "pink_concrete_slab": "Roze betonnen plaat",
+    "pink_concrete_stairs": "Roze betonnen trap",
+    "pink_petals": "Roze bloemblaadjes",
+    "pink_wool_slab": "Roze wollen plaat",
+    "pink_wool_stairs": "Roze wollen trap",
+    "piston": "Zuiger",
+    "pitcher_crop": "Bekerplantgewas",
+    "pitcher_plant": "Bekerplant",
+    "podzol": "Podzol",
+    "pointed_dripstone": "Puntige druipsteen",
+    "polished_blackstone": "Gepolijst zwartsteen",
+    "polished_cinnabar": "Gepolijst cinnaber",
+    "polished_cinnabar_slab": "Gepolijste cinnaberplaat",
+    "polished_cinnabar_stairs": "Gepolijste cinnabertrap",
+    "polished_cinnabar_wall": "Gepolijste cinnabermuur",
+    "polished_sulfur": "Gepolijst zwavel",
+    "polished_sulfur_slab": "Gepolijste zwavelplaat",
+    "polished_sulfur_stairs": "Gepolijste zwaveltrap",
+    "polished_sulfur_wall": "Gepolijste zwavelmuur",
+    "poplar_button": "Populierenhouten knop",
+    "poplar_door": "Populierenhouten deur",
+    "poplar_fence": "Populierenhouten hek",
+    "poplar_fence_gate": "Populierenhouten poort",
+    "poplar_hanging_sign": "Populierenhouten hangbord",
+    "poplar_leaves": "Populierenbladeren",
+    "poplar_log": "Populierenstam",
+    "poplar_planks": "Populierenhouten planken",
+    "poplar_pressure_plate": "Populierenhouten drukplaat",
+    "poplar_sapling": "Populierenzaailing",
+    "poplar_shelf": "Populierenhouten schap",
+    "poplar_sign": "Populierenhouten bord",
+    "poplar_slab": "Populierenhouten plaat",
+    "poplar_stairs": "Populierenhouten trap",
+    "poplar_trapdoor": "Populierenhouten valluik",
+    "poplar_wall_hanging_sign": "Populierenhouten uithangbord",
+    "poplar_wall_sign": "Populierenhouten bord aan muur",
+    "poplar_wood": "Populierenhout",
+    "potatoes": "Aardappels",
+    "potent_sulfur": "Reactief zwavel",
+    "potted_poplar_sapling": "Opgepotte populierenzaailing",
+    "powder_snow": "Poedersneeuw",
+    "powered_rail": "Aandrijfspoor",
+    "prismarine": "Prismarien",
+    "pumpkin": "Pompoen",
+    "pumpkin_stem": "Pompoenstam",
+    "purple_concrete_slab": "Paarse betonnen plaat",
+    "purple_concrete_stairs": "Paarse betonnen trap",
+    "purple_wool_slab": "Paarse wollen plaat",
+    "purple_wool_stairs": "Paarse wollen trap",
+    "purpur_block": "Purpurblok",
+    "quartz_block": "Kwartsblok",
+    "rail": "Spoor",
+    "raw_copper_block": "Ruw koperblok",
+    "raw_gold_block": "Ruw goudblok",
+    "raw_iron_block": "Ruw ijzerblok",
+    "red_concrete_slab": "Rode betonnen plaat",
+    "red_concrete_stairs": "Rode betonnen trap",
+    "red_poplar_leaves": "Rode populierenbladeren",
+    "red_shrub": "Rode struik",
+    "red_wool_slab": "Rode wollen plaat",
+    "red_wool_stairs": "Rode wollen trap",
+    "redstone_block": "Redstoneblok",
+    "redstone_lamp": "Redstonelamp",
+    "redstone_ore": "Redstone-erts",
+    "redstone_torch": "Redstonefakkel",
+    "redstone_wire": "Redstonedraad",
+    "reinforced_deepslate": "Gewapend wrevelsteen",
+    "repeater": "Redstoneversterker",
+    "resin_block": "Harsblok",
+    "resin_bricks": "Harsbakstenen",
+    "resin_clump": "Harsdruppels",
+    "respawn_anchor": "Respawnanker",
+    "rooted_dirt": "Gewortelde aarde",
+    "sand": "Zand",
+    "sandstone": "Zandsteen",
+    "scaffolding": "Steiger",
+    "sculk": "Sculk",
+    "sculk_catalyst": "Sculkkatalysator",
+    "sculk_sensor": "Sculksensor",
+    "sculk_shrieker": "Sculkkrijser",
+    "sculk_vein": "Sculkader",
+    "sea_lantern": "Zeelantaarn",
+    "sea_pickle": "Zeeaugurk",
+    "seagrass": "Zeegras",
+    "shelf_mushroom": "Elfenbankje",
+    "dry_grass": "Droog gras",
+    "short_grass": "Kort gras",
+    "shroomlight": "Zwammenlicht",
+    "slime_block": "Slijmblok",
+    "small_dripleaf": "Klein druipblad",
+    "smithing_table": "Smeedstafel",
+    "smoker": "Roker",
+    "smooth_quartz": "Glad kwartsblok",
+    "smooth_stone": "Gladde steen",
+    "sniffer_egg": "Snuffelaarsei",
+    "snow": "Sneeuw",
+    "snow_block": "Sneeuwblok",
+    "soul_sand": "Zielenzand",
+    "soul_soil": "Zielenaarde",
+    "spawner": "Monsterkooi",
+    "sponge": "Spons",
+    "spore_blossom": "Sporebloesem",
+    "stone": "Steen",
+    "stone_bricks": "Blokstenen",
+    "stonecutter": "Steenzaag",
+    "straw_bed": "Strobed",
+    "stripped_poplar_log": "Gestripte populierenstam",
+    "stripped_poplar_wood": "Gestript populierenhout",
+    "structure_block": "Constructieblok",
+    "structure_void": "Constructieleegte",
+    "sugar_cane": "Suikerriet",
+    "sulfur": "Zwavel",
+    "sulfur_brick_slab": "Zwavelblokstenen plaat",
+    "sulfur_brick_stairs": "Zwavelblokstenen trap",
+    "sulfur_brick_wall": "Zwavelblokstenen muur",
+    "sulfur_bricks": "Zwavelblokstenen",
+    "sulfur_slab": "Zwavelplaat",
+    "sulfur_spike": "Zwaveldruipsteen",
+    "sulfur_stairs": "Zwaveltrap",
+    "sulfur_wall": "Zwavelmuur",
+    "suspicious_gravel": "Verdacht grind",
+    "sweet_berry_bush": "Zoetbesstruik",
+    "target": "Doelwit",
+    "test_block": "Testblok",
+    "test_instance_block": "Testinstantieblok",
+    "tinted_glass": "Getint glas",
+    "tnt": "TNT",
+    "torch": "Fakkel",
+    "torchflower": "Fakkelbloem",
+    "trapped_chest": "Kist met valstrik",
+    "trial_spawner": "Beproevingskooi",
+    "tripwire": "Struikeldraad",
+    "tripwire_hook": "Struikeldraadhaak",
+    "tuff": "Tufsteen",
+    "turtle_egg": "Schildpadei",
+    "twisting_vines": "Verwikkelde klimop",
+    "vault": "Kluis",
+    "vine": "Lianen",
+    "warped_wart_block": "Spookachtig kruidblok",
+    "weeping_vines": "Hangende klimop",
+    "wheat": "Tarwe",
+    "white_concrete_slab": "Witte betonnen plaat",
+    "white_concrete_stairs": "Witte betonnen trap",
+    "white_wool_slab": "Witte wollen plaat",
+    "white_wool_stairs": "Witte wollen trap",
+    "wildflowers": "Wilde bloemen",
+    "wither_rose": "Witherroos",
+    "yellow_concrete_slab": "Gele betonnen plaat",
+    "yellow_concrete_stairs": "Gele betonnen trap",
+    "yellow_poplar_leaves": "Gele populierenbladeren",
+    "yellow_wool_slab": "Gele wollen plaat",
+    "yellow_wool_stairs": "Gele wollen trap"
+  },
+  "items": {
+    "abandoned_camp_map": "Kaart met verlaten kamp",
+    "abandoned_campsite_map": "Kaart met verlaten kamp",
+    "boat": "Boot",
+    "chest_boat": "Boot met kist",
+    "spawn_egg": "Spawnei",
+    "amethyst_shard": "Amethistscherf",
+    "ancient_city_map": "Kaart met oude stad",
+    "pottery_sherd": "Aardewerkscherf",
+    "apple": "Appel",
+    "armadillo_scute": "Gordeldierhoornplaat",
+    "armor_stand": "Harnashouder",
+    "arrow": "Pijl",
+    "aquatic_mob_bucket": "Emmer met Aquatisch wezen",
+    "baked_potato": "Gebakken aardappel",
+    "beef": "Rauwe biefstuk",
+    "beetroot": "Biet",
+    "beetroot_seeds": "Bietenzaden",
+    "beetroot_soup": "Bietensoep",
+    "cushion": "Kussen",
+    "blaze_powder": "Vlampoeder",
+    "blaze_rod": "Vlamstaf",
+    "blue_cushion": "Blauw kussen",
+    "bone": "Bot",
+    "bone_meal": "Beendermeel",
+    "book": "Boek",
+    "bow": "Boog",
+    "bowl": "Kom",
+    "bread": "Brood",
+    "breeze_rod": "Vlaagstaf",
+    "brick": "Baksteen",
+    "brown_cushion": "Bruin kussen",
+    "brush": "Borstel",
+    "bucket": "Emmer",
+    "bundle": "Bundel",
+    "buried_ancient_city_map": "Kaart met verborgen oude stad",
+    "buried_mineshaft_map": "Kaart met mijnschacht",
+    "buried_treasure_map": "Schatkaart",
+    "buried_trial_chambers_map": "Kaart met beproevingskamer",
+    "carrot": "Wortel",
+    "carrot_on_a_stick": "Wortel aan een stok",
+    "charcoal": "Houtskool",
+    "chest_minecart": "Mijnkar met kist",
+    "chicken": "Rauwe kip",
+    "chorus_fruit": "Chorusfruit",
+    "clay_ball": "Kleibal",
+    "clock": "Klok",
+    "coal": "Steenkool",
+    "armor_trim_smithing_template": "Smeedssjabloon",
+    "cocoa_beans": "Cacaobonen",
+    "cod": "Rauwe kabeljauw",
+    "command_block_minecart": "Mijnkar met opdrachtblok",
+    "compass": "Kompas",
+    "cooked_beef": "Biefstuk",
+    "cooked_chicken": "Gebraden kip",
+    "cooked_cod": "Gebakken kabeljauw",
+    "cooked_mutton": "Gebraden schapenvlees",
+    "cooked_porkchop": "Gebraden varkensvlees",
+    "cooked_rabbit": "Gebraden konijnenvlees",
+    "cooked_salmon": "Gebakken zalm",
+    "cookie": "Koekje",
+    "copper_ingot": "Koperstaaf",
+    "copper_nugget": "Koperklompje",
+    "banner_pattern": "Banierpatroon",
+    "crossbow": "Kruisboog",
+    "cyan_cushion": "Turquoise kussen",
+    "dye": "Kleurstof",
+    "debug_stick": "Debugstok",
+    "desert_pyramid_map": "Kaart met woestijnpiramide",
+    "desert_village_map": "Kaart met woestijndorp",
+    "diamond": "Diamant",
+    "axe": "Bijl",
+    "boots": "Laarzen",
+    "chestplate": "Kuras/borstplaat/tuniek",
+    "helmet": "Helm",
+    "hoe": "Schoffel",
+    "horse_armor": "Paardenharnas",
+    "leggings": "Beenstukken/broek",
+    "pickaxe": "Houweel",
+    "shovel": "Schep",
+    "sword": "Zwaard",
+    "disc_fragment": "Muziekplaatfragment",
+    "dragon_breath": "Drakenadem",
+    "dried_kelp": "Gedroogde kelp",
+    "echo_shard": "Echoscherf",
+    "egg": "Ei",
+    "elytra": "Dekschild",
+    "emerald": "Smaragd",
+    "enchanted_book": "Betoverd boek",
+    "enchanted_golden_apple": "Betoverde gouden appel",
+    "end_crystal": "Endkristal",
+    "ender_eye": "Enderoog",
+    "ender_pearl": "Enderparel",
+    "experience_bottle": "Magiërsextract",
+    "feather": "Veer",
+    "fermented_spider_eye": "Gefermenteerd spinnenoog",
+    "fire_charge": "Vuurbal",
+    "firework_rocket": "Vuurpijl",
+    "firework_rocket.flight_duration": "Vluchtduur: %s",
+    "firework_star": "Vuurwerkster",
+    "fishing_rod": "Vishengel",
+    "flint": "Vuursteen",
+    "flint_and_steel": "Vuursteen en staal",
+    "frostbite_spawn_egg": "Bevrorenespawnei",
+    "furnace_minecart": "Mijnkar met oven",
+    "ghast_tear": "Ghasttraan",
+    "glass_bottle": "Glazen fles",
+    "glistering_melon_slice": "Glinsterende meloenschijf",
+    "glow_berries": "Gloeibessen",
+    "glow_ink_sac": "Gloeiende inktzak",
+    "glowstone_dust": "Gloeisteenstof",
+    "goat_horn": "Geitenhoorn",
+    "gold_ingot": "Goudstaaf",
+    "gold_nugget": "Goudklompje",
+    "golden_apple": "Gouden appel",
+    "golden_carrot": "Gouden wortel",
+    "gray_cushion": "Grijs kussen",
+    "green_cushion": "Groen kussen",
+    "gunpowder": "Buskruit",
+    "harness": "Tuig",
+    "heart_of_the_sea": "Hart van de zee",
+    "honey_bottle": "Honingfles",
+    "honeycomb": "Honingraat",
+    "hopper_minecart": "Mijnkar met trechter",
+    "ice_ball": "IJsbrok",
+    "ink_sac": "Inktzak",
+    "iron_ingot": "IJzerstaaf",
+    "iron_nugget": "IJzerklompje",
+    "item_frame": "Voorwerplijst",
+    "jungle_explorer_map": "Landkaart met oerwoudtempel",
+    "jungle_pyramid_map": "Kaart met oerwoudtempel",
+    "knowledge_book": "Boek der kennis",
+    "lapis_lazuli": "Lapis lazuli",
+    "lava_bucket": "Emmer lava",
+    "lead": "Leidtouw",
+    "leather": "Leer",
+    "light_blue_cushion": "Lichtblauw kussen",
+    "light_gray_cushion": "Lichtgrijs kussen",
+    "lime_cushion": "Lichtgroen kussen",
+    "lingering_potion": "Aanhoudende drank",
+    "lingering_potion.effect.freezing": "Aanhoudende drank der bevriezing",
+    "mace": "Knots",
+    "magenta_cushion": "Magenta kussen",
+    "magma_cream": "Magmacrème",
+    "map": "Lege kaart",
+    "melon_seeds": "Meloenzaden",
+    "melon_slice": "Meloenschijf",
+    "milk_bucket": "Emmer melk",
+    "minecart": "Mijnkar",
+    "mineshaft_map": "Kaart met mijnschacht",
+    "mushroom_stew": "Paddenstoelenstoofpot",
+    "music_disc": "Muziekplaat",
+    "music_disc_bounce": "Muziekplaat",
+    "music_disc_bounce.desc": "fingerspit - Bounce",
+    "mutton": "Rauw schapenvlees",
+    "name_tag": "Naamkaartje",
+    "nautilus_shell": "Nautilusschelp",
+    "nether_brick": "Netherbaksteen",
+    "nether_star": "Netherster",
+    "nether_wart": "Netherkruid",
+    "netherite_ingot": "Netherietstaaf",
+    "nautilus_armor": "Nautilusharnas",
+    "netherite_scrap": "Netherietschroot",
+    "netherite_upgrade_smithing_template": "Smeedssjabloon",
+    "ocean_explorer_map": "Landkaart met oceaanmonument",
+    "ocean_monument_map": "Kaart met oceaanmonument",
+    "ominous_bottle": "Onheilspellende fles",
+    "orange_cushion": "Oranje kussen",
+    "painting": "Schilderij",
+    "paper": "Papier",
+    "phantom_membrane": "Fantoommembraan",
+    "pink_cushion": "Roze kussen",
+    "pitcher_plant": "Bekerplant",
+    "pitcher_pod": "Bekerplantpeul",
+    "plains_village_map": "Kaart met veldendorp",
+    "poisonous_potato": "Giftige aardappel",
+    "poplar_boat": "Populierenhouten boot",
+    "poplar_chest_boat": "Populierenhouten boot met kist",
+    "popped_chorus_fruit": "Gepoft chorusfruit",
+    "porkchop": "Rauw varkensvlees",
+    "potato": "Aardappel",
+    "potion": "Drank",
+    "potion.effect.freezing": "Drank der bevriezing",
+    "powder_snow_bucket": "Emmer poedersneeuw",
+    "prismarine_crystals": "Prismarienkristallen",
+    "prismarine_shard": "Prismarienscherf",
+    "pufferfish": "Kogelvis",
+    "pumpkin_pie": "Pompoentaart",
+    "pumpkin_seeds": "Pompoenpitten",
+    "purple_cushion": "Paars kussen",
+    "quartz": "Netherkwarts",
+    "rabbit": "Rauw konijnenvlees",
+    "rabbit_foot": "Konijnenpootje",
+    "rabbit_hide": "Konijnenhuid",
+    "rabbit_stew": "Konijnenstoofpot",
+    "raw_copper": "Ruw koper",
+    "raw_gold": "Ruw goud",
+    "raw_iron": "Ruw ijzer",
+    "recovery_compass": "Herstelkompas",
+    "red_cushion": "Rood kussen",
+    "redstone": "Redstonestof",
+    "resin_brick": "Harsbaksteen",
+    "rotten_flesh": "Bedorven vlees",
+    "saddle": "Zadel",
+    "salmon": "Rauwe zalm",
+    "savanna_village_map": "Kaart met savannedorp",
+    "shears": "Schaar",
+    "shield": "Schild",
+    "shulker_shell": "Shulkerschelp",
+    "slime_ball": "Slijmbal",
+    "snowball": "Sneeuwbal",
+    "snowy_village_map": "Kaart met besneeuwd dorp",
+    "spectral_arrow": "Spectrale pijl",
+    "spider_eye": "Spinnenoog",
+    "splash_potion": "Spattende drank",
+    "splash_potion.effect.freezing": "Spattende drank der bevriezing",
+    "spyglass": "Verrekijker",
+    "stick": "Stok",
+    "straw_bed": "Strobed",
+    "string": "Draad",
+    "sugar": "Suiker",
+    "sulfur_cube_bucket": "Emmer zwavelkubus",
+    "sulfur_cube_spawn_egg": "Zwavelkubusspawnei",
+    "suspicious_stew": "Geheimzinnige stoofpot",
+    "explorer_map": "Landkaart",
+    "swamp_hut_map": "Kaart met moerashut",
+    "sweet_berries": "Zoetbessen",
+    "taiga_village_map": "Kaart met taigadorp",
+    "tipped_arrow": "Getipte pijl",
+    "tipped_arrow.effect.freezing": "Pijl der bevriezing",
+    "tnt_minecart": "Mijnkar met TNT",
+    "torchflower_seeds": "Fakkelbloemzaden",
+    "totem_of_undying": "Totem der onsterfelijkheid",
+    "trial_explorer_map": "Landkaart met beproevingskamer",
+    "trial_key": "Beproevingssleutel",
+    "trident": "Drietand",
+    "tropical_fish": "Tropische vis",
+    "turtle_scute": "Schildpadhoornschild",
+    "warm_ocean_ruins_map": "Kaart met warme oceaanruïnes",
+    "warped_fungus_on_a_stick": "Spookachtige zwam aan een stok",
+    "water_bucket": "Emmer water",
+    "wheat": "Tarwe",
+    "wheat_seeds": "Tarwezaden",
+    "white_cushion": "Wit kussen",
+    "wind_charge": "Windvlaag",
+    "wolf_armor": "Wolvenharnas",
+    "spear": "Speer",
+    "woodland_explorer_map": "Landkaart met boslandhuis",
+    "woodland_mansion_map": "Kaart met boslandhuis",
+    "writable_book": "Boek en veer",
+    "written_book": "Geschreven boek",
+    "yellow_cushion": "Geel kussen",
+    "kelp": "Kelp"
+  },
+  "mobs": {
+    "allay": "Helper",
+    "armadillo": "Gordeldier",
+    "axolotl": "Axolotl",
+    "bat": "Vleermuis",
+    "bee": "Bij",
+    "blaze": "Vlam",
+    "bogged": "Zomper",
+    "breeze": "Vlaag",
+    "camel": "Dromedaris",
+    "camel_husk": "Dromedarismummie",
+    "cat": "Kat",
+    "cave_spider": "Grottenspin",
+    "chicken": "Kip",
+    "cod": "Kabeljauw",
+    "copper_golem": "Kopergolem",
+    "cow": "Koe",
+    "creaking": "Schorswaker",
+    "creeper": "Creeper",
+    "cushion": "Kussen",
+    "dolphin": "Dolfijn",
+    "donkey": "Ezel",
+    "drowned": "Drenkeling",
+    "elder_guardian": "Oude bewaker",
+    "ender_dragon": "Enderdraak",
+    "enderman": "Enderman",
+    "endermite": "Endermijt",
+    "evoker": "Oproeper",
+    "fox": "Vos",
+    "frog": "Kikker",
+    "frostbite": "Bevrorene",
+    "ghast": "Ghast",
+    "giant": "Reus",
+    "glow_squid": "Gloeiende inktvis",
+    "goat": "Geit",
+    "guardian": "Bewaker",
+    "happy_ghast": "Vrolijke Ghast",
+    "hoglin": "Hoglin",
+    "horse": "Paard",
+    "husk": "Mummie",
+    "ice_ball": "IJsbrok",
+    "illusioner": "Illusionist",
+    "iron_golem": "IJzergolem",
+    "llama": "Lama",
+    "magma_cube": "Magmakubus",
+    "mooshroom": "Mooshroom",
+    "mule": "Muilezel",
+    "nautilus": "Nautilus",
+    "ocelot": "Ocelot",
+    "panda": "Panda",
+    "parched": "Zoor",
+    "parrot": "Papegaai",
+    "phantom": "Fantoom",
+    "pig": "Varken",
+    "piglin": "Piglin",
+    "piglin_brute": "Piglinbruut",
+    "pillager": "Rover",
+    "polar_bear": "IJsbeer",
+    "poplar_boat": "Populierenhouten boot",
+    "poplar_chest_boat": "Populierenhouten boot met kist",
+    "pufferfish": "Kogelvis",
+    "rabbit": "Konijn",
+    "ravager": "Verwoester",
+    "salmon": "Zalm",
+    "sheep": "Schaap",
+    "shulker": "Shulker",
+    "silverfish": "Zilvervis",
+    "skeleton": "Skelet",
+    "skeleton_horse": "Skeletpaard",
+    "slime": "Slijmkubus",
+    "sniffer": "Snuffelaar",
+    "snow_golem": "Sneeuwgolem",
+    "spider": "Spin",
+    "squid": "Inktvis",
+    "stray": "Verdwaalde",
+    "strider": "Lavaloper",
+    "sulfur_cube": "Zwavelkubus",
+    "sulfur_cube.content": "Bevat: %s",
+    "tadpole": "Kikkervis",
+    "tropical_fish": "Tropische vis",
+    "turtle": "Schildpad",
+    "vex": "Ergernis",
+    "villager": "Dorpeling",
+    "vindicator": "Verdediger",
+    "wandering_trader": "Rondreizende handelaar",
+    "warden": "Hoeder",
+    "witch": "Heks",
+    "wither": "Wither",
+    "wither_skeleton": "Witherskelet",
+    "wolf": "Wolf",
+    "zoglin": "Zoglin",
+    "zombie": "Zombie",
+    "zombie_horse": "Zombiepaard",
+    "zombie_nautilus": "Zombienautilus",
+    "zombie_villager": "Zombiedorpeling",
+    "zombified_piglin": "Zombiepiglin"
+  }
+}
