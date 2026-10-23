@@ -211,12 +211,12 @@
         "blocks": {
           "image_alt": "Blok icoon",
           "subtitle": "Raad het blok van vandaag",
-          "title": "blokken"
+          "title": "Blokken"
         },
         "items": {
           "image_alt": "Voorwerp icoon",
           "subtitle": "Raad het minecraft voorwerp van vandaag",
-          "title": "voorwerpen"
+          "title": "Voorwerpen"
         },
         "mobs": {
           "image_alt": "Wezen icoon",
